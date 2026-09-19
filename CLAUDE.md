@@ -58,6 +58,29 @@ tests/                 test_pipeline.py 他、機能ごとに分割（9ファイ
 `stocks.json` の `themes` と `rules.json` の `impacts[].themes` は同じタグ語彙。
 新しいタグを使うときは両方に入れる（`dev.py check` とテストが不整合を検出する）。
 
+## 体制: 完全無人の自動push（ユーザー承認済み・2026-09-20）
+
+GitHub Actions (`update.yml`) が定期実行され、以下の順でチェックしてから
+**人の確認無しで直接 `index.html`/`news.json` をpush**する。
+
+1. `python3 -m py_compile` で対象.pyファイル全部の構文チェック
+2. `python3 -m unittest discover -s tests`（回帰テスト、失敗したらジョブごと失敗しpush省略）
+3. `build_news_site.py` 本体実行
+4. 差分があれば強制Push
+
+**このリポジトリでは、上記の自動テストゲートだけが「壊れたコードを本番に出さない」
+唯一の防波堤。** そのため：
+
+- **バグを直したら、そのたびに必ず `tests/` へ回帰テストを追加すること。**
+  ユーザーから「再発防止して」と毎回言われなくても、これはデフォルトの作業手順にする。
+  テストを足さない修正は、次に同じバグが再発しても誰も気づけない（pushが自動で
+  進んでしまうため）。jp-stock-dashboard（`sync_and_push.sh`）でも同じ運用にしている。
+- モバイルUI（`render.py`内の`mobile_app_html`や埋め込みJS）のように、生成HTML
+  文字列の中に埋め込まれたクライアントJSは、DOM環境の無いPythonのunittestでは
+  実際には実行されない。この手のコードの回帰テストは、生成したHTML文字列や
+  `render.py`自身のソーステキストに対して、期待するパターンが含まれる/
+  含まれないことを文字列一致・正規表現で確認する形になる。
+
 ## 守ること
 
 - **依存を増やさない**: Python標準ライブラリのみ（`pip install` 不要を維持）。
