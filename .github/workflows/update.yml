@@ -68,6 +68,9 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: 構文チェック(軽量)
+        run: python3 -m py_compile build_news_site.py dev.py newssite/*.py
+
       - name: ニュース判定ロジックのテスト
         run: python3 -m unittest discover -s tests
 
