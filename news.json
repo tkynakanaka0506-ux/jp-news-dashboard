@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-20 21:16",
-  "generated_iso": "2026-09-20T21:16:33+09:00",
+  "generated_at": "2026-09-21 01:46",
+  "generated_iso": "2026-09-21T01:46:46+09:00",
   "status": "updated",
-  "status_message": "29 件のニュースを取得しました。",
+  "status_message": "26 件のニュースを取得しました。",
   "llm_used": true,
   "categories": [
     {
@@ -108,12 +108,12 @@
       "category_label": "金融政策・金利",
       "category_emoji": "🏦",
       "importance": 5,
-      "importance_reason": "重要語「利上げ」・影響テーマ「日銀の利上げ・金融正常化」に該当・2媒体が報道",
+      "importance_reason": "重要語「利上げ」・影響テーマ「日銀の利上げ・金融正常化」に該当",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
+      "news_novelty": "low",
+      "news_novelty_label": "再報道",
       "policy_event_id": "boj_hike-20260920-01",
       "policy_event_is_update": true,
       "policy_event_first_seen": "2026-09-20",
@@ -296,13 +296,7 @@
           "policy_to_earnings_stage": null
         }
       ],
-      "related": [
-        {
-          "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4yX2duVWpDNmlLQzU3WHRFYjliMEdIV3lNNlpTWEVyVUI2NXp5WVh4SmNQbDhkSDFZcDlZYlJIcWZWSUVjdHVIeTRONV93MGpMTVhoU05oU1ZNWWs?oc=5",
-          "source": "ABEMA"
-        }
-      ],
+      "related": [],
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -338,8 +332,8 @@
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
+      "news_novelty": "low",
+      "news_novelty_label": "再報道",
       "policy_event_id": "yen_strong-20260920-01",
       "policy_event_is_update": true,
       "policy_event_first_seen": "2026-09-20",
@@ -548,32 +542,34 @@
       "emergence_growth": {}
     },
     {
-      "id": "a5c61d2d25c0",
-      "title": "円相場に一段安リスク、日銀の利上げ姿勢に失望感－連休で流動性低下（Bloomberg）",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JUDZ5dHV4d2llb3daY3o1b2w4MGRLSUY1RFdUWTNpN1Zyc3hjaThZY3VHY1hGbHIzN3ZrT25tR3RzUHJlT0JZMnFvSm83YXp1ZkdTdmw5a0xZcnF6MU5mZlBTQlVkS2pnaUJ6WnRhOTZpaVZJOXA5Z3U3V0FHUlk?oc=5",
+      "id": "342572c50f0a",
+      "title": "日銀利上げでも円安に シルバーウィーク中の実弾介入は?「レートチェック」めぐり増す警戒",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qOWcwNGF1RmdGektXN0t3ZW13TGNlOGJDQWhfMVBsNmxNM1U0VEJpVlZKc015NWF1V3FSTC0xeWJ5VWdVb3o2STdldXprS2tCNEJ3WFkxcENfZmx4QXZSNkQxbmFQaVU4QkNLd3NvUjNHNVJDQ3RCeURYcHpuUEk?oc=5",
       "source": "Yahoo!ニュース",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
-      "published_at": "2026-09-20 17:09",
-      "published_ts": 1789891773.0,
-      "category": "policy",
-      "category_label": "金融政策・金利",
-      "category_emoji": "🏦",
+      "published_at": "2026-09-20 19:00",
+      "published_ts": 1789898442.0,
+      "category": "fx",
+      "category_label": "為替",
+      "category_emoji": "💱",
       "importance": 4,
-      "importance_reason": "重要語「利上げ」・影響テーマ「日銀の利上げ・金融正常化」に該当",
+      "importance_reason": "重要語「利上げ」・影響テーマ「円安進行」に該当",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
       "news_novelty": "high",
       "news_novelty_label": "新規",
-      "policy_event_id": "boj_hike-20260920-01",
+      "policy_event_id": "yen_weak-20260920-01",
       "policy_event_is_update": true,
       "policy_event_first_seen": "2026-09-20",
       "policy_event_state": "UPDATE",
       "themes": [
+        "円安進行",
         "日銀の利上げ・金融正常化"
       ],
       "theme_ids": [
+        "yen_weak",
         "boj_hike"
       ],
       "summary": "",
@@ -664,8 +660,148 @@
           "policy_to_earnings_stage": null
         },
         {
-          "code": "7182",
-          "name": "ゆうちょ銀行",
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "sector": "自動車",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7267",
+          "name": "本田技研工業",
+          "sector": "自動車",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7201",
+          "name": "日産自動車",
+          "sector": "自動車",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7269",
+          "name": "スズキ",
+          "sector": "自動車",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "8e8da903b767",
+      "title": "日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjUGEtV19fOVFPOU96c2lwM0ZFX2R6aEdmSjVERTZNOTh3QXFUaFhlRnFtWkRGaGJzal9KNDlhenFDR0xRbENBdjdQcmVodEwyMTJXbU81akQ1X1lzU0ZPT00tcw?oc=5",
+      "source": "gaitame.com",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-09-20 06:04",
+      "published_ts": 1789851891.0,
+      "category": "fx",
+      "category_label": "為替",
+      "category_emoji": "💱",
+      "importance": 4,
+      "importance_reason": "重要語「利上げ」・影響テーマ「円安進行」に該当",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": "yen_weak-20260920-01",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-09-20",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "円安進行",
+        "日銀の利上げ・金融正常化",
+        "原油高"
+      ],
+      "theme_ids": [
+        "yen_weak",
+        "boj_hike",
+        "oil_up"
+      ],
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "8306",
+          "name": "三菱UFJフィナンシャル・グループ",
           "sector": "銀行",
           "direction": "positive",
           "direction_label": "追い風",
@@ -685,9 +821,30 @@
           "policy_to_earnings_stage": null
         },
         {
-          "code": "8766",
-          "name": "東京海上ホールディングス",
-          "sector": "保険",
+          "code": "1605",
+          "name": "INPEX",
+          "sector": "鉱業",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「原油高」に反応: 販売価格・権益収入の改善につながりやすい",
+          "theme": "原油高",
+          "theme_id": "oil_up",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "原油高",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 70,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8316",
+          "name": "三井住友フィナンシャルグループ",
+          "sector": "銀行",
           "direction": "positive",
           "direction_label": "追い風",
           "strength": "大",
@@ -706,44 +863,107 @@
           "policy_to_earnings_stage": null
         },
         {
-          "code": "8801",
-          "name": "三井不動産",
-          "sector": "不動産",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
+          "code": "5020",
+          "name": "ENEOSホールディングス",
+          "sector": "石油",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「原油高」に反応: 販売価格・権益収入の改善につながりやすい",
+          "theme": "原油高",
+          "theme_id": "oil_up",
           "origin": "rule",
           "beneficiary_tier": "direct",
           "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "3-6m",
-          "revenue_horizon_label": "3〜6ヶ月",
-          "matched_keyword": "日銀 利上げ",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "原油高",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 60,
+          "policy_impact_score": 70,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
         {
-          "code": "8802",
-          "name": "三菱地所",
-          "sector": "不動産",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
+          "code": "8411",
+          "name": "みずほフィナンシャルグループ",
+          "sector": "銀行",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
           "theme": "日銀の利上げ・金融正常化",
           "theme_id": "boj_hike",
           "origin": "rule",
           "beneficiary_tier": "direct",
           "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "3-6m",
-          "revenue_horizon_label": "3〜6ヶ月",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
           "matched_keyword": "日銀 利上げ",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 60,
+          "policy_impact_score": 70,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "sector": "自動車",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7267",
+          "name": "本田技研工業",
+          "sector": "自動車",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7201",
+          "name": "日産自動車",
+          "sector": "自動車",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         }
@@ -771,7 +991,7 @@
       "id": "b7db4445bcb4",
       "title": "豪ドル/円 見通し「連騰で112円台回復...日銀利上げでも金利差は縮まらない公算」注目の高金利通貨 9月20日号",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yUVp5RFJYUkw4Um0yZGNaZnROMEJPVXE3Ml9kY19wUjBCOUJHdTV6T01lWkktYVdZZkEwaHFMZWc2RUZDR2p3QjJsN2tFQlpYUnVJX2dkbnd4YVdJeERhOEZsRQ?oc=5",
-      "source": "外為どっとコム",
+      "source": "gaitame.com",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-09-20 06:04",
@@ -784,8 +1004,8 @@
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
+      "news_novelty": "low",
+      "news_novelty_label": "再報道",
       "policy_event_id": "boj_hike-20260920-01",
       "policy_event_is_update": true,
       "policy_event_first_seen": "2026-09-20",
@@ -1004,8 +1224,8 @@
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
+      "news_novelty": "low",
+      "news_novelty_label": "再報道",
       "policy_event_id": "semi_demand-20260920-01",
       "policy_event_is_update": true,
       "policy_event_first_seen": "2026-09-20",
@@ -1211,7 +1431,7 @@
       "id": "852cada93859",
       "title": "来週の為替予想（米ドル/円）日銀利上げなのになぜか円安、植田会見後のドル円 次の節目は159円台 ハロンズFX 2026/9/19",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mUUpNOGd0ZVJzUU1LWFhtUFZyQ29fbDJCSV9ROEk4TjJ6M0Vfdkd5WTlxVi1iakVYcXk4SE5UVE9mUE9mVWdyaWk2UDJCblFNSmg3djlLTG9abFozcE9iRHR4MA?oc=5",
-      "source": "外為どっとコム",
+      "source": "gaitame.com",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-09-19 06:03",
@@ -1430,319 +1650,6 @@
       "emergence_growth": {}
     },
     {
-      "id": "b9e082edcfd8",
-      "title": "「投資信託及び投資法人に関する法律施行規則の一部を改正する内閣府令」の公布及びパブリックコメントの結果について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r8/shouken/20260918/20260918.html",
-      "source": "金融庁",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-09-19 01:00",
-      "published_ts": 1789747200.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 4,
-      "importance_reason": "重要語「内閣」・影響テーマ「日本の政局・経済対策」に該当・先行情報(審議会・検討会・パブコメ等)",
-      "future_signal": true,
-      "policy_maturity": 100,
-      "policy_maturity_label": "施策実施",
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": "jp_politics-20260920-01",
-      "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-09-20",
-      "policy_event_state": "CLOSED",
-      "themes": [
-        "日本の政局・経済対策"
-      ],
-      "theme_ids": [
-        "jp_politics"
-      ],
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [
-        {
-          "code": "1801",
-          "name": "大成建設",
-          "sector": "建設",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "小",
-          "reason": "「内閣」に反応: 財政出動・公共投資の拡大観測が材料になりやすい",
-          "theme": "日本の政局・経済対策",
-          "theme_id": "jp_politics",
-          "origin": "rule",
-          "beneficiary_tier": "secondary",
-          "beneficiary_tier_label": "二次波及",
-          "revenue_horizon": "1-3y",
-          "revenue_horizon_label": "1〜3年",
-          "matched_keyword": "内閣",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 57,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": "利益寄与"
-        },
-        {
-          "code": "1802",
-          "name": "大林組",
-          "sector": "建設",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "小",
-          "reason": "「内閣」に反応: 財政出動・公共投資の拡大観測が材料になりやすい",
-          "theme": "日本の政局・経済対策",
-          "theme_id": "jp_politics",
-          "origin": "rule",
-          "beneficiary_tier": "secondary",
-          "beneficiary_tier_label": "二次波及",
-          "revenue_horizon": "1-3y",
-          "revenue_horizon_label": "1〜3年",
-          "matched_keyword": "内閣",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 57,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": "利益寄与"
-        },
-        {
-          "code": "1803",
-          "name": "清水建設",
-          "sector": "建設",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "小",
-          "reason": "「内閣」に反応: 財政出動・公共投資の拡大観測が材料になりやすい",
-          "theme": "日本の政局・経済対策",
-          "theme_id": "jp_politics",
-          "origin": "rule",
-          "beneficiary_tier": "secondary",
-          "beneficiary_tier_label": "二次波及",
-          "revenue_horizon": "1-3y",
-          "revenue_horizon_label": "1〜3年",
-          "matched_keyword": "内閣",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 57,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": "利益寄与"
-        },
-        {
-          "code": "1812",
-          "name": "鹿島建設",
-          "sector": "建設",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "小",
-          "reason": "「内閣」に反応: 財政出動・公共投資の拡大観測が材料になりやすい",
-          "theme": "日本の政局・経済対策",
-          "theme_id": "jp_politics",
-          "origin": "rule",
-          "beneficiary_tier": "secondary",
-          "beneficiary_tier_label": "二次波及",
-          "revenue_horizon": "1-3y",
-          "revenue_horizon_label": "1〜3年",
-          "matched_keyword": "内閣",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 57,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": "利益寄与"
-        },
-        {
-          "code": "9020",
-          "name": "東日本旅客鉄道",
-          "sector": "陸運",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "小",
-          "reason": "「内閣」に反応: 家計向け政策の内容次第で内需関連の業績見通しが変わりやすい",
-          "theme": "日本の政局・経済対策",
-          "theme_id": "jp_politics",
-          "origin": "rule",
-          "beneficiary_tier": "secondary",
-          "beneficiary_tier_label": "二次波及",
-          "revenue_horizon": "6-12m",
-          "revenue_horizon_label": "6〜12ヶ月",
-          "matched_keyword": "内閣",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": "売上寄与"
-        },
-        {
-          "code": "9022",
-          "name": "東海旅客鉄道",
-          "sector": "陸運",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "小",
-          "reason": "「内閣」に反応: 家計向け政策の内容次第で内需関連の業績見通しが変わりやすい",
-          "theme": "日本の政局・経済対策",
-          "theme_id": "jp_politics",
-          "origin": "rule",
-          "beneficiary_tier": "secondary",
-          "beneficiary_tier_label": "二次波及",
-          "revenue_horizon": "6-12m",
-          "revenue_horizon_label": "6〜12ヶ月",
-          "matched_keyword": "内閣",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": "売上寄与"
-        },
-        {
-          "code": "9021",
-          "name": "西日本旅客鉄道",
-          "sector": "陸運",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "小",
-          "reason": "「内閣」に反応: 家計向け政策の内容次第で内需関連の業績見通しが変わりやすい",
-          "theme": "日本の政局・経済対策",
-          "theme_id": "jp_politics",
-          "origin": "rule",
-          "beneficiary_tier": "secondary",
-          "beneficiary_tier_label": "二次波及",
-          "revenue_horizon": "6-12m",
-          "revenue_horizon_label": "6〜12ヶ月",
-          "matched_keyword": "内閣",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": "売上寄与"
-        }
-      ],
-      "related": [],
-      "emergence_stage": "watch",
-      "emergence_stage_label": "👀 要監視テーマ",
-      "emergence_signal_labels": [
-        "政策の検討・審議段階",
-        "政府・省庁の一次情報",
-        "複数媒体での同時報道"
-      ],
-      "emergence_event_count": 5,
-      "emergence_source_count": 3,
-      "emergence_actor_type_count": 2,
-      "emergence_actor_type_labels": [
-        "日本政府・省庁",
-        "複数メディア"
-      ],
-      "emergence_actor_type_breakdown": [
-        {
-          "label": "日本政府・省庁",
-          "count": 4
-        },
-        {
-          "label": "複数メディア",
-          "count": 1
-        }
-      ],
-      "emergence_region_count": 2,
-      "emergence_regions": [
-        "中国",
-        "日本"
-      ],
-      "emergence_origin_regions": [
-        "日本"
-      ],
-      "emergence_first_seen": "2026-09-20",
-      "emergence_window_counts": {
-        "7": 5,
-        "30": 5,
-        "90": 5
-      },
-      "emergence_timeline": [
-        {
-          "date": "2026-09-20",
-          "source": "金融庁",
-          "signal_labels": [
-            "政策の検討・審議段階",
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-09-20",
-          "source": "金融庁",
-          "signal_labels": [
-            "政府・省庁の一次情報",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁",
-            "複数メディア"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-09-20",
-          "source": "首相官邸",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": [
-            "中国",
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-09-20",
-          "source": "農林水産省",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-09-20",
-          "source": "",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "日本"
-          ]
-        }
-      ],
-      "emergence_milestones": [
-        {
-          "date": "2026-09-20",
-          "actor_type_label": "日本政府・省庁"
-        },
-        {
-          "date": "2026-09-20",
-          "actor_type_label": "複数メディア"
-        }
-      ],
-      "emergence_diagnosis": {
-        "target_stage": "watch",
-        "target_stage_label": "👀 要監視テーマ",
-        "source_count": 3,
-        "required_sources": 2,
-        "signal_count": 3,
-        "required_signals": 3,
-        "missing": []
-      },
-      "emergence_growth": {
-        "window_days": 14,
-        "recent_new_actor_types": 2,
-        "total_actor_types": 2
-      }
-    },
-    {
       "id": "b688ac611092",
       "title": "高市総理は北朝鮮からの弾道ミサイルの可能性があるものの発射に関する総理指示を行いました",
       "url": "https://www.kantei.go.jp/jp/105/discourse/20260920shiji2.html",
@@ -1796,6 +1703,226 @@
       "emergence_growth": {}
     },
     {
+      "id": "f8901ce974d1",
+      "title": "フーシとサウジの戦闘激化 首都リヤドにも攻撃 原油価格高騰に懸念 [米・イスラエルのイラン攻撃 イラン情勢]",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uMXgwNTdYVzVsUkowQWc0VVgwZURIRnJMOERuQU1MU1JrenhPWWY2TThqSjRxU29CQ2QyT2Z0cTNfT2ZPTko0SW1MRFZ2V0I1cnQ4M1Z0eGNPMzV3X0t6b0JyX3ZVc1U?oc=5",
+      "source": "朝日新聞",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-09-20 20:41",
+      "published_ts": 1789904493.0,
+      "category": "geopolitics",
+      "category_label": "地政学・有事",
+      "category_emoji": "🌍",
+      "importance": 3,
+      "importance_reason": "影響テーマ「中東情勢・地政学リスク」に該当",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": "middle_east-20260921-02",
+      "policy_event_is_update": false,
+      "policy_event_first_seen": "2026-09-21",
+      "policy_event_state": "NEW",
+      "themes": [
+        "中東情勢・地政学リスク"
+      ],
+      "theme_ids": [
+        "middle_east"
+      ],
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "1605",
+          "name": "INPEX",
+          "sector": "鉱業",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「イスラエル」に反応: 原油価格の上昇観測は在庫評価益・資源権益の採算改善につながりやすい",
+          "theme": "中東情勢・地政学リスク",
+          "theme_id": "middle_east",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "イスラエル",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 51,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "5020",
+          "name": "ENEOSホールディングス",
+          "sector": "石油",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「イスラエル」に反応: 原油価格の上昇観測は在庫評価益・資源権益の採算改善につながりやすい",
+          "theme": "中東情勢・地政学リスク",
+          "theme_id": "middle_east",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "イスラエル",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 51,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "5019",
+          "name": "出光興産",
+          "sector": "石油",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「イスラエル」に反応: 原油価格の上昇観測は在庫評価益・資源権益の採算改善につながりやすい",
+          "theme": "中東情勢・地政学リスク",
+          "theme_id": "middle_east",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "イスラエル",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 51,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9101",
+          "name": "日本郵船",
+          "sector": "海運",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「イスラエル」に反応: 航路迂回による運賃上昇が意識されやすい",
+          "theme": "中東情勢・地政学リスク",
+          "theme_id": "middle_east",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "イスラエル",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9104",
+          "name": "商船三井",
+          "sector": "海運",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「イスラエル」に反応: 航路迂回による運賃上昇が意識されやすい",
+          "theme": "中東情勢・地政学リスク",
+          "theme_id": "middle_east",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "イスラエル",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9107",
+          "name": "川崎汽船",
+          "sector": "海運",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「イスラエル」に反応: 航路迂回による運賃上昇が意識されやすい",
+          "theme": "中東情勢・地政学リスク",
+          "theme_id": "middle_east",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "イスラエル",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6503",
+          "name": "三菱電機",
+          "sector": "電気機器",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「イスラエル」に反応: 安全保障・防衛需要の高まりが材料視されやすい",
+          "theme": "中東情勢・地政学リスク",
+          "theme_id": "middle_east",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "イスラエル",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "1540",
+          "name": "純金上場信託(現物国内保管型)",
+          "sector": "ETF",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "小",
+          "reason": "「イスラエル」に反応: 直接の影響とは別角度: コロナ禍のような過去の有事でも見られたように、地政学リスクの高まりは株式とは別に金など安全資産に資金が向かいやすい(質への逃避)",
+          "theme": "中東情勢・地政学リスク",
+          "theme_id": "middle_east",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "イスラエル",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 39,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
       "id": "756c7c9e0713",
       "title": "中国、8月の対日レアアース輸出は212トン　前年同月比で17％減、落ち込み続く",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbnlyR1l6NmFKTV9sOVhXdjI0ZjJDNDZBVmZPS05USld4UTVZbnhkYmpVaUF6a2p1NTlyQU03aDJYQ0RmMjZNRlZncG5IM3hJMkQ5TjVha3hRcklCRmppclFpYlVHblBCM0hMQmxleGRzdndtelRvYWo0akNpSkU3YmlMNllsYkdXRVlMUG5NenBDd9IBkgFBVV95cUxNbnlyR1l6NmFKTV9sOVhXdjI0ZjJDNDZBVmZPS05USld4UTVZbnhkYmpVaUF6a2p1NTlyQU03aDJYQ0RmMjZNRlZncG5IM3hJMkQ5TjVha3hRcklCRmppclFpYlVHblBCM0hMQmxleGRzdndtelRvYWo0akNpSkU3YmlMNllsYkdXRVlMUG5NenBDdw?oc=5",
@@ -1812,8 +1939,8 @@
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
+      "news_novelty": "low",
+      "news_novelty_label": "再報道",
       "policy_event_id": "rare_earth-20260920-01",
       "policy_event_is_update": true,
       "policy_event_first_seen": "2026-09-20",
@@ -1969,12 +2096,12 @@
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
+      "news_novelty": "low",
+      "news_novelty_label": "再報道",
       "policy_event_id": "rare_earth-20260920-01",
-      "policy_event_is_update": false,
+      "policy_event_is_update": true,
       "policy_event_first_seen": "2026-09-20",
-      "policy_event_state": "NEW",
+      "policy_event_state": "UPDATE",
       "themes": [
         "レアアース・重要鉱物の輸出規制"
       ],
@@ -2116,14 +2243,14 @@
       "emergence_growth": {}
     },
     {
-      "id": "eba303434ab7",
+      "id": "b7ac7286af1a",
       "title": "ほぼ日、通期業績予想を上方修正 「ほぼ日手帳2027」の卸受注が国内外で想定超え",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1jaVpncEhjZUI0bnhLeVBZT2ItQTdTbWdZd3dncVJfMURwa3JRVEdWNm9DUXlpTGlOVXBmaVZEdHktRnJ6SzBuSno3b19WcHlMUEIwdE90SW5FM1h2X3Y5M3dIc3laZHNPVnhJbVV3?oc=5",
-      "source": "article.auone.jp",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBwa29UMDRfeTZlbURQN0ZrQ3d5dGQ2RDdBR0Qtajd3dktZRWY0T2JvVDNyX1NpQmpSSVR0LVBhU04xbWowbUQ4YVpmWC02MEl2cnJIRmVUU3JEcWd4SEQwSTNNVURaUGx4Umc?oc=5",
+      "source": "media-innovation.jp",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
-      "published_at": "2026-09-20 13:17",
-      "published_ts": 1789877820.0,
+      "published_at": "2026-09-20 13:00",
+      "published_ts": 1789876803.0,
       "category": "corporate",
       "category_label": "企業・決算",
       "category_emoji": "🏢",
@@ -2143,226 +2270,6 @@
       "summary": "",
       "impact_comment": "",
       "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "0e3d1d482459",
-      "title": "日銀レートチェック再び、連休前に円安けん制 投機筋｢不意突かれた｣",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJTnpTdWk2VUJ3YjRWM0NtWDRFTXh3c0pIcmd6cHl5ai1JcXAxazl2d1FSZ1RyaG8tWEpxUlZKT0pieS1sb2tkU3dPdEszb0tjT1g1ZHU0RGg0b2lsTEo5OHVHc3dGd1dja3NDbQ?oc=5",
-      "source": "日本経済新聞",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-09-19 10:00",
-      "published_ts": 1789779600.0,
-      "category": "fx",
-      "category_label": "為替",
-      "category_emoji": "💱",
-      "importance": 2,
-      "importance_reason": "影響テーマ「円安進行」に該当",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": "yen_weak-20260920-01",
-      "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-09-20",
-      "policy_event_state": "UPDATE",
-      "themes": [
-        "円安進行"
-      ],
-      "theme_ids": [
-        "yen_weak"
-      ],
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [
-        {
-          "code": "7203",
-          "name": "トヨタ自動車",
-          "sector": "自動車",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "円安",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7267",
-          "name": "本田技研工業",
-          "sector": "自動車",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "円安",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7201",
-          "name": "日産自動車",
-          "sector": "自動車",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "円安",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7269",
-          "name": "スズキ",
-          "sector": "自動車",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "円安",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7270",
-          "name": "SUBARU",
-          "sector": "自動車",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "円安",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7261",
-          "name": "マツダ",
-          "sector": "自動車",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "円安",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "9983",
-          "name": "ファーストリテイリング",
-          "sector": "小売",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「円安」に反応: 輸入原材料・仕入コストが膨らみ、採算の重しになりやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "円安",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "3382",
-          "name": "セブン&アイ・ホールディングス",
-          "sector": "小売",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「円安」に反応: 輸入原材料・仕入コストが膨らみ、採算の重しになりやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "円安",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        }
-      ],
       "related": [],
       "emergence_stage": null,
       "emergence_stage_label": "",
@@ -2446,8 +2353,8 @@
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
+      "news_novelty": "low",
+      "news_novelty_label": "再報道",
       "policy_event_id": "semi_demand-20260920-01",
       "policy_event_is_update": true,
       "policy_event_first_seen": "2026-09-20",
@@ -2655,7 +2562,7 @@
       "id": "8f55fee13666",
       "title": "欧州議会、社会全体のレジリエンス構築における台湾の成功事例を評価する決議を採択",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE80S19ua0RWeFNLZ1o1aHFJNVJJbFpkRVpSbG9PT0I4NHpWZkh3NWJjaDBnazBVLUVOZ3lvMDQ4ZG9TQXVjOGtkQXl3bGM?oc=5",
-      "source": "Taiwan Today",
+      "source": "jp.taiwantoday.tw",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-09-19 03:28",
@@ -2668,8 +2575,8 @@
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
+      "news_novelty": "low",
+      "news_novelty_label": "再報道",
       "policy_event_id": "taiwan_china-20260920-01",
       "policy_event_is_update": true,
       "policy_event_first_seen": "2026-09-20",
@@ -2872,53 +2779,6 @@
       "emergence_growth": {}
     },
     {
-      "id": "d3bb13ced890",
-      "title": "日銀がレートチェック 円相場が急騰、一時156円台後半",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA4WHJ5ckhZR0oyaDRLZFZBd2lBeWdWVnVnVld3VE9rekdiRnRfLUxGbWlVUzJFbDhwRE83d01KV1hjYXJEWG5xSkt0Q0tnaFdXbEY5MzF3OWk0MFBNZnVMaUxPREZNN2RuZ1pDeg?oc=5",
-      "source": "日本経済新聞",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-09-19 00:42",
-      "published_ts": 1789746159.0,
-      "category": "fx",
-      "category_label": "為替",
-      "category_emoji": "💱",
-      "importance": 2,
-      "importance_reason": "重要語「急騰」",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
       "id": "0a5f96df329f",
       "title": "情報通信審議会　電気通信事業政策部会　接続政策委員会（第85回）の開催について",
       "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/02kiban03_04001188.html",
@@ -2972,8 +2832,8 @@
       "source": "Yahoo!ファイナンス",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
-      "published_at": "2026-09-20 18:36",
-      "published_ts": 1789896961.0,
+      "published_at": "2026-09-21 00:27",
+      "published_ts": 1789918046.0,
       "category": "market",
       "category_label": "株式市況",
       "category_emoji": "📈",
@@ -3013,10 +2873,104 @@
       "emergence_growth": {}
     },
     {
+      "id": "252bcb8f0d35",
+      "title": "NYダウの指数情報・推移",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RX1F0c3NoRW1WOGhKVzFzd0tzWTlBS0NtMVZFbUUyZm14Z1Y5VWhzMjctd201Y2RMTFhBSGx0Rmdqc0ZFY1R2VzZUUG9PVjdUaXc?oc=5",
+      "source": "Yahoo!ファイナンス",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-09-20 23:39",
+      "published_ts": 1789915150.0,
+      "category": "us",
+      "category_label": "米国市場",
+      "category_emoji": "🇺🇸",
+      "importance": 1,
+      "importance_reason": "一般的な市況ニュース",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "7569c3054fd1",
+      "title": "NscaleのIPO：エヌビディアが支援するAIクラウドプロバイダーが米国上場を計画、評価額は350億ドルに達する可能性",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdVZkam5xMlZETFRibE1KYnYzTDFsOHBveVVPQkFrS1M2d2xIVlpaY3NqUGxaaWVIMFExWkJMbFFLclhDa1Z5REF3Ml9Bc01wc21TVWc5SFRsX0FiV29IVFdLajZOaFFDWGJqaHRRRGRWSWowMTZFTmVLNlE2Tm9fWkxUQUtQNm0xSUo4UFRtQ21adHR1VTloMDBHcUZuVkVOdnFnWWZ5bVpiazNHSHVBNWlkN3EwNGhQSk9TMThVZV9hZXU4bjdmVEU3aDVEcTNpWVE?oc=5",
+      "source": "TradingKey",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-09-20 06:23",
+      "published_ts": 1789852980.0,
+      "category": "tech",
+      "category_label": "半導体・AI",
+      "category_emoji": "🤖",
+      "importance": 1,
+      "importance_reason": "一般的な市況ニュース",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
       "id": "988516e9f117",
       "title": "来週のドル円相場はどうなる？9/21週のイベント予定 2026年9月20日",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE13di1rV3cxbmtFMU9vem8wRnZKTXJLemZxQ3ZESGlrMEtEbzBCZEZjaGxXcElNa0ltNG1LZlpHX0huQmdSRlM4M2RJcnFvM2hVblQ0Y1VpSDMyY3p1MlgySVpVbw?oc=5",
-      "source": "外為どっとコム",
+      "source": "gaitame.com",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-09-20 06:03",
@@ -3163,7 +3117,7 @@
       "id": "1bc1772d6e35",
       "title": "米AIインフラのクルーソー、39億ドル調達 評価額309億ドルに",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1mSUVJdEgzUzVhUTVKVU1oM1BlTndmR2VMOEpDWWpEUDBIbVh6SjVZRXNsVUp4Zm4zWDZaUEpFdFZOc0Njb1M0X0wybGpYZzlHaFRuU1NCSUtsU0Y2NzlTaUg4cGFfakx3SUFfUElXRmlaeW9Z?oc=5",
-      "source": "finance.biggo.jp",
+      "source": "BigGo ファイナンス",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-09-19 03:06",
@@ -3346,194 +3300,6 @@
       "emergence_milestones": [],
       "emergence_diagnosis": {},
       "emergence_growth": {}
-    },
-    {
-      "id": "bc9da382ccf0",
-      "title": "人事異動（令和８年９月17日付幹部名簿の更新）について公表しました。",
-      "url": "https://www.fsa.go.jp/common/about/jinji/index.html",
-      "source": "金融庁",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-09-19 01:00",
-      "published_ts": 1789747200.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "f67fe741e000",
-      "title": "金融事業者リスト（令和８年９月18日公表）、投資信託・外貨建保険の共通ＫＰＩに関する分析結果（令和８年３月末基準）の掲載及び次回の報告受付について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r8/kokyakuhoni/20260918.html",
-      "source": "金融庁",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-09-19 01:00",
-      "published_ts": 1789747200.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "e70f61cbb075",
-      "title": "閣議の概要／高市総理の米国訪問／「Ｗａｔｅｒ Ｐｌｕｍ」に関する注意喚起について",
-      "url": "https://www.kantei.go.jp/jp/tyoukanpress/202609/18_p.html",
-      "source": "首相官邸",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-09-19 00:00",
-      "published_ts": 1789743600.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "910d8991a091",
-      "title": "令和8年9月18日付デジタル庁幹部一覧を掲載しました",
-      "url": "https://www.digital.go.jp/about/member",
-      "source": "デジタル庁",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-09-18 22:06",
-      "published_ts": 1789736806.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
     }
   ],
   "stock_ranking": [
@@ -3541,10 +3307,10 @@
       "code": "7203",
       "name": "トヨタ自動車",
       "sector": "自動車",
-      "positive": 2,
+      "positive": 3,
       "negative": 3,
       "watch": 0,
-      "score": -5,
+      "score": 1,
       "news": [
         {
           "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か（TBS NEWS DIG Powered by JNN）",
@@ -3554,30 +3320,30 @@
           "importance": 5
         },
         {
-          "title": "来週の為替予想（米ドル/円）日銀利上げなのになぜか円安、植田会見後のドル円 次の節目は159円台 ハロンズFX 2026/9/19",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mUUpNOGd0ZVJzUU1LWFhtUFZyQ29fbDJCSV9ROEk4TjJ6M0Vfdkd5WTlxVi1iakVYcXk4SE5UVE9mUE9mVWdyaWk2UDJCblFNSmg3djlLTG9abFozcE9iRHR4MA?oc=5",
+          "title": "日銀利上げでも円安に シルバーウィーク中の実弾介入は?「レートチェック」めぐり増す警戒",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qOWcwNGF1RmdGektXN0t3ZW13TGNlOGJDQWhfMVBsNmxNM1U0VEJpVlZKc015NWF1V3FSTC0xeWJ5VWdVb3o2STdldXprS2tCNEJ3WFkxcENfZmx4QXZSNkQxbmFQaVU4QkNLd3NvUjNHNVJDQ3RCeURYcHpuUEk?oc=5",
           "direction": "positive",
           "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
           "importance": 4
         },
         {
-          "title": "中国、8月の対日レアアース輸出は212トン　前年同月比で17％減、落ち込み続く",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbnlyR1l6NmFKTV9sOVhXdjI0ZjJDNDZBVmZPS05USld4UTVZbnhkYmpVaUF6a2p1NTlyQU03aDJYQ0RmMjZNRlZncG5IM3hJMkQ5TjVha3hRcklCRmppclFpYlVHblBCM0hMQmxleGRzdndtelRvYWo0akNpSkU3YmlMNllsYkdXRVlMUG5NenBDd9IBkgFBVV95cUxNbnlyR1l6NmFKTV9sOVhXdjI0ZjJDNDZBVmZPS05USld4UTVZbnhkYmpVaUF6a2p1NTlyQU03aDJYQ0RmMjZNRlZncG5IM3hJMkQ5TjVha3hRcklCRmppclFpYlVHblBCM0hMQmxleGRzdndtelRvYWo0akNpSkU3YmlMNllsYkdXRVlMUG5NenBDdw?oc=5",
-          "direction": "negative",
-          "reason": "「レアアース」に反応: 永久磁石などレアアース由来部材の調達コスト上昇・供給不安が意識されやすい",
-          "importance": 3
+          "title": "日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjUGEtV19fOVFPOU96c2lwM0ZFX2R6aEdmSjVERTZNOTh3QXFUaFhlRnFtWkRGaGJzal9KNDlhenFDR0xRbENBdjdQcmVodEwyMTJXbU81akQ1X1lzU0ZPT00tcw?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "importance": 4
         }
       ],
-      "mentions": 5
+      "mentions": 6
     },
     {
       "code": "7267",
       "name": "本田技研工業",
       "sector": "自動車",
-      "positive": 2,
+      "positive": 3,
       "negative": 3,
       "watch": 0,
-      "score": -5,
+      "score": 1,
       "news": [
         {
           "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か（TBS NEWS DIG Powered by JNN）",
@@ -3587,30 +3353,30 @@
           "importance": 5
         },
         {
-          "title": "来週の為替予想（米ドル/円）日銀利上げなのになぜか円安、植田会見後のドル円 次の節目は159円台 ハロンズFX 2026/9/19",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mUUpNOGd0ZVJzUU1LWFhtUFZyQ29fbDJCSV9ROEk4TjJ6M0Vfdkd5WTlxVi1iakVYcXk4SE5UVE9mUE9mVWdyaWk2UDJCblFNSmg3djlLTG9abFozcE9iRHR4MA?oc=5",
+          "title": "日銀利上げでも円安に シルバーウィーク中の実弾介入は?「レートチェック」めぐり増す警戒",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qOWcwNGF1RmdGektXN0t3ZW13TGNlOGJDQWhfMVBsNmxNM1U0VEJpVlZKc015NWF1V3FSTC0xeWJ5VWdVb3o2STdldXprS2tCNEJ3WFkxcENfZmx4QXZSNkQxbmFQaVU4QkNLd3NvUjNHNVJDQ3RCeURYcHpuUEk?oc=5",
           "direction": "positive",
           "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
           "importance": 4
         },
         {
-          "title": "中国、8月の対日レアアース輸出は212トン　前年同月比で17％減、落ち込み続く",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbnlyR1l6NmFKTV9sOVhXdjI0ZjJDNDZBVmZPS05USld4UTVZbnhkYmpVaUF6a2p1NTlyQU03aDJYQ0RmMjZNRlZncG5IM3hJMkQ5TjVha3hRcklCRmppclFpYlVHblBCM0hMQmxleGRzdndtelRvYWo0akNpSkU3YmlMNllsYkdXRVlMUG5NenBDd9IBkgFBVV95cUxNbnlyR1l6NmFKTV9sOVhXdjI0ZjJDNDZBVmZPS05USld4UTVZbnhkYmpVaUF6a2p1NTlyQU03aDJYQ0RmMjZNRlZncG5IM3hJMkQ5TjVha3hRcklCRmppclFpYlVHblBCM0hMQmxleGRzdndtelRvYWo0akNpSkU3YmlMNllsYkdXRVlMUG5NenBDdw?oc=5",
-          "direction": "negative",
-          "reason": "「レアアース」に反応: 永久磁石などレアアース由来部材の調達コスト上昇・供給不安が意識されやすい",
-          "importance": 3
+          "title": "日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjUGEtV19fOVFPOU96c2lwM0ZFX2R6aEdmSjVERTZNOTh3QXFUaFhlRnFtWkRGaGJzal9KNDlhenFDR0xRbENBdjdQcmVodEwyMTJXbU81akQ1X1lzU0ZPT00tcw?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "importance": 4
         }
       ],
-      "mentions": 5
+      "mentions": 6
     },
     {
       "code": "8306",
       "name": "三菱UFJフィナンシャル・グループ",
       "sector": "銀行",
-      "positive": 4,
+      "positive": 5,
       "negative": 0,
       "watch": 0,
-      "score": 17,
+      "score": 21,
       "news": [
         {
           "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
@@ -3620,30 +3386,30 @@
           "importance": 5
         },
         {
-          "title": "円相場に一段安リスク、日銀の利上げ姿勢に失望感－連休で流動性低下（Bloomberg）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JUDZ5dHV4d2llb3daY3o1b2w4MGRLSUY1RFdUWTNpN1Zyc3hjaThZY3VHY1hGbHIzN3ZrT25tR3RzUHJlT0JZMnFvSm83YXp1ZkdTdmw5a0xZcnF6MU5mZlBTQlVkS2pnaUJ6WnRhOTZpaVZJOXA5Z3U3V0FHUlk?oc=5",
+          "title": "日銀利上げでも円安に シルバーウィーク中の実弾介入は?「レートチェック」めぐり増す警戒",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qOWcwNGF1RmdGektXN0t3ZW13TGNlOGJDQWhfMVBsNmxNM1U0VEJpVlZKc015NWF1V3FSTC0xeWJ5VWdVb3o2STdldXprS2tCNEJ3WFkxcENfZmx4QXZSNkQxbmFQaVU4QkNLd3NvUjNHNVJDQ3RCeURYcHpuUEk?oc=5",
           "direction": "positive",
           "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
           "importance": 4
         },
         {
-          "title": "豪ドル/円 見通し「連騰で112円台回復...日銀利上げでも金利差は縮まらない公算」注目の高金利通貨 9月20日号",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yUVp5RFJYUkw4Um0yZGNaZnROMEJPVXE3Ml9kY19wUjBCOUJHdTV6T01lWkktYVdZZkEwaHFMZWc2RUZDR2p3QjJsN2tFQlpYUnVJX2dkbnd4YVdJeERhOEZsRQ?oc=5",
+          "title": "日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjUGEtV19fOVFPOU96c2lwM0ZFX2R6aEdmSjVERTZNOTh3QXFUaFhlRnFtWkRGaGJzal9KNDlhenFDR0xRbENBdjdQcmVodEwyMTJXbU81akQ1X1lzU0ZPT00tcw?oc=5",
           "direction": "positive",
           "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
           "importance": 4
         }
       ],
-      "mentions": 4
+      "mentions": 5
     },
     {
       "code": "8316",
       "name": "三井住友フィナンシャルグループ",
       "sector": "銀行",
-      "positive": 4,
+      "positive": 5,
       "negative": 0,
       "watch": 0,
-      "score": 17,
+      "score": 21,
       "news": [
         {
           "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
@@ -3653,30 +3419,30 @@
           "importance": 5
         },
         {
-          "title": "円相場に一段安リスク、日銀の利上げ姿勢に失望感－連休で流動性低下（Bloomberg）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JUDZ5dHV4d2llb3daY3o1b2w4MGRLSUY1RFdUWTNpN1Zyc3hjaThZY3VHY1hGbHIzN3ZrT25tR3RzUHJlT0JZMnFvSm83YXp1ZkdTdmw5a0xZcnF6MU5mZlBTQlVkS2pnaUJ6WnRhOTZpaVZJOXA5Z3U3V0FHUlk?oc=5",
+          "title": "日銀利上げでも円安に シルバーウィーク中の実弾介入は?「レートチェック」めぐり増す警戒",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qOWcwNGF1RmdGektXN0t3ZW13TGNlOGJDQWhfMVBsNmxNM1U0VEJpVlZKc015NWF1V3FSTC0xeWJ5VWdVb3o2STdldXprS2tCNEJ3WFkxcENfZmx4QXZSNkQxbmFQaVU4QkNLd3NvUjNHNVJDQ3RCeURYcHpuUEk?oc=5",
           "direction": "positive",
           "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
           "importance": 4
         },
         {
-          "title": "豪ドル/円 見通し「連騰で112円台回復...日銀利上げでも金利差は縮まらない公算」注目の高金利通貨 9月20日号",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yUVp5RFJYUkw4Um0yZGNaZnROMEJPVXE3Ml9kY19wUjBCOUJHdTV6T01lWkktYVdZZkEwaHFMZWc2RUZDR2p3QjJsN2tFQlpYUnVJX2dkbnd4YVdJeERhOEZsRQ?oc=5",
+          "title": "日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjUGEtV19fOVFPOU96c2lwM0ZFX2R6aEdmSjVERTZNOTh3QXFUaFhlRnFtWkRGaGJzal9KNDlhenFDR0xRbENBdjdQcmVodEwyMTJXbU81akQ1X1lzU0ZPT00tcw?oc=5",
           "direction": "positive",
           "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
           "importance": 4
         }
       ],
-      "mentions": 4
+      "mentions": 5
     },
     {
       "code": "8411",
       "name": "みずほフィナンシャルグループ",
       "sector": "銀行",
-      "positive": 4,
+      "positive": 5,
       "negative": 0,
       "watch": 0,
-      "score": 17,
+      "score": 21,
       "news": [
         {
           "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
@@ -3686,21 +3452,21 @@
           "importance": 5
         },
         {
-          "title": "円相場に一段安リスク、日銀の利上げ姿勢に失望感－連休で流動性低下（Bloomberg）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JUDZ5dHV4d2llb3daY3o1b2w4MGRLSUY1RFdUWTNpN1Zyc3hjaThZY3VHY1hGbHIzN3ZrT25tR3RzUHJlT0JZMnFvSm83YXp1ZkdTdmw5a0xZcnF6MU5mZlBTQlVkS2pnaUJ6WnRhOTZpaVZJOXA5Z3U3V0FHUlk?oc=5",
+          "title": "日銀利上げでも円安に シルバーウィーク中の実弾介入は?「レートチェック」めぐり増す警戒",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qOWcwNGF1RmdGektXN0t3ZW13TGNlOGJDQWhfMVBsNmxNM1U0VEJpVlZKc015NWF1V3FSTC0xeWJ5VWdVb3o2STdldXprS2tCNEJ3WFkxcENfZmx4QXZSNkQxbmFQaVU4QkNLd3NvUjNHNVJDQ3RCeURYcHpuUEk?oc=5",
           "direction": "positive",
           "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
           "importance": 4
         },
         {
-          "title": "豪ドル/円 見通し「連騰で112円台回復...日銀利上げでも金利差は縮まらない公算」注目の高金利通貨 9月20日号",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yUVp5RFJYUkw4Um0yZGNaZnROMEJPVXE3Ml9kY19wUjBCOUJHdTV6T01lWkktYVdZZkEwaHFMZWc2RUZDR2p3QjJsN2tFQlpYUnVJX2dkbnd4YVdJeERhOEZsRQ?oc=5",
+          "title": "日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjUGEtV19fOVFPOU96c2lwM0ZFX2R6aEdmSjVERTZNOTh3QXFUaFhlRnFtWkRGaGJzal9KNDlhenFDR0xRbENBdjdQcmVodEwyMTJXbU81akQ1X1lzU0ZPT00tcw?oc=5",
           "direction": "positive",
           "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
           "importance": 4
         }
       ],
-      "mentions": 4
+      "mentions": 5
     },
     {
       "code": "8309",
@@ -3719,8 +3485,8 @@
           "importance": 5
         },
         {
-          "title": "円相場に一段安リスク、日銀の利上げ姿勢に失望感－連休で流動性低下（Bloomberg）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JUDZ5dHV4d2llb3daY3o1b2w4MGRLSUY1RFdUWTNpN1Zyc3hjaThZY3VHY1hGbHIzN3ZrT25tR3RzUHJlT0JZMnFvSm83YXp1ZkdTdmw5a0xZcnF6MU5mZlBTQlVkS2pnaUJ6WnRhOTZpaVZJOXA5Z3U3V0FHUlk?oc=5",
+          "title": "日銀利上げでも円安に シルバーウィーク中の実弾介入は?「レートチェック」めぐり増す警戒",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qOWcwNGF1RmdGektXN0t3ZW13TGNlOGJDQWhfMVBsNmxNM1U0VEJpVlZKc015NWF1V3FSTC0xeWJ5VWdVb3o2STdldXprS2tCNEJ3WFkxcENfZmx4QXZSNkQxbmFQaVU4QkNLd3NvUjNHNVJDQ3RCeURYcHpuUEk?oc=5",
           "direction": "positive",
           "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
           "importance": 4
@@ -3736,136 +3502,37 @@
       "mentions": 4
     },
     {
-      "code": "7182",
-      "name": "ゆうちょ銀行",
-      "sector": "銀行",
+      "code": "7201",
+      "name": "日産自動車",
+      "sector": "自動車",
       "positive": 3,
-      "negative": 0,
+      "negative": 1,
       "watch": 0,
-      "score": 13,
+      "score": 7,
       "news": [
         {
-          "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
-          "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か（TBS NEWS DIG Powered by JNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VOWNfXzF6eUE3TVRWdTM5VnNPSEkzTXZub1FOaEJhRE1mUVNNUE5uaExWTHlwUlFnS2pMOTZEVVlCdWxENTl3STJXTXlVZ2k3WlA5RnUydERkNlRZMG1UY2hlTmhLRWh4UDVLbDRoelI1Y0hweGlvaXpGaDdXdXM?oc=5",
+          "direction": "negative",
+          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
           "importance": 5
         },
         {
-          "title": "円相場に一段安リスク、日銀の利上げ姿勢に失望感－連休で流動性低下（Bloomberg）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JUDZ5dHV4d2llb3daY3o1b2w4MGRLSUY1RFdUWTNpN1Zyc3hjaThZY3VHY1hGbHIzN3ZrT25tR3RzUHJlT0JZMnFvSm83YXp1ZkdTdmw5a0xZcnF6MU5mZlBTQlVkS2pnaUJ6WnRhOTZpaVZJOXA5Z3U3V0FHUlk?oc=5",
+          "title": "日銀利上げでも円安に シルバーウィーク中の実弾介入は?「レートチェック」めぐり増す警戒",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qOWcwNGF1RmdGektXN0t3ZW13TGNlOGJDQWhfMVBsNmxNM1U0VEJpVlZKc015NWF1V3FSTC0xeWJ5VWdVb3o2STdldXprS2tCNEJ3WFkxcENfZmx4QXZSNkQxbmFQaVU4QkNLd3NvUjNHNVJDQ3RCeURYcHpuUEk?oc=5",
           "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
           "importance": 4
         },
         {
-          "title": "豪ドル/円 見通し「連騰で112円台回復...日銀利上げでも金利差は縮まらない公算」注目の高金利通貨 9月20日号",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yUVp5RFJYUkw4Um0yZGNaZnROMEJPVXE3Ml9kY19wUjBCOUJHdTV6T01lWkktYVdZZkEwaHFMZWc2RUZDR2p3QjJsN2tFQlpYUnVJX2dkbnd4YVdJeERhOEZsRQ?oc=5",
+          "title": "日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjUGEtV19fOVFPOU96c2lwM0ZFX2R6aEdmSjVERTZNOTh3QXFUaFhlRnFtWkRGaGJzal9KNDlhenFDR0xRbENBdjdQcmVodEwyMTJXbU81akQ1X1lzU0ZPT00tcw?oc=5",
           "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
           "importance": 4
         }
       ],
-      "mentions": 3
-    },
-    {
-      "code": "8766",
-      "name": "東京海上ホールディングス",
-      "sector": "保険",
-      "positive": 3,
-      "negative": 0,
-      "watch": 0,
-      "score": 13,
-      "news": [
-        {
-          "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
-          "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 5
-        },
-        {
-          "title": "円相場に一段安リスク、日銀の利上げ姿勢に失望感－連休で流動性低下（Bloomberg）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JUDZ5dHV4d2llb3daY3o1b2w4MGRLSUY1RFdUWTNpN1Zyc3hjaThZY3VHY1hGbHIzN3ZrT25tR3RzUHJlT0JZMnFvSm83YXp1ZkdTdmw5a0xZcnF6MU5mZlBTQlVkS2pnaUJ6WnRhOTZpaVZJOXA5Z3U3V0FHUlk?oc=5",
-          "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 4
-        },
-        {
-          "title": "豪ドル/円 見通し「連騰で112円台回復...日銀利上げでも金利差は縮まらない公算」注目の高金利通貨 9月20日号",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yUVp5RFJYUkw4Um0yZGNaZnROMEJPVXE3Ml9kY19wUjBCOUJHdTV6T01lWkktYVdZZkEwaHFMZWc2RUZDR2p3QjJsN2tFQlpYUnVJX2dkbnd4YVdJeERhOEZsRQ?oc=5",
-          "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 4
-        }
-      ],
-      "mentions": 3
-    },
-    {
-      "code": "8801",
-      "name": "三井不動産",
-      "sector": "不動産",
-      "positive": 0,
-      "negative": 3,
-      "watch": 0,
-      "score": -13,
-      "news": [
-        {
-          "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
-          "direction": "negative",
-          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
-          "importance": 5
-        },
-        {
-          "title": "円相場に一段安リスク、日銀の利上げ姿勢に失望感－連休で流動性低下（Bloomberg）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JUDZ5dHV4d2llb3daY3o1b2w4MGRLSUY1RFdUWTNpN1Zyc3hjaThZY3VHY1hGbHIzN3ZrT25tR3RzUHJlT0JZMnFvSm83YXp1ZkdTdmw5a0xZcnF6MU5mZlBTQlVkS2pnaUJ6WnRhOTZpaVZJOXA5Z3U3V0FHUlk?oc=5",
-          "direction": "negative",
-          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
-          "importance": 4
-        },
-        {
-          "title": "豪ドル/円 見通し「連騰で112円台回復...日銀利上げでも金利差は縮まらない公算」注目の高金利通貨 9月20日号",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yUVp5RFJYUkw4Um0yZGNaZnROMEJPVXE3Ml9kY19wUjBCOUJHdTV6T01lWkktYVdZZkEwaHFMZWc2RUZDR2p3QjJsN2tFQlpYUnVJX2dkbnd4YVdJeERhOEZsRQ?oc=5",
-          "direction": "negative",
-          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
-          "importance": 4
-        }
-      ],
-      "mentions": 3
-    },
-    {
-      "code": "8802",
-      "name": "三菱地所",
-      "sector": "不動産",
-      "positive": 0,
-      "negative": 3,
-      "watch": 0,
-      "score": -13,
-      "news": [
-        {
-          "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
-          "direction": "negative",
-          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
-          "importance": 5
-        },
-        {
-          "title": "円相場に一段安リスク、日銀の利上げ姿勢に失望感－連休で流動性低下（Bloomberg）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JUDZ5dHV4d2llb3daY3o1b2w4MGRLSUY1RFdUWTNpN1Zyc3hjaThZY3VHY1hGbHIzN3ZrT25tR3RzUHJlT0JZMnFvSm83YXp1ZkdTdmw5a0xZcnF6MU5mZlBTQlVkS2pnaUJ6WnRhOTZpaVZJOXA5Z3U3V0FHUlk?oc=5",
-          "direction": "negative",
-          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
-          "importance": 4
-        },
-        {
-          "title": "豪ドル/円 見通し「連騰で112円台回復...日銀利上げでも金利差は縮まらない公算」注目の高金利通貨 9月20日号",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yUVp5RFJYUkw4Um0yZGNaZnROMEJPVXE3Ml9kY19wUjBCOUJHdTV6T01lWkktYVdZZkEwaHFMZWc2RUZDR2p3QjJsN2tFQlpYUnVJX2dkbnd4YVdJeERhOEZsRQ?oc=5",
-          "direction": "negative",
-          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
-          "importance": 4
-        }
-      ],
-      "mentions": 3
+      "mentions": 4
     },
     {
       "code": "8035",
@@ -3896,6 +3563,39 @@
           "direction": "negative",
           "reason": "「台湾」に反応: 中国売上比率が高く、地政学リスクの高まりは業績不透明感につながりやすい",
           "importance": 2
+        }
+      ],
+      "mentions": 3
+    },
+    {
+      "code": "7269",
+      "name": "スズキ",
+      "sector": "自動車",
+      "positive": 2,
+      "negative": 1,
+      "watch": 0,
+      "score": 3,
+      "news": [
+        {
+          "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か（TBS NEWS DIG Powered by JNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VOWNfXzF6eUE3TVRWdTM5VnNPSEkzTXZub1FOaEJhRE1mUVNNUE5uaExWTHlwUlFnS2pMOTZEVVlCdWxENTl3STJXTXlVZ2k3WlA5RnUydERkNlRZMG1UY2hlTmhLRWh4UDVLbDRoelI1Y0hweGlvaXpGaDdXdXM?oc=5",
+          "direction": "negative",
+          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "importance": 5
+        },
+        {
+          "title": "日銀利上げでも円安に シルバーウィーク中の実弾介入は?「レートチェック」めぐり増す警戒",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qOWcwNGF1RmdGektXN0t3ZW13TGNlOGJDQWhfMVBsNmxNM1U0VEJpVlZKc015NWF1V3FSTC0xeWJ5VWdVb3o2STdldXprS2tCNEJ3WFkxcENfZmx4QXZSNkQxbmFQaVU4QkNLd3NvUjNHNVJDQ3RCeURYcHpuUEk?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "importance": 4
+        },
+        {
+          "title": "来週の為替予想（米ドル/円）日銀利上げなのになぜか円安、植田会見後のドル円 次の節目は159円台 ハロンズFX 2026/9/19",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mUUpNOGd0ZVJzUU1LWFhtUFZyQ29fbDJCSV9ROEk4TjJ6M0Vfdkd5WTlxVi1iakVYcXk4SE5UVE9mUE9mVWdyaWk2UDJCblFNSmg3djlLTG9abFozcE9iRHR4MA?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "importance": 4
         }
       ],
       "mentions": 3
@@ -3934,70 +3634,160 @@
       "mentions": 3
     },
     {
-      "code": "7201",
-      "name": "日産自動車",
-      "sector": "自動車",
+      "code": "7182",
+      "name": "ゆうちょ銀行",
+      "sector": "銀行",
       "positive": 2,
-      "negative": 1,
+      "negative": 0,
       "watch": 0,
-      "score": 1,
+      "score": 9,
       "news": [
         {
-          "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か（TBS NEWS DIG Powered by JNN）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VOWNfXzF6eUE3TVRWdTM5VnNPSEkzTXZub1FOaEJhRE1mUVNNUE5uaExWTHlwUlFnS2pMOTZEVVlCdWxENTl3STJXTXlVZ2k3WlA5RnUydERkNlRZMG1UY2hlTmhLRWh4UDVLbDRoelI1Y0hweGlvaXpGaDdXdXM?oc=5",
-          "direction": "negative",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
+          "direction": "positive",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
           "importance": 5
         },
         {
-          "title": "来週の為替予想（米ドル/円）日銀利上げなのになぜか円安、植田会見後のドル円 次の節目は159円台 ハロンズFX 2026/9/19",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mUUpNOGd0ZVJzUU1LWFhtUFZyQ29fbDJCSV9ROEk4TjJ6M0Vfdkd5WTlxVi1iakVYcXk4SE5UVE9mUE9mVWdyaWk2UDJCblFNSmg3djlLTG9abFozcE9iRHR4MA?oc=5",
+          "title": "豪ドル/円 見通し「連騰で112円台回復...日銀利上げでも金利差は縮まらない公算」注目の高金利通貨 9月20日号",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yUVp5RFJYUkw4Um0yZGNaZnROMEJPVXE3Ml9kY19wUjBCOUJHdTV6T01lWkktYVdZZkEwaHFMZWc2RUZDR2p3QjJsN2tFQlpYUnVJX2dkbnd4YVdJeERhOEZsRQ?oc=5",
           "direction": "positive",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
           "importance": 4
-        },
-        {
-          "title": "日銀レートチェック再び、連休前に円安けん制 投機筋｢不意突かれた｣",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJTnpTdWk2VUJ3YjRWM0NtWDRFTXh3c0pIcmd6cHl5ai1JcXAxazl2d1FSZ1RyaG8tWEpxUlZKT0pieS1sb2tkU3dPdEszb0tjT1g1ZHU0RGg0b2lsTEo5OHVHc3dGd1dja3NDbQ?oc=5",
-          "direction": "positive",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "importance": 2
         }
       ],
-      "mentions": 3
+      "mentions": 2
     },
     {
-      "code": "7269",
-      "name": "スズキ",
-      "sector": "自動車",
+      "code": "8766",
+      "name": "東京海上ホールディングス",
+      "sector": "保険",
       "positive": 2,
-      "negative": 1,
+      "negative": 0,
       "watch": 0,
-      "score": 1,
+      "score": 9,
       "news": [
         {
-          "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か（TBS NEWS DIG Powered by JNN）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VOWNfXzF6eUE3TVRWdTM5VnNPSEkzTXZub1FOaEJhRE1mUVNNUE5uaExWTHlwUlFnS2pMOTZEVVlCdWxENTl3STJXTXlVZ2k3WlA5RnUydERkNlRZMG1UY2hlTmhLRWh4UDVLbDRoelI1Y0hweGlvaXpGaDdXdXM?oc=5",
-          "direction": "negative",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
+          "direction": "positive",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
           "importance": 5
         },
         {
-          "title": "来週の為替予想（米ドル/円）日銀利上げなのになぜか円安、植田会見後のドル円 次の節目は159円台 ハロンズFX 2026/9/19",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mUUpNOGd0ZVJzUU1LWFhtUFZyQ29fbDJCSV9ROEk4TjJ6M0Vfdkd5WTlxVi1iakVYcXk4SE5UVE9mUE9mVWdyaWk2UDJCblFNSmg3djlLTG9abFozcE9iRHR4MA?oc=5",
+          "title": "豪ドル/円 見通し「連騰で112円台回復...日銀利上げでも金利差は縮まらない公算」注目の高金利通貨 9月20日号",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yUVp5RFJYUkw4Um0yZGNaZnROMEJPVXE3Ml9kY19wUjBCOUJHdTV6T01lWkktYVdZZkEwaHFMZWc2RUZDR2p3QjJsN2tFQlpYUnVJX2dkbnd4YVdJeERhOEZsRQ?oc=5",
           "direction": "positive",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "importance": 4
+        }
+      ],
+      "mentions": 2
+    },
+    {
+      "code": "8801",
+      "name": "三井不動産",
+      "sector": "不動産",
+      "positive": 0,
+      "negative": 2,
+      "watch": 0,
+      "score": -9,
+      "news": [
+        {
+          "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
+          "direction": "negative",
+          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
+          "importance": 5
+        },
+        {
+          "title": "豪ドル/円 見通し「連騰で112円台回復...日銀利上げでも金利差は縮まらない公算」注目の高金利通貨 9月20日号",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yUVp5RFJYUkw4Um0yZGNaZnROMEJPVXE3Ml9kY19wUjBCOUJHdTV6T01lWkktYVdZZkEwaHFMZWc2RUZDR2p3QjJsN2tFQlpYUnVJX2dkbnd4YVdJeERhOEZsRQ?oc=5",
+          "direction": "negative",
+          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
+          "importance": 4
+        }
+      ],
+      "mentions": 2
+    },
+    {
+      "code": "8802",
+      "name": "三菱地所",
+      "sector": "不動産",
+      "positive": 0,
+      "negative": 2,
+      "watch": 0,
+      "score": -9,
+      "news": [
+        {
+          "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
+          "direction": "negative",
+          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
+          "importance": 5
+        },
+        {
+          "title": "豪ドル/円 見通し「連騰で112円台回復...日銀利上げでも金利差は縮まらない公算」注目の高金利通貨 9月20日号",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yUVp5RFJYUkw4Um0yZGNaZnROMEJPVXE3Ml9kY19wUjBCOUJHdTV6T01lWkktYVdZZkEwaHFMZWc2RUZDR2p3QjJsN2tFQlpYUnVJX2dkbnd4YVdJeERhOEZsRQ?oc=5",
+          "direction": "negative",
+          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
+          "importance": 4
+        }
+      ],
+      "mentions": 2
+    },
+    {
+      "code": "1605",
+      "name": "INPEX",
+      "sector": "鉱業",
+      "positive": 2,
+      "negative": 0,
+      "watch": 0,
+      "score": 7,
+      "news": [
+        {
+          "title": "日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjUGEtV19fOVFPOU96c2lwM0ZFX2R6aEdmSjVERTZNOTh3QXFUaFhlRnFtWkRGaGJzal9KNDlhenFDR0xRbENBdjdQcmVodEwyMTJXbU81akQ1X1lzU0ZPT00tcw?oc=5",
+          "direction": "positive",
+          "reason": "「原油高」に反応: 販売価格・権益収入の改善につながりやすい",
           "importance": 4
         },
         {
-          "title": "日銀レートチェック再び、連休前に円安けん制 投機筋｢不意突かれた｣",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJTnpTdWk2VUJ3YjRWM0NtWDRFTXh3c0pIcmd6cHl5ai1JcXAxazl2d1FSZ1RyaG8tWEpxUlZKT0pieS1sb2tkU3dPdEszb0tjT1g1ZHU0RGg0b2lsTEo5OHVHc3dGd1dja3NDbQ?oc=5",
+          "title": "フーシとサウジの戦闘激化 首都リヤドにも攻撃 原油価格高騰に懸念 [米・イスラエルのイラン攻撃 イラン情勢]",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uMXgwNTdYVzVsUkowQWc0VVgwZURIRnJMOERuQU1MU1JrenhPWWY2TThqSjRxU29CQ2QyT2Z0cTNfT2ZPTko0SW1MRFZ2V0I1cnQ4M1Z0eGNPMzV3X0t6b0JyX3ZVc1U?oc=5",
           "direction": "positive",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "importance": 2
+          "reason": "「イスラエル」に反応: 原油価格の上昇観測は在庫評価益・資源権益の採算改善につながりやすい",
+          "importance": 3
         }
       ],
-      "mentions": 3
+      "mentions": 2
+    },
+    {
+      "code": "5020",
+      "name": "ENEOSホールディングス",
+      "sector": "石油",
+      "positive": 2,
+      "negative": 0,
+      "watch": 0,
+      "score": 7,
+      "news": [
+        {
+          "title": "日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjUGEtV19fOVFPOU96c2lwM0ZFX2R6aEdmSjVERTZNOTh3QXFUaFhlRnFtWkRGaGJzal9KNDlhenFDR0xRbENBdjdQcmVodEwyMTJXbU81akQ1X1lzU0ZPT00tcw?oc=5",
+          "direction": "positive",
+          "reason": "「原油高」に反応: 販売価格・権益収入の改善につながりやすい",
+          "importance": 4
+        },
+        {
+          "title": "フーシとサウジの戦闘激化 首都リヤドにも攻撃 原油価格高騰に懸念 [米・イスラエルのイラン攻撃 イラン情勢]",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uMXgwNTdYVzVsUkowQWc0VVgwZURIRnJMOERuQU1MU1JrenhPWWY2TThqSjRxU29CQ2QyT2Z0cTNfT2ZPTko0SW1MRFZ2V0I1cnQ4M1Z0eGNPMzV3X0t6b0JyX3ZVc1U?oc=5",
+          "direction": "positive",
+          "reason": "「イスラエル」に反応: 原油価格の上昇観測は在庫評価益・資源権益の採算改善につながりやすい",
+          "importance": 3
+        }
+      ],
+      "mentions": 2
     },
     {
       "code": "6857",
@@ -4102,58 +3892,6 @@
         }
       ],
       "mentions": 2
-    },
-    {
-      "code": "5713",
-      "name": "住友金属鉱山",
-      "sector": "非鉄金属",
-      "positive": 2,
-      "negative": 0,
-      "watch": 0,
-      "score": 6,
-      "news": [
-        {
-          "title": "中国、8月の対日レアアース輸出は212トン　前年同月比で17％減、落ち込み続く",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbnlyR1l6NmFKTV9sOVhXdjI0ZjJDNDZBVmZPS05USld4UTVZbnhkYmpVaUF6a2p1NTlyQU03aDJYQ0RmMjZNRlZncG5IM3hJMkQ5TjVha3hRcklCRmppclFpYlVHblBCM0hMQmxleGRzdndtelRvYWo0akNpSkU3YmlMNllsYkdXRVlMUG5NenBDd9IBkgFBVV95cUxNbnlyR1l6NmFKTV9sOVhXdjI0ZjJDNDZBVmZPS05USld4UTVZbnhkYmpVaUF6a2p1NTlyQU03aDJYQ0RmMjZNRlZncG5IM3hJMkQ5TjVha3hRcklCRmppclFpYlVHblBCM0hMQmxleGRzdndtelRvYWo0akNpSkU3YmlMNllsYkdXRVlMUG5NenBDdw?oc=5",
-          "direction": "positive",
-          "reason": "「レアアース」に反応: 権益確保・リサイクル技術など供給網の脱中国依存を進めている企業には追い風になりやすい",
-          "importance": 3
-        },
-        {
-          "title": "対日レアアース磁石輸出１７％減 中国８月、２００トン台回復",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5jNFpqWV8wV1FuZWl2dC1rSHBtTFVSZnp2Ukc5bTVvRXNzaFFzMWQ5bmlYS2cxLVM0WFlYNHhJWWkyQVB3dDZEY2xKZ3ZBQQ?oc=5",
-          "direction": "positive",
-          "reason": "「レアアース」に反応: 権益確保・リサイクル技術など供給網の脱中国依存を進めている企業には追い風になりやすい",
-          "importance": 3
-        }
-      ],
-      "mentions": 2
-    },
-    {
-      "code": "7270",
-      "name": "SUBARU",
-      "sector": "自動車",
-      "positive": 1,
-      "negative": 1,
-      "watch": 0,
-      "score": -3,
-      "news": [
-        {
-          "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か（TBS NEWS DIG Powered by JNN）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VOWNfXzF6eUE3TVRWdTM5VnNPSEkzTXZub1FOaEJhRE1mUVNNUE5uaExWTHlwUlFnS2pMOTZEVVlCdWxENTl3STJXTXlVZ2k3WlA5RnUydERkNlRZMG1UY2hlTmhLRWh4UDVLbDRoelI1Y0hweGlvaXpGaDdXdXM?oc=5",
-          "direction": "negative",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "importance": 5
-        },
-        {
-          "title": "日銀レートチェック再び、連休前に円安けん制 投機筋｢不意突かれた｣",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJTnpTdWk2VUJ3YjRWM0NtWDRFTXh3c0pIcmd6cHl5ai1JcXAxazl2d1FSZ1RyaG8tWEpxUlZKT0pieS1sb2tkU3dPdEszb0tjT1g1ZHU0RGg0b2lsTEo5OHVHc3dGd1dja3NDbQ?oc=5",
-          "direction": "positive",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "importance": 2
-        }
-      ],
-      "mentions": 2
     }
   ],
   "clusters": [
@@ -4167,7 +3905,8 @@
       "category_emoji": "🏦",
       "member_ids": [
         "f91a1622462e",
-        "a5c61d2d25c0",
+        "342572c50f0a",
+        "8e8da903b767",
         "b7db4445bcb4",
         "852cada93859"
       ],
@@ -4180,46 +3919,53 @@
           "source": "テレ朝NEWS"
         },
         {
-          "id": "a5c61d2d25c0",
-          "title": "円相場に一段安リスク、日銀の利上げ姿勢に失望感－連休で流動性低下（Bloomberg）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JUDZ5dHV4d2llb3daY3o1b2w4MGRLSUY1RFdUWTNpN1Zyc3hjaThZY3VHY1hGbHIzN3ZrT25tR3RzUHJlT0JZMnFvSm83YXp1ZkdTdmw5a0xZcnF6MU5mZlBTQlVkS2pnaUJ6WnRhOTZpaVZJOXA5Z3U3V0FHUlk?oc=5",
+          "id": "342572c50f0a",
+          "title": "日銀利上げでも円安に シルバーウィーク中の実弾介入は?「レートチェック」めぐり増す警戒",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qOWcwNGF1RmdGektXN0t3ZW13TGNlOGJDQWhfMVBsNmxNM1U0VEJpVlZKc015NWF1V3FSTC0xeWJ5VWdVb3o2STdldXprS2tCNEJ3WFkxcENfZmx4QXZSNkQxbmFQaVU4QkNLd3NvUjNHNVJDQ3RCeURYcHpuUEk?oc=5",
           "importance": 4,
           "source": "Yahoo!ニュース"
+        },
+        {
+          "id": "8e8da903b767",
+          "title": "日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjUGEtV19fOVFPOU96c2lwM0ZFX2R6aEdmSjVERTZNOTh3QXFUaFhlRnFtWkRGaGJzal9KNDlhenFDR0xRbENBdjdQcmVodEwyMTJXbU81akQ1X1lzU0ZPT00tcw?oc=5",
+          "importance": 4,
+          "source": "gaitame.com"
         },
         {
           "id": "b7db4445bcb4",
           "title": "豪ドル/円 見通し「連騰で112円台回復...日銀利上げでも金利差は縮まらない公算」注目の高金利通貨 9月20日号",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yUVp5RFJYUkw4Um0yZGNaZnROMEJPVXE3Ml9kY19wUjBCOUJHdTV6T01lWkktYVdZZkEwaHFMZWc2RUZDR2p3QjJsN2tFQlpYUnVJX2dkbnd4YVdJeERhOEZsRQ?oc=5",
           "importance": 4,
-          "source": "外為どっとコム"
+          "source": "gaitame.com"
         },
         {
           "id": "852cada93859",
           "title": "来週の為替予想（米ドル/円）日銀利上げなのになぜか円安、植田会見後のドル円 次の節目は159円台 ハロンズFX 2026/9/19",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mUUpNOGd0ZVJzUU1LWFhtUFZyQ29fbDJCSV9ROEk4TjJ6M0Vfdkd5WTlxVi1iakVYcXk4SE5UVE9mUE9mVWdyaWk2UDJCblFNSmg3djlLTG9abFozcE9iRHR4MA?oc=5",
           "importance": 4,
-          "source": "外為どっとコム"
+          "source": "gaitame.com"
         }
       ],
       "stocks": [
         {
           "code": "8306",
           "name": "三菱UFJフィナンシャル・グループ",
-          "positive": 4,
+          "positive": 5,
           "negative": 0,
           "watch": 0
         },
         {
           "code": "8316",
           "name": "三井住友フィナンシャルグループ",
-          "positive": 4,
+          "positive": 5,
           "negative": 0,
           "watch": 0
         },
         {
           "code": "8411",
           "name": "みずほフィナンシャルグループ",
-          "positive": 4,
+          "positive": 5,
           "negative": 0,
           "watch": 0
         },
@@ -4233,14 +3979,14 @@
         {
           "code": "7182",
           "name": "ゆうちょ銀行",
-          "positive": 3,
+          "positive": 2,
           "negative": 0,
           "watch": 0
         },
         {
           "code": "8766",
           "name": "東京海上ホールディングス",
-          "positive": 3,
+          "positive": 2,
           "negative": 0,
           "watch": 0
         }
@@ -4251,8 +3997,8 @@
       "emergence_signal_labels": [
         "複数媒体での同時報道"
       ],
-      "emergence_event_count": 5,
-      "emergence_source_count": 3,
+      "emergence_event_count": 6,
+      "emergence_source_count": 4,
       "emergence_actor_type_count": 3,
       "emergence_actor_type_labels": [
         "海外政府・当局",
@@ -4262,7 +4008,7 @@
       "emergence_actor_type_breakdown": [
         {
           "label": "海外政府・当局",
-          "count": 1
+          "count": 2
         },
         {
           "label": "複数メディア",
@@ -4282,9 +4028,9 @@
       ],
       "emergence_first_seen": "2026-09-20",
       "emergence_window_counts": {
-        "7": 5,
-        "30": 5,
-        "90": 5
+        "7": 6,
+        "30": 6,
+        "90": 6
       },
       "emergence_timeline": [
         {
@@ -4335,6 +4081,17 @@
             "研究機関・大学"
           ],
           "regions": []
+        },
+        {
+          "date": "2026-09-21",
+          "source": "gaitame.com",
+          "signal_labels": [],
+          "actor_type_labels": [
+            "海外政府・当局"
+          ],
+          "regions": [
+            "米国"
+          ]
         }
       ],
       "emergence_milestones": [
@@ -4354,7 +4111,7 @@
       "emergence_diagnosis": {
         "target_stage": "watch",
         "target_stage_label": "👀 要監視テーマ",
-        "source_count": 3,
+        "source_count": 4,
         "required_sources": 2,
         "signal_count": 1,
         "required_signals": 3,
@@ -4366,6 +4123,138 @@
         "window_days": 14,
         "recent_new_actor_types": 3,
         "total_actor_types": 3
+      }
+    },
+    {
+      "connection_type": "theme",
+      "connection_label": "同じテーマ",
+      "theme_id": "yen_weak",
+      "label": "円安進行",
+      "category": "fx",
+      "category_label": "為替",
+      "category_emoji": "💱",
+      "member_ids": [
+        "342572c50f0a",
+        "8e8da903b767",
+        "852cada93859"
+      ],
+      "members": [
+        {
+          "id": "342572c50f0a",
+          "title": "日銀利上げでも円安に シルバーウィーク中の実弾介入は?「レートチェック」めぐり増す警戒",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qOWcwNGF1RmdGektXN0t3ZW13TGNlOGJDQWhfMVBsNmxNM1U0VEJpVlZKc015NWF1V3FSTC0xeWJ5VWdVb3o2STdldXprS2tCNEJ3WFkxcENfZmx4QXZSNkQxbmFQaVU4QkNLd3NvUjNHNVJDQ3RCeURYcHpuUEk?oc=5",
+          "importance": 4,
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "id": "8e8da903b767",
+          "title": "日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjUGEtV19fOVFPOU96c2lwM0ZFX2R6aEdmSjVERTZNOTh3QXFUaFhlRnFtWkRGaGJzal9KNDlhenFDR0xRbENBdjdQcmVodEwyMTJXbU81akQ1X1lzU0ZPT00tcw?oc=5",
+          "importance": 4,
+          "source": "gaitame.com"
+        },
+        {
+          "id": "852cada93859",
+          "title": "来週の為替予想（米ドル/円）日銀利上げなのになぜか円安、植田会見後のドル円 次の節目は159円台 ハロンズFX 2026/9/19",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mUUpNOGd0ZVJzUU1LWFhtUFZyQ29fbDJCSV9ROEk4TjJ6M0Vfdkd5WTlxVi1iakVYcXk4SE5UVE9mUE9mVWdyaWk2UDJCblFNSmg3djlLTG9abFozcE9iRHR4MA?oc=5",
+          "importance": 4,
+          "source": "gaitame.com"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "positive": 3,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7267",
+          "name": "本田技研工業",
+          "positive": 3,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7201",
+          "name": "日産自動車",
+          "positive": 3,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7269",
+          "name": "スズキ",
+          "positive": 2,
+          "negative": 0,
+          "watch": 0
+        }
+      ],
+      "max_importance": 4,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 1,
+      "emergence_source_count": 1,
+      "emergence_actor_type_count": 1,
+      "emergence_actor_type_labels": [
+        "海外政府・当局"
+      ],
+      "emergence_actor_type_breakdown": [
+        {
+          "label": "海外政府・当局",
+          "count": 1
+        }
+      ],
+      "emergence_region_count": 1,
+      "emergence_regions": [
+        "米国"
+      ],
+      "emergence_origin_regions": [
+        "米国"
+      ],
+      "emergence_first_seen": "2026-09-20",
+      "emergence_window_counts": {
+        "7": 1,
+        "30": 1,
+        "90": 1
+      },
+      "emergence_timeline": [
+        {
+          "date": "2026-09-21",
+          "source": "gaitame.com",
+          "signal_labels": [],
+          "actor_type_labels": [
+            "海外政府・当局"
+          ],
+          "regions": [
+            "米国"
+          ]
+        }
+      ],
+      "emergence_milestones": [
+        {
+          "date": "2026-09-21",
+          "actor_type_label": "海外政府・当局"
+        }
+      ],
+      "emergence_diagnosis": {
+        "target_stage": "watch",
+        "target_stage_label": "👀 要監視テーマ",
+        "source_count": 1,
+        "required_sources": 2,
+        "signal_count": 0,
+        "required_signals": 3,
+        "missing": [
+          "情報源があと1件必要",
+          "シグナル種別があと3種類必要"
+        ]
+      },
+      "emergence_growth": {
+        "window_days": 14,
+        "recent_new_actor_types": 1,
+        "total_actor_types": 1
       }
     },
     {
@@ -4482,116 +4371,6 @@
         "missing": [
           "情報源があと1件必要",
           "シグナル種別があと2種類必要"
-        ]
-      },
-      "emergence_growth": {
-        "window_days": 14,
-        "recent_new_actor_types": 0,
-        "total_actor_types": 0
-      }
-    },
-    {
-      "connection_type": "theme",
-      "connection_label": "同じテーマ",
-      "theme_id": "yen_weak",
-      "label": "円安進行",
-      "category": "fx",
-      "category_label": "為替",
-      "category_emoji": "💱",
-      "member_ids": [
-        "852cada93859",
-        "0e3d1d482459"
-      ],
-      "members": [
-        {
-          "id": "852cada93859",
-          "title": "来週の為替予想（米ドル/円）日銀利上げなのになぜか円安、植田会見後のドル円 次の節目は159円台 ハロンズFX 2026/9/19",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mUUpNOGd0ZVJzUU1LWFhtUFZyQ29fbDJCSV9ROEk4TjJ6M0Vfdkd5WTlxVi1iakVYcXk4SE5UVE9mUE9mVWdyaWk2UDJCblFNSmg3djlLTG9abFozcE9iRHR4MA?oc=5",
-          "importance": 4,
-          "source": "外為どっとコム"
-        },
-        {
-          "id": "0e3d1d482459",
-          "title": "日銀レートチェック再び、連休前に円安けん制 投機筋｢不意突かれた｣",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJTnpTdWk2VUJ3YjRWM0NtWDRFTXh3c0pIcmd6cHl5ai1JcXAxazl2d1FSZ1RyaG8tWEpxUlZKT0pieS1sb2tkU3dPdEszb0tjT1g1ZHU0RGg0b2lsTEo5OHVHc3dGd1dja3NDbQ?oc=5",
-          "importance": 2,
-          "source": "日本経済新聞"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "7203",
-          "name": "トヨタ自動車",
-          "positive": 2,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "7267",
-          "name": "本田技研工業",
-          "positive": 2,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "7201",
-          "name": "日産自動車",
-          "positive": 2,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "7269",
-          "name": "スズキ",
-          "positive": 2,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "7270",
-          "name": "SUBARU",
-          "positive": 1,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "7261",
-          "name": "マツダ",
-          "positive": 1,
-          "negative": 0,
-          "watch": 0
-        }
-      ],
-      "max_importance": 4,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": "2026-09-20",
-      "emergence_window_counts": {
-        "7": 0,
-        "30": 0,
-        "90": 0
-      },
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {
-        "target_stage": "watch",
-        "target_stage_label": "👀 要監視テーマ",
-        "source_count": 0,
-        "required_sources": 2,
-        "signal_count": 0,
-        "required_signals": 3,
-        "missing": [
-          "情報源があと2件必要",
-          "シグナル種別があと3種類必要"
         ]
       },
       "emergence_growth": {
@@ -4743,10 +4522,11 @@
       "category_emoji": "🏢",
       "member_ids": [
         "88624d944acf",
+        "342572c50f0a",
+        "8e8da903b767",
         "852cada93859",
         "756c7c9e0713",
-        "e0737a8dba5f",
-        "0e3d1d482459"
+        "e0737a8dba5f"
       ],
       "members": [
         {
@@ -4757,11 +4537,25 @@
           "source": "Yahoo!ニュース"
         },
         {
+          "id": "342572c50f0a",
+          "title": "日銀利上げでも円安に シルバーウィーク中の実弾介入は?「レートチェック」めぐり増す警戒",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qOWcwNGF1RmdGektXN0t3ZW13TGNlOGJDQWhfMVBsNmxNM1U0VEJpVlZKc015NWF1V3FSTC0xeWJ5VWdVb3o2STdldXprS2tCNEJ3WFkxcENfZmx4QXZSNkQxbmFQaVU4QkNLd3NvUjNHNVJDQ3RCeURYcHpuUEk?oc=5",
+          "importance": 4,
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "id": "8e8da903b767",
+          "title": "日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjUGEtV19fOVFPOU96c2lwM0ZFX2R6aEdmSjVERTZNOTh3QXFUaFhlRnFtWkRGaGJzal9KNDlhenFDR0xRbENBdjdQcmVodEwyMTJXbU81akQ1X1lzU0ZPT00tcw?oc=5",
+          "importance": 4,
+          "source": "gaitame.com"
+        },
+        {
           "id": "852cada93859",
           "title": "来週の為替予想（米ドル/円）日銀利上げなのになぜか円安、植田会見後のドル円 次の節目は159円台 ハロンズFX 2026/9/19",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mUUpNOGd0ZVJzUU1LWFhtUFZyQ29fbDJCSV9ROEk4TjJ6M0Vfdkd5WTlxVi1iakVYcXk4SE5UVE9mUE9mVWdyaWk2UDJCblFNSmg3djlLTG9abFozcE9iRHR4MA?oc=5",
           "importance": 4,
-          "source": "外為どっとコム"
+          "source": "gaitame.com"
         },
         {
           "id": "756c7c9e0713",
@@ -4776,20 +4570,13 @@
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5jNFpqWV8wV1FuZWl2dC1rSHBtTFVSZnp2Ukc5bTVvRXNzaFFzMWQ5bmlYS2cxLVM0WFlYNHhJWWkyQVB3dDZEY2xKZ3ZBQQ?oc=5",
           "importance": 3,
           "source": "静岡新聞DIGITAL"
-        },
-        {
-          "id": "0e3d1d482459",
-          "title": "日銀レートチェック再び、連休前に円安けん制 投機筋｢不意突かれた｣",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJTnpTdWk2VUJ3YjRWM0NtWDRFTXh3c0pIcmd6cHl5ai1JcXAxazl2d1FSZ1RyaG8tWEpxUlZKT0pieS1sb2tkU3dPdEszb0tjT1g1ZHU0RGg0b2lsTEo5OHVHc3dGd1dja3NDbQ?oc=5",
-          "importance": 2,
-          "source": "日本経済新聞"
         }
       ],
       "stocks": [
         {
           "code": "7203",
           "name": "トヨタ自動車",
-          "positive": 2,
+          "positive": 3,
           "negative": 3,
           "watch": 0
         }
@@ -4823,10 +4610,11 @@
       "category_emoji": "🏢",
       "member_ids": [
         "88624d944acf",
+        "342572c50f0a",
+        "8e8da903b767",
         "852cada93859",
         "756c7c9e0713",
-        "e0737a8dba5f",
-        "0e3d1d482459"
+        "e0737a8dba5f"
       ],
       "members": [
         {
@@ -4837,11 +4625,25 @@
           "source": "Yahoo!ニュース"
         },
         {
+          "id": "342572c50f0a",
+          "title": "日銀利上げでも円安に シルバーウィーク中の実弾介入は?「レートチェック」めぐり増す警戒",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qOWcwNGF1RmdGektXN0t3ZW13TGNlOGJDQWhfMVBsNmxNM1U0VEJpVlZKc015NWF1V3FSTC0xeWJ5VWdVb3o2STdldXprS2tCNEJ3WFkxcENfZmx4QXZSNkQxbmFQaVU4QkNLd3NvUjNHNVJDQ3RCeURYcHpuUEk?oc=5",
+          "importance": 4,
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "id": "8e8da903b767",
+          "title": "日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjUGEtV19fOVFPOU96c2lwM0ZFX2R6aEdmSjVERTZNOTh3QXFUaFhlRnFtWkRGaGJzal9KNDlhenFDR0xRbENBdjdQcmVodEwyMTJXbU81akQ1X1lzU0ZPT00tcw?oc=5",
+          "importance": 4,
+          "source": "gaitame.com"
+        },
+        {
           "id": "852cada93859",
           "title": "来週の為替予想（米ドル/円）日銀利上げなのになぜか円安、植田会見後のドル円 次の節目は159円台 ハロンズFX 2026/9/19",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mUUpNOGd0ZVJzUU1LWFhtUFZyQ29fbDJCSV9ROEk4TjJ6M0Vfdkd5WTlxVi1iakVYcXk4SE5UVE9mUE9mVWdyaWk2UDJCblFNSmg3djlLTG9abFozcE9iRHR4MA?oc=5",
           "importance": 4,
-          "source": "外為どっとコム"
+          "source": "gaitame.com"
         },
         {
           "id": "756c7c9e0713",
@@ -4856,20 +4658,13 @@
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5jNFpqWV8wV1FuZWl2dC1rSHBtTFVSZnp2Ukc5bTVvRXNzaFFzMWQ5bmlYS2cxLVM0WFlYNHhJWWkyQVB3dDZEY2xKZ3ZBQQ?oc=5",
           "importance": 3,
           "source": "静岡新聞DIGITAL"
-        },
-        {
-          "id": "0e3d1d482459",
-          "title": "日銀レートチェック再び、連休前に円安けん制 投機筋｢不意突かれた｣",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJTnpTdWk2VUJ3YjRWM0NtWDRFTXh3c0pIcmd6cHl5ai1JcXAxazl2d1FSZ1RyaG8tWEpxUlZKT0pieS1sb2tkU3dPdEszb0tjT1g1ZHU0RGg0b2lsTEo5OHVHc3dGd1dja3NDbQ?oc=5",
-          "importance": 2,
-          "source": "日本経済新聞"
         }
       ],
       "stocks": [
         {
           "code": "7267",
           "name": "本田技研工業",
-          "positive": 2,
+          "positive": 3,
           "negative": 3,
           "watch": 0
         }
@@ -4897,14 +4692,15 @@
       "connection_type": "company",
       "connection_label": "同じ企業",
       "theme_id": null,
-      "label": "ゆうちょ銀行に関するニュース",
+      "label": "三井住友トラスト・ホールディングスに関するニュース",
       "category": "",
       "category_label": "同じ企業",
       "category_emoji": "🏢",
       "member_ids": [
         "f91a1622462e",
-        "a5c61d2d25c0",
-        "b7db4445bcb4"
+        "342572c50f0a",
+        "b7db4445bcb4",
+        "852cada93859"
       ],
       "members": [
         {
@@ -4915,9 +4711,9 @@
           "source": "テレ朝NEWS"
         },
         {
-          "id": "a5c61d2d25c0",
-          "title": "円相場に一段安リスク、日銀の利上げ姿勢に失望感－連休で流動性低下（Bloomberg）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JUDZ5dHV4d2llb3daY3o1b2w4MGRLSUY1RFdUWTNpN1Zyc3hjaThZY3VHY1hGbHIzN3ZrT25tR3RzUHJlT0JZMnFvSm83YXp1ZkdTdmw5a0xZcnF6MU5mZlBTQlVkS2pnaUJ6WnRhOTZpaVZJOXA5Z3U3V0FHUlk?oc=5",
+          "id": "342572c50f0a",
+          "title": "日銀利上げでも円安に シルバーウィーク中の実弾介入は?「レートチェック」めぐり増す警戒",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qOWcwNGF1RmdGektXN0t3ZW13TGNlOGJDQWhfMVBsNmxNM1U0VEJpVlZKc015NWF1V3FSTC0xeWJ5VWdVb3o2STdldXprS2tCNEJ3WFkxcENfZmx4QXZSNkQxbmFQaVU4QkNLd3NvUjNHNVJDQ3RCeURYcHpuUEk?oc=5",
           "importance": 4,
           "source": "Yahoo!ニュース"
         },
@@ -4926,14 +4722,21 @@
           "title": "豪ドル/円 見通し「連騰で112円台回復...日銀利上げでも金利差は縮まらない公算」注目の高金利通貨 9月20日号",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yUVp5RFJYUkw4Um0yZGNaZnROMEJPVXE3Ml9kY19wUjBCOUJHdTV6T01lWkktYVdZZkEwaHFMZWc2RUZDR2p3QjJsN2tFQlpYUnVJX2dkbnd4YVdJeERhOEZsRQ?oc=5",
           "importance": 4,
-          "source": "外為どっとコム"
+          "source": "gaitame.com"
+        },
+        {
+          "id": "852cada93859",
+          "title": "来週の為替予想（米ドル/円）日銀利上げなのになぜか円安、植田会見後のドル円 次の節目は159円台 ハロンズFX 2026/9/19",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mUUpNOGd0ZVJzUU1LWFhtUFZyQ29fbDJCSV9ROEk4TjJ6M0Vfdkd5WTlxVi1iakVYcXk4SE5UVE9mUE9mVWdyaWk2UDJCblFNSmg3djlLTG9abFozcE9iRHR4MA?oc=5",
+          "importance": 4,
+          "source": "gaitame.com"
         }
       ],
       "stocks": [
         {
-          "code": "7182",
-          "name": "ゆうちょ銀行",
-          "positive": 3,
+          "code": "8309",
+          "name": "三井住友トラスト・ホールディングス",
+          "positive": 4,
           "negative": 0,
           "watch": 0
         }
@@ -4961,44 +4764,52 @@
       "connection_type": "company",
       "connection_label": "同じ企業",
       "theme_id": null,
-      "label": "東京海上ホールディングスに関するニュース",
+      "label": "日産自動車に関するニュース",
       "category": "",
       "category_label": "同じ企業",
       "category_emoji": "🏢",
       "member_ids": [
-        "f91a1622462e",
-        "a5c61d2d25c0",
-        "b7db4445bcb4"
+        "88624d944acf",
+        "342572c50f0a",
+        "8e8da903b767",
+        "852cada93859"
       ],
       "members": [
         {
-          "id": "f91a1622462e",
-          "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
+          "id": "88624d944acf",
+          "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か（TBS NEWS DIG Powered by JNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VOWNfXzF6eUE3TVRWdTM5VnNPSEkzTXZub1FOaEJhRE1mUVNNUE5uaExWTHlwUlFnS2pMOTZEVVlCdWxENTl3STJXTXlVZ2k3WlA5RnUydERkNlRZMG1UY2hlTmhLRWh4UDVLbDRoelI1Y0hweGlvaXpGaDdXdXM?oc=5",
           "importance": 5,
-          "source": "テレ朝NEWS"
+          "source": "Yahoo!ニュース"
         },
         {
-          "id": "a5c61d2d25c0",
-          "title": "円相場に一段安リスク、日銀の利上げ姿勢に失望感－連休で流動性低下（Bloomberg）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JUDZ5dHV4d2llb3daY3o1b2w4MGRLSUY1RFdUWTNpN1Zyc3hjaThZY3VHY1hGbHIzN3ZrT25tR3RzUHJlT0JZMnFvSm83YXp1ZkdTdmw5a0xZcnF6MU5mZlBTQlVkS2pnaUJ6WnRhOTZpaVZJOXA5Z3U3V0FHUlk?oc=5",
+          "id": "342572c50f0a",
+          "title": "日銀利上げでも円安に シルバーウィーク中の実弾介入は?「レートチェック」めぐり増す警戒",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qOWcwNGF1RmdGektXN0t3ZW13TGNlOGJDQWhfMVBsNmxNM1U0VEJpVlZKc015NWF1V3FSTC0xeWJ5VWdVb3o2STdldXprS2tCNEJ3WFkxcENfZmx4QXZSNkQxbmFQaVU4QkNLd3NvUjNHNVJDQ3RCeURYcHpuUEk?oc=5",
           "importance": 4,
           "source": "Yahoo!ニュース"
         },
         {
-          "id": "b7db4445bcb4",
-          "title": "豪ドル/円 見通し「連騰で112円台回復...日銀利上げでも金利差は縮まらない公算」注目の高金利通貨 9月20日号",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yUVp5RFJYUkw4Um0yZGNaZnROMEJPVXE3Ml9kY19wUjBCOUJHdTV6T01lWkktYVdZZkEwaHFMZWc2RUZDR2p3QjJsN2tFQlpYUnVJX2dkbnd4YVdJeERhOEZsRQ?oc=5",
+          "id": "8e8da903b767",
+          "title": "日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjUGEtV19fOVFPOU96c2lwM0ZFX2R6aEdmSjVERTZNOTh3QXFUaFhlRnFtWkRGaGJzal9KNDlhenFDR0xRbENBdjdQcmVodEwyMTJXbU81akQ1X1lzU0ZPT00tcw?oc=5",
           "importance": 4,
-          "source": "外為どっとコム"
+          "source": "gaitame.com"
+        },
+        {
+          "id": "852cada93859",
+          "title": "来週の為替予想（米ドル/円）日銀利上げなのになぜか円安、植田会見後のドル円 次の節目は159円台 ハロンズFX 2026/9/19",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mUUpNOGd0ZVJzUU1LWFhtUFZyQ29fbDJCSV9ROEk4TjJ6M0Vfdkd5WTlxVi1iakVYcXk4SE5UVE9mUE9mVWdyaWk2UDJCblFNSmg3djlLTG9abFozcE9iRHR4MA?oc=5",
+          "importance": 4,
+          "source": "gaitame.com"
         }
       ],
       "stocks": [
         {
-          "code": "8766",
-          "name": "東京海上ホールディングス",
+          "code": "7201",
+          "name": "日産自動車",
           "positive": 3,
-          "negative": 0,
+          "negative": 1,
           "watch": 0
         }
       ],
@@ -5031,10 +4842,11 @@
       "category_emoji": "🏭",
       "member_ids": [
         "88624d944acf",
+        "342572c50f0a",
+        "8e8da903b767",
         "852cada93859",
         "756c7c9e0713",
-        "e0737a8dba5f",
-        "0e3d1d482459"
+        "e0737a8dba5f"
       ],
       "members": [
         {
@@ -5045,11 +4857,25 @@
           "source": "Yahoo!ニュース"
         },
         {
+          "id": "342572c50f0a",
+          "title": "日銀利上げでも円安に シルバーウィーク中の実弾介入は?「レートチェック」めぐり増す警戒",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qOWcwNGF1RmdGektXN0t3ZW13TGNlOGJDQWhfMVBsNmxNM1U0VEJpVlZKc015NWF1V3FSTC0xeWJ5VWdVb3o2STdldXprS2tCNEJ3WFkxcENfZmx4QXZSNkQxbmFQaVU4QkNLd3NvUjNHNVJDQ3RCeURYcHpuUEk?oc=5",
+          "importance": 4,
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "id": "8e8da903b767",
+          "title": "日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjUGEtV19fOVFPOU96c2lwM0ZFX2R6aEdmSjVERTZNOTh3QXFUaFhlRnFtWkRGaGJzal9KNDlhenFDR0xRbENBdjdQcmVodEwyMTJXbU81akQ1X1lzU0ZPT00tcw?oc=5",
+          "importance": 4,
+          "source": "gaitame.com"
+        },
+        {
           "id": "852cada93859",
           "title": "来週の為替予想（米ドル/円）日銀利上げなのになぜか円安、植田会見後のドル円 次の節目は159円台 ハロンズFX 2026/9/19",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mUUpNOGd0ZVJzUU1LWFhtUFZyQ29fbDJCSV9ROEk4TjJ6M0Vfdkd5WTlxVi1iakVYcXk4SE5UVE9mUE9mVWdyaWk2UDJCblFNSmg3djlLTG9abFozcE9iRHR4MA?oc=5",
           "importance": 4,
-          "source": "外為どっとコム"
+          "source": "gaitame.com"
         },
         {
           "id": "756c7c9e0713",
@@ -5064,34 +4890,27 @@
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5jNFpqWV8wV1FuZWl2dC1rSHBtTFVSZnp2Ukc5bTVvRXNzaFFzMWQ5bmlYS2cxLVM0WFlYNHhJWWkyQVB3dDZEY2xKZ3ZBQQ?oc=5",
           "importance": 3,
           "source": "静岡新聞DIGITAL"
-        },
-        {
-          "id": "0e3d1d482459",
-          "title": "日銀レートチェック再び、連休前に円安けん制 投機筋｢不意突かれた｣",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJTnpTdWk2VUJ3YjRWM0NtWDRFTXh3c0pIcmd6cHl5ai1JcXAxazl2d1FSZ1RyaG8tWEpxUlZKT0pieS1sb2tkU3dPdEszb0tjT1g1ZHU0RGg0b2lsTEo5OHVHc3dGd1dja3NDbQ?oc=5",
-          "importance": 2,
-          "source": "日本経済新聞"
         }
       ],
       "stocks": [
         {
           "code": "7203",
           "name": "トヨタ自動車",
-          "positive": 2,
+          "positive": 3,
           "negative": 3,
           "watch": 0
         },
         {
           "code": "7267",
           "name": "本田技研工業",
-          "positive": 2,
+          "positive": 3,
           "negative": 3,
           "watch": 0
         },
         {
           "code": "7201",
           "name": "日産自動車",
-          "positive": 2,
+          "positive": 3,
           "negative": 1,
           "watch": 0
         },
@@ -5105,150 +4924,15 @@
         {
           "code": "7270",
           "name": "SUBARU",
-          "positive": 1,
+          "positive": 0,
           "negative": 1,
           "watch": 0
         },
         {
           "code": "7261",
           "name": "マツダ",
-          "positive": 1,
+          "positive": 0,
           "negative": 1,
-          "watch": 0
-        }
-      ],
-      "max_importance": 5,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "connection_type": "sector",
-      "connection_label": "同じ業界",
-      "theme_id": null,
-      "label": "保険業界のニュース",
-      "category": "",
-      "category_label": "同じ業界",
-      "category_emoji": "🏭",
-      "member_ids": [
-        "f91a1622462e",
-        "a5c61d2d25c0",
-        "b7db4445bcb4"
-      ],
-      "members": [
-        {
-          "id": "f91a1622462e",
-          "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
-          "importance": 5,
-          "source": "テレ朝NEWS"
-        },
-        {
-          "id": "a5c61d2d25c0",
-          "title": "円相場に一段安リスク、日銀の利上げ姿勢に失望感－連休で流動性低下（Bloomberg）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JUDZ5dHV4d2llb3daY3o1b2w4MGRLSUY1RFdUWTNpN1Zyc3hjaThZY3VHY1hGbHIzN3ZrT25tR3RzUHJlT0JZMnFvSm83YXp1ZkdTdmw5a0xZcnF6MU5mZlBTQlVkS2pnaUJ6WnRhOTZpaVZJOXA5Z3U3V0FHUlk?oc=5",
-          "importance": 4,
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "id": "b7db4445bcb4",
-          "title": "豪ドル/円 見通し「連騰で112円台回復...日銀利上げでも金利差は縮まらない公算」注目の高金利通貨 9月20日号",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yUVp5RFJYUkw4Um0yZGNaZnROMEJPVXE3Ml9kY19wUjBCOUJHdTV6T01lWkktYVdZZkEwaHFMZWc2RUZDR2p3QjJsN2tFQlpYUnVJX2dkbnd4YVdJeERhOEZsRQ?oc=5",
-          "importance": 4,
-          "source": "外為どっとコム"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "8766",
-          "name": "東京海上ホールディングス",
-          "positive": 3,
-          "negative": 0,
-          "watch": 0
-        }
-      ],
-      "max_importance": 5,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "connection_type": "sector",
-      "connection_label": "同じ業界",
-      "theme_id": null,
-      "label": "不動産業界のニュース",
-      "category": "",
-      "category_label": "同じ業界",
-      "category_emoji": "🏭",
-      "member_ids": [
-        "f91a1622462e",
-        "a5c61d2d25c0",
-        "b7db4445bcb4"
-      ],
-      "members": [
-        {
-          "id": "f91a1622462e",
-          "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
-          "importance": 5,
-          "source": "テレ朝NEWS"
-        },
-        {
-          "id": "a5c61d2d25c0",
-          "title": "円相場に一段安リスク、日銀の利上げ姿勢に失望感－連休で流動性低下（Bloomberg）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JUDZ5dHV4d2llb3daY3o1b2w4MGRLSUY1RFdUWTNpN1Zyc3hjaThZY3VHY1hGbHIzN3ZrT25tR3RzUHJlT0JZMnFvSm83YXp1ZkdTdmw5a0xZcnF6MU5mZlBTQlVkS2pnaUJ6WnRhOTZpaVZJOXA5Z3U3V0FHUlk?oc=5",
-          "importance": 4,
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "id": "b7db4445bcb4",
-          "title": "豪ドル/円 見通し「連騰で112円台回復...日銀利上げでも金利差は縮まらない公算」注目の高金利通貨 9月20日号",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yUVp5RFJYUkw4Um0yZGNaZnROMEJPVXE3Ml9kY19wUjBCOUJHdTV6T01lWkktYVdZZkEwaHFMZWc2RUZDR2p3QjJsN2tFQlpYUnVJX2dkbnd4YVdJeERhOEZsRQ?oc=5",
-          "importance": 4,
-          "source": "外為どっとコム"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "8801",
-          "name": "三井不動産",
-          "positive": 0,
-          "negative": 3,
-          "watch": 0
-        },
-        {
-          "code": "8802",
-          "name": "三菱地所",
-          "positive": 0,
-          "negative": 3,
           "watch": 0
         }
       ],
@@ -5281,6 +4965,7 @@
       "category_emoji": "🏭",
       "member_ids": [
         "d2ffc7e96216",
+        "f8901ce974d1",
         "0c5ca9751608",
         "8f55fee13666"
       ],
@@ -5291,6 +4976,13 @@
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA4dFBlSThSMkQ0RlJ6VjlJMUNia24wSHNsX29GSFJqTFFpeVZLN1daNkpBODlqZUo1a0ZkTkVzdGtVWV9YWlRiQ2ltd0xsNklHVEthUWJWaGItcjRLV21mc2EwY1RGcE1GOHNJSFln?oc=5",
           "importance": 4,
           "source": "XenoSpectrum"
+        },
+        {
+          "id": "f8901ce974d1",
+          "title": "フーシとサウジの戦闘激化 首都リヤドにも攻撃 原油価格高騰に懸念 [米・イスラエルのイラン攻撃 イラン情勢]",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uMXgwNTdYVzVsUkowQWc0VVgwZURIRnJMOERuQU1MU1JrenhPWWY2TThqSjRxU29CQ2QyT2Z0cTNfT2ZPTko0SW1MRFZ2V0I1cnQ4M1Z0eGNPMzV3X0t6b0JyX3ZVc1U?oc=5",
+          "importance": 3,
+          "source": "朝日新聞"
         },
         {
           "id": "0c5ca9751608",
@@ -5304,7 +4996,7 @@
           "title": "欧州議会、社会全体のレジリエンス構築における台湾の成功事例を評価する決議を採択",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE80S19ua0RWeFNLZ1o1aHFJNVJJbFpkRVpSbG9PT0I4NHpWZkh3NWJjaDBnazBVLUVOZ3lvMDQ4ZG9TQXVjOGtkQXl3bGM?oc=5",
           "importance": 2,
-          "source": "Taiwan Today"
+          "source": "jp.taiwantoday.tw"
         }
       ],
       "stocks": [
@@ -5330,15 +5022,15 @@
           "watch": 0
         },
         {
-          "code": "7735",
-          "name": "SCREENホールディングス",
-          "positive": 1,
+          "code": "6503",
+          "name": "三菱電機",
+          "positive": 2,
           "negative": 0,
           "watch": 0
         },
         {
-          "code": "6503",
-          "name": "三菱電機",
+          "code": "7735",
+          "name": "SCREENホールディングス",
           "positive": 1,
           "negative": 0,
           "watch": 0
@@ -5371,34 +5063,25 @@
       "emergence_growth": {}
     },
     {
-      "connection_type": "supply_chain",
-      "connection_label": "資源・サプライチェーン",
+      "connection_type": "sector",
+      "connection_label": "同じ業界",
       "theme_id": null,
-      "label": "自動車に関連するニュース",
+      "label": "化学業界のニュース",
       "category": "",
-      "category_label": "資源・サプライチェーン",
-      "category_emoji": "🔗",
+      "category_label": "同じ業界",
+      "category_emoji": "🏭",
       "member_ids": [
-        "88624d944acf",
-        "852cada93859",
+        "d2ffc7e96216",
         "756c7c9e0713",
-        "e0737a8dba5f",
-        "0e3d1d482459"
+        "e0737a8dba5f"
       ],
       "members": [
         {
-          "id": "88624d944acf",
-          "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か（TBS NEWS DIG Powered by JNN）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VOWNfXzF6eUE3TVRWdTM5VnNPSEkzTXZub1FOaEJhRE1mUVNNUE5uaExWTHlwUlFnS2pMOTZEVVlCdWxENTl3STJXTXlVZ2k3WlA5RnUydERkNlRZMG1UY2hlTmhLRWh4UDVLbDRoelI1Y0hweGlvaXpGaDdXdXM?oc=5",
-          "importance": 5,
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "id": "852cada93859",
-          "title": "来週の為替予想（米ドル/円）日銀利上げなのになぜか円安、植田会見後のドル円 次の節目は159円台 ハロンズFX 2026/9/19",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mUUpNOGd0ZVJzUU1LWFhtUFZyQ29fbDJCSV9ROEk4TjJ6M0Vfdkd5WTlxVi1iakVYcXk4SE5UVE9mUE9mVWdyaWk2UDJCblFNSmg3djlLTG9abFozcE9iRHR4MA?oc=5",
+          "id": "d2ffc7e96216",
+          "title": "半導体製造装置の部品納期が最大40カ月との報道、AI増産を支える設備投資に調達の壁",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA4dFBlSThSMkQ0RlJ6VjlJMUNia24wSHNsX29GSFJqTFFpeVZLN1daNkpBODlqZUo1a0ZkTkVzdGtVWV9YWlRiQ2ltd0xsNklHVEthUWJWaGItcjRLV21mc2EwY1RGcE1GOHNJSFln?oc=5",
           "importance": 4,
-          "source": "外為どっとコム"
+          "source": "XenoSpectrum"
         },
         {
           "id": "756c7c9e0713",
@@ -5413,34 +5096,178 @@
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5jNFpqWV8wV1FuZWl2dC1rSHBtTFVSZnp2Ukc5bTVvRXNzaFFzMWQ5bmlYS2cxLVM0WFlYNHhJWWkyQVB3dDZEY2xKZ3ZBQQ?oc=5",
           "importance": 3,
           "source": "静岡新聞DIGITAL"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "4063",
+          "name": "信越化学工業",
+          "positive": 1,
+          "negative": 2,
+          "watch": 0
         },
         {
-          "id": "0e3d1d482459",
-          "title": "日銀レートチェック再び、連休前に円安けん制 投機筋｢不意突かれた｣",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJTnpTdWk2VUJ3YjRWM0NtWDRFTXh3c0pIcmd6cHl5ai1JcXAxazl2d1FSZ1RyaG8tWEpxUlZKT0pieS1sb2tkU3dPdEszb0tjT1g1ZHU0RGg0b2lsTEo5OHVHc3dGd1dja3NDbQ?oc=5",
-          "importance": 2,
-          "source": "日本経済新聞"
+          "code": "4004",
+          "name": "レゾナック・ホールディングス",
+          "positive": 1,
+          "negative": 0,
+          "watch": 0
+        }
+      ],
+      "max_importance": 4,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "connection_type": "sector",
+      "connection_label": "同じ業界",
+      "theme_id": null,
+      "label": "保険業界のニュース",
+      "category": "",
+      "category_label": "同じ業界",
+      "category_emoji": "🏭",
+      "member_ids": [
+        "f91a1622462e",
+        "b7db4445bcb4"
+      ],
+      "members": [
+        {
+          "id": "f91a1622462e",
+          "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
+          "importance": 5,
+          "source": "テレ朝NEWS"
+        },
+        {
+          "id": "b7db4445bcb4",
+          "title": "豪ドル/円 見通し「連騰で112円台回復...日銀利上げでも金利差は縮まらない公算」注目の高金利通貨 9月20日号",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yUVp5RFJYUkw4Um0yZGNaZnROMEJPVXE3Ml9kY19wUjBCOUJHdTV6T01lWkktYVdZZkEwaHFMZWc2RUZDR2p3QjJsN2tFQlpYUnVJX2dkbnd4YVdJeERhOEZsRQ?oc=5",
+          "importance": 4,
+          "source": "gaitame.com"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "8766",
+          "name": "東京海上ホールディングス",
+          "positive": 2,
+          "negative": 0,
+          "watch": 0
+        }
+      ],
+      "max_importance": 5,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "connection_type": "supply_chain",
+      "connection_label": "資源・サプライチェーン",
+      "theme_id": null,
+      "label": "自動車に関連するニュース",
+      "category": "",
+      "category_label": "資源・サプライチェーン",
+      "category_emoji": "🔗",
+      "member_ids": [
+        "88624d944acf",
+        "342572c50f0a",
+        "8e8da903b767",
+        "852cada93859",
+        "756c7c9e0713",
+        "e0737a8dba5f"
+      ],
+      "members": [
+        {
+          "id": "88624d944acf",
+          "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か（TBS NEWS DIG Powered by JNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VOWNfXzF6eUE3TVRWdTM5VnNPSEkzTXZub1FOaEJhRE1mUVNNUE5uaExWTHlwUlFnS2pMOTZEVVlCdWxENTl3STJXTXlVZ2k3WlA5RnUydERkNlRZMG1UY2hlTmhLRWh4UDVLbDRoelI1Y0hweGlvaXpGaDdXdXM?oc=5",
+          "importance": 5,
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "id": "342572c50f0a",
+          "title": "日銀利上げでも円安に シルバーウィーク中の実弾介入は?「レートチェック」めぐり増す警戒",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qOWcwNGF1RmdGektXN0t3ZW13TGNlOGJDQWhfMVBsNmxNM1U0VEJpVlZKc015NWF1V3FSTC0xeWJ5VWdVb3o2STdldXprS2tCNEJ3WFkxcENfZmx4QXZSNkQxbmFQaVU4QkNLd3NvUjNHNVJDQ3RCeURYcHpuUEk?oc=5",
+          "importance": 4,
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "id": "8e8da903b767",
+          "title": "日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjUGEtV19fOVFPOU96c2lwM0ZFX2R6aEdmSjVERTZNOTh3QXFUaFhlRnFtWkRGaGJzal9KNDlhenFDR0xRbENBdjdQcmVodEwyMTJXbU81akQ1X1lzU0ZPT00tcw?oc=5",
+          "importance": 4,
+          "source": "gaitame.com"
+        },
+        {
+          "id": "852cada93859",
+          "title": "来週の為替予想（米ドル/円）日銀利上げなのになぜか円安、植田会見後のドル円 次の節目は159円台 ハロンズFX 2026/9/19",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mUUpNOGd0ZVJzUU1LWFhtUFZyQ29fbDJCSV9ROEk4TjJ6M0Vfdkd5WTlxVi1iakVYcXk4SE5UVE9mUE9mVWdyaWk2UDJCblFNSmg3djlLTG9abFozcE9iRHR4MA?oc=5",
+          "importance": 4,
+          "source": "gaitame.com"
+        },
+        {
+          "id": "756c7c9e0713",
+          "title": "中国、8月の対日レアアース輸出は212トン　前年同月比で17％減、落ち込み続く",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbnlyR1l6NmFKTV9sOVhXdjI0ZjJDNDZBVmZPS05USld4UTVZbnhkYmpVaUF6a2p1NTlyQU03aDJYQ0RmMjZNRlZncG5IM3hJMkQ5TjVha3hRcklCRmppclFpYlVHblBCM0hMQmxleGRzdndtelRvYWo0akNpSkU3YmlMNllsYkdXRVlMUG5NenBDd9IBkgFBVV95cUxNbnlyR1l6NmFKTV9sOVhXdjI0ZjJDNDZBVmZPS05USld4UTVZbnhkYmpVaUF6a2p1NTlyQU03aDJYQ0RmMjZNRlZncG5IM3hJMkQ5TjVha3hRcklCRmppclFpYlVHblBCM0hMQmxleGRzdndtelRvYWo0akNpSkU3YmlMNllsYkdXRVlMUG5NenBDdw?oc=5",
+          "importance": 3,
+          "source": "Infoseek"
+        },
+        {
+          "id": "e0737a8dba5f",
+          "title": "対日レアアース磁石輸出１７％減 中国８月、２００トン台回復",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5jNFpqWV8wV1FuZWl2dC1rSHBtTFVSZnp2Ukc5bTVvRXNzaFFzMWQ5bmlYS2cxLVM0WFlYNHhJWWkyQVB3dDZEY2xKZ3ZBQQ?oc=5",
+          "importance": 3,
+          "source": "静岡新聞DIGITAL"
         }
       ],
       "stocks": [
         {
           "code": "7203",
           "name": "トヨタ自動車",
-          "positive": 2,
+          "positive": 3,
           "negative": 3,
           "watch": 0
         },
         {
           "code": "7267",
           "name": "本田技研工業",
-          "positive": 2,
+          "positive": 3,
           "negative": 3,
           "watch": 0
         },
         {
           "code": "7201",
           "name": "日産自動車",
-          "positive": 2,
+          "positive": 3,
           "negative": 1,
           "watch": 0
         },
@@ -5454,14 +5281,14 @@
         {
           "code": "7270",
           "name": "SUBARU",
-          "positive": 1,
+          "positive": 0,
           "negative": 1,
           "watch": 0
         },
         {
           "code": "7261",
           "name": "マツダ",
-          "positive": 1,
+          "positive": 0,
           "negative": 1,
           "watch": 0
         }
@@ -5495,10 +5322,11 @@
       "category_emoji": "🔗",
       "member_ids": [
         "88624d944acf",
+        "342572c50f0a",
+        "8e8da903b767",
         "852cada93859",
         "756c7c9e0713",
-        "e0737a8dba5f",
-        "0e3d1d482459"
+        "e0737a8dba5f"
       ],
       "members": [
         {
@@ -5509,11 +5337,25 @@
           "source": "Yahoo!ニュース"
         },
         {
+          "id": "342572c50f0a",
+          "title": "日銀利上げでも円安に シルバーウィーク中の実弾介入は?「レートチェック」めぐり増す警戒",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qOWcwNGF1RmdGektXN0t3ZW13TGNlOGJDQWhfMVBsNmxNM1U0VEJpVlZKc015NWF1V3FSTC0xeWJ5VWdVb3o2STdldXprS2tCNEJ3WFkxcENfZmx4QXZSNkQxbmFQaVU4QkNLd3NvUjNHNVJDQ3RCeURYcHpuUEk?oc=5",
+          "importance": 4,
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "id": "8e8da903b767",
+          "title": "日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjUGEtV19fOVFPOU96c2lwM0ZFX2R6aEdmSjVERTZNOTh3QXFUaFhlRnFtWkRGaGJzal9KNDlhenFDR0xRbENBdjdQcmVodEwyMTJXbU81akQ1X1lzU0ZPT00tcw?oc=5",
+          "importance": 4,
+          "source": "gaitame.com"
+        },
+        {
           "id": "852cada93859",
           "title": "来週の為替予想（米ドル/円）日銀利上げなのになぜか円安、植田会見後のドル円 次の節目は159円台 ハロンズFX 2026/9/19",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mUUpNOGd0ZVJzUU1LWFhtUFZyQ29fbDJCSV9ROEk4TjJ6M0Vfdkd5WTlxVi1iakVYcXk4SE5UVE9mUE9mVWdyaWk2UDJCblFNSmg3djlLTG9abFozcE9iRHR4MA?oc=5",
           "importance": 4,
-          "source": "外為どっとコム"
+          "source": "gaitame.com"
         },
         {
           "id": "756c7c9e0713",
@@ -5528,34 +5370,27 @@
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5jNFpqWV8wV1FuZWl2dC1rSHBtTFVSZnp2Ukc5bTVvRXNzaFFzMWQ5bmlYS2cxLVM0WFlYNHhJWWkyQVB3dDZEY2xKZ3ZBQQ?oc=5",
           "importance": 3,
           "source": "静岡新聞DIGITAL"
-        },
-        {
-          "id": "0e3d1d482459",
-          "title": "日銀レートチェック再び、連休前に円安けん制 投機筋｢不意突かれた｣",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJTnpTdWk2VUJ3YjRWM0NtWDRFTXh3c0pIcmd6cHl5ai1JcXAxazl2d1FSZ1RyaG8tWEpxUlZKT0pieS1sb2tkU3dPdEszb0tjT1g1ZHU0RGg0b2lsTEo5OHVHc3dGd1dja3NDbQ?oc=5",
-          "importance": 2,
-          "source": "日本経済新聞"
         }
       ],
       "stocks": [
         {
           "code": "7203",
           "name": "トヨタ自動車",
-          "positive": 2,
+          "positive": 3,
           "negative": 3,
           "watch": 0
         },
         {
           "code": "7267",
           "name": "本田技研工業",
-          "positive": 2,
+          "positive": 3,
           "negative": 3,
           "watch": 0
         },
         {
           "code": "7201",
           "name": "日産自動車",
-          "positive": 2,
+          "positive": 3,
           "negative": 1,
           "watch": 0
         }
@@ -5589,10 +5424,11 @@
       "category_emoji": "🔗",
       "member_ids": [
         "88624d944acf",
+        "342572c50f0a",
+        "8e8da903b767",
         "852cada93859",
         "756c7c9e0713",
-        "e0737a8dba5f",
-        "0e3d1d482459"
+        "e0737a8dba5f"
       ],
       "members": [
         {
@@ -5603,11 +5439,25 @@
           "source": "Yahoo!ニュース"
         },
         {
+          "id": "342572c50f0a",
+          "title": "日銀利上げでも円安に シルバーウィーク中の実弾介入は?「レートチェック」めぐり増す警戒",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qOWcwNGF1RmdGektXN0t3ZW13TGNlOGJDQWhfMVBsNmxNM1U0VEJpVlZKc015NWF1V3FSTC0xeWJ5VWdVb3o2STdldXprS2tCNEJ3WFkxcENfZmx4QXZSNkQxbmFQaVU4QkNLd3NvUjNHNVJDQ3RCeURYcHpuUEk?oc=5",
+          "importance": 4,
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "id": "8e8da903b767",
+          "title": "日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjUGEtV19fOVFPOU96c2lwM0ZFX2R6aEdmSjVERTZNOTh3QXFUaFhlRnFtWkRGaGJzal9KNDlhenFDR0xRbENBdjdQcmVodEwyMTJXbU81akQ1X1lzU0ZPT00tcw?oc=5",
+          "importance": 4,
+          "source": "gaitame.com"
+        },
+        {
           "id": "852cada93859",
           "title": "来週の為替予想（米ドル/円）日銀利上げなのになぜか円安、植田会見後のドル円 次の節目は159円台 ハロンズFX 2026/9/19",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mUUpNOGd0ZVJzUU1LWFhtUFZyQ29fbDJCSV9ROEk4TjJ6M0Vfdkd5WTlxVi1iakVYcXk4SE5UVE9mUE9mVWdyaWk2UDJCblFNSmg3djlLTG9abFozcE9iRHR4MA?oc=5",
           "importance": 4,
-          "source": "外為どっとコム"
+          "source": "gaitame.com"
         },
         {
           "id": "756c7c9e0713",
@@ -5622,34 +5472,27 @@
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5jNFpqWV8wV1FuZWl2dC1rSHBtTFVSZnp2Ukc5bTVvRXNzaFFzMWQ5bmlYS2cxLVM0WFlYNHhJWWkyQVB3dDZEY2xKZ3ZBQQ?oc=5",
           "importance": 3,
           "source": "静岡新聞DIGITAL"
-        },
-        {
-          "id": "0e3d1d482459",
-          "title": "日銀レートチェック再び、連休前に円安けん制 投機筋｢不意突かれた｣",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJTnpTdWk2VUJ3YjRWM0NtWDRFTXh3c0pIcmd6cHl5ai1JcXAxazl2d1FSZ1RyaG8tWEpxUlZKT0pieS1sb2tkU3dPdEszb0tjT1g1ZHU0RGg0b2lsTEo5OHVHc3dGd1dja3NDbQ?oc=5",
-          "importance": 2,
-          "source": "日本経済新聞"
         }
       ],
       "stocks": [
         {
           "code": "7203",
           "name": "トヨタ自動車",
-          "positive": 2,
+          "positive": 3,
           "negative": 3,
           "watch": 0
         },
         {
           "code": "7267",
           "name": "本田技研工業",
-          "positive": 2,
+          "positive": 3,
           "negative": 3,
           "watch": 0
         },
         {
           "code": "7201",
           "name": "日産自動車",
-          "positive": 2,
+          "positive": 3,
           "negative": 1,
           "watch": 0
         },
@@ -5729,7 +5572,7 @@
           "title": "欧州議会、社会全体のレジリエンス構築における台湾の成功事例を評価する決議を採択",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE80S19ua0RWeFNLZ1o1aHFJNVJJbFpkRVpSbG9PT0I4NHpWZkh3NWJjaDBnazBVLUVOZ3lvMDQ4ZG9TQXVjOGtkQXl3bGM?oc=5",
           "importance": 2,
-          "source": "Taiwan Today"
+          "source": "jp.taiwantoday.tw"
         }
       ],
       "stocks": [
@@ -5797,7 +5640,7 @@
     }
   ],
   "counts": {
-    "news": 29,
+    "news": 26,
     "high_importance": 7,
     "stocks": 20
   }

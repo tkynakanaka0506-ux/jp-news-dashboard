@@ -72,6 +72,20 @@
      "signals": [],
      "source": "第一ライフ資産運用経済研究所",
      "title": "日銀は1.25％へ政策金利を引き上げ ２つの反対票について考える | 藤代 宏一 | 第一ライフ資産運用経済研究所"
+    },
+    {
+     "actor_types": [
+      "government_foreign"
+     ],
+     "date": "2026-09-21",
+     "item_id": "8e8da903b767",
+     "origin_region": "米国",
+     "regions": [
+      "米国"
+     ],
+     "signals": [],
+     "source": "gaitame.com",
+     "title": "日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】"
     }
    ],
    "first_seen": "2026-09-20",
@@ -80,7 +94,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 11,
+   "occurrences": 12,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -193,11 +207,47 @@
      "signals": [
       "foreign"
      ],
-     "source": "テレ朝NEWS"
+     "source": "テレ朝NEWS",
+     "title": ""
+    },
+    {
+     "actor_types": [],
+     "date": "2026-09-21",
+     "item_id": "f8901ce974d1",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "朝日新聞",
+     "title": "フーシとサウジの戦闘激化 首都リヤドにも攻撃 原油価格高騰に懸念 [米・イスラエルのイラン攻撃 イラン情勢]"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {},
+   "occurrences": 2
+  },
+  "oil_up": {
+   "events": [
+    {
+     "actor_types": [
+      "government_foreign"
+     ],
+     "date": "2026-09-21",
+     "item_id": "8e8da903b767",
+     "origin_region": "米国",
+     "regions": [
+      "米国"
+     ],
+     "signals": [],
+     "source": "gaitame.com",
+     "title": "日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】"
+    }
+   ],
+   "first_seen": "2026-09-21",
+   "milestones": {
+    "government_foreign": "2026-09-21"
+   },
    "occurrences": 1
   },
   "rare_earth": {
@@ -223,7 +273,7 @@
    "milestones": {
     "media": "2026-09-20"
    },
-   "occurrences": 1
+   "occurrences": 2
   },
   "rate_cut": {
    "events": [
@@ -266,7 +316,7 @@
    ],
    "first_seen": "2026-09-20",
    "milestones": {},
-   "occurrences": 11,
+   "occurrences": 12,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -329,7 +379,7 @@
    ],
    "first_seen": "2026-09-20",
    "milestones": {},
-   "occurrences": 11,
+   "occurrences": 12,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -360,7 +410,7 @@
    "events": [],
    "first_seen": "2026-09-20",
    "milestones": {},
-   "occurrences": 11,
+   "occurrences": 12,
    "signals": {}
   },
   "yen_strong": {
@@ -384,14 +434,31 @@
    "milestones": {
     "media": "2026-09-20"
    },
-   "occurrences": 11,
+   "occurrences": 12,
    "signals": {}
   },
   "yen_weak": {
-   "events": [],
+   "events": [
+    {
+     "actor_types": [
+      "government_foreign"
+     ],
+     "date": "2026-09-21",
+     "item_id": "8e8da903b767",
+     "origin_region": "米国",
+     "regions": [
+      "米国"
+     ],
+     "signals": [],
+     "source": "gaitame.com",
+     "title": "日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】"
+    }
+   ],
    "first_seen": "2026-09-20",
-   "milestones": {},
-   "occurrences": 11,
+   "milestones": {
+    "government_foreign": "2026-09-21"
+   },
+   "occurrences": 12,
    "signals": {}
   }
  }
