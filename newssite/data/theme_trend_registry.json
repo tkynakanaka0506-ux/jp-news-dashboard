@@ -4,7 +4,7 @@
    "events": [],
    "first_seen": "2026-09-20",
    "milestones": {},
-   "occurrences": 5,
+   "occurrences": 6,
    "signals": {}
   },
   "boj_hike": {
@@ -20,7 +20,8 @@
      "signals": [
       "multi_source"
      ],
-     "source": "テレ朝NEWS"
+     "source": "テレ朝NEWS",
+     "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか"
     },
     {
      "actor_types": [],
@@ -31,7 +32,8 @@
      "signals": [
       "multi_source"
      ],
-     "source": ""
+     "source": "",
+     "title": ""
     },
     {
      "actor_types": [],
@@ -42,7 +44,8 @@
      "signals": [
       "multi_source"
      ],
-     "source": ""
+     "source": "",
+     "title": ""
     },
     {
      "actor_types": [
@@ -55,7 +58,8 @@
       "米国"
      ],
      "signals": [],
-     "source": "外為どっとコム"
+     "source": "外為どっとコム",
+     "title": "【ドル/円、来週の見通し】ドル/円、再び160円を試すのか…タカ派利上げのFOMC・ハト派利上げの日銀＿2026/9/18"
     },
     {
      "actor_types": [
@@ -66,7 +70,8 @@
      "origin_region": null,
      "regions": [],
      "signals": [],
-     "source": "第一ライフ資産運用経済研究所"
+     "source": "第一ライフ資産運用経済研究所",
+     "title": "日銀は1.25％へ政策金利を引き上げ ２つの反対票について考える | 藤代 宏一 | 第一ライフ資産運用経済研究所"
     }
    ],
    "first_seen": "2026-09-20",
@@ -75,7 +80,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 5,
+   "occurrences": 6,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -96,7 +101,8 @@
       "gov_policy",
       "gov_source"
      ],
-     "source": "金融庁"
+     "source": "金融庁",
+     "title": "「投資信託及び投資法人に関する法律施行規則の一部を改正する内閣府令」の公布及びパブリックコメントの結果について公表しました。"
     },
     {
      "actor_types": [
@@ -113,7 +119,8 @@
       "gov_source",
       "multi_source"
      ],
-     "source": "金融庁"
+     "source": "金融庁",
+     "title": "記者会見,片山財務大臣兼内閣府特命担当大臣ぶら下がり記者会見の概要（令和８年8月31日）について掲載しました。"
     },
     {
      "actor_types": [
@@ -129,7 +136,8 @@
      "signals": [
       "gov_source"
      ],
-     "source": "首相官邸"
+     "source": "首相官邸",
+     "title": "木原内閣官房長官は技能五輪国際大会（中国・上海大会）における日本選手団による表敬を受けました"
     },
     {
      "actor_types": [
@@ -144,7 +152,8 @@
      "signals": [
       "gov_source"
      ],
-     "source": "農林水産省"
+     "source": "農林水産省",
+     "title": "高市総理ともお話ししたトゥンクトゥンクが、首相官邸から飛び出して“初出張”します！"
     },
     {
      "actor_types": [],
@@ -157,7 +166,8 @@
      "signals": [
       "gov_source"
      ],
-     "source": ""
+     "source": "",
+     "title": ""
     }
    ],
    "first_seen": "2026-09-20",
@@ -165,7 +175,7 @@
     "government_jp": "2026-09-20",
     "media": "2026-09-20"
    },
-   "occurrences": 5,
+   "occurrences": 6,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
@@ -203,14 +213,15 @@
       "米国"
      ],
      "signals": [],
-     "source": "外為どっとコム"
+     "source": "外為どっとコム",
+     "title": "【ドル/円、来週の見通し】ドル/円、再び160円を試すのか…タカ派利上げのFOMC・ハト派利上げの日銀＿2026/9/18"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
     "government_foreign": "2026-09-20"
    },
-   "occurrences": 5,
+   "occurrences": 6,
    "signals": {}
   },
   "semi_demand": {
@@ -224,15 +235,39 @@
      "signals": [
       "capex"
      ],
-     "source": "xenospectrum.com"
+     "source": "xenospectrum.com",
+     "title": "半導体製造装置の部品納期が最大40カ月との報道、AI増産を支える設備投資に調達の壁"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {},
-   "occurrences": 5,
+   "occurrences": 6,
    "signals": {
     "capex": "2026-09-20"
    }
+  },
+  "shipping_rate": {
+   "events": [
+    {
+     "actor_types": [
+      "government_jp"
+     ],
+     "date": "2026-09-20",
+     "item_id": "74150d54ca0e",
+     "origin_region": "日本",
+     "regions": [],
+     "signals": [
+      "gov_source"
+     ],
+     "source": "防衛省",
+     "title": "北朝鮮籍船舶の「瀬取り」を含む違法な海上活動に対するオーストラリアによる警戒監視活動について"
+    }
+   ],
+   "first_seen": "2026-09-20",
+   "milestones": {
+    "government_jp": "2026-09-20"
+   },
+   "occurrences": 1
   },
   "taiwan_china": {
    "events": [
@@ -248,7 +283,8 @@
      "signals": [
       "foreign"
      ],
-     "source": "Taiwan Today"
+     "source": "Taiwan Today",
+     "title": "欧州議会、社会全体のレジリエンス構築における台湾の成功事例を評価する決議を採択"
     },
     {
      "actor_types": [],
@@ -262,12 +298,13 @@
      "signals": [
       "foreign"
      ],
-     "source": "風傳媒"
+     "source": "風傳媒",
+     "title": "台湾への「一国二制度」案、中国の専門家らが12項目 解放軍駐留、非平和統一なら3～5年の「準軍事統治」"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {},
-   "occurrences": 5,
+   "occurrences": 6,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -283,12 +320,13 @@
      "signals": [
       "foreign"
      ],
-     "source": "Vietnam.vn"
+     "source": "Vietnam.vn",
+     "title": "ウクライナは、ロシアとのエネルギー停戦に関して進展が見込めると考えている。"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {},
-   "occurrences": 5,
+   "occurrences": 6,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -297,21 +335,38 @@
    "events": [],
    "first_seen": "2026-09-20",
    "milestones": {},
-   "occurrences": 5,
+   "occurrences": 6,
    "signals": {}
   },
   "yen_strong": {
-   "events": [],
+   "events": [
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-09-20",
+     "item_id": "88624d944acf",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "multi_source"
+     ],
+     "source": "Yahoo!ニュース",
+     "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か（TBS NEWS DIG Powered by JNN）"
+    }
+   ],
    "first_seen": "2026-09-20",
-   "milestones": {},
-   "occurrences": 5,
+   "milestones": {
+    "media": "2026-09-20"
+   },
+   "occurrences": 6,
    "signals": {}
   },
   "yen_weak": {
    "events": [],
    "first_seen": "2026-09-20",
    "milestones": {},
-   "occurrences": 5,
+   "occurrences": 6,
    "signals": {}
   }
  }

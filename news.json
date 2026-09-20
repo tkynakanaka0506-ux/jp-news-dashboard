@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-20 12:17",
-  "generated_iso": "2026-09-20T12:17:59+09:00",
+  "generated_at": "2026-09-20 13:46",
+  "generated_iso": "2026-09-20T13:46:06+09:00",
   "status": "updated",
   "status_message": "40 件のニュースを取得しました。",
   "llm_used": true,
@@ -303,6 +303,452 @@
           "source": "ABEMA"
         }
       ],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "88624d944acf",
+      "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か（TBS NEWS DIG Powered by JNN）",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VOWNfXzF6eUE3TVRWdTM5VnNPSEkzTXZub1FOaEJhRE1mUVNNUE5uaExWTHlwUlFnS2pMOTZEVVlCdWxENTl3STJXTXlVZ2k3WlA5RnUydERkNlRZMG1UY2hlTmhLRWh4UDVLbDRoelI1Y0hweGlvaXpGaDdXdXM?oc=5",
+      "source": "Yahoo!ニュース",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-09-19 05:37",
+      "published_ts": 1789763828.0,
+      "category": "fx",
+      "category_label": "為替",
+      "category_emoji": "💱",
+      "importance": 5,
+      "importance_reason": "重要語「為替介入」・影響テーマ「円高進行」に該当・2媒体が報道",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": "yen_strong-20260920-01",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-09-20",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "円高進行"
+      ],
+      "theme_ids": [
+        "yen_strong"
+      ],
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "sector": "自動車",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "theme": "円高進行",
+          "theme_id": "yen_strong",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "円高",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 63,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7267",
+          "name": "本田技研工業",
+          "sector": "自動車",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "theme": "円高進行",
+          "theme_id": "yen_strong",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "円高",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 63,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7201",
+          "name": "日産自動車",
+          "sector": "自動車",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "theme": "円高進行",
+          "theme_id": "yen_strong",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "円高",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 63,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7269",
+          "name": "スズキ",
+          "sector": "自動車",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "theme": "円高進行",
+          "theme_id": "yen_strong",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "円高",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 63,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7270",
+          "name": "SUBARU",
+          "sector": "自動車",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "theme": "円高進行",
+          "theme_id": "yen_strong",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "円高",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 63,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7261",
+          "name": "マツダ",
+          "sector": "自動車",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "theme": "円高進行",
+          "theme_id": "yen_strong",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "円高",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 63,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9201",
+          "name": "日本航空",
+          "sector": "空運",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「円高」に反応: 輸入コスト低下が採算改善につながりやすい",
+          "theme": "円高進行",
+          "theme_id": "yen_strong",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "円高",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 63,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9202",
+          "name": "ANAホールディングス",
+          "sector": "空運",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「円高」に反応: 輸入コスト低下が採算改善につながりやすい",
+          "theme": "円高進行",
+          "theme_id": "yen_strong",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "円高",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 63,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [
+        {
+          "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSDBmRFQydnNVQmxoSVlpTWw4eXZzZ29VeFJVR1RWX1JTUUVUOGJGSThvcWJLS2dHMXBTSjVMaFFpczdULWFhQVpmaVhZQS11SmxjN2h4YnVkU3RUeFRIWVhWOGFqSUxwaGRfNkNPUWdjdlpIVmkwSGNyQ2VZN3FyMXZCMHJXUVdZTGxwXw?oc=5",
+          "source": "newsdig.tbs.co.jp"
+        }
+      ],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "27fd73be92e9",
+      "title": "市場では年内にも利上げの見方も 日銀、政策金利1.25％に引き上げ 金融政策決定会合",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zRFdGeE1tbldFMWY1SGlrbU5VdEgtVlN3QVVCTWpxN2lGTHJTN25rQTdFY1lsdVFaS1MwR3FJRHRxTi1HSjhMUERxMUhZS1hqblFtYV9vZFB5RngtNjVLNHZtMnRBM1RSY2U5cjRn?oc=5",
+      "source": "au Webポータル",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-09-18 20:42",
+      "published_ts": 1789731720.0,
+      "category": "policy",
+      "category_label": "金融政策・金利",
+      "category_emoji": "🏦",
+      "importance": 5,
+      "importance_reason": "重要語「利上げ」・影響テーマ「日銀の利上げ・金融正常化」に該当",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": "boj_hike-20260920-01",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-09-20",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "日銀の利上げ・金融正常化"
+      ],
+      "theme_ids": [
+        "boj_hike"
+      ],
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "8306",
+          "name": "三菱UFJフィナンシャル・グループ",
+          "sector": "銀行",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "theme": "日銀の利上げ・金融正常化",
+          "theme_id": "boj_hike",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "日銀 利上げ",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 70,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8316",
+          "name": "三井住友フィナンシャルグループ",
+          "sector": "銀行",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "theme": "日銀の利上げ・金融正常化",
+          "theme_id": "boj_hike",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "日銀 利上げ",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 70,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8411",
+          "name": "みずほフィナンシャルグループ",
+          "sector": "銀行",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "theme": "日銀の利上げ・金融正常化",
+          "theme_id": "boj_hike",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "日銀 利上げ",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 70,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8309",
+          "name": "三井住友トラスト・ホールディングス",
+          "sector": "銀行",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "theme": "日銀の利上げ・金融正常化",
+          "theme_id": "boj_hike",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "日銀 利上げ",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 70,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7182",
+          "name": "ゆうちょ銀行",
+          "sector": "銀行",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "theme": "日銀の利上げ・金融正常化",
+          "theme_id": "boj_hike",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "日銀 利上げ",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 70,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8766",
+          "name": "東京海上ホールディングス",
+          "sector": "保険",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "theme": "日銀の利上げ・金融正常化",
+          "theme_id": "boj_hike",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "日銀 利上げ",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 70,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8801",
+          "name": "三井不動産",
+          "sector": "不動産",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
+          "theme": "日銀の利上げ・金融正常化",
+          "theme_id": "boj_hike",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "3-6m",
+          "revenue_horizon_label": "3〜6ヶ月",
+          "matched_keyword": "日銀 利上げ",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 60,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8802",
+          "name": "三菱地所",
+          "sector": "不動産",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
+          "theme": "日銀の利上げ・金融正常化",
+          "theme_id": "boj_hike",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "3-6m",
+          "revenue_horizon_label": "3〜6ヶ月",
+          "matched_keyword": "日銀 利上げ",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 60,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [],
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -769,7 +1215,7 @@
       "id": "fe66970e63d0",
       "title": "日銀は1.25％へ政策金利を引き上げ ２つの反対票について考える | 藤代 宏一 | 第一ライフ資産運用経済研究所",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xTnFfTWhMbzk0VmtUT3dLUFVZdjVSaFJxbmdYSjUwZDloUDYtZ2h2ZTdoNnVZSWRRWG1WdGQtNlQzZkFqY3VIUm9PLThrUGxfQlZseG9CaHJKMk0?oc=5",
-      "source": "第一ライフ資産運用経済研究所",
+      "source": "dlri.co.jp",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-09-18 14:16",
@@ -960,446 +1406,6 @@
           "revenue_horizon": "3-6m",
           "revenue_horizon_label": "3〜6ヶ月",
           "matched_keyword": "政策金利 引き上げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 60,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        }
-      ],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "af2c33284622",
-      "title": "日銀が政策金利を1.25％に引き上げ：識者はこうみる | ロイター",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLTUzaTVYR0lIVkxIUnMxMFVSUVlfdktWdDI0M0ZXOHV5WDdXeHA1N1NEUHJkbTNfWHVKU1BnU19FNE42T1psaU9TVTdhdjdCbXZ1MEI2WXdtR3VEekd4ZlR0QThPZDFFMGxiR1Q5OVhINl91WC1pUW9YTFppV0F0VnZxdlVaR2Z0SkVaS2JPbVo?oc=5",
-      "source": "Reuters",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-09-18 13:25",
-      "published_ts": 1789705500.0,
-      "category": "policy",
-      "category_label": "金融政策・金利",
-      "category_emoji": "🏦",
-      "importance": 5,
-      "importance_reason": "重要語「政策金利」・影響テーマ「日銀の利上げ・金融正常化」に該当",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": "boj_hike-20260920-02",
-      "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-09-20",
-      "policy_event_state": "UPDATE",
-      "themes": [
-        "日銀の利上げ・金融正常化"
-      ],
-      "theme_ids": [
-        "boj_hike"
-      ],
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [
-        {
-          "code": "8306",
-          "name": "三菱UFJフィナンシャル・グループ",
-          "sector": "銀行",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「政策金利 引き上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "政策金利 引き上げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8316",
-          "name": "三井住友フィナンシャルグループ",
-          "sector": "銀行",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「政策金利 引き上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "政策金利 引き上げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8411",
-          "name": "みずほフィナンシャルグループ",
-          "sector": "銀行",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「政策金利 引き上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "政策金利 引き上げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8309",
-          "name": "三井住友トラスト・ホールディングス",
-          "sector": "銀行",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「政策金利 引き上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "政策金利 引き上げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7182",
-          "name": "ゆうちょ銀行",
-          "sector": "銀行",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「政策金利 引き上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "政策金利 引き上げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8766",
-          "name": "東京海上ホールディングス",
-          "sector": "保険",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「政策金利 引き上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "政策金利 引き上げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8801",
-          "name": "三井不動産",
-          "sector": "不動産",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「政策金利 引き上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "3-6m",
-          "revenue_horizon_label": "3〜6ヶ月",
-          "matched_keyword": "政策金利 引き上げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 60,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8802",
-          "name": "三菱地所",
-          "sector": "不動産",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「政策金利 引き上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "3-6m",
-          "revenue_horizon_label": "3〜6ヶ月",
-          "matched_keyword": "政策金利 引き上げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 60,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        }
-      ],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "4dee6923946f",
-      "title": "日銀、１．２５％に利上げ 決定会合、物価高でペース加速―３カ月ぶり、次は今冬の見方も",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5haHgwWlFtVTFubmNFTWpTcWFxWFJ1ci1YY1laZlN6TTlUY0lwbHBYZDB6UzN6czc1d3VSYmRiak1wNU41TEh0ZUc5OXJKUUV1TjVYZkpDckN2MmlCaFItYlgxcw?oc=5",
-      "source": "時事ドットコム",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-09-18 12:49",
-      "published_ts": 1789703340.0,
-      "category": "policy",
-      "category_label": "金融政策・金利",
-      "category_emoji": "🏦",
-      "importance": 5,
-      "importance_reason": "重要語「利上げ」・影響テーマ「日銀の利上げ・金融正常化」に該当",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": "boj_hike-20260920-01",
-      "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-09-20",
-      "policy_event_state": "UPDATE",
-      "themes": [
-        "日銀の利上げ・金融正常化"
-      ],
-      "theme_ids": [
-        "boj_hike"
-      ],
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [
-        {
-          "code": "8306",
-          "name": "三菱UFJフィナンシャル・グループ",
-          "sector": "銀行",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "日銀 利上げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8316",
-          "name": "三井住友フィナンシャルグループ",
-          "sector": "銀行",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "日銀 利上げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8411",
-          "name": "みずほフィナンシャルグループ",
-          "sector": "銀行",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "日銀 利上げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8309",
-          "name": "三井住友トラスト・ホールディングス",
-          "sector": "銀行",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "日銀 利上げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7182",
-          "name": "ゆうちょ銀行",
-          "sector": "銀行",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "日銀 利上げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8766",
-          "name": "東京海上ホールディングス",
-          "sector": "保険",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "日銀 利上げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8801",
-          "name": "三井不動産",
-          "sector": "不動産",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "3-6m",
-          "revenue_horizon_label": "3〜6ヶ月",
-          "matched_keyword": "日銀 利上げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 60,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8802",
-          "name": "三菱地所",
-          "sector": "不動産",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "3-6m",
-          "revenue_horizon_label": "3〜6ヶ月",
-          "matched_keyword": "日銀 利上げ",
           "intelligence_layer": "government_policy",
           "policy_impact_score": 60,
           "ai_capex_impact_score": null,
@@ -1842,226 +1848,6 @@
           "matched_keyword": "半導体",
           "intelligence_layer": "government_policy",
           "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        }
-      ],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "b53a51ae638b",
-      "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSDBmRFQydnNVQmxoSVlpTWw4eXZzZ29VeFJVR1RWX1JTUUVUOGJGSThvcWJLS2dHMXBTSjVMaFFpczdULWFhQVpmaVhZQS11SmxjN2h4YnVkU3RUeFRIWVhWOGFqSUxwaGRfNkNPUWdjdlpIVmkwSGNyQ2VZN3FyMXZCMHJXUVdZTGxwXw?oc=5",
-      "source": "newsdig.tbs.co.jp",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-09-19 07:00",
-      "published_ts": 1789768800.0,
-      "category": "fx",
-      "category_label": "為替",
-      "category_emoji": "💱",
-      "importance": 4,
-      "importance_reason": "重要語「為替介入」・影響テーマ「円高進行」に該当",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": "yen_strong-20260920-01",
-      "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-09-20",
-      "policy_event_state": "UPDATE",
-      "themes": [
-        "円高進行"
-      ],
-      "theme_ids": [
-        "yen_strong"
-      ],
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [
-        {
-          "code": "7203",
-          "name": "トヨタ自動車",
-          "sector": "自動車",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "theme": "円高進行",
-          "theme_id": "yen_strong",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "円高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7267",
-          "name": "本田技研工業",
-          "sector": "自動車",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "theme": "円高進行",
-          "theme_id": "yen_strong",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "円高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7201",
-          "name": "日産自動車",
-          "sector": "自動車",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "theme": "円高進行",
-          "theme_id": "yen_strong",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "円高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7269",
-          "name": "スズキ",
-          "sector": "自動車",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "theme": "円高進行",
-          "theme_id": "yen_strong",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "円高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7270",
-          "name": "SUBARU",
-          "sector": "自動車",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "theme": "円高進行",
-          "theme_id": "yen_strong",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "円高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7261",
-          "name": "マツダ",
-          "sector": "自動車",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "theme": "円高進行",
-          "theme_id": "yen_strong",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "円高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "9201",
-          "name": "日本航空",
-          "sector": "空運",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円高」に反応: 輸入コスト低下が採算改善につながりやすい",
-          "theme": "円高進行",
-          "theme_id": "yen_strong",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "円高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "9202",
-          "name": "ANAホールディングス",
-          "sector": "空運",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円高」に反応: 輸入コスト低下が採算改善につながりやすい",
-          "theme": "円高進行",
-          "theme_id": "yen_strong",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "円高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         }
@@ -3791,6 +3577,53 @@
       }
     },
     {
+      "id": "eba303434ab7",
+      "title": "ほぼ日、通期業績予想を上方修正 「ほぼ日手帳2027」の卸受注が国内外で想定超え",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1jaVpncEhjZUI0bnhLeVBZT2ItQTdTbWdZd3dncVJfMURwa3JRVEdWNm9DUXlpTGlOVXBmaVZEdHktRnJ6SzBuSno3b19WcHlMUEIwdE90SW5FM1h2X3Y5M3dIc3laZHNPVnhJbVV3?oc=5",
+      "source": "au Webポータル",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-09-20 13:17",
+      "published_ts": 1789877820.0,
+      "category": "corporate",
+      "category_label": "企業・決算",
+      "category_emoji": "🏢",
+      "importance": 2,
+      "importance_reason": "重要語「上方修正」",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
       "id": "0e3d1d482459",
       "title": "日銀レートチェック再び、連休前に円安けん制 投機筋｢不意突かれた｣",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJTnpTdWk2VUJ3YjRWM0NtWDRFTXh3c0pIcmd6cHl5ai1JcXAxazl2d1FSZ1RyaG8tWEpxUlZKT0pieS1sb2tkU3dPdEszb0tjT1g1ZHU0RGg0b2lsTEo5OHVHc3dGd1dja3NDbQ?oc=5",
@@ -4014,58 +3847,11 @@
       "id": "c3c736709da3",
       "title": "円が一時1円超急騰、1ドル156円台に レートチェックとの見方も",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tcFRwbi0wU3ByN2tHelUzTDZuR3VNVi1vMG5IRUx1T2pPbWZreGZsNXBQODQ4Q3NzOTVua1VLZ05weXdzR2h5aVVLYTdLQm5xa242QmJnTWdiR3dpRGtndk1UejJkeDA?oc=5",
-      "source": "asahi.com",
+      "source": "朝日新聞",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-09-19 07:31",
       "published_ts": 1789770668.0,
-      "category": "fx",
-      "category_label": "為替",
-      "category_emoji": "💱",
-      "importance": 2,
-      "importance_reason": "重要語「急騰」",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "b1220db9c6b3",
-      "title": "円急騰 政府日銀が円買い介入準備",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE02WEpUcURiM2ZJSjJZNGFXNTVZX09EVWIwXzVMN2ptcHFwUmwxUWlOdGFYcjBQaXZZdnVVNFY4WGlZWUtESlBTcVVzeDFwc1ND?oc=5",
-      "source": "Yahoo!ニュース",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-09-19 07:15",
-      "published_ts": 1789769745.0,
       "category": "fx",
       "category_label": "為替",
       "category_emoji": "💱",
@@ -4330,7 +4116,7 @@
       "id": "8f55fee13666",
       "title": "欧州議会、社会全体のレジリエンス構築における台湾の成功事例を評価する決議を採択",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE80S19ua0RWeFNLZ1o1aHFJNVJJbFpkRVpSbG9PT0I4NHpWZkh3NWJjaDBnazBVLUVOZ3lvMDQ4ZG9TQXVjOGtkQXl3bGM?oc=5",
-      "source": "Taiwan Today",
+      "source": "jp.taiwantoday.tw",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-09-19 03:28",
@@ -4644,7 +4430,7 @@
       "id": "eeb335ee7b40",
       "title": "台湾への「一国二制度」案、中国の専門家らが12項目 解放軍駐留、非平和統一なら3～5年の「準軍事統治」",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4xNFZhM0dzMno3dWpXa1lZNXFqZGI4SWJreEFGRDVad1pEdkZ3M2VkenRCSExrQ2NIUHZnWUVzTTVDRGQ3QkYyR0xzSjEwbkNW?oc=5",
-      "source": "風傳媒",
+      "source": "japan.storm.mg",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-09-18 16:28",
@@ -5128,10 +4914,57 @@
       "emergence_growth": {}
     },
     {
+      "id": "215df662d0e1",
+      "title": "米ドル/円【USDJPY】：外国為替相場FXレート・チャートをリアルタイム表示",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzbWxqc1ltSU1ndEE0VElnZldUTGdyRVJpOTdKeXBsc0RDSm40dm9kLTJqaDZlOVpoR2E5eEZIX1o0bFR1SFR2N2k4WjRiTnN5dHVBTHJn?oc=5",
+      "source": "Yahoo!ファイナンス",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-09-20 12:25",
+      "published_ts": 1789874749.0,
+      "category": "fx",
+      "category_label": "為替",
+      "category_emoji": "💱",
+      "importance": 1,
+      "importance_reason": "一般的な市況ニュース",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
       "id": "0392df0f4047",
       "title": "日経平均株価の指数情報・推移",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SRDk1ZENIQUIzSUZyMHZRNHpCR2xlcTI5UTJRYXVoMDBrM3BmNndBT29vV0dDZWdQazZHb2tURGZNYy1OMU93R0kyUUZUT3VmU2VhbA?oc=5",
-      "source": "finance.yahoo.co.jp",
+      "source": "Yahoo!ファイナンス",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-09-20 10:47",
@@ -5178,7 +5011,7 @@
       "id": "252bcb8f0d35",
       "title": "NYダウの指数情報・推移",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RX1F0c3NoRW1WOGhKVzFzd0tzWTlBS0NtMVZFbUUyZm14Z1Y5VWhzMjctd201Y2RMTFhBSGx0Rmdqc0ZFY1R2VzZUUG9PVjdUaXc?oc=5",
-      "source": "finance.yahoo.co.jp",
+      "source": "Yahoo!ファイナンス",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-09-20 10:01",
@@ -5233,53 +5066,6 @@
       "category": "fx",
       "category_label": "為替",
       "category_emoji": "💱",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "95f4d9b17011",
-      "title": "ＡＩや貿易「休戦」が議題 ２４日に米中首脳会談",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9pTDJZMTlhd0d6Vk9LeXhyV2pZblZBSlZ0SHRVTmZYek9MV183NHREeTdwQUV2T0NzVFFpZXhlRlg1WWFXRTZITkdvS3c4YjBnRXVVcFlaVl9LeUZKUVdfVmoxQQ?oc=5",
-      "source": "時事ドットコム",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-09-19 12:29",
-      "published_ts": 1789788540.0,
-      "category": "trade",
-      "category_label": "通商・規制",
-      "category_emoji": "⚖️",
       "importance": 1,
       "importance_reason": "一般的な市況ニュース",
       "future_signal": false,
@@ -5372,7 +5158,7 @@
       "id": "1bc1772d6e35",
       "title": "米AIインフラのクルーソー、39億ドル調達 評価額309億ドルに",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1mSUVJdEgzUzVhUTVKVU1oM1BlTndmR2VMOEpDWWpEUDBIbVh6SjVZRXNsVUp4Zm4zWDZaUEpFdFZOc0Njb1M0X0wybGpYZzlHaFRuU1NCSUtsU0Y2NzlTaUg4cGFfakx3SUFfUElXRmlaeW9Z?oc=5",
-      "source": "BigGo ファイナンス",
+      "source": "finance.biggo.jp",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-09-19 03:06",
@@ -5837,6 +5623,121 @@
       "emergence_milestones": [],
       "emergence_diagnosis": {},
       "emergence_growth": {}
+    },
+    {
+      "id": "74150d54ca0e",
+      "title": "北朝鮮籍船舶の「瀬取り」を含む違法な海上活動に対するオーストラリアによる警戒監視活動について",
+      "url": "/j/approach/defense/sedori/index.html",
+      "source": "防衛省",
+      "source_tier": "primary",
+      "source_tier_label": "一次情報",
+      "published_at": "2026-09-18 18:07",
+      "published_ts": 1789722451.0,
+      "category": "resources",
+      "category_label": "資源・エネルギー",
+      "category_emoji": "🛢️",
+      "importance": 1,
+      "importance_reason": "影響テーマ「海運市況・物流」に該当",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": "shipping_rate-20260920-01",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-09-20",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "海運市況・物流"
+      ],
+      "theme_ids": [
+        "shipping_rate"
+      ],
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "9101",
+          "name": "日本郵船",
+          "sector": "海運",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「船舶」に反応: 運賃市況の変動が業績に直結しやすい",
+          "theme": "海運市況・物流",
+          "theme_id": "shipping_rate",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "船舶",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 52,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9104",
+          "name": "商船三井",
+          "sector": "海運",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「船舶」に反応: 運賃市況の変動が業績に直結しやすい",
+          "theme": "海運市況・物流",
+          "theme_id": "shipping_rate",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "船舶",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 52,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9107",
+          "name": "川崎汽船",
+          "sector": "海運",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「船舶」に反応: 運賃市況の変動が業績に直結しやすい",
+          "theme": "海運市況・物流",
+          "theme_id": "shipping_rate",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "船舶",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 52,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
     }
   ],
   "stock_ranking": [
@@ -5844,14 +5745,21 @@
       "code": "8306",
       "name": "三菱UFJフィナンシャル・グループ",
       "sector": "銀行",
-      "positive": 8,
+      "positive": 7,
       "negative": 0,
       "watch": 0,
-      "score": 38,
+      "score": 33,
       "news": [
         {
           "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
+          "direction": "positive",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "importance": 5
+        },
+        {
+          "title": "市場では年内にも利上げの見方も 日銀、政策金利1.25％に引き上げ 金融政策決定会合",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zRFdGeE1tbldFMWY1SGlrbU5VdEgtVlN3QVVCTWpxN2lGTHJTN25rQTdFY1lsdVFaS1MwR3FJRHRxTi1HSjhMUERxMUhZS1hqblFtYV9vZFB5RngtNjVLNHZtMnRBM1RSY2U5cjRn?oc=5",
           "direction": "positive",
           "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
           "importance": 5
@@ -5862,29 +5770,29 @@
           "direction": "positive",
           "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
           "importance": 5
-        },
-        {
-          "title": "【ドル/円、来週の見通し】ドル/円、再び160円を試すのか…タカ派利上げのFOMC・ハト派利上げの日銀＿2026/9/18",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ES3YyNDBNLTNrcGxLNVpNQjdFWWR5ellFNjJRclhlTHlSbTh5bXNnUW1sVFdaQUlwMUFlZWpfSEdGdnQtekVwdHZaZHY0d2p2ZTk2NWlsOHJJWlc1NUExUnh3cw?oc=5",
-          "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 5
         }
       ],
-      "mentions": 8
+      "mentions": 7
     },
     {
       "code": "8316",
       "name": "三井住友フィナンシャルグループ",
       "sector": "銀行",
-      "positive": 8,
+      "positive": 7,
       "negative": 0,
       "watch": 0,
-      "score": 38,
+      "score": 33,
       "news": [
         {
           "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
+          "direction": "positive",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "importance": 5
+        },
+        {
+          "title": "市場では年内にも利上げの見方も 日銀、政策金利1.25％に引き上げ 金融政策決定会合",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zRFdGeE1tbldFMWY1SGlrbU5VdEgtVlN3QVVCTWpxN2lGTHJTN25rQTdFY1lsdVFaS1MwR3FJRHRxTi1HSjhMUERxMUhZS1hqblFtYV9vZFB5RngtNjVLNHZtMnRBM1RSY2U5cjRn?oc=5",
           "direction": "positive",
           "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
           "importance": 5
@@ -5895,29 +5803,29 @@
           "direction": "positive",
           "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
           "importance": 5
-        },
-        {
-          "title": "【ドル/円、来週の見通し】ドル/円、再び160円を試すのか…タカ派利上げのFOMC・ハト派利上げの日銀＿2026/9/18",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ES3YyNDBNLTNrcGxLNVpNQjdFWWR5ellFNjJRclhlTHlSbTh5bXNnUW1sVFdaQUlwMUFlZWpfSEdGdnQtekVwdHZaZHY0d2p2ZTk2NWlsOHJJWlc1NUExUnh3cw?oc=5",
-          "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 5
         }
       ],
-      "mentions": 8
+      "mentions": 7
     },
     {
       "code": "8411",
       "name": "みずほフィナンシャルグループ",
       "sector": "銀行",
-      "positive": 8,
+      "positive": 7,
       "negative": 0,
       "watch": 0,
-      "score": 38,
+      "score": 33,
       "news": [
         {
           "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
+          "direction": "positive",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "importance": 5
+        },
+        {
+          "title": "市場では年内にも利上げの見方も 日銀、政策金利1.25％に引き上げ 金融政策決定会合",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zRFdGeE1tbldFMWY1SGlrbU5VdEgtVlN3QVVCTWpxN2lGTHJTN25rQTdFY1lsdVFaS1MwR3FJRHRxTi1HSjhMUERxMUhZS1hqblFtYV9vZFB5RngtNjVLNHZtMnRBM1RSY2U5cjRn?oc=5",
           "direction": "positive",
           "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
           "importance": 5
@@ -5928,29 +5836,29 @@
           "direction": "positive",
           "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
           "importance": 5
-        },
-        {
-          "title": "【ドル/円、来週の見通し】ドル/円、再び160円を試すのか…タカ派利上げのFOMC・ハト派利上げの日銀＿2026/9/18",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ES3YyNDBNLTNrcGxLNVpNQjdFWWR5ellFNjJRclhlTHlSbTh5bXNnUW1sVFdaQUlwMUFlZWpfSEdGdnQtekVwdHZaZHY0d2p2ZTk2NWlsOHJJWlc1NUExUnh3cw?oc=5",
-          "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 5
         }
       ],
-      "mentions": 8
+      "mentions": 7
     },
     {
       "code": "8309",
       "name": "三井住友トラスト・ホールディングス",
       "sector": "銀行",
-      "positive": 8,
+      "positive": 7,
       "negative": 0,
       "watch": 0,
-      "score": 38,
+      "score": 33,
       "news": [
         {
           "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
+          "direction": "positive",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "importance": 5
+        },
+        {
+          "title": "市場では年内にも利上げの見方も 日銀、政策金利1.25％に引き上げ 金融政策決定会合",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zRFdGeE1tbldFMWY1SGlrbU5VdEgtVlN3QVVCTWpxN2lGTHJTN25rQTdFY1lsdVFaS1MwR3FJRHRxTi1HSjhMUERxMUhZS1hqblFtYV9vZFB5RngtNjVLNHZtMnRBM1RSY2U5cjRn?oc=5",
           "direction": "positive",
           "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
           "importance": 5
@@ -5961,25 +5869,18 @@
           "direction": "positive",
           "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
           "importance": 5
-        },
-        {
-          "title": "【ドル/円、来週の見通し】ドル/円、再び160円を試すのか…タカ派利上げのFOMC・ハト派利上げの日銀＿2026/9/18",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ES3YyNDBNLTNrcGxLNVpNQjdFWWR5ellFNjJRclhlTHlSbTh5bXNnUW1sVFdaQUlwMUFlZWpfSEdGdnQtekVwdHZaZHY0d2p2ZTk2NWlsOHJJWlc1NUExUnh3cw?oc=5",
-          "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 5
         }
       ],
-      "mentions": 8
+      "mentions": 7
     },
     {
       "code": "8801",
       "name": "三井不動産",
       "sector": "不動産",
       "positive": 1,
-      "negative": 5,
+      "negative": 4,
       "watch": 0,
-      "score": -19,
+      "score": -14,
       "news": [
         {
           "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
@@ -5989,34 +5890,8 @@
           "importance": 5
         },
         {
-          "title": "【ドル/円、来週の見通し】ドル/円、再び160円を試すのか…タカ派利上げのFOMC・ハト派利上げの日銀＿2026/9/18",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ES3YyNDBNLTNrcGxLNVpNQjdFWWR5ellFNjJRclhlTHlSbTh5bXNnUW1sVFdaQUlwMUFlZWpfSEdGdnQtekVwdHZaZHY0d2p2ZTk2NWlsOHJJWlc1NUExUnh3cw?oc=5",
-          "direction": "positive",
-          "reason": "「ハト派」に反応: 金利低下は割引率低下・調達コスト低下につながり、成長株や不動産に追い風になりやすい",
-          "importance": 5
-        },
-        {
-          "title": "日銀は1.25％へ政策金利を引き上げ ２つの反対票について考える | 藤代 宏一 | 第一ライフ資産運用経済研究所",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xTnFfTWhMbzk0VmtUT3dLUFVZdjVSaFJxbmdYSjUwZDloUDYtZ2h2ZTdoNnVZSWRRWG1WdGQtNlQzZkFqY3VIUm9PLThrUGxfQlZseG9CaHJKMk0?oc=5",
-          "direction": "negative",
-          "reason": "「政策金利 引き上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
-          "importance": 5
-        }
-      ],
-      "mentions": 6
-    },
-    {
-      "code": "8802",
-      "name": "三菱地所",
-      "sector": "不動産",
-      "positive": 1,
-      "negative": 5,
-      "watch": 0,
-      "score": -19,
-      "news": [
-        {
-          "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
+          "title": "市場では年内にも利上げの見方も 日銀、政策金利1.25％に引き上げ 金融政策決定会合",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zRFdGeE1tbldFMWY1SGlrbU5VdEgtVlN3QVVCTWpxN2lGTHJTN25rQTdFY1lsdVFaS1MwR3FJRHRxTi1HSjhMUERxMUhZS1hqblFtYV9vZFB5RngtNjVLNHZtMnRBM1RSY2U5cjRn?oc=5",
           "direction": "negative",
           "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
           "importance": 5
@@ -6026,79 +5901,39 @@
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ES3YyNDBNLTNrcGxLNVpNQjdFWWR5ellFNjJRclhlTHlSbTh5bXNnUW1sVFdaQUlwMUFlZWpfSEdGdnQtekVwdHZaZHY0d2p2ZTk2NWlsOHJJWlc1NUExUnh3cw?oc=5",
           "direction": "positive",
           "reason": "「ハト派」に反応: 金利低下は割引率低下・調達コスト低下につながり、成長株や不動産に追い風になりやすい",
-          "importance": 5
-        },
-        {
-          "title": "日銀は1.25％へ政策金利を引き上げ ２つの反対票について考える | 藤代 宏一 | 第一ライフ資産運用経済研究所",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xTnFfTWhMbzk0VmtUT3dLUFVZdjVSaFJxbmdYSjUwZDloUDYtZ2h2ZTdoNnVZSWRRWG1WdGQtNlQzZkFqY3VIUm9PLThrUGxfQlZseG9CaHJKMk0?oc=5",
-          "direction": "negative",
-          "reason": "「政策金利 引き上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
-          "importance": 5
-        }
-      ],
-      "mentions": 6
-    },
-    {
-      "code": "7182",
-      "name": "ゆうちょ銀行",
-      "sector": "銀行",
-      "positive": 5,
-      "negative": 0,
-      "watch": 0,
-      "score": 24,
-      "news": [
-        {
-          "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
-          "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 5
-        },
-        {
-          "title": "日銀は1.25％へ政策金利を引き上げ ２つの反対票について考える | 藤代 宏一 | 第一ライフ資産運用経済研究所",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xTnFfTWhMbzk0VmtUT3dLUFVZdjVSaFJxbmdYSjUwZDloUDYtZ2h2ZTdoNnVZSWRRWG1WdGQtNlQzZkFqY3VIUm9PLThrUGxfQlZseG9CaHJKMk0?oc=5",
-          "direction": "positive",
-          "reason": "「政策金利 引き上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 5
-        },
-        {
-          "title": "日銀が政策金利を1.25％に引き上げ：識者はこうみる | ロイター",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLTUzaTVYR0lIVkxIUnMxMFVSUVlfdktWdDI0M0ZXOHV5WDdXeHA1N1NEUHJkbTNfWHVKU1BnU19FNE42T1psaU9TVTdhdjdCbXZ1MEI2WXdtR3VEekd4ZlR0QThPZDFFMGxiR1Q5OVhINl91WC1pUW9YTFppV0F0VnZxdlVaR2Z0SkVaS2JPbVo?oc=5",
-          "direction": "positive",
-          "reason": "「政策金利 引き上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
           "importance": 5
         }
       ],
       "mentions": 5
     },
     {
-      "code": "8766",
-      "name": "東京海上ホールディングス",
-      "sector": "保険",
-      "positive": 5,
-      "negative": 0,
+      "code": "8802",
+      "name": "三菱地所",
+      "sector": "不動産",
+      "positive": 1,
+      "negative": 4,
       "watch": 0,
-      "score": 24,
+      "score": -14,
       "news": [
         {
           "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
-          "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "direction": "negative",
+          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
           "importance": 5
         },
         {
-          "title": "日銀は1.25％へ政策金利を引き上げ ２つの反対票について考える | 藤代 宏一 | 第一ライフ資産運用経済研究所",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xTnFfTWhMbzk0VmtUT3dLUFVZdjVSaFJxbmdYSjUwZDloUDYtZ2h2ZTdoNnVZSWRRWG1WdGQtNlQzZkFqY3VIUm9PLThrUGxfQlZseG9CaHJKMk0?oc=5",
-          "direction": "positive",
-          "reason": "「政策金利 引き上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "title": "市場では年内にも利上げの見方も 日銀、政策金利1.25％に引き上げ 金融政策決定会合",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zRFdGeE1tbldFMWY1SGlrbU5VdEgtVlN3QVVCTWpxN2lGTHJTN25rQTdFY1lsdVFaS1MwR3FJRHRxTi1HSjhMUERxMUhZS1hqblFtYV9vZFB5RngtNjVLNHZtMnRBM1RSY2U5cjRn?oc=5",
+          "direction": "negative",
+          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
           "importance": 5
         },
         {
-          "title": "日銀が政策金利を1.25％に引き上げ：識者はこうみる | ロイター",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLTUzaTVYR0lIVkxIUnMxMFVSUVlfdktWdDI0M0ZXOHV5WDdXeHA1N1NEUHJkbTNfWHVKU1BnU19FNE42T1psaU9TVTdhdjdCbXZ1MEI2WXdtR3VEekd4ZlR0QThPZDFFMGxiR1Q5OVhINl91WC1pUW9YTFppV0F0VnZxdlVaR2Z0SkVaS2JPbVo?oc=5",
+          "title": "【ドル/円、来週の見通し】ドル/円、再び160円を試すのか…タカ派利上げのFOMC・ハト派利上げの日銀＿2026/9/18",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ES3YyNDBNLTNrcGxLNVpNQjdFWWR5ellFNjJRclhlTHlSbTh5bXNnUW1sVFdaQUlwMUFlZWpfSEdGdnQtekVwdHZaZHY0d2p2ZTk2NWlsOHJJWlc1NUExUnh3cw?oc=5",
           "direction": "positive",
-          "reason": "「政策金利 引き上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "reason": "「ハト派」に反応: 金利低下は割引率低下・調達コスト低下につながり、成長株や不動産に追い風になりやすい",
           "importance": 5
         }
       ],
@@ -6136,6 +5971,72 @@
         }
       ],
       "mentions": 5
+    },
+    {
+      "code": "7182",
+      "name": "ゆうちょ銀行",
+      "sector": "銀行",
+      "positive": 4,
+      "negative": 0,
+      "watch": 0,
+      "score": 19,
+      "news": [
+        {
+          "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
+          "direction": "positive",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "importance": 5
+        },
+        {
+          "title": "市場では年内にも利上げの見方も 日銀、政策金利1.25％に引き上げ 金融政策決定会合",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zRFdGeE1tbldFMWY1SGlrbU5VdEgtVlN3QVVCTWpxN2lGTHJTN25rQTdFY1lsdVFaS1MwR3FJRHRxTi1HSjhMUERxMUhZS1hqblFtYV9vZFB5RngtNjVLNHZtMnRBM1RSY2U5cjRn?oc=5",
+          "direction": "positive",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "importance": 5
+        },
+        {
+          "title": "日銀は1.25％へ政策金利を引き上げ ２つの反対票について考える | 藤代 宏一 | 第一ライフ資産運用経済研究所",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xTnFfTWhMbzk0VmtUT3dLUFVZdjVSaFJxbmdYSjUwZDloUDYtZ2h2ZTdoNnVZSWRRWG1WdGQtNlQzZkFqY3VIUm9PLThrUGxfQlZseG9CaHJKMk0?oc=5",
+          "direction": "positive",
+          "reason": "「政策金利 引き上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "importance": 5
+        }
+      ],
+      "mentions": 4
+    },
+    {
+      "code": "8766",
+      "name": "東京海上ホールディングス",
+      "sector": "保険",
+      "positive": 4,
+      "negative": 0,
+      "watch": 0,
+      "score": 19,
+      "news": [
+        {
+          "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
+          "direction": "positive",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "importance": 5
+        },
+        {
+          "title": "市場では年内にも利上げの見方も 日銀、政策金利1.25％に引き上げ 金融政策決定会合",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zRFdGeE1tbldFMWY1SGlrbU5VdEgtVlN3QVVCTWpxN2lGTHJTN25rQTdFY1lsdVFaS1MwR3FJRHRxTi1HSjhMUERxMUhZS1hqblFtYV9vZFB5RngtNjVLNHZtMnRBM1RSY2U5cjRn?oc=5",
+          "direction": "positive",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "importance": 5
+        },
+        {
+          "title": "日銀は1.25％へ政策金利を引き上げ ２つの反対票について考える | 藤代 宏一 | 第一ライフ資産運用経済研究所",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xTnFfTWhMbzk0VmtUT3dLUFVZdjVSaFJxbmdYSjUwZDloUDYtZ2h2ZTdoNnVZSWRRWG1WdGQtNlQzZkFqY3VIUm9PLThrUGxfQlZseG9CaHJKMk0?oc=5",
+          "direction": "positive",
+          "reason": "「政策金利 引き上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "importance": 5
+        }
+      ],
+      "mentions": 4
     },
     {
       "code": "1801",
@@ -6276,21 +6177,21 @@
       "positive": 3,
       "negative": 1,
       "watch": 0,
-      "score": 7,
+      "score": 6,
       "news": [
+        {
+          "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か（TBS NEWS DIG Powered by JNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VOWNfXzF6eUE3TVRWdTM5VnNPSEkzTXZub1FOaEJhRE1mUVNNUE5uaExWTHlwUlFnS2pMOTZEVVlCdWxENTl3STJXTXlVZ2k3WlA5RnUydERkNlRZMG1UY2hlTmhLRWh4UDVLbDRoelI1Y0hweGlvaXpGaDdXdXM?oc=5",
+          "direction": "negative",
+          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "importance": 5
+        },
         {
           "title": "【速報解説】日銀利上げでも円安進行、ドル円は再び160円に戻る？9月日銀会合後の相場見通し＆今後の注目点｜佐々木融 2026年9月18日",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9UMU8yd25RX0FlR3pGYlNqbVlHYmZ2SEFORUZKc2U2cnVpaGdsYmVOSURRalYwTDRWVnJPcFR5eFBGWG1rdXFpQWVJd0hWYVpvM3BpRFg5X1poRncydGwwUzBqaw?oc=5",
           "direction": "positive",
           "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
           "importance": 5
-        },
-        {
-          "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSDBmRFQydnNVQmxoSVlpTWw4eXZzZ29VeFJVR1RWX1JTUUVUOGJGSThvcWJLS2dHMXBTSjVMaFFpczdULWFhQVpmaVhZQS11SmxjN2h4YnVkU3RUeFRIWVhWOGFqSUxwaGRfNkNPUWdjdlpIVmkwSGNyQ2VZN3FyMXZCMHJXUVdZTGxwXw?oc=5",
-          "direction": "negative",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "importance": 4
         },
         {
           "title": "来週の為替予想（米ドル/円）日銀利上げなのになぜか円安、植田会見後のドル円 次の節目は159円台 ハロンズFX 2026/9/19",
@@ -6309,21 +6210,21 @@
       "positive": 3,
       "negative": 1,
       "watch": 0,
-      "score": 7,
+      "score": 6,
       "news": [
+        {
+          "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か（TBS NEWS DIG Powered by JNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VOWNfXzF6eUE3TVRWdTM5VnNPSEkzTXZub1FOaEJhRE1mUVNNUE5uaExWTHlwUlFnS2pMOTZEVVlCdWxENTl3STJXTXlVZ2k3WlA5RnUydERkNlRZMG1UY2hlTmhLRWh4UDVLbDRoelI1Y0hweGlvaXpGaDdXdXM?oc=5",
+          "direction": "negative",
+          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "importance": 5
+        },
         {
           "title": "【速報解説】日銀利上げでも円安進行、ドル円は再び160円に戻る？9月日銀会合後の相場見通し＆今後の注目点｜佐々木融 2026年9月18日",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9UMU8yd25RX0FlR3pGYlNqbVlHYmZ2SEFORUZKc2U2cnVpaGdsYmVOSURRalYwTDRWVnJPcFR5eFBGWG1rdXFpQWVJd0hWYVpvM3BpRFg5X1poRncydGwwUzBqaw?oc=5",
           "direction": "positive",
           "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
           "importance": 5
-        },
-        {
-          "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSDBmRFQydnNVQmxoSVlpTWw4eXZzZ29VeFJVR1RWX1JTUUVUOGJGSThvcWJLS2dHMXBTSjVMaFFpczdULWFhQVpmaVhZQS11SmxjN2h4YnVkU3RUeFRIWVhWOGFqSUxwaGRfNkNPUWdjdlpIVmkwSGNyQ2VZN3FyMXZCMHJXUVdZTGxwXw?oc=5",
-          "direction": "negative",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "importance": 4
         },
         {
           "title": "来週の為替予想（米ドル/円）日銀利上げなのになぜか円安、植田会見後のドル円 次の節目は159円台 ハロンズFX 2026/9/19",
@@ -6342,21 +6243,21 @@
       "positive": 3,
       "negative": 1,
       "watch": 0,
-      "score": 7,
+      "score": 6,
       "news": [
+        {
+          "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か（TBS NEWS DIG Powered by JNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VOWNfXzF6eUE3TVRWdTM5VnNPSEkzTXZub1FOaEJhRE1mUVNNUE5uaExWTHlwUlFnS2pMOTZEVVlCdWxENTl3STJXTXlVZ2k3WlA5RnUydERkNlRZMG1UY2hlTmhLRWh4UDVLbDRoelI1Y0hweGlvaXpGaDdXdXM?oc=5",
+          "direction": "negative",
+          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "importance": 5
+        },
         {
           "title": "【速報解説】日銀利上げでも円安進行、ドル円は再び160円に戻る？9月日銀会合後の相場見通し＆今後の注目点｜佐々木融 2026年9月18日",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9UMU8yd25RX0FlR3pGYlNqbVlHYmZ2SEFORUZKc2U2cnVpaGdsYmVOSURRalYwTDRWVnJPcFR5eFBGWG1rdXFpQWVJd0hWYVpvM3BpRFg5X1poRncydGwwUzBqaw?oc=5",
           "direction": "positive",
           "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
           "importance": 5
-        },
-        {
-          "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSDBmRFQydnNVQmxoSVlpTWw4eXZzZ29VeFJVR1RWX1JTUUVUOGJGSThvcWJLS2dHMXBTSjVMaFFpczdULWFhQVpmaVhZQS11SmxjN2h4YnVkU3RUeFRIWVhWOGFqSUxwaGRfNkNPUWdjdlpIVmkwSGNyQ2VZN3FyMXZCMHJXUVdZTGxwXw?oc=5",
-          "direction": "negative",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "importance": 4
         },
         {
           "title": "来週の為替予想（米ドル/円）日銀利上げなのになぜか円安、植田会見後のドル円 次の節目は159円台 ハロンズFX 2026/9/19",
@@ -6375,21 +6276,21 @@
       "positive": 3,
       "negative": 1,
       "watch": 0,
-      "score": 7,
+      "score": 6,
       "news": [
+        {
+          "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か（TBS NEWS DIG Powered by JNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VOWNfXzF6eUE3TVRWdTM5VnNPSEkzTXZub1FOaEJhRE1mUVNNUE5uaExWTHlwUlFnS2pMOTZEVVlCdWxENTl3STJXTXlVZ2k3WlA5RnUydERkNlRZMG1UY2hlTmhLRWh4UDVLbDRoelI1Y0hweGlvaXpGaDdXdXM?oc=5",
+          "direction": "negative",
+          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "importance": 5
+        },
         {
           "title": "【速報解説】日銀利上げでも円安進行、ドル円は再び160円に戻る？9月日銀会合後の相場見通し＆今後の注目点｜佐々木融 2026年9月18日",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9UMU8yd25RX0FlR3pGYlNqbVlHYmZ2SEFORUZKc2U2cnVpaGdsYmVOSURRalYwTDRWVnJPcFR5eFBGWG1rdXFpQWVJd0hWYVpvM3BpRFg5X1poRncydGwwUzBqaw?oc=5",
           "direction": "positive",
           "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
           "importance": 5
-        },
-        {
-          "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSDBmRFQydnNVQmxoSVlpTWw4eXZzZ29VeFJVR1RWX1JTUUVUOGJGSThvcWJLS2dHMXBTSjVMaFFpczdULWFhQVpmaVhZQS11SmxjN2h4YnVkU3RUeFRIWVhWOGFqSUxwaGRfNkNPUWdjdlpIVmkwSGNyQ2VZN3FyMXZCMHJXUVdZTGxwXw?oc=5",
-          "direction": "negative",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "importance": 4
         },
         {
           "title": "来週の為替予想（米ドル/円）日銀利上げなのになぜか円安、植田会見後のドル円 次の節目は159円台 ハロンズFX 2026/9/19",
@@ -6512,11 +6413,10 @@
       "category_emoji": "🏦",
       "member_ids": [
         "f91a1622462e",
+        "27fd73be92e9",
         "b53572cfe789",
         "d412dcf1afe9",
         "fe66970e63d0",
-        "af2c33284622",
-        "4dee6923946f",
         "b7db4445bcb4",
         "852cada93859"
       ],
@@ -6527,6 +6427,13 @@
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
           "importance": 5,
           "source": "テレ朝NEWS"
+        },
+        {
+          "id": "27fd73be92e9",
+          "title": "市場では年内にも利上げの見方も 日銀、政策金利1.25％に引き上げ 金融政策決定会合",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zRFdGeE1tbldFMWY1SGlrbU5VdEgtVlN3QVVCTWpxN2lGTHJTN25rQTdFY1lsdVFaS1MwR3FJRHRxTi1HSjhMUERxMUhZS1hqblFtYV9vZFB5RngtNjVLNHZtMnRBM1RSY2U5cjRn?oc=5",
+          "importance": 5,
+          "source": "au Webポータル"
         },
         {
           "id": "b53572cfe789",
@@ -6547,21 +6454,7 @@
           "title": "日銀は1.25％へ政策金利を引き上げ ２つの反対票について考える | 藤代 宏一 | 第一ライフ資産運用経済研究所",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xTnFfTWhMbzk0VmtUT3dLUFVZdjVSaFJxbmdYSjUwZDloUDYtZ2h2ZTdoNnVZSWRRWG1WdGQtNlQzZkFqY3VIUm9PLThrUGxfQlZseG9CaHJKMk0?oc=5",
           "importance": 5,
-          "source": "第一ライフ資産運用経済研究所"
-        },
-        {
-          "id": "af2c33284622",
-          "title": "日銀が政策金利を1.25％に引き上げ：識者はこうみる | ロイター",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLTUzaTVYR0lIVkxIUnMxMFVSUVlfdktWdDI0M0ZXOHV5WDdXeHA1N1NEUHJkbTNfWHVKU1BnU19FNE42T1psaU9TVTdhdjdCbXZ1MEI2WXdtR3VEekd4ZlR0QThPZDFFMGxiR1Q5OVhINl91WC1pUW9YTFppV0F0VnZxdlVaR2Z0SkVaS2JPbVo?oc=5",
-          "importance": 5,
-          "source": "Reuters"
-        },
-        {
-          "id": "4dee6923946f",
-          "title": "日銀、１．２５％に利上げ 決定会合、物価高でペース加速―３カ月ぶり、次は今冬の見方も",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5haHgwWlFtVTFubmNFTWpTcWFxWFJ1ci1YY1laZlN6TTlUY0lwbHBYZDB6UzN6czc1d3VSYmRiak1wNU41TEh0ZUc5OXJKUUV1TjVYZkpDckN2MmlCaFItYlgxcw?oc=5",
-          "importance": 5,
-          "source": "時事ドットコム"
+          "source": "dlri.co.jp"
         },
         {
           "id": "b7db4445bcb4",
@@ -6582,42 +6475,42 @@
         {
           "code": "8306",
           "name": "三菱UFJフィナンシャル・グループ",
-          "positive": 8,
+          "positive": 7,
           "negative": 0,
           "watch": 0
         },
         {
           "code": "8316",
           "name": "三井住友フィナンシャルグループ",
-          "positive": 8,
+          "positive": 7,
           "negative": 0,
           "watch": 0
         },
         {
           "code": "8411",
           "name": "みずほフィナンシャルグループ",
-          "positive": 8,
+          "positive": 7,
           "negative": 0,
           "watch": 0
         },
         {
           "code": "8309",
           "name": "三井住友トラスト・ホールディングス",
-          "positive": 8,
+          "positive": 7,
           "negative": 0,
           "watch": 0
         },
         {
           "code": "7182",
           "name": "ゆうちょ銀行",
-          "positive": 5,
+          "positive": 4,
           "negative": 0,
           "watch": 0
         },
         {
           "code": "8766",
           "name": "東京海上ホールディングス",
-          "positive": 5,
+          "positive": 4,
           "negative": 0,
           "watch": 0
         }
@@ -7224,14 +7117,14 @@
           "title": "欧州議会、社会全体のレジリエンス構築における台湾の成功事例を評価する決議を採択",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE80S19ua0RWeFNLZ1o1aHFJNVJJbFpkRVpSbG9PT0I4NHpWZkh3NWJjaDBnazBVLUVOZ3lvMDQ4ZG9TQXVjOGtkQXl3bGM?oc=5",
           "importance": 2,
-          "source": "Taiwan Today"
+          "source": "jp.taiwantoday.tw"
         },
         {
           "id": "eeb335ee7b40",
           "title": "台湾への「一国二制度」案、中国の専門家らが12項目 解放軍駐留、非平和統一なら3～5年の「準軍事統治」",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4xNFZhM0dzMno3dWpXa1lZNXFqZGI4SWJreEFGRDVad1pEdkZ3M2VkenRCSExrQ2NIUHZnWUVzTTVDRGQ3QkYyR0xzSjEwbkNW?oc=5",
           "importance": 2,
-          "source": "風傳媒"
+          "source": "japan.storm.mg"
         }
       ],
       "stocks": [
@@ -7356,10 +7249,9 @@
       "category_emoji": "🏢",
       "member_ids": [
         "f91a1622462e",
+        "27fd73be92e9",
         "d412dcf1afe9",
         "fe66970e63d0",
-        "af2c33284622",
-        "4dee6923946f",
         "b7db4445bcb4"
       ],
       "members": [
@@ -7369,6 +7261,13 @@
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
           "importance": 5,
           "source": "テレ朝NEWS"
+        },
+        {
+          "id": "27fd73be92e9",
+          "title": "市場では年内にも利上げの見方も 日銀、政策金利1.25％に引き上げ 金融政策決定会合",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zRFdGeE1tbldFMWY1SGlrbU5VdEgtVlN3QVVCTWpxN2lGTHJTN25rQTdFY1lsdVFaS1MwR3FJRHRxTi1HSjhMUERxMUhZS1hqblFtYV9vZFB5RngtNjVLNHZtMnRBM1RSY2U5cjRn?oc=5",
+          "importance": 5,
+          "source": "au Webポータル"
         },
         {
           "id": "d412dcf1afe9",
@@ -7382,21 +7281,7 @@
           "title": "日銀は1.25％へ政策金利を引き上げ ２つの反対票について考える | 藤代 宏一 | 第一ライフ資産運用経済研究所",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xTnFfTWhMbzk0VmtUT3dLUFVZdjVSaFJxbmdYSjUwZDloUDYtZ2h2ZTdoNnVZSWRRWG1WdGQtNlQzZkFqY3VIUm9PLThrUGxfQlZseG9CaHJKMk0?oc=5",
           "importance": 5,
-          "source": "第一ライフ資産運用経済研究所"
-        },
-        {
-          "id": "af2c33284622",
-          "title": "日銀が政策金利を1.25％に引き上げ：識者はこうみる | ロイター",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLTUzaTVYR0lIVkxIUnMxMFVSUVlfdktWdDI0M0ZXOHV5WDdXeHA1N1NEUHJkbTNfWHVKU1BnU19FNE42T1psaU9TVTdhdjdCbXZ1MEI2WXdtR3VEekd4ZlR0QThPZDFFMGxiR1Q5OVhINl91WC1pUW9YTFppV0F0VnZxdlVaR2Z0SkVaS2JPbVo?oc=5",
-          "importance": 5,
-          "source": "Reuters"
-        },
-        {
-          "id": "4dee6923946f",
-          "title": "日銀、１．２５％に利上げ 決定会合、物価高でペース加速―３カ月ぶり、次は今冬の見方も",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5haHgwWlFtVTFubmNFTWpTcWFxWFJ1ci1YY1laZlN6TTlUY0lwbHBYZDB6UzN6czc1d3VSYmRiak1wNU41TEh0ZUc5OXJKUUV1TjVYZkpDckN2MmlCaFItYlgxcw?oc=5",
-          "importance": 5,
-          "source": "時事ドットコム"
+          "source": "dlri.co.jp"
         },
         {
           "id": "b7db4445bcb4",
@@ -7411,7 +7296,7 @@
           "code": "8801",
           "name": "三井不動産",
           "positive": 1,
-          "negative": 5,
+          "negative": 4,
           "watch": 0
         }
       ],
@@ -7444,10 +7329,9 @@
       "category_emoji": "🏢",
       "member_ids": [
         "f91a1622462e",
+        "27fd73be92e9",
         "d412dcf1afe9",
         "fe66970e63d0",
-        "af2c33284622",
-        "4dee6923946f",
         "b7db4445bcb4"
       ],
       "members": [
@@ -7457,6 +7341,13 @@
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
           "importance": 5,
           "source": "テレ朝NEWS"
+        },
+        {
+          "id": "27fd73be92e9",
+          "title": "市場では年内にも利上げの見方も 日銀、政策金利1.25％に引き上げ 金融政策決定会合",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zRFdGeE1tbldFMWY1SGlrbU5VdEgtVlN3QVVCTWpxN2lGTHJTN25rQTdFY1lsdVFaS1MwR3FJRHRxTi1HSjhMUERxMUhZS1hqblFtYV9vZFB5RngtNjVLNHZtMnRBM1RSY2U5cjRn?oc=5",
+          "importance": 5,
+          "source": "au Webポータル"
         },
         {
           "id": "d412dcf1afe9",
@@ -7470,21 +7361,7 @@
           "title": "日銀は1.25％へ政策金利を引き上げ ２つの反対票について考える | 藤代 宏一 | 第一ライフ資産運用経済研究所",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xTnFfTWhMbzk0VmtUT3dLUFVZdjVSaFJxbmdYSjUwZDloUDYtZ2h2ZTdoNnVZSWRRWG1WdGQtNlQzZkFqY3VIUm9PLThrUGxfQlZseG9CaHJKMk0?oc=5",
           "importance": 5,
-          "source": "第一ライフ資産運用経済研究所"
-        },
-        {
-          "id": "af2c33284622",
-          "title": "日銀が政策金利を1.25％に引き上げ：識者はこうみる | ロイター",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLTUzaTVYR0lIVkxIUnMxMFVSUVlfdktWdDI0M0ZXOHV5WDdXeHA1N1NEUHJkbTNfWHVKU1BnU19FNE42T1psaU9TVTdhdjdCbXZ1MEI2WXdtR3VEekd4ZlR0QThPZDFFMGxiR1Q5OVhINl91WC1pUW9YTFppV0F0VnZxdlVaR2Z0SkVaS2JPbVo?oc=5",
-          "importance": 5,
-          "source": "Reuters"
-        },
-        {
-          "id": "4dee6923946f",
-          "title": "日銀、１．２５％に利上げ 決定会合、物価高でペース加速―３カ月ぶり、次は今冬の見方も",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5haHgwWlFtVTFubmNFTWpTcWFxWFJ1ci1YY1laZlN6TTlUY0lwbHBYZDB6UzN6czc1d3VSYmRiak1wNU41TEh0ZUc5OXJKUUV1TjVYZkpDckN2MmlCaFItYlgxcw?oc=5",
-          "importance": 5,
-          "source": "時事ドットコム"
+          "source": "dlri.co.jp"
         },
         {
           "id": "b7db4445bcb4",
@@ -7499,11 +7376,91 @@
           "code": "8802",
           "name": "三菱地所",
           "positive": 1,
-          "negative": 5,
+          "negative": 4,
           "watch": 0
         }
       ],
       "max_importance": 5,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "connection_type": "company",
+      "connection_label": "同じ企業",
+      "theme_id": null,
+      "label": "東京エレクトロンに関するニュース",
+      "category": "",
+      "category_label": "同じ企業",
+      "category_emoji": "🏢",
+      "member_ids": [
+        "d2ffc7e96216",
+        "0c5ca9751608",
+        "8f55fee13666",
+        "eeb335ee7b40",
+        "10eedbfd13da"
+      ],
+      "members": [
+        {
+          "id": "d2ffc7e96216",
+          "title": "半導体製造装置の部品納期が最大40カ月との報道、AI増産を支える設備投資に調達の壁",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA4dFBlSThSMkQ0RlJ6VjlJMUNia24wSHNsX29GSFJqTFFpeVZLN1daNkpBODlqZUo1a0ZkTkVzdGtVWV9YWlRiQ2ltd0xsNklHVEthUWJWaGItcjRLV21mc2EwY1RGcE1GOHNJSFln?oc=5",
+          "importance": 4,
+          "source": "XenoSpectrum"
+        },
+        {
+          "id": "0c5ca9751608",
+          "title": "米国株式市場＝まちまち、半導体株主導でＳ＆Ｐ・ナスダック続伸 | ロイター",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSUZ3OXJnZGpGQjh5cTFtRDlpUEo4Zk5ISV9RZ25yV2ZCb0RHRkxvT2VWdlFiSlBRVzl5MTlIbElOUWdjR29iTV9ncWJQdk1NSFdrSXhOZnMyN1hPY0djUWRMV0cwYl9vLWRlbE1RQi1NMmg5OTVmQURsbnJQOWhhM2RVRTlRdw?oc=5",
+          "importance": 2,
+          "source": "Reuters"
+        },
+        {
+          "id": "8f55fee13666",
+          "title": "欧州議会、社会全体のレジリエンス構築における台湾の成功事例を評価する決議を採択",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE80S19ua0RWeFNLZ1o1aHFJNVJJbFpkRVpSbG9PT0I4NHpWZkh3NWJjaDBnazBVLUVOZ3lvMDQ4ZG9TQXVjOGtkQXl3bGM?oc=5",
+          "importance": 2,
+          "source": "jp.taiwantoday.tw"
+        },
+        {
+          "id": "eeb335ee7b40",
+          "title": "台湾への「一国二制度」案、中国の専門家らが12項目 解放軍駐留、非平和統一なら3～5年の「準軍事統治」",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4xNFZhM0dzMno3dWpXa1lZNXFqZGI4SWJreEFGRDVad1pEdkZ3M2VkenRCSExrQ2NIUHZnWUVzTTVDRGQ3QkYyR0xzSjEwbkNW?oc=5",
+          "importance": 2,
+          "source": "japan.storm.mg"
+        },
+        {
+          "id": "10eedbfd13da",
+          "title": "シンポジウム「欧州の競争力低下と日本への示唆－試される ブリュッセル効果とデジタル・AI戦略」を開催しました",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1rVFo5TlZENW5JSG5rUWU3RmlGckU5Ujl0ajFYU3k4Z0tVTS1idG8yTm1xMnpQNHRZSmR4SkthajBVSFhKRmtsMUh3a3FFTjRDZWdmUm92WVRkdEFfdV9UMWdzY05ydURLcG1z?oc=5",
+          "importance": 2,
+          "source": "keidanren.or.jp"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "8035",
+          "name": "東京エレクトロン",
+          "positive": 2,
+          "negative": 2,
+          "watch": 1
+        }
+      ],
+      "max_importance": 4,
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -7532,9 +7489,8 @@
       "category_emoji": "🏢",
       "member_ids": [
         "f91a1622462e",
+        "27fd73be92e9",
         "fe66970e63d0",
-        "af2c33284622",
-        "4dee6923946f",
         "b7db4445bcb4"
       ],
       "members": [
@@ -7546,25 +7502,18 @@
           "source": "テレ朝NEWS"
         },
         {
+          "id": "27fd73be92e9",
+          "title": "市場では年内にも利上げの見方も 日銀、政策金利1.25％に引き上げ 金融政策決定会合",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zRFdGeE1tbldFMWY1SGlrbU5VdEgtVlN3QVVCTWpxN2lGTHJTN25rQTdFY1lsdVFaS1MwR3FJRHRxTi1HSjhMUERxMUhZS1hqblFtYV9vZFB5RngtNjVLNHZtMnRBM1RSY2U5cjRn?oc=5",
+          "importance": 5,
+          "source": "au Webポータル"
+        },
+        {
           "id": "fe66970e63d0",
           "title": "日銀は1.25％へ政策金利を引き上げ ２つの反対票について考える | 藤代 宏一 | 第一ライフ資産運用経済研究所",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xTnFfTWhMbzk0VmtUT3dLUFVZdjVSaFJxbmdYSjUwZDloUDYtZ2h2ZTdoNnVZSWRRWG1WdGQtNlQzZkFqY3VIUm9PLThrUGxfQlZseG9CaHJKMk0?oc=5",
           "importance": 5,
-          "source": "第一ライフ資産運用経済研究所"
-        },
-        {
-          "id": "af2c33284622",
-          "title": "日銀が政策金利を1.25％に引き上げ：識者はこうみる | ロイター",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLTUzaTVYR0lIVkxIUnMxMFVSUVlfdktWdDI0M0ZXOHV5WDdXeHA1N1NEUHJkbTNfWHVKU1BnU19FNE42T1psaU9TVTdhdjdCbXZ1MEI2WXdtR3VEekd4ZlR0QThPZDFFMGxiR1Q5OVhINl91WC1pUW9YTFppV0F0VnZxdlVaR2Z0SkVaS2JPbVo?oc=5",
-          "importance": 5,
-          "source": "Reuters"
-        },
-        {
-          "id": "4dee6923946f",
-          "title": "日銀、１．２５％に利上げ 決定会合、物価高でペース加速―３カ月ぶり、次は今冬の見方も",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5haHgwWlFtVTFubmNFTWpTcWFxWFJ1ci1YY1laZlN6TTlUY0lwbHBYZDB6UzN6czc1d3VSYmRiak1wNU41TEh0ZUc5OXJKUUV1TjVYZkpDckN2MmlCaFItYlgxcw?oc=5",
-          "importance": 5,
-          "source": "時事ドットコム"
+          "source": "dlri.co.jp"
         },
         {
           "id": "b7db4445bcb4",
@@ -7578,183 +7527,8 @@
         {
           "code": "7182",
           "name": "ゆうちょ銀行",
-          "positive": 5,
+          "positive": 4,
           "negative": 0,
-          "watch": 0
-        }
-      ],
-      "max_importance": 5,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "connection_type": "company",
-      "connection_label": "同じ企業",
-      "theme_id": null,
-      "label": "東京海上ホールディングスに関するニュース",
-      "category": "",
-      "category_label": "同じ企業",
-      "category_emoji": "🏢",
-      "member_ids": [
-        "f91a1622462e",
-        "fe66970e63d0",
-        "af2c33284622",
-        "4dee6923946f",
-        "b7db4445bcb4"
-      ],
-      "members": [
-        {
-          "id": "f91a1622462e",
-          "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
-          "importance": 5,
-          "source": "テレ朝NEWS"
-        },
-        {
-          "id": "fe66970e63d0",
-          "title": "日銀は1.25％へ政策金利を引き上げ ２つの反対票について考える | 藤代 宏一 | 第一ライフ資産運用経済研究所",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xTnFfTWhMbzk0VmtUT3dLUFVZdjVSaFJxbmdYSjUwZDloUDYtZ2h2ZTdoNnVZSWRRWG1WdGQtNlQzZkFqY3VIUm9PLThrUGxfQlZseG9CaHJKMk0?oc=5",
-          "importance": 5,
-          "source": "第一ライフ資産運用経済研究所"
-        },
-        {
-          "id": "af2c33284622",
-          "title": "日銀が政策金利を1.25％に引き上げ：識者はこうみる | ロイター",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLTUzaTVYR0lIVkxIUnMxMFVSUVlfdktWdDI0M0ZXOHV5WDdXeHA1N1NEUHJkbTNfWHVKU1BnU19FNE42T1psaU9TVTdhdjdCbXZ1MEI2WXdtR3VEekd4ZlR0QThPZDFFMGxiR1Q5OVhINl91WC1pUW9YTFppV0F0VnZxdlVaR2Z0SkVaS2JPbVo?oc=5",
-          "importance": 5,
-          "source": "Reuters"
-        },
-        {
-          "id": "4dee6923946f",
-          "title": "日銀、１．２５％に利上げ 決定会合、物価高でペース加速―３カ月ぶり、次は今冬の見方も",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5haHgwWlFtVTFubmNFTWpTcWFxWFJ1ci1YY1laZlN6TTlUY0lwbHBYZDB6UzN6czc1d3VSYmRiak1wNU41TEh0ZUc5OXJKUUV1TjVYZkpDckN2MmlCaFItYlgxcw?oc=5",
-          "importance": 5,
-          "source": "時事ドットコム"
-        },
-        {
-          "id": "b7db4445bcb4",
-          "title": "豪ドル/円 見通し「連騰で112円台回復...日銀利上げでも金利差は縮まらない公算」注目の高金利通貨 9月20日号",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yUVp5RFJYUkw4Um0yZGNaZnROMEJPVXE3Ml9kY19wUjBCOUJHdTV6T01lWkktYVdZZkEwaHFMZWc2RUZDR2p3QjJsN2tFQlpYUnVJX2dkbnd4YVdJeERhOEZsRQ?oc=5",
-          "importance": 4,
-          "source": "外為どっとコム"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "8766",
-          "name": "東京海上ホールディングス",
-          "positive": 5,
-          "negative": 0,
-          "watch": 0
-        }
-      ],
-      "max_importance": 5,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "connection_type": "sector",
-      "connection_label": "同じ業界",
-      "theme_id": null,
-      "label": "不動産業界のニュース",
-      "category": "",
-      "category_label": "同じ業界",
-      "category_emoji": "🏭",
-      "member_ids": [
-        "f91a1622462e",
-        "d412dcf1afe9",
-        "fe66970e63d0",
-        "af2c33284622",
-        "4dee6923946f",
-        "b7db4445bcb4"
-      ],
-      "members": [
-        {
-          "id": "f91a1622462e",
-          "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
-          "importance": 5,
-          "source": "テレ朝NEWS"
-        },
-        {
-          "id": "d412dcf1afe9",
-          "title": "【ドル/円、来週の見通し】ドル/円、再び160円を試すのか…タカ派利上げのFOMC・ハト派利上げの日銀＿2026/9/18",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ES3YyNDBNLTNrcGxLNVpNQjdFWWR5ellFNjJRclhlTHlSbTh5bXNnUW1sVFdaQUlwMUFlZWpfSEdGdnQtekVwdHZaZHY0d2p2ZTk2NWlsOHJJWlc1NUExUnh3cw?oc=5",
-          "importance": 5,
-          "source": "外為どっとコム"
-        },
-        {
-          "id": "fe66970e63d0",
-          "title": "日銀は1.25％へ政策金利を引き上げ ２つの反対票について考える | 藤代 宏一 | 第一ライフ資産運用経済研究所",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xTnFfTWhMbzk0VmtUT3dLUFVZdjVSaFJxbmdYSjUwZDloUDYtZ2h2ZTdoNnVZSWRRWG1WdGQtNlQzZkFqY3VIUm9PLThrUGxfQlZseG9CaHJKMk0?oc=5",
-          "importance": 5,
-          "source": "第一ライフ資産運用経済研究所"
-        },
-        {
-          "id": "af2c33284622",
-          "title": "日銀が政策金利を1.25％に引き上げ：識者はこうみる | ロイター",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLTUzaTVYR0lIVkxIUnMxMFVSUVlfdktWdDI0M0ZXOHV5WDdXeHA1N1NEUHJkbTNfWHVKU1BnU19FNE42T1psaU9TVTdhdjdCbXZ1MEI2WXdtR3VEekd4ZlR0QThPZDFFMGxiR1Q5OVhINl91WC1pUW9YTFppV0F0VnZxdlVaR2Z0SkVaS2JPbVo?oc=5",
-          "importance": 5,
-          "source": "Reuters"
-        },
-        {
-          "id": "4dee6923946f",
-          "title": "日銀、１．２５％に利上げ 決定会合、物価高でペース加速―３カ月ぶり、次は今冬の見方も",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5haHgwWlFtVTFubmNFTWpTcWFxWFJ1ci1YY1laZlN6TTlUY0lwbHBYZDB6UzN6czc1d3VSYmRiak1wNU41TEh0ZUc5OXJKUUV1TjVYZkpDckN2MmlCaFItYlgxcw?oc=5",
-          "importance": 5,
-          "source": "時事ドットコム"
-        },
-        {
-          "id": "b7db4445bcb4",
-          "title": "豪ドル/円 見通し「連騰で112円台回復...日銀利上げでも金利差は縮まらない公算」注目の高金利通貨 9月20日号",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yUVp5RFJYUkw4Um0yZGNaZnROMEJPVXE3Ml9kY19wUjBCOUJHdTV6T01lWkktYVdZZkEwaHFMZWc2RUZDR2p3QjJsN2tFQlpYUnVJX2dkbnd4YVdJeERhOEZsRQ?oc=5",
-          "importance": 4,
-          "source": "外為どっとコム"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "8801",
-          "name": "三井不動産",
-          "positive": 1,
-          "negative": 5,
-          "watch": 0
-        },
-        {
-          "code": "8802",
-          "name": "三菱地所",
-          "positive": 1,
-          "negative": 5,
           "watch": 0
         }
       ],
@@ -7820,14 +7594,14 @@
           "title": "欧州議会、社会全体のレジリエンス構築における台湾の成功事例を評価する決議を採択",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE80S19ua0RWeFNLZ1o1aHFJNVJJbFpkRVpSbG9PT0I4NHpWZkh3NWJjaDBnazBVLUVOZ3lvMDQ4ZG9TQXVjOGtkQXl3bGM?oc=5",
           "importance": 2,
-          "source": "Taiwan Today"
+          "source": "jp.taiwantoday.tw"
         },
         {
           "id": "eeb335ee7b40",
           "title": "台湾への「一国二制度」案、中国の専門家らが12項目 解放軍駐留、非平和統一なら3～5年の「準軍事統治」",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4xNFZhM0dzMno3dWpXa1lZNXFqZGI4SWJreEFGRDVad1pEdkZ3M2VkenRCSExrQ2NIUHZnWUVzTTVDRGQ3QkYyR0xzSjEwbkNW?oc=5",
           "importance": 2,
-          "source": "風傳媒"
+          "source": "japan.storm.mg"
         },
         {
           "id": "10eedbfd13da",
@@ -7904,15 +7678,15 @@
       "connection_type": "sector",
       "connection_label": "同じ業界",
       "theme_id": null,
-      "label": "保険業界のニュース",
+      "label": "不動産業界のニュース",
       "category": "",
       "category_label": "同じ業界",
       "category_emoji": "🏭",
       "member_ids": [
         "f91a1622462e",
+        "27fd73be92e9",
+        "d412dcf1afe9",
         "fe66970e63d0",
-        "af2c33284622",
-        "4dee6923946f",
         "b7db4445bcb4"
       ],
       "members": [
@@ -7924,25 +7698,104 @@
           "source": "テレ朝NEWS"
         },
         {
+          "id": "27fd73be92e9",
+          "title": "市場では年内にも利上げの見方も 日銀、政策金利1.25％に引き上げ 金融政策決定会合",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zRFdGeE1tbldFMWY1SGlrbU5VdEgtVlN3QVVCTWpxN2lGTHJTN25rQTdFY1lsdVFaS1MwR3FJRHRxTi1HSjhMUERxMUhZS1hqblFtYV9vZFB5RngtNjVLNHZtMnRBM1RSY2U5cjRn?oc=5",
+          "importance": 5,
+          "source": "au Webポータル"
+        },
+        {
+          "id": "d412dcf1afe9",
+          "title": "【ドル/円、来週の見通し】ドル/円、再び160円を試すのか…タカ派利上げのFOMC・ハト派利上げの日銀＿2026/9/18",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ES3YyNDBNLTNrcGxLNVpNQjdFWWR5ellFNjJRclhlTHlSbTh5bXNnUW1sVFdaQUlwMUFlZWpfSEdGdnQtekVwdHZaZHY0d2p2ZTk2NWlsOHJJWlc1NUExUnh3cw?oc=5",
+          "importance": 5,
+          "source": "外為どっとコム"
+        },
+        {
           "id": "fe66970e63d0",
           "title": "日銀は1.25％へ政策金利を引き上げ ２つの反対票について考える | 藤代 宏一 | 第一ライフ資産運用経済研究所",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xTnFfTWhMbzk0VmtUT3dLUFVZdjVSaFJxbmdYSjUwZDloUDYtZ2h2ZTdoNnVZSWRRWG1WdGQtNlQzZkFqY3VIUm9PLThrUGxfQlZseG9CaHJKMk0?oc=5",
           "importance": 5,
-          "source": "第一ライフ資産運用経済研究所"
+          "source": "dlri.co.jp"
         },
         {
-          "id": "af2c33284622",
-          "title": "日銀が政策金利を1.25％に引き上げ：識者はこうみる | ロイター",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLTUzaTVYR0lIVkxIUnMxMFVSUVlfdktWdDI0M0ZXOHV5WDdXeHA1N1NEUHJkbTNfWHVKU1BnU19FNE42T1psaU9TVTdhdjdCbXZ1MEI2WXdtR3VEekd4ZlR0QThPZDFFMGxiR1Q5OVhINl91WC1pUW9YTFppV0F0VnZxdlVaR2Z0SkVaS2JPbVo?oc=5",
-          "importance": 5,
-          "source": "Reuters"
+          "id": "b7db4445bcb4",
+          "title": "豪ドル/円 見通し「連騰で112円台回復...日銀利上げでも金利差は縮まらない公算」注目の高金利通貨 9月20日号",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yUVp5RFJYUkw4Um0yZGNaZnROMEJPVXE3Ml9kY19wUjBCOUJHdTV6T01lWkktYVdZZkEwaHFMZWc2RUZDR2p3QjJsN2tFQlpYUnVJX2dkbnd4YVdJeERhOEZsRQ?oc=5",
+          "importance": 4,
+          "source": "外為どっとコム"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "8801",
+          "name": "三井不動産",
+          "positive": 1,
+          "negative": 4,
+          "watch": 0
         },
         {
-          "id": "4dee6923946f",
-          "title": "日銀、１．２５％に利上げ 決定会合、物価高でペース加速―３カ月ぶり、次は今冬の見方も",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5haHgwWlFtVTFubmNFTWpTcWFxWFJ1ci1YY1laZlN6TTlUY0lwbHBYZDB6UzN6czc1d3VSYmRiak1wNU41TEh0ZUc5OXJKUUV1TjVYZkpDckN2MmlCaFItYlgxcw?oc=5",
+          "code": "8802",
+          "name": "三菱地所",
+          "positive": 1,
+          "negative": 4,
+          "watch": 0
+        }
+      ],
+      "max_importance": 5,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "connection_type": "sector",
+      "connection_label": "同じ業界",
+      "theme_id": null,
+      "label": "保険業界のニュース",
+      "category": "",
+      "category_label": "同じ業界",
+      "category_emoji": "🏭",
+      "member_ids": [
+        "f91a1622462e",
+        "27fd73be92e9",
+        "fe66970e63d0",
+        "b7db4445bcb4"
+      ],
+      "members": [
+        {
+          "id": "f91a1622462e",
+          "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
           "importance": 5,
-          "source": "時事ドットコム"
+          "source": "テレ朝NEWS"
+        },
+        {
+          "id": "27fd73be92e9",
+          "title": "市場では年内にも利上げの見方も 日銀、政策金利1.25％に引き上げ 金融政策決定会合",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zRFdGeE1tbldFMWY1SGlrbU5VdEgtVlN3QVVCTWpxN2lGTHJTN25rQTdFY1lsdVFaS1MwR3FJRHRxTi1HSjhMUERxMUhZS1hqblFtYV9vZFB5RngtNjVLNHZtMnRBM1RSY2U5cjRn?oc=5",
+          "importance": 5,
+          "source": "au Webポータル"
+        },
+        {
+          "id": "fe66970e63d0",
+          "title": "日銀は1.25％へ政策金利を引き上げ ２つの反対票について考える | 藤代 宏一 | 第一ライフ資産運用経済研究所",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xTnFfTWhMbzk0VmtUT3dLUFVZdjVSaFJxbmdYSjUwZDloUDYtZ2h2ZTdoNnVZSWRRWG1WdGQtNlQzZkFqY3VIUm9PLThrUGxfQlZseG9CaHJKMk0?oc=5",
+          "importance": 5,
+          "source": "dlri.co.jp"
         },
         {
           "id": "b7db4445bcb4",
@@ -7956,7 +7809,7 @@
         {
           "code": "8766",
           "name": "東京海上ホールディングス",
-          "positive": 5,
+          "positive": 4,
           "negative": 0,
           "watch": 0
         }
@@ -7989,25 +7842,25 @@
       "category_label": "同じ業界",
       "category_emoji": "🏭",
       "member_ids": [
+        "88624d944acf",
         "b53572cfe789",
-        "b53a51ae638b",
         "852cada93859",
         "0e3d1d482459"
       ],
       "members": [
+        {
+          "id": "88624d944acf",
+          "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か（TBS NEWS DIG Powered by JNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VOWNfXzF6eUE3TVRWdTM5VnNPSEkzTXZub1FOaEJhRE1mUVNNUE5uaExWTHlwUlFnS2pMOTZEVVlCdWxENTl3STJXTXlVZ2k3WlA5RnUydERkNlRZMG1UY2hlTmhLRWh4UDVLbDRoelI1Y0hweGlvaXpGaDdXdXM?oc=5",
+          "importance": 5,
+          "source": "Yahoo!ニュース"
+        },
         {
           "id": "b53572cfe789",
           "title": "【速報解説】日銀利上げでも円安進行、ドル円は再び160円に戻る？9月日銀会合後の相場見通し＆今後の注目点｜佐々木融 2026年9月18日",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9UMU8yd25RX0FlR3pGYlNqbVlHYmZ2SEFORUZKc2U2cnVpaGdsYmVOSURRalYwTDRWVnJPcFR5eFBGWG1rdXFpQWVJd0hWYVpvM3BpRFg5X1poRncydGwwUzBqaw?oc=5",
           "importance": 5,
           "source": "外為どっとコム"
-        },
-        {
-          "id": "b53a51ae638b",
-          "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSDBmRFQydnNVQmxoSVlpTWw4eXZzZ29VeFJVR1RWX1JTUUVUOGJGSThvcWJLS2dHMXBTSjVMaFFpczdULWFhQVpmaVhZQS11SmxjN2h4YnVkU3RUeFRIWVhWOGFqSUxwaGRfNkNPUWdjdlpIVmkwSGNyQ2VZN3FyMXZCMHJXUVdZTGxwXw?oc=5",
-          "importance": 4,
-          "source": "newsdig.tbs.co.jp"
         },
         {
           "id": "852cada93859",
@@ -8097,10 +7950,9 @@
       "category_emoji": "🔗",
       "member_ids": [
         "f91a1622462e",
+        "27fd73be92e9",
         "d412dcf1afe9",
         "fe66970e63d0",
-        "af2c33284622",
-        "4dee6923946f",
         "b7db4445bcb4",
         "b9e082edcfd8",
         "adc06ba85706",
@@ -8116,6 +7968,13 @@
           "source": "テレ朝NEWS"
         },
         {
+          "id": "27fd73be92e9",
+          "title": "市場では年内にも利上げの見方も 日銀、政策金利1.25％に引き上げ 金融政策決定会合",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zRFdGeE1tbldFMWY1SGlrbU5VdEgtVlN3QVVCTWpxN2lGTHJTN25rQTdFY1lsdVFaS1MwR3FJRHRxTi1HSjhMUERxMUhZS1hqblFtYV9vZFB5RngtNjVLNHZtMnRBM1RSY2U5cjRn?oc=5",
+          "importance": 5,
+          "source": "au Webポータル"
+        },
+        {
           "id": "d412dcf1afe9",
           "title": "【ドル/円、来週の見通し】ドル/円、再び160円を試すのか…タカ派利上げのFOMC・ハト派利上げの日銀＿2026/9/18",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ES3YyNDBNLTNrcGxLNVpNQjdFWWR5ellFNjJRclhlTHlSbTh5bXNnUW1sVFdaQUlwMUFlZWpfSEdGdnQtekVwdHZaZHY0d2p2ZTk2NWlsOHJJWlc1NUExUnh3cw?oc=5",
@@ -8127,21 +7986,7 @@
           "title": "日銀は1.25％へ政策金利を引き上げ ２つの反対票について考える | 藤代 宏一 | 第一ライフ資産運用経済研究所",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xTnFfTWhMbzk0VmtUT3dLUFVZdjVSaFJxbmdYSjUwZDloUDYtZ2h2ZTdoNnVZSWRRWG1WdGQtNlQzZkFqY3VIUm9PLThrUGxfQlZseG9CaHJKMk0?oc=5",
           "importance": 5,
-          "source": "第一ライフ資産運用経済研究所"
-        },
-        {
-          "id": "af2c33284622",
-          "title": "日銀が政策金利を1.25％に引き上げ：識者はこうみる | ロイター",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLTUzaTVYR0lIVkxIUnMxMFVSUVlfdktWdDI0M0ZXOHV5WDdXeHA1N1NEUHJkbTNfWHVKU1BnU19FNE42T1psaU9TVTdhdjdCbXZ1MEI2WXdtR3VEekd4ZlR0QThPZDFFMGxiR1Q5OVhINl91WC1pUW9YTFppV0F0VnZxdlVaR2Z0SkVaS2JPbVo?oc=5",
-          "importance": 5,
-          "source": "Reuters"
-        },
-        {
-          "id": "4dee6923946f",
-          "title": "日銀、１．２５％に利上げ 決定会合、物価高でペース加速―３カ月ぶり、次は今冬の見方も",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5haHgwWlFtVTFubmNFTWpTcWFxWFJ1ci1YY1laZlN6TTlUY0lwbHBYZDB6UzN6czc1d3VSYmRiak1wNU41TEh0ZUc5OXJKUUV1TjVYZkpDckN2MmlCaFItYlgxcw?oc=5",
-          "importance": 5,
-          "source": "時事ドットコム"
+          "source": "dlri.co.jp"
         },
         {
           "id": "b7db4445bcb4",
@@ -8184,14 +8029,14 @@
           "code": "8801",
           "name": "三井不動産",
           "positive": 1,
-          "negative": 5,
+          "negative": 4,
           "watch": 0
         },
         {
           "code": "8802",
           "name": "三菱地所",
           "positive": 1,
-          "negative": 5,
+          "negative": 4,
           "watch": 0
         },
         {
@@ -8301,14 +8146,14 @@
           "title": "欧州議会、社会全体のレジリエンス構築における台湾の成功事例を評価する決議を採択",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE80S19ua0RWeFNLZ1o1aHFJNVJJbFpkRVpSbG9PT0I4NHpWZkh3NWJjaDBnazBVLUVOZ3lvMDQ4ZG9TQXVjOGtkQXl3bGM?oc=5",
           "importance": 2,
-          "source": "Taiwan Today"
+          "source": "jp.taiwantoday.tw"
         },
         {
           "id": "eeb335ee7b40",
           "title": "台湾への「一国二制度」案、中国の専門家らが12項目 解放軍駐留、非平和統一なら3～5年の「準軍事統治」",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4xNFZhM0dzMno3dWpXa1lZNXFqZGI4SWJreEFGRDVad1pEdkZ3M2VkenRCSExrQ2NIUHZnWUVzTTVDRGQ3QkYyR0xzSjEwbkNW?oc=5",
           "importance": 2,
-          "source": "風傳媒"
+          "source": "japan.storm.mg"
         },
         {
           "id": "10eedbfd13da",
@@ -8378,75 +8223,103 @@
       "connection_type": "supply_chain",
       "connection_label": "資源・サプライチェーン",
       "theme_id": null,
-      "label": "不動産に関連するニュース",
+      "label": "インバウンドに関連するニュース",
       "category": "",
       "category_label": "資源・サプライチェーン",
       "category_emoji": "🔗",
       "member_ids": [
-        "f91a1622462e",
-        "d412dcf1afe9",
-        "fe66970e63d0",
-        "af2c33284622",
-        "4dee6923946f",
-        "b7db4445bcb4"
+        "88624d944acf",
+        "b9e082edcfd8",
+        "adc06ba85706",
+        "fd9780c52630",
+        "dc86748044dc",
+        "0e3d1d482459"
       ],
       "members": [
         {
-          "id": "f91a1622462e",
-          "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
+          "id": "88624d944acf",
+          "title": "一時1円以上円高方向に 日銀が“為替介入の準備段階”レートチェック実施か（TBS NEWS DIG Powered by JNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VOWNfXzF6eUE3TVRWdTM5VnNPSEkzTXZub1FOaEJhRE1mUVNNUE5uaExWTHlwUlFnS2pMOTZEVVlCdWxENTl3STJXTXlVZ2k3WlA5RnUydERkNlRZMG1UY2hlTmhLRWh4UDVLbDRoelI1Y0hweGlvaXpGaDdXdXM?oc=5",
           "importance": 5,
-          "source": "テレ朝NEWS"
+          "source": "Yahoo!ニュース"
         },
         {
-          "id": "d412dcf1afe9",
-          "title": "【ドル/円、来週の見通し】ドル/円、再び160円を試すのか…タカ派利上げのFOMC・ハト派利上げの日銀＿2026/9/18",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ES3YyNDBNLTNrcGxLNVpNQjdFWWR5ellFNjJRclhlTHlSbTh5bXNnUW1sVFdaQUlwMUFlZWpfSEdGdnQtekVwdHZaZHY0d2p2ZTk2NWlsOHJJWlc1NUExUnh3cw?oc=5",
-          "importance": 5,
-          "source": "外為どっとコム"
-        },
-        {
-          "id": "fe66970e63d0",
-          "title": "日銀は1.25％へ政策金利を引き上げ ２つの反対票について考える | 藤代 宏一 | 第一ライフ資産運用経済研究所",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xTnFfTWhMbzk0VmtUT3dLUFVZdjVSaFJxbmdYSjUwZDloUDYtZ2h2ZTdoNnVZSWRRWG1WdGQtNlQzZkFqY3VIUm9PLThrUGxfQlZseG9CaHJKMk0?oc=5",
-          "importance": 5,
-          "source": "第一ライフ資産運用経済研究所"
-        },
-        {
-          "id": "af2c33284622",
-          "title": "日銀が政策金利を1.25％に引き上げ：識者はこうみる | ロイター",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLTUzaTVYR0lIVkxIUnMxMFVSUVlfdktWdDI0M0ZXOHV5WDdXeHA1N1NEUHJkbTNfWHVKU1BnU19FNE42T1psaU9TVTdhdjdCbXZ1MEI2WXdtR3VEekd4ZlR0QThPZDFFMGxiR1Q5OVhINl91WC1pUW9YTFppV0F0VnZxdlVaR2Z0SkVaS2JPbVo?oc=5",
-          "importance": 5,
-          "source": "Reuters"
-        },
-        {
-          "id": "4dee6923946f",
-          "title": "日銀、１．２５％に利上げ 決定会合、物価高でペース加速―３カ月ぶり、次は今冬の見方も",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5haHgwWlFtVTFubmNFTWpTcWFxWFJ1ci1YY1laZlN6TTlUY0lwbHBYZDB6UzN6czc1d3VSYmRiak1wNU41TEh0ZUc5OXJKUUV1TjVYZkpDckN2MmlCaFItYlgxcw?oc=5",
-          "importance": 5,
-          "source": "時事ドットコム"
-        },
-        {
-          "id": "b7db4445bcb4",
-          "title": "豪ドル/円 見通し「連騰で112円台回復...日銀利上げでも金利差は縮まらない公算」注目の高金利通貨 9月20日号",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yUVp5RFJYUkw4Um0yZGNaZnROMEJPVXE3Ml9kY19wUjBCOUJHdTV6T01lWkktYVdZZkEwaHFMZWc2RUZDR2p3QjJsN2tFQlpYUnVJX2dkbnd4YVdJeERhOEZsRQ?oc=5",
+          "id": "b9e082edcfd8",
+          "title": "「投資信託及び投資法人に関する法律施行規則の一部を改正する内閣府令」の公布及びパブリックコメントの結果について公表しました。",
+          "url": "https://www.fsa.go.jp/news/r8/shouken/20260918/20260918.html",
           "importance": 4,
-          "source": "外為どっとコム"
+          "source": "金融庁"
+        },
+        {
+          "id": "adc06ba85706",
+          "title": "記者会見,片山財務大臣兼内閣府特命担当大臣ぶら下がり記者会見の概要（令和８年8月31日）について掲載しました。",
+          "url": "https://www.fsa.go.jp/common/conference/minister/2026b/20260831-1.html",
+          "importance": 4,
+          "source": "金融庁"
+        },
+        {
+          "id": "fd9780c52630",
+          "title": "木原内閣官房長官は技能五輪国際大会（中国・上海大会）における日本選手団による表敬を受けました",
+          "url": "https://www.kantei.go.jp/jp/pages/20260918choukan_hyoukei.html",
+          "importance": 3,
+          "source": "首相官邸"
+        },
+        {
+          "id": "dc86748044dc",
+          "title": "高市総理ともお話ししたトゥンクトゥンクが、首相官邸から飛び出して“初出張”します！",
+          "url": "https://www.maff.go.jp/j/press/nousan/kaki/260918_1.html",
+          "importance": 3,
+          "source": "農林水産省"
+        },
+        {
+          "id": "0e3d1d482459",
+          "title": "日銀レートチェック再び、連休前に円安けん制 投機筋｢不意突かれた｣",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJTnpTdWk2VUJ3YjRWM0NtWDRFTXh3c0pIcmd6cHl5ai1JcXAxazl2d1FSZ1RyaG8tWEpxUlZKT0pieS1sb2tkU3dPdEszb0tjT1g1ZHU0RGg0b2lsTEo5OHVHc3dGd1dja3NDbQ?oc=5",
+          "importance": 2,
+          "source": "日本経済新聞"
         }
       ],
       "stocks": [
         {
-          "code": "8801",
-          "name": "三井不動産",
+          "code": "9020",
+          "name": "東日本旅客鉄道",
+          "positive": 0,
+          "negative": 0,
+          "watch": 4
+        },
+        {
+          "code": "9022",
+          "name": "東海旅客鉄道",
+          "positive": 0,
+          "negative": 0,
+          "watch": 4
+        },
+        {
+          "code": "9021",
+          "name": "西日本旅客鉄道",
+          "positive": 0,
+          "negative": 0,
+          "watch": 4
+        },
+        {
+          "code": "9201",
+          "name": "日本航空",
           "positive": 1,
-          "negative": 5,
+          "negative": 0,
           "watch": 0
         },
         {
-          "code": "8802",
-          "name": "三菱地所",
+          "code": "9202",
+          "name": "ANAホールディングス",
           "positive": 1,
-          "negative": 5,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "9983",
+          "name": "ファーストリテイリング",
+          "positive": 0,
+          "negative": 1,
           "watch": 0
         }
       ],
@@ -8473,79 +8346,107 @@
       "connection_type": "supply_chain",
       "connection_label": "資源・サプライチェーン",
       "theme_id": null,
-      "label": "金利上昇デメリットに関連するニュース",
+      "label": "AIに関連するニュース",
       "category": "",
       "category_label": "資源・サプライチェーン",
       "category_emoji": "🔗",
       "member_ids": [
-        "f91a1622462e",
-        "d412dcf1afe9",
-        "fe66970e63d0",
-        "af2c33284622",
-        "4dee6923946f",
-        "b7db4445bcb4"
+        "d2ffc7e96216",
+        "1960ed8c7faa",
+        "0c5ca9751608",
+        "8f55fee13666",
+        "eeb335ee7b40",
+        "10eedbfd13da"
       ],
       "members": [
         {
-          "id": "f91a1622462e",
-          "title": "日銀の利上げでも円安…深夜に1円以上円高 介入準備のレートチェックあったか",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd3NORVEzZEdoUDFwM216NDNBT2VGb0xQSkFsWG00ekIwU2FqN2RmY3RFOHZtaXZYbG1nUDhCeHByVGZwMkVXNGRIakF2aE9VcnlXOUI0WGQ2X0MzcDgycWNZSjJncWhpSHlNNUc4VzFQUQ?oc=5",
-          "importance": 5,
-          "source": "テレ朝NEWS"
+          "id": "d2ffc7e96216",
+          "title": "半導体製造装置の部品納期が最大40カ月との報道、AI増産を支える設備投資に調達の壁",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA4dFBlSThSMkQ0RlJ6VjlJMUNia24wSHNsX29GSFJqTFFpeVZLN1daNkpBODlqZUo1a0ZkTkVzdGtVWV9YWlRiQ2ltd0xsNklHVEthUWJWaGItcjRLV21mc2EwY1RGcE1GOHNJSFln?oc=5",
+          "importance": 4,
+          "source": "XenoSpectrum"
         },
         {
-          "id": "d412dcf1afe9",
-          "title": "【ドル/円、来週の見通し】ドル/円、再び160円を試すのか…タカ派利上げのFOMC・ハト派利上げの日銀＿2026/9/18",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ES3YyNDBNLTNrcGxLNVpNQjdFWWR5ellFNjJRclhlTHlSbTh5bXNnUW1sVFdaQUlwMUFlZWpfSEdGdnQtekVwdHZaZHY0d2p2ZTk2NWlsOHJJWlc1NUExUnh3cw?oc=5",
-          "importance": 5,
-          "source": "外為どっとコム"
+          "id": "1960ed8c7faa",
+          "title": "ウクライナは、ロシアとのエネルギー停戦に関して進展が見込めると考えている。",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVjdHTVI3TFhjN01jNjZTUjJ1SkxjNU5HQktNSjVuZmN3eGZBV1NYNXU2Z2FjZXlobFFIMDlvMGlzazExS1FqeHhpUERDZUVGUDZVd1hGOUdPN2hmdkhhVWNFZ1ZxMnk4c29OT29pbXgxd2dZWFIxd2dzcEV0eVNrU0RJNGJ5S0kzSU5OZW5vUEJCSmVoa2YtZ2pn?oc=5",
+          "importance": 4,
+          "source": "Vietnam.vn"
         },
         {
-          "id": "fe66970e63d0",
-          "title": "日銀は1.25％へ政策金利を引き上げ ２つの反対票について考える | 藤代 宏一 | 第一ライフ資産運用経済研究所",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xTnFfTWhMbzk0VmtUT3dLUFVZdjVSaFJxbmdYSjUwZDloUDYtZ2h2ZTdoNnVZSWRRWG1WdGQtNlQzZkFqY3VIUm9PLThrUGxfQlZseG9CaHJKMk0?oc=5",
-          "importance": 5,
-          "source": "第一ライフ資産運用経済研究所"
-        },
-        {
-          "id": "af2c33284622",
-          "title": "日銀が政策金利を1.25％に引き上げ：識者はこうみる | ロイター",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLTUzaTVYR0lIVkxIUnMxMFVSUVlfdktWdDI0M0ZXOHV5WDdXeHA1N1NEUHJkbTNfWHVKU1BnU19FNE42T1psaU9TVTdhdjdCbXZ1MEI2WXdtR3VEekd4ZlR0QThPZDFFMGxiR1Q5OVhINl91WC1pUW9YTFppV0F0VnZxdlVaR2Z0SkVaS2JPbVo?oc=5",
-          "importance": 5,
+          "id": "0c5ca9751608",
+          "title": "米国株式市場＝まちまち、半導体株主導でＳ＆Ｐ・ナスダック続伸 | ロイター",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSUZ3OXJnZGpGQjh5cTFtRDlpUEo4Zk5ISV9RZ25yV2ZCb0RHRkxvT2VWdlFiSlBRVzl5MTlIbElOUWdjR29iTV9ncWJQdk1NSFdrSXhOZnMyN1hPY0djUWRMV0cwYl9vLWRlbE1RQi1NMmg5OTVmQURsbnJQOWhhM2RVRTlRdw?oc=5",
+          "importance": 2,
           "source": "Reuters"
         },
         {
-          "id": "4dee6923946f",
-          "title": "日銀、１．２５％に利上げ 決定会合、物価高でペース加速―３カ月ぶり、次は今冬の見方も",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5haHgwWlFtVTFubmNFTWpTcWFxWFJ1ci1YY1laZlN6TTlUY0lwbHBYZDB6UzN6czc1d3VSYmRiak1wNU41TEh0ZUc5OXJKUUV1TjVYZkpDckN2MmlCaFItYlgxcw?oc=5",
-          "importance": 5,
-          "source": "時事ドットコム"
+          "id": "8f55fee13666",
+          "title": "欧州議会、社会全体のレジリエンス構築における台湾の成功事例を評価する決議を採択",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE80S19ua0RWeFNLZ1o1aHFJNVJJbFpkRVpSbG9PT0I4NHpWZkh3NWJjaDBnazBVLUVOZ3lvMDQ4ZG9TQXVjOGtkQXl3bGM?oc=5",
+          "importance": 2,
+          "source": "jp.taiwantoday.tw"
         },
         {
-          "id": "b7db4445bcb4",
-          "title": "豪ドル/円 見通し「連騰で112円台回復...日銀利上げでも金利差は縮まらない公算」注目の高金利通貨 9月20日号",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yUVp5RFJYUkw4Um0yZGNaZnROMEJPVXE3Ml9kY19wUjBCOUJHdTV6T01lWkktYVdZZkEwaHFMZWc2RUZDR2p3QjJsN2tFQlpYUnVJX2dkbnd4YVdJeERhOEZsRQ?oc=5",
-          "importance": 4,
-          "source": "外為どっとコム"
+          "id": "eeb335ee7b40",
+          "title": "台湾への「一国二制度」案、中国の専門家らが12項目 解放軍駐留、非平和統一なら3～5年の「準軍事統治」",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4xNFZhM0dzMno3dWpXa1lZNXFqZGI4SWJreEFGRDVad1pEdkZ3M2VkenRCSExrQ2NIUHZnWUVzTTVDRGQ3QkYyR0xzSjEwbkNW?oc=5",
+          "importance": 2,
+          "source": "japan.storm.mg"
+        },
+        {
+          "id": "10eedbfd13da",
+          "title": "シンポジウム「欧州の競争力低下と日本への示唆－試される ブリュッセル効果とデジタル・AI戦略」を開催しました",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1rVFo5TlZENW5JSG5rUWU3RmlGckU5Ujl0ajFYU3k4Z0tVTS1idG8yTm1xMnpQNHRZSmR4SkthajBVSFhKRmtsMUh3a3FFTjRDZWdmUm92WVRkdEFfdV9UMWdzY05ydURLcG1z?oc=5",
+          "importance": 2,
+          "source": "keidanren.or.jp"
         }
       ],
       "stocks": [
         {
-          "code": "8801",
-          "name": "三井不動産",
-          "positive": 1,
-          "negative": 5,
+          "code": "8035",
+          "name": "東京エレクトロン",
+          "positive": 2,
+          "negative": 2,
+          "watch": 1
+        },
+        {
+          "code": "6857",
+          "name": "アドバンテスト",
+          "positive": 2,
+          "negative": 0,
+          "watch": 1
+        },
+        {
+          "code": "6146",
+          "name": "ディスコ",
+          "positive": 2,
+          "negative": 0,
+          "watch": 1
+        },
+        {
+          "code": "6701",
+          "name": "日本電気",
+          "positive": 2,
+          "negative": 1,
           "watch": 0
         },
         {
-          "code": "8802",
-          "name": "三菱地所",
-          "positive": 1,
-          "negative": 5,
-          "watch": 0
+          "code": "9984",
+          "name": "ソフトバンクグループ",
+          "positive": 0,
+          "negative": 0,
+          "watch": 1
+        },
+        {
+          "code": "6526",
+          "name": "ソシオネクスト",
+          "positive": 0,
+          "negative": 0,
+          "watch": 1
         }
       ],
-      "max_importance": 5,
+      "max_importance": 4,
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -8567,7 +8468,7 @@
   ],
   "counts": {
     "news": 40,
-    "high_importance": 13,
+    "high_importance": 12,
     "stocks": 20
   }
 }
