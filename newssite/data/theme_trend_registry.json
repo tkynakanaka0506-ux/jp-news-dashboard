@@ -4,13 +4,15 @@
    "events": [],
    "first_seen": "2026-09-20",
    "milestones": {},
-   "occurrences": 3,
+   "occurrences": 4,
    "signals": {}
   },
   "boj_hike": {
    "events": [
     {
-     "actor_types": [],
+     "actor_types": [
+      "media"
+     ],
      "date": "2026-09-20",
      "item_id": "f91a1622462e",
      "origin_region": null,
@@ -18,7 +20,7 @@
      "signals": [
       "multi_source"
      ],
-     "source": ""
+     "source": "テレ朝NEWS"
     },
     {
      "actor_types": [],
@@ -70,9 +72,10 @@
    "first_seen": "2026-09-20",
    "milestones": {
     "government_foreign": "2026-09-20",
+    "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 3,
+   "occurrences": 4,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -80,10 +83,12 @@
   "jp_politics": {
    "events": [
     {
-     "actor_types": [],
+     "actor_types": [
+      "government_jp"
+     ],
      "date": "2026-09-20",
      "item_id": "b9e082edcfd8",
-     "origin_region": null,
+     "origin_region": "日本",
      "regions": [
       "日本"
      ],
@@ -91,13 +96,16 @@
       "gov_policy",
       "gov_source"
      ],
-     "source": ""
+     "source": "金融庁"
     },
     {
-     "actor_types": [],
+     "actor_types": [
+      "government_jp",
+      "media"
+     ],
      "date": "2026-09-20",
      "item_id": "adc06ba85706",
-     "origin_region": null,
+     "origin_region": "日本",
      "regions": [
       "日本"
      ],
@@ -105,13 +113,15 @@
       "gov_source",
       "multi_source"
      ],
-     "source": ""
+     "source": "金融庁"
     },
     {
-     "actor_types": [],
+     "actor_types": [
+      "government_jp"
+     ],
      "date": "2026-09-20",
      "item_id": "fd9780c52630",
-     "origin_region": null,
+     "origin_region": "日本",
      "regions": [
       "中国",
       "日本"
@@ -119,20 +129,22 @@
      "signals": [
       "gov_source"
      ],
-     "source": ""
+     "source": "首相官邸"
     },
     {
-     "actor_types": [],
+     "actor_types": [
+      "government_jp"
+     ],
      "date": "2026-09-20",
      "item_id": "dc86748044dc",
-     "origin_region": null,
+     "origin_region": "日本",
      "regions": [
       "日本"
      ],
      "signals": [
       "gov_source"
      ],
-     "source": ""
+     "source": "農林水産省"
     },
     {
      "actor_types": [],
@@ -149,8 +161,11 @@
     }
    ],
    "first_seen": "2026-09-20",
-   "milestones": {},
-   "occurrences": 3,
+   "milestones": {
+    "government_jp": "2026-09-20",
+    "media": "2026-09-20"
+   },
+   "occurrences": 4,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
@@ -195,7 +210,7 @@
    "milestones": {
     "government_foreign": "2026-09-20"
    },
-   "occurrences": 3,
+   "occurrences": 4,
    "signals": {}
   },
   "semi_demand": {
@@ -209,12 +224,12 @@
      "signals": [
       "capex"
      ],
-     "source": ""
+     "source": "xenospectrum.com"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {},
-   "occurrences": 3,
+   "occurrences": 4,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -233,7 +248,7 @@
      "signals": [
       "foreign"
      ],
-     "source": ""
+     "source": "Taiwan Today"
     },
     {
      "actor_types": [],
@@ -247,12 +262,12 @@
      "signals": [
       "foreign"
      ],
-     "source": ""
+     "source": "風傳媒"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {},
-   "occurrences": 3,
+   "occurrences": 4,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -268,12 +283,12 @@
      "signals": [
       "foreign"
      ],
-     "source": ""
+     "source": "Vietnam.vn"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {},
-   "occurrences": 3,
+   "occurrences": 4,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -282,21 +297,21 @@
    "events": [],
    "first_seen": "2026-09-20",
    "milestones": {},
-   "occurrences": 3,
+   "occurrences": 4,
    "signals": {}
   },
   "yen_strong": {
    "events": [],
    "first_seen": "2026-09-20",
    "milestones": {},
-   "occurrences": 3,
+   "occurrences": 4,
    "signals": {}
   },
   "yen_weak": {
    "events": [],
    "first_seen": "2026-09-20",
    "milestones": {},
-   "occurrences": 3,
+   "occurrences": 4,
    "signals": {}
   }
  }
