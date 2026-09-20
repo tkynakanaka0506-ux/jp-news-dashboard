@@ -285,7 +285,17 @@ def record_and_classify(registry, news, rules, today):
         entry.setdefault("first_seen", today)
         entry.setdefault("milestones", {})
 
+        # スキーマ移行の互換性: このモジュールを更新する前に書き込まれた
+        # 古いイベント(source/actor_types/origin_regionを持たない)が
+        # レジストリに残っていても壊れないよう、欠けているキーを安全な
+        # 既定値で補う(独立性の判定には寄与しないだけで、エラーには
+        # しない)。
         events = entry.setdefault("events", [])
+        for e in events:
+            e.setdefault("source", "")
+            e.setdefault("actor_types", [])
+            e.setdefault("regions", [])
+            e.setdefault("origin_region", None)
         existing_ids = {e["item_id"] for e in events}
         for item_id, info in today_events:
             # 8種類の既存シグナル(info["signals"])とactor_types(政府/企業/
