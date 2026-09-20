@@ -3,38 +3,76 @@
   "ai_policy": {
    "events": [],
    "first_seen": "2026-09-20",
-   "occurrences": 2,
+   "milestones": {},
+   "occurrences": 3,
    "signals": {}
   },
   "boj_hike": {
    "events": [
     {
+     "actor_types": [],
      "date": "2026-09-20",
      "item_id": "f91a1622462e",
+     "origin_region": null,
      "regions": [],
      "signals": [
       "multi_source"
-     ]
+     ],
+     "source": ""
     },
     {
+     "actor_types": [],
      "date": "2026-09-20",
      "item_id": "65f9dc879f0c",
+     "origin_region": null,
      "regions": [],
      "signals": [
       "multi_source"
-     ]
+     ],
+     "source": ""
     },
     {
+     "actor_types": [],
      "date": "2026-09-20",
      "item_id": "7a6fb21e9d12",
+     "origin_region": null,
      "regions": [],
      "signals": [
       "multi_source"
-     ]
+     ],
+     "source": ""
+    },
+    {
+     "actor_types": [
+      "government_foreign"
+     ],
+     "date": "2026-09-20",
+     "item_id": "d412dcf1afe9",
+     "origin_region": "米国",
+     "regions": [
+      "米国"
+     ],
+     "signals": [],
+     "source": "外為どっとコム"
+    },
+    {
+     "actor_types": [
+      "research"
+     ],
+     "date": "2026-09-20",
+     "item_id": "fe66970e63d0",
+     "origin_region": null,
+     "regions": [],
+     "signals": [],
+     "source": "第一ライフ資産運用経済研究所"
     }
    ],
    "first_seen": "2026-09-20",
-   "occurrences": 2,
+   "milestones": {
+    "government_foreign": "2026-09-20",
+    "research": "2026-09-20"
+   },
+   "occurrences": 3,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -42,86 +80,141 @@
   "jp_politics": {
    "events": [
     {
+     "actor_types": [],
      "date": "2026-09-20",
      "item_id": "b9e082edcfd8",
+     "origin_region": null,
      "regions": [
       "日本"
      ],
      "signals": [
       "gov_policy",
       "gov_source"
-     ]
+     ],
+     "source": ""
     },
     {
+     "actor_types": [],
      "date": "2026-09-20",
      "item_id": "adc06ba85706",
+     "origin_region": null,
      "regions": [
       "日本"
      ],
      "signals": [
       "gov_source",
       "multi_source"
-     ]
+     ],
+     "source": ""
     },
     {
+     "actor_types": [],
      "date": "2026-09-20",
      "item_id": "fd9780c52630",
+     "origin_region": null,
      "regions": [
       "中国",
       "日本"
      ],
      "signals": [
       "gov_source"
-     ]
+     ],
+     "source": ""
     },
     {
+     "actor_types": [],
      "date": "2026-09-20",
      "item_id": "dc86748044dc",
+     "origin_region": null,
      "regions": [
       "日本"
      ],
      "signals": [
       "gov_source"
-     ]
+     ],
+     "source": ""
     },
     {
+     "actor_types": [],
      "date": "2026-09-20",
      "item_id": "dbd64e004319",
+     "origin_region": null,
      "regions": [
       "日本"
      ],
      "signals": [
       "gov_source"
-     ]
+     ],
+     "source": ""
     }
    ],
    "first_seen": "2026-09-20",
-   "occurrences": 2,
+   "milestones": {},
+   "occurrences": 3,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
     "multi_source": "2026-09-20"
    }
   },
-  "rate_cut": {
-   "events": [],
+  "middle_east": {
+   "events": [
+    {
+     "actor_types": [],
+     "date": "2026-09-20",
+     "item_id": "b0975c29ea80",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "テレ朝NEWS"
+    }
+   ],
    "first_seen": "2026-09-20",
-   "occurrences": 2,
+   "milestones": {},
+   "occurrences": 1
+  },
+  "rate_cut": {
+   "events": [
+    {
+     "actor_types": [
+      "government_foreign"
+     ],
+     "date": "2026-09-20",
+     "item_id": "d412dcf1afe9",
+     "origin_region": "米国",
+     "regions": [
+      "米国"
+     ],
+     "signals": [],
+     "source": "外為どっとコム"
+    }
+   ],
+   "first_seen": "2026-09-20",
+   "milestones": {
+    "government_foreign": "2026-09-20"
+   },
+   "occurrences": 3,
    "signals": {}
   },
   "semi_demand": {
    "events": [
     {
+     "actor_types": [],
      "date": "2026-09-20",
      "item_id": "d2ffc7e96216",
+     "origin_region": null,
      "regions": [],
      "signals": [
       "capex"
-     ]
+     ],
+     "source": ""
     }
    ],
    "first_seen": "2026-09-20",
-   "occurrences": 2,
+   "milestones": {},
+   "occurrences": 3,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -129,30 +222,37 @@
   "taiwan_china": {
    "events": [
     {
+     "actor_types": [],
      "date": "2026-09-20",
      "item_id": "8f55fee13666",
+     "origin_region": null,
      "regions": [
       "EU/欧州",
       "台湾"
      ],
      "signals": [
       "foreign"
-     ]
+     ],
+     "source": ""
     },
     {
+     "actor_types": [],
      "date": "2026-09-20",
      "item_id": "eeb335ee7b40",
+     "origin_region": null,
      "regions": [
       "中国",
       "台湾"
      ],
      "signals": [
       "foreign"
-     ]
+     ],
+     "source": ""
     }
    ],
    "first_seen": "2026-09-20",
-   "occurrences": 2,
+   "milestones": {},
+   "occurrences": 3,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -160,16 +260,20 @@
   "ukraine_russia": {
    "events": [
     {
+     "actor_types": [],
      "date": "2026-09-20",
      "item_id": "1960ed8c7faa",
+     "origin_region": null,
      "regions": [],
      "signals": [
       "foreign"
-     ]
+     ],
+     "source": ""
     }
    ],
    "first_seen": "2026-09-20",
-   "occurrences": 2,
+   "milestones": {},
+   "occurrences": 3,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -177,19 +281,22 @@
   "us_stock_move": {
    "events": [],
    "first_seen": "2026-09-20",
-   "occurrences": 2,
+   "milestones": {},
+   "occurrences": 3,
    "signals": {}
   },
   "yen_strong": {
    "events": [],
    "first_seen": "2026-09-20",
-   "occurrences": 2,
+   "milestones": {},
+   "occurrences": 3,
    "signals": {}
   },
   "yen_weak": {
    "events": [],
    "first_seen": "2026-09-20",
-   "occurrences": 2,
+   "milestones": {},
+   "occurrences": 3,
    "signals": {}
   }
  }
