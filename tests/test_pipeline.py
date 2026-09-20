@@ -8,6 +8,7 @@
 """
 import io
 import json
+import re
 import sys
 import unittest
 from datetime import datetime
@@ -510,6 +511,25 @@ class RenderTest(unittest.TestCase):
         self.assertIn("レアアース・重要鉱物の輸出規制", self.html)
         self.assertIn("双日", self.html)
 
+    def test_html_emergence_badge_tooltip_discloses_actor_types_and_growth_history(self):
+        # ユーザー要望(2026-09-20)「本当に異なる情報源・出来事からテーマ
+        # が広がっているのかを正確に把握したい」「なぜテーマが検出された
+        # のか説明可能にする」。ツールチップに情報源の種類の内訳・地域・
+        # 成長の経過(milestones)が実際に出ることを固定する(ブラック
+        # ボックス化しない)。
+        self.assertIn("emergence-badge", self.html)
+        self.assertIn("独立イベント", self.html)
+        self.assertIn("情報源の種類", self.html)
+        self.assertIn("成長の経過", self.html)
+        self.assertIn("将来重要になると予言するものではなく", self.html)
+        # 実測バグ再発防止: analyze.pyのフィールド名(emergence_signal_labels)
+        # とrender.pyの参照名(旧: emergence_signals)がズレて、検出シグナル
+        # の行が常に空文字になっていた。「検出シグナル: 」の直後に必ず
+        # 何か(全角読点区切りのラベル)が来ることを固定する。
+        match = re.search(r"検出シグナル: ([^\n]+)", self.html)
+        self.assertIsNotNone(match, "検出シグナル行が見つかりません")
+        self.assertTrue(match.group(1).strip(), "検出シグナルの中身が空です(analyze.pyとrender.pyのフィールド名不一致の再発防止)")
+
     def test_html_escapes_dangerous_text(self):
         data = dict(self.data)
         data["news"] = [dict(self.data["news"][0], title='<script>alert(1)</script>', summary='"><img>')]
@@ -610,7 +630,7 @@ class ThemeTrendsTest(unittest.TestCase):
 
     def _item(self, **kw):
         base = {
-            "id": "n1", "title": "t", "theme_ids": ["boj_hike"], "impacts": [],
+            "id": "n1", "title": "t", "source": "テスト媒体1", "theme_ids": ["boj_hike"], "impacts": [],
             "related": [], "source_tier": None, "future_signal": False,
             "policy_maturity": None, "category": "policy",
         }
@@ -644,34 +664,55 @@ class ThemeTrendsTest(unittest.TestCase):
 
     def test_emerging_requires_new_theme_and_at_least_two_signals(self):
         registry = {"themes": {}}
-        # 1件目: 新規テーマだがシグナルが1種類だけ→まだemergingにしない
-        news = [self._item(id="n1", title="日銀が利上げ", source_tier="primary")]
+        # 1件目: 新規テーマだがシグナルが1種類・情報源も1つだけ→まだemergingにしない
+        news = [self._item(id="n1", title="日銀が利上げ", source="経済産業省", source_tier="primary")]
         stages = theme_trends.record_and_classify(registry, news, self.rules, "2026-09-20")
         self.assertIsNone(stages["boj_hike"]["stage"])
 
-        # 2件目: 同じ日、同じテーマにcapexシグナルが加わり2種類そろう
-        news2 = [self._item(id="n2", title="関連企業が新工場建設で増産へ", source_tier="primary")]
+        # 2件目: 別の情報源(双日)からcapexシグナルが加わり、
+        # シグナル種別2つ・独立した情報源2つがそろう
+        news2 = [self._item(id="n2", title="関連企業が新工場建設で増産へ", source="双日")]
         stages2 = theme_trends.record_and_classify(registry, news2, self.rules, "2026-09-20")
         self.assertEqual(stages2["boj_hike"]["stage"], "emerging")
         self.assertEqual(stages2["boj_hike"]["signal_count"], 2)
+        self.assertEqual(stages2["boj_hike"]["source_count"], 2)
 
-    def test_watch_stage_for_old_theme_with_three_or_more_signals_from_independent_events(self):
+    def test_watch_stage_for_old_theme_with_three_or_more_signals_from_independent_sources(self):
         # 初出から日数が経ちすぎている(EMERGING_MAX_DAYSを超える)テーマは
-        # emergingにはしないが、シグナルが3種類以上・かつ独立した(別の
-        # item_idの)裏付けが2件以上そろえばwatchにする。
+        # emergingにはしないが、シグナルが3種類以上・かつ独立した
+        # (別の情報源による)裏付けが2件以上そろえばwatchにする。
         registry = {
             "themes": {
                 "boj_hike": {"first_seen": "2026-01-01", "occurrences": 1, "events": []},
             }
         }
         news = [
-            self._item(id="n1", title="関連企業が新工場建設で増産へ", source_tier="primary"),
-            self._item(id="n2", title="日銀の動向を注視", future_signal=True, impacts=[{"origin": "direct"}]),
+            self._item(id="n1", title="関連企業が新工場建設で増産へ", source="経済産業省", source_tier="primary"),
+            self._item(id="n2", title="日銀の動向を注視", source="双日", future_signal=True, impacts=[{"origin": "direct"}]),
         ]
         stages = theme_trends.record_and_classify(registry, news, self.rules, "2026-09-20")
         self.assertEqual(stages["boj_hike"]["stage"], "watch")
         self.assertGreaterEqual(stages["boj_hike"]["signal_count"], 3)
         self.assertEqual(stages["boj_hike"]["event_count"], 2)
+        self.assertEqual(stages["boj_hike"]["source_count"], 2)
+
+    def test_same_source_reporting_twice_does_not_count_as_independent(self):
+        # ②独立性の核心: 記事(item_id)が異なっても、情報源(source)が
+        # 同じなら(例: 同じ省庁が2回発表)、独立した裏付けとしては1件
+        # にしかならない。記事数と独立した情報源の数を混同しない。
+        registry = {"themes": {"boj_hike": {"first_seen": "2026-01-01", "occurrences": 1, "events": []}}}
+        news = [
+            self._item(id="n1", title="関連企業が新工場建設で増産へ", source="経済産業省", source_tier="primary"),
+            self._item(id="n2", title="経産省、追加の検討を表明", source="経済産業省",
+                       future_signal=True, source_tier="primary"),
+        ]
+        stages = theme_trends.record_and_classify(registry, news, self.rules, "2026-09-20")
+        self.assertEqual(stages["boj_hike"]["event_count"], 2, "記事自体は2件のはず")
+        self.assertEqual(stages["boj_hike"]["source_count"], 1, "情報源は同じ省庁1つのはず")
+        self.assertIsNone(
+            stages["boj_hike"]["stage"],
+            "情報源が同じ(経済産業省)なのに独立した複数シグナルとしてwatch/emergingになっています",
+        )
 
     def test_single_article_with_many_signal_words_does_not_count_as_independent(self):
         # ②独立性: 1本の記事が政府一次情報・研究開発・特許・設備投資・
@@ -694,7 +735,8 @@ class ThemeTrendsTest(unittest.TestCase):
         # ③加速: 直近7/30/90日でそれぞれ独立イベント数を分けて出す
         # (単一の伸び率スコアには合成しない)。
         registry = {"themes": {"boj_hike": {"first_seen": "2026-08-01", "occurrences": 1, "events": [
-            {"date": "2026-08-05", "item_id": "old1", "signals": ["gov_source"], "regions": []},
+            {"date": "2026-08-05", "item_id": "old1", "source": "経済産業省",
+             "signals": ["gov_source"], "actor_types": ["government_jp"], "regions": [], "origin_region": "日本"},
         ]}}}
         news = [self._item(id="new1", title="関連企業が新工場建設で増産へ", source_tier="primary")]
         stages = theme_trends.record_and_classify(registry, news, self.rules, "2026-09-20")
@@ -713,6 +755,85 @@ class ThemeTrendsTest(unittest.TestCase):
         stages = theme_trends.record_and_classify(registry, news, self.rules, "2026-09-20")
         self.assertEqual(set(stages["boj_hike"]["regions"]), {"日本", "米国"})
         self.assertEqual(stages["boj_hike"]["region_count"], 2)
+
+    def test_actor_types_expose_which_kind_of_source_not_just_a_count(self):
+        # ②'情報源の種類の可視化: 「メディア5件」なのか「政府+企業+研究
+        # 機関+海外+メディア」なのかで意味が違う、という指摘への対応。
+        # 件数だけでなく、どの種類の主体から発生したかを開示する。
+        registry = {"themes": {"boj_hike": {"first_seen": "2026-09-20", "occurrences": 1, "events": []}}}
+        news = [
+            self._item(id="n1", title="経済産業省が検討", source="経済産業省", source_tier="primary"),
+            self._item(id="n2", title="米商務省が発表", source="ロイター"),
+            self._item(id="n3", title="関連企業が新工場建設で増産へ", source="双日", impacts=[{"origin": "direct"}]),
+            self._item(id="n4", title="東京大学が研究成果を発表", source="日本経済新聞"),
+            self._item(id="n5", title="IAEAが声明を発表", source="共同通信"),
+        ]
+        stages = theme_trends.record_and_classify(registry, news, self.rules, "2026-09-20")
+        info = stages["boj_hike"]
+        self.assertEqual(
+            set(info["actor_type_labels"]),
+            {"日本政府・省庁", "海外政府・当局", "関連企業", "研究機関・大学", "国際機関"},
+        )
+
+    def test_origin_region_confident_for_named_agency_or_primary_source_otherwise_unknown(self):
+        # ④地域情報(発信元): 機関名が見出しに明示されている場合、または
+        # GOV_FEED経由(source_tier=primary)の場合だけ発信元を確定する。
+        # 単なる国名の言及だけでは、その国が主体か対象か判別できないため
+        # 「不明」のままにする(推測で埋めない)。
+        jp_gov = self._item(title="経済産業省が方針を決定", source_tier="primary")
+        self.assertEqual(theme_trends.detect_origin_region(jp_gov), "日本")
+
+        us_gov = self._item(title="米商務省が新たな輸出規制を発表")
+        self.assertEqual(theme_trends.detect_origin_region(us_gov), "米国")
+
+        ambiguous = self._item(title="台湾情勢を巡り中国が反発")  # 主体か対象か不明
+        self.assertIsNone(theme_trends.detect_origin_region(ambiguous))
+
+    def test_milestones_persist_after_events_decay(self):
+        # ⑤成長履歴: milestonesは、対応するeventがSIGNAL_WINDOW_DAYSの
+        # 経過でeventsから間引かれた後も、削除・上書きされずに残り続ける
+        # (「最初に検知した時点」を後から検証できるようにするため)。
+        old_date = theme_trends._shift_date("2026-09-20", -(theme_trends.SIGNAL_WINDOW_DAYS + 5))
+        registry = {
+            "themes": {
+                "boj_hike": {
+                    "first_seen": old_date,
+                    "occurrences": 1,
+                    "events": [{
+                        "date": old_date, "item_id": "old1", "source": "経済産業省",
+                        "signals": ["gov_source"], "actor_types": ["government_jp"],
+                        "regions": [], "origin_region": "日本",
+                    }],
+                    "milestones": {"government_jp": old_date},
+                },
+            }
+        }
+        news = [self._item(id="n1", title="日銀が追加利上げを検討", source="テスト媒体2", future_signal=True)]
+        stages = theme_trends.record_and_classify(registry, news, self.rules, "2026-09-20")
+        self.assertEqual(stages["boj_hike"]["event_count"], 1, "古いeventは間引かれ、今回の1件だけが残るはず")
+        milestone_types = {m["actor_type_label"] for m in stages["boj_hike"]["milestones"]}
+        self.assertIn(
+            "日本政府・省庁", milestone_types,
+            "eventsから間引かれた後もmilestones(成長履歴)には残り続けるべきです",
+        )
+
+    def test_milestones_record_new_actor_type_the_first_time_it_appears(self):
+        registry = {"themes": {"boj_hike": {"first_seen": "2026-09-01", "occurrences": 1, "events": []}}}
+        news1 = [self._item(id="n1", title="経済産業省が検討", source="経済産業省", source_tier="primary")]
+        theme_trends.record_and_classify(registry, news1, self.rules, "2026-09-01")
+
+        news2 = [self._item(id="n2", title="関連企業が新工場建設で増産へ", source="双日",
+                             impacts=[{"origin": "direct"}])]
+        stages = theme_trends.record_and_classify(registry, news2, self.rules, "2026-09-10")
+        milestones = {m["actor_type_label"]: m["date"] for m in stages["boj_hike"]["milestones"]}
+        self.assertEqual(milestones.get("日本政府・省庁"), "2026-09-01")
+        self.assertEqual(milestones.get("関連企業"), "2026-09-10")
+
+    def test_research_and_international_org_signals(self):
+        research = self._item(title="東京大学の研究グループが新技術を開発")
+        self.assertIn("research", theme_trends.detect_actor_types(research, self.rules))
+        intl = self._item(title="IAEAが新たな安全基準を発表")
+        self.assertIn("international_org", theme_trends.detect_actor_types(intl, self.rules))
 
     def test_first_seen_is_never_overwritten(self):
         # ⑤前段階の保存: 一度記録したfirst_seenは、その後何度呼んでも
@@ -733,8 +854,11 @@ class ThemeTrendsTest(unittest.TestCase):
                     "first_seen": "2026-01-01",
                     "occurrences": 5,
                     "events": [
-                        {"date": old_date, "item_id": "old1", "signals": ["gov_source", "gov_policy"], "regions": []},
-                        {"date": old_date, "item_id": "old2", "signals": ["capex"], "regions": []},
+                        {"date": old_date, "item_id": "old1", "source": "経済産業省",
+                         "signals": ["gov_source", "gov_policy"], "actor_types": ["government_jp"],
+                         "regions": [], "origin_region": "日本"},
+                        {"date": old_date, "item_id": "old2", "source": "双日",
+                         "signals": ["capex"], "actor_types": ["corporate"], "regions": [], "origin_region": None},
                     ],
                 },
             }

@@ -100,10 +100,11 @@ def impact_chip_html(imp):
 def emergence_badge_html(obj):
     """[萌芽シグナル] news_card_html/cluster_htmlで共通のバッジ・ツール
     チップを組み立てる(判定はtheme_trends.py側の1箇所のみ、ここは表示
-    のみ)。時間軸(初検知日・直近7/30/90日件数)と独立性(独立イベント数)・
-    国際的な広がり(地域数)を、単一のスコアに合成せず並べて開示する。
+    のみ)。時間軸(初検知日・直近7/30/90日件数)・独立性(独立イベント数・
+    情報源数)・情報源の種類(政府/企業/研究機関/国際機関/海外/メディア)・
+    国際的な広がり(地域)・成長の経過(milestones)を、単一のスコアに
+    合成せず、事実として並べて開示する(ブラックボックス化しない)。
     """
-    signals = obj.get("emergence_signals", [])
     # emergence_window_countsはtheme_trends.py内では整数キーだが、
     # news.jsonを経由すると(--render-onlyでの再読み込み時など)JSONの
     # 制約で文字列キーになる。どちらの経路でも壊れないよう両対応する。
@@ -112,18 +113,31 @@ def emergence_badge_html(obj):
     def _window_count(d):
         return windows.get(d, windows.get(str(d)))
 
-    window_text = "/".join(
+    lines = []
+    first_seen = obj.get("emergence_first_seen")
+    if first_seen:
+        lines.append(f"初検知: {first_seen}")
+    lines.append(
+        f'独立イベント: {obj.get("emergence_event_count", 0)}件'
+        f'(情報源{obj.get("emergence_source_count", 0)}件)'
+    )
+    window_text = " / ".join(
         f"{d}日:{_window_count(d)}件" for d in (7, 30, 90) if _window_count(d) is not None
     )
+    if window_text:
+        lines.append(f"直近 {window_text}")
+    breakdown = obj.get("emergence_actor_type_breakdown", [])
+    if breakdown:
+        lines.append("情報源の種類: " + "、".join(f'{b["label"]}{b["count"]}' for b in breakdown))
     regions = obj.get("emergence_regions", [])
-    region_text = f" / 広がり: {esc('、'.join(regions))}({obj.get('emergence_region_count', 0)}地域)" if regions else ""
-    first_seen = obj.get("emergence_first_seen")
-    first_seen_text = f" / 初検知: {esc(first_seen)}" if first_seen else ""
-    title = (
-        f'検出シグナル({len(signals)}種・独立{obj.get("emergence_event_count", 0)}件): {esc("、".join(signals))}'
-        f'{first_seen_text}{f" (直近{esc(window_text)})" if window_text else ""}{region_text}。'
-        f'将来重要になると予言するものではなく、独立した根拠がいくつ・いつから観測できたかを示すだけです'
-    )
+    if regions:
+        lines.append("地域: " + "、".join(regions))
+    milestones = obj.get("emergence_milestones", [])
+    if milestones:
+        lines.append("成長の経過: " + " → ".join(f'{m["date"]} {m["actor_type_label"]}' for m in milestones))
+    lines.append("検出シグナル: " + "、".join(obj.get("emergence_signal_labels", [])))
+    lines.append("将来重要になると予言するものではなく、観測できた事実を示すだけです")
+    title = esc("\n".join(lines))
     return (
         f'<span class="emergence-badge" data-stage="{esc(obj.get("emergence_stage"))}" title="{title}">'
         f'{esc(obj.get("emergence_stage_label", ""))}</span>'

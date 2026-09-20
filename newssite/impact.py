@@ -38,6 +38,8 @@ class Rules:
         self.rd_signal_keywords = raw.get("rd_signal_keywords", [])
         self.patent_signal_keywords = raw.get("patent_signal_keywords", [])
         self.capex_signal_keywords = raw.get("capex_signal_keywords", [])
+        self.research_signal_keywords = raw.get("research_signal_keywords", [])
+        self.international_org_signal_keywords = raw.get("international_org_signal_keywords", [])
         # 「政府・政策が市場を動かす力」(government_policy、既定値)と
         # 「巨大テックの設備投資が需要を動かす力」(corporate_capex)は別物、
         # というユーザー方針(2026-09-13)。テーマ側にintelligence_layerが
@@ -139,6 +141,16 @@ def has_patent_signal(text, rules):
 def has_capex_signal(text, rules):
     """設備投資・増産・新工場など企業の投資判断を示す見出しか。"""
     return any(w in text for w in rules.capex_signal_keywords)
+
+
+def has_research_signal(text, rules):
+    """大学・研究機関が主体の見出しか。"""
+    return any(w in text for w in rules.research_signal_keywords)
+
+
+def has_international_org_signal(text, rules):
+    """IAEA・IEA・国連など国際機関が主体の見出しか。"""
+    return any(w in text for w in rules.international_org_signal_keywords)
 
 
 def score_policy_maturity(text, rules):
