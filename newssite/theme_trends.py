@@ -296,21 +296,47 @@ def record_and_classify(registry, news, rules, today):
             e.setdefault("actor_types", [])
             e.setdefault("regions", [])
             e.setdefault("origin_region", None)
-        existing_ids = {e["item_id"] for e in events}
+        existing_by_id = {e["item_id"]: e for e in events}
         for item_id, info in today_events:
             # 8種類の既存シグナル(info["signals"])とactor_types(政府/企業/
             # 研究機関/国際機関/海外政府/メディア)は別々の判定軸なので、
             # どちらか一方でも検出されていればイベント化する(実測バグ:
             # government_foreign等がsignalsを経由せず検出されるケースで、
             # signalsが空という理由だけでイベント自体が握りつぶされていた)。
-            if (not info["signals"] and not info["actor_types"]) or not item_id or item_id in existing_ids:
+            if (not info["signals"] and not info["actor_types"]) or not item_id:
+                continue
+            existing_event = existing_by_id.get(item_id)
+            if existing_event is not None:
+                # 実測バグ(2026-09-20): source/actor_types導入(スキーマ移行)
+                # より前に記録された旧イベントは、_load_registry互換処理の
+                # setdefaultで source="" のまま残る。原則1(1記事=1独立
+                # イベント)により新規イベントとしては追加しないが、同じ
+                # item_idが再び現れた時点で今の判定ロジックなら分かる情報
+                # (source/actor_types/regions/origin_region)が欠けている
+                # なら、イベント数を増やさずにその場で補完する。これをしない
+                # と、移行前に記録されたイベントは90日間ずっと「情報源不明
+                # ・主体種別不明」のまま独立性判定に一切寄与できなくなる
+                # (判定条件を緩めるのではなく、条件が正しく評価できるように
+                # データを直すだけ)。
+                if not existing_event["source"] and info["source"]:
+                    existing_event["source"] = info["source"]
+                if not existing_event["actor_types"] and info["actor_types"]:
+                    existing_event["actor_types"] = sorted(info["actor_types"])
+                    for actor_type in info["actor_types"]:
+                        entry["milestones"].setdefault(actor_type, today)
+                if not existing_event["regions"] and info["regions"]:
+                    existing_event["regions"] = sorted(info["regions"])
+                if not existing_event["origin_region"] and info["origin_region"]:
+                    existing_event["origin_region"] = info["origin_region"]
+                if not existing_event["signals"] and info["signals"]:
+                    existing_event["signals"] = sorted(info["signals"])
                 continue
             events.append({
                 "date": today, "item_id": item_id, "source": info["source"],
                 "signals": sorted(info["signals"]), "actor_types": sorted(info["actor_types"]),
                 "regions": sorted(info["regions"]), "origin_region": info["origin_region"],
             })
-            existing_ids.add(item_id)
+            existing_by_id[item_id] = events[-1]
             # ⑤成長履歴: 各主体種別を最初に観測した日を、一度記録したら
             # 削除・上書きしない形で永久に保持する(SIGNAL_WINDOW_DAYSの
             # 経過でeventsからは間引かれても、milestonesには残り続ける)。
@@ -397,8 +423,42 @@ def record_and_classify(registry, news, rules, today):
             "window_counts": window_counts,
             "timeline": timeline,
             "milestones": milestone_timeline,
+            "diagnosis": _diagnosis(is_new_theme, len(distinct_sources), len(distinct_signal_types)),
         }
     return result
+
+
+def _diagnosis(is_new_theme, source_count, signal_count):
+    """萌芽シグナルが「なぜ0件(=stage無し)なのか」「あと何が揃えば
+    条件成立するのか」を検証しやすくするための差分計算(2026-09-20
+    ユーザー要望)。判定条件(MIN_INDEPENDENT_SOURCES・EMERGING_MIN_SIGNALS・
+    WATCH_MIN_SIGNALS等)は一切変えず、それらの定数と現在値の引き算を
+    表示専用に返すだけ(原則7『予言しない』には抵触しない)。
+
+    新興テーマの対象期間内(is_new_theme)ならハードルの低いemergingを、
+    対象期間を過ぎていれば実際に到達しうるwatchだけを「次に目指す段階」
+    として説明する(is_new_theme=Falseのテーマにemergingの必要数を
+    見せても、そもそも到達不可能な目標を示すことになるため)。
+    """
+    target_stage, required_signals = (
+        ("emerging", EMERGING_MIN_SIGNALS) if is_new_theme else ("watch", WATCH_MIN_SIGNALS)
+    )
+    source_gap = max(0, MIN_INDEPENDENT_SOURCES - source_count)
+    signal_gap = max(0, required_signals - signal_count)
+    missing = []
+    if source_gap:
+        missing.append(f"情報源があと{source_gap}件必要")
+    if signal_gap:
+        missing.append(f"シグナル種別があと{signal_gap}種類必要")
+    return {
+        "target_stage": target_stage,
+        "target_stage_label": STAGE_LABEL.get(target_stage, target_stage),
+        "source_count": source_count,
+        "required_sources": MIN_INDEPENDENT_SOURCES,
+        "signal_count": signal_count,
+        "required_signals": required_signals,
+        "missing": missing,
+    }
 
 
 def best_stage_for_theme_ids(theme_ids, theme_stage_info):

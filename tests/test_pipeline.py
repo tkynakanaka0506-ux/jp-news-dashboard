@@ -530,6 +530,47 @@ class RenderTest(unittest.TestCase):
         self.assertIsNotNone(match, "検出シグナル行が見つかりません")
         self.assertTrue(match.group(1).strip(), "検出シグナルの中身が空です(analyze.pyとrender.pyのフィールド名不一致の再発防止)")
 
+    def test_emergence_badge_shows_neutral_diagnosis_chip_when_stage_not_reached(self):
+        # 2026-09-20ユーザー要望: 「0件だから正常」で終わらせず、テーマが
+        # まだemerging/watchに届いていない場合も、なぜ届いていないかを
+        # ツールチップで確認できるようにする(ユーザー向けの見た目は
+        # 既存デザインのまま、詳細はツールチップに留める)。
+        obj = {
+            "emergence_stage": None,
+            "emergence_stage_label": "",
+            "emergence_event_count": 1,
+            "emergence_source_count": 1,
+            "emergence_signal_labels": ["政府・省庁の一次情報"],
+            "emergence_diagnosis": {
+                "target_stage": "emerging", "target_stage_label": "🔎 新興テーマ",
+                "source_count": 1, "required_sources": 2,
+                "signal_count": 2, "required_signals": 2,
+                "missing": ["情報源があと1件必要"],
+            },
+        }
+        html_fragment = render.emergence_badge_html(obj)
+        self.assertIn('data-stage="watching"', html_fragment)
+        self.assertIn("観測中", html_fragment)
+        self.assertIn("独立情報源 1/2", html_fragment)
+        self.assertIn("シグナル種別 2/2", html_fragment)
+        self.assertIn("情報源があと1件必要", html_fragment)
+
+    def test_emergence_badge_omits_diagnosis_line_once_target_reached(self):
+        # missingが空(=その時点で到達しうる最高段階に達している)なら、
+        # 冗長な診断行は出さない。
+        obj = {
+            "emergence_stage": "watch", "emergence_stage_label": "👀 要監視テーマ",
+            "emergence_event_count": 3, "emergence_source_count": 2,
+            "emergence_signal_labels": ["政府・省庁の一次情報"],
+            "emergence_diagnosis": {
+                "target_stage": "watch", "target_stage_label": "👀 要監視テーマ",
+                "source_count": 2, "required_sources": 2,
+                "signal_count": 3, "required_signals": 3, "missing": [],
+            },
+        }
+        html_fragment = render.emergence_badge_html(obj)
+        self.assertNotIn("診断:", html_fragment)
+
     def test_html_escapes_dangerous_text(self):
         data = dict(self.data)
         data["news"] = [dict(self.data["news"][0], title='<script>alert(1)</script>', summary='"><img>')]
@@ -857,6 +898,69 @@ class ThemeTrendsTest(unittest.TestCase):
         info = stages["boj_hike"]
         self.assertEqual(info["event_count"], 2)
         self.assertEqual(info["source_count"], 1, "スキーマ移行前のイベントはsource不明のため独立情報源には数えない")
+
+    def test_legacy_event_gets_enriched_when_same_item_reappears(self):
+        # 実測バグ再発防止(本番調査2026-09-20): スキーマ移行前に記録された
+        # イベント(source/actor_types欠落)は、原則1(1記事=1独立イベント)
+        # によりitem_idが同じなら新規イベント追加はされない。しかし
+        # そのままだとイベント自体が永久にsource不明のまま凍結され、
+        # 現在のコードなら分かるはずの情報源が90日間ずっと独立性判定に
+        # 寄与できなくなる(本番のjp_politics等で実際に確認)。イベント数を
+        # 増やさずに欠けている情報だけをその場で補完することを固定する。
+        registry = {
+            "themes": {
+                "jp_politics": {
+                    "first_seen": "2026-09-20",
+                    "occurrences": 1,
+                    "events": [
+                        {"date": "2026-09-20", "item_id": "old1", "source": "",
+                         "signals": ["gov_source"], "actor_types": [], "regions": [], "origin_region": None},
+                    ],
+                },
+            }
+        }
+        news = [self._item(
+            id="old1", title="金融庁が発表", source="金融庁", source_tier="primary",
+            theme_ids=["jp_politics"],
+        )]
+        stages = theme_trends.record_and_classify(registry, news, self.rules, "2026-09-20")
+        info = stages["jp_politics"]
+        self.assertEqual(info["event_count"], 1, "同じitem_idの再出現は新規イベントにしない")
+        self.assertEqual(info["source_count"], 1, "旧イベントのsourceがその場で補完されるはず")
+        event = registry["themes"]["jp_politics"]["events"][0]
+        self.assertEqual(event["source"], "金融庁")
+        self.assertEqual(event["actor_types"], ["government_jp"])
+
+    def test_diagnosis_explains_which_condition_is_unmet(self):
+        # 2026-09-20ユーザー要望: 「独立情報源 1/2、シグナル 3/2 →
+        # 情報源があと1つ必要」のように、なぜemerging/watchにならないのか
+        # 判定条件を変えずに説明できることを固定する。
+        registry = {"themes": {}}
+        news = [
+            self._item(id="n1", title="関連企業が新工場建設で増産へ", source="経済産業省",
+                       source_tier="primary", future_signal=True, impacts=[{"origin": "direct"}]),
+        ]
+        stages = theme_trends.record_and_classify(registry, news, self.rules, "2026-09-20")
+        diag = stages["boj_hike"]["diagnosis"]
+        self.assertIsNone(stages["boj_hike"]["stage"])
+        self.assertEqual(diag["source_count"], 1)
+        self.assertEqual(diag["required_sources"], theme_trends.MIN_INDEPENDENT_SOURCES)
+        self.assertEqual(diag["target_stage"], "emerging")
+        self.assertIn("情報源があと1件必要", diag["missing"])
+        self.assertFalse(any("シグナル" in m for m in diag["missing"]), "シグナル種別は既に条件を満たしているはず")
+
+    def test_diagnosis_targets_watch_not_emerging_for_old_theme(self):
+        # is_new_theme=Falseのテーマにemergingの必要数(ハードルが低い方)を
+        # 見せると、到達不可能な目標を示すことになるため、必ずwatchを
+        # 「次に目指す段階」として説明することを固定する。
+        registry = {
+            "themes": {"boj_hike": {"first_seen": "2026-01-01", "occurrences": 1, "events": []}},
+        }
+        news = [self._item(id="n1", title="日銀が動向を注視", source="経済産業省", source_tier="primary")]
+        stages = theme_trends.record_and_classify(registry, news, self.rules, "2026-09-20")
+        diag = stages["boj_hike"]["diagnosis"]
+        self.assertEqual(diag["target_stage"], "watch")
+        self.assertEqual(diag["required_signals"], theme_trends.WATCH_MIN_SIGNALS)
 
     def test_first_seen_is_never_overwritten(self):
         # ⑤前段階の保存: 一度記録したfirst_seenは、その後何度呼んでも

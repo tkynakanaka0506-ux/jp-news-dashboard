@@ -136,11 +136,24 @@ def emergence_badge_html(obj):
     if milestones:
         lines.append("成長の経過: " + " → ".join(f'{m["date"]} {m["actor_type_label"]}' for m in milestones))
     lines.append("検出シグナル: " + "、".join(obj.get("emergence_signal_labels", [])))
+    # 診断(2026-09-20ユーザー要望): 「なぜ0件/次の段階に届いていないのか」
+    # を、判定条件(定数)そのものは変えずに開示する。missingが空(=既に
+    # その時点で到達しうる最高段階に達している)場合は表示しない。
+    diagnosis = obj.get("emergence_diagnosis") or {}
+    missing = diagnosis.get("missing") or []
+    if missing:
+        lines.append(
+            f'診断: 独立情報源 {diagnosis.get("source_count", 0)}/{diagnosis.get("required_sources", "?")}、'
+            f'シグナル種別 {diagnosis.get("signal_count", 0)}/{diagnosis.get("required_signals", "?")}'
+            f'({diagnosis.get("target_stage_label", "")}まで) → ' + "、".join(missing)
+        )
     lines.append("将来重要になると予言するものではなく、観測できた事実を示すだけです")
     title = esc("\n".join(lines))
+    stage = obj.get("emergence_stage")
+    stage_label = obj.get("emergence_stage_label") or "🔬 観測中"
     return (
-        f'<span class="emergence-badge" data-stage="{esc(obj.get("emergence_stage"))}" title="{title}">'
-        f'{esc(obj.get("emergence_stage_label", ""))}</span>'
+        f'<span class="emergence-badge" data-stage="{esc(stage or "watching")}" title="{title}">'
+        f'{esc(stage_label)}</span>'
     )
 
 
@@ -319,8 +332,13 @@ def cluster_html(clusters):
             f'<li><a href="#news-{esc(m["id"])}">{esc(m["title"])}</a></li>'
             for m in c.get("members", [])
         )
+        # 萌芽シグナルがまだ「新興/要監視」段階に届いていないテーマ型
+        # クラスターにも、診断情報(emergence_diagnosis)がある限りは
+        # ニュートラルな🔬チップで開示する(2026-09-20ユーザー要望:
+        # 「0件だから何も見せない」ではなく、なぜ0件か検証できるようにする)。
         emergence_label = c.get("emergence_stage_label")
-        emergence_badge = emergence_badge_html(c) if emergence_label else ""
+        has_diagnosis = bool(c.get("emergence_diagnosis"))
+        emergence_badge = emergence_badge_html(c) if (emergence_label or has_diagnosis) else ""
         out.append(f"""
       <div class="rank-row cluster-row">
         <div class="rank-line">
@@ -546,6 +564,7 @@ header.site::before{content:"";position:absolute;inset:0;pointer-events:none;
 .emergence-badge{background:var(--card-2);border:1px solid rgba(57,255,136,.4);color:var(--accent);
   border-radius:999px;padding:1px 10px;font-size:12px;white-space:nowrap;font-weight:700}
 .emergence-badge[data-stage="watch"]{border-color:rgba(34,211,238,.4);color:var(--accent-2)}
+.emergence-badge[data-stage="watching"]{border-color:rgba(148,163,184,.35);color:var(--muted);font-weight:600}
 
 .scroll-progress{position:fixed;top:0;left:0;height:3px;width:0%;z-index:30;
   background:linear-gradient(90deg,var(--accent-lime),var(--accent),var(--accent-2),var(--accent-3));
