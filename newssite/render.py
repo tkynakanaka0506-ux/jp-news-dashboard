@@ -271,7 +271,8 @@ def cluster_html(clusters):
         <div class="rank-line">
           <div class="rank-head">
             <span class="rank-no">{i}</span>
-            <span class="rank-name">{esc(c.get('category_emoji', '📰'))} {esc(c['label'])}</span>
+            <span class="rank-name">{esc(c.get('category_emoji', '📰'))} {esc(c['label'])}
+              <span class="cluster-type-badge">{esc(c.get('connection_label', ''))}</span></span>
             <span class="rank-mentions">{len(c['members'])}件のニュース</span>
           </div>
           <button class="rank-toggle" type="button" aria-label="関連ニュースの見出しを開く">▾</button>
@@ -606,6 +607,8 @@ aside.side::-webkit-scrollbar-thumb{background:rgba(57,255,136,.25);border-radiu
 .cluster-row .rank-head{cursor:default}
 .cluster-stocks{display:none;flex-wrap:wrap;gap:5px;padding-left:30px;margin-bottom:6px}
 .cluster-row.is-open .cluster-stocks{display:flex}
+.cluster-type-badge{display:inline-block;margin-left:7px;font-size:10.5px;font-weight:400;
+  color:var(--muted);border:1px solid var(--line);border-radius:5px;padding:0 5px;vertical-align:1px}
 
 .empty,.no-result{background:var(--card);border:1px dashed var(--line);border-radius:14px;
   -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);

@@ -361,6 +361,8 @@ def build_theme_clusters(news, rules, min_members=2, max_clusters=8):
 
         sorted_members = sorted(members, key=lambda m: -(m["importance"] or 0))
         clusters.append({
+            "connection_type": "theme",
+            "connection_label": "同じテーマ",
             "theme_id": tid,
             "label": theme.get("label", tid),
             "category": category,
@@ -379,6 +381,133 @@ def build_theme_clusters(news, rules, min_members=2, max_clusters=8):
     return clusters[:max_clusters]
 
 
+# サプライチェーン・資源の切り口としては実質的な意味を持たない、財務上の
+# 特性ラベル(円安/円高の恩恵を受けやすい・主力銘柄)は除外する。これらは
+# 「同じ材料でつながっている」という実質的な関係ではなく、ポートフォリオ上の
+# 分類にすぎず、無関係な企業同士を大量に結びつけてノイズになるため。
+NON_SUBSTANTIVE_STOCK_TAGS = {"主力", "円安メリット", "円高メリット"}
+
+
+def _grouped_material_clusters(news, master, exclude_member_sets, min_members, max_per_type):
+    """[分析レイヤー] テーマが一致していなくても実質的につながっている
+    ニュースを見つける。
+
+    ユーザー要望(2026-09-20)「単純なテーマ一致だけでは見つけられない
+    ニュース同士の実質的なつながりも発見したい」への対応。
+    ニュース→企業→業界→資源・サプライチェーンという、既に計算済みの
+    データ(impacts[].code/sector、stocks.jsonのthemesタグ)をそのまま
+    辿るだけで、新しい判定(要約・埋め込み類似度など)は一切追加しない:
+
+      - 企業: 同じ影響銘柄コードに複数ニュースが触れている
+              (例: 政策ニュースの間接影響と、その企業自身の決算ニュースが
+              同じ企業を指していれば、テーマが違っても実質的につながる)
+      - 業界: 影響銘柄のsector(業種)が複数ニュースで重なっている
+      - 資源・サプライチェーン: 影響銘柄のthemesタグ(stocks.json、
+              「資源エネルギー」「半導体材料」「EV」等)が複数ニュースで
+              重なっている
+
+    exclude_member_sets(既存のテーマクラスターの構成員集合)と完全に
+    同じ集合になったクラスターは、重複表示を避けるため捨てる。
+    """
+    by_code, by_sector, by_tag = {}, {}, {}
+    for item in news:
+        seen_codes, seen_sectors, seen_tags = set(), set(), set()
+        for imp in item.get("impacts", []):
+            code = imp.get("code")
+            if code and code not in seen_codes:
+                by_code.setdefault(code, []).append(item)
+                seen_codes.add(code)
+            sector = imp.get("sector")
+            if sector and sector not in seen_sectors:
+                by_sector.setdefault(sector, []).append(item)
+                seen_sectors.add(sector)
+            stock = master.by_code.get(code) if code else None
+            for tag in (stock or {}).get("themes", []):
+                if tag in NON_SUBSTANTIVE_STOCK_TAGS or tag in seen_tags:
+                    continue
+                by_tag.setdefault(tag, []).append(item)
+                seen_tags.add(tag)
+
+    def build(groups, connection_type, connection_label, label_fn, emoji, stock_filter):
+        out = []
+        for key, members in groups.items():
+            if len(members) < min_members:
+                continue
+            member_ids = frozenset(m["id"] for m in members)
+            if member_ids in exclude_member_sets:
+                continue
+            sorted_members = sorted(members, key=lambda m: -(m["importance"] or 0))
+            stock_agg = {}
+            for m in members:
+                for imp in m.get("impacts", []):
+                    if not stock_filter(imp, key):
+                        continue
+                    row = stock_agg.setdefault(imp["code"], {
+                        "code": imp["code"], "name": imp["name"],
+                        "positive": 0, "negative": 0, "watch": 0,
+                    })
+                    row[imp["direction"]] = row.get(imp["direction"], 0) + 1
+            stocks = sorted(
+                stock_agg.values(), key=lambda r: -(r["positive"] + r["negative"] + r["watch"])
+            )[:6]
+            out.append({
+                "connection_type": connection_type,
+                "connection_label": connection_label,
+                "theme_id": None,
+                "label": label_fn(key),
+                "category": "",
+                "category_label": connection_label,
+                "category_emoji": emoji,
+                "member_ids": [m["id"] for m in sorted_members],
+                "members": [
+                    {"id": m["id"], "title": m["title"], "url": m["url"], "importance": m["importance"], "source": m["source"]}
+                    for m in sorted_members
+                ],
+                "stocks": stocks,
+                "max_importance": max(m["importance"] for m in members),
+            })
+        out.sort(key=lambda c: (-len(c["members"]), -c["max_importance"]))
+        return out[:max_per_type]
+
+    company_clusters = build(
+        by_code, "company", "同じ企業",
+        lambda code: f"{(master.by_code.get(code) or {}).get('name', code)}に関するニュース",
+        "🏢", lambda imp, key: imp.get("code") == key,
+    )
+    sector_clusters = build(
+        by_sector, "sector", "同じ業界",
+        lambda sector: f"{sector}業界のニュース",
+        "🏭", lambda imp, key: imp.get("sector") == key,
+    )
+    tag_clusters = build(
+        by_tag, "supply_chain", "資源・サプライチェーン",
+        lambda tag: f"{tag}に関連するニュース",
+        "🔗", lambda imp, key: key in (master.by_code.get(imp.get("code")) or {}).get("themes", []),
+    )
+    return company_clusters + sector_clusters + tag_clusters
+
+
+def build_material_clusters(news, rules, master, min_members=2, max_clusters=8, max_per_type=4):
+    """[分析レイヤー] build_theme_clustersの「同じテーマ」に加えて、
+    企業・業界・資源/サプライチェーンという軸でも実質的なつながりを探す
+    (ユーザー要望2026-09-20「テーマ一致だけでは見つけられないつながりも
+    発見したい」)。テーマで束ねられる分は従来通り優先し、テーマだけでは
+    束ねられない追加のつながりだけを新しい種類として載せる。
+    """
+    theme_clusters = build_theme_clusters(news, rules, min_members=min_members, max_clusters=max_clusters)
+    exclude = {frozenset(c["member_ids"]) for c in theme_clusters}
+    extra = _grouped_material_clusters(news, master, exclude, min_members, max_per_type)
+    combined = theme_clusters + extra
+    # 精度の高い(誤解を招きにくい)つながりを先に見せる: テーマ一致が
+    # 最も具体的で説明しやすく、業界・サプライチェーンタグは対象が
+    # 広がりやすい分、粒度が粗くなる。件数の多さだけで並べると、粗い
+    # つながりが具体的なつながりを埋もれさせてしまうため、種類の精度を
+    # 第一キーにする(同じ種類の中では従来通り件数順)。
+    type_priority = {"theme": 0, "company": 1, "sector": 2, "supply_chain": 3}
+    combined.sort(key=lambda c: (type_priority.get(c["connection_type"], 9), -len(c["members"]), -c["max_importance"]))
+    return combined[:max_clusters + 3 * max_per_type]
+
+
 def build(data_json_path="data.json", use_llm=True):
     """news.json に書き出すデータ全体を作る。"""
     rules = impact_mod.load()
@@ -386,7 +515,7 @@ def build(data_json_path="data.json", use_llm=True):
     now = datetime.now(JST)
     news = build_news(rules=rules, master=master, use_llm=use_llm)
     ranking = stock_ranking(news)
-    clusters = build_theme_clusters(news, rules)
+    clusters = build_material_clusters(news, rules, master)
     # [バックテスト基盤] 本番ビルドのたびに今回判定したイベントをログへ追記する。
     # 株価データはまだ接続していないため、現時点ではニュース×銘柄×スコアの
     # 履歴を貯めるだけ(dev.py backtest で BACKTEST_STATUS を確認できる)。
