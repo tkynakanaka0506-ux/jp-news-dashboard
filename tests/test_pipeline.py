@@ -17,7 +17,10 @@ from unittest import mock
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from newssite import analyze, impact as impact_mod, render, rss, stocks as stocks_mod, theme_trends  # noqa: E402
+from newssite import (  # noqa: E402
+    analyze, impact as impact_mod, render, rss, stocks as stocks_mod,
+    theme_trend_history, theme_trend_monitor, theme_trends,
+)
 from newssite.config import JST  # noqa: E402
 
 
@@ -662,9 +665,21 @@ class CIConfigTest(unittest.TestCase):
     .github/workflows/update.yml のgit reset --hard→退避復元→git addの
     どこにも含まれておらず、CIの実行のたびに空の登録簿へリセットされて
     いたため、「続報(UPDATE)」ライフサイクル判定が本番で一度も機能して
-    いなかった。theme_trend_registry.json(萌芽シグナル)も同じ永続化が
-    必要なため、両方が退避・復元・git addの対象に含まれることを固定する。
+    いなかった。調査の過程で、backtest_events.jsonl・
+    policy_catalyst_signals.jsonにも同じ穴(初回コミット以来、本番で
+    一度も追記が反映されていなかった)が見つかった。日をまたいで状態を
+    持つファイルは全てここに列挙し、退避・復元・git addの対象に
+    含まれることを固定する(新しいレジストリを追加したら必ずこの一覧に
+    追加すること)。
     """
+
+    PERSISTENT_DATA_FILES = (
+        "policy_event_registry.json",
+        "theme_trend_registry.json",
+        "backtest_events.jsonl",
+        "policy_catalyst_signals.json",
+        "theme_trend_history.jsonl",
+    )
 
     def _workflow_text(self):
         path = Path(__file__).resolve().parent.parent / ".github" / "workflows" / "update.yml"
@@ -672,7 +687,7 @@ class CIConfigTest(unittest.TestCase):
 
     def test_registries_are_stashed_across_git_reset_hard(self):
         text = self._workflow_text()
-        for name in ("policy_event_registry.json", "theme_trend_registry.json"):
+        for name in self.PERSISTENT_DATA_FILES:
             self.assertIn(
                 f"newssite/data/{name}", text,
                 f"{name} が update.yml のどこにも登場しません(退避・復元されず消える再発防止)",
@@ -682,7 +697,7 @@ class CIConfigTest(unittest.TestCase):
         text = self._workflow_text()
         add_block = text[text.index("git add data.json"):]
         add_block = add_block[:add_block.index("\n\n")]
-        for name in ("policy_event_registry.json", "theme_trend_registry.json"):
+        for name in self.PERSISTENT_DATA_FILES:
             self.assertIn(
                 name, add_block,
                 f"{name} がgit addに含まれていません(コミットされず永続化しない再発防止)",
@@ -1111,6 +1126,114 @@ class ThemeTrendsTest(unittest.TestCase):
         }
         best = theme_trends.best_stage_for_theme_ids(["a", "b"], info)
         self.assertEqual(best["stage"], "emerging")
+
+
+class ThemeTrendHistoryTest(unittest.TestCase):
+    """theme_trend_history.py: 「監視」用スナップショットの回帰テスト
+    (2026-09-20ユーザー要望「機能追加より監視」「今は判定を追加せず
+    データを貯める段階でいい」)。判定条件には一切触れず、1日1テーマに
+    つき1行だけ記録することだけを固定する。
+    """
+
+    def _tmp_path(self):
+        import tempfile
+        f = tempfile.NamedTemporaryFile(suffix=".jsonl", delete=False)
+        f.close()
+        return Path(f.name)
+
+    def test_records_one_row_per_theme_per_day(self):
+        path = self._tmp_path()
+        info = {"fusion": {"stage": "emerging", "signal_count": 2, "event_count": 2, "source_count": 2,
+                            "actor_type_count": 1, "actor_type_breakdown": [], "region_count": 0,
+                            "regions": [], "origin_regions": [], "first_seen": "2026-09-20",
+                            "window_counts": {}, "milestones": [], "growth": {}}}
+        n1 = theme_trend_history.record_snapshot(info, "2026-09-20", path=path)
+        n2 = theme_trend_history.record_snapshot(info, "2026-09-20", path=path)
+        self.assertEqual(n1, 1)
+        self.assertEqual(n2, 0, "同じ日に2回ビルドしても2行目は書かないはず")
+        rows = theme_trend_history.load_snapshots(path)
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]["theme_id"], "fusion")
+        self.assertEqual(rows[0]["stage"], "emerging")
+
+    def test_records_new_row_for_a_different_day(self):
+        path = self._tmp_path()
+        info = {"fusion": {"stage": None, "signal_count": 1, "event_count": 1, "source_count": 1,
+                            "actor_type_count": 0, "actor_type_breakdown": [], "region_count": 0,
+                            "regions": [], "origin_regions": [], "first_seen": "2026-09-20",
+                            "window_counts": {}, "milestones": [], "growth": {}}}
+        theme_trend_history.record_snapshot(info, "2026-09-20", path=path)
+        theme_trend_history.record_snapshot(info, "2026-09-21", path=path)
+        rows = theme_trend_history.load_snapshots(path)
+        self.assertEqual([r["day"] for r in rows], ["2026-09-20", "2026-09-21"])
+
+
+class ThemeTrendMonitorTest(unittest.TestCase):
+    """theme_trend_monitor.py: ⑥同一ニュースの転載が別情報源として
+    重複カウントされていないかの監視レポート(2026-09-20ユーザー要望
+    「⑥は今後かなり重要」)。判定条件は変えず、読み取り専用で疑わしい
+    ケースにフラグを立てるだけであることを固定する。
+    """
+
+    def test_flags_same_topic_reported_under_different_sources(self):
+        registry = {
+            "themes": {
+                "fusion": {
+                    "first_seen": "2026-09-20", "occurrences": 1,
+                    "events": [
+                        {"date": "2026-09-20", "item_id": "a", "source": "Yahoo!ニュース",
+                         "title": "経産省、核融合の実証実験に追加支援を発表",
+                         "signals": ["gov_source"], "actor_types": [], "regions": [], "origin_region": None},
+                        {"date": "2026-09-20", "item_id": "b", "source": "livedoor NEWS",
+                         "title": "経産省が核融合の実証実験に追加支援を発表",
+                         "signals": ["gov_source"], "actor_types": [], "regions": [], "origin_region": None},
+                    ],
+                },
+            }
+        }
+        flags = theme_trend_monitor.audit_repost_collisions(registry)
+        self.assertEqual(len(flags), 1)
+        self.assertEqual(flags[0]["theme_id"], "fusion")
+
+    def test_does_not_flag_genuinely_different_stories(self):
+        registry = {
+            "themes": {
+                "fusion": {
+                    "first_seen": "2026-09-20", "occurrences": 1,
+                    "events": [
+                        {"date": "2026-09-20", "item_id": "a", "source": "経済産業省",
+                         "title": "経産省が核融合の実証実験に追加支援を発表",
+                         "signals": ["gov_source"], "actor_types": [], "regions": [], "origin_region": None},
+                        {"date": "2026-09-24", "item_id": "b", "source": "東京大学",
+                         "title": "東京大学の研究グループが新しいプラズマ閉じ込め方式を開発",
+                         "signals": ["rd"], "actor_types": ["research"], "regions": [], "origin_region": None},
+                    ],
+                },
+            }
+        }
+        flags = theme_trend_monitor.audit_repost_collisions(registry)
+        self.assertEqual(flags, [])
+
+    def test_does_not_flag_same_source_reporting_twice(self):
+        # 情報源が同じなら、そもそも独立性判定に1件しか寄与しないので
+        # 転載チェックの対象外(既存の②の仕組みで既に処理済み)。
+        registry = {
+            "themes": {
+                "fusion": {
+                    "first_seen": "2026-09-20", "occurrences": 1,
+                    "events": [
+                        {"date": "2026-09-20", "item_id": "a", "source": "経済産業省",
+                         "title": "経産省が核融合の実証実験に追加支援を発表",
+                         "signals": ["gov_source"], "actor_types": [], "regions": [], "origin_region": None},
+                        {"date": "2026-09-24", "item_id": "b", "source": "経済産業省",
+                         "title": "経産省、核融合の実証実験に追加支援を発表",
+                         "signals": ["gov_source"], "actor_types": [], "regions": [], "origin_region": None},
+                    ],
+                },
+            }
+        }
+        flags = theme_trend_monitor.audit_repost_collisions(registry)
+        self.assertEqual(flags, [])
 
 
 if __name__ == "__main__":

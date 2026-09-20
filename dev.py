@@ -330,6 +330,37 @@ def cmd_backtest(args):
     return 0
 
 
+def cmd_monitor(args):
+    """萌芽シグナルの監視レポート(本番の実データに対する読み取り専用チェック)。
+
+    判定条件は一切変更しない。①新興テーマの検出状況 ②③情報源・シグナルの
+    独立性 ④milestonesの蓄積 ⑤海外ソースの有無 ⑥同一ニュースの転載が
+    別情報源として重複カウントされていないか、を人間が確認するためのもの
+    (2026-09-20ユーザー要望「次にやるなら機能追加より監視」)。
+    """
+    import copy
+    import json
+    from datetime import datetime
+    from newssite import impact as impact_mod
+    from newssite import theme_trend_monitor, theme_trends
+    from newssite.config import JST
+
+    registry = theme_trends._load_registry()
+    news_path = BASE_DIR / "news.json"
+    theme_stage_info = None
+    if news_path.exists():
+        with open(news_path, encoding="utf-8") as f:
+            news_data = json.load(f)
+        news = news_data if isinstance(news_data, list) else news_data.get("news", [])
+        rules = impact_mod.load()
+        today = datetime.now(JST).strftime("%Y-%m-%d")
+        # レジストリは読み取り専用で見たいだけなので、複製に対して判定を
+        # 走らせる(_save_registryは呼ばない=本番の登録簿には触れない)。
+        theme_stage_info = theme_trends.record_and_classify(copy.deepcopy(registry), news, rules, today)
+    theme_trend_monitor.print_report(registry, theme_stage_info)
+    return 0
+
+
 COMMANDS = {
     "setup": cmd_setup,
     "sample": cmd_sample,
@@ -341,6 +372,7 @@ COMMANDS = {
     "open": cmd_open,
     "score": cmd_score,
     "backtest": cmd_backtest,
+    "monitor": cmd_monitor,
 }
 
 
