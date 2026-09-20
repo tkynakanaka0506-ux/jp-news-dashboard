@@ -157,6 +157,61 @@ def emergence_badge_html(obj):
     )
 
 
+def _short_date(iso_date):
+    try:
+        dt = datetime.strptime(iso_date, "%Y-%m-%d")
+        return f"{dt.month}/{dt.day}"
+    except (ValueError, TypeError):
+        return iso_date or ""
+
+
+def emergence_growth_html(obj):
+    """[新興テーマの成長速度] (2026-09-20ユーザー要望)「初検知後、その
+    テーマがどう育ってきたか」を、milestones(各情報源種別を最初に観測
+    した日)の時系列として開示する。emergence_badge_html同様、単一の
+    「成長スコア」や「将来有望度」には合成せず、観測できた生の件数
+    (情報源の種類・地域・7/30/90日件数・直近何日で何種類増えたか)を
+    並べるだけに留める(原則7参照)。milestonesが1件も無いテーマ(まだ
+    どの情報源種別も観測されていない)では何も出さない。
+    """
+    milestones = obj.get("emergence_milestones") or []
+    if not milestones:
+        return ""
+    windows = obj.get("emergence_window_counts", {}) or {}
+
+    def _window_count(d):
+        return windows.get(d, windows.get(str(d)))
+
+    timeline_items = "".join(
+        f'<li><span class="growth-date">{esc(_short_date(m["date"]))}</span>'
+        f'<span class="growth-actor">{esc(m["actor_type_label"])}</span></li>'
+        for m in milestones
+    )
+    window_text = " / ".join(
+        f"{d}日:{_window_count(d)}件" for d in (7, 30, 90) if _window_count(d) is not None
+    )
+    regions = obj.get("emergence_regions") or []
+    region_text = f"（{'、'.join(regions)}）" if regions else ""
+    growth = obj.get("emergence_growth") or {}
+    recent_note = ""
+    if growth.get("recent_new_actor_types"):
+        recent_note = (
+            f'<p class="growth-recent">直近{esc(growth.get("window_days"))}日で情報源の種類が'
+            f'{esc(growth["recent_new_actor_types"])}種類増えました'
+            f'(全{esc(growth.get("total_actor_types", 0))}種類中。観測できた事実のみで、将来の重要度を示すものではありません)</p>'
+        )
+    return f"""
+      <details class="emergence-growth">
+        <summary>📈 成長の経過を見る</summary>
+        <p class="growth-first-seen">初検知: {esc(obj.get("emergence_first_seen", ""))}</p>
+        <ul class="growth-timeline">{timeline_items}</ul>
+        <p class="growth-stats">情報源 {esc(obj.get("emergence_actor_type_count", 0))}種類・
+          地域 {esc(obj.get("emergence_region_count", 0))}地域{esc(region_text)}・
+          直近 {esc(window_text)}</p>
+        {recent_note}
+      </details>"""
+
+
 def news_card_html(item, now):
     impacts = item.get("impacts", [])
     if impacts:
@@ -339,6 +394,10 @@ def cluster_html(clusters):
         emergence_label = c.get("emergence_stage_label")
         has_diagnosis = bool(c.get("emergence_diagnosis"))
         emergence_badge = emergence_badge_html(c) if (emergence_label or has_diagnosis) else ""
+        # [新興テーマの成長速度] (2026-09-20ユーザー要望)milestonesが
+        # あるテーマ型クラスターだけ、初検知後の育ち方を時系列で開ける
+        # ようにする(既存の"同じ話題の他媒体"と同じdetails展開パターン)。
+        growth_block = emergence_growth_html(c)
         out.append(f"""
       <div class="rank-row cluster-row">
         <div class="rank-line">
@@ -351,7 +410,7 @@ def cluster_html(clusters):
           <button class="rank-toggle" type="button" aria-label="関連ニュースの見出しを開く">▾</button>
         </div>
         <div class="cluster-stocks">{stock_chips}</div>
-        <ul class="rank-news">{headlines}</ul>
+        <ul class="rank-news">{headlines}</ul>{growth_block}
       </div>""")
     return "".join(out)
 
@@ -650,6 +709,15 @@ header.site::before{content:"";position:absolute;inset:0;pointer-events:none;
 .related ul{margin:8px 0 0;padding-left:18px}
 .related li{margin-bottom:4px}
 .related-source{margin-left:8px;font-size:12.5px;opacity:.95}
+.emergence-growth{margin-top:10px;font-size:13.5px;color:var(--muted)}
+.emergence-growth summary{cursor:pointer}
+.growth-first-seen{margin:8px 0 4px}
+.growth-timeline{list-style:none;margin:0 0 8px;padding:0;border-left:2px solid var(--line)}
+.growth-timeline li{position:relative;padding:2px 0 2px 14px;font-variant-numeric:tabular-nums}
+.growth-timeline li::before{content:"●";position:absolute;left:-6px;font-size:9px;color:var(--accent)}
+.growth-date{font-weight:700;color:var(--text);margin-right:8px}
+.growth-stats{margin:4px 0}
+.growth-recent{margin:6px 0 0;color:var(--accent);font-weight:600}
 
 aside.side{position:sticky;top:150px;max-height:calc(100vh - 170px);
   overflow-y:auto;overflow-x:hidden;padding-right:4px;scrollbar-width:thin}

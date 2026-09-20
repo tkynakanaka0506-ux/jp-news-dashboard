@@ -571,6 +571,37 @@ class RenderTest(unittest.TestCase):
         html_fragment = render.emergence_badge_html(obj)
         self.assertNotIn("診断:", html_fragment)
 
+    def test_emergence_growth_html_renders_timeline_and_recent_note(self):
+        # 2026-09-20ユーザー要望「新興テーマの成長速度」。単一スコアでは
+        # なく、milestonesの時系列・情報源/地域の種類数・7/30/90日件数・
+        # 直近何日で何種類増えたかを並べて開示することを固定する。
+        obj = {
+            "emergence_first_seen": "2026-09-20",
+            "emergence_milestones": [
+                {"date": "2026-09-20", "actor_type_label": "研究機関・大学"},
+                {"date": "2026-09-24", "actor_type_label": "日本政府・省庁"},
+                {"date": "2026-09-27", "actor_type_label": "海外政府・当局"},
+            ],
+            "emergence_actor_type_count": 3,
+            "emergence_region_count": 2,
+            "emergence_regions": ["日本", "米国"],
+            "emergence_window_counts": {7: 2, 30: 3, 90: 3},
+            "emergence_growth": {"window_days": 14, "recent_new_actor_types": 2, "total_actor_types": 3},
+        }
+        html_fragment = render.emergence_growth_html(obj)
+        self.assertIn("成長の経過を見る", html_fragment)
+        self.assertIn("9/20", html_fragment)
+        self.assertIn("研究機関・大学", html_fragment)
+        self.assertIn("9/27", html_fragment)
+        self.assertIn("情報源 3種類", html_fragment)
+        self.assertIn("地域 2地域", html_fragment)
+        self.assertIn("7日:2件", html_fragment)
+        self.assertIn("直近14日で情報源の種類が2種類増えました", html_fragment)
+        self.assertNotIn("将来性", html_fragment)
+
+    def test_emergence_growth_html_empty_without_milestones(self):
+        self.assertEqual(render.emergence_growth_html({}), "")
+
     def test_html_escapes_dangerous_text(self):
         data = dict(self.data)
         data["news"] = [dict(self.data["news"][0], title='<script>alert(1)</script>', summary='"><img>')]
@@ -870,6 +901,44 @@ class ThemeTrendsTest(unittest.TestCase):
         self.assertEqual(milestones.get("日本政府・省庁"), "2026-09-01")
         self.assertEqual(milestones.get("関連企業"), "2026-09-10")
 
+    def test_growth_counts_how_many_actor_types_recently_appeared(self):
+        # 2026-09-20ユーザー要望「新興テーマの成長速度」: 全何種類の情報源
+        # のうち直近RECENT_GROWTH_WINDOW_DAYS日以内に新たに加わったのは
+        # 何種類かを、単一スコアに合成せず生の件数として出すことを固定する。
+        old_date = theme_trends._shift_date("2026-09-20", -(theme_trends.RECENT_GROWTH_WINDOW_DAYS + 10))
+        registry = {
+            "themes": {
+                "fusion": {
+                    "first_seen": old_date, "occurrences": 5, "events": [],
+                    "milestones": {"research": old_date, "government_jp": old_date},
+                },
+            }
+        }
+        news = [self._item(
+            id="n1", title="関連企業が発表", source="双日", theme_ids=["fusion"], impacts=[{"origin": "direct"}],
+        )]
+        stages = theme_trends.record_and_classify(registry, news, self.rules, "2026-09-20")
+        growth = stages["fusion"]["growth"]
+        self.assertEqual(growth["window_days"], theme_trends.RECENT_GROWTH_WINDOW_DAYS)
+        self.assertEqual(growth["total_actor_types"], 3, "research/government_jp(既存) + corporate(今回)")
+        self.assertEqual(growth["recent_new_actor_types"], 1, "直近で新たに増えたのはcorporateの1種類だけのはず")
+
+    def test_growth_is_zero_when_no_new_actor_type_recently_appeared(self):
+        # 全部が昔からの情報源種別なら、直近の新規追加数は0(=無理に
+        # 「増えている」と言わない)。
+        old_date = theme_trends._shift_date("2026-09-20", -(theme_trends.RECENT_GROWTH_WINDOW_DAYS + 10))
+        registry = {
+            "themes": {
+                "fusion": {
+                    "first_seen": old_date, "occurrences": 5, "events": [],
+                    "milestones": {"research": old_date},
+                },
+            }
+        }
+        news = [self._item(id="n1", title="研究が進展", theme_ids=["fusion"])]
+        stages = theme_trends.record_and_classify(registry, news, self.rules, "2026-09-20")
+        self.assertEqual(stages["fusion"]["growth"]["recent_new_actor_types"], 0)
+
     def test_research_and_international_org_signals(self):
         research = self._item(title="東京大学の研究グループが新技術を開発")
         self.assertIn("research", theme_trends.detect_actor_types(research, self.rules))
@@ -930,6 +999,46 @@ class ThemeTrendsTest(unittest.TestCase):
         event = registry["themes"]["jp_politics"]["events"][0]
         self.assertEqual(event["source"], "金融庁")
         self.assertEqual(event["actor_types"], ["government_jp"])
+
+    def test_enrich_event_fills_any_empty_field_generically_not_by_field_name(self):
+        # 2026-09-20ユーザー要望: 「今後もデータの鮮度を維持する仕組み」を
+        # 個別フィールドの決め打ちではなく一般化して固定する。将来
+        # _ENRICHABLE_EVENT_FIELDSに新フィールドを足しても、同じ
+        # 「既存が空なら補完・既存が値ありなら上書きしない」規則が
+        # そのまま働くことをここで検証する。
+        existing = {
+            "date": "2026-09-20", "item_id": "old1", "source": "",
+            "signals": [], "actor_types": [], "regions": [], "origin_region": None,
+        }
+        fresh = {
+            "source": "経済産業省", "signals": {"gov_source"},
+            "actor_types": {"government_jp"}, "regions": {"日本"}, "origin_region": "日本",
+        }
+        newly_known = theme_trends._enrich_event(existing, fresh)
+        self.assertEqual(existing["source"], "経済産業省")
+        self.assertEqual(existing["signals"], ["gov_source"])
+        self.assertEqual(existing["actor_types"], ["government_jp"])
+        self.assertEqual(existing["regions"], ["日本"])
+        self.assertEqual(existing["origin_region"], "日本")
+        self.assertEqual(newly_known, {"government_jp"})
+
+    def test_enrich_event_never_overwrites_a_field_that_already_has_a_value(self):
+        # 転載・二次報道などで後から不完全な情報が来ても、既に確定している
+        # 値(最初に判明したsource等)を薄める方向には絶対に書き換えない。
+        existing = {
+            "date": "2026-09-20", "item_id": "old1", "source": "経済産業省",
+            "signals": ["gov_source"], "actor_types": ["government_jp"],
+            "regions": ["日本"], "origin_region": "日本",
+        }
+        fresh = {
+            "source": "双日", "signals": {"capex"},
+            "actor_types": {"corporate"}, "regions": {"米国"}, "origin_region": "米国",
+        }
+        newly_known = theme_trends._enrich_event(existing, fresh)
+        self.assertEqual(existing["source"], "経済産業省")
+        self.assertEqual(existing["actor_types"], ["government_jp"])
+        self.assertEqual(existing["origin_region"], "日本")
+        self.assertEqual(newly_known, set(), "既に値があるフィールドはmilestonesにも反映しない")
 
     def test_diagnosis_explains_which_condition_is_unmet(self):
         # 2026-09-20ユーザー要望: 「独立情報源 1/2、シグナル 3/2 →
