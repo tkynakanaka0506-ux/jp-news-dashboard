@@ -34,6 +34,10 @@ class Rules:
         self.negative_words = raw.get("negative_words", [])
         self.future_signal_keywords = raw.get("future_signal_keywords", [])
         self.policy_maturity_stages = raw.get("policy_maturity_stages", [])
+        # 萌芽シグナル検知(theme_trends.py)用。テーマに依存しない汎用キーワード。
+        self.rd_signal_keywords = raw.get("rd_signal_keywords", [])
+        self.patent_signal_keywords = raw.get("patent_signal_keywords", [])
+        self.capex_signal_keywords = raw.get("capex_signal_keywords", [])
         # 「政府・政策が市場を動かす力」(government_policy、既定値)と
         # 「巨大テックの設備投資が需要を動かす力」(corporate_capex)は別物、
         # というユーザー方針(2026-09-13)。テーマ側にintelligence_layerが
@@ -116,6 +120,25 @@ def headline_sentiment(text, rules):
 def is_future_signal(text, rules):
     """審議会・検討会・パブコメなど、報道になる前の一次情報らしき見出しか。"""
     return any(w in text for w in rules.future_signal_keywords)
+
+
+# 萌芽シグナル検知(theme_trends.py)用。「このテーマかどうか」ではなく
+# 「研究開発/特許/設備投資という角度の動きが見出しにあったか」だけを見る、
+# テーマに依存しない汎用判定。[PRESENTATION LAYER] 表示専用で、
+# direction/theme/direct-indirectの判定には一切使わない。
+def has_rd_signal(text, rules):
+    """研究開発の進展を示す見出しか。"""
+    return any(w in text for w in rules.rd_signal_keywords)
+
+
+def has_patent_signal(text, rules):
+    """特許に関する見出しか。"""
+    return any(w in text for w in rules.patent_signal_keywords)
+
+
+def has_capex_signal(text, rules):
+    """設備投資・増産・新工場など企業の投資判断を示す見出しか。"""
+    return any(w in text for w in rules.capex_signal_keywords)
 
 
 def score_policy_maturity(text, rules):

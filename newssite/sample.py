@@ -74,7 +74,15 @@ def sample_data():
     # 本番のpolicy_event_registry.jsonは汚さない(persist_lifecycle=False)。
     news = analyze.build_news(rules=rules, raw_items=items, use_llm=False, persist_lifecycle=False)
     ranking = analyze.stock_ranking(news)
-    clusters = analyze.build_material_clusters(news, rules, stocks_mod.load())
+    # 本番のtheme_trend_registry.jsonは汚さない(persist=False)。
+    theme_stage_info = analyze.apply_emergence_signals(news, rules, now.strftime("%Y-%m-%d"), persist=False)
+    master = stocks_mod.load()
+    clusters = analyze.build_material_clusters(news, rules, master)
+    for c in clusters:
+        info = theme_stage_info.get(c.get("theme_id")) if c["connection_type"] == "theme" else None
+        c["emergence_stage"] = info["stage"] if info else None
+        c["emergence_stage_label"] = info["stage_label"] if info else ""
+        c["emergence_signals"] = info["signal_labels"] if info else []
 
     return {
         "generated_at": now.strftime("%Y-%m-%d %H:%M"),

@@ -16,7 +16,7 @@ from unittest import mock
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from newssite import analyze, impact as impact_mod, render, rss, stocks as stocks_mod  # noqa: E402
+from newssite import analyze, impact as impact_mod, render, rss, stocks as stocks_mod, theme_trends  # noqa: E402
 from newssite.config import JST  # noqa: E402
 
 
@@ -561,6 +561,142 @@ class DevToolTest(unittest.TestCase):
             code, out = self._check()
         self.assertEqual(code, 1)
         self.assertIn("重複", out)
+
+
+class CIConfigTest(unittest.TestCase):
+    """CI(GitHub Actions)側の設定ファイルの回帰テスト。
+
+    実測バグ(2026-09-20発見): newssite/data/policy_event_registry.json が
+    .github/workflows/update.yml のgit reset --hard→退避復元→git addの
+    どこにも含まれておらず、CIの実行のたびに空の登録簿へリセットされて
+    いたため、「続報(UPDATE)」ライフサイクル判定が本番で一度も機能して
+    いなかった。theme_trend_registry.json(萌芽シグナル)も同じ永続化が
+    必要なため、両方が退避・復元・git addの対象に含まれることを固定する。
+    """
+
+    def _workflow_text(self):
+        path = Path(__file__).resolve().parent.parent / ".github" / "workflows" / "update.yml"
+        return path.read_text(encoding="utf-8")
+
+    def test_registries_are_stashed_across_git_reset_hard(self):
+        text = self._workflow_text()
+        for name in ("policy_event_registry.json", "theme_trend_registry.json"):
+            self.assertIn(
+                f"newssite/data/{name}", text,
+                f"{name} が update.yml のどこにも登場しません(退避・復元されず消える再発防止)",
+            )
+
+    def test_registries_are_included_in_git_add(self):
+        text = self._workflow_text()
+        add_block = text[text.index("git add data.json"):]
+        add_block = add_block[:add_block.index("\n\n")]
+        for name in ("policy_event_registry.json", "theme_trend_registry.json"):
+            self.assertIn(
+                name, add_block,
+                f"{name} がgit addに含まれていません(コミットされず永続化しない再発防止)",
+            )
+
+
+class ThemeTrendsTest(unittest.TestCase):
+    """theme_trends.py: 萌芽シグナル検知の回帰テスト。
+
+    ユーザー要望(2026-09-20)「『ビッグニュースになる可能性が高い』を最初から
+    予言させる設計にはしない方がいい。代わりに『先行シグナルが何個
+    集まっているか』を検出する」に基づく設計を固定する。
+    """
+
+    def setUp(self):
+        self.rules = impact_mod.load()
+
+    def _item(self, **kw):
+        base = {
+            "id": "n1", "title": "t", "theme_ids": ["boj_hike"], "impacts": [],
+            "related": [], "source_tier": None, "future_signal": False,
+            "policy_maturity": None, "category": "policy",
+        }
+        base.update(kw)
+        return base
+
+    def test_detect_signals_reads_only_already_computed_fields(self):
+        item = self._item(
+            source_tier="primary", future_signal=True,
+            impacts=[{"origin": "direct"}], related=[{"title": "x"}],
+        )
+        signals = theme_trends.detect_signals(item, self.rules)
+        self.assertEqual(
+            signals,
+            {"gov_source", "gov_policy", "corporate", "multi_source"},
+        )
+
+    def test_detect_signals_rd_patent_capex_keywords(self):
+        rd = theme_trends.detect_signals(self._item(title="新技術の研究開発が進展"), self.rules)
+        self.assertIn("rd", rd)
+        patent = theme_trends.detect_signals(self._item(title="新方式で特許を取得"), self.rules)
+        self.assertIn("patent", patent)
+        capex = theme_trends.detect_signals(self._item(title="新工場建設で増産へ"), self.rules)
+        self.assertIn("capex", capex)
+
+    def test_detect_signals_foreign_category(self):
+        signals = theme_trends.detect_signals(self._item(category="geopolitics"), self.rules)
+        self.assertIn("foreign", signals)
+        signals_jp = theme_trends.detect_signals(self._item(category="japan"), self.rules)
+        self.assertNotIn("foreign", signals_jp)
+
+    def test_emerging_requires_new_theme_and_at_least_two_signals(self):
+        registry = {"themes": {}}
+        # 1件目: 新規テーマだがシグナルが1種類だけ→まだemergingにしない
+        news = [self._item(id="n1", title="日銀が利上げ", source_tier="primary")]
+        stages = theme_trends.record_and_classify(registry, news, self.rules, "2026-09-20")
+        self.assertIsNone(stages["boj_hike"]["stage"])
+
+        # 2件目: 同じ日、同じテーマにcapexシグナルが加わり2種類そろう
+        news2 = [self._item(id="n2", title="関連企業が新工場建設で増産へ", source_tier="primary")]
+        stages2 = theme_trends.record_and_classify(registry, news2, self.rules, "2026-09-20")
+        self.assertEqual(stages2["boj_hike"]["stage"], "emerging")
+        self.assertEqual(stages2["boj_hike"]["signal_count"], 2)
+
+    def test_watch_stage_for_old_theme_with_three_or_more_signals(self):
+        # 初出から日数が経ちすぎている(EMERGING_MAX_DAYSを超える)テーマは
+        # emergingにはしないが、シグナルが3種類以上そろえばwatchにする。
+        registry = {
+            "themes": {
+                "boj_hike": {"first_seen": "2026-01-01", "occurrences": 1, "signals": {}},
+            }
+        }
+        news = [self._item(
+            id="n1", title="関連企業が新工場建設で増産へ", source_tier="primary",
+            future_signal=True, impacts=[{"origin": "direct"}],
+        )]
+        stages = theme_trends.record_and_classify(registry, news, self.rules, "2026-09-20")
+        self.assertEqual(stages["boj_hike"]["stage"], "watch")
+        self.assertGreaterEqual(stages["boj_hike"]["signal_count"], 3)
+
+    def test_signals_decay_after_window_without_reinforcement(self):
+        # SIGNAL_WINDOW_DAYSを超えて再確認されなかったシグナルは、
+        # 「今も生きている根拠」から外れる(過去1回きりの言及で永久に
+        # 要監視のままになることを防ぐ)。
+        old_date = theme_trends._shift_date("2026-09-20", -(theme_trends.SIGNAL_WINDOW_DAYS + 5))
+        registry = {
+            "themes": {
+                "boj_hike": {
+                    "first_seen": "2026-01-01",
+                    "occurrences": 5,
+                    "signals": {"gov_source": old_date, "gov_policy": old_date, "capex": old_date},
+                },
+            }
+        }
+        news = [self._item(id="n1", title="日銀が動向を注視", source_tier=None)]
+        stages = theme_trends.record_and_classify(registry, news, self.rules, "2026-09-20")
+        self.assertEqual(stages["boj_hike"]["signal_count"], 0)
+        self.assertIsNone(stages["boj_hike"]["stage"])
+
+    def test_best_stage_for_theme_ids_prefers_emerging_over_watch(self):
+        info = {
+            "a": {"stage": "watch", "stage_label": "👀 要監視テーマ", "signal_count": 3, "signal_labels": []},
+            "b": {"stage": "emerging", "stage_label": "🔎 新興テーマ", "signal_count": 2, "signal_labels": []},
+        }
+        best = theme_trends.best_stage_for_theme_ids(["a", "b"], info)
+        self.assertEqual(best["stage"], "emerging")
 
 
 if __name__ == "__main__":

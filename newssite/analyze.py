@@ -12,6 +12,7 @@ from . import llm as llm_mod
 from . import policy_lifecycle
 from . import rss as rss_mod
 from . import stocks as stocks_mod
+from . import theme_trends
 from .config import FEEDS, GOV_FEEDS, JST, MARKET_TICKERS, MAX_AGE_HOURS, MAX_NEWS_ITEMS, PER_FEED_LIMIT
 
 DIRECTION_LABEL = impact_mod.DIRECTION_LABEL
@@ -310,6 +311,28 @@ def stock_ranking(news, limit=20):
     return rows[:limit]
 
 
+def apply_emergence_signals(news, rules, today, persist=True):
+    """[分析レイヤー/PRESENTATION LAYER] 各ニュースに萌芽シグナル(theme_trends.py)
+    のステージを付与する。1件のニュースが複数テーマに該当する場合は、
+    最も優先度の高いステージを採用する(best_stage_for_theme_ids)。
+
+    戻り値はテーマごとのステージ情報({theme_id: {...}})。
+    build_theme_clusters/build_material_clustersのクラスターにも
+    同じ情報を付与できるよう、呼び出し側に返す。
+    """
+    registry = theme_trends._load_registry() if persist else {"themes": {}}
+    theme_stage_info = theme_trends.record_and_classify(registry, news, rules, today)
+    if persist:
+        theme_trends._save_registry(registry)
+
+    for item in news:
+        best = theme_trends.best_stage_for_theme_ids(item.get("theme_ids", []), theme_stage_info)
+        item["emergence_stage"] = best["stage"] if best else None
+        item["emergence_stage_label"] = best["stage_label"] if best else ""
+        item["emergence_signals"] = best["signal_labels"] if best else []
+    return theme_stage_info
+
+
 def build_theme_clusters(news, rules, min_members=2, max_clusters=8):
     """[分析レイヤー] 見出しの文言が違っても同じ「材料」(テーマ)を共有する
     ニュースを束ねて、ひとつの大きなテーマとして把握できるようにする。
@@ -515,7 +538,13 @@ def build(data_json_path="data.json", use_llm=True):
     now = datetime.now(JST)
     news = build_news(rules=rules, master=master, use_llm=use_llm)
     ranking = stock_ranking(news)
+    theme_stage_info = apply_emergence_signals(news, rules, now.strftime("%Y-%m-%d"))
     clusters = build_material_clusters(news, rules, master)
+    for c in clusters:
+        info = theme_stage_info.get(c.get("theme_id")) if c["connection_type"] == "theme" else None
+        c["emergence_stage"] = info["stage"] if info else None
+        c["emergence_stage_label"] = info["stage_label"] if info else ""
+        c["emergence_signals"] = info["signal_labels"] if info else []
     # [バックテスト基盤] 本番ビルドのたびに今回判定したイベントをログへ追記する。
     # 株価データはまだ接続していないため、現時点ではニュース×銘柄×スコアの
     # 履歴を貯めるだけ(dev.py backtest で BACKTEST_STATUS を確認できる)。
