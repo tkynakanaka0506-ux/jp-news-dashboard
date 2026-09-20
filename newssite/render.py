@@ -245,6 +245,43 @@ def ranking_html(rows):
     return "".join(out)
 
 
+def cluster_html(clusters):
+    """[つながっている材料] 見出しの文言は違っても同じテーマ(国・地域・資源・
+    政策・規制など)を共有するニュースをまとめて表示する。ユーザー要望
+    (2026-09-20)「一見異なる内容のニュースでも関連性を発見しやすくしたい」
+    への対応。rank_html と同じ .rank-row/.rank-toggle 構造を再利用し、
+    既存のJS(クリックで開閉)・CSSにそのまま乗る(新規実装を増やさない)。
+    """
+    if not clusters:
+        return '<p class="empty">今回は複数ニュースにまたがる材料はありませんでした。</p>'
+    out = []
+    for i, c in enumerate(clusters, 1):
+        stock_chips = "".join(
+            f'<span class="chip-tag {"origin-direct" if s["positive"] >= s["negative"] else "tier-peripheral"}" '
+            f'title="{esc(s["name"])}: 追い風{s["positive"]}件・逆風{s["negative"]}件">'
+            f'{esc(s["name"])}</span>'
+            for s in c.get("stocks", [])[:5]
+        )
+        headlines = "".join(
+            f'<li><a href="#news-{esc(m["id"])}">{esc(m["title"])}</a></li>'
+            for m in c.get("members", [])
+        )
+        out.append(f"""
+      <div class="rank-row cluster-row">
+        <div class="rank-line">
+          <div class="rank-head">
+            <span class="rank-no">{i}</span>
+            <span class="rank-name">{esc(c.get('category_emoji', '📰'))} {esc(c['label'])}</span>
+            <span class="rank-mentions">{len(c['members'])}件のニュース</span>
+          </div>
+          <button class="rank-toggle" type="button" aria-label="関連ニュースの見出しを開く">▾</button>
+        </div>
+        <div class="cluster-stocks">{stock_chips}</div>
+        <ul class="rank-news">{headlines}</ul>
+      </div>""")
+    return "".join(out)
+
+
 def category_filter_html(categories, news):
     counts = {}
     for n in news:
@@ -566,6 +603,9 @@ aside.side::-webkit-scrollbar-thumb{background:rgba(57,255,136,.25);border-radiu
 .rank-news li{margin-bottom:4px}
 .rank-news a{color:var(--muted);text-decoration:none}
 .rank-news a:hover{color:var(--accent)}
+.cluster-row .rank-head{cursor:default}
+.cluster-stocks{display:none;flex-wrap:wrap;gap:5px;padding-left:30px;margin-bottom:6px}
+.cluster-row.is-open .cluster-stocks{display:flex}
 
 .empty,.no-result{background:var(--card);border:1px dashed var(--line);border-radius:14px;
   -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
@@ -679,6 +719,8 @@ footer a{color:var(--accent)}
 .m-impact-item.up .mark{color:var(--accent)} .m-impact-item.down .mark{color:var(--up)} .m-impact-item.flat .mark{color:var(--flat)}
 .m-impact-item .name{flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:#fff}
 .m-impact-item .code{font-family:var(--font-mono); font-size:11px; color:var(--muted); flex-shrink:0}
+.m-cluster-item .name{white-space:normal; line-height:1.5; text-decoration:none}
+.m-cluster-item .name:active{color:var(--accent-2)}
 .m-empty-sm{font-size:12.5px; color:var(--muted)}
 .m-row-link{display:inline-flex; align-items:center; gap:4px; margin-top:2px; font-size:12px; color:var(--accent-2); text-decoration:none; font-weight:700}
 /* 順位バッジは円形グロー表示、上位1-3位は金銀銅トーンで強調（株ボードと統一） */
@@ -1103,7 +1145,38 @@ MOBILE_H2_ICONS = {
                '<rect x="3" y="4.5" width="18" height="12" rx="1.6"/><path d="M8.5 20h7M12 16.5V20" stroke-linecap="round"/></svg>',
     "theme": '<svg class="m-cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">'
              '<path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z" stroke-linejoin="round"/></svg>',
+    "clusters": '<svg class="m-h2-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">'
+                '<circle cx="6" cy="7" r="3"/><circle cx="18" cy="7" r="3"/><circle cx="12" cy="18" r="3"/>'
+                '<path d="M8.5 8.8 10.3 15.8M15.5 8.8 13.7 15.8" stroke-linecap="round"/></svg>',
 }
+
+
+def mobile_cluster_row(c):
+    """[つながっている材料] 見出しは違っても同じテーマを共有する複数ニュースを
+    その場で展開して見せる(mobile_news_rowと同じ展開式カードの流儀)。"""
+    stock_chips = "".join(
+        f'<span class="m-code-chip">{esc(s["name"])}</span>'
+        for s in c.get("stocks", [])[:4]
+    )
+    members = "".join(
+        f'<div class="m-impact-item m-cluster-item">'
+        f'<a class="name" href="{esc(m["url"])}" target="_blank" rel="noopener">{esc(m["title"])}</a></div>'
+        for m in c.get("members", [])
+    )
+    return f"""
+  <div class="m-row m-news-row">
+    <button class="m-row-head" type="button" onclick="this.closest('.m-news-row').classList.toggle('is-expanded')">
+      <div class="m-row-main">
+        <span class="m-row-cat">{esc(c.get('category_emoji', '📰'))} {esc(c.get('category_label', ''))}</span>
+        <span class="m-row-title">{esc(c['label'])}</span>
+        <span class="m-row-sub">{len(c.get('members', []))}件のニュース{stock_chips}</span>
+      </div>
+      <svg class="m-row-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <div class="m-impact-panel">
+      {members}
+    </div>
+  </div>"""
 
 
 def mobile_news_row(item):
@@ -1176,6 +1249,8 @@ def mobile_app_html(data, now):
     <span class="m-chg {'up' if row['score'] > 0 else 'down' if row['score'] < 0 else 'flat'}">{row['mentions']}件</span>
   </div>""" for i, row in enumerate(ranking))
 
+    cluster_rows = "".join(mobile_cluster_row(c) for c in data.get("clusters", []))
+
     generated_at = esc(data.get("generated_at", ""))
 
     return f"""
@@ -1190,6 +1265,11 @@ def mobile_app_html(data, now):
       <h2 class="m-h2 accent-amber">{MOBILE_H2_ICONS['importance']}重要度の高いニュース</h2>
       <div class="m-list">
         {''.join(mobile_news_row(n) for n in top_news) if top_news else '<p class="m-empty">今回はニュースを取得できませんでした</p>'}
+      </div>
+
+      <h2 class="m-h2 accent-magenta">{MOBILE_H2_ICONS['clusters']}つながっている材料</h2>
+      <div class="m-list">
+        {cluster_rows if cluster_rows else '<p class="m-empty">今回は複数ニュースにまたがる材料はありません</p>'}
       </div>
 
       <h2 class="m-h2 accent-cyan">{MOBILE_H2_ICONS['ranking']}材料が集まっている銘柄</h2>
@@ -1329,6 +1409,12 @@ def build_html(data):
       <p class="no-result" id="noResult">条件に一致するニュースはありません。絞り込みを緩めてください。</p>
     </main>
     <aside class="side">
+      <div class="panel">
+        <h2>🧩 つながっている材料</h2>
+        <p class="panel-desc">見出しの文言が違っても、同じテーマ(国・地域・資源・政策・規制など)に
+          反応しているニュースをまとめています。クリックで見出し一覧・関連銘柄を開きます。</p>
+        {cluster_html(data.get('clusters', []))}
+      </div>
       <div class="panel">
         <h2>📌 材料が集まっている銘柄</h2>
         <p class="panel-desc">表示中のニュース全体で、影響銘柄として挙がった回数と方向を集計しています。

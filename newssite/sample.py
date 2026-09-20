@@ -37,6 +37,8 @@ SAMPLE_HEADLINES = [
     ("米国株、ナスダックが反落 ハイテク株に利益確定売り", "ロイター", "us", 1, 0, None),
     ("データセンター向け電力需要が急増 原発の再稼働論議も", "電気新聞", "resources", 1, 0, None),
     ("大手商社に大規模なサイバー攻撃 情報漏えいの可能性", "ITmedia", "tech", 1, 0, None),
+    ("中国、対日レアアース輸出規制を強化 自動車部品の調達に懸念", "共同通信", "trade", 2, 1, None),
+    ("双日、レアアース権益確保へ豪州で新規開発 中国依存低減を加速", "日本経済新聞", "trade", 2, 0, None),
 ]
 
 
@@ -72,6 +74,7 @@ def sample_data():
     # 本番のpolicy_event_registry.jsonは汚さない(persist_lifecycle=False)。
     news = analyze.build_news(rules=rules, raw_items=items, use_llm=False, persist_lifecycle=False)
     ranking = analyze.stock_ranking(news)
+    clusters = analyze.build_theme_clusters(news, rules)
 
     return {
         "generated_at": now.strftime("%Y-%m-%d %H:%M"),
@@ -87,6 +90,7 @@ def sample_data():
         ],
         "news": news,
         "stock_ranking": ranking,
+        "clusters": clusters,
         "counts": {
             "news": len(news),
             "high_importance": sum(1 for n in news if n["importance"] >= 4),
