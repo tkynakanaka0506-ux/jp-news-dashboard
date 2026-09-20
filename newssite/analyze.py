@@ -330,7 +330,30 @@ def apply_emergence_signals(news, rules, today, persist=True):
         item["emergence_stage"] = best["stage"] if best else None
         item["emergence_stage_label"] = best["stage_label"] if best else ""
         item["emergence_signals"] = best["signal_labels"] if best else []
+        item["emergence_event_count"] = best["event_count"] if best else 0
+        item["emergence_region_count"] = best["region_count"] if best else 0
+        item["emergence_regions"] = best["regions"] if best else []
+        item["emergence_first_seen"] = best["first_seen"] if best else None
+        item["emergence_window_counts"] = best["window_counts"] if best else {}
+        item["emergence_timeline"] = best["timeline"] if best else []
     return theme_stage_info
+
+
+def attach_cluster_emergence(clusters, theme_stage_info):
+    """テーマ型クラスターに萌芽シグナル情報を付与する(build()/sample.pyの
+    両方から呼ぶ共通処理。判定ロジック自体はtheme_trends.pyの1箇所のみ)。
+    """
+    for c in clusters:
+        info = theme_stage_info.get(c.get("theme_id")) if c["connection_type"] == "theme" else None
+        c["emergence_stage"] = info["stage"] if info else None
+        c["emergence_stage_label"] = info["stage_label"] if info else ""
+        c["emergence_signals"] = info["signal_labels"] if info else []
+        c["emergence_event_count"] = info["event_count"] if info else 0
+        c["emergence_region_count"] = info["region_count"] if info else 0
+        c["emergence_regions"] = info["regions"] if info else []
+        c["emergence_first_seen"] = info["first_seen"] if info else None
+        c["emergence_window_counts"] = info["window_counts"] if info else {}
+    return clusters
 
 
 def build_theme_clusters(news, rules, min_members=2, max_clusters=8):
@@ -539,12 +562,7 @@ def build(data_json_path="data.json", use_llm=True):
     news = build_news(rules=rules, master=master, use_llm=use_llm)
     ranking = stock_ranking(news)
     theme_stage_info = apply_emergence_signals(news, rules, now.strftime("%Y-%m-%d"))
-    clusters = build_material_clusters(news, rules, master)
-    for c in clusters:
-        info = theme_stage_info.get(c.get("theme_id")) if c["connection_type"] == "theme" else None
-        c["emergence_stage"] = info["stage"] if info else None
-        c["emergence_stage_label"] = info["stage_label"] if info else ""
-        c["emergence_signals"] = info["signal_labels"] if info else []
+    clusters = attach_cluster_emergence(build_material_clusters(news, rules, master), theme_stage_info)
     # [バックテスト基盤] 本番ビルドのたびに今回判定したイベントをログへ追記する。
     # 株価データはまだ接続していないため、現時点ではニュース×銘柄×スコアの
     # 履歴を貯めるだけ(dev.py backtest で BACKTEST_STATUS を確認できる)。
