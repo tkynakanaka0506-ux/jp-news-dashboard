@@ -12,6 +12,7 @@ from . import llm as llm_mod
 from . import policy_lifecycle
 from . import rss as rss_mod
 from . import stocks as stocks_mod
+from . import theme_trend_history
 from . import theme_trends
 from .config import FEEDS, GOV_FEEDS, JST, MARKET_TICKERS, MAX_AGE_HOURS, MAX_NEWS_ITEMS, PER_FEED_LIMIT
 
@@ -586,6 +587,17 @@ def build(data_json_path="data.json", use_llm=True):
         log(f"政策材料シグナルを{n}件書き出しました({catalyst_export.EXPORT_PATH})。")
     except Exception as e:
         log(f"政策材料シグナルの書き出しに失敗しました({e})。サイト生成は続行します。")
+
+    # [萌芽シグナルの監視基盤] (2026-09-20ユーザー要望「機能追加より監視」)
+    # 判定条件は一切変えず、今日時点の各テーマの状態を1日1行で記録する
+    # だけ。dev.py monitor で後から①②③④⑤を確認でき、貯まった後は
+    # 「Emerging Theme Backtest」(初検知後7/14/30/90日の実際の結果追跡)
+    # の材料にもなる。記録の失敗でサイト生成自体は止めない。
+    try:
+        n = theme_trend_history.record_snapshot(theme_stage_info, now.strftime("%Y-%m-%d"))
+        log(f"萌芽シグナルのスナップショットを{n}件記録しました({theme_trend_history.HISTORY_PATH})。")
+    except Exception as e:
+        log(f"萌芽シグナルのスナップショット記録に失敗しました({e})。サイト生成は続行します。")
 
     status = "updated" if news else "unavailable"
     status_message = (

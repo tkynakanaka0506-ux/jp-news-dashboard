@@ -116,8 +116,16 @@ jobs:
           # ため、「続報(UPDATE)」判定が本番で一度も機能していなかった。
           # theme_trend_registry.json(萌芽シグナル追跡)も同じ理由で日をまたぐ
           # 追跡が必要なため、同様にここで退避・復元・pushの対象に含める。
+          #
+          # 実測バグ再発(2026-09-20発見): 上の調査中に、同じ穴が
+          # backtest_events.jsonl・policy_catalyst_signals.jsonにも既に
+          # あったことが判明した(初回コミット以来、本番で一度も追記が
+          # 反映されていなかった)。日をまたいで状態を持つファイルを追加
+          # するたびに、ここへの追加を忘れないこと(CLAUDE.md参照)。
           mkdir -p newssite/data
-          touch newssite/data/policy_event_registry.json newssite/data/theme_trend_registry.json
+          touch newssite/data/policy_event_registry.json newssite/data/theme_trend_registry.json \
+            newssite/data/backtest_events.jsonl newssite/data/policy_catalyst_signals.json \
+            newssite/data/theme_trend_history.jsonl
 
           # 一時的に別の場所に退避
           cp data.json data.json.tmp
@@ -126,6 +134,9 @@ jobs:
           cp dashboard.html dashboard.html.tmp
           cp newssite/data/policy_event_registry.json policy_event_registry.json.tmp
           cp newssite/data/theme_trend_registry.json theme_trend_registry.json.tmp
+          cp newssite/data/backtest_events.jsonl backtest_events.jsonl.tmp
+          cp newssite/data/policy_catalyst_signals.json policy_catalyst_signals.json.tmp
+          cp newssite/data/theme_trend_history.jsonl theme_trend_history.jsonl.tmp
 
           # リモートの最新状態を強制的に取得してリセット
           git fetch origin main
@@ -139,9 +150,14 @@ jobs:
           mkdir -p newssite/data
           mv policy_event_registry.json.tmp newssite/data/policy_event_registry.json
           mv theme_trend_registry.json.tmp newssite/data/theme_trend_registry.json
+          mv backtest_events.jsonl.tmp newssite/data/backtest_events.jsonl
+          mv policy_catalyst_signals.json.tmp newssite/data/policy_catalyst_signals.json
+          mv theme_trend_history.jsonl.tmp newssite/data/theme_trend_history.jsonl
 
           git add data.json news.json index.html dashboard.html \
-            newssite/data/policy_event_registry.json newssite/data/theme_trend_registry.json
+            newssite/data/policy_event_registry.json newssite/data/theme_trend_registry.json \
+            newssite/data/backtest_events.jsonl newssite/data/policy_catalyst_signals.json \
+            newssite/data/theme_trend_history.jsonl
 
           if ! git diff --cached --quiet; then
             git commit -m "Auto update (Force)"

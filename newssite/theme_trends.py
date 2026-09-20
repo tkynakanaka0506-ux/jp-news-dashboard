@@ -230,6 +230,7 @@ def detect_origin_region(item):
 # 一般化してある(_enrich_event参照)。
 _ENRICHABLE_EVENT_FIELDS = {
     "source": "scalar",
+    "title": "scalar",
     "origin_region": "scalar",
     "actor_types": "set",
     "regions": "set",
@@ -322,6 +323,7 @@ def record_and_classify(registry, news, rules, today):
     for item in news:
         info = {
             "source": item.get("source") or "",
+            "title": item.get("title") or "",
             "signals": detect_signals(item, rules),
             "actor_types": detect_actor_types(item, rules),
             "regions": detect_regions(item),
@@ -347,6 +349,7 @@ def record_and_classify(registry, news, rules, today):
         events = entry.setdefault("events", [])
         for e in events:
             e.setdefault("source", "")
+            e.setdefault("title", "")
             e.setdefault("actor_types", [])
             e.setdefault("regions", [])
             e.setdefault("origin_region", None)
@@ -374,7 +377,7 @@ def record_and_classify(registry, news, rules, today):
                     entry["milestones"].setdefault(actor_type, today)
                 continue
             events.append({
-                "date": today, "item_id": item_id, "source": info["source"],
+                "date": today, "item_id": item_id, "source": info["source"], "title": info["title"],
                 "signals": sorted(info["signals"]), "actor_types": sorted(info["actor_types"]),
                 "regions": sorted(info["regions"]), "origin_region": info["origin_region"],
             })
