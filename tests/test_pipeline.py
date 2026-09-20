@@ -655,21 +655,72 @@ class ThemeTrendsTest(unittest.TestCase):
         self.assertEqual(stages2["boj_hike"]["stage"], "emerging")
         self.assertEqual(stages2["boj_hike"]["signal_count"], 2)
 
-    def test_watch_stage_for_old_theme_with_three_or_more_signals(self):
+    def test_watch_stage_for_old_theme_with_three_or_more_signals_from_independent_events(self):
         # 初出から日数が経ちすぎている(EMERGING_MAX_DAYSを超える)テーマは
-        # emergingにはしないが、シグナルが3種類以上そろえばwatchにする。
+        # emergingにはしないが、シグナルが3種類以上・かつ独立した(別の
+        # item_idの)裏付けが2件以上そろえばwatchにする。
         registry = {
             "themes": {
-                "boj_hike": {"first_seen": "2026-01-01", "occurrences": 1, "signals": {}},
+                "boj_hike": {"first_seen": "2026-01-01", "occurrences": 1, "events": []},
             }
         }
-        news = [self._item(
-            id="n1", title="関連企業が新工場建設で増産へ", source_tier="primary",
-            future_signal=True, impacts=[{"origin": "direct"}],
-        )]
+        news = [
+            self._item(id="n1", title="関連企業が新工場建設で増産へ", source_tier="primary"),
+            self._item(id="n2", title="日銀の動向を注視", future_signal=True, impacts=[{"origin": "direct"}]),
+        ]
         stages = theme_trends.record_and_classify(registry, news, self.rules, "2026-09-20")
         self.assertEqual(stages["boj_hike"]["stage"], "watch")
         self.assertGreaterEqual(stages["boj_hike"]["signal_count"], 3)
+        self.assertEqual(stages["boj_hike"]["event_count"], 2)
+
+    def test_single_article_with_many_signal_words_does_not_count_as_independent(self):
+        # ②独立性: 1本の記事が政府一次情報・研究開発・特許・設備投資・
+        # 関連企業発表を全部満たしていても、裏付けは1件(item_id1つ)しか
+        # 無いので、シグナル種別が3つ以上そろっていてもwatchにはしない。
+        registry = {"themes": {"boj_hike": {"first_seen": "2026-01-01", "occurrences": 1, "events": []}}}
+        news = [self._item(
+            id="n1", title="関連企業が研究開発と特許取得、新工場建設で増産へ",
+            source_tier="primary", impacts=[{"origin": "direct"}],
+        )]
+        stages = theme_trends.record_and_classify(registry, news, self.rules, "2026-09-20")
+        self.assertGreaterEqual(stages["boj_hike"]["signal_count"], 3, "シグナル種別自体は複数検出されているはず")
+        self.assertEqual(stages["boj_hike"]["event_count"], 1)
+        self.assertIsNone(
+            stages["boj_hike"]["stage"],
+            "1本の記事だけなのに、複数の独立したシグナルが集まったかのようにwatchになっています",
+        )
+
+    def test_window_counts_reflect_recent_concentration(self):
+        # ③加速: 直近7/30/90日でそれぞれ独立イベント数を分けて出す
+        # (単一の伸び率スコアには合成しない)。
+        registry = {"themes": {"boj_hike": {"first_seen": "2026-08-01", "occurrences": 1, "events": [
+            {"date": "2026-08-05", "item_id": "old1", "signals": ["gov_source"], "regions": []},
+        ]}}}
+        news = [self._item(id="new1", title="関連企業が新工場建設で増産へ", source_tier="primary")]
+        stages = theme_trends.record_and_classify(registry, news, self.rules, "2026-09-20")
+        wc = stages["boj_hike"]["window_counts"]
+        self.assertEqual(wc[7], 1)  # 直近7日はnew1のみ
+        self.assertEqual(wc[90], 2)  # 90日以内はold1+new1
+
+    def test_regions_track_international_spread(self):
+        # ④国際的な広がり: 見出しに含まれる国・地域名から、何か国・地域
+        # からシグナルが上がっているかを数える。
+        registry = {"themes": {"boj_hike": {"first_seen": "2026-09-20", "occurrences": 1, "events": []}}}
+        news = [
+            self._item(id="n1", title="経済産業省が方針を検討", source_tier="primary"),
+            self._item(id="n2", title="米商務省が新たな輸出規制を発表", source_tier="primary"),
+        ]
+        stages = theme_trends.record_and_classify(registry, news, self.rules, "2026-09-20")
+        self.assertEqual(set(stages["boj_hike"]["regions"]), {"日本", "米国"})
+        self.assertEqual(stages["boj_hike"]["region_count"], 2)
+
+    def test_first_seen_is_never_overwritten(self):
+        # ⑤前段階の保存: 一度記録したfirst_seenは、その後何度呼んでも
+        # 上書きしない(後から「何日前に検知していたか」を検証できるように)。
+        registry = {"themes": {"boj_hike": {"first_seen": "2026-08-01", "occurrences": 3, "events": []}}}
+        news = [self._item(id="n1", title="日銀が動向を注視")]
+        stages = theme_trends.record_and_classify(registry, news, self.rules, "2026-09-20")
+        self.assertEqual(stages["boj_hike"]["first_seen"], "2026-08-01")
 
     def test_signals_decay_after_window_without_reinforcement(self):
         # SIGNAL_WINDOW_DAYSを超えて再確認されなかったシグナルは、
@@ -681,7 +732,10 @@ class ThemeTrendsTest(unittest.TestCase):
                 "boj_hike": {
                     "first_seen": "2026-01-01",
                     "occurrences": 5,
-                    "signals": {"gov_source": old_date, "gov_policy": old_date, "capex": old_date},
+                    "events": [
+                        {"date": old_date, "item_id": "old1", "signals": ["gov_source", "gov_policy"], "regions": []},
+                        {"date": old_date, "item_id": "old2", "signals": ["capex"], "regions": []},
+                    ],
                 },
             }
         }
