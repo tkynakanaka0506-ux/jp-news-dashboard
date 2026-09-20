@@ -173,6 +173,18 @@ def news_card_html(item, now):
         f'♻️ {esc(item.get("news_novelty_label", ""))}</span>'
         if item.get("news_novelty") == "low" else ""
     )
+    # 萌芽シグナル(theme_trends.py)。「重要になる」という予言ではなく、
+    # 独立したシグナルが何種類観測できたかの事実だけをtitleに列挙する
+    # (ブラックボックスにしない)。
+    emergence_stage = item.get("emergence_stage")
+    emergence_badge = (
+        f'<span class="emergence-badge" data-stage="{esc(emergence_stage)}" '
+        f'title="検出シグナル({len(item.get("emergence_signals", []))}件): '
+        f'{esc("、".join(item.get("emergence_signals", [])))}。'
+        f'将来重要になると予言するものではなく、独立した根拠がいくつ観測できたかを示すだけです">'
+        f'{esc(item.get("emergence_stage_label", ""))}</span>'
+        if emergence_stage else ""
+    )
     # ⑤ 一次情報/二次情報/市場解説。secondary(大多数)は無表示にして視覚的な
     # ノイズを避け、primary(信頼度を上げた)とcommentary(下げた)だけ明示する。
     source_tier = item.get("source_tier")
@@ -191,6 +203,7 @@ def news_card_html(item, now):
       <div class="news-meta">
         <span class="stars" title="重要度 {esc(item['importance'])} / 5">{stars(item['importance'])}</span>
         <span class="cat">{esc(item.get('category_emoji', '📰'))} {esc(item.get('category_label', ''))}</span>
+        {emergence_badge}
         {future_badge}
         {maturity_badge}
         {lifecycle_badge}
@@ -266,13 +279,22 @@ def cluster_html(clusters):
             f'<li><a href="#news-{esc(m["id"])}">{esc(m["title"])}</a></li>'
             for m in c.get("members", [])
         )
+        emergence_label = c.get("emergence_stage_label")
+        emergence_badge = (
+            f'<span class="emergence-badge" data-stage="{esc(c.get("emergence_stage"))}" '
+            f'title="検出シグナル({len(c.get("emergence_signals", []))}件): '
+            f'{esc("、".join(c.get("emergence_signals", [])))}。'
+            f'将来重要になると予言するものではなく、独立した根拠がいくつ観測できたかを示すだけです">'
+            f'{esc(emergence_label)}</span>'
+            if emergence_label else ""
+        )
         out.append(f"""
       <div class="rank-row cluster-row">
         <div class="rank-line">
           <div class="rank-head">
             <span class="rank-no">{i}</span>
             <span class="rank-name">{esc(c.get('category_emoji', '📰'))} {esc(c['label'])}
-              <span class="cluster-type-badge">{esc(c.get('connection_label', ''))}</span></span>
+              <span class="cluster-type-badge">{esc(c.get('connection_label', ''))}</span>{emergence_badge}</span>
             <span class="rank-mentions">{len(c['members'])}件のニュース</span>
           </div>
           <button class="rank-toggle" type="button" aria-label="関連ニュースの見出しを開く">▾</button>
@@ -488,6 +510,9 @@ header.site::before{content:"";position:absolute;inset:0;pointer-events:none;
   border-radius:999px;padding:1px 10px;font-size:12px;white-space:nowrap}
 .lifecycle-badge[data-state="MATURED"]{border-color:rgba(77,255,126,.4);color:var(--accent)}
 .lifecycle-badge[data-state="CLOSED"]{border-color:rgba(167,139,250,.4);color:var(--accent-3)}
+.emergence-badge{background:var(--card-2);border:1px solid rgba(57,255,136,.4);color:var(--accent);
+  border-radius:999px;padding:1px 10px;font-size:12px;white-space:nowrap;font-weight:700}
+.emergence-badge[data-stage="watch"]{border-color:rgba(34,211,238,.4);color:var(--accent-2)}
 
 .scroll-progress{position:fixed;top:0;left:0;height:3px;width:0%;z-index:30;
   background:linear-gradient(90deg,var(--accent-lime),var(--accent),var(--accent-2),var(--accent-3));
@@ -1166,11 +1191,13 @@ def mobile_cluster_row(c):
         f'<a class="name" href="{esc(m["url"])}" target="_blank" rel="noopener">{esc(m["title"])}</a></div>'
         for m in c.get("members", [])
     )
+    emergence_label = c.get("emergence_stage_label")
+    emergence_chip = f'<span class="m-emergence-chip">{esc(emergence_label)}</span>' if emergence_label else ""
     return f"""
   <div class="m-row m-news-row">
     <button class="m-row-head" type="button" onclick="this.closest('.m-news-row').classList.toggle('is-expanded')">
       <div class="m-row-main">
-        <span class="m-row-cat">{esc(c.get('category_emoji', '📰'))} {esc(c.get('category_label', ''))}</span>
+        <span class="m-row-cat">{esc(c.get('category_emoji', '📰'))} {esc(c.get('category_label', ''))}{emergence_chip}</span>
         <span class="m-row-title">{esc(c['label'])}</span>
         <span class="m-row-sub">{len(c.get('members', []))}件のニュース{stock_chips}</span>
       </div>
@@ -1203,11 +1230,13 @@ def mobile_news_row(item):
         )
     else:
         impact_items = '<p class="m-empty-sm">影響が出うる銘柄は現在のルールでは特定できませんでした</p>'
+    emergence_label = item.get("emergence_stage_label")
+    emergence_chip = f'<span class="m-emergence-chip">{esc(emergence_label)}</span>' if emergence_label else ""
     return f"""
   <div class="m-row m-news-row">
     <button class="m-row-head" type="button" onclick="this.closest('.m-news-row').classList.toggle('is-expanded')">
       <div class="m-row-main">
-        <span class="m-row-cat">{esc(item.get('category_emoji', '📰'))} {esc(item.get('category_label', ''))}</span>
+        <span class="m-row-cat">{esc(item.get('category_emoji', '📰'))} {esc(item.get('category_label', ''))}{emergence_chip}</span>
         <span class="m-row-title">{esc(item['title'])}</span>
         <span class="m-row-sub">{'★' * stars_n}{counts_html}</span>
       </div>

@@ -502,6 +502,11 @@
         "レアメタル 輸出規制",
         "重要鉱物 輸出規制"
       ],
+      "keywords_medium": [
+        "重要鉱物",
+        "戦略資源",
+        "戦略物資"
+      ],
       "exclude": [],
       "impacts": [
         {
@@ -1625,6 +1630,178 @@
       ],
       "exclude": [],
       "impacts": []
+    },
+    {
+      "id": "fusion",
+      "label": "核融合エネルギー",
+      "category": "resources",
+      "weight": 3,
+      "keywords": [
+        "核融合",
+        "フュージョンエネルギー"
+      ],
+      "keywords_medium": [
+        "核融合発電",
+        "核融合炉"
+      ],
+      "exclude": [],
+      "impacts": [
+        {
+          "themes": [
+            "核融合"
+          ],
+          "limit": 6,
+          "direction": "positive",
+          "strength": "中",
+          "reason": "核融合関連の投資・受注・提携観測が材料視されやすい"
+        }
+      ]
+    },
+    {
+      "id": "quantum",
+      "label": "量子技術",
+      "category": "tech",
+      "weight": 3,
+      "keywords": [
+        "量子コンピュータ",
+        "量子コンピューティング",
+        "量子暗号",
+        "量子技術"
+      ],
+      "exclude": [],
+      "impacts": [
+        {
+          "themes": [
+            "量子技術"
+          ],
+          "limit": 4,
+          "direction": "positive",
+          "strength": "中",
+          "reason": "量子分野の関連投資・提携観測が材料視されやすい"
+        }
+      ]
+    },
+    {
+      "id": "space",
+      "label": "宇宙開発",
+      "category": "tech",
+      "weight": 3,
+      "keywords": [
+        "宇宙開発",
+        "ロケット打ち上げ",
+        "月面探査",
+        "衛星コンステレーション",
+        "H3ロケット"
+      ],
+      "exclude": [],
+      "impacts": [
+        {
+          "themes": [
+            "宇宙"
+          ],
+          "limit": 4,
+          "direction": "positive",
+          "strength": "中",
+          "reason": "宇宙関連の受注・契約観測が材料視されやすい"
+        }
+      ]
+    },
+    {
+      "id": "battery_next_gen",
+      "label": "次世代電池・蓄電池",
+      "category": "tech",
+      "weight": 3,
+      "keywords": [
+        "全固体電池",
+        "次世代電池"
+      ],
+      "keywords_medium": [
+        "蓄電池"
+      ],
+      "exclude": [],
+      "impacts": [
+        {
+          "themes": [
+            "蓄電池"
+          ],
+          "limit": 5,
+          "direction": "positive",
+          "strength": "中",
+          "reason": "次世代電池の量産・投資計画が材料視されやすい"
+        }
+      ]
+    },
+    {
+      "id": "robotics",
+      "label": "ロボティクス・自動化",
+      "category": "tech",
+      "weight": 3,
+      "keywords": [
+        "ヒューマノイドロボット",
+        "産業用ロボット",
+        "ロボティクス"
+      ],
+      "keywords_medium": [
+        "ロボット 開発",
+        "自動化 投資"
+      ],
+      "exclude": [],
+      "impacts": [
+        {
+          "themes": [
+            "FA"
+          ],
+          "limit": 4,
+          "direction": "positive",
+          "strength": "中",
+          "reason": "自動化投資・ロボット需要の拡大観測が材料視されやすい"
+        }
+      ]
+    },
+    {
+      "id": "supply_chain_reorg",
+      "label": "サプライチェーン再編・国内回帰",
+      "category": "trade",
+      "weight": 3,
+      "keywords": [
+        "サプライチェーン再編",
+        "脱中国依存",
+        "フレンドショアリング"
+      ],
+      "keywords_medium": [
+        "国内回帰",
+        "生産拠点 移管"
+      ],
+      "exclude": [],
+      "impacts": [
+        {
+          "themes": [
+            "商社",
+            "資源エネルギー"
+          ],
+          "limit": 4,
+          "direction": "watch",
+          "strength": "小",
+          "reason": "供給網の再編・分散投資の思惑が働きやすい(恩恵企業は再編の中身による)"
+        }
+      ]
+    },
+    {
+      "id": "deregulation",
+      "label": "規制緩和・法改正",
+      "category": "japan",
+      "_comment": "規制緩和・法改正は対象分野によって受益企業が全く異なり、見出しの文言だけから特定の銘柄を機械的に決め打ちすると誤帰属のリスクが高い。JP株への確実な受益チェーンが無いため、impactsは空にする(テーマ検出・重要度スコア・萌芽シグナルの記録用。個別分野の規制緩和は他のテーマ(gx_decarbonization/ai_policy等)側で受益企業まで踏み込んで判定する)。",
+      "weight": 2,
+      "keywords": [
+        "規制緩和",
+        "規制改革"
+      ],
+      "keywords_medium": [
+        "法改正",
+        "特区"
+      ],
+      "exclude": [],
+      "impacts": []
     }
   ],
   "future_signal_keywords": [
@@ -1651,6 +1828,27 @@
     "制度改正",
     "改正案",
     "予算要求"
+  ],
+  "_comment_early_signal_keywords": "萌芽シグナル検知(newssite/theme_trends.py)用の、テーマに依存しない汎用キーワード。個別テーマのkeywordsとは別物: 「このテーマかどうか」ではなく「研究開発/特許/設備投資という角度の動きがあったかどうか」だけを見る。将来大きくなるかもしれないテーマを予言するものではなく、観測できた事実(独立したシグナルの種類)を数えるだけの表示専用機能(PRESENTATION LAYER)。",
+  "rd_signal_keywords": [
+    "研究開発",
+    "技術開発",
+    "開発に成功",
+    "実用化",
+    "量産技術",
+    "治験",
+    "共同研究"
+  ],
+  "patent_signal_keywords": [
+    "特許"
+  ],
+  "capex_signal_keywords": [
+    "設備投資",
+    "新工場",
+    "増産",
+    "量産",
+    "生産能力",
+    "工場新設"
   ],
   "_comment_layering_principle": [
     "受益関係の判定(FACTUAL LAYER)と表示・ランキング(PRESENTATION LAYER)を完全に分離する。各層の内訳は _comment_layers を参照。",

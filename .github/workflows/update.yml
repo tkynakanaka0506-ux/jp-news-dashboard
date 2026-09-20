@@ -110,11 +110,22 @@ jobs:
           git config user.name "dashboard-bot"
           git config user.email "actions@users.noreply.github.com"
 
+          # 実測バグ(2026-09-20発見): newssite/data/policy_event_registry.json
+          # (政策の続報追跡)がこれまで一度もgitにコミットされておらず、CIの
+          # 実行のたびにgit reset --hardで消えて空の登録簿から再開していた
+          # ため、「続報(UPDATE)」判定が本番で一度も機能していなかった。
+          # theme_trend_registry.json(萌芽シグナル追跡)も同じ理由で日をまたぐ
+          # 追跡が必要なため、同様にここで退避・復元・pushの対象に含める。
+          mkdir -p newssite/data
+          touch newssite/data/policy_event_registry.json newssite/data/theme_trend_registry.json
+
           # 一時的に別の場所に退避
           cp data.json data.json.tmp
           cp news.json news.json.tmp
           cp index.html index.html.tmp
           cp dashboard.html dashboard.html.tmp
+          cp newssite/data/policy_event_registry.json policy_event_registry.json.tmp
+          cp newssite/data/theme_trend_registry.json theme_trend_registry.json.tmp
 
           # リモートの最新状態を強制的に取得してリセット
           git fetch origin main
@@ -125,8 +136,12 @@ jobs:
           mv news.json.tmp news.json
           mv index.html.tmp index.html
           mv dashboard.html.tmp dashboard.html
+          mkdir -p newssite/data
+          mv policy_event_registry.json.tmp newssite/data/policy_event_registry.json
+          mv theme_trend_registry.json.tmp newssite/data/theme_trend_registry.json
 
-          git add data.json news.json index.html dashboard.html
+          git add data.json news.json index.html dashboard.html \
+            newssite/data/policy_event_registry.json newssite/data/theme_trend_registry.json
 
           if ! git diff --cached --quiet; then
             git commit -m "Auto update (Force)"
