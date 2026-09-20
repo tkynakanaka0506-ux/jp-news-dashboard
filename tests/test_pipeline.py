@@ -661,16 +661,17 @@ class DevToolTest(unittest.TestCase):
 class CIConfigTest(unittest.TestCase):
     """CI(GitHub Actions)側の設定ファイルの回帰テスト。
 
-    実測バグ(2026-09-20発見): newssite/data/policy_event_registry.json が
-    .github/workflows/update.yml のgit reset --hard→退避復元→git addの
-    どこにも含まれておらず、CIの実行のたびに空の登録簿へリセットされて
-    いたため、「続報(UPDATE)」ライフサイクル判定が本番で一度も機能して
-    いなかった。調査の過程で、backtest_events.jsonl・
-    policy_catalyst_signals.jsonにも同じ穴(初回コミット以来、本番で
-    一度も追記が反映されていなかった)が見つかった。日をまたいで状態を
-    持つファイルは全てここに列挙し、退避・復元・git addの対象に
-    含まれることを固定する(新しいレジストリを追加したら必ずこの一覧に
-    追加すること)。
+    実測バグ(2026-09-20発見、複数回再発): newssite/data/
+    policy_event_registry.jsonが.github/workflows/update.ymlのgit reset
+    --hard→退避復元→git addのどこにも含まれておらず、CIの実行のたびに
+    空の登録簿へリセットされていた。調査の過程でbacktest_events.jsonl・
+    policy_catalyst_signals.jsonにも同じ穴が見つかった――ファイルが
+    増えるたびに退避・復元・git addの3箇所に書き足す必要があり、1箇所
+    でも書き忘れると再発する構造だったため、PERSISTENT_STATE_FILES
+    という単一の配列にまとめ、退避→reset→復元→addをループで一括処理
+    する形に統一した(2026-09-20ユーザー要望「永続化対象ファイルの管理を
+    一元化」)。新しいレジストリ/履歴ファイルはこの配列に1行足すだけで
+    よいことを、このテストで固定する。
     """
 
     PERSISTENT_DATA_FILES = (
@@ -685,23 +686,32 @@ class CIConfigTest(unittest.TestCase):
         path = Path(__file__).resolve().parent.parent / ".github" / "workflows" / "update.yml"
         return path.read_text(encoding="utf-8")
 
-    def test_registries_are_stashed_across_git_reset_hard(self):
+    def _persistent_state_files_block(self):
         text = self._workflow_text()
+        start = text.index("PERSISTENT_STATE_FILES=(")
+        return text[start:text.index(")", start)]
+
+    def test_registries_are_listed_in_the_single_persistent_files_array(self):
+        block = self._persistent_state_files_block()
         for name in self.PERSISTENT_DATA_FILES:
             self.assertIn(
-                f"newssite/data/{name}", text,
-                f"{name} が update.yml のどこにも登場しません(退避・復元されず消える再発防止)",
+                f"newssite/data/{name}", block,
+                f"{name} がPERSISTENT_STATE_FILESに登場しません"
+                "(退避・復元・git addがループ化されているため、ここに無いと3箇所とも欠落する)",
             )
 
-    def test_registries_are_included_in_git_add(self):
+    def test_persistence_is_centralized_not_scattered_per_file(self):
+        # 「都度直す」への逆戻り防止: 個別ファイル名を並べたcp/mv/git addの
+        # 羅列に戻すと、また同じ「1箇所書き忘れ」事故が起きる。ループで
+        # 一括処理する構造(単一の配列を展開してgit addする形)が
+        # 維持されていることを固定する。
         text = self._workflow_text()
-        add_block = text[text.index("git add data.json"):]
-        add_block = add_block[:add_block.index("\n\n")]
-        for name in self.PERSISTENT_DATA_FILES:
-            self.assertIn(
-                name, add_block,
-                f"{name} がgit addに含まれていません(コミットされず永続化しない再発防止)",
-            )
+        self.assertIn("ALL_PERSISTED_FILES", text)
+        self.assertIn('git add "${ALL_PERSISTED_FILES[@]}"', text)
+        self.assertNotIn(
+            "git add data.json news.json index.html dashboard.html \\", text,
+            "個別ファイル名を並べたgit addに戻っています(一元化が崩れています)",
+        )
 
 
 class ThemeTrendsTest(unittest.TestCase):
