@@ -66,6 +66,14 @@ TREND_WINDOWS = (7, 30, 90)
 EMERGING_MAX_DAYS = 14
 EMERGING_MAX_OCCURRENCES = 6
 
+# 「新興テーマの成長速度」表示用(2026-09-20ユーザー要望)。milestones
+# (各情報源種別を初めて観測した日、永久保存)のうち、直近この日数以内に
+# 追加されたものが何種類あるかを数えるだけの単純な件数(EMERGING_MAX_DAYS
+# と揃えてある)。「最近急に情報源が増えた」を、単一のスコアに合成せず
+# 「全何種類のうち直近何日で何種類増えたか」という生の件数の対比として
+# 開示する(原則7: 将来の重要度を予言しない)。
+RECENT_GROWTH_WINDOW_DAYS = EMERGING_MAX_DAYS
+
 # ②独立性: 「複数方面からのシグナル」と呼ぶには、最低でも別々の情報源
 # (item["source"]の異なり数)による裏付けが要る。同じ情報源(例: 同じ
 # 省庁)からの複数回の発表は、記事(item_id)が違っても情報源としては
@@ -211,6 +219,52 @@ def detect_origin_region(item):
     return None
 
 
+# イベントの各フィールドのうち、後から(同じitem_idの再出現時に)欠けて
+# いれば補完してよいものの一覧。値が"空"かどうかの判定方法(sorted集合/
+# 単一値)をフィールドごとに保持する。ユーザー要望(2026-09-20)「今後も
+# データの鮮度を維持する仕組みを入れておいた方がいい」への対応:
+# source/actor_types導入時に「item_idが既存なら常にスキップ」としていた
+# せいで、旧イベントが永久にsource不明のまま凍結される実測バグが起きた。
+# 同じ事故が次のスキーマ追加でも起きないよう、フィールドを個別に決め打ち
+# せず、この一覧に追加するだけで自動的に「欠けていれば補完」が効くように
+# 一般化してある(_enrich_event参照)。
+_ENRICHABLE_EVENT_FIELDS = {
+    "source": "scalar",
+    "origin_region": "scalar",
+    "actor_types": "set",
+    "regions": "set",
+    "signals": "set",
+}
+
+
+def _is_empty_event_value(value):
+    return value in (None, "", [], set())
+
+
+def _enrich_event(existing_event, fresh_info):
+    """既存イベントの情報が不完全(空)なフィールドだけを、今回わかった
+    情報で補完する。原則1(1記事=1独立イベント)により、同じitem_idの
+    再出現はイベント数を増やさない――ここでは既存イベントの中身を
+    直すだけ。既に値が入っているフィールドは(転載等で情報が薄くなる
+    ことを避けるため)上書きしない。
+
+    戻り値: このタイミングで新しく判明したactor_typesの集合(milestones
+    への反映に使う。無ければ空集合)。
+    """
+    newly_known_actor_types = set()
+    for field, kind in _ENRICHABLE_EVENT_FIELDS.items():
+        fresh_value = fresh_info.get(field)
+        if not _is_empty_event_value(existing_event.get(field)) or _is_empty_event_value(fresh_value):
+            continue
+        if kind == "set":
+            existing_event[field] = sorted(fresh_value)
+            if field == "actor_types":
+                newly_known_actor_types = set(fresh_value)
+        else:
+            existing_event[field] = fresh_value
+    return newly_known_actor_types
+
+
 def _load_registry(path=REGISTRY_PATH):
     if not path.exists():
         return {"themes": {}}
@@ -307,29 +361,17 @@ def record_and_classify(registry, news, rules, today):
                 continue
             existing_event = existing_by_id.get(item_id)
             if existing_event is not None:
-                # 実測バグ(2026-09-20): source/actor_types導入(スキーマ移行)
-                # より前に記録された旧イベントは、_load_registry互換処理の
-                # setdefaultで source="" のまま残る。原則1(1記事=1独立
-                # イベント)により新規イベントとしては追加しないが、同じ
-                # item_idが再び現れた時点で今の判定ロジックなら分かる情報
-                # (source/actor_types/regions/origin_region)が欠けている
-                # なら、イベント数を増やさずにその場で補完する。これをしない
-                # と、移行前に記録されたイベントは90日間ずっと「情報源不明
-                # ・主体種別不明」のまま独立性判定に一切寄与できなくなる
-                # (判定条件を緩めるのではなく、条件が正しく評価できるように
-                # データを直すだけ)。
-                if not existing_event["source"] and info["source"]:
-                    existing_event["source"] = info["source"]
-                if not existing_event["actor_types"] and info["actor_types"]:
-                    existing_event["actor_types"] = sorted(info["actor_types"])
-                    for actor_type in info["actor_types"]:
-                        entry["milestones"].setdefault(actor_type, today)
-                if not existing_event["regions"] and info["regions"]:
-                    existing_event["regions"] = sorted(info["regions"])
-                if not existing_event["origin_region"] and info["origin_region"]:
-                    existing_event["origin_region"] = info["origin_region"]
-                if not existing_event["signals"] and info["signals"]:
-                    existing_event["signals"] = sorted(info["signals"])
+                # 実測バグ再発防止(2026-09-20): source/actor_types導入
+                # (スキーマ移行)より前に記録された旧イベントは、
+                # _load_registry互換処理のsetdefaultで空のまま残る。
+                # 原則1(1記事=1独立イベント)により新規イベントとしては
+                # 追加しないが、同じitem_idが再び現れた時点で今のコードなら
+                # 分かる情報が欠けているなら、イベント数を増やさずその場で
+                # 補完する(_enrich_event。判定条件を緩めるのではなく、
+                # 条件が正しく評価できるようデータを直すだけ)。
+                newly_known_actor_types = _enrich_event(existing_event, info)
+                for actor_type in newly_known_actor_types:
+                    entry["milestones"].setdefault(actor_type, today)
                 continue
             events.append({
                 "date": today, "item_id": item_id, "source": info["source"],
@@ -424,6 +466,7 @@ def record_and_classify(registry, news, rules, today):
             "timeline": timeline,
             "milestones": milestone_timeline,
             "diagnosis": _diagnosis(is_new_theme, len(distinct_sources), len(distinct_signal_types)),
+            "growth": _recent_growth(entry["milestones"], today),
         }
     return result
 
@@ -458,6 +501,22 @@ def _diagnosis(is_new_theme, source_count, signal_count):
         "signal_count": signal_count,
         "required_signals": required_signals,
         "missing": missing,
+    }
+
+
+def _recent_growth(milestones, today):
+    """「新興テーマの成長速度」(2026-09-20ユーザー要望): 全何種類の情報源
+    のうち、直近RECENT_GROWTH_WINDOW_DAYS日以内に新たに加わったのは
+    何種類かを数えるだけの生の件数(単一の「成長スコア」には合成しない)。
+    milestonesは永久保存なので、90日で間引かれるeventsとは無関係に
+    「テーマ発見からずっと同じ情報源種別のままか、最近になって新しい
+    種類の情報源が加わり始めたか」を判別できる。
+    """
+    recent = sum(1 for d in milestones.values() if _days_between(d, today) <= RECENT_GROWTH_WINDOW_DAYS)
+    return {
+        "window_days": RECENT_GROWTH_WINDOW_DAYS,
+        "recent_new_actor_types": recent,
+        "total_actor_types": len(milestones),
     }
 
 

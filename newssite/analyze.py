@@ -338,7 +338,7 @@ _EMERGENCE_FIELD_DEFAULTS = {
     "stage": None, "stage_label": "", "signal_labels": [], "event_count": 0,
     "source_count": 0, "actor_type_count": 0, "actor_type_labels": [], "actor_type_breakdown": [],
     "region_count": 0, "regions": [], "origin_regions": [], "first_seen": None,
-    "window_counts": {}, "timeline": [], "milestones": [], "diagnosis": {},
+    "window_counts": {}, "timeline": [], "milestones": [], "diagnosis": {}, "growth": {},
 }
 
 
