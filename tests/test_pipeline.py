@@ -321,6 +321,57 @@ class AnalyzeTest(unittest.TestCase):
         self.assertEqual(rows[0]["negative"], 1)
         self.assertEqual(rows[0]["score"], 5 - 3)
 
+    # build_theme_clusters: ユーザー要望(2026-09-20)「一見異なる内容の
+    # ニュースでも、関連する企業・業界・資源・国地域・政策・規制などに
+    # 共通点がある場合、自動的に関連付けたい」への対応。見出しの文言が
+    # 違っても、既存のtheme判定(theme_ids)が同じなら束ねる。
+    def test_build_theme_clusters_groups_news_sharing_a_theme_id(self):
+        rules = impact_mod.load()
+        news = [
+            {"id": "n1", "title": "日銀が追加利上げを決定", "url": "u1", "importance": 5, "source": "A",
+             "theme_ids": ["boj_hike"],
+             "impacts": [{"code": "8306", "name": "三菱UFJ", "direction": "positive", "theme_id": "boj_hike"}]},
+            {"id": "n2", "title": "日銀、利上げ観測強まる 市場は身構え", "url": "u2", "importance": 3, "source": "B",
+             "theme_ids": ["boj_hike"],
+             "impacts": [{"code": "8411", "name": "みずほ", "direction": "positive", "theme_id": "boj_hike"}]},
+            {"id": "n3", "title": "無関係な話題", "url": "u3", "importance": 1, "source": "C",
+             "theme_ids": [], "impacts": []},
+        ]
+        clusters = analyze.build_theme_clusters(news, rules)
+        self.assertEqual(len(clusters), 1)
+        self.assertEqual(clusters[0]["theme_id"], "boj_hike")
+        self.assertEqual(len(clusters[0]["members"]), 2)
+        self.assertNotIn("n3", clusters[0]["member_ids"])
+        codes = {s["code"] for s in clusters[0]["stocks"]}
+        self.assertEqual(codes, {"8306", "8411"})
+
+    def test_build_theme_clusters_ignores_themes_with_only_one_member(self):
+        # 単独ニュースを「材料」として見せても情報過多になるだけなので、
+        # 同じテーマが2件以上そろって初めてクラスターとして出す。
+        rules = impact_mod.load()
+        news = [{"id": "n1", "title": "t", "url": "u1", "importance": 1, "source": "A",
+                 "theme_ids": ["boj_hike"], "impacts": []}]
+        self.assertEqual(analyze.build_theme_clusters(news, rules), [])
+
+    def test_build_theme_clusters_allows_one_news_item_in_multiple_clusters(self):
+        # ユーザー要望(2026-09-20)「一つのニュースが複数のテーマに影響する
+        # 場合にも柔軟に対応してほしい」。Union-Findのような相互排他な
+        # 統合はせず、1件のニュースが複数クラスターに重複して入ることを
+        # 固定する(実測: レアアース輸出規制の見出しはsemi_regulationと
+        # rare_earthの両方にヒットする。ALLOWED_KEYWORD_OVERLAPS参照)。
+        rules = impact_mod.load()
+        shared = {"id": "n1", "title": "半導体規制とレアアース規制が同時発表", "url": "u1", "importance": 5, "source": "A",
+                  "theme_ids": ["semi_regulation", "rare_earth"], "impacts": []}
+        other_semi = {"id": "n2", "title": "対中規制強化", "url": "u2", "importance": 3, "source": "B",
+                      "theme_ids": ["semi_regulation"], "impacts": []}
+        other_rare = {"id": "n3", "title": "レアアース確保策", "url": "u3", "importance": 3, "source": "C",
+                      "theme_ids": ["rare_earth"], "impacts": []}
+        clusters = analyze.build_theme_clusters([shared, other_semi, other_rare], rules)
+        theme_ids = {c["theme_id"] for c in clusters}
+        self.assertEqual(theme_ids, {"semi_regulation", "rare_earth"})
+        for c in clusters:
+            self.assertIn("n1", c["member_ids"], f"{c['theme_id']}クラスターにn1が重複所属していません")
+
     def test_market_snapshot_reads_existing_data_json(self, ):
         import tempfile
         payload = {"nikkei225": {"value": "41,000.00", "change_pct": 1.2, "asof": "15:00"},
@@ -351,6 +402,15 @@ class RenderTest(unittest.TestCase):
         self.assertIn("影響が出うる銘柄", self.html)
         self.assertIn("data-code=\"8306\"", self.html)
         self.assertIn("finance.yahoo.co.jp/quote/8306.T", self.html)
+
+    def test_html_contains_theme_clusters_section(self):
+        # ユーザー要望(2026-09-20)「情報同士のつながりが見える情報分析
+        # ボードにしてほしい」。sample_dataにはrare_earthテーマで2件の
+        # ニュースが重なるよう仕込んである(newssite/sample.py参照)ので、
+        # デスクトップ・モバイルどちらにもクラスター名が出ることを固定する。
+        self.assertIn("つながっている材料", self.html)
+        self.assertIn("レアアース・重要鉱物の輸出規制", self.html)
+        self.assertIn("双日", self.html)
 
     def test_html_escapes_dangerous_text(self):
         data = dict(self.data)

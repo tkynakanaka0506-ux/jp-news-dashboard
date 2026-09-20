@@ -186,6 +186,7 @@ def build_news(feeds=None, rules=None, master=None, use_llm=True, limit=MAX_NEWS
             "policy_event_first_seen": policy_event_first_seen,
             "policy_event_state": policy_event_state,
             "themes": [t["label"] for t in themes],
+            "theme_ids": [t["id"] for t in themes if t.get("id")],
             "summary": "",
             "impact_comment": "",
             "impacts": impacts,
@@ -309,6 +310,75 @@ def stock_ranking(news, limit=20):
     return rows[:limit]
 
 
+def build_theme_clusters(news, rules, min_members=2, max_clusters=8):
+    """[分析レイヤー] 見出しの文言が違っても同じ「材料」(テーマ)を共有する
+    ニュースを束ねて、ひとつの大きなテーマとして把握できるようにする。
+
+    ユーザー要望(2026-09-20)「一見異なる内容のニュースでも、関連する企業・
+    業界・資源・国地域・政策・規制・地政学・サプライチェーンなどに
+    共通点がある場合、自動的に関連付けたい」への対応。
+
+    連結の単位は既存のtheme(rules.jsonの各テーマ)をそのまま使う。
+    国・地域(middle_east等)・資源(rare_earth等)・政策(boj_hike等)・
+    規制(semi_regulation等)は元々rules.jsonのテーマ単位で表現されている
+    ため、新しい判定ロジックを作らず「同じtheme_idに複数の見出しが
+    ヒットしている」という既存の判定結果を数えるだけでよい。
+
+    1件のニュースが複数テーマ(theme_ids)に該当する場合は、それぞれの
+    クラスターに重複して入れる(Union-Findのような相互排他な統合は
+    しない。1つの出来事が複数の切り口で重要というケースを潰さないため)。
+    """
+    by_theme = {}
+    for item in news:
+        for tid in item.get("theme_ids", []):
+            by_theme.setdefault(tid, []).append(item)
+
+    theme_meta = {t["id"]: t for t in rules.themes}
+    clusters = []
+    for tid, members in by_theme.items():
+        if len(members) < min_members:
+            continue
+        theme = theme_meta.get(tid, {})
+        category = theme.get("category", "")
+
+        # このクラスターに属する影響銘柄だけを集計する(他テーマ由来の
+        # 影響まで混ぜると「このテーマで何が動くか」がぼやけるため、
+        # imp["theme_id"]がこのtidと一致するものだけを数える)。
+        stock_agg = {}
+        for m in members:
+            for imp in m.get("impacts", []):
+                if imp.get("theme_id") != tid:
+                    continue
+                row = stock_agg.setdefault(imp["code"], {
+                    "code": imp["code"], "name": imp["name"],
+                    "positive": 0, "negative": 0, "watch": 0,
+                })
+                row[imp["direction"]] = row.get(imp["direction"], 0) + 1
+        stocks = sorted(
+            stock_agg.values(),
+            key=lambda r: -(r["positive"] + r["negative"] + r["watch"]),
+        )[:6]
+
+        sorted_members = sorted(members, key=lambda m: -(m["importance"] or 0))
+        clusters.append({
+            "theme_id": tid,
+            "label": theme.get("label", tid),
+            "category": category,
+            "category_label": rules.category_label.get(category, ""),
+            "category_emoji": rules.category_emoji.get(category, "📰"),
+            "member_ids": [m["id"] for m in sorted_members],
+            "members": [
+                {"id": m["id"], "title": m["title"], "url": m["url"], "importance": m["importance"], "source": m["source"]}
+                for m in sorted_members
+            ],
+            "stocks": stocks,
+            "max_importance": max(m["importance"] for m in members),
+        })
+
+    clusters.sort(key=lambda c: (-len(c["members"]), -c["max_importance"]))
+    return clusters[:max_clusters]
+
+
 def build(data_json_path="data.json", use_llm=True):
     """news.json に書き出すデータ全体を作る。"""
     rules = impact_mod.load()
@@ -316,6 +386,7 @@ def build(data_json_path="data.json", use_llm=True):
     now = datetime.now(JST)
     news = build_news(rules=rules, master=master, use_llm=use_llm)
     ranking = stock_ranking(news)
+    clusters = build_theme_clusters(news, rules)
     # [バックテスト基盤] 本番ビルドのたびに今回判定したイベントをログへ追記する。
     # 株価データはまだ接続していないため、現時点ではニュース×銘柄×スコアの
     # 履歴を貯めるだけ(dev.py backtest で BACKTEST_STATUS を確認できる)。
@@ -350,6 +421,7 @@ def build(data_json_path="data.json", use_llm=True):
         "market": market_snapshot(data_json_path),
         "news": news,
         "stock_ranking": ranking,
+        "clusters": clusters,
         "counts": {
             "news": len(news),
             "high_importance": sum(1 for n in news if n["importance"] >= 4),
