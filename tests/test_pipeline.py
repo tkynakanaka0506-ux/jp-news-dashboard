@@ -372,6 +372,104 @@ class AnalyzeTest(unittest.TestCase):
         for c in clusters:
             self.assertIn("n1", c["member_ids"], f"{c['theme_id']}クラスターにn1が重複所属していません")
 
+    # build_material_clusters: ユーザー要望(2026-09-20)「単純なテーマ一致
+    # だけでは見つけられないニュース同士の実質的なつながりも発見したい」
+    # への対応。テーマが違っても、企業・業界・資源/サプライチェーンタグが
+    # 重なっていれば実質的につながっているとみなす。
+    def test_build_material_clusters_finds_company_connection_across_different_themes(self):
+        # 4063信越化学工業は、テーマの異なる2件のニュースに登場する
+        # (政策系ニュースの間接影響と、レアアース規制の直接影響)。
+        # テーマが違うのでbuild_theme_clustersでは束ねられないが、
+        # 同じ企業に複数方向から影響しているという実質的なつながりがある。
+        master = stocks_mod.load()
+        rules = impact_mod.load()
+        news = [
+            {"id": "n1", "title": "日銀が追加利上げを決定", "url": "u1", "importance": 5, "source": "A",
+             "theme_ids": ["boj_hike"],
+             "impacts": [{"code": "4063", "name": "信越化学工業", "sector": "化学", "direction": "watch", "theme_id": "boj_hike"}]},
+            {"id": "n2", "title": "中国がレアアース輸出を規制", "url": "u2", "importance": 4, "source": "B",
+             "theme_ids": ["rare_earth"],
+             "impacts": [{"code": "4063", "name": "信越化学工業", "sector": "化学", "direction": "negative", "theme_id": "rare_earth"}]},
+        ]
+        clusters = analyze.build_material_clusters(news, rules, master)
+        company = [c for c in clusters if c["connection_type"] == "company"]
+        self.assertTrue(company, "同じ企業(信越化学工業)によるクラスターが見つかりません")
+        self.assertEqual(set(company[0]["member_ids"]), {"n1", "n2"})
+
+    def test_build_material_clusters_finds_sector_connection_across_different_companies(self):
+        # 4063信越化学工業(化学)と4005住友化学(化学)は別企業・別テーマだが、
+        # 同じ業種(化学)に波及している。
+        master = stocks_mod.load()
+        rules = impact_mod.load()
+        news = [
+            {"id": "n1", "title": "t1", "url": "u1", "importance": 3, "source": "A", "theme_ids": [],
+             "impacts": [{"code": "4063", "name": "信越化学工業", "sector": "化学", "direction": "watch", "theme_id": None}]},
+            {"id": "n2", "title": "t2", "url": "u2", "importance": 3, "source": "B", "theme_ids": [],
+             "impacts": [{"code": "4005", "name": "住友化学", "sector": "化学", "direction": "watch", "theme_id": None}]},
+        ]
+        clusters = analyze.build_material_clusters(news, rules, master)
+        sector = [c for c in clusters if c["connection_type"] == "sector"]
+        self.assertTrue(sector, "同じ業界(化学)によるクラスターが見つかりません")
+        self.assertEqual(set(sector[0]["member_ids"]), {"n1", "n2"})
+
+    def test_build_material_clusters_finds_supply_chain_tag_connection(self):
+        # 4063信越化学工業(sector:化学)と3436 SUMCO(sector:金属製品)は
+        # 業種は別だが、どちらもstocks.json上「半導体材料」タグを持つ。
+        # サプライチェーン上の実質的なつながりとして拾う。
+        master = stocks_mod.load()
+        rules = impact_mod.load()
+        news = [
+            {"id": "n1", "title": "t1", "url": "u1", "importance": 3, "source": "A", "theme_ids": [],
+             "impacts": [{"code": "4063", "name": "信越化学工業", "sector": "化学", "direction": "watch", "theme_id": None}]},
+            {"id": "n2", "title": "t2", "url": "u2", "importance": 3, "source": "B", "theme_ids": [],
+             "impacts": [{"code": "3436", "name": "SUMCO", "sector": "金属製品", "direction": "watch", "theme_id": None}]},
+        ]
+        clusters = analyze.build_material_clusters(news, rules, master)
+        supply = [c for c in clusters if c["connection_type"] == "supply_chain" and c["label"].startswith("半導体材料")]
+        self.assertTrue(supply, "半導体材料タグによるサプライチェーンのつながりが見つかりません")
+        self.assertEqual(set(supply[0]["member_ids"]), {"n1", "n2"})
+        sector = [c for c in clusters if c["connection_type"] == "sector"]
+        self.assertFalse(sector, "業種が異なる(化学/金属製品)のに業界クラスターが出ています")
+
+    def test_build_material_clusters_excludes_non_substantive_tags(self):
+        # 「主力」「円安メリット」は財務特性ラベルであって資源・サプライ
+        # チェーン上の実質的なつながりではないため、これだけを理由に
+        # クラスターを作らない(NON_SUBSTANTIVE_STOCK_TAGS)。
+        master = stocks_mod.load()
+        rules = impact_mod.load()
+        # 7203トヨタ自動車と4063信越化学工業はどちらも「主力」タグを
+        # 持つが、業種・他タグに共通点は無い。
+        news = [
+            {"id": "n1", "title": "t1", "url": "u1", "importance": 3, "source": "A", "theme_ids": [],
+             "impacts": [{"code": "7203", "name": "トヨタ自動車", "sector": "自動車", "direction": "watch", "theme_id": None}]},
+            {"id": "n2", "title": "t2", "url": "u2", "importance": 3, "source": "B", "theme_ids": [],
+             "impacts": [{"code": "4063", "name": "信越化学工業", "sector": "化学", "direction": "watch", "theme_id": None}]},
+        ]
+        clusters = analyze.build_material_clusters(news, rules, master)
+        labels = [c["label"] for c in clusters]
+        self.assertFalse(any("主力" in label for label in labels), f"「主力」タグでクラスターが作られています: {labels}")
+
+    def test_build_material_clusters_does_not_duplicate_an_identical_theme_cluster(self):
+        # 企業クラスターの構成員集合が既存のテーマクラスターと完全に
+        # 同じなら、同じ2件を2回見せることになるため出さない。
+        master = stocks_mod.load()
+        rules = impact_mod.load()
+        news = [
+            {"id": "n1", "title": "日銀が追加利上げを決定", "url": "u1", "importance": 5, "source": "A",
+             "theme_ids": ["boj_hike"],
+             "impacts": [{"code": "8306", "name": "三菱UFJ", "sector": "銀行", "direction": "positive", "theme_id": "boj_hike"}]},
+            {"id": "n2", "title": "日銀、利上げ観測強まる", "url": "u2", "importance": 3, "source": "B",
+             "theme_ids": ["boj_hike"],
+             "impacts": [{"code": "8306", "name": "三菱UFJ", "sector": "銀行", "direction": "positive", "theme_id": "boj_hike"}]},
+        ]
+        clusters = analyze.build_material_clusters(news, rules, master)
+        member_sets = [frozenset(c["member_ids"]) for c in clusters]
+        self.assertEqual(
+            len(member_sets), len(set(member_sets)),
+            "同じ構成員集合のクラスターが重複して出ています",
+        )
+        self.assertEqual([c["connection_type"] for c in clusters], ["theme"])
+
     def test_market_snapshot_reads_existing_data_json(self, ):
         import tempfile
         payload = {"nikkei225": {"value": "41,000.00", "change_pct": 1.2, "asof": "15:00"},

@@ -15,7 +15,7 @@ persist_lifecycleを使ってbuild_news()自体に委譲し、判定ロジック
 """
 from datetime import datetime, timedelta
 
-from . import analyze, impact as impact_mod
+from . import analyze, impact as impact_mod, stocks as stocks_mod
 from .config import JST
 from .rss import _source_tier, news_id
 
@@ -74,7 +74,7 @@ def sample_data():
     # 本番のpolicy_event_registry.jsonは汚さない(persist_lifecycle=False)。
     news = analyze.build_news(rules=rules, raw_items=items, use_llm=False, persist_lifecycle=False)
     ranking = analyze.stock_ranking(news)
-    clusters = analyze.build_theme_clusters(news, rules)
+    clusters = analyze.build_material_clusters(news, rules, stocks_mod.load())
 
     return {
         "generated_at": now.strftime("%Y-%m-%d %H:%M"),
