@@ -835,6 +835,29 @@ class ThemeTrendsTest(unittest.TestCase):
         intl = self._item(title="IAEAが新たな安全基準を発表")
         self.assertIn("international_org", theme_trends.detect_actor_types(intl, self.rules))
 
+    def test_backward_compatible_with_registry_written_by_older_schema(self):
+        # 実測バグ再発防止: 本番のtheme_trend_registry.jsonには、
+        # source/actor_types/origin_regionを追加する前のスキーマで書かれた
+        # イベント(item_id/date/signals/regionsのみ)が既に残っている。
+        # 新しいコードでこの登録簿を読み込んでもKeyErrorで落ちず、
+        # 欠けている情報は「無し」として安全に扱われることを固定する。
+        registry = {
+            "themes": {
+                "boj_hike": {
+                    "first_seen": "2026-09-20",
+                    "occurrences": 1,
+                    "events": [
+                        {"date": "2026-09-20", "item_id": "old1", "signals": ["multi_source"], "regions": []},
+                    ],
+                },
+            }
+        }
+        news = [self._item(id="n2", title="日銀が利上げを検討", source="双日", future_signal=True)]
+        stages = theme_trends.record_and_classify(registry, news, self.rules, "2026-09-20")
+        info = stages["boj_hike"]
+        self.assertEqual(info["event_count"], 2)
+        self.assertEqual(info["source_count"], 1, "スキーマ移行前のイベントはsource不明のため独立情報源には数えない")
+
     def test_first_seen_is_never_overwritten(self):
         # ⑤前段階の保存: 一度記録したfirst_seenは、その後何度呼んでも
         # 上書きしない(後から「何日前に検知していたか」を検証できるように)。
