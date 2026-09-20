@@ -327,16 +327,30 @@ def apply_emergence_signals(news, rules, today, persist=True):
 
     for item in news:
         best = theme_trends.best_stage_for_theme_ids(item.get("theme_ids", []), theme_stage_info)
-        item["emergence_stage"] = best["stage"] if best else None
-        item["emergence_stage_label"] = best["stage_label"] if best else ""
-        item["emergence_signals"] = best["signal_labels"] if best else []
-        item["emergence_event_count"] = best["event_count"] if best else 0
-        item["emergence_region_count"] = best["region_count"] if best else 0
-        item["emergence_regions"] = best["regions"] if best else []
-        item["emergence_first_seen"] = best["first_seen"] if best else None
-        item["emergence_window_counts"] = best["window_counts"] if best else {}
-        item["emergence_timeline"] = best["timeline"] if best else []
+        item.update(_emergence_fields(best))
     return theme_stage_info
+
+
+# theme_trends.record_and_classify()が返す診断情報のキー一覧。newsの各
+# 記事にもクラスターにも同じ形で付与するため、フィールド追加はここ1箇所
+# だけ直せばよい(analyze.py/sample.pyでの二重管理を避ける)。
+_EMERGENCE_FIELD_DEFAULTS = {
+    "stage": None, "stage_label": "", "signal_labels": [], "event_count": 0,
+    "source_count": 0, "actor_type_count": 0, "actor_type_labels": [], "actor_type_breakdown": [],
+    "region_count": 0, "regions": [], "origin_regions": [], "first_seen": None,
+    "window_counts": {}, "timeline": [], "milestones": [],
+}
+
+
+def _emergence_fields(info):
+    """theme_trends.record_and_classify()の1テーマぶんの診断情報を、
+    news item / cluster にそのまま付与できる emergence_* キーの辞書にする。
+    """
+    info = info or {}
+    return {
+        f"emergence_{key}": info.get(key, default)
+        for key, default in _EMERGENCE_FIELD_DEFAULTS.items()
+    }
 
 
 def attach_cluster_emergence(clusters, theme_stage_info):
@@ -345,14 +359,7 @@ def attach_cluster_emergence(clusters, theme_stage_info):
     """
     for c in clusters:
         info = theme_stage_info.get(c.get("theme_id")) if c["connection_type"] == "theme" else None
-        c["emergence_stage"] = info["stage"] if info else None
-        c["emergence_stage_label"] = info["stage_label"] if info else ""
-        c["emergence_signals"] = info["signal_labels"] if info else []
-        c["emergence_event_count"] = info["event_count"] if info else 0
-        c["emergence_region_count"] = info["region_count"] if info else 0
-        c["emergence_regions"] = info["regions"] if info else []
-        c["emergence_first_seen"] = info["first_seen"] if info else None
-        c["emergence_window_counts"] = info["window_counts"] if info else {}
+        c.update(_emergence_fields(info))
     return clusters
 
 
