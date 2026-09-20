@@ -268,6 +268,43 @@ class ImpactTest(unittest.TestCase):
         for theme in self.rules.themes:
             self.assertIn(theme["category"], self.rules.category_label, theme["id"])
 
+    def test_geopolitics_headline_also_surfaces_safe_haven_gold_as_another_angle(self):
+        # ユーザー要望(2026-09-20): コロナ禍で金(ゴールド)の価値が上がったように、
+        # 地政学ニュースは「直接の影響銘柄」とは別角度で、安全資産(金)にも
+        # 資金が向かいやすいという波及がある。この「別角度」の視点を
+        # 地政学系テーマの影響銘柄にも反映する。
+        item = self._item("イスラエルとイランの緊張が高まる、軍事衝突の懸念")
+        themes = impact_mod.match_themes(item["title"], self.rules)
+        self.assertIn("middle_east", [t["id"] for t in themes])
+        impacts = impact_mod.affected_stocks(item, themes, self.rules, self.master, max_items=8)
+        gold_etf = [i for i in impacts if i["code"] == "1540"]
+        self.assertTrue(gold_etf, "地政学リスクの見出しで安全資産(金ETF 1540)が影響銘柄に出ていません")
+        self.assertEqual(gold_etf[0]["direction"], "positive")
+
+    def test_rare_earth_export_curb_headline_hits_dependent_and_countermeasure_stocks(self):
+        # ユーザー要望(2026-09-20)「レアアースの内容は取得できているか」への
+        # 対応。中国のレアアース輸出規制は2026年に日本企業へ実際に影響が
+        # 出ている話題(信越化学工業が輸出規制報道で下落、双日・住友金属鉱山は
+        # 権益確保・供給網の脱中国依存を進めている、と報じられている)。
+        item = self._item("中国、レアアースの対日輸出規制を強化")
+        themes = impact_mod.match_themes(item["title"], self.rules)
+        self.assertIn("rare_earth", [t["id"] for t in themes])
+        impacts = impact_mod.affected_stocks(item, themes, self.rules, self.master, max_items=8)
+        by_code = {i["code"]: i for i in impacts}
+        self.assertIn("4063", by_code, "レアアース輸出規制で信越化学工業(部材調達への逆風)が出ていません")
+        self.assertEqual(by_code["4063"]["direction"], "negative")
+        countermeasure = [i for i in impacts if i["code"] in ("2768", "5713")]
+        self.assertTrue(countermeasure, "レアアース輸出規制で供給網対応銘柄(双日/住友金属鉱山)が出ていません")
+        self.assertEqual(countermeasure[0]["direction"], "positive")
+
+    def test_ukraine_headline_treats_safe_haven_direction_as_watch_not_fixed(self):
+        # ukraine_russiaは「停戦」報道もありうるテーマなので、安全資産への
+        # 資金シフトも(資源エネルギー・防衛と同様に)方向固定にせず、
+        # 見出しの語調(headline_sentiment)に従うwatchにする。
+        theme = next(t for t in self.rules.themes if t["id"] == "ukraine_russia")
+        safe_haven_rule = next(r for r in theme["impacts"] if r["themes"] == ["安全資産"])
+        self.assertEqual(safe_haven_rule["direction"], "watch")
+
 
 class AnalyzeTest(unittest.TestCase):
     def test_stock_ranking_aggregates_direction(self):

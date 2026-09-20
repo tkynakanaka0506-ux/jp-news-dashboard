@@ -492,6 +492,42 @@
       ]
     },
     {
+      "id": "rare_earth",
+      "label": "レアアース・重要鉱物の輸出規制",
+      "category": "trade",
+      "weight": 4,
+      "keywords": [
+        "レアアース",
+        "希土類",
+        "レアメタル 輸出規制",
+        "重要鉱物 輸出規制"
+      ],
+      "exclude": [],
+      "impacts": [
+        {
+          "codes": [
+            "4063"
+          ],
+          "themes": [
+            "EV"
+          ],
+          "limit": 3,
+          "direction": "negative",
+          "strength": "中",
+          "reason": "永久磁石などレアアース由来部材の調達コスト上昇・供給不安が意識されやすい"
+        },
+        {
+          "themes": [
+            "レアアース対応"
+          ],
+          "limit": 3,
+          "direction": "positive",
+          "strength": "中",
+          "reason": "権益確保・リサイクル技術など供給網の脱中国依存を進めている企業には追い風になりやすい"
+        }
+      ]
+    },
+    {
       "id": "tariff",
       "label": "関税・通商摩擦",
       "category": "trade",
@@ -559,10 +595,19 @@
             "石油",
             "原油高メリット"
           ],
-          "limit": 4,
+          "limit": 3,
           "direction": "positive",
           "strength": "大",
           "reason": "原油価格の上昇観測は在庫評価益・資源権益の採算改善につながりやすい"
+        },
+        {
+          "themes": [
+            "安全資産"
+          ],
+          "limit": 1,
+          "direction": "positive",
+          "strength": "小",
+          "reason": "直接の影響とは別角度: コロナ禍のような過去の有事でも見られたように、地政学リスクの高まりは株式とは別に金など安全資産に資金が向かいやすい(質への逃避)"
         },
         {
           "themes": [
@@ -636,6 +681,15 @@
           "direction": "negative",
           "strength": "小",
           "reason": "穀物相場の変動が原材料コストに影響しやすい"
+        },
+        {
+          "themes": [
+            "安全資産"
+          ],
+          "limit": 2,
+          "direction": "watch",
+          "strength": "小",
+          "reason": "直接の影響とは別角度: コロナ禍のような過去の有事でも見られたように、情勢緊迫化なら金など安全資産に資金が向かいやすい(方向は緊迫化か停戦・沈静化かによって変わる)"
         }
       ]
     },
@@ -657,10 +711,19 @@
           "themes": [
             "防衛"
           ],
-          "limit": 4,
+          "limit": 3,
           "direction": "positive",
           "strength": "中",
           "reason": "安全保障関連の思惑が働きやすい"
+        },
+        {
+          "themes": [
+            "安全資産"
+          ],
+          "limit": 1,
+          "direction": "positive",
+          "strength": "小",
+          "reason": "直接の影響とは別角度: コロナ禍のような過去の有事でも見られたように、地政学リスクの高まりは株式とは別に金など安全資産に資金が向かいやすい(質への逃避)"
         },
         {
           "themes": [
