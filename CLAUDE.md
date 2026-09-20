@@ -15,7 +15,8 @@ python3 dev.py serve --watch   # プレビュー＋保存のたび自動再生�
 python3 dev.py sample          # サンプルデータで生成（ネット接続不要）
 python3 dev.py build           # 実ニュースを取得して生成（--llm でAI補強）
 python3 dev.py check           # stocks.json / rules.json の整合性チェック
-python3 dev.py test            # テスト（tests/ 配下9ファイル・88件）
+python3 dev.py test            # テスト（tests/ 配下9ファイル・141件）
+python3 dev.py monitor         # 萌芽シグナルの監視レポート（本番実データ、読み取り専用）
 ```
 
 **JSONデータを変えたら `dev.py check`、ロジックを変えたら `dev.py test` を必ず通してから終わる。**
@@ -49,6 +50,18 @@ newssite/
                         eventsの90日減衰とは別に永久保存し、テーマの
                         成長履歴を後から辿れるようにする
                         （「重要になる」と予言はしない、観測事実の開示のみ）
+  theme_trend_history.py 萌芽シグナルの日次スナップショット記録（判定は追加せず、
+                        analyze.build()から1日1テーマ1行だけ追記。dev.py monitorの
+                        監視材料であり、将来の「Emerging Theme Backtest」
+                        （初検知後7/14/30/90日の実際の結果を追跡する基盤）の
+                        材料でもある）
+  theme_trend_monitor.py 萌芽シグナルの監視レポート（dev.py monitorが呼ぶ。読み取り
+                        専用でCIの自動テストゲートには含めない）。新興/要監視の
+                        件数・情報源種別・地域に加え、同一ニュースの転載が別
+                        情報源として重複カウントされていないかの監査(rss.pyの
+                        既存の同一トピック判定を流用)、first_seen/milestonesが
+                        意図せず巻き戻っていないかの監査(theme_trend_history.jsonl
+                        の時系列比較)を行う
   catalyst_export.py   他プロジェクト(jp-stock-dashboard)へのシグナル書き出し
   backtest.py          政策材料シグナルのバックテスト基盤（記録のみ）
   rule_scorecard.py    ルール(rules.json)ごとの的中率スコアカード
@@ -113,13 +126,21 @@ GitHub Actions (`update.yml`) が定期実行され、以下の順でチェッ�
   2026-09-20)。
 - **生成物を手で編集しない**: `index.html` / `news.json` / `preview.html` は自動生成物。
   直すのは生成元のコード。
-- **日をまたいで状態を持つレジストリはCIでも永続化する**: `newssite/data/
-  policy_event_registry.json`・`theme_trend_registry.json`は、書き込むだけでは
-  不十分で、`.github/workflows/update.yml`の`git reset --hard`より前に退避し、
-  戻した上で`git add`に含める必要がある(実測バグ2026-09-20: policy_event_registry.json
-  がこれまで一度もコミットされておらず、CIのたびに空の登録簿に戻っていたため
-  「続報」判定が本番で一度も機能していなかった)。新しいレジストリを追加する
-  ときは、必ずこのワークフローに追加すること。
+- **日をまたいで状態を持つファイルはCIでも永続化する**: `.github/workflows/
+  update.yml`の「差分があれば強制Push」ステップは、`PERSISTENT_STATE_FILES`
+  (状態)と`GENERATED_FILES`(生成物)の配列2つを1箇所で定義し、
+  `git reset --hard`の前後で退避・復元・`git add`をループで一括処理する形に
+  一元化してある。**新しいレジストリ/履歴ファイルを追加するときは、
+  `PERSISTENT_STATE_FILES`配列に1行足すだけでよい**(cp/mv/git addを個別に
+  書き足す必要はない・書いてはいけない)。
+  実測バグ2026-09-20: 最初はpolicy_event_registry.jsonが一度もコミットされて
+  おらず「続報」判定が本番で機能していなかった。個別ファイル名を並べる方式の
+  まま気づかずbacktest_events.jsonl・policy_catalyst_signals.jsonも同じ穴に
+  落ちていたため、二度目の再発を機に一元化した。
+  `tests/test_pipeline.py`の`CIConfigTest.test_every_runtime_data_file_is_registered_for_persistence`
+  が、`newssite/data/`配下に新しい`.json`/`.jsonl`を置いたのに配列へ追加し
+  忘れた場合に機械的に検出する(人間が編集するマスタデータは
+  `HUMAN_EDITED_DATA_FILES`へ追加)。
 
 ## 旧ダッシュボード
 

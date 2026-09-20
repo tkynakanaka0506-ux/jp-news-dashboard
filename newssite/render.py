@@ -1311,8 +1311,17 @@ def mobile_cluster_row(c):
         f'<a class="name" href="{esc(m["url"])}" target="_blank" rel="noopener">{esc(m["title"])}</a></div>'
         for m in c.get("members", [])
     )
+    # 2026-09-20実測差異修正: デスクトップのcluster_htmlは、まだemerging/
+    # watchに届いていないテーマ型クラスターにも診断チップ(🔬観測中)と
+    # 成長の経過パネルを出すようにしたのに、モバイル側だけemergence_stage_label
+    # 有無だけで判定したままになっていて、同じテーマがモバイルでは
+    # 何も見えないという抜け漏れがあった。<details>と違い<button>展開式
+    # なので、成長パネルは既存の展開エリア(.m-impact-panel)に含める。
     emergence_label = c.get("emergence_stage_label")
-    emergence_chip = f'<span class="m-emergence-chip">{esc(emergence_label)}</span>' if emergence_label else ""
+    has_diagnosis = bool(c.get("emergence_diagnosis"))
+    chip_label = emergence_label or ("🔬 観測中" if has_diagnosis else "")
+    emergence_chip = f'<span class="m-emergence-chip">{esc(chip_label)}</span>' if chip_label else ""
+    growth_block = emergence_growth_html(c)
     return f"""
   <div class="m-row m-news-row">
     <button class="m-row-head" type="button" onclick="this.closest('.m-news-row').classList.toggle('is-expanded')">
@@ -1325,6 +1334,7 @@ def mobile_cluster_row(c):
     </button>
     <div class="m-impact-panel">
       {members}
+      {growth_block}
     </div>
   </div>"""
 

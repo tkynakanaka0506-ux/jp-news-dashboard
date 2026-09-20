@@ -514,6 +514,34 @@ class RenderTest(unittest.TestCase):
         self.assertIn("レアアース・重要鉱物の輸出規制", self.html)
         self.assertIn("双日", self.html)
 
+    def test_mobile_cluster_row_shows_diagnosis_chip_and_growth_panel_like_desktop(self):
+        # 実測の抜け漏れ修正(2026-09-20): デスクトップのcluster_htmlは
+        # emerging/watch未到達のテーマ型クラスターにも🔬観測中チップと
+        # 成長パネルを出すようにしたが、mobile_cluster_rowだけ
+        # emergence_stage_label有無のみで判定したままで、モバイルでは
+        # 同じテーマが何も見えなくなっていた。デスクトップと同じ条件で
+        # 出ることを固定する。
+        c = {
+            "label": "テストテーマ", "category_emoji": "📰", "category_label": "市況",
+            "members": [{"id": "n1", "title": "見出し", "url": "https://example.com"}],
+            "stocks": [],
+            "emergence_stage_label": "",
+            "emergence_diagnosis": {
+                "target_stage": "emerging", "target_stage_label": "🔎 新興テーマ",
+                "source_count": 1, "required_sources": 2,
+                "signal_count": 1, "required_signals": 2,
+                "missing": ["情報源があと1件必要", "シグナル種別があと1種類必要"],
+            },
+            "emergence_milestones": [{"date": "2026-09-20", "actor_type_label": "複数メディア"}],
+            "emergence_first_seen": "2026-09-20",
+            "emergence_actor_type_count": 1, "emergence_region_count": 0,
+            "emergence_regions": [], "emergence_window_counts": {7: 1, 30: 1, 90: 1},
+            "emergence_growth": {"window_days": 14, "recent_new_actor_types": 1, "total_actor_types": 1},
+        }
+        html_fragment = render.mobile_cluster_row(c)
+        self.assertIn("観測中", html_fragment)
+        self.assertIn("成長の経過を見る", html_fragment)
+
     def test_html_emergence_badge_tooltip_discloses_actor_types_and_growth_history(self):
         # ユーザー要望(2026-09-20)「本当に異なる情報源・出来事からテーマ
         # が広がっているのかを正確に把握したい」「なぜテーマが検出された
@@ -712,6 +740,30 @@ class CIConfigTest(unittest.TestCase):
             "git add data.json news.json index.html dashboard.html \\", text,
             "個別ファイル名を並べたgit addに戻っています(一元化が崩れています)",
         )
+
+    # 人間が編集するマスタデータ(CIが実行時に書き込むものではない)。
+    # これ以外のnewssite/data/*.json*は「CIが実行のたびに書き込む=
+    # 日をまたいで永続化が必要」とみなし、PERSISTENT_STATE_FILESへの
+    # 登場を機械的に要求する。
+    HUMAN_EDITED_DATA_FILES = {"stocks.json", "rules.json"}
+
+    def test_every_runtime_data_file_is_registered_for_persistence(self):
+        # 「新しいファイルを追加したこと自体をPERSISTENT_STATE_FILESへの
+        # 追加を忘れる」という、今回何度も再発した事故そのものを、個別の
+        # ファイル名を覚えておかなくても機械的に検出できるようにする。
+        # newssite/data/配下に新しい.json(l)を追加したのに、この配列へ
+        # 追加し忘れた場合、このテストが失敗して気づける。
+        data_dir = Path(__file__).resolve().parent.parent / "newssite" / "data"
+        block = self._persistent_state_files_block()
+        for path in sorted(data_dir.glob("*.json*")):
+            if path.name in self.HUMAN_EDITED_DATA_FILES:
+                continue
+            self.assertIn(
+                f"newssite/data/{path.name}", block,
+                f"newssite/data/{path.name} がPERSISTENT_STATE_FILESに登場しません"
+                "(CIのgit reset --hardで退避されず消える再発防止。人間が編集するマスタ"
+                "データならHUMAN_EDITED_DATA_FILESに追加してください)",
+            )
 
 
 class ThemeTrendsTest(unittest.TestCase):
@@ -1244,6 +1296,42 @@ class ThemeTrendMonitorTest(unittest.TestCase):
         }
         flags = theme_trend_monitor.audit_repost_collisions(registry)
         self.assertEqual(flags, [])
+
+    def test_audit_milestone_regressions_finds_no_issue_when_monotonic(self):
+        # ④milestones/first_seenが正しく蓄積されている(=増えるだけで
+        # 減ったり書き換わったりしない)通常ケースでは、何も検出しない。
+        rows = [
+            {"theme_id": "fusion", "day": "2026-09-20", "first_seen": "2026-09-20",
+             "milestones": [{"date": "2026-09-20", "actor_type_label": "研究機関・大学"}]},
+            {"theme_id": "fusion", "day": "2026-09-24", "first_seen": "2026-09-20",
+             "milestones": [
+                 {"date": "2026-09-20", "actor_type_label": "研究機関・大学"},
+                 {"date": "2026-09-24", "actor_type_label": "日本政府・省庁"},
+             ]},
+        ]
+        self.assertEqual(theme_trend_monitor.audit_milestone_regressions(rows), [])
+
+    def test_audit_milestone_regressions_flags_first_seen_change(self):
+        rows = [
+            {"theme_id": "fusion", "day": "2026-09-20", "first_seen": "2026-09-20", "milestones": []},
+            {"theme_id": "fusion", "day": "2026-09-21", "first_seen": "2026-09-21", "milestones": []},
+        ]
+        flags = theme_trend_monitor.audit_milestone_regressions(rows)
+        self.assertEqual(len(flags), 1)
+        self.assertIn("first_seen", flags[0]["issue"])
+
+    def test_audit_milestone_regressions_flags_milestone_date_or_disappearance_change(self):
+        rows = [
+            {"theme_id": "fusion", "day": "2026-09-20", "first_seen": "2026-09-20",
+             "milestones": [{"date": "2026-09-20", "actor_type_label": "研究機関・大学"}]},
+            {"theme_id": "fusion", "day": "2026-09-21", "first_seen": "2026-09-20",
+             "milestones": [{"date": "2026-09-21", "actor_type_label": "研究機関・大学"}]},
+            {"theme_id": "fusion", "day": "2026-09-22", "first_seen": "2026-09-20", "milestones": []},
+        ]
+        flags = theme_trend_monitor.audit_milestone_regressions(rows)
+        issues = [f["issue"] for f in flags]
+        self.assertTrue(any("日付が" in i for i in issues), issues)
+        self.assertTrue(any("消失" in i for i in issues), issues)
 
 
 if __name__ == "__main__":
