@@ -542,6 +542,30 @@ class RenderTest(unittest.TestCase):
         self.assertIn("観測中", html_fragment)
         self.assertIn("成長の経過を見る", html_fragment)
 
+    def test_mobile_emergence_chip_carries_data_stage_for_visual_distinction(self):
+        # 実測の抜け漏れ修正(2026-09-20): デスクトップの.emergence-badgeは
+        # data-stage="watching"を薄い色にして「新興/要監視」と見分けが
+        # つくようにしているが、モバイルの.m-emergence-chipにはdata-stage
+        # 属性自体が無く、CSSで区別できていなかった(3種類が全部同じ見た目
+        # になっていた)。モバイル側にもdata-stageを付与し、CSSにも
+        # data-stage="watching"用のルールがあることを固定する。
+        c = {
+            "label": "テストテーマ", "category_emoji": "📰", "category_label": "市況",
+            "members": [], "stocks": [],
+            "emergence_stage_label": "", "emergence_stage": None,
+            "emergence_diagnosis": {"missing": ["x"]},
+        }
+        html_fragment = render.mobile_cluster_row(c)
+        self.assertIn('data-stage="watching"', html_fragment)
+
+        item = {"category_emoji": "📰", "category_label": "市況", "emergence_stage_label": "👀 要監視テーマ",
+                "emergence_stage": "watch", "importance": 3, "impacts": [], "title": "t", "url": "https://x",
+                "source": "s", "published_at": "", "id": "n1", "themes": []}
+        item_html = render.mobile_news_row(item)
+        self.assertIn('data-stage="watch"', item_html)
+
+        self.assertIn('.m-emergence-chip[data-stage="watching"]', render.CSS)
+
     def test_html_emergence_badge_tooltip_discloses_actor_types_and_growth_history(self):
         # ユーザー要望(2026-09-20)「本当に異なる情報源・出来事からテーマ
         # が広がっているのかを正確に把握したい」「なぜテーマが検出された

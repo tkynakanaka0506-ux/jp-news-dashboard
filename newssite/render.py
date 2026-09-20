@@ -847,6 +847,10 @@ footer a{color:var(--accent)}
 .m-row:active{background:rgba(34,211,238,.08); border-color:rgba(34,211,238,.35); transform:scale(.985)}
 .m-row-main{display:flex; flex-direction:column; gap:4px; min-width:0; flex:1}
 .m-row-cat{font-size:11px; color:var(--muted)}
+.m-emergence-chip{margin-left:6px;padding:1px 7px;border-radius:999px;font-weight:700;
+  background:var(--card-2);border:1px solid rgba(57,255,136,.4);color:var(--accent)}
+.m-emergence-chip[data-stage="watch"]{border-color:rgba(34,211,238,.4);color:var(--accent-2)}
+.m-emergence-chip[data-stage="watching"]{border-color:rgba(148,163,184,.35);color:var(--muted);font-weight:600}
 .m-row-title{font-size:14.5px; font-weight:700; line-height:1.4;
   display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden}
 .m-row-sub{font-size:12px; color:var(--accent); letter-spacing:.06em}
@@ -1320,7 +1324,11 @@ def mobile_cluster_row(c):
     emergence_label = c.get("emergence_stage_label")
     has_diagnosis = bool(c.get("emergence_diagnosis"))
     chip_label = emergence_label or ("🔬 観測中" if has_diagnosis else "")
-    emergence_chip = f'<span class="m-emergence-chip">{esc(chip_label)}</span>' if chip_label else ""
+    chip_stage = c.get("emergence_stage") or ("watching" if has_diagnosis else "")
+    emergence_chip = (
+        f'<span class="m-emergence-chip" data-stage="{esc(chip_stage)}">{esc(chip_label)}</span>'
+        if chip_label else ""
+    )
     growth_block = emergence_growth_html(c)
     return f"""
   <div class="m-row m-news-row">
@@ -1361,7 +1369,10 @@ def mobile_news_row(item):
     else:
         impact_items = '<p class="m-empty-sm">影響が出うる銘柄は現在のルールでは特定できませんでした</p>'
     emergence_label = item.get("emergence_stage_label")
-    emergence_chip = f'<span class="m-emergence-chip">{esc(emergence_label)}</span>' if emergence_label else ""
+    emergence_chip = (
+        f'<span class="m-emergence-chip" data-stage="{esc(item.get("emergence_stage"))}">{esc(emergence_label)}</span>'
+        if emergence_label else ""
+    )
     return f"""
   <div class="m-row m-news-row">
     <button class="m-row-head" type="button" onclick="this.closest('.m-news-row').classList.toggle('is-expanded')">
