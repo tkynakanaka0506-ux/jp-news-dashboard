@@ -674,6 +674,33 @@ class RenderTest(unittest.TestCase):
         self.assertEqual(render.stars(2), "★★☆☆☆")
         self.assertEqual(render.stars(0), "★☆☆☆☆")
 
+    def test_desktop_layout_grid_stretches_to_fill_available_height(self):
+        # 実測バグ2026-09-21: デスクトップapp-shell化の際、.layoutの既存
+        # align-items:startがグリッド行を中身の高さ(全ニュース件数ぶん)に
+        # 伸ばしてしまい、main(ニュース一覧)のheight:100%が効かず独立
+        # スクロールにならなかった。align-items:stretch単体でも不十分で、
+        # grid-template-rows:minmax(0,1fr)を明示しないと直らないことが
+        # ブラウザ実測で判明したため、両方が961px以上のオーバーライドに
+        # 揃って残っていることを固定する。
+        self.assertRegex(
+            self.html,
+            r"@media\(min-width:961px\)\{[\s\S]*?\.layout\{[^}]*align-items:stretch[^}]*grid-template-rows:minmax\(0,1fr\)",
+        )
+
+    def test_footer_is_inside_main_not_a_sibling_of_layout(self):
+        # 実測バグ2026-09-21: <footer>が.controls/.layoutと同じ.wrap直下の
+        # 兄弟要素になっており、flexレイアウトで.layoutの高さを奪っていた
+        # (footerだけで約259px)。<footer>は<main>の最後の子(#noResultの後)
+        # に移し、ニュース一覧と一緒にスクロールして消える形にした。
+        # </aside>より後に<footer>が来る(=.layout/.wrapの外に出た)ことが
+        # 再発したら検出できるよう、footerが#noResultより後・</main>より
+        # 前にあることを固定する。
+        no_result_pos = self.html.index('id="noResult"')
+        footer_pos = self.html.index("<footer>")
+        main_close_pos = self.html.index("</main>")
+        self.assertLess(no_result_pos, footer_pos)
+        self.assertLess(footer_pos, main_close_pos)
+
 
 class DevToolTest(unittest.TestCase):
     """開発用コマンド(dev.py)の検査機能。"""
