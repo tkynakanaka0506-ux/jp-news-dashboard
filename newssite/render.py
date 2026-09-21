@@ -550,7 +550,12 @@ CSS = """
   --glow-urgent:0 0 16px rgba(255,150,64,.4);
   --glow-critical:0 0 16px rgba(255,77,109,.4);
   --glass-blur:blur(22px) saturate(150%);
-  --glass-edge:inset 0 1px 0 rgba(255,255,255,.1), inset 0 0 0 1px rgba(47,230,168,.07);
+  /* [デザイン進化 2026-09-21] ユーザー参考画像(Liquid Glass Kit)を踏まえ、
+     単色1pxの縁取りから、上=白ハイライト/下=紫/左右=シアン・ティールの
+     淡い虹色リムに変更(四辺それぞれinset box-shadowを重ねる手法)。 */
+  --glass-edge:inset 0 1.5px 0 rgba(255,255,255,.18), inset 0 -1px 0 rgba(167,139,250,.14),
+    inset 1px 0 0 rgba(34,211,238,.12), inset -1px 0 0 rgba(47,230,168,.12);
+  --glass-shine:linear-gradient(125deg, rgba(255,255,255,.12) 0%, transparent 26%, transparent 62%, rgba(255,255,255,.05) 100%);
   --font-body:"Noto Sans JP",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
   --font-head:"Zen Kaku Gothic New","Noto Sans JP",sans-serif;
   --font-mono:"JetBrains Mono","Noto Sans JP",monospace;
@@ -574,7 +579,9 @@ CSS = """
   --glow-urgent:0 0 0 rgba(0,0,0,0);
   --glow-critical:0 0 0 rgba(0,0,0,0);
   --glass-blur:blur(18px) saturate(140%);
-  --glass-edge:inset 0 1px 0 rgba(255,255,255,.5), inset 0 0 0 1px rgba(10,154,134,.06);
+  --glass-edge:inset 0 1.5px 0 rgba(255,255,255,.75), inset 0 -1px 0 rgba(109,74,255,.09),
+    inset 1px 0 0 rgba(12,143,174,.08), inset -1px 0 0 rgba(10,154,134,.08);
+  --glass-shine:linear-gradient(125deg, rgba(255,255,255,.28) 0%, transparent 26%, transparent 62%, rgba(255,255,255,.12) 100%);
 }
 *{box-sizing:border-box}
 html{background:var(--bg)}
@@ -631,6 +638,10 @@ header.site{position:sticky;top:0;z-index:20;background:rgba(4,14,10,.42);
 header.site::before{content:"";position:absolute;inset:0;pointer-events:none;
   background:linear-gradient(90deg,transparent,rgba(47,230,168,.5) 20%,rgba(34,211,238,.6) 50%,rgba(167,139,250,.5) 80%,transparent);
   height:2px;top:auto;bottom:0;opacity:.8}
+/* [デザイン進化 2026-09-21] Liquid Glass参考画像の斜めハイライト(反射光)。
+   色は追加せず既存の白ハイライトのみ(ベースの配色は変えない)。 */
+header.site::after{content:"";position:absolute;inset:0;pointer-events:none;background:var(--glass-shine)}
+header.site>*{position:relative}
 :root[data-theme="light"] header.site{background:rgba(255,255,255,.5)}
 .head-inner{max-width:1240px;margin:0 auto;padding:14px 20px 10px;
   display:flex;gap:16px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap}
@@ -859,8 +870,11 @@ header.site::before{content:"";position:absolute;inset:0;pointer-events:none;
    自体は維持)。 */
 .news-card{background:var(--card);border:0;border-bottom:1px solid var(--line);border-radius:0;
   -webkit-backdrop-filter:blur(14px) saturate(140%);backdrop-filter:blur(14px) saturate(140%);
-  padding:14px 16px;margin-bottom:0;box-shadow:inset 0 1px 0 rgba(255,255,255,.07);
+  padding:14px 16px;margin-bottom:0;box-shadow:var(--glass-edge);
+  position:relative;overflow:hidden;
   transition:background-color .15s,border-left-color .15s}
+.news-card::before{content:"";position:absolute;inset:0;pointer-events:none;background:var(--glass-shine)}
+.news-card>*{position:relative}
 .news-card:last-of-type{border-bottom:0}
 .news-card:hover{background:var(--card-2)}
 .news-card[data-importance="5"]{border-left:3px solid var(--accent-critical);padding-left:19px;
@@ -944,9 +958,12 @@ aside.side{position:sticky;top:150px;max-height:calc(100vh - 170px);
 aside.side::-webkit-scrollbar{width:8px}
 aside.side::-webkit-scrollbar-thumb{background:rgba(47,230,168,.25);border-radius:8px}
 @media(max-width:960px){aside.side{position:static;max-height:none;overflow-y:visible}}
-.panel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 16px 8px;
+.panel{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:16px 16px 8px;
   -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
-  box-shadow:var(--shadow),var(--glass-edge);margin-bottom:16px}
+  box-shadow:var(--shadow),var(--glass-edge);margin-bottom:16px;
+  position:relative;overflow:hidden}
+.panel::before{content:"";position:absolute;inset:0;pointer-events:none;background:var(--glass-shine)}
+.panel>*{position:relative}
 .panel h2{margin:0 0 4px;font-size:14.5px;font-family:var(--font-head);font-weight:800;letter-spacing:.05em;
   display:flex;align-items:center;gap:8px}
 .panel h2::before{content:"";flex-shrink:0;width:3px;height:15px;border-radius:2px;
