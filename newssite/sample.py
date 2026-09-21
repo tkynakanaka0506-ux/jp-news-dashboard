@@ -15,7 +15,7 @@ persist_lifecycleを使ってbuild_news()自体に委譲し、判定ロジック
 """
 from datetime import datetime, timedelta
 
-from . import analyze, impact as impact_mod, stocks as stocks_mod
+from . import analyze, impact as impact_mod, stocks as stocks_mod, verification_status
 from .config import JST
 from .rss import _source_tier, news_id
 
@@ -80,6 +80,12 @@ def sample_data():
     clusters = analyze.attach_cluster_emergence(
         analyze.build_material_clusters(news, rules, master), theme_stage_info
     )
+    # 本番のtheme_trend_history.jsonl/verification_status.jsonは汚さない
+    # (persist=False)。history_rows=[]で、本番の蓄積データも混ぜない
+    # (サンプルは完全に自己完結させる、既存の空レジストリと同じ方針)。
+    verification = verification_status.record_and_get_status(
+        history_rows=[], today=now.strftime("%Y-%m-%d"), persist=False
+    )
 
     return {
         "generated_at": now.strftime("%Y-%m-%d %H:%M"),
@@ -96,6 +102,7 @@ def sample_data():
         "news": news,
         "stock_ranking": ranking,
         "clusters": clusters,
+        "verification_status": verification,
         "counts": {
             "news": len(news),
             "high_importance": sum(1 for n in news if n["importance"] >= 4),

@@ -19,7 +19,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from newssite import (  # noqa: E402
     analyze, impact as impact_mod, infra_monitor, render, rss, stocks as stocks_mod,
-    theme_trend_history, theme_trend_monitor, theme_trends,
+    theme_trend_history, theme_trend_monitor, theme_trends, verification_status,
 )
 from newssite.config import JST  # noqa: E402
 
@@ -752,6 +752,7 @@ class CIConfigTest(unittest.TestCase):
         "backtest_events.jsonl",
         "policy_catalyst_signals.json",
         "theme_trend_history.jsonl",
+        "verification_status.json",
     )
 
     def _workflow_text(self):
@@ -1449,6 +1450,166 @@ class InfraMonitorTest(unittest.TestCase):
         # 異常、と決めつけない。新規追加直後で1回もコミットが無い場合等)。
         result = infra_monitor.persistent_file_git_freshness(files=("__definitely_not_a_real_file__.json",))
         self.assertIsNone(result["__definitely_not_a_real_file__.json"]["last_commit"])
+
+
+class VerificationStatusTest(unittest.TestCase):
+    """verification_status.py: 「検証・開発ステータス」パネルの回帰
+    テスト(2026-09-21ユーザー要望「今どこまで完成しているのか・データが
+    十分に集まったのか・次のバックテスト段階へ進める状態になったのか、が
+    一目で分かるように」)。萌芽シグナルの判定条件(theme_trends.py)には
+    一切関与しない、完全に別軸の集計であることを固定する。
+    """
+
+    def _row(self, theme_id, day, first_seen, source_count=0, milestones=None):
+        return {
+            "theme_id": theme_id, "day": day, "first_seen": first_seen,
+            "source_count": source_count, "milestones": milestones or [],
+        }
+
+    def test_age_checkpoints_use_first_seen_not_just_elapsed_days_since_a_fixed_point(self):
+        rows = [
+            self._row("old_theme", "2026-08-01", "2026-06-01"),  # first_seenから112日
+            self._row("new_theme", "2026-09-20", "2026-09-15"),  # first_seenから6日
+        ]
+        status = verification_status.compute_status(rows, today="2026-09-21")
+        self.assertEqual(status["total_themes"], 2)
+        self.assertEqual(status["age_ge"][90], 1, "old_themeだけ90日以上のはず")
+        self.assertEqual(status["age_ge"][7], 1, "new_themeは7日未満なので含まれないはず")
+
+    def test_meaningful_signal_required_not_just_elapsed_days(self):
+        # ユーザー方針「単純に一定日数が経過しただけで判断しない。
+        # バックテストに十分なデータが揃ったかという観点で判断する」。
+        # 30日以上経過していても、独立情報源もmilestonesも無い(=単発の
+        # 言及で終わった)テーマはtrackableに数えないことを固定する。
+        rows = [self._row("stale_but_thin", "2026-08-01", "2026-07-01", source_count=1, milestones=[])]
+        status = verification_status.compute_status(rows, today="2026-09-21")
+        self.assertEqual(status["age_ge"][30], 1, "経過日数自体は30日以上のはず")
+        self.assertEqual(status["trackable_for_backtest"], 0, "信号が薄いテーマはtrackableに数えないはず")
+
+    def test_multi_source_theme_uses_peak_value_not_latest_snapshot(self):
+        # 一時的に盛り上がって収束したテーマの実績を見落とさないよう、
+        # 全期間の最大値(ピーク時)を採用することを固定する。
+        rows = [
+            self._row("spiked", "2026-08-01", "2026-07-01", source_count=3),
+            self._row("spiked", "2026-08-15", "2026-07-01", source_count=1),  # 収束後
+        ]
+        status = verification_status.compute_status(rows, today="2026-09-21")
+        self.assertEqual(status["multi_source_themes"], 1, "ピーク時のsource_count=3を見落としてはいけない")
+
+    def test_phase_is_ready_for_backtest_once_enough_trackable_themes_exist(self):
+        rows = [
+            self._row(f"theme{i}", "2026-08-01", "2026-07-01", source_count=2, milestones=[{"date": "x"}])
+            for i in range(5)
+        ]
+        status = verification_status.compute_status(rows, today="2026-09-21")
+        self.assertEqual(status["trackable_for_backtest"], 5)
+        self.assertEqual(status["phase"], "ready_for_backtest")
+
+    def test_phase_stays_accumulating_below_minimum_theme_count(self):
+        rows = [
+            self._row(f"theme{i}", "2026-08-01", "2026-07-01", source_count=2, milestones=[{"date": "x"}])
+            for i in range(4)  # MIN_TRACKABLE_THEMES_FOR_BACKTEST(5)未満
+        ]
+        status = verification_status.compute_status(rows, today="2026-09-21")
+        self.assertEqual(status["phase"], "accumulating")
+
+    def test_ready_for_backtest_milestone_is_never_overwritten_once_reached(self):
+        # first_seenと全く同じ原則: 一度「分析可能」に到達した日付は、
+        # その後trackable数が減っても絶対に上書きしない(いつ十分な
+        # データが集まったかを後から追跡できるようにするため)。
+        import os
+        import tempfile
+        fd, tmp_name = tempfile.mkstemp(suffix=".json")
+        os.close(fd)
+        path = Path(tmp_name)
+        path.unlink()  # 「まだ存在しない」状態から始める(_load_status_fileの初回パス)
+        ready_rows = [
+            self._row(f"theme{i}", "2026-08-01", "2026-07-01", source_count=2, milestones=[{"date": "x"}])
+            for i in range(5)
+        ]
+        result1 = verification_status.record_and_get_status(
+            ready_rows, today="2026-09-21", persist=True, status_path=path,
+        )
+        self.assertEqual(result1["milestones"].get("ready_for_backtest"), "2026-09-21")
+
+        # 翌日、データが減って基準を割り込んでも、既に記録した日付は消えない
+        result2 = verification_status.record_and_get_status(
+            [], today="2026-09-22", persist=True, status_path=path,
+        )
+        self.assertEqual(
+            result2["milestones"].get("ready_for_backtest"), "2026-09-21",
+            "一度到達した日付が上書き/消失しています(first_seenと同じ不変性が壊れています)",
+        )
+        path.unlink(missing_ok=True)
+
+    def test_accumulating_milestone_is_set_on_first_call(self):
+        import os
+        import tempfile
+        fd, tmp_name = tempfile.mkstemp(suffix=".json")
+        os.close(fd)
+        path = Path(tmp_name)
+        path.unlink()
+        result = verification_status.record_and_get_status([], today="2026-09-21", persist=True, status_path=path)
+        self.assertEqual(result["milestones"].get("accumulating"), "2026-09-21")
+        path.unlink(missing_ok=True)
+
+
+class VerificationStatusHtmlTest(unittest.TestCase):
+    """verification_status_html()(render.py): 本番データの数値に応じて
+    文言が自動で変わることを固定する(ユーザー方針:「検証が終わった」の
+    ような人間向け固定文言にしない)。
+    """
+
+    def test_returns_empty_string_when_no_status(self):
+        self.assertEqual(render.verification_status_html(None), "")
+
+    def test_accumulating_phase_shows_live_counts(self):
+        v = {
+            "phase": "accumulating", "total_themes": 12,
+            "age_ge": {7: 9, 14: 6, 30: 4, 90: 0},
+            "multi_source_themes": 3, "milestone_themes": 8,
+            "trackable_for_backtest": 2, "trackable_min_days": 30,
+            "min_trackable_themes_for_backtest": 5,
+            "milestones": {"accumulating": "2026-09-21"},
+        }
+        html_fragment = render.verification_status_html(v)
+        self.assertIn("データ蓄積中", html_fragment)
+        self.assertIn("初検知テーマ：12件", html_fragment)
+        self.assertIn("30日以上追跡可能：4件", html_fragment)
+        self.assertIn("7日追跡可能：9件", html_fragment)
+        self.assertIn("投資判断や将来予測ではなく", html_fragment, "免責文言が常に出ることを固定する")
+        self.assertIn('data-phase="accumulating"', html_fragment)
+
+    def test_ready_for_backtest_phase_shows_backtest_ready(self):
+        v = {
+            "phase": "ready_for_backtest", "total_themes": 20,
+            "age_ge": {7: 20, 14: 18, 30: 12, 90: 5},
+            "multi_source_themes": 10, "milestone_themes": 15,
+            "trackable_for_backtest": 6, "trackable_min_days": 30,
+            "min_trackable_themes_for_backtest": 5,
+            "milestones": {"accumulating": "2026-09-21", "ready_for_backtest": "2026-11-01"},
+        }
+        html_fragment = render.verification_status_html(v)
+        self.assertIn("Backtest Ready", html_fragment)
+        self.assertIn("2026-11-01", html_fragment)
+        self.assertIn('data-phase="ready_for_backtest"', html_fragment)
+
+    def test_phase_text_is_not_a_hardcoded_human_written_sentence(self):
+        # ユーザー方針「『検証が終わった』という人間向けの固定文言では
+        # なく、実際の蓄積データに応じて状態が変化する仕組みにする」。
+        # total_themesを変えると表示も追従することを固定する(=定数を
+        # 埋め込んだだけの静的テンプレートになっていないことの確認)。
+        base = {
+            "phase": "accumulating", "age_ge": {7: 0, 14: 0, 30: 0, 90: 0},
+            "multi_source_themes": 0, "milestone_themes": 0,
+            "trackable_for_backtest": 0, "trackable_min_days": 30,
+            "min_trackable_themes_for_backtest": 5, "milestones": {},
+        }
+        html_a = render.verification_status_html({**base, "total_themes": 3})
+        html_b = render.verification_status_html({**base, "total_themes": 99})
+        self.assertIn("初検知テーマ：3件", html_a)
+        self.assertIn("初検知テーマ：99件", html_b)
+        self.assertNotEqual(html_a, html_b)
 
 
 if __name__ == "__main__":

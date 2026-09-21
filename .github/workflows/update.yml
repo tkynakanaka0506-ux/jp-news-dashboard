@@ -135,6 +135,7 @@ jobs:
             "newssite/data/theme_trend_history.jsonl"
             "newssite/data/backtest_events.jsonl"
             "newssite/data/policy_catalyst_signals.json"
+            "newssite/data/verification_status.json"
           )
           ALL_PERSISTED_FILES=("${GENERATED_FILES[@]}" "${PERSISTENT_STATE_FILES[@]}")
 

@@ -14,6 +14,7 @@ from . import rss as rss_mod
 from . import stocks as stocks_mod
 from . import theme_trend_history
 from . import theme_trends
+from . import verification_status
 from .config import FEEDS, GOV_FEEDS, JST, MARKET_TICKERS, MAX_AGE_HOURS, MAX_NEWS_ITEMS, PER_FEED_LIMIT
 
 DIRECTION_LABEL = impact_mod.DIRECTION_LABEL
@@ -599,6 +600,17 @@ def build(data_json_path="data.json", use_llm=True):
     except Exception as e:
         log(f"萌芽シグナルのスナップショット記録に失敗しました({e})。サイト生成は続行します。")
 
+    # [検証・開発ステータス] (2026-09-21ユーザー要望「今どこまで完成
+    # しているのか・データが十分に集まったのか・次のバックテスト段階へ
+    # 進める状態になったのか、が一目で分かるようにボード上に自動表示
+    # してほしい」)。theme_trend_history.jsonlを読むだけで、判定ロジック
+    # には一切関与しない。記録の失敗でサイト生成自体は止めない。
+    try:
+        verification = verification_status.record_and_get_status(today=now.strftime("%Y-%m-%d"))
+    except Exception as e:
+        log(f"検証ステータスの計算に失敗しました({e})。サイト生成は続行します。")
+        verification = None
+
     status = "updated" if news else "unavailable"
     status_message = (
         f"{len(news)} 件のニュースを取得しました。"
@@ -617,6 +629,7 @@ def build(data_json_path="data.json", use_llm=True):
         "news": news,
         "stock_ranking": ranking,
         "clusters": clusters,
+        "verification_status": verification,
         "counts": {
             "news": len(news),
             "high_importance": sum(1 for n in news if n["importance"] >= 4),

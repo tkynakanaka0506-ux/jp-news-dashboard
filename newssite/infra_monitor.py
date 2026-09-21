@@ -56,13 +56,21 @@ PERSISTENT_DATA_FILES = (
     "backtest_events.jsonl",
     "policy_catalyst_signals.json",
     "theme_trend_history.jsonl",
+    "verification_status.json",
 )
 
 DEFAULT_STALE_HOURS = 48
 # theme_trend_history.jsonlは「1日1テーマ1行」の重複排除設計なので、
 # 新しい日付/テーマが現れない限り丸1日以上コミットが無くても正常
 # (他の4ファイルとは更新頻度の前提が違う)。
-STALE_HOURS_OVERRIDE = {"theme_trend_history.jsonl": 30}
+# verification_status.jsonはさらに更新頻度が低い設計: 各フェーズに
+# 「初めて到達した日」を一度だけ記録するsetdefault方式(first_seenと
+# 同じ)なので、フェーズが変わらない限り数週間〜数ヶ月コミットが
+# 無くても正常(2026-09-21ユーザー要望の検証ステータス機能)。
+STALE_HOURS_OVERRIDE = {
+    "theme_trend_history.jsonl": 30,
+    "verification_status.json": 24 * 60,  # 60日
+}
 
 
 def fetch_live_generated_at(timeout=15):
