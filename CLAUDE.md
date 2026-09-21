@@ -96,6 +96,38 @@ GitHub Actions (`update.yml`) が定期実行され、以下の順でチェッ�
 3. `build_news_site.py` 本体実行
 4. 差分があれば強制Push
 
+### 取得スケジュール(実際の挙動・2026-09-21実測)
+
+`.github/workflows/update.yml`の`schedule:`が意図している頻度:
+
+| 時間帯(JST) | 頻度 | cron(UTC) |
+| --- | --- | --- |
+| 8:07〜15:37(日本市場時間帯、morning) | 30分おき | `7,37 23,0-6 * * *` |
+| 16:07〜翌6:07(それ以外、evening) | 2時間おき | `7 7,9,11,13,15,17,19,21 * * *` |
+
+**ただし、GitHub Actionsの`schedule`トリガーは公式にも「高負荷時に遅延・ドロップ
+されうる」と明記されている既知の制約があり、このリポジトリでは実際にかなり
+深刻な影響が出ている。** 2026-09-21、ユーザー報告「更新が止まっている気がする」
+の調査で、直近3.5日分(2026-09-17〜20)の実行間隔を計測したところ:
+
+- 想定の間隔(30分/2時間)に対し、実測は**26分〜462分(7.7時間)**とばらつく
+- 想定トリガー数に対し、実際に発火したのは**約35%のみ**(残り約65%は
+  GitHub側で未発火。実行された分は全て成功しており、コード側の問題ではない)
+
+**再発防止(2026-09-21導入): ユーザー自身のMac上のlaunchdで補う。**
+`watchdog_check.sh`を`com.takuya.news-watchdog`(launchd、30分おき)から実行し、
+本番サイト(`news.json`の`generated_iso`)が180分以上更新されていなければ
+`gh workflow run update.yml`で手動発火して補う。ワークフローYAML側の設定を
+いくら変えてもGitHub側の未発火自体は解決しないため、外部からの補完トリガーが
+唯一の実効的な対策(`jp-stock-dashboard`が既に同じ考え方でlaunchdに依存している
+のと同じパターン)。ログは`~/Library/Logs/jp-news-watchdog.log`。
+
+```bash
+launchctl list | grep news-watchdog          # 稼働確認(PID "-" は正常、次回起動待ち)
+tail -f ~/Library/Logs/jp-news-watchdog.log  # 動作ログ
+launchctl unload ~/Library/LaunchAgents/com.takuya.news-watchdog.plist  # 停止したい場合
+```
+
 **このリポジトリでは、上記の自動テストゲートだけが「壊れたコードを本番に出さない」
 唯一の防波堤。** そのため：
 
