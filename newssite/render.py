@@ -212,6 +212,73 @@ def emergence_growth_html(obj):
       </details>"""
 
 
+def verification_status_html(v):
+    """[検証・開発ステータス] (2026-09-21ユーザー要望「今どこまで完成
+    しているのか・データが十分に集まったのか・次のバックテスト段階へ
+    進める状態になったのか、が一目で分かるようにボード上に自動表示
+    してほしい」)。verification_status.pyが計算した値をテンプレートに
+    当てはめるだけで、文言を手で書き換えることはしない(本番データに
+    応じて自動的に変わる。ユーザー方針:「検証が終わった」という人間向け
+    固定文言にしない)。新しい投資判断・スコア・予測は一切作らない。
+    """
+    if not v:
+        return ""
+    phase = v.get("phase")
+    age_ge = v.get("age_ge", {})
+    ms = v.get("milestones", {})
+
+    if phase == "ready_for_backtest":
+        emoji, headline = "📊", "萌芽テーマ検証：分析可能"
+        lines = [
+            "必要な追跡データが蓄積されました。",
+            "これまでの初期シグナルと、その後のテーマ拡大・継続・消滅を比較できます。",
+            "→ Backtest Ready",
+        ]
+    elif phase == "backtest_done":
+        emoji, headline = "✅", "萌芽テーマ検証：バックテスト完了"
+        lines = [
+            "初期シグナルと、その後の展開を比較済みです。",
+            "次回検証：データ追加後に自動更新",
+        ]
+    else:
+        emoji, headline = "🔬", "萌芽テーマ検証：データ蓄積中"
+        lines = [
+            f"初検知テーマ：{v.get('total_themes', 0)}件",
+            f"30日以上追跡可能：{age_ge.get(30, 0)}件",
+            f"7日追跡可能：{age_ge.get(7, 0)}件",
+            "現在はデータ蓄積フェーズです。",
+            "十分なデータが集まるまで判定ロジックは変更しません。",
+        ]
+
+    body_html = "".join(f'<p class="vs-line">{esc(l)}</p>' for l in lines)
+
+    detail_lines = [
+        f"テーマ総数: {v.get('total_themes', 0)}件",
+        f"経過日数別: 7日以上 {age_ge.get(7, 0)}件 / 14日以上 {age_ge.get(14, 0)}件 / "
+        f"30日以上 {age_ge.get(30, 0)}件 / 90日以上 {age_ge.get(90, 0)}件",
+        f"独立情報源が複数あるテーマ: {v.get('multi_source_themes', 0)}件",
+        f"成長履歴(milestones)が蓄積されているテーマ: {v.get('milestone_themes', 0)}件",
+        f"バックテストに使える水準({v.get('trackable_min_days', '-')}日以上経過かつ意味のある信号あり): "
+        f"{v.get('trackable_for_backtest', 0)}件 / 目標{v.get('min_trackable_themes_for_backtest', '-')}件",
+        f"データ蓄積開始: {ms.get('accumulating', '-')}",
+        f"分析可能(Backtest Ready)になった日: {ms.get('ready_for_backtest') or '(まだ)'}",
+    ]
+    if ms.get("backtest_done"):
+        detail_lines.append(f"初回バックテスト完了日: {ms['backtest_done']}")
+    detail_html = "".join(f'<div class="vs-detail-line">{esc(l)}</div>' for l in detail_lines)
+
+    return f"""
+  <div class="verify-status-panel" data-phase="{esc(phase)}">
+    <div class="vs-headline"><span class="vs-emoji">{esc(emoji)}</span> <span class="vs-headline-text">{esc(headline)}</span></div>
+    {body_html}
+    <details class="vs-more">
+      <summary>詳細を見る</summary>
+      {detail_html}
+      <p class="vs-caveat">これは投資判断や将来予測ではなく、萌芽シグナルのデータ蓄積状況を可視化したものです。この表示にかかわらず判定ロジックは変更していません。</p>
+    </details>
+  </div>"""
+
+
 def news_card_html(item, now):
     impacts = item.get("impacts", [])
     if impacts:
@@ -570,6 +637,53 @@ header.site::before{content:"";position:absolute;inset:0;pointer-events:none;
   border-radius:12px;padding:12px 16px;font-size:14px;color:var(--muted);margin-bottom:18px}
 .notice b{color:var(--text)}
 .notice.sample-banner{border-left-color:var(--flat);color:var(--text)}
+
+/* [検証・開発ステータス] (2026-09-21) 既存の.noticeより控えめに
+   (font-sizeを1段小さく・paddingを詰める)。「Aurora Mesh」の
+   青(--accent-2)〜紫(--accent-3)グラデーションで、ニュース/銘柄カードの
+   緑系アクセントとは意図的に区別しつつ、既存トークン(--card/--line/
+   --glass-blur/--glass-edge)は再利用して統一感を保つ。 */
+.verify-status-panel{
+  position:relative;background:var(--card-2);
+  border:1px solid rgba(167,139,250,.28);border-radius:12px;
+  padding:9px 15px;margin-bottom:16px;font-size:12.5px;color:var(--muted);
+  -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
+  box-shadow:var(--glass-edge), 0 0 22px rgba(34,211,238,.08);
+  overflow:hidden;
+}
+.verify-status-panel::before{
+  content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;
+  background:linear-gradient(120deg, rgba(34,211,238,.10), transparent 40%, rgba(167,139,250,.10));
+}
+.verify-status-panel[data-phase="ready_for_backtest"]{
+  border-color:rgba(77,255,126,.32);box-shadow:var(--glass-edge), 0 0 22px rgba(77,255,126,.12);
+}
+.verify-status-panel[data-phase="backtest_done"]{
+  border-color:rgba(198,255,61,.32);box-shadow:var(--glass-edge), 0 0 22px rgba(198,255,61,.12);
+}
+.verify-status-panel .vs-headline{position:relative;font-family:var(--font-head);font-weight:700;font-size:13.5px;margin-bottom:3px}
+.verify-status-panel .vs-emoji{filter:none}
+.verify-status-panel .vs-headline-text{
+  background:linear-gradient(90deg, var(--accent-2), var(--accent-3));
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+}
+.verify-status-panel[data-phase="ready_for_backtest"] .vs-headline-text{
+  background:linear-gradient(90deg, var(--accent), var(--accent-2));
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+}
+.verify-status-panel[data-phase="backtest_done"] .vs-headline-text{
+  background:linear-gradient(90deg, var(--accent-lime), var(--accent));
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+}
+.verify-status-panel .vs-line{position:relative;margin:1px 0}
+.verify-status-panel .vs-more{position:relative;margin-top:5px}
+.verify-status-panel .vs-more summary{cursor:pointer;color:var(--accent-2);font-size:12px;list-style:none}
+.verify-status-panel .vs-more summary::-webkit-details-marker{display:none}
+.verify-status-panel .vs-more summary::before{content:"▸ ";display:inline-block}
+.verify-status-panel .vs-more[open] summary::before{content:"▾ "}
+.verify-status-panel .vs-detail-line{margin:3px 0;padding-left:8px;border-left:2px solid rgba(167,139,250,.25);font-size:12px}
+.verify-status-panel .vs-caveat{margin-top:7px;font-size:11px;opacity:.7;font-style:italic}
+:root[data-theme="light"] .verify-status-panel{background:rgba(255,255,255,.55)}
 
 .controls{position:sticky;top:74px;z-index:15;background:rgba(4,14,10,.32);
   -webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);padding:10px 0 12px;
@@ -1435,6 +1549,7 @@ def mobile_app_html(data, now):
 
   <div class="m-screens">
     <section class="m-screen is-active" data-screen="home">
+      {verification_status_html(data.get("verification_status"))}
       <h2 class="m-h2 accent-amber">{MOBILE_H2_ICONS['importance']}重要度の高いニュース</h2>
       <div class="m-list">
         {''.join(mobile_news_row(n) for n in top_news) if top_news else '<p class="m-empty">今回はニュースを取得できませんでした</p>'}
@@ -1506,6 +1621,7 @@ def build_html(data):
         if data.get("llm_used") else
         "今回は生成AIによる補強なし(キーワードルールのみ)で生成しています。"
     )
+    verify_status_block = verification_status_html(data.get("verification_status"))
 
     return f"""<!DOCTYPE html>
 <html lang="ja">
@@ -1552,6 +1668,7 @@ def build_html(data):
     ⚠️ <b>投資助言ではありません。</b> 各ニュースの「影響が出うる銘柄」は、キーワードルールにもとづく
     機械的な関連付けであり、株価の値動きを保証するものではありません。{esc(llm_note)}
   </div>
+  {verify_status_block}
 
   <div class="controls">
     <div class="filter-row">{category_filter_html(categories, news)}</div>
