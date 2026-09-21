@@ -393,7 +393,7 @@ def news_card_html(item, now):
       <h3 class="news-title"><a href="{esc(item['url'])}" target="_blank" rel="noopener">{esc(item['title'])}</a></h3>
       {summary}
       {comment}
-      <div class="themes"><span class="why" title="重要度の根拠">重要度の根拠: {esc(item.get('importance_reason', ''))}</span></div>
+      <div class="insight-line"><span class="insight-label">重要度の根拠</span>{esc(item.get('importance_reason', ''))}</div>
       {impact_block}
       {related}
     </article>"""
@@ -849,13 +849,20 @@ header.site::before{content:"";position:absolute;inset:0;pointer-events:none;
   aside.side{position:static;max-height:none;height:100%}
 }
 
-.news-card{background:var(--card);border:1px solid var(--line);border-radius:16px;
-  -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
-  padding:18px 20px;margin-bottom:16px;box-shadow:var(--shadow),var(--glass-edge);
-  transition:box-shadow .2s,border-color .2s}
-.news-card:hover{border-color:var(--accent);box-shadow:var(--shadow),var(--glass-edge),var(--glow)}
-.news-card[data-importance="5"]{border-left:4px solid var(--accent-critical);box-shadow:var(--shadow),var(--glass-edge),var(--glow-critical)}
-.news-card[data-importance="4"]{border-left:4px solid var(--accent-urgent);box-shadow:var(--shadow),var(--glass-edge),var(--glow-urgent)}
+/* [デザイン進化 2026-09-21] Visily AI(Dense Terminal案)を踏まえ、丸角カード+
+   すきまの「箱」から、罫線区切りの高密度リストへ変更。ヘッダー/固定バー/
+   右側パネルのAurora Glassはそのまま残し、ニュース一覧だけを端末的に締める。
+   カード内部の要素(重要度・テーマ・影響銘柄など)の構造・データは無変更。 */
+.news-card{background:transparent;border:0;border-bottom:1px solid var(--line);border-radius:0;
+  padding:14px 4px;margin-bottom:0;box-shadow:none;
+  transition:background-color .15s,border-left-color .15s}
+.news-card:last-of-type{border-bottom:0}
+.news-card:hover{background:var(--card-2)}
+.news-card[data-importance="5"]{border-left:3px solid var(--accent-critical);padding-left:15px;
+  background:linear-gradient(90deg,rgba(255,77,109,.06),transparent 45%)}
+.news-card[data-importance="4"]{border-left:3px solid var(--accent-urgent);padding-left:15px;
+  background:linear-gradient(90deg,rgba(255,150,64,.06),transparent 45%)}
+.news-card[data-importance="5"]:hover,.news-card[data-importance="4"]:hover{background:var(--card-2)}
 .news-meta{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:13.5px;color:var(--muted)}
 .stars{color:var(--accent-urgent);letter-spacing:1px}
 .cat{background:var(--card-2);border:1px solid var(--line);border-radius:999px;padding:2px 10px}
@@ -873,7 +880,13 @@ header.site::before{content:"";position:absolute;inset:0;pointer-events:none;
    テーマ・情報源・時間・影響銘柄をカード上部で瞬時に把握」)。 */
 .theme-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
 .theme-tags .theme-tag{font-size:12px}
-.why{opacity:.95}
+/* [デザイン進化 2026-09-21] Visily AIで検討した"AI INSIGHT"風ラベルの見た目を、
+   既存の実データ(重要度の根拠)にだけ適用(数値・分析文を新規に作らない)。 */
+.insight-line{margin:8px 0 4px;font-size:13px;color:var(--muted);display:flex;gap:8px;
+  align-items:baseline;flex-wrap:wrap}
+.insight-label{flex-shrink:0;font-size:10.5px;font-weight:700;letter-spacing:.07em;
+  color:var(--accent-2);background:rgba(34,211,238,.08);border:1px solid rgba(34,211,238,.28);
+  border-radius:4px;padding:1px 6px}
 
 .impact-block{margin-top:12px;border-top:1px dashed var(--line);padding-top:12px}
 .impact-block.empty{font-size:14px;color:var(--muted)}
@@ -928,7 +941,10 @@ aside.side::-webkit-scrollbar-thumb{background:rgba(47,230,168,.25);border-radiu
 .panel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 16px 8px;
   -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
   box-shadow:var(--shadow),var(--glass-edge);margin-bottom:16px}
-.panel h2{margin:0 0 4px;font-size:16.5px;font-family:var(--font-head);font-weight:900;letter-spacing:.02em}
+.panel h2{margin:0 0 4px;font-size:14.5px;font-family:var(--font-head);font-weight:800;letter-spacing:.05em;
+  display:flex;align-items:center;gap:8px}
+.panel h2::before{content:"";flex-shrink:0;width:3px;height:15px;border-radius:2px;
+  background:linear-gradient(180deg,var(--accent-2),var(--accent-3))}
 .panel .panel-desc{margin:0 0 12px;font-size:13px;color:var(--muted)}
 .rank-row{border-top:1px solid var(--line)}
 .rank-row:first-of-type{border-top:0}
