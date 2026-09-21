@@ -852,17 +852,23 @@ header.site::before{content:"";position:absolute;inset:0;pointer-events:none;
 /* [デザイン進化 2026-09-21] Visily AI(Dense Terminal案)を踏まえ、丸角カード+
    すきまの「箱」から、罫線区切りの高密度リストへ変更。ヘッダー/固定バー/
    右側パネルのAurora Glassはそのまま残し、ニュース一覧だけを端末的に締める。
-   カード内部の要素(重要度・テーマ・影響銘柄など)の構造・データは無変更。 */
-.news-card{background:transparent;border:0;border-bottom:1px solid var(--line);border-radius:0;
-  padding:14px 4px;margin-bottom:0;box-shadow:none;
+   カード内部の要素(重要度・テーマ・影響銘柄など)の構造・データは無変更。
+   ユーザー要望「もう少しガラスみたいな」への追加対応: 完全な透明フラット
+   行ではなく、他のグラスパネルと同じvar(--card)+backdrop-blurを行の背景に
+   戻しつつ、角丸・すきま・強いドロップシャドウは付けない(密なリスト構造
+   自体は維持)。 */
+.news-card{background:var(--card);border:0;border-bottom:1px solid var(--line);border-radius:0;
+  -webkit-backdrop-filter:blur(14px) saturate(140%);backdrop-filter:blur(14px) saturate(140%);
+  padding:14px 16px;margin-bottom:0;box-shadow:inset 0 1px 0 rgba(255,255,255,.07);
   transition:background-color .15s,border-left-color .15s}
 .news-card:last-of-type{border-bottom:0}
 .news-card:hover{background:var(--card-2)}
-.news-card[data-importance="5"]{border-left:3px solid var(--accent-critical);padding-left:15px;
-  background:linear-gradient(90deg,rgba(255,77,109,.06),transparent 45%)}
-.news-card[data-importance="4"]{border-left:3px solid var(--accent-urgent);padding-left:15px;
-  background:linear-gradient(90deg,rgba(255,150,64,.06),transparent 45%)}
-.news-card[data-importance="5"]:hover,.news-card[data-importance="4"]:hover{background:var(--card-2)}
+.news-card[data-importance="5"]{border-left:3px solid var(--accent-critical);padding-left:19px;
+  background:linear-gradient(90deg,rgba(255,77,109,.1),transparent 45%),var(--card)}
+.news-card[data-importance="4"]{border-left:3px solid var(--accent-urgent);padding-left:19px;
+  background:linear-gradient(90deg,rgba(255,150,64,.1),transparent 45%),var(--card)}
+.news-card[data-importance="5"]:hover{background:linear-gradient(90deg,rgba(255,77,109,.1),transparent 45%),var(--card-2)}
+.news-card[data-importance="4"]:hover{background:linear-gradient(90deg,rgba(255,150,64,.1),transparent 45%),var(--card-2)}
 .news-meta{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:13.5px;color:var(--muted)}
 .stars{color:var(--accent-urgent);letter-spacing:1px}
 .cat{background:var(--card-2);border:1px solid var(--line);border-radius:999px;padding:2px 10px}
