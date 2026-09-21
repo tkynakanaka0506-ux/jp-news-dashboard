@@ -389,10 +389,11 @@ def news_card_html(item, now):
         <button class="copy-link" type="button" data-url="{esc(item['url'])}" data-title="{esc(item['title'])}"
                 title="リンクをコピー" aria-label="リンクをコピー">🔗 コピー</button>
       </div>
+      {f'<div class="theme-tags">{themes}</div>' if themes else ''}
       <h3 class="news-title"><a href="{esc(item['url'])}" target="_blank" rel="noopener">{esc(item['title'])}</a></h3>
       {summary}
       {comment}
-      <div class="themes">{themes}<span class="why" title="重要度の根拠">重要度の根拠: {esc(item.get('importance_reason', ''))}</span></div>
+      <div class="themes"><span class="why" title="重要度の根拠">重要度の根拠: {esc(item.get('importance_reason', ''))}</span></div>
       {impact_block}
       {related}
     </article>"""
@@ -465,6 +466,11 @@ def cluster_html(clusters):
         # あるテーマ型クラスターだけ、初検知後の育ち方を時系列で開ける
         # ようにする(既存の"同じ話題の他媒体"と同じdetails展開パターン)。
         growth_block = emergence_growth_html(c)
+        # [UI再設計 2026-09-21] 「この材料を見る」でニュース一覧側を
+        # このクラスターの構成記事だけに絞り込む(ユーザー要望「関連材料
+        # からニュース一覧へジャンプ」)。判定ロジックには関与せず、
+        # 既存のmember idの一覧をdata属性で渡すだけ。
+        member_ids = " ".join(esc(m["id"]) for m in c.get("members", []))
         out.append(f"""
       <div class="rank-row cluster-row">
         <div class="rank-line">
@@ -477,26 +483,43 @@ def cluster_html(clusters):
           <button class="rank-toggle" type="button" aria-label="関連ニュースの見出しを開く">▾</button>
         </div>
         <div class="cluster-stocks">{stock_chips}</div>
+        <button class="see-in-feed" type="button" data-filter-ids="{member_ids}" data-label="{esc(c['label'])}">🔎 この材料を見る</button>
         <ul class="rank-news">{headlines}</ul>{growth_block}
       </div>""")
     return "".join(out)
 
 
 def category_filter_html(categories, news):
+    """[UI再設計 2026-09-21] テーマ数が増えても固定バーが画面を圧迫しない
+    よう、「すべて」を除いてMAX_VISIBLE件を超える分は「その他」に畳む
+    (ユーザー要望「テーマを探すために画面をスクロールしなくていい状態」)。
+    判定ロジックには関与しない、表示順の調整のみ。
+    """
     counts = {}
     for n in news:
         counts[n["category"]] = counts.get(n["category"], 0) + 1
-    chips = ['<button class="filter-chip is-active" type="button" data-category="all">すべて'
-             f'<span class="chip-count">{len(news)}</span></button>']
+    all_chip = ('<button class="filter-chip filter-chip-all is-active" type="button" data-category="all">すべて'
+                f'<span class="chip-count">{len(news)}</span></button>')
+    visible, overflow = [], []
+    MAX_VISIBLE = 8
     for cat in categories:
         count = counts.get(cat["id"], 0)
         if not count:
             continue
-        chips.append(
-            f'<button class="filter-chip" type="button" data-category="{esc(cat["id"])}">'
+        target, cls = (
+            (visible, "filter-chip") if len(visible) < MAX_VISIBLE
+            else (overflow, "filter-chip filter-chip-overflow")
+        )
+        target.append(
+            f'<button class="{cls}" type="button" data-category="{esc(cat["id"])}">'
             f'{esc(cat.get("emoji", "📰"))} {esc(cat["label"])}<span class="chip-count">{count}</span></button>'
         )
-    return "".join(chips)
+    more_btn = (
+        '<button class="filter-chip filter-more" type="button" id="filterMoreToggle" aria-expanded="false">'
+        f'その他 <span class="chip-count">{len(overflow)}</span></button>'
+        if overflow else ""
+    )
+    return all_chip + "".join(visible) + more_btn + "".join(overflow)
 
 
 CSS = """
@@ -692,7 +715,7 @@ header.site::before{content:"";position:absolute;inset:0;pointer-events:none;
 .filter-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .filter-chip{background:var(--card);border:1px solid var(--line);color:var(--text);border-radius:999px;
   -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
-  padding:6px 13px;font-size:14px;cursor:pointer;display:inline-flex;gap:6px;align-items:center;
+  padding:5px 11px;font-size:13px;cursor:pointer;display:inline-flex;gap:5px;align-items:center;
   transition:box-shadow .2s,border-color .2s}
 .filter-chip:hover{border-color:var(--accent);box-shadow:var(--glow)}
 .filter-chip:not(.is-active):nth-of-type(5n+2){border-left:3px solid var(--accent-2)}
@@ -705,7 +728,14 @@ header.site::before{content:"";position:absolute;inset:0;pointer-events:none;
   border-color:var(--accent);color:#04140b;font-weight:700;box-shadow:var(--glow)}
 @keyframes duoFill{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
 :root[data-theme="light"] .filter-chip.is-active{animation:none}
-.chip-count{opacity:.95;font-size:12.5px;font-family:var(--font-mono)}
+.chip-count{opacity:.95;font-size:12px;font-family:var(--font-mono)}
+/* [UI再設計 2026-09-21] 「すべて」は折り返し対象外で常に先頭固定。
+   テーマ数が増えてMAX_VISIBLEを超えた分は「その他」の裏に隠し、
+   トグルで展開する(category_filter_html()参照)。 */
+.filter-chip-all{flex-shrink:0}
+.filter-chip-overflow{display:none}
+.filter-row.is-expanded .filter-chip-overflow{display:inline-flex}
+.filter-more{opacity:.85;border-style:dashed}
 .search-row{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
 .search-row input,.search-row select{background:var(--card);border:1px solid var(--line);color:var(--text);
   -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
@@ -716,6 +746,14 @@ header.site::before{content:"";position:absolute;inset:0;pointer-events:none;
 .active-filter.is-on{display:inline-flex}
 .active-filter button{background:transparent;border:1px solid var(--line);color:var(--text);
   border-radius:999px;padding:3px 10px;cursor:pointer;font-size:13.5px}
+/* [UI再設計 2026-09-21] 「つながっている材料」→ニュース一覧への絞り込み。
+   既存の.filter-chipより控えめな見た目にする(サイドパネル内なので
+   主役のニュース一覧より目立たせない)。 */
+.see-in-feed{margin-top:8px;background:transparent;border:1px solid rgba(34,211,238,.35);
+  color:var(--accent-2);border-radius:999px;padding:4px 12px;font-size:12.5px;cursor:pointer;
+  transition:box-shadow .2s,border-color .2s}
+.see-in-feed:hover{border-color:var(--accent-2);box-shadow:var(--glow-cyan)}
+.see-in-feed.is-active{background:var(--accent-2);color:#04140b;font-weight:700;border-color:var(--accent-2)}
 .fav-toggle.is-active{background:linear-gradient(135deg,var(--flat),var(--accent-5));color:#241a02;
   border-color:var(--flat);animation:none}
 .future-toggle.is-active{background:linear-gradient(135deg,var(--accent-3),var(--accent-2));color:#0a0620;
@@ -767,6 +805,27 @@ header.site::before{content:"";position:absolute;inset:0;pointer-events:none;
 .layout{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:22px;align-items:start}
 @media(max-width:960px){.layout{grid-template-columns:1fr}.controls{top:0}}
 
+/* [UI再設計 2026-09-21] 「固定UI/ニュース一覧/分析パネル」の3層分離。
+   961px以上だけ、ページ全体スクロールをやめて「ニュース一覧」と
+   「右側分析パネル」をそれぞれ独立スクロールにするapp-shell構造に
+   切り替える(960px以下は既存のsticky方式のフォールバックのまま=
+   このブロックより上の既存ルールを変更しない)。 */
+@media(min-width:961px){
+  #desktop-view{height:100vh;display:flex;flex-direction:column;overflow:hidden}
+  header.site{position:static;flex-shrink:0}
+  .controls{position:static;flex-shrink:0}
+  .wrap{display:flex;flex-direction:column;flex:1;min-height:0;padding-bottom:0;overflow:hidden}
+  /* align-items:stretch(既定のalign-items:startを上書き)しないと、
+     グリッドの行が中身(=全ニュース件数ぶんの高さ)に合わせて伸びてしまい、
+     mainのheight:100%が意味を持たない(実測: これが無いとページ全体が
+     縦に伸びきり、独立スクロールにならなかった)。 */
+  .layout{flex:1;min-height:0;height:100%;align-items:stretch;grid-template-rows:minmax(0,1fr)}
+  main{height:100%;overflow-y:auto;padding-right:6px;scrollbar-width:thin}
+  main::-webkit-scrollbar{width:8px}
+  main::-webkit-scrollbar-thumb{background:rgba(57,255,136,.25);border-radius:8px}
+  aside.side{position:static;max-height:none;height:100%}
+}
+
 .news-card{background:var(--card);border:1px solid var(--line);border-radius:16px;
   -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
   padding:18px 20px;margin-bottom:16px;box-shadow:var(--shadow),var(--glass-edge);
@@ -786,6 +845,11 @@ header.site::before{content:"";position:absolute;inset:0;pointer-events:none;
 .comment-label{display:inline-block;font-size:12.5px;color:var(--accent);margin-right:8px;font-weight:700}
 .themes{display:flex;flex-wrap:wrap;gap:7px;margin:8px 0 4px;font-size:13px;color:var(--muted)}
 .theme-tag{background:var(--card-2);border:1px solid var(--line);border-radius:6px;padding:1px 8px}
+/* [UI再設計 2026-09-21] テーマタグをカード上部(news-metaの直後)に移動し、
+   要約より前に一目で見えるようにする(ユーザー要望「重要度・先行情報・
+   テーマ・情報源・時間・影響銘柄をカード上部で瞬時に把握」)。 */
+.theme-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.theme-tags .theme-tag{font-size:12px}
 .why{opacity:.95}
 
 .impact-block{margin-top:12px;border-top:1px dashed var(--line);padding-top:12px}
@@ -939,6 +1003,20 @@ footer a{color:var(--accent)}
 .m-h2.accent-amber{color:#ffcb70}
 .m-h2.accent-violet{color:#b9aeff}
 .m-h2.accent-magenta{color:#f0a8dd}
+.m-h2-count{margin-left:auto;font-weight:400;opacity:.8}
+
+/* [UI再設計 2026-09-21] HOME上部の検索/絞り込み解除(コンパクトな
+   固定領域。詳細フィルターはPC版に譲り、まずは検索とワンタップ解除だけ)。 */
+.m-search-row{position:sticky;top:0;z-index:5;background:var(--bg);padding:6px 0 4px;margin:-4px 0 0}
+.m-search-input{width:100%;background:var(--glass-bg);border:1px solid var(--glass-border);color:#fff;
+  border-radius:12px;padding:10px 14px;font-size:14px;-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px)}
+.m-search-input:focus{outline:none;border-color:var(--accent-2)}
+.m-active-filter{display:none;align-items:center;gap:8px;font-size:12.5px;color:var(--muted);margin-top:8px}
+.m-active-filter.is-on{display:flex}
+.m-active-filter #mActiveFilterText{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.m-active-filter button{background:transparent;border:1px solid var(--glass-border);color:#fff;
+  border-radius:999px;padding:3px 10px;font-size:12px;cursor:pointer;flex-shrink:0}
+.m-see-in-feed{display:block;width:100%;text-align:center;margin-bottom:10px;padding:9px 12px;font-size:13px}
 
 .m-list{display:flex; flex-direction:column; gap:8px}
 /* 枠デザイン改良（ユーザー要望2026-09-19、株ボードと統一）:
@@ -971,6 +1049,10 @@ footer a{color:var(--accent)}
 .m-row-sub .up, .m-row-sub .down, .m-row-sub .flat{margin-left:7px; font-weight:700}
 .m-row-sub .up{color:var(--accent)} .m-row-sub .down{color:var(--up)} .m-row-sub .flat{color:var(--flat)}
 .m-code-chip{display:inline-block; margin-left:6px; font-family:var(--font-mono); font-size:10.5px; color:var(--muted)}
+/* [UI再設計 2026-09-21] 材料が集まっている銘柄→ニュース一覧への絞り込み用に
+   <div>から<button>に変えたので、ボタンのデフォルト見た目だけ打ち消す
+   (レイアウトは既存の.m-rowをそのまま使う)。 */
+.m-rank-row-btn{font:inherit;text-align:left;cursor:pointer;width:100%;-webkit-appearance:none;appearance:none}
 
 /* ニュース行は展開式: タップで影響銘柄の内訳をその場に開く(PC版へ飛ばさない、2026-09-19) */
 .m-news-row{flex-direction:column; align-items:stretch; padding:13px 14px 13px 16px}
@@ -1089,6 +1171,19 @@ JS = r"""
   });
 
   var main = document.querySelector('main');
+  // [UI再設計 2026-09-21] 961px以上ではmain(ニュース一覧)自身が
+  // overflow-y:autoで独立スクロールし、ページ(documentElement)は
+  // 動かない。960px以下は従来通りページ全体がスクロールする
+  // フォールバックのまま(main自身は内部スクロールを持たない)。
+  // どちらの状態かをCSSに問い合わせず、実際にmainがスクロール可能に
+  // なっているかで判定する(リサイズでbreakpointをまたいでも壊れない)。
+  function scrollEl(){
+    return (main && main.scrollHeight > main.clientHeight + 1) ? main : document.documentElement;
+  }
+  function scrollToTop(){
+    var el = scrollEl();
+    if(el.scrollTo){ el.scrollTo({ top: 0, behavior: 'smooth' }); } else { el.scrollTop = 0; }
+  }
   var cards = Array.prototype.slice.call(document.querySelectorAll('.news-card'));
   var searchInput = document.getElementById('searchInput');
   var minStars = document.getElementById('minStars');
@@ -1098,7 +1193,10 @@ JS = r"""
   var noResult = document.getElementById('noResult');
   var activeFilter = document.getElementById('activeFilter');
   var activeFilterText = document.getElementById('activeFilterText');
-  var state = { category:'all', text:'', stars:0, code:'', sort:'new', favOnly:false, futureOnly:false };
+  // memberIds: 「この材料を見る」で選んだクラスターの構成記事id集合。
+  // ページをまたいで保存する対象ではない(その場限りの絞り込みのため
+  // persist()には含めない)。
+  var state = { category:'all', text:'', stars:0, code:'', sort:'new', favOnly:false, futureOnly:false, memberIds:null };
 
   var favorites = [];
   try{ favorites = JSON.parse(localStorage.getItem('fav_stocks') || '[]'); }catch(e){ favorites = []; }
@@ -1145,6 +1243,7 @@ JS = r"""
       if(state.category !== 'all' && card.dataset.category !== state.category){ ok = false; }
       if(ok && state.stars && parseInt(card.dataset.importance,10) < state.stars){ ok = false; }
       if(ok && state.code && (' ' + card.dataset.codes + ' ').indexOf(' ' + state.code + ' ') === -1){ ok = false; }
+      if(ok && state.memberIds && !state.memberIds.has(card.id.replace(/^news-/, ''))){ ok = false; }
       if(ok && state.favOnly){
         var codes = (card.dataset.codes || '').split(/\s+/).filter(Boolean);
         ok = codes.some(isFav);
@@ -1161,9 +1260,15 @@ JS = r"""
     if(state.code){
       activeFilter.classList.add('is-on');
       activeFilterText.textContent = '銘柄コード ' + state.code + ' に関係するニュースのみ表示中';
+    } else if(state.memberIds){
+      activeFilter.classList.add('is-on');
+      activeFilterText.textContent = '「' + (state.memberLabel || 'この材料') + '」に関係するニュースのみ表示中';
     } else {
       activeFilter.classList.remove('is-on');
     }
+    document.querySelectorAll('.see-in-feed').forEach(function(btn){
+      btn.classList.toggle('is-active', !!state.memberIds && btn.dataset.active === '1');
+    });
   }
 
   function sortCards(){
@@ -1177,14 +1282,26 @@ JS = r"""
     arr.forEach(function(card){ main.insertBefore(card, noResult); });
   }
 
+  var filterRow = document.querySelector('.filter-row');
   document.querySelectorAll('.filter-chip[data-category]').forEach(function(chip){
-    chip.classList.toggle('is-active', chip.dataset.category === state.category);
+    var active = chip.dataset.category === state.category;
+    chip.classList.toggle('is-active', active);
+    // 復元した選択テーマが「その他」に畳まれている場合は、選べなくなら
+    // ないよう最初から展開しておく(2026-09-21 UI再設計)。
+    if(active && chip.classList.contains('filter-chip-overflow') && filterRow){
+      filterRow.classList.add('is-expanded');
+    }
     chip.addEventListener('click', function(){
       document.querySelectorAll('.filter-chip[data-category]').forEach(function(c){ c.classList.remove('is-active'); });
       chip.classList.add('is-active');
       state.category = chip.dataset.category;
       apply(); persist();
     });
+  });
+  var filterMoreToggle = document.getElementById('filterMoreToggle');
+  filterMoreToggle && filterMoreToggle.addEventListener('click', function(){
+    var open = filterRow.classList.toggle('is-expanded');
+    filterMoreToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
   });
   if(searchInput){ searchInput.value = state.text; }
   if(minStars){ minStars.value = String(state.stars); }
@@ -1249,7 +1366,28 @@ JS = r"""
     if(btn){
       state.code = (state.code === btn.dataset.filterCode) ? '' : btn.dataset.filterCode;
       apply();
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      scrollToTop();
+      return;
+    }
+
+    // [UI再設計 2026-09-21] 「この材料を見る」→ニュース一覧をこの
+    // クラスターの構成記事だけに絞り込む(トグル式。同じボタンを再度
+    // クリックすると解除)。既存の[data-filter-code]と同じ考え方だが、
+    // 絞り込み対象が銘柄コード1つではなく記事id集合なのでstate.memberIdsを使う。
+    var seeBtn = ev.target.closest ? ev.target.closest('[data-filter-ids]') : null;
+    if(seeBtn){
+      var wasActive = seeBtn.dataset.active === '1';
+      document.querySelectorAll('.see-in-feed').forEach(function(b){ b.dataset.active = '0'; });
+      if(wasActive){
+        state.memberIds = null; state.memberLabel = '';
+      } else {
+        var ids = seeBtn.dataset.filterIds.split(/\s+/).filter(Boolean);
+        state.memberIds = new Set(ids);
+        state.memberLabel = seeBtn.dataset.label || 'この材料';
+        seeBtn.dataset.active = '1';
+      }
+      apply();
+      scrollToTop();
       return;
     }
   });
@@ -1264,26 +1402,28 @@ JS = r"""
     }
     if(ev.key === 'Escape'){
       if(searchInput){ searchInput.value = ''; searchInput.blur(); }
-      state.text = ''; state.code = '';
+      state.text = ''; state.code = ''; state.memberIds = null;
       apply(); persist();
     }
   });
 
   var clearBtn = document.getElementById('clearCode');
-  clearBtn && clearBtn.addEventListener('click', function(){ state.code = ''; apply(); });
+  clearBtn && clearBtn.addEventListener('click', function(){ state.code = ''; state.memberIds = null; apply(); });
 
   var backTop = document.getElementById('backTop');
   var scrollProgress = document.getElementById('scrollProgress');
   function onScroll(){
-    backTop.classList.toggle('is-on', window.scrollY > 600);
+    var el = scrollEl();
+    var top = (el === main) ? main.scrollTop : (window.scrollY || document.documentElement.scrollTop);
+    backTop.classList.toggle('is-on', top > 600);
     if(scrollProgress){
-      var h = document.documentElement;
-      var scrollable = h.scrollHeight - h.clientHeight;
-      scrollProgress.style.width = (scrollable > 0 ? (h.scrollTop / scrollable) * 100 : 0) + '%';
+      var scrollable = el.scrollHeight - el.clientHeight;
+      scrollProgress.style.width = (scrollable > 0 ? (top / scrollable) * 100 : 0) + '%';
     }
   }
   window.addEventListener('scroll', onScroll, { passive: true });
-  backTop.addEventListener('click', function(){ window.scrollTo({ top:0, behavior:'smooth' }); });
+  main && main.addEventListener('scroll', onScroll, { passive: true });
+  backTop.addEventListener('click', scrollToTop);
 
   syncFavButtons();
   sortCards();
@@ -1349,6 +1489,69 @@ JS = r"""
     if (toggle) toggle.click();
   };
 
+  // [UI再設計 2026-09-21] HOME上部の検索と、MATERIALSタブの「この材料/
+  // 銘柄を見る」からのHOME絞り込み。デスクトップ側のstate/apply()とは
+  // 別実装(モバイルはDOM構造が違うため)だが、考え方は同じ:
+  // テキスト一致 or id/コード一致でm-news-rowの表示・非表示を切り替える。
+  var mState = { text: '', ids: null, code: '', label: '' };
+  var mSearchInput = document.getElementById('mSearchInput');
+  var mActiveFilter = document.getElementById('mActiveFilter');
+  var mActiveFilterText = document.getElementById('mActiveFilterText');
+  var mNoResult = document.getElementById('mNoResult');
+
+  function mApply() {
+    var rows = document.querySelectorAll('#mNewsList .m-news-row');
+    var shown = 0;
+    rows.forEach(function (row) {
+      var ok = true;
+      if (ok && mState.ids && !mState.ids.has(row.id.replace(/^m-news-/, ''))) { ok = false; }
+      if (ok && mState.code) {
+        var codes = (row.dataset.mCodes || '').split(/\s+/).filter(Boolean);
+        if (codes.indexOf(mState.code) === -1) { ok = false; }
+      }
+      if (ok && mState.text) {
+        var blob = (row.dataset.mSearch || '').toLowerCase();
+        ok = mState.text.split(/\s+/).every(function (w) { return !w || blob.indexOf(w) !== -1; });
+      }
+      row.style.display = ok ? '' : 'none';
+      if (ok) shown++;
+    });
+    if (mNoResult) mNoResult.style.display = shown ? 'none' : 'block';
+    if (mActiveFilter) {
+      var on = !!(mState.ids || mState.code);
+      mActiveFilter.classList.toggle('is-on', on);
+      if (on && mActiveFilterText) { mActiveFilterText.textContent = '「' + mState.label + '」で絞り込み中'; }
+    }
+  }
+
+  mSearchInput && mSearchInput.addEventListener('input', function () {
+    mState.text = mSearchInput.value.trim().toLowerCase();
+    mApply();
+  });
+  var mClearFilter = document.getElementById('mClearFilter');
+  mClearFilter && mClearFilter.addEventListener('click', function () {
+    mState.ids = null; mState.code = ''; mState.label = '';
+    mApply();
+  });
+
+  document.addEventListener('click', function (ev) {
+    var seeBtn = ev.target.closest ? ev.target.closest('[data-m-filter-ids]') : null;
+    if (seeBtn) {
+      var ids = seeBtn.dataset.mFilterIds.split(/\s+/).filter(Boolean);
+      mState.ids = new Set(ids); mState.code = ''; mState.label = seeBtn.dataset.mLabel || 'この材料';
+      mApply();
+      window.mobileGoTo('home');
+      return;
+    }
+    var codeBtn = ev.target.closest ? ev.target.closest('[data-m-filter-code]') : null;
+    if (codeBtn) {
+      mState.code = codeBtn.dataset.mFilterCode; mState.ids = null; mState.label = codeBtn.dataset.mLabel || mState.code;
+      mApply();
+      window.mobileGoTo('home');
+      return;
+    }
+  });
+
   // PWAインストール可否の必須条件（Service Worker登録実績）を満たす。
   // GitHub Pages配信(HTTPS)なので株ボードと違い実際にPush通知等も
   // 将来使える。登録失敗時は他の機能に影響しないよう例外を握りつぶす。
@@ -1390,6 +1593,9 @@ MOBILE_TAB_ICONS = {
     "settings": '<svg class="m-tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">'
                 '<circle cx="12" cy="12" r="3.2"/>'
                 '<path d="M12 3.5v2.4M12 18.1v2.4M20.5 12h-2.4M5.9 12H3.5M17.7 6.3l-1.7 1.7M8 16l-1.7 1.7M17.7 17.7 16 16M8 8 6.3 6.3" stroke-linecap="round"/></svg>',
+    "materials": '<svg class="m-tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">'
+                 '<circle cx="6" cy="7" r="2.6"/><circle cx="18" cy="7" r="2.6"/><circle cx="12" cy="18" r="2.6"/>'
+                 '<path d="M8.3 8.6 10 15.5M15.7 8.6 14 15.5" stroke-linecap="round"/></svg>',
 }
 
 # セクション見出しのアイコン（絵文字廃止・ユーザー要望2026-09-19。株ボードと
@@ -1444,6 +1650,9 @@ def mobile_cluster_row(c):
         if chip_label else ""
     )
     growth_block = emergence_growth_html(c)
+    # [UI再設計 2026-09-21] MATERIALSタブから「この材料を見る」でHOMEの
+    # ニュース一覧を絞り込む(デスクトップのsee-in-feedと同じ考え方)。
+    member_ids = " ".join(esc(m["id"]) for m in c.get("members", []))
     return f"""
   <div class="m-row m-news-row">
     <button class="m-row-head" type="button" onclick="this.closest('.m-news-row').classList.toggle('is-expanded')">
@@ -1455,6 +1664,7 @@ def mobile_cluster_row(c):
       <svg class="m-row-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </button>
     <div class="m-impact-panel">
+      <button class="see-in-feed m-see-in-feed" type="button" data-m-filter-ids="{member_ids}" data-m-label="{esc(c['label'])}">🔎 この材料をニュース一覧で見る</button>
       {members}
       {growth_block}
     </div>
@@ -1487,8 +1697,14 @@ def mobile_news_row(item):
         f'<span class="m-emergence-chip" data-stage="{esc(item.get("emergence_stage"))}">{esc(emergence_label)}</span>'
         if emergence_label else ""
     )
+    # [UI再設計 2026-09-21] HOME上部の検索・材料/銘柄からの絞り込みで
+    # 対象を特定するためのid・検索用テキスト(既存のdesktop版news-cardの
+    # data-search/idと同じ考え方をモバイル側にも持たせるだけ)。
+    codes = " ".join(i["code"] for i in impacts)
+    names = " ".join(i["name"] for i in impacts)
+    search_blob = esc(f"{item['title']} {item.get('source', '')} {codes} {names}")
     return f"""
-  <div class="m-row m-news-row">
+  <div class="m-row m-news-row" id="m-news-{esc(item['id'])}" data-m-codes="{esc(codes)}" data-m-search="{search_blob}">
     <button class="m-row-head" type="button" onclick="this.closest('.m-news-row').classList.toggle('is-expanded')">
       <div class="m-row-main">
         <span class="m-row-cat">{esc(item.get('category_emoji', '📰'))} {esc(item.get('category_label', ''))}{emergence_chip}</span>
@@ -1509,8 +1725,9 @@ def mobile_app_html(data, now):
     categories = data.get("categories", [])
     ranking = data.get("stock_ranking", [])[:10]
 
-    # HOME: 重要度上位5件。カテゴリ別はカテゴリ画面に譲る。
-    top_news = sorted(news, key=lambda n: -(n.get("importance") or 0))[:5]
+    # [UI再設計 2026-09-21] HOMEはニュース一覧そのものを主役にする
+    # (旧: 重要度上位5件のみ→つながっている材料→材料が集まっている銘柄、
+    # という縦積みで窮屈だった。後者2つはMATERIALSタブへ分離した)。
     high_importance = [n for n in news if (n.get("importance") or 0) >= 4]
 
     counts = {}
@@ -1528,13 +1745,13 @@ def mobile_app_html(data, now):
     )
 
     ranking_rows = "".join(f"""
-  <div class="m-row m-rank-row">
+  <button type="button" class="m-row m-rank-row m-rank-row-btn" data-m-filter-code="{esc(row['code'])}" data-m-label="{esc(row['name'])}">
     <div class="m-row-main">
       <span class="m-rank" data-top="{i + 1 if i + 1 <= 3 else 0}">{i + 1}</span>
       <span class="m-row-title">{esc(row['name'])}<span class="m-code-chip">{esc(row['code'])}</span></span>
     </div>
     <span class="m-chg {'up' if row['score'] > 0 else 'down' if row['score'] < 0 else 'flat'}">{row['mentions']}件</span>
-  </div>""" for i, row in enumerate(ranking))
+  </button>""" for i, row in enumerate(ranking))
 
     cluster_rows = "".join(mobile_cluster_row(c) for c in data.get("clusters", []))
 
@@ -1550,11 +1767,21 @@ def mobile_app_html(data, now):
   <div class="m-screens">
     <section class="m-screen is-active" data-screen="home">
       {verification_status_html(data.get("verification_status"))}
-      <h2 class="m-h2 accent-amber">{MOBILE_H2_ICONS['importance']}重要度の高いニュース</h2>
-      <div class="m-list">
-        {''.join(mobile_news_row(n) for n in top_news) if top_news else '<p class="m-empty">今回はニュースを取得できませんでした</p>'}
+      <div class="m-search-row">
+        <input id="mSearchInput" type="search" placeholder="キーワード・銘柄名で絞り込み" class="m-search-input">
+        <span class="m-active-filter" id="mActiveFilter">
+          <span id="mActiveFilterText"></span>
+          <button id="mClearFilter" type="button">解除</button>
+        </span>
       </div>
+      <h2 class="m-h2 accent-amber">{MOBILE_H2_ICONS['importance']}ニュース一覧<span class="m-h2-count">{len(news)}件</span></h2>
+      <div class="m-list" id="mNewsList">
+        {''.join(mobile_news_row(n) for n in news) if news else '<p class="m-empty">今回はニュースを取得できませんでした</p>'}
+      </div>
+      <p class="m-empty" id="mNoResult" style="display:none">条件に一致するニュースはありません。絞り込みを緩めてください。</p>
+    </section>
 
+    <section class="m-screen" data-screen="materials">
       <h2 class="m-h2 accent-magenta">{MOBILE_H2_ICONS['clusters']}つながっている材料</h2>
       <div class="m-list">
         {cluster_rows if cluster_rows else '<p class="m-empty">今回は複数ニュースにまたがる材料はありません</p>'}
@@ -1590,6 +1817,7 @@ def mobile_app_html(data, now):
 
   <nav class="m-tabbar">
     <button class="m-tab is-active" data-tab="home" onclick="mobileGoTo('home')">{MOBILE_TAB_ICONS['home']}<i>HOME</i></button>
+    <button class="m-tab" data-tab="materials" onclick="mobileGoTo('materials')">{MOBILE_TAB_ICONS['materials']}<i>MATERIALS</i></button>
     <button class="m-tab" data-tab="category" onclick="mobileGoTo('category')">{MOBILE_TAB_ICONS['category']}<i>CATEGORY</i></button>
     <button class="m-tab" data-tab="settings" onclick="mobileGoTo('settings')">{MOBILE_TAB_ICONS['settings']}<i>SET</i></button>
   </nav>
@@ -1663,13 +1891,6 @@ def build_html(data):
 </header>
 
 <div class="wrap">
-  {sample_banner}
-  <div class="notice">
-    ⚠️ <b>投資助言ではありません。</b> 各ニュースの「影響が出うる銘柄」は、キーワードルールにもとづく
-    機械的な関連付けであり、株価の値動きを保証するものではありません。{esc(llm_note)}
-  </div>
-  {verify_status_block}
-
   <div class="controls">
     <div class="filter-row">{category_filter_html(categories, news)}</div>
     <div class="search-row">
@@ -1695,8 +1916,22 @@ def build_html(data):
 
   <div class="layout">
     <main>
+      {sample_banner}
+      <div class="notice">
+        ⚠️ <b>投資助言ではありません。</b> 各ニュースの「影響が出うる銘柄」は、キーワードルールにもとづく
+        機械的な関連付けであり、株価の値動きを保証するものではありません。{esc(llm_note)}
+      </div>
+      {verify_status_block}
       {cards}
       <p class="no-result" id="noResult">条件に一致するニュースはありません。絞り込みを緩めてください。</p>
+      <footer>
+        <p>⚠️ {DISCLAIMER}</p>
+        <p>情報源: Google ニュース RSS (news.google.com) / 株価リンク: Yahoo!ファイナンス。
+          各情報の著作権は提供元に帰属します。</p>
+        <p>以前のテクニカル指標つきデイトレードダッシュボードは
+          <a href="dashboard.html">dashboard.html</a> に残しています。</p>
+        <p>生成日時: {esc(data.get('generated_iso', ''))} ・ {esc(data.get('status_message', ''))}</p>
+      </footer>
     </main>
     <aside class="side">
       <div class="panel">
@@ -1722,15 +1957,6 @@ def build_html(data):
       </div>
     </aside>
   </div>
-
-  <footer>
-    <p>⚠️ {DISCLAIMER}</p>
-    <p>情報源: Google ニュース RSS (news.google.com) / 株価リンク: Yahoo!ファイナンス。
-      各情報の著作権は提供元に帰属します。</p>
-    <p>以前のテクニカル指標つきデイトレードダッシュボードは
-      <a href="dashboard.html">dashboard.html</a> に残しています。</p>
-    <p>生成日時: {esc(data.get('generated_iso', ''))} ・ {esc(data.get('status_message', ''))}</p>
-  </footer>
 </div>
 <button class="back-top" id="backTop" type="button" aria-label="上に戻る">↑</button>
 </div><!-- /#desktop-view -->
