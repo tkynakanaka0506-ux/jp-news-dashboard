@@ -308,6 +308,23 @@ header.site::before{content:"";position:absolute;inset:0;pointer-events:none;
   #desktop-view{height:100vh;display:flex;flex-direction:column;overflow:hidden}
   header.site{position:static;flex-shrink:0}
   .controls{position:static;flex-shrink:0}
+  /* [固定枠の圧縮 2026-09-21] ユーザー報告「ニュース項目で見える範囲が
+     狭い」への対応。header/market-bar/controlsが独立スクロールの外に
+     固定されたことで専有面積の影響が相対的に大きくなったため、961px
+     以上だけ縦の余白・文字サイズを詰める(960px以下のフォールバックは
+     このブロックの外なので無変更)。brand行はeyebrow/h1/subの3行縦積みを
+     1行の横並びに変え、判定ロジック・機能は一切変えていない。 */
+  .head-inner{padding:8px 20px 6px;align-items:center}
+  .brand{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+  .brand h1{font-size:19px}
+  .brand .eyebrow{display:none}
+  .brand .sub{margin-top:0}
+  .market-bar{padding:0 20px 8px}
+  .ticker{padding:4px 10px;font-size:12.5px}
+  .controls{padding:6px 0 8px}
+  .filter-chip{padding:4px 9px;font-size:12px}
+  .search-row{margin-top:6px}
+  .search-row input,.search-row select{padding:6px 10px}
   .wrap{display:flex;flex-direction:column;flex:1;min-height:0;padding-bottom:0;overflow:hidden}
   /* align-items:stretch(既定のalign-items:startを上書き)しないと、
      グリッドの行が中身(=全ニュース件数ぶんの高さ)に合わせて伸びてしまい、
@@ -656,7 +673,7 @@ footer a{color:var(--accent)}
 <div id="mobile-app">
   <header class="m-topbar">
     <div class="m-brand"><svg class="m-h2-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 16 9 10l4 4 8-9" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 5h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg>日本株ニュース</div>
-    <div class="m-updated">2026-09-21 14:02 更新</div>
+    <div class="m-updated">2026-09-21 14:18 更新</div>
   </header>
 
   <div class="m-screens">
@@ -695,7 +712,7 @@ footer a{color:var(--accent)}
       <a class="m-row-link" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9qOWcwNGF1RmdGektXN0t3ZW13TGNlOGJDQWhfMVBsNmxNM1U0VEJpVlZKc015NWF1V3FSTC0xeWJ5VWdVb3o2STdldXprS2tCNEJ3WFkxcENfZmx4QXZSNkQxbmFQaVU4QkNLd3NvUjNHNVJDQ3RCeURYcHpuUEk?oc=5" target="_blank" rel="noopener">元記事を読む ↗</a>
     </div>
   </div>
-  <div class="m-row m-news-row" id="m-news-10f3a9d7bca4" data-m-codes="7203 7267 7201 7269 7270 7261 9983 3382" data-m-search="FX/為替「ドル/円今日の見通し｜日銀は期待ほどタカ派とならず 為替介入に警戒しつつ円安地合いは続く」 外為どっとコム トゥデイ 2026年9月21日号 gaitame.com 7203 7267 7201 7269 7270 7261 9983 3382 トヨタ自動車 本田技研工業 日産自動車 スズキ SUBARU マツダ ファーストリテイリング セブン&amp;アイ・ホールディングス">
+  <div class="m-row m-news-row" id="m-news-10f3a9d7bca4" data-m-codes="7203 7267 7201 7269 7270 7261 9983 3382" data-m-search="FX/為替「ドル/円今日の見通し｜日銀は期待ほどタカ派とならず 為替介入に警戒しつつ円安地合いは続く」 外為どっとコム トゥデイ 2026年9月21日号 外為どっとコム 7203 7267 7201 7269 7270 7261 9983 3382 トヨタ自動車 本田技研工業 日産自動車 スズキ SUBARU マツダ ファーストリテイリング セブン&amp;アイ・ホールディングス">
     <button class="m-row-head" type="button" onclick="this.closest('.m-news-row').classList.toggle('is-expanded')">
       <div class="m-row-main">
         <span class="m-row-cat">💱 為替</span>
@@ -709,7 +726,7 @@ footer a{color:var(--accent)}
       <a class="m-row-link" href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE4wNmJ6WjRIZHRORnBpd21OM016MjJGNDN3Rnlxb0NRWEJ4RnlfOEFaVGZUMnllaUhDN1o4UmhGOFlKWWRaZ29uQWp3SV95MllKTFlSQzVRTzBHQk40YjA2a2lTTQ?oc=5" target="_blank" rel="noopener">元記事を読む ↗</a>
     </div>
   </div>
-  <div class="m-row m-news-row" id="m-news-03dce7d7c8a6" data-m-codes="8306 8316 8411 8309 7182 8766 8801 8802" data-m-search="日銀利上げで政策金利「中立金利レンジ」到達、長期金利の“良い上昇・悪い上昇”を分ける4つの要因 diamond.jp 8306 8316 8411 8309 7182 8766 8801 8802 三菱UFJフィナンシャル・グループ 三井住友フィナンシャルグループ みずほフィナンシャルグループ 三井住友トラスト・ホールディングス ゆうちょ銀行 東京海上ホールディングス 三井不動産 三菱地所">
+  <div class="m-row m-news-row" id="m-news-03dce7d7c8a6" data-m-codes="8306 8316 8411 8309 7182 8766 8801 8802" data-m-search="日銀利上げで政策金利「中立金利レンジ」到達、長期金利の“良い上昇・悪い上昇”を分ける4つの要因 ダイヤモンド・オンライン 8306 8316 8411 8309 7182 8766 8801 8802 三菱UFJフィナンシャル・グループ 三井住友フィナンシャルグループ みずほフィナンシャルグループ 三井住友トラスト・ホールディングス ゆうちょ銀行 東京海上ホールディングス 三井不動産 三菱地所">
     <button class="m-row-head" type="button" onclick="this.closest('.m-news-row').classList.toggle('is-expanded')">
       <div class="m-row-main">
         <span class="m-row-cat">🏦 金融政策・金利</span>
@@ -723,7 +740,7 @@ footer a{color:var(--accent)}
       <a class="m-row-link" href="https://news.google.com/rss/articles/CBMiTEFVX3lxTFBKOVFUU1pndWFIS2hpVW95OHlZUmJ4WTM0S2lTNGpOV051NDd3d1B1RjdTdzAxT0w2TGdJVkFQQjVEMmczQ2NUT2owQi3SAU9BVV95cUxNLTRNVFpMTmMzYVJfcHFjRUpLekZfeW5uOWYzRkRyNzcxOTY1UFhBaVRkeDNHenJ1Q1RaZmZ3eFMxcVBBS2o4ZXhLLU0xOEtF?oc=5" target="_blank" rel="noopener">元記事を読む ↗</a>
     </div>
   </div>
-  <div class="m-row m-news-row" id="m-news-8e8da903b767" data-m-codes="8306 1605 8316 5020 8411 7203 7267 7201" data-m-search="日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】 gaitame.com 8306 1605 8316 5020 8411 7203 7267 7201 三菱UFJフィナンシャル・グループ INPEX 三井住友フィナンシャルグループ ENEOSホールディングス みずほフィナンシャルグループ トヨタ自動車 本田技研工業 日産自動車">
+  <div class="m-row m-news-row" id="m-news-8e8da903b767" data-m-codes="8306 1605 8316 5020 8411 7203 7267 7201" data-m-search="日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】 外為どっとコム 8306 1605 8316 5020 8411 7203 7267 7201 三菱UFJフィナンシャル・グループ INPEX 三井住友フィナンシャルグループ ENEOSホールディングス みずほフィナンシャルグループ トヨタ自動車 本田技研工業 日産自動車">
     <button class="m-row-head" type="button" onclick="this.closest('.m-news-row').classList.toggle('is-expanded')">
       <div class="m-row-main">
         <span class="m-row-cat">💱 為替</span>
@@ -905,7 +922,7 @@ footer a{color:var(--accent)}
       <a class="m-row-link" href="https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdVZkam5xMlZETFRibE1KYnYzTDFsOHBveVVPQkFrS1M2d2xIVlpaY3NqUGxaaWVIMFExWkJMbFFLclhDa1Z5REF3Ml9Bc01wc21TVWc5SFRsX0FiV29IVFdLajZOaFFDWGJqaHRRRGRWSWowMTZFTmVLNlE2Tm9fWkxUQUtQNm0xSUo4UFRtQ21adHR1VTloMDBHcUZuVkVOdnFnWWZ5bVpiazNHSHVBNWlkN3EwNGhQSk9TMThVZV9hZXU4bjdmVEU3aDVEcTNpWVE?oc=5" target="_blank" rel="noopener">元記事を読む ↗</a>
     </div>
   </div>
-  <div class="m-row m-news-row" id="m-news-988516e9f117" data-m-codes="" data-m-search="来週のドル円相場はどうなる？9/21週のイベント予定 2026年9月20日 gaitame.com  ">
+  <div class="m-row m-news-row" id="m-news-988516e9f117" data-m-codes="" data-m-search="来週のドル円相場はどうなる？9/21週のイベント予定 2026年9月20日 外為どっとコム  ">
     <button class="m-row-head" type="button" onclick="this.closest('.m-news-row').classList.toggle('is-expanded')">
       <div class="m-row-main">
         <span class="m-row-cat">💱 為替</span>
@@ -1270,7 +1287,7 @@ footer a{color:var(--accent)}
       <h3 class="m-cat-h3">🏦 金融政策・金利<span class="m-cat-count">1</span></h3>
       <div class="m-list">
         
-  <div class="m-row m-news-row" id="m-news-03dce7d7c8a6" data-m-codes="8306 8316 8411 8309 7182 8766 8801 8802" data-m-search="日銀利上げで政策金利「中立金利レンジ」到達、長期金利の“良い上昇・悪い上昇”を分ける4つの要因 diamond.jp 8306 8316 8411 8309 7182 8766 8801 8802 三菱UFJフィナンシャル・グループ 三井住友フィナンシャルグループ みずほフィナンシャルグループ 三井住友トラスト・ホールディングス ゆうちょ銀行 東京海上ホールディングス 三井不動産 三菱地所">
+  <div class="m-row m-news-row" id="m-news-03dce7d7c8a6" data-m-codes="8306 8316 8411 8309 7182 8766 8801 8802" data-m-search="日銀利上げで政策金利「中立金利レンジ」到達、長期金利の“良い上昇・悪い上昇”を分ける4つの要因 ダイヤモンド・オンライン 8306 8316 8411 8309 7182 8766 8801 8802 三菱UFJフィナンシャル・グループ 三井住友フィナンシャルグループ みずほフィナンシャルグループ 三井住友トラスト・ホールディングス ゆうちょ銀行 東京海上ホールディングス 三井不動産 三菱地所">
     <button class="m-row-head" type="button" onclick="this.closest('.m-news-row').classList.toggle('is-expanded')">
       <div class="m-row-main">
         <span class="m-row-cat">🏦 金融政策・金利</span>
@@ -1304,7 +1321,7 @@ footer a{color:var(--accent)}
       <a class="m-row-link" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9qOWcwNGF1RmdGektXN0t3ZW13TGNlOGJDQWhfMVBsNmxNM1U0VEJpVlZKc015NWF1V3FSTC0xeWJ5VWdVb3o2STdldXprS2tCNEJ3WFkxcENfZmx4QXZSNkQxbmFQaVU4QkNLd3NvUjNHNVJDQ3RCeURYcHpuUEk?oc=5" target="_blank" rel="noopener">元記事を読む ↗</a>
     </div>
   </div>
-  <div class="m-row m-news-row" id="m-news-10f3a9d7bca4" data-m-codes="7203 7267 7201 7269 7270 7261 9983 3382" data-m-search="FX/為替「ドル/円今日の見通し｜日銀は期待ほどタカ派とならず 為替介入に警戒しつつ円安地合いは続く」 外為どっとコム トゥデイ 2026年9月21日号 gaitame.com 7203 7267 7201 7269 7270 7261 9983 3382 トヨタ自動車 本田技研工業 日産自動車 スズキ SUBARU マツダ ファーストリテイリング セブン&amp;アイ・ホールディングス">
+  <div class="m-row m-news-row" id="m-news-10f3a9d7bca4" data-m-codes="7203 7267 7201 7269 7270 7261 9983 3382" data-m-search="FX/為替「ドル/円今日の見通し｜日銀は期待ほどタカ派とならず 為替介入に警戒しつつ円安地合いは続く」 外為どっとコム トゥデイ 2026年9月21日号 外為どっとコム 7203 7267 7201 7269 7270 7261 9983 3382 トヨタ自動車 本田技研工業 日産自動車 スズキ SUBARU マツダ ファーストリテイリング セブン&amp;アイ・ホールディングス">
     <button class="m-row-head" type="button" onclick="this.closest('.m-news-row').classList.toggle('is-expanded')">
       <div class="m-row-main">
         <span class="m-row-cat">💱 為替</span>
@@ -1318,7 +1335,7 @@ footer a{color:var(--accent)}
       <a class="m-row-link" href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE4wNmJ6WjRIZHRORnBpd21OM016MjJGNDN3Rnlxb0NRWEJ4RnlfOEFaVGZUMnllaUhDN1o4UmhGOFlKWWRaZ29uQWp3SV95MllKTFlSQzVRTzBHQk40YjA2a2lTTQ?oc=5" target="_blank" rel="noopener">元記事を読む ↗</a>
     </div>
   </div>
-  <div class="m-row m-news-row" id="m-news-8e8da903b767" data-m-codes="8306 1605 8316 5020 8411 7203 7267 7201" data-m-search="日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】 gaitame.com 8306 1605 8316 5020 8411 7203 7267 7201 三菱UFJフィナンシャル・グループ INPEX 三井住友フィナンシャルグループ ENEOSホールディングス みずほフィナンシャルグループ トヨタ自動車 本田技研工業 日産自動車">
+  <div class="m-row m-news-row" id="m-news-8e8da903b767" data-m-codes="8306 1605 8316 5020 8411 7203 7267 7201" data-m-search="日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】 外為どっとコム 8306 1605 8316 5020 8411 7203 7267 7201 三菱UFJフィナンシャル・グループ INPEX 三井住友フィナンシャルグループ ENEOSホールディングス みずほフィナンシャルグループ トヨタ自動車 本田技研工業 日産自動車">
     <button class="m-row-head" type="button" onclick="this.closest('.m-news-row').classList.toggle('is-expanded')">
       <div class="m-row-main">
         <span class="m-row-cat">💱 為替</span>
@@ -1346,7 +1363,7 @@ footer a{color:var(--accent)}
       <a class="m-row-link" href="https://news.google.com/rss/articles/CBMiUkFVX3lxTFBRRTh2OElzMEt0d19UU2RZVjZoeXRZc3lpMXdNa0lmZTdWeGdnQ21mMGhOUFpCMXJmLVJCMlVaSVpkakVmaTRWR2MyaDhPbk1namc?oc=5" target="_blank" rel="noopener">元記事を読む ↗</a>
     </div>
   </div>
-  <div class="m-row m-news-row" id="m-news-988516e9f117" data-m-codes="" data-m-search="来週のドル円相場はどうなる？9/21週のイベント予定 2026年9月20日 gaitame.com  ">
+  <div class="m-row m-news-row" id="m-news-988516e9f117" data-m-codes="" data-m-search="来週のドル円相場はどうなる？9/21週のイベント予定 2026年9月20日 外為どっとコム  ">
     <button class="m-row-head" type="button" onclick="this.closest('.m-news-row').classList.toggle('is-expanded')">
       <div class="m-row-main">
         <span class="m-row-cat">💱 為替</span>
@@ -1576,7 +1593,7 @@ footer a{color:var(--accent)}
 
     <section class="m-screen" data-screen="settings">
       <h2 class="m-h2"><svg class="m-h2-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3.2"/><path d="M12 3.5v2.4M12 18.1v2.4M20.5 12h-2.4M5.9 12H3.5M17.7 6.3l-1.7 1.7M8 16l-1.7 1.7M17.7 17.7 16 16M8 8 6.3 6.3" stroke-linecap="round"/></svg>設定</h2>
-      <div class="m-settings-row"><span>最終更新</span><span>2026-09-21 14:02</span></div>
+      <div class="m-settings-row"><span>最終更新</span><span>2026-09-21 14:18</span></div>
       <div class="m-settings-row"><span>ニュース件数</span><span>18件</span></div>
       <button class="m-cta" onclick="mobileToggleTheme()"><svg class="m-cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z" stroke-linejoin="round"/></svg>テーマ切り替え</button>
       <button class="m-cta" onclick="mobileShowDesktop()" style="margin-top:10px"><svg class="m-cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4.5" width="18" height="12" rx="1.6"/><path d="M8.5 20h7M12 16.5V20" stroke-linecap="round"/></svg>PC版を表示</button>
@@ -1602,14 +1619,14 @@ footer a{color:var(--accent)}
     <div class="brand">
       <div class="eyebrow">JAPAN EQUITY ・ NEWS IMPACT</div>
       <h1>重要ニュース × 影響銘柄</h1>
-      <div class="sub">最終更新 2026-09-21 14:02 (JST) ・ ニュース 18件
+      <div class="sub">最終更新 2026-09-21 14:18 (JST) ・ ニュース 18件
         (うち重要度★4以上 4件) ・ 影響銘柄 20銘柄</div>
     </div>
     <div class="head-actions">
       <button id="themeToggle" class="theme-toggle" type="button">🌗 テーマ</button>
     </div>
   </div>
-  <div class="market-bar"><div class="ticker"><span class="ticker-label">日経平均</span><span class="ticker-value">65,018.95</span><span class="ticker-change up">+1.38%</span></div><div class="ticker"><span class="ticker-label">日経先物</span><span class="ticker-value">65,100.00</span><span class="ticker-change up">+0.04%</span></div><div class="ticker"><span class="ticker-label">ドル円</span><span class="ticker-value">157.00円</span><span class="ticker-change up">+0.56%</span></div><div class="ticker"><span class="ticker-label">S&amp;P500</span><span class="ticker-value">7,650.50</span><span class="ticker-change up">+0.17%</span></div><div class="ticker"><span class="ticker-label">ナスダック</span><span class="ticker-value">26,522.54</span><span class="ticker-change up">+0.39%</span></div><div class="ticker"><span class="ticker-label">SOX指数</span><span class="ticker-value">11,921.69</span><span class="ticker-change up">+2.78%</span></div></div>
+  <div class="market-bar"><div class="ticker"><span class="ticker-label">日経平均</span><span class="ticker-value">65,018.95</span><span class="ticker-change up">+1.38%</span></div><div class="ticker"><span class="ticker-label">日経先物</span><span class="ticker-value">65,065.00</span><span class="ticker-change down">-0.02%</span></div><div class="ticker"><span class="ticker-label">ドル円</span><span class="ticker-value">157.01円</span><span class="ticker-change up">+0.57%</span></div><div class="ticker"><span class="ticker-label">S&amp;P500</span><span class="ticker-value">7,650.50</span><span class="ticker-change up">+0.17%</span></div><div class="ticker"><span class="ticker-label">ナスダック</span><span class="ticker-value">26,522.54</span><span class="ticker-change up">+0.39%</span></div><div class="ticker"><span class="ticker-label">SOX指数</span><span class="ticker-value">11,921.69</span><span class="ticker-change up">+2.78%</span></div></div>
 </header>
 
 <div class="wrap">
@@ -1845,7 +1862,7 @@ footer a{color:var(--accent)}
       
     </article>
     <article class="news-card" id="news-10f3a9d7bca4" data-category="fx" data-importance="4"
-             data-codes="7203 7267 7201 7269 7270 7261 9983 3382" data-search="FX/為替「ドル/円今日の見通し｜日銀は期待ほどタカ派とならず 為替介入に警戒しつつ円安地合いは続く」 外為どっとコム トゥデイ 2026年9月21日号 gaitame.com 円安進行 7203 7267 7201 7269 7270 7261 9983 3382 トヨタ自動車 本田技研工業 日産自動車 スズキ SUBARU マツダ ファーストリテイリング セブン&amp;アイ・ホールディングス" data-ts="2026-09-21 08:17"
+             data-codes="7203 7267 7201 7269 7270 7261 9983 3382" data-search="FX/為替「ドル/円今日の見通し｜日銀は期待ほどタカ派とならず 為替介入に警戒しつつ円安地合いは続く」 外為どっとコム トゥデイ 2026年9月21日号 外為どっとコム 円安進行 7203 7267 7201 7269 7270 7261 9983 3382 トヨタ自動車 本田技研工業 日産自動車 スズキ SUBARU マツダ ファーストリテイリング セブン&amp;アイ・ホールディングス" data-ts="2026-09-21 08:17"
              data-future="0"
              data-maturity="">
       <div class="news-meta">
@@ -1857,8 +1874,8 @@ footer a{color:var(--accent)}
         <span class="lifecycle-badge" data-state="UPDATE" title="同じ政策の続報を束ねて追跡した進行状況(表示のみで銘柄判定には影響しません)">🔁 続報</span>
         
         
-        <span class="time">5時間前</span>
-        <span class="source">gaitame.com</span>
+        <span class="time">6時間前</span>
+        <span class="source">外為どっとコム</span>
         <button class="copy-link" type="button" data-url="https://news.google.com/rss/articles/CBMiY0FVX3lxTE4wNmJ6WjRIZHRORnBpd21OM016MjJGNDN3Rnlxb0NRWEJ4RnlfOEFaVGZUMnllaUhDN1o4UmhGOFlKWWRaZ29uQWp3SV95MllKTFlSQzVRTzBHQk40YjA2a2lTTQ?oc=5" data-title="FX/為替「ドル/円今日の見通し｜日銀は期待ほどタカ派とならず 為替介入に警戒しつつ円安地合いは続く」 外為どっとコム トゥデイ 2026年9月21日号"
                 title="リンクをコピー" aria-label="リンクをコピー">🔗 コピー</button>
       </div>
@@ -2035,7 +2052,7 @@ footer a{color:var(--accent)}
       
     </article>
     <article class="news-card" id="news-03dce7d7c8a6" data-category="policy" data-importance="4"
-             data-codes="8306 8316 8411 8309 7182 8766 8801 8802" data-search="日銀利上げで政策金利「中立金利レンジ」到達、長期金利の“良い上昇・悪い上昇”を分ける4つの要因 diamond.jp 日銀の利上げ・金融正常化 8306 8316 8411 8309 7182 8766 8801 8802 三菱UFJフィナンシャル・グループ 三井住友フィナンシャルグループ みずほフィナンシャルグループ 三井住友トラスト・ホールディングス ゆうちょ銀行 東京海上ホールディングス 三井不動産 三菱地所" data-ts="2026-09-21 04:40"
+             data-codes="8306 8316 8411 8309 7182 8766 8801 8802" data-search="日銀利上げで政策金利「中立金利レンジ」到達、長期金利の“良い上昇・悪い上昇”を分ける4つの要因 ダイヤモンド・オンライン 日銀の利上げ・金融正常化 8306 8316 8411 8309 7182 8766 8801 8802 三菱UFJフィナンシャル・グループ 三井住友フィナンシャルグループ みずほフィナンシャルグループ 三井住友トラスト・ホールディングス ゆうちょ銀行 東京海上ホールディングス 三井不動産 三菱地所" data-ts="2026-09-21 04:40"
              data-future="0"
              data-maturity="">
       <div class="news-meta">
@@ -2046,9 +2063,9 @@ footer a{color:var(--accent)}
         
         <span class="lifecycle-badge" data-state="UPDATE" title="同じ政策の続報を束ねて追跡した進行状況(表示のみで銘柄判定には影響しません)">🔁 続報</span>
         
-        
+        <span class="source-tier-badge tier-commentary" title="情報源の区分。政策インパクトスコアの信頼度に反映済み(一次情報=そのまま/二次情報=×0.85/市場解説=×0.65)。表示のみでtheme/direction等の判定には影響しません">💬 市場解説</span>
         <span class="time">9時間前</span>
-        <span class="source">diamond.jp</span>
+        <span class="source">ダイヤモンド・オンライン</span>
         <button class="copy-link" type="button" data-url="https://news.google.com/rss/articles/CBMiTEFVX3lxTFBKOVFUU1pndWFIS2hpVW95OHlZUmJ4WTM0S2lTNGpOV051NDd3d1B1RjdTdzAxT0w2TGdJVkFQQjVEMmczQ2NUT2owQi3SAU9BVV95cUxNLTRNVFpMTmMzYVJfcHFjRUpLekZfeW5uOWYzRkRyNzcxOTY1UFhBaVRkeDNHenJ1Q1RaZmZ3eFMxcVBBS2o4ZXhLLU0xOEtF?oc=5" data-title="日銀利上げで政策金利「中立金利レンジ」到達、長期金利の“良い上昇・悪い上昇”を分ける4つの要因"
                 title="リンクをコピー" aria-label="リンクをコピー">🔗 コピー</button>
       </div>
@@ -2075,7 +2092,7 @@ footer a{color:var(--accent)}
             <span class="chip-tag tier-direct">直接受益</span>
             <span class="chip-tag">⏱ 0〜3ヶ月</span>
             
-            <span class="chip-tag" title="政策実現度×受益距離×時間軸×感応度の合成スコア(表示専用、銘柄判定には使っていません)">🎯 70</span>
+            <span class="chip-tag" title="政策実現度×受益距離×時間軸×感応度の合成スコア(表示専用、銘柄判定には使っていません)">🎯 54</span>
             
             <span class="chip-reason">「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい</span>
             <a class="chip-link" href="https://finance.yahoo.co.jp/quote/8306.T" target="_blank" rel="noopener">株価 ↗</a>
@@ -2095,7 +2112,7 @@ footer a{color:var(--accent)}
             <span class="chip-tag tier-direct">直接受益</span>
             <span class="chip-tag">⏱ 0〜3ヶ月</span>
             
-            <span class="chip-tag" title="政策実現度×受益距離×時間軸×感応度の合成スコア(表示専用、銘柄判定には使っていません)">🎯 70</span>
+            <span class="chip-tag" title="政策実現度×受益距離×時間軸×感応度の合成スコア(表示専用、銘柄判定には使っていません)">🎯 54</span>
             
             <span class="chip-reason">「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい</span>
             <a class="chip-link" href="https://finance.yahoo.co.jp/quote/8316.T" target="_blank" rel="noopener">株価 ↗</a>
@@ -2115,7 +2132,7 @@ footer a{color:var(--accent)}
             <span class="chip-tag tier-direct">直接受益</span>
             <span class="chip-tag">⏱ 0〜3ヶ月</span>
             
-            <span class="chip-tag" title="政策実現度×受益距離×時間軸×感応度の合成スコア(表示専用、銘柄判定には使っていません)">🎯 70</span>
+            <span class="chip-tag" title="政策実現度×受益距離×時間軸×感応度の合成スコア(表示専用、銘柄判定には使っていません)">🎯 54</span>
             
             <span class="chip-reason">「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい</span>
             <a class="chip-link" href="https://finance.yahoo.co.jp/quote/8411.T" target="_blank" rel="noopener">株価 ↗</a>
@@ -2135,7 +2152,7 @@ footer a{color:var(--accent)}
             <span class="chip-tag tier-direct">直接受益</span>
             <span class="chip-tag">⏱ 0〜3ヶ月</span>
             
-            <span class="chip-tag" title="政策実現度×受益距離×時間軸×感応度の合成スコア(表示専用、銘柄判定には使っていません)">🎯 70</span>
+            <span class="chip-tag" title="政策実現度×受益距離×時間軸×感応度の合成スコア(表示専用、銘柄判定には使っていません)">🎯 54</span>
             
             <span class="chip-reason">「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい</span>
             <a class="chip-link" href="https://finance.yahoo.co.jp/quote/8309.T" target="_blank" rel="noopener">株価 ↗</a>
@@ -2155,7 +2172,7 @@ footer a{color:var(--accent)}
             <span class="chip-tag tier-direct">直接受益</span>
             <span class="chip-tag">⏱ 0〜3ヶ月</span>
             
-            <span class="chip-tag" title="政策実現度×受益距離×時間軸×感応度の合成スコア(表示専用、銘柄判定には使っていません)">🎯 70</span>
+            <span class="chip-tag" title="政策実現度×受益距離×時間軸×感応度の合成スコア(表示専用、銘柄判定には使っていません)">🎯 54</span>
             
             <span class="chip-reason">「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい</span>
             <a class="chip-link" href="https://finance.yahoo.co.jp/quote/7182.T" target="_blank" rel="noopener">株価 ↗</a>
@@ -2175,7 +2192,7 @@ footer a{color:var(--accent)}
             <span class="chip-tag tier-direct">直接受益</span>
             <span class="chip-tag">⏱ 0〜3ヶ月</span>
             
-            <span class="chip-tag" title="政策実現度×受益距離×時間軸×感応度の合成スコア(表示専用、銘柄判定には使っていません)">🎯 70</span>
+            <span class="chip-tag" title="政策実現度×受益距離×時間軸×感応度の合成スコア(表示専用、銘柄判定には使っていません)">🎯 54</span>
             
             <span class="chip-reason">「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい</span>
             <a class="chip-link" href="https://finance.yahoo.co.jp/quote/8766.T" target="_blank" rel="noopener">株価 ↗</a>
@@ -2195,7 +2212,7 @@ footer a{color:var(--accent)}
             <span class="chip-tag tier-direct">直接受益</span>
             <span class="chip-tag">⏱ 3〜6ヶ月</span>
             
-            <span class="chip-tag" title="政策実現度×受益距離×時間軸×感応度の合成スコア(表示専用、銘柄判定には使っていません)">🎯 60</span>
+            <span class="chip-tag" title="政策実現度×受益距離×時間軸×感応度の合成スコア(表示専用、銘柄判定には使っていません)">🎯 46</span>
             
             <span class="chip-reason">「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい</span>
             <a class="chip-link" href="https://finance.yahoo.co.jp/quote/8801.T" target="_blank" rel="noopener">株価 ↗</a>
@@ -2215,7 +2232,7 @@ footer a{color:var(--accent)}
             <span class="chip-tag tier-direct">直接受益</span>
             <span class="chip-tag">⏱ 3〜6ヶ月</span>
             
-            <span class="chip-tag" title="政策実現度×受益距離×時間軸×感応度の合成スコア(表示専用、銘柄判定には使っていません)">🎯 60</span>
+            <span class="chip-tag" title="政策実現度×受益距離×時間軸×感応度の合成スコア(表示専用、銘柄判定には使っていません)">🎯 46</span>
             
             <span class="chip-reason">「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい</span>
             <a class="chip-link" href="https://finance.yahoo.co.jp/quote/8802.T" target="_blank" rel="noopener">株価 ↗</a>
@@ -2225,7 +2242,7 @@ footer a{color:var(--accent)}
       
     </article>
     <article class="news-card" id="news-8e8da903b767" data-category="fx" data-importance="4"
-             data-codes="8306 1605 8316 5020 8411 7203 7267 7201" data-search="日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】 gaitame.com 円安進行 日銀の利上げ・金融正常化 原油高 8306 1605 8316 5020 8411 7203 7267 7201 三菱UFJフィナンシャル・グループ INPEX 三井住友フィナンシャルグループ ENEOSホールディングス みずほフィナンシャルグループ トヨタ自動車 本田技研工業 日産自動車" data-ts="2026-09-20 06:04"
+             data-codes="8306 1605 8316 5020 8411 7203 7267 7201" data-search="日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】 外為どっとコム 円安進行 日銀の利上げ・金融正常化 原油高 8306 1605 8316 5020 8411 7203 7267 7201 三菱UFJフィナンシャル・グループ INPEX 三井住友フィナンシャルグループ ENEOSホールディングス みずほフィナンシャルグループ トヨタ自動車 本田技研工業 日産自動車" data-ts="2026-09-20 06:04"
              data-future="0"
              data-maturity="">
       <div class="news-meta">
@@ -2238,7 +2255,7 @@ footer a{color:var(--accent)}
         
         
         <span class="time">1日前</span>
-        <span class="source">gaitame.com</span>
+        <span class="source">外為どっとコム</span>
         <button class="copy-link" type="button" data-url="https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjUGEtV19fOVFPOU96c2lwM0ZFX2R6aEdmSjVERTZNOTh3QXFUaFhlRnFtWkRGaGJzal9KNDlhenFDR0xRbENBdjdQcmVodEwyMTJXbU81akQ1X1lzU0ZPT00tcw?oc=5" data-title="日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】"
                 title="リンクをコピー" aria-label="リンクをコピー">🔗 コピー</button>
       </div>
@@ -2912,7 +2929,7 @@ footer a{color:var(--accent)}
         <span class="lifecycle-badge" data-state="UPDATE" title="同じ政策の続報を束ねて追跡した進行状況(表示のみで銘柄判定には影響しません)">🔁 続報</span>
         <span class="novelty-badge" data-novelty="low" title="似た見出しが過去に記録されている、または複数媒体が同時報道済みです。重要でも既に市場に知られている可能性があります(表示のみで銘柄判定には影響しません)">♻️ 再報道</span>
         
-        <span class="time">49分前</span>
+        <span class="time">1時間前</span>
         <span class="source">Yahoo!ファイナンス</span>
         <button class="copy-link" type="button" data-url="https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5" data-title="ナスダック総合の指数情報・推移"
                 title="リンクをコピー" aria-label="リンクをコピー">🔗 コピー</button>
@@ -3223,7 +3240,7 @@ footer a{color:var(--accent)}
       
     </article>
     <article class="news-card" id="news-988516e9f117" data-category="fx" data-importance="1"
-             data-codes="" data-search="来週のドル円相場はどうなる？9/21週のイベント予定 2026年9月20日 gaitame.com   " data-ts="2026-09-20 06:03"
+             data-codes="" data-search="来週のドル円相場はどうなる？9/21週のイベント予定 2026年9月20日 外為どっとコム   " data-ts="2026-09-20 06:03"
              data-future="0"
              data-maturity="">
       <div class="news-meta">
@@ -3236,7 +3253,7 @@ footer a{color:var(--accent)}
         
         
         <span class="time">1日前</span>
-        <span class="source">gaitame.com</span>
+        <span class="source">外為どっとコム</span>
         <button class="copy-link" type="button" data-url="https://news.google.com/rss/articles/CBMiY0FVX3lxTE13di1rV3cxbmtFMU9vem8wRnZKTXJLemZxQ3ZESGlrMEtEbzBCZEZjaGxXcElNa0ltNG1LZlpHX0huQmdSRlM4M2RJcnFvM2hVblQ0Y1VpSDMyY3p1MlgySVpVbw?oc=5" data-title="来週のドル円相場はどうなる？9/21週のイベント予定 2026年9月20日"
                 title="リンクをコピー" aria-label="リンクをコピー">🔗 コピー</button>
       </div>
@@ -3283,7 +3300,7 @@ footer a{color:var(--accent)}
           各情報の著作権は提供元に帰属します。</p>
         <p>以前のテクニカル指標つきデイトレードダッシュボードは
           <a href="dashboard.html">dashboard.html</a> に残しています。</p>
-        <p>生成日時: 2026-09-21T14:02:26+09:00 ・ 18 件のニュースを取得しました。</p>
+        <p>生成日時: 2026-09-21T14:18:26+09:00 ・ 18 件のニュースを取得しました。</p>
       </footer>
     </main>
     <aside class="side">
