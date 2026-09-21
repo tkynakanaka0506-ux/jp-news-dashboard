@@ -820,17 +820,21 @@ header.site::before{content:"";position:absolute;inset:0;pointer-events:none;
      以上だけ縦の余白・文字サイズを詰める(960px以下のフォールバックは
      このブロックの外なので無変更)。brand行はeyebrow/h1/subの3行縦積みを
      1行の横並びに変え、判定ロジック・機能は一切変えていない。 */
-  .head-inner{padding:8px 20px 6px;align-items:center}
+  .head-inner{padding:5px 20px 4px;align-items:center}
   .brand{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
-  .brand h1{font-size:19px}
+  .brand h1{font-size:17px}
   .brand .eyebrow{display:none}
-  .brand .sub{margin-top:0}
-  .market-bar{padding:0 20px 8px}
-  .ticker{padding:4px 10px;font-size:12.5px}
-  .controls{padding:6px 0 8px}
-  .filter-chip{padding:4px 9px;font-size:12px}
-  .search-row{margin-top:6px}
-  .search-row input,.search-row select{padding:6px 10px}
+  .brand .sub{margin-top:0;font-size:12.5px}
+  .theme-toggle{padding:5px 11px;font-size:13px}
+  .market-bar{padding:0 20px 5px}
+  .ticker{padding:3px 8px;font-size:11.5px}
+  .ticker-label{font-size:11px}
+  .ticker-change{font-size:11.5px}
+  .controls{padding:4px 0 6px;margin-bottom:8px}
+  .filter-chip{padding:3px 8px;font-size:11.5px}
+  .chip-count{font-size:10.5px}
+  .search-row{margin-top:4px}
+  .search-row input,.search-row select{padding:5px 9px;font-size:13.5px}
   .wrap{display:flex;flex-direction:column;flex:1;min-height:0;padding-bottom:0;overflow:hidden}
   /* align-items:stretch(既定のalign-items:startを上書き)しないと、
      グリッドの行が中身(=全ニュース件数ぶんの高さ)に合わせて伸びてしまい、
