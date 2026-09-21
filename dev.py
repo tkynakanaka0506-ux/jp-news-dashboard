@@ -330,6 +330,22 @@ def cmd_backtest(args):
     return 0
 
 
+MONITOR_HEARTBEAT_PATH = Path.home() / "Library" / "Logs" / "jp-news-dev-monitor-heartbeat.txt"
+
+
+def _read_heartbeat(path):
+    """③'監視そのものが止まっていないか」用のハートビート読み取り。
+    ネットワーク等に依存しない純粋な関数として切り出し、単体テストしやすく
+    しておく(cmd_monitor全体はgh/curlを呼ぶため単体テストに向かない)。
+    """
+    return path.read_text(encoding="utf-8").strip() if path.exists() else None
+
+
+def _write_heartbeat(path, now_str):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(now_str, encoding="utf-8")
+
+
 def cmd_monitor(args):
     """パイプラインの稼働監視レポート(本番の実データに対する読み取り専用
     チェック)。
@@ -343,6 +359,14 @@ def cmd_monitor(args):
     ②③④⑤⑥(新興テーマの検出状況・情報源/シグナルの独立性・
     milestonesの蓄積・海外ソースの有無・同一ニュースの転載の重複
     カウント有無)を出す。
+
+    ③'監視そのものが止まっていないか(2026-09-21ユーザー要望「システム→
+    監視→監視の監視、と無限に作る必要はないが、少なくともdev.py monitor
+    について最後に正常に動いたのはいつかくらいは分かるようにしておく」)。
+    「監視の監視」を新設せず、このコマンド自身が完走するたびに簡単な
+    ハートビートファイルを書き換えるだけに留める。例外で処理が止まった
+    場合は書き換わらないので、「最後に正常完走したのはいつか」がそのまま
+    分かる。
     """
     import copy
     import json
@@ -350,6 +374,10 @@ def cmd_monitor(args):
     from newssite import impact as impact_mod
     from newssite import infra_monitor, theme_trend_monitor, theme_trends
     from newssite.config import JST
+
+    previous_heartbeat = _read_heartbeat(MONITOR_HEARTBEAT_PATH)
+    print(f"(前回 dev.py monitor が正常に完走した時刻: {previous_heartbeat or '記録なし(初回実行)'})")
+    print()
 
     infra_monitor.print_report()
     print()
@@ -367,6 +395,12 @@ def cmd_monitor(args):
         # 走らせる(_save_registryは呼ばない=本番の登録簿には触れない)。
         theme_stage_info = theme_trends.record_and_classify(copy.deepcopy(registry), news, rules, today)
     theme_trend_monitor.print_report(registry, theme_stage_info)
+
+    # ここまで例外無く到達できた=このmonitor自身が正常に完走した、という
+    # 意味でハートビートを書き換える(このタイミングでのみ更新することで、
+    # 例外で途中終了した回はheartbeatが更新されず、「最後に正常完走したのは
+    # いつか」が正しく反映される)。
+    _write_heartbeat(MONITOR_HEARTBEAT_PATH, datetime.now(JST).strftime("%Y-%m-%d %H:%M:%S"))
     return 0
 
 

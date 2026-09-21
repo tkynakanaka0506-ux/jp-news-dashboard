@@ -709,6 +709,26 @@ class DevToolTest(unittest.TestCase):
         self.assertEqual(code, 1)
         self.assertIn("重複", out)
 
+    def test_monitor_heartbeat_round_trip(self):
+        # 2026-09-21ユーザー要望「③'監視そのものが止まっていないか。
+        # 少なくともdev.py monitorについて最後に正常に動いたのはいつか
+        # くらいは分かるようにしておく」。cmd_monitor全体はgh/curlに
+        # 依存するため、切り出した純粋関数(_read_heartbeat/
+        # _write_heartbeat)だけを単体テストする。
+        import tempfile
+        import dev
+
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "heartbeat.txt"
+            self.assertIsNone(dev._read_heartbeat(path), "初回は記録が無いはず")
+            dev._write_heartbeat(path, "2026-09-21 12:00:00")
+            self.assertEqual(dev._read_heartbeat(path), "2026-09-21 12:00:00")
+            dev._write_heartbeat(path, "2026-09-21 12:30:00")
+            self.assertEqual(
+                dev._read_heartbeat(path), "2026-09-21 12:30:00",
+                "2回目の実行では前回の値を上書きして最新の完走時刻を記録するはず",
+            )
+
 
 class CIConfigTest(unittest.TestCase):
     """CI(GitHub Actions)側の設定ファイルの回帰テスト。
