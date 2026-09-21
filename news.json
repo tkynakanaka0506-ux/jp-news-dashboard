@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-21 16:19",
-  "generated_iso": "2026-09-21T16:19:45+09:00",
+  "generated_at": "2026-09-21 16:29",
+  "generated_iso": "2026-09-21T16:29:07+09:00",
   "status": "updated",
-  "status_message": "18 件のニュースを取得しました。",
+  "status_message": "19 件のニュースを取得しました。",
   "llm_used": true,
   "categories": [
     {
@@ -65,14 +65,14 @@
     },
     {
       "label": "日経先物",
-      "value": "65,435.00",
-      "change_pct": 0.55,
+      "value": "65,445.00",
+      "change_pct": 0.57,
       "asof": "9/21終値"
     },
     {
       "label": "ドル円",
-      "value": "157.24円",
-      "change_pct": 0.71,
+      "value": "157.21円",
+      "change_pct": 0.69,
       "asof": "9/21終値"
     },
     {
@@ -2015,6 +2015,53 @@
       "future_signal": true,
       "policy_maturity": 35,
       "policy_maturity_label": "審議会・検討会",
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "0392df0f4047",
+      "title": "日経平均株価の指数情報・推移",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SRDk1ZENIQUIzSUZyMHZRNHpCR2xlcTI5UTJRYXVoMDBrM3BmNndBT29vV0dDZWdQazZHb2tURGZNYy1OMU93R0kyUUZUT3VmU2VhbA?oc=5",
+      "source": "Yahoo!ファイナンス",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-09-21 15:15",
+      "published_ts": 1789971314.0,
+      "category": "market",
+      "category_label": "株式市況",
+      "category_emoji": "📈",
+      "importance": 1,
+      "importance_reason": "一般的な市況ニュース",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
       "news_novelty": "high",
       "news_novelty_label": "新規",
       "policy_event_id": null,
@@ -4425,10 +4472,10 @@
     "milestones": {
       "accumulating": "2026-09-21"
     },
-    "last_computed_at": "2026-09-21T16:19:49+09:00"
+    "last_computed_at": "2026-09-21T16:29:11+09:00"
   },
   "counts": {
-    "news": 18,
+    "news": 19,
     "high_importance": 5,
     "stocks": 20
   }
