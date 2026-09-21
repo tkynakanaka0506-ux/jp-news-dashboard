@@ -314,17 +314,21 @@ header.site::before{content:"";position:absolute;inset:0;pointer-events:none;
      以上だけ縦の余白・文字サイズを詰める(960px以下のフォールバックは
      このブロックの外なので無変更)。brand行はeyebrow/h1/subの3行縦積みを
      1行の横並びに変え、判定ロジック・機能は一切変えていない。 */
-  .head-inner{padding:8px 20px 6px;align-items:center}
+  .head-inner{padding:5px 20px 4px;align-items:center}
   .brand{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
-  .brand h1{font-size:19px}
+  .brand h1{font-size:17px}
   .brand .eyebrow{display:none}
-  .brand .sub{margin-top:0}
-  .market-bar{padding:0 20px 8px}
-  .ticker{padding:4px 10px;font-size:12.5px}
-  .controls{padding:6px 0 8px}
-  .filter-chip{padding:4px 9px;font-size:12px}
-  .search-row{margin-top:6px}
-  .search-row input,.search-row select{padding:6px 10px}
+  .brand .sub{margin-top:0;font-size:12.5px}
+  .theme-toggle{padding:5px 11px;font-size:13px}
+  .market-bar{padding:0 20px 5px}
+  .ticker{padding:3px 8px;font-size:11.5px}
+  .ticker-label{font-size:11px}
+  .ticker-change{font-size:11.5px}
+  .controls{padding:4px 0 6px;margin-bottom:8px}
+  .filter-chip{padding:3px 8px;font-size:11.5px}
+  .chip-count{font-size:10.5px}
+  .search-row{margin-top:4px}
+  .search-row input,.search-row select{padding:5px 9px;font-size:13.5px}
   .wrap{display:flex;flex-direction:column;flex:1;min-height:0;padding-bottom:0;overflow:hidden}
   /* align-items:stretch(既定のalign-items:startを上書き)しないと、
      グリッドの行が中身(=全ニュース件数ぶんの高さ)に合わせて伸びてしまい、
@@ -673,7 +677,7 @@ footer a{color:var(--accent)}
 <div id="mobile-app">
   <header class="m-topbar">
     <div class="m-brand"><svg class="m-h2-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 16 9 10l4 4 8-9" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 5h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg>日本株ニュース</div>
-    <div class="m-updated">2026-09-21 14:18 更新</div>
+    <div class="m-updated">2026-09-21 14:34 更新</div>
   </header>
 
   <div class="m-screens">
@@ -1593,7 +1597,7 @@ footer a{color:var(--accent)}
 
     <section class="m-screen" data-screen="settings">
       <h2 class="m-h2"><svg class="m-h2-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3.2"/><path d="M12 3.5v2.4M12 18.1v2.4M20.5 12h-2.4M5.9 12H3.5M17.7 6.3l-1.7 1.7M8 16l-1.7 1.7M17.7 17.7 16 16M8 8 6.3 6.3" stroke-linecap="round"/></svg>設定</h2>
-      <div class="m-settings-row"><span>最終更新</span><span>2026-09-21 14:18</span></div>
+      <div class="m-settings-row"><span>最終更新</span><span>2026-09-21 14:34</span></div>
       <div class="m-settings-row"><span>ニュース件数</span><span>18件</span></div>
       <button class="m-cta" onclick="mobileToggleTheme()"><svg class="m-cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z" stroke-linejoin="round"/></svg>テーマ切り替え</button>
       <button class="m-cta" onclick="mobileShowDesktop()" style="margin-top:10px"><svg class="m-cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4.5" width="18" height="12" rx="1.6"/><path d="M8.5 20h7M12 16.5V20" stroke-linecap="round"/></svg>PC版を表示</button>
@@ -1619,14 +1623,14 @@ footer a{color:var(--accent)}
     <div class="brand">
       <div class="eyebrow">JAPAN EQUITY ・ NEWS IMPACT</div>
       <h1>重要ニュース × 影響銘柄</h1>
-      <div class="sub">最終更新 2026-09-21 14:18 (JST) ・ ニュース 18件
+      <div class="sub">最終更新 2026-09-21 14:34 (JST) ・ ニュース 18件
         (うち重要度★4以上 4件) ・ 影響銘柄 20銘柄</div>
     </div>
     <div class="head-actions">
       <button id="themeToggle" class="theme-toggle" type="button">🌗 テーマ</button>
     </div>
   </div>
-  <div class="market-bar"><div class="ticker"><span class="ticker-label">日経平均</span><span class="ticker-value">65,018.95</span><span class="ticker-change up">+1.38%</span></div><div class="ticker"><span class="ticker-label">日経先物</span><span class="ticker-value">65,065.00</span><span class="ticker-change down">-0.02%</span></div><div class="ticker"><span class="ticker-label">ドル円</span><span class="ticker-value">157.01円</span><span class="ticker-change up">+0.57%</span></div><div class="ticker"><span class="ticker-label">S&amp;P500</span><span class="ticker-value">7,650.50</span><span class="ticker-change up">+0.17%</span></div><div class="ticker"><span class="ticker-label">ナスダック</span><span class="ticker-value">26,522.54</span><span class="ticker-change up">+0.39%</span></div><div class="ticker"><span class="ticker-label">SOX指数</span><span class="ticker-value">11,921.69</span><span class="ticker-change up">+2.78%</span></div></div>
+  <div class="market-bar"><div class="ticker"><span class="ticker-label">日経平均</span><span class="ticker-value">65,018.95</span><span class="ticker-change up">+1.38%</span></div><div class="ticker"><span class="ticker-label">日経先物</span><span class="ticker-value">65,095.00</span><span class="ticker-change up">+0.03%</span></div><div class="ticker"><span class="ticker-label">ドル円</span><span class="ticker-value">157.03円</span><span class="ticker-change up">+0.57%</span></div><div class="ticker"><span class="ticker-label">S&amp;P500</span><span class="ticker-value">7,650.50</span><span class="ticker-change up">+0.17%</span></div><div class="ticker"><span class="ticker-label">ナスダック</span><span class="ticker-value">26,522.54</span><span class="ticker-change up">+0.39%</span></div><div class="ticker"><span class="ticker-label">SOX指数</span><span class="ticker-value">11,921.69</span><span class="ticker-change up">+2.78%</span></div></div>
 </header>
 
 <div class="wrap">
@@ -2665,7 +2669,7 @@ footer a{color:var(--accent)}
         <span class="lifecycle-badge" data-state="UPDATE" title="同じ政策の続報を束ねて追跡した進行状況(表示のみで銘柄判定には影響しません)">🔁 続報</span>
         <span class="novelty-badge" data-novelty="low" title="似た見出しが過去に記録されている、または複数媒体が同時報道済みです。重要でも既に市場に知られている可能性があります(表示のみで銘柄判定には影響しません)">♻️ 再報道</span>
         
-        <span class="time">19時間前</span>
+        <span class="time">20時間前</span>
         <span class="source">Infoseek</span>
         <button class="copy-link" type="button" data-url="https://news.google.com/rss/articles/CBMikgFBVV95cUxNbnlyR1l6NmFKTV9sOVhXdjI0ZjJDNDZBVmZPS05USld4UTVZbnhkYmpVaUF6a2p1NTlyQU03aDJYQ0RmMjZNRlZncG5IM3hJMkQ5TjVha3hRcklCRmppclFpYlVHblBCM0hMQmxleGRzdndtelRvYWo0akNpSkU3YmlMNllsYkdXRVlMUG5NenBDd9IBkgFBVV95cUxNbnlyR1l6NmFKTV9sOVhXdjI0ZjJDNDZBVmZPS05USld4UTVZbnhkYmpVaUF6a2p1NTlyQU03aDJYQ0RmMjZNRlZncG5IM3hJMkQ5TjVha3hRcklCRmppclFpYlVHblBCM0hMQmxleGRzdndtelRvYWo0akNpSkU3YmlMNllsYkdXRVlMUG5NenBDdw?oc=5" data-title="中国、8月の対日レアアース輸出は212トン　前年同月比で17％減、落ち込み続く"
                 title="リンクをコピー" aria-label="リンクをコピー">🔗 コピー</button>
@@ -3113,7 +3117,7 @@ footer a{color:var(--accent)}
         
         
         
-        <span class="time">2時間前</span>
+        <span class="time">3時間前</span>
         <span class="source">Yahoo!ファイナンス</span>
         <button class="copy-link" type="button" data-url="https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RX1F0c3NoRW1WOGhKVzFzd0tzWTlBS0NtMVZFbUUyZm14Z1Y5VWhzMjctd201Y2RMTFhBSGx0Rmdqc0ZFY1R2VzZUUG9PVjdUaXc?oc=5" data-title="NYダウの指数情報・推移"
                 title="リンクをコピー" aria-label="リンクをコピー">🔗 コピー</button>
@@ -3300,7 +3304,7 @@ footer a{color:var(--accent)}
           各情報の著作権は提供元に帰属します。</p>
         <p>以前のテクニカル指標つきデイトレードダッシュボードは
           <a href="dashboard.html">dashboard.html</a> に残しています。</p>
-        <p>生成日時: 2026-09-21T14:18:26+09:00 ・ 18 件のニュースを取得しました。</p>
+        <p>生成日時: 2026-09-21T14:34:00+09:00 ・ 18 件のニュースを取得しました。</p>
       </footer>
     </main>
     <aside class="side">
