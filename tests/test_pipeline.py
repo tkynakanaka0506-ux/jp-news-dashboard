@@ -11,14 +11,14 @@ import json
 import re
 import sys
 import unittest
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from unittest import mock
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from newssite import (  # noqa: E402
-    analyze, impact as impact_mod, render, rss, stocks as stocks_mod,
+    analyze, impact as impact_mod, infra_monitor, render, rss, stocks as stocks_mod,
     theme_trend_history, theme_trend_monitor, theme_trends,
 )
 from newssite.config import JST  # noqa: E402
@@ -1356,6 +1356,79 @@ class ThemeTrendMonitorTest(unittest.TestCase):
         issues = [f["issue"] for f in flags]
         self.assertTrue(any("日付が" in i for i in issues), issues)
         self.assertTrue(any("消失" in i for i in issues), issues)
+
+
+class InfraMonitorTest(unittest.TestCase):
+    """infra_monitor.py: パイプライン基盤(GitHub Actions・ローカル
+    watchdog・永続化ファイル)の稼働監視(2026-09-21ユーザー要望「機能
+    追加より長期的な安定稼働の監視・再発防止を優先」)。ニュース判定・
+    萌芽シグナル等の判定ロジックには一切触れない、読み取り専用の
+    ロジックであることを固定する。
+    """
+
+    def test_classify_status_thresholds(self):
+        self.assertEqual(infra_monitor.classify_status(30)[0], "🟢")
+        self.assertEqual(infra_monitor.classify_status(120)[0], "🟡")
+        self.assertEqual(infra_monitor.classify_status(200)[0], "🟠")
+        self.assertEqual(infra_monitor.classify_status(500)[0], "🔴")
+        self.assertEqual(infra_monitor.classify_status(None)[0], "🟠")
+
+    def test_minutes_since_computes_elapsed_from_iso(self):
+        now = datetime.now(JST)
+        past = (now - timedelta(minutes=45)).isoformat()
+        age = infra_monitor._minutes_since(past, now=now)
+        self.assertAlmostEqual(age, 45, delta=1)
+
+    def test_minutes_since_returns_none_for_missing_or_invalid(self):
+        self.assertIsNone(infra_monitor._minutes_since(None))
+        self.assertIsNone(infra_monitor._minutes_since("not-a-date"))
+
+    def test_count_schedule_triggers_within_ignores_workflow_dispatch(self):
+        # workflow_dispatch(手動発火・watchdogによる補完含む)は「本来の
+        # cronが発火した回数」ではないため、実測トリガー数のカウントには
+        # 含めない(想定と実測を正しく比較するため)。
+        from newssite.infra_monitor import count_schedule_triggers_within
+        now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        runs = [
+            {"event": "schedule", "createdAt": now_iso},
+            {"event": "workflow_dispatch", "createdAt": now_iso},
+            {"event": "schedule", "createdAt": "2020-01-01T00:00:00Z"},  # 期間外
+        ]
+        self.assertEqual(count_schedule_triggers_within(runs, hours=24), 1)
+
+    def test_count_schedule_triggers_within_returns_none_when_gh_unavailable(self):
+        from newssite.infra_monitor import count_schedule_triggers_within
+        self.assertIsNone(count_schedule_triggers_within(None, hours=24))
+
+    def test_watchdog_status_parses_log_and_counts_recent_dispatches(self):
+        import tempfile
+        now = datetime.now()
+        recent = (now - timedelta(hours=1)).strftime("%Y-%m-%d %H:%M:%S")
+        old = (now - timedelta(days=10)).strftime("%Y-%m-%d %H:%M:%S")
+        content = (
+            f"{old} ⏰ 最終更新から999分経過(閾値180分)。GitHub Actionsのscheduleが未発火の可能性 → workflow_dispatchで補う\n"
+            f"{old} ✅ workflow_dispatch成功\n"
+            f"{recent} ⏰ 最終更新から200分経過(閾値180分)。GitHub Actionsのscheduleが未発火の可能性 → workflow_dispatchで補う\n"
+            f"{recent} ✅ workflow_dispatch成功\n"
+            f"{now.strftime('%Y-%m-%d %H:%M:%S')} ✅ 最終更新から10分。正常(閾値180分)\n"
+        )
+        with tempfile.NamedTemporaryFile("w", suffix=".log", delete=False, encoding="utf-8") as f:
+            f.write(content)
+            path = Path(f.name)
+        status = infra_monitor.watchdog_status(path)
+        self.assertTrue(status["log_found"])
+        self.assertEqual(status["dispatch_count_24h"], 1, "10日前の発火は24hカウントに含めてはいけない")
+        self.assertEqual(status["dispatch_count_7d"], 1, "10日前の発火は7dカウントに含めてはいけない")
+
+    def test_watchdog_status_missing_log_reports_not_found(self):
+        status = infra_monitor.watchdog_status(Path("/tmp/does-not-exist-jp-news-watchdog.log"))
+        self.assertFalse(status["log_found"])
+
+    def test_persistent_file_git_freshness_reports_none_for_untracked_path(self):
+        # git履歴に存在しないファイルは「不明」として扱う(存在しない=
+        # 異常、と決めつけない。新規追加直後で1回もコミットが無い場合等)。
+        result = infra_monitor.persistent_file_git_freshness(files=("__definitely_not_a_real_file__.json",))
+        self.assertIsNone(result["__definitely_not_a_real_file__.json"]["last_commit"])
 
 
 if __name__ == "__main__":
