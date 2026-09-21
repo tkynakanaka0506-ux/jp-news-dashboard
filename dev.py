@@ -331,19 +331,28 @@ def cmd_backtest(args):
 
 
 def cmd_monitor(args):
-    """萌芽シグナルの監視レポート(本番の実データに対する読み取り専用チェック)。
+    """パイプラインの稼働監視レポート(本番の実データに対する読み取り専用
+    チェック)。
 
-    判定条件は一切変更しない。①新興テーマの検出状況 ②③情報源・シグナルの
-    独立性 ④milestonesの蓄積 ⑤海外ソースの有無 ⑥同一ニュースの転載が
-    別情報源として重複カウントされていないか、を人間が確認するためのもの
-    (2026-09-20ユーザー要望「次にやるなら機能追加より監視」)。
+    2026-09-20ユーザー要望「次にやるなら機能追加より監視」、2026-09-21
+    ユーザー要望「長期的な安定稼働の監視・再発防止を優先」への対応。
+    判定条件は一切変更しない。
+
+    まず①インフラ稼働状況(GitHub Actionsのschedule実測・ローカル
+    watchdogの発火状況・永続化ファイルの更新鮮度)を出し、続けて
+    ②③④⑤⑥(新興テーマの検出状況・情報源/シグナルの独立性・
+    milestonesの蓄積・海外ソースの有無・同一ニュースの転載の重複
+    カウント有無)を出す。
     """
     import copy
     import json
     from datetime import datetime
     from newssite import impact as impact_mod
-    from newssite import theme_trend_monitor, theme_trends
+    from newssite import infra_monitor, theme_trend_monitor, theme_trends
     from newssite.config import JST
+
+    infra_monitor.print_report()
+    print()
 
     registry = theme_trends._load_registry()
     news_path = BASE_DIR / "news.json"
