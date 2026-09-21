@@ -343,13 +343,20 @@ header.site::before{content:"";position:absolute;inset:0;pointer-events:none;
   aside.side{position:static;max-height:none;height:100%}
 }
 
-.news-card{background:var(--card);border:1px solid var(--line);border-radius:16px;
-  -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
-  padding:18px 20px;margin-bottom:16px;box-shadow:var(--shadow),var(--glass-edge);
-  transition:box-shadow .2s,border-color .2s}
-.news-card:hover{border-color:var(--accent);box-shadow:var(--shadow),var(--glass-edge),var(--glow)}
-.news-card[data-importance="5"]{border-left:4px solid var(--accent-critical);box-shadow:var(--shadow),var(--glass-edge),var(--glow-critical)}
-.news-card[data-importance="4"]{border-left:4px solid var(--accent-urgent);box-shadow:var(--shadow),var(--glass-edge),var(--glow-urgent)}
+/* [デザイン進化 2026-09-21] Visily AI(Dense Terminal案)を踏まえ、丸角カード+
+   すきまの「箱」から、罫線区切りの高密度リストへ変更。ヘッダー/固定バー/
+   右側パネルのAurora Glassはそのまま残し、ニュース一覧だけを端末的に締める。
+   カード内部の要素(重要度・テーマ・影響銘柄など)の構造・データは無変更。 */
+.news-card{background:transparent;border:0;border-bottom:1px solid var(--line);border-radius:0;
+  padding:14px 4px;margin-bottom:0;box-shadow:none;
+  transition:background-color .15s,border-left-color .15s}
+.news-card:last-of-type{border-bottom:0}
+.news-card:hover{background:var(--card-2)}
+.news-card[data-importance="5"]{border-left:3px solid var(--accent-critical);padding-left:15px;
+  background:linear-gradient(90deg,rgba(255,77,109,.06),transparent 45%)}
+.news-card[data-importance="4"]{border-left:3px solid var(--accent-urgent);padding-left:15px;
+  background:linear-gradient(90deg,rgba(255,150,64,.06),transparent 45%)}
+.news-card[data-importance="5"]:hover,.news-card[data-importance="4"]:hover{background:var(--card-2)}
 .news-meta{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:13.5px;color:var(--muted)}
 .stars{color:var(--accent-urgent);letter-spacing:1px}
 .cat{background:var(--card-2);border:1px solid var(--line);border-radius:999px;padding:2px 10px}
@@ -367,7 +374,13 @@ header.site::before{content:"";position:absolute;inset:0;pointer-events:none;
    テーマ・情報源・時間・影響銘柄をカード上部で瞬時に把握」)。 */
 .theme-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
 .theme-tags .theme-tag{font-size:12px}
-.why{opacity:.95}
+/* [デザイン進化 2026-09-21] Visily AIで検討した"AI INSIGHT"風ラベルの見た目を、
+   既存の実データ(重要度の根拠)にだけ適用(数値・分析文を新規に作らない)。 */
+.insight-line{margin:8px 0 4px;font-size:13px;color:var(--muted);display:flex;gap:8px;
+  align-items:baseline;flex-wrap:wrap}
+.insight-label{flex-shrink:0;font-size:10.5px;font-weight:700;letter-spacing:.07em;
+  color:var(--accent-2);background:rgba(34,211,238,.08);border:1px solid rgba(34,211,238,.28);
+  border-radius:4px;padding:1px 6px}
 
 .impact-block{margin-top:12px;border-top:1px dashed var(--line);padding-top:12px}
 .impact-block.empty{font-size:14px;color:var(--muted)}
@@ -422,7 +435,10 @@ aside.side::-webkit-scrollbar-thumb{background:rgba(47,230,168,.25);border-radiu
 .panel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 16px 8px;
   -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
   box-shadow:var(--shadow),var(--glass-edge);margin-bottom:16px}
-.panel h2{margin:0 0 4px;font-size:16.5px;font-family:var(--font-head);font-weight:900;letter-spacing:.02em}
+.panel h2{margin:0 0 4px;font-size:14.5px;font-family:var(--font-head);font-weight:800;letter-spacing:.05em;
+  display:flex;align-items:center;gap:8px}
+.panel h2::before{content:"";flex-shrink:0;width:3px;height:15px;border-radius:2px;
+  background:linear-gradient(180deg,var(--accent-2),var(--accent-3))}
 .panel .panel-desc{margin:0 0 12px;font-size:13px;color:var(--muted)}
 .rank-row{border-top:1px solid var(--line)}
 .rank-row:first-of-type{border-top:0}
@@ -679,7 +695,7 @@ footer a{color:var(--accent)}
 <div id="mobile-app">
   <header class="m-topbar">
     <div class="m-brand"><svg class="m-h2-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 16 9 10l4 4 8-9" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 5h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg>日本株ニュース</div>
-    <div class="m-updated">2026-09-21 15:26 更新</div>
+    <div class="m-updated">2026-09-21 16:19 更新</div>
   </header>
 
   <div class="m-screens">
@@ -701,7 +717,7 @@ footer a{color:var(--accent)}
           <button id="mClearFilter" type="button">解除</button>
         </span>
       </div>
-      <h2 class="m-h2 accent-amber"><svg class="m-h2-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3.5 14.6 9.2 21 10l-4.7 4.3L17.5 21 12 17.7 6.5 21l1.2-6.7L3 10l6.4-.8Z" stroke-linejoin="round"/></svg>ニュース一覧<span class="m-h2-count">19件</span></h2>
+      <h2 class="m-h2 accent-amber"><svg class="m-h2-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3.5 14.6 9.2 21 10l-4.7 4.3L17.5 21 12 17.7 6.5 21l1.2-6.7L3 10l6.4-.8Z" stroke-linejoin="round"/></svg>ニュース一覧<span class="m-h2-count">18件</span></h2>
       <div class="m-list" id="mNewsList">
         
   <div class="m-row m-news-row" id="m-news-342572c50f0a" data-m-codes="8306 8316 8411 8309 7203 7267 7201 7269" data-m-search="日銀利上げでも円安に シルバーウィーク中の実弾介入は?「レートチェック」めぐり増す警戒 Yahoo!ニュース 8306 8316 8411 8309 7203 7267 7201 7269 三菱UFJフィナンシャル・グループ 三井住友フィナンシャルグループ みずほフィナンシャルグループ 三井住友トラスト・ホールディングス トヨタ自動車 本田技研工業 日産自動車 スズキ">
@@ -872,20 +888,6 @@ footer a{color:var(--accent)}
       <a class="m-row-link" href="https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/02kiban03_04001188.html" target="_blank" rel="noopener">元記事を読む ↗</a>
     </div>
   </div>
-  <div class="m-row m-news-row" id="m-news-252bcb8f0d35" data-m-codes="" data-m-search="NYダウの指数情報・推移 Yahoo!ファイナンス  ">
-    <button class="m-row-head" type="button" onclick="this.closest('.m-news-row').classList.toggle('is-expanded')">
-      <div class="m-row-main">
-        <span class="m-row-cat">🇺🇸 米国市場</span>
-        <span class="m-row-title">NYダウの指数情報・推移</span>
-        <span class="m-row-sub">★</span>
-      </div>
-      <svg class="m-row-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-    </button>
-    <div class="m-impact-panel">
-      <p class="m-empty-sm">影響が出うる銘柄は現在のルールでは特定できませんでした</p>
-      <a class="m-row-link" href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RX1F0c3NoRW1WOGhKVzFzd0tzWTlBS0NtMVZFbUUyZm14Z1Y5VWhzMjctd201Y2RMTFhBSGx0Rmdqc0ZFY1R2VzZUUG9PVjdUaXc?oc=5" target="_blank" rel="noopener">元記事を読む ↗</a>
-    </div>
-  </div>
   <div class="m-row m-news-row" id="m-news-56c700dfb97d" data-m-codes="" data-m-search="東京為替見通し＝ドル円、シルバーウィーク中の円買い介入に要警戒か ザイFX！  ">
     <button class="m-row-head" type="button" onclick="this.closest('.m-news-row').classList.toggle('is-expanded')">
       <div class="m-row-main">
@@ -928,7 +930,7 @@ footer a{color:var(--accent)}
       <a class="m-row-link" href="https://www.soumu.go.jp/main_sosiki/singi/chizai/02zaisei02_04001397_00968.html" target="_blank" rel="noopener">元記事を読む ↗</a>
     </div>
   </div>
-  <div class="m-row m-news-row" id="m-news-7569c3054fd1" data-m-codes="" data-m-search="NscaleのIPO：エヌビディアが支援するAIクラウドプロバイダーが米国上場を計画、評価額は350億ドルに達する可能性 TradingKey  ">
+  <div class="m-row m-news-row" id="m-news-7569c3054fd1" data-m-codes="" data-m-search="NscaleのIPO：エヌビディアが支援するAIクラウドプロバイダーが米国上場を計画、評価額は350億ドルに達する可能性 tradingkey.com  ">
     <button class="m-row-head" type="button" onclick="this.closest('.m-news-row').classList.toggle('is-expanded')">
       <div class="m-row-main">
         <span class="m-row-cat">🤖 半導体・AI</span>
@@ -1309,7 +1311,7 @@ footer a{color:var(--accent)}
 
       <h2 class="m-h2 accent-violet"><svg class="m-h2-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1"/></svg>サマリー</h2>
       <div class="m-stat-row">
-        <div class="m-stat"><span class="m-stat-n">19</span><span class="m-stat-l">ニュース</span></div>
+        <div class="m-stat"><span class="m-stat-n">18</span><span class="m-stat-l">ニュース</span></div>
         <div class="m-stat"><span class="m-stat-n">5</span><span class="m-stat-l">★4以上</span></div>
         <div class="m-stat"><span class="m-stat-n">20</span><span class="m-stat-l">影響銘柄</span></div>
       </div>
@@ -1506,7 +1508,7 @@ footer a{color:var(--accent)}
       <h3 class="m-cat-h3">🤖 半導体・AI<span class="m-cat-count">1</span></h3>
       <div class="m-list">
         
-  <div class="m-row m-news-row" id="m-news-7569c3054fd1" data-m-codes="" data-m-search="NscaleのIPO：エヌビディアが支援するAIクラウドプロバイダーが米国上場を計画、評価額は350億ドルに達する可能性 TradingKey  ">
+  <div class="m-row m-news-row" id="m-news-7569c3054fd1" data-m-codes="" data-m-search="NscaleのIPO：エヌビディアが支援するAIクラウドプロバイダーが米国上場を計画、評価額は350億ドルに達する可能性 tradingkey.com  ">
     <button class="m-row-head" type="button" onclick="this.closest('.m-news-row').classList.toggle('is-expanded')">
       <div class="m-row-main">
         <span class="m-row-cat">🤖 半導体・AI</span>
@@ -1605,7 +1607,7 @@ footer a{color:var(--accent)}
       </div>
     </div>
     <div class="m-cat-group">
-      <h3 class="m-cat-h3">🇺🇸 米国市場<span class="m-cat-count">2</span></h3>
+      <h3 class="m-cat-h3">🇺🇸 米国市場<span class="m-cat-count">1</span></h3>
       <div class="m-list">
         
   <div class="m-row m-news-row" id="m-news-d6f8ecf0b5dd" data-m-codes="8604 8601 8473 9984 7203" data-m-search="ナスダック総合の指数情報・推移 Yahoo!ファイナンス 8604 8601 8473 9984 7203 野村ホールディングス 大和証券グループ本社 SBIホールディングス ソフトバンクグループ トヨタ自動車">
@@ -1622,28 +1624,14 @@ footer a{color:var(--accent)}
       <a class="m-row-link" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5" target="_blank" rel="noopener">元記事を読む ↗</a>
     </div>
   </div>
-  <div class="m-row m-news-row" id="m-news-252bcb8f0d35" data-m-codes="" data-m-search="NYダウの指数情報・推移 Yahoo!ファイナンス  ">
-    <button class="m-row-head" type="button" onclick="this.closest('.m-news-row').classList.toggle('is-expanded')">
-      <div class="m-row-main">
-        <span class="m-row-cat">🇺🇸 米国市場</span>
-        <span class="m-row-title">NYダウの指数情報・推移</span>
-        <span class="m-row-sub">★</span>
-      </div>
-      <svg class="m-row-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-    </button>
-    <div class="m-impact-panel">
-      <p class="m-empty-sm">影響が出うる銘柄は現在のルールでは特定できませんでした</p>
-      <a class="m-row-link" href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RX1F0c3NoRW1WOGhKVzFzd0tzWTlBS0NtMVZFbUUyZm14Z1Y5VWhzMjctd201Y2RMTFhBSGx0Rmdqc0ZFY1R2VzZUUG9PVjdUaXc?oc=5" target="_blank" rel="noopener">元記事を読む ↗</a>
-    </div>
-  </div>
       </div>
     </div>
     </section>
 
     <section class="m-screen" data-screen="settings">
       <h2 class="m-h2"><svg class="m-h2-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3.2"/><path d="M12 3.5v2.4M12 18.1v2.4M20.5 12h-2.4M5.9 12H3.5M17.7 6.3l-1.7 1.7M8 16l-1.7 1.7M17.7 17.7 16 16M8 8 6.3 6.3" stroke-linecap="round"/></svg>設定</h2>
-      <div class="m-settings-row"><span>最終更新</span><span>2026-09-21 15:26</span></div>
-      <div class="m-settings-row"><span>ニュース件数</span><span>19件</span></div>
+      <div class="m-settings-row"><span>最終更新</span><span>2026-09-21 16:19</span></div>
+      <div class="m-settings-row"><span>ニュース件数</span><span>18件</span></div>
       <button class="m-cta" onclick="mobileToggleTheme()"><svg class="m-cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z" stroke-linejoin="round"/></svg>テーマ切り替え</button>
       <button class="m-cta" onclick="mobileShowDesktop()" style="margin-top:10px"><svg class="m-cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4.5" width="18" height="12" rx="1.6"/><path d="M8.5 20h7M12 16.5V20" stroke-linecap="round"/></svg>PC版を表示</button>
       <p class="m-note">このモバイル画面はβ版です。検索・お気に入り等の詳細操作はPC版でご利用ください。</p>
@@ -1668,19 +1656,19 @@ footer a{color:var(--accent)}
     <div class="brand">
       <div class="eyebrow">JAPAN EQUITY ・ NEWS IMPACT</div>
       <h1>重要ニュース × 影響銘柄</h1>
-      <div class="sub">最終更新 2026-09-21 15:26 (JST) ・ ニュース 19件
+      <div class="sub">最終更新 2026-09-21 16:19 (JST) ・ ニュース 18件
         (うち重要度★4以上 5件) ・ 影響銘柄 20銘柄</div>
     </div>
     <div class="head-actions">
       <button id="themeToggle" class="theme-toggle" type="button">🌗 テーマ</button>
     </div>
   </div>
-  <div class="market-bar"><div class="ticker"><span class="ticker-label">日経平均</span><span class="ticker-value">65,018.95</span><span class="ticker-change up">+1.38%</span></div><div class="ticker"><span class="ticker-label">日経先物</span><span class="ticker-value">65,315.00</span><span class="ticker-change up">+0.37%</span></div><div class="ticker"><span class="ticker-label">ドル円</span><span class="ticker-value">157.03円</span><span class="ticker-change up">+0.58%</span></div><div class="ticker"><span class="ticker-label">S&amp;P500</span><span class="ticker-value">7,650.50</span><span class="ticker-change up">+0.17%</span></div><div class="ticker"><span class="ticker-label">ナスダック</span><span class="ticker-value">26,522.54</span><span class="ticker-change up">+0.39%</span></div><div class="ticker"><span class="ticker-label">SOX指数</span><span class="ticker-value">11,921.69</span><span class="ticker-change up">+2.78%</span></div></div>
+  <div class="market-bar"><div class="ticker"><span class="ticker-label">日経平均</span><span class="ticker-value">65,018.95</span><span class="ticker-change up">+1.38%</span></div><div class="ticker"><span class="ticker-label">日経先物</span><span class="ticker-value">65,435.00</span><span class="ticker-change up">+0.55%</span></div><div class="ticker"><span class="ticker-label">ドル円</span><span class="ticker-value">157.24円</span><span class="ticker-change up">+0.71%</span></div><div class="ticker"><span class="ticker-label">S&amp;P500</span><span class="ticker-value">7,650.50</span><span class="ticker-change up">+0.17%</span></div><div class="ticker"><span class="ticker-label">ナスダック</span><span class="ticker-value">26,522.54</span><span class="ticker-change up">+0.39%</span></div><div class="ticker"><span class="ticker-label">SOX指数</span><span class="ticker-value">11,921.69</span><span class="ticker-change up">+2.78%</span></div></div>
 </header>
 
 <div class="wrap">
   <div class="controls">
-    <div class="filter-row"><button class="filter-chip filter-chip-all is-active" type="button" data-category="all">すべて<span class="chip-count">19</span></button><button class="filter-chip" type="button" data-category="policy">🏦 金融政策・金利<span class="chip-count">2</span></button><button class="filter-chip" type="button" data-category="fx">💱 為替<span class="chip-count">5</span></button><button class="filter-chip" type="button" data-category="geopolitics">🌍 地政学・有事<span class="chip-count">1</span></button><button class="filter-chip" type="button" data-category="trade">⚖️ 通商・規制<span class="chip-count">2</span></button><button class="filter-chip" type="button" data-category="resources">🛢️ 資源・エネルギー<span class="chip-count">1</span></button><button class="filter-chip" type="button" data-category="tech">🤖 半導体・AI<span class="chip-count">1</span></button><button class="filter-chip" type="button" data-category="corporate">🏢 企業・決算<span class="chip-count">1</span></button><button class="filter-chip" type="button" data-category="japan">🗾 日本経済・政治<span class="chip-count">4</span></button><button class="filter-chip filter-more" type="button" id="filterMoreToggle" aria-expanded="false">その他 <span class="chip-count">1</span></button><button class="filter-chip filter-chip-overflow" type="button" data-category="us">🇺🇸 米国市場<span class="chip-count">2</span></button></div>
+    <div class="filter-row"><button class="filter-chip filter-chip-all is-active" type="button" data-category="all">すべて<span class="chip-count">18</span></button><button class="filter-chip" type="button" data-category="policy">🏦 金融政策・金利<span class="chip-count">2</span></button><button class="filter-chip" type="button" data-category="fx">💱 為替<span class="chip-count">5</span></button><button class="filter-chip" type="button" data-category="geopolitics">🌍 地政学・有事<span class="chip-count">1</span></button><button class="filter-chip" type="button" data-category="trade">⚖️ 通商・規制<span class="chip-count">2</span></button><button class="filter-chip" type="button" data-category="resources">🛢️ 資源・エネルギー<span class="chip-count">1</span></button><button class="filter-chip" type="button" data-category="tech">🤖 半導体・AI<span class="chip-count">1</span></button><button class="filter-chip" type="button" data-category="corporate">🏢 企業・決算<span class="chip-count">1</span></button><button class="filter-chip" type="button" data-category="japan">🗾 日本経済・政治<span class="chip-count">4</span></button><button class="filter-chip filter-more" type="button" id="filterMoreToggle" aria-expanded="false">その他 <span class="chip-count">1</span></button><button class="filter-chip filter-chip-overflow" type="button" data-category="us">🇺🇸 米国市場<span class="chip-count">1</span></button></div>
     <div class="search-row">
       <input id="searchInput" type="search" placeholder="キーワード・銘柄名・証券コードで絞り込み(例: 半導体 8035)">
       <select id="minStars">
@@ -1733,7 +1721,7 @@ footer a{color:var(--accent)}
         <span class="lifecycle-badge" data-state="UPDATE" title="同じ政策の続報を束ねて追跡した進行状況(表示のみで銘柄判定には影響しません)">🔁 続報</span>
         
         
-        <span class="time">20時間前</span>
+        <span class="time">21時間前</span>
         <span class="source">Yahoo!ニュース</span>
         <button class="copy-link" type="button" data-url="https://news.google.com/rss/articles/CBMif0FVX3lxTE9qOWcwNGF1RmdGektXN0t3ZW13TGNlOGJDQWhfMVBsNmxNM1U0VEJpVlZKc015NWF1V3FSTC0xeWJ5VWdVb3o2STdldXprS2tCNEJ3WFkxcENfZmx4QXZSNkQxbmFQaVU4QkNLd3NvUjNHNVJDQ3RCeURYcHpuUEk?oc=5" data-title="日銀利上げでも円安に シルバーウィーク中の実弾介入は?「レートチェック」めぐり増す警戒"
                 title="リンクをコピー" aria-label="リンクをコピー">🔗 コピー</button>
@@ -1742,7 +1730,7 @@ footer a{color:var(--accent)}
       <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9qOWcwNGF1RmdGektXN0t3ZW13TGNlOGJDQWhfMVBsNmxNM1U0VEJpVlZKc015NWF1V3FSTC0xeWJ5VWdVb3o2STdldXprS2tCNEJ3WFkxcENfZmx4QXZSNkQxbmFQaVU4QkNLd3NvUjNHNVJDQ3RCeURYcHpuUEk?oc=5" target="_blank" rel="noopener">日銀利上げでも円安に シルバーウィーク中の実弾介入は?「レートチェック」めぐり増す警戒</a></h3>
       
       
-      <div class="themes"><span class="why" title="重要度の根拠">重要度の根拠: 重要語「利上げ」・影響テーマ「円安進行」に該当</span></div>
+      <div class="insight-line"><span class="insight-label">重要度の根拠</span>重要語「利上げ」・影響テーマ「円安進行」に該当</div>
       
       <div class="impact-block">
         <div class="impact-head">影響が出うる銘柄 <span class="impact-counts"><span class="up">▲追い風 8</span></span></div>
@@ -1932,7 +1920,7 @@ footer a{color:var(--accent)}
       <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE5zNGRUeGVUcm92SC1lUTdWTzhRbzJMUjFDSkw4N3duOTRiQ0syY1FLT000ZEVfMzVCYWk4MHVuTWJDOU1RcE41SDRHM2N1cVZBc1hBVFlzVmtnR2p0RmE5ODlSbw?oc=5" target="_blank" rel="noopener">今日のFX予想：日銀は利上げで円売りも 介入警戒で上値重い 2026/9/21</a></h3>
       
       
-      <div class="themes"><span class="why" title="重要度の根拠">重要度の根拠: 重要語「利上げ」・影響テーマ「日銀の利上げ・金融正常化」に該当</span></div>
+      <div class="insight-line"><span class="insight-label">重要度の根拠</span>重要語「利上げ」・影響テーマ「日銀の利上げ・金融正常化」に該当</div>
       
       <div class="impact-block">
         <div class="impact-head">影響が出うる銘柄 <span class="impact-counts"><span class="up">▲追い風 6</span> / <span class="down">▼逆風 2</span></span></div>
@@ -2113,7 +2101,7 @@ footer a{color:var(--accent)}
         <span class="lifecycle-badge" data-state="UPDATE" title="同じ政策の続報を束ねて追跡した進行状況(表示のみで銘柄判定には影響しません)">🔁 続報</span>
         
         
-        <span class="time">7時間前</span>
+        <span class="time">8時間前</span>
         <span class="source">外為どっとコム</span>
         <button class="copy-link" type="button" data-url="https://news.google.com/rss/articles/CBMiY0FVX3lxTE4wNmJ6WjRIZHRORnBpd21OM016MjJGNDN3Rnlxb0NRWEJ4RnlfOEFaVGZUMnllaUhDN1o4UmhGOFlKWWRaZ29uQWp3SV95MllKTFlSQzVRTzBHQk40YjA2a2lTTQ?oc=5" data-title="FX/為替「ドル/円今日の見通し｜日銀は期待ほどタカ派とならず 為替介入に警戒しつつ円安地合いは続く」 外為どっとコム トゥデイ 2026年9月21日号"
                 title="リンクをコピー" aria-label="リンクをコピー">🔗 コピー</button>
@@ -2122,7 +2110,7 @@ footer a{color:var(--accent)}
       <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE4wNmJ6WjRIZHRORnBpd21OM016MjJGNDN3Rnlxb0NRWEJ4RnlfOEFaVGZUMnllaUhDN1o4UmhGOFlKWWRaZ29uQWp3SV95MllKTFlSQzVRTzBHQk40YjA2a2lTTQ?oc=5" target="_blank" rel="noopener">FX/為替「ドル/円今日の見通し｜日銀は期待ほどタカ派とならず 為替介入に警戒しつつ円安地合いは続く」 外為どっとコム トゥデイ 2026年9月21日号</a></h3>
       
       
-      <div class="themes"><span class="why" title="重要度の根拠">重要度の根拠: 重要語「為替介入」・影響テーマ「円安進行」に該当</span></div>
+      <div class="insight-line"><span class="insight-label">重要度の根拠</span>重要語「為替介入」・影響テーマ「円安進行」に該当</div>
       
       <div class="impact-block">
         <div class="impact-head">影響が出うる銘柄 <span class="impact-counts"><span class="up">▲追い風 6</span> / <span class="down">▼逆風 2</span></span></div>
@@ -2303,7 +2291,7 @@ footer a{color:var(--accent)}
         <span class="lifecycle-badge" data-state="UPDATE" title="同じ政策の続報を束ねて追跡した進行状況(表示のみで銘柄判定には影響しません)">🔁 続報</span>
         
         <span class="source-tier-badge tier-commentary" title="情報源の区分。政策インパクトスコアの信頼度に反映済み(一次情報=そのまま/二次情報=×0.85/市場解説=×0.65)。表示のみでtheme/direction等の判定には影響しません">💬 市場解説</span>
-        <span class="time">10時間前</span>
+        <span class="time">11時間前</span>
         <span class="source">ダイヤモンド・オンライン</span>
         <button class="copy-link" type="button" data-url="https://news.google.com/rss/articles/CBMiTEFVX3lxTFBKOVFUU1pndWFIS2hpVW95OHlZUmJ4WTM0S2lTNGpOV051NDd3d1B1RjdTdzAxT0w2TGdJVkFQQjVEMmczQ2NUT2owQi3SAU9BVV95cUxNLTRNVFpMTmMzYVJfcHFjRUpLekZfeW5uOWYzRkRyNzcxOTY1UFhBaVRkeDNHenJ1Q1RaZmZ3eFMxcVBBS2o4ZXhLLU0xOEtF?oc=5" data-title="日銀利上げで政策金利「中立金利レンジ」到達、長期金利の“良い上昇・悪い上昇”を分ける4つの要因"
                 title="リンクをコピー" aria-label="リンクをコピー">🔗 コピー</button>
@@ -2312,7 +2300,7 @@ footer a{color:var(--accent)}
       <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiTEFVX3lxTFBKOVFUU1pndWFIS2hpVW95OHlZUmJ4WTM0S2lTNGpOV051NDd3d1B1RjdTdzAxT0w2TGdJVkFQQjVEMmczQ2NUT2owQi3SAU9BVV95cUxNLTRNVFpMTmMzYVJfcHFjRUpLekZfeW5uOWYzRkRyNzcxOTY1UFhBaVRkeDNHenJ1Q1RaZmZ3eFMxcVBBS2o4ZXhLLU0xOEtF?oc=5" target="_blank" rel="noopener">日銀利上げで政策金利「中立金利レンジ」到達、長期金利の“良い上昇・悪い上昇”を分ける4つの要因</a></h3>
       
       
-      <div class="themes"><span class="why" title="重要度の根拠">重要度の根拠: 重要語「利上げ」・影響テーマ「日銀の利上げ・金融正常化」に該当</span></div>
+      <div class="insight-line"><span class="insight-label">重要度の根拠</span>重要語「利上げ」・影響テーマ「日銀の利上げ・金融正常化」に該当</div>
       
       <div class="impact-block">
         <div class="impact-head">影響が出うる銘柄 <span class="impact-counts"><span class="up">▲追い風 6</span> / <span class="down">▼逆風 2</span></span></div>
@@ -2502,7 +2490,7 @@ footer a{color:var(--accent)}
       <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjUGEtV19fOVFPOU96c2lwM0ZFX2R6aEdmSjVERTZNOTh3QXFUaFhlRnFtWkRGaGJzal9KNDlhenFDR0xRbENBdjdQcmVodEwyMTJXbU81akQ1X1lzU0ZPT00tcw?oc=5" target="_blank" rel="noopener">日銀は利上げしたのになぜ円安？ FOMC・原油高・米金利5％から今の相場を整理【相場の現在地】</a></h3>
       
       
-      <div class="themes"><span class="why" title="重要度の根拠">重要度の根拠: 重要語「利上げ」・影響テーマ「円安進行」に該当</span></div>
+      <div class="insight-line"><span class="insight-label">重要度の根拠</span>重要語「利上げ」・影響テーマ「円安進行」に該当</div>
       
       <div class="impact-block">
         <div class="impact-head">影響が出うる銘柄 <span class="impact-counts"><span class="up">▲追い風 8</span></span></div>
@@ -2683,7 +2671,7 @@ footer a{color:var(--accent)}
         
         
         <span class="source-tier-badge tier-primary" title="情報源の区分。政策インパクトスコアの信頼度に反映済み(一次情報=そのまま/二次情報=×0.85/市場解説=×0.65)。表示のみでtheme/direction等の判定には影響しません">🏛️ 一次情報</span>
-        <span class="time">12時間前</span>
+        <span class="time">13時間前</span>
         <span class="source">首相官邸</span>
         <button class="copy-link" type="button" data-url="https://www.kantei.go.jp/jp/105/discourse/20260920shiji2.html" data-title="高市総理は北朝鮮からの弾道ミサイルの可能性があるものの発射に関する総理指示を行いました"
                 title="リンクをコピー" aria-label="リンクをコピー">🔗 コピー</button>
@@ -2692,7 +2680,7 @@ footer a{color:var(--accent)}
       <h3 class="news-title"><a href="https://www.kantei.go.jp/jp/105/discourse/20260920shiji2.html" target="_blank" rel="noopener">高市総理は北朝鮮からの弾道ミサイルの可能性があるものの発射に関する総理指示を行いました</a></h3>
       
       
-      <div class="themes"><span class="why" title="重要度の根拠">重要度の根拠: 重要語「ミサイル」・2媒体が報道</span></div>
+      <div class="insight-line"><span class="insight-label">重要度の根拠</span>重要語「ミサイル」・2媒体が報道</div>
       
       <div class="impact-block empty">このニュースに対応する影響銘柄は、現在のルールでは特定できませんでした。</div>
       
@@ -2714,7 +2702,7 @@ footer a{color:var(--accent)}
         <span class="lifecycle-badge" data-state="UPDATE" title="同じ政策の続報を束ねて追跡した進行状況(表示のみで銘柄判定には影響しません)">🔁 続報</span>
         
         
-        <span class="time">18時間前</span>
+        <span class="time">19時間前</span>
         <span class="source">朝日新聞</span>
         <button class="copy-link" type="button" data-url="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uMXgwNTdYVzVsUkowQWc0VVgwZURIRnJMOERuQU1MU1JrenhPWWY2TThqSjRxU29CQ2QyT2Z0cTNfT2ZPTko0SW1MRFZ2V0I1cnQ4M1Z0eGNPMzV3X0t6b0JyX3ZVc1U?oc=5" data-title="フーシとサウジの戦闘激化 首都リヤドにも攻撃 原油価格高騰に懸念 [米・イスラエルのイラン攻撃 イラン情勢]"
                 title="リンクをコピー" aria-label="リンクをコピー">🔗 コピー</button>
@@ -2723,7 +2711,7 @@ footer a{color:var(--accent)}
       <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uMXgwNTdYVzVsUkowQWc0VVgwZURIRnJMOERuQU1MU1JrenhPWWY2TThqSjRxU29CQ2QyT2Z0cTNfT2ZPTko0SW1MRFZ2V0I1cnQ4M1Z0eGNPMzV3X0t6b0JyX3ZVc1U?oc=5" target="_blank" rel="noopener">フーシとサウジの戦闘激化 首都リヤドにも攻撃 原油価格高騰に懸念 [米・イスラエルのイラン攻撃 イラン情勢]</a></h3>
       
       
-      <div class="themes"><span class="why" title="重要度の根拠">重要度の根拠: 影響テーマ「中東情勢・地政学リスク」に該当</span></div>
+      <div class="insight-line"><span class="insight-label">重要度の根拠</span>影響テーマ「中東情勢・地政学リスク」に該当</div>
       
       <div class="impact-block">
         <div class="impact-head">影響が出うる銘柄 <span class="impact-counts"><span class="up">▲追い風 8</span></span></div>
@@ -2904,7 +2892,7 @@ footer a{color:var(--accent)}
         <span class="lifecycle-badge" data-state="UPDATE" title="同じ政策の続報を束ねて追跡した進行状況(表示のみで銘柄判定には影響しません)">🔁 続報</span>
         <span class="novelty-badge" data-novelty="low" title="似た見出しが過去に記録されている、または複数媒体が同時報道済みです。重要でも既に市場に知られている可能性があります(表示のみで銘柄判定には影響しません)">♻️ 再報道</span>
         
-        <span class="time">21時間前</span>
+        <span class="time">22時間前</span>
         <span class="source">Infoseek</span>
         <button class="copy-link" type="button" data-url="https://news.google.com/rss/articles/CBMikgFBVV95cUxNbnlyR1l6NmFKTV9sOVhXdjI0ZjJDNDZBVmZPS05USld4UTVZbnhkYmpVaUF6a2p1NTlyQU03aDJYQ0RmMjZNRlZncG5IM3hJMkQ5TjVha3hRcklCRmppclFpYlVHblBCM0hMQmxleGRzdndtelRvYWo0akNpSkU3YmlMNllsYkdXRVlMUG5NenBDd9IBkgFBVV95cUxNbnlyR1l6NmFKTV9sOVhXdjI0ZjJDNDZBVmZPS05USld4UTVZbnhkYmpVaUF6a2p1NTlyQU03aDJYQ0RmMjZNRlZncG5IM3hJMkQ5TjVha3hRcklCRmppclFpYlVHblBCM0hMQmxleGRzdndtelRvYWo0akNpSkU3YmlMNllsYkdXRVlMUG5NenBDdw?oc=5" data-title="中国、8月の対日レアアース輸出は212トン　前年同月比で17％減、落ち込み続く"
                 title="リンクをコピー" aria-label="リンクをコピー">🔗 コピー</button>
@@ -2913,7 +2901,7 @@ footer a{color:var(--accent)}
       <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxNbnlyR1l6NmFKTV9sOVhXdjI0ZjJDNDZBVmZPS05USld4UTVZbnhkYmpVaUF6a2p1NTlyQU03aDJYQ0RmMjZNRlZncG5IM3hJMkQ5TjVha3hRcklCRmppclFpYlVHblBCM0hMQmxleGRzdndtelRvYWo0akNpSkU3YmlMNllsYkdXRVlMUG5NenBDd9IBkgFBVV95cUxNbnlyR1l6NmFKTV9sOVhXdjI0ZjJDNDZBVmZPS05USld4UTVZbnhkYmpVaUF6a2p1NTlyQU03aDJYQ0RmMjZNRlZncG5IM3hJMkQ5TjVha3hRcklCRmppclFpYlVHblBCM0hMQmxleGRzdndtelRvYWo0akNpSkU3YmlMNllsYkdXRVlMUG5NenBDdw?oc=5" target="_blank" rel="noopener">中国、8月の対日レアアース輸出は212トン　前年同月比で17％減、落ち込み続く</a></h3>
       
       
-      <div class="themes"><span class="why" title="重要度の根拠">重要度の根拠: 影響テーマ「レアアース・重要鉱物の輸出規制」に該当</span></div>
+      <div class="insight-line"><span class="insight-label">重要度の根拠</span>影響テーマ「レアアース・重要鉱物の輸出規制」に該当</div>
       
       <div class="impact-block">
         <div class="impact-head">影響が出うる銘柄 <span class="impact-counts"><span class="up">▲追い風 2</span> / <span class="down">▼逆風 3</span></span></div>
@@ -3034,7 +3022,7 @@ footer a{color:var(--accent)}
         <span class="lifecycle-badge" data-state="UPDATE" title="同じ政策の続報を束ねて追跡した進行状況(表示のみで銘柄判定には影響しません)">🔁 続報</span>
         <span class="novelty-badge" data-novelty="low" title="似た見出しが過去に記録されている、または複数媒体が同時報道済みです。重要でも既に市場に知られている可能性があります(表示のみで銘柄判定には影響しません)">♻️ 再報道</span>
         
-        <span class="time">21時間前</span>
+        <span class="time">22時間前</span>
         <span class="source">静岡新聞DIGITAL</span>
         <button class="copy-link" type="button" data-url="https://news.google.com/rss/articles/CBMiTkFVX3lxTE5jNFpqWV8wV1FuZWl2dC1rSHBtTFVSZnp2Ukc5bTVvRXNzaFFzMWQ5bmlYS2cxLVM0WFlYNHhJWWkyQVB3dDZEY2xKZ3ZBQQ?oc=5" data-title="対日レアアース磁石輸出１７％減 中国８月、２００トン台回復"
                 title="リンクをコピー" aria-label="リンクをコピー">🔗 コピー</button>
@@ -3043,7 +3031,7 @@ footer a{color:var(--accent)}
       <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE5jNFpqWV8wV1FuZWl2dC1rSHBtTFVSZnp2Ukc5bTVvRXNzaFFzMWQ5bmlYS2cxLVM0WFlYNHhJWWkyQVB3dDZEY2xKZ3ZBQQ?oc=5" target="_blank" rel="noopener">対日レアアース磁石輸出１７％減 中国８月、２００トン台回復</a></h3>
       
       
-      <div class="themes"><span class="why" title="重要度の根拠">重要度の根拠: 影響テーマ「レアアース・重要鉱物の輸出規制」に該当・2媒体が報道</span></div>
+      <div class="insight-line"><span class="insight-label">重要度の根拠</span>影響テーマ「レアアース・重要鉱物の輸出規制」に該当・2媒体が報道</div>
       
       <div class="impact-block">
         <div class="impact-head">影響が出うる銘柄 <span class="impact-counts"><span class="up">▲追い風 2</span> / <span class="down">▼逆風 3</span></span></div>
@@ -3156,7 +3144,7 @@ footer a{color:var(--accent)}
       </details>
     </article>
     <article class="news-card" id="news-d6f8ecf0b5dd" data-category="us" data-importance="2"
-             data-codes="8604 8601 8473 9984 7203" data-search="ナスダック総合の指数情報・推移 Yahoo!ファイナンス 米国株・ハイテク株の変動 8604 8601 8473 9984 7203 野村ホールディングス 大和証券グループ本社 SBIホールディングス ソフトバンクグループ トヨタ自動車" data-ts="2026-09-21 11:14"
+             data-codes="8604 8601 8473 9984 7203" data-search="ナスダック総合の指数情報・推移 Yahoo!ファイナンス 米国株・ハイテク株の変動 8604 8601 8473 9984 7203 野村ホールディングス 大和証券グループ本社 SBIホールディングス ソフトバンクグループ トヨタ自動車" data-ts="2026-09-21 14:12"
              data-future="0"
              data-maturity="">
       <div class="news-meta">
@@ -3168,7 +3156,7 @@ footer a{color:var(--accent)}
         <span class="lifecycle-badge" data-state="UPDATE" title="同じ政策の続報を束ねて追跡した進行状況(表示のみで銘柄判定には影響しません)">🔁 続報</span>
         <span class="novelty-badge" data-novelty="low" title="似た見出しが過去に記録されている、または複数媒体が同時報道済みです。重要でも既に市場に知られている可能性があります(表示のみで銘柄判定には影響しません)">♻️ 再報道</span>
         
-        <span class="time">4時間前</span>
+        <span class="time">2時間前</span>
         <span class="source">Yahoo!ファイナンス</span>
         <button class="copy-link" type="button" data-url="https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5" data-title="ナスダック総合の指数情報・推移"
                 title="リンクをコピー" aria-label="リンクをコピー">🔗 コピー</button>
@@ -3177,7 +3165,7 @@ footer a{color:var(--accent)}
       <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5" target="_blank" rel="noopener">ナスダック総合の指数情報・推移</a></h3>
       
       
-      <div class="themes"><span class="why" title="重要度の根拠">重要度の根拠: 影響テーマ「米国株・ハイテク株の変動」に該当</span></div>
+      <div class="insight-line"><span class="insight-label">重要度の根拠</span>影響テーマ「米国株・ハイテク株の変動」に該当</div>
       
       <div class="impact-block">
         <div class="impact-head">影響が出うる銘柄 <span class="impact-counts"><span class="flat">●注目 5</span></span></div>
@@ -3307,7 +3295,7 @@ footer a{color:var(--accent)}
       <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBwa29UMDRfeTZlbURQN0ZrQ3d5dGQ2RDdBR0Qtajd3dktZRWY0T2JvVDNyX1NpQmpSSVR0LVBhU04xbWowbUQ4YVpmWC02MEl2cnJIRmVUU3JEcWd4SEQwSTNNVURaUGx4Umc?oc=5" target="_blank" rel="noopener">ほぼ日、通期業績予想を上方修正 「ほぼ日手帳2027」の卸受注が国内外で想定超え</a></h3>
       
       
-      <div class="themes"><span class="why" title="重要度の根拠">重要度の根拠: 重要語「上方修正」</span></div>
+      <div class="insight-line"><span class="insight-label">重要度の根拠</span>重要語「上方修正」</div>
       
       <div class="impact-block empty">このニュースに対応する影響銘柄は、現在のルールでは特定できませんでした。</div>
       
@@ -3334,34 +3322,7 @@ footer a{color:var(--accent)}
       <h3 class="news-title"><a href="https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/02kiban03_04001188.html" target="_blank" rel="noopener">情報通信審議会　電気通信事業政策部会　接続政策委員会（第85回）の開催について</a></h3>
       
       
-      <div class="themes"><span class="why" title="重要度の根拠">重要度の根拠: 先行情報(審議会・検討会・パブコメ等)</span></div>
-      
-      <div class="impact-block empty">このニュースに対応する影響銘柄は、現在のルールでは特定できませんでした。</div>
-      
-    </article>
-    <article class="news-card" id="news-252bcb8f0d35" data-category="us" data-importance="1"
-             data-codes="" data-search="NYダウの指数情報・推移 Yahoo!ファイナンス   " data-ts="2026-09-21 10:26"
-             data-future="0"
-             data-maturity="">
-      <div class="news-meta">
-        <span class="stars" title="重要度 1 / 5">★☆☆☆☆</span>
-        <span class="cat">🇺🇸 米国市場</span>
-        
-        
-        
-        
-        
-        
-        <span class="time">5時間前</span>
-        <span class="source">Yahoo!ファイナンス</span>
-        <button class="copy-link" type="button" data-url="https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RX1F0c3NoRW1WOGhKVzFzd0tzWTlBS0NtMVZFbUUyZm14Z1Y5VWhzMjctd201Y2RMTFhBSGx0Rmdqc0ZFY1R2VzZUUG9PVjdUaXc?oc=5" data-title="NYダウの指数情報・推移"
-                title="リンクをコピー" aria-label="リンクをコピー">🔗 コピー</button>
-      </div>
-      
-      <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RX1F0c3NoRW1WOGhKVzFzd0tzWTlBS0NtMVZFbUUyZm14Z1Y5VWhzMjctd201Y2RMTFhBSGx0Rmdqc0ZFY1R2VzZUUG9PVjdUaXc?oc=5" target="_blank" rel="noopener">NYダウの指数情報・推移</a></h3>
-      
-      
-      <div class="themes"><span class="why" title="重要度の根拠">重要度の根拠: 一般的な市況ニュース</span></div>
+      <div class="insight-line"><span class="insight-label">重要度の根拠</span>先行情報(審議会・検討会・パブコメ等)</div>
       
       <div class="impact-block empty">このニュースに対応する影響銘柄は、現在のルールでは特定できませんでした。</div>
       
@@ -3379,7 +3340,7 @@ footer a{color:var(--accent)}
         
         
         
-        <span class="time">7時間前</span>
+        <span class="time">8時間前</span>
         <span class="source">ザイFX！</span>
         <button class="copy-link" type="button" data-url="https://news.google.com/rss/articles/CBMiUkFVX3lxTFBRRTh2OElzMEt0d19UU2RZVjZoeXRZc3lpMXdNa0lmZTdWeGdnQ21mMGhOUFpCMXJmLVJCMlVaSVpkakVmaTRWR2MyaDhPbk1namc?oc=5" data-title="東京為替見通し＝ドル円、シルバーウィーク中の円買い介入に要警戒か"
                 title="リンクをコピー" aria-label="リンクをコピー">🔗 コピー</button>
@@ -3388,7 +3349,7 @@ footer a{color:var(--accent)}
       <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTFBRRTh2OElzMEt0d19UU2RZVjZoeXRZc3lpMXdNa0lmZTdWeGdnQ21mMGhOUFpCMXJmLVJCMlVaSVpkakVmaTRWR2MyaDhPbk1namc?oc=5" target="_blank" rel="noopener">東京為替見通し＝ドル円、シルバーウィーク中の円買い介入に要警戒か</a></h3>
       
       
-      <div class="themes"><span class="why" title="重要度の根拠">重要度の根拠: 一般的な市況ニュース</span></div>
+      <div class="insight-line"><span class="insight-label">重要度の根拠</span>一般的な市況ニュース</div>
       
       <div class="impact-block empty">このニュースに対応する影響銘柄は、現在のルールでは特定できませんでした。</div>
       
@@ -3406,7 +3367,7 @@ footer a{color:var(--accent)}
         
         
         
-        <span class="time">9時間前</span>
+        <span class="time">10時間前</span>
         <span class="source">ビジネスジャーナル</span>
         <button class="copy-link" type="button" data-url="https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pYTRwbEZsOUhUVHNxd0pKRkdCYmN4WDEzZTRJeUFTMUhYOS0taEZwVGFBbjZ2XzJncVk0OHRHMkFtelc0Y2EyTkhWS1k1MmllRUpSX3c2TnFFeHM?oc=5" data-title="グーグル、フィンランドに2.3兆円投資…ロヴィーサ原発22年契約の裏側"
                 title="リンクをコピー" aria-label="リンクをコピー">🔗 コピー</button>
@@ -3415,7 +3376,7 @@ footer a{color:var(--accent)}
       <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pYTRwbEZsOUhUVHNxd0pKRkdCYmN4WDEzZTRJeUFTMUhYOS0taEZwVGFBbjZ2XzJncVk0OHRHMkFtelc0Y2EyTkhWS1k1MmllRUpSX3c2TnFFeHM?oc=5" target="_blank" rel="noopener">グーグル、フィンランドに2.3兆円投資…ロヴィーサ原発22年契約の裏側</a></h3>
       
       
-      <div class="themes"><span class="why" title="重要度の根拠">重要度の根拠: 一般的な市況ニュース</span></div>
+      <div class="insight-line"><span class="insight-label">重要度の根拠</span>一般的な市況ニュース</div>
       
       <div class="impact-block empty">このニュースに対応する影響銘柄は、現在のルールでは特定できませんでした。</div>
       
@@ -3433,7 +3394,7 @@ footer a{color:var(--accent)}
         
         
         <span class="source-tier-badge tier-primary" title="情報源の区分。政策インパクトスコアの信頼度に反映済み(一次情報=そのまま/二次情報=×0.85/市場解説=×0.65)。表示のみでtheme/direction等の判定には影響しません">🏛️ 一次情報</span>
-        <span class="time">10時間前</span>
+        <span class="time">11時間前</span>
         <span class="source">総務省</span>
         <button class="copy-link" type="button" data-url="https://www.soumu.go.jp/main_sosiki/singi/chizai/02zaisei02_04001397_00968.html" data-title="令和8年度地方財政審議会（9月15日）議事要旨"
                 title="リンクをコピー" aria-label="リンクをコピー">🔗 コピー</button>
@@ -3442,7 +3403,7 @@ footer a{color:var(--accent)}
       <h3 class="news-title"><a href="https://www.soumu.go.jp/main_sosiki/singi/chizai/02zaisei02_04001397_00968.html" target="_blank" rel="noopener">令和8年度地方財政審議会（9月15日）議事要旨</a></h3>
       
       
-      <div class="themes"><span class="why" title="重要度の根拠">重要度の根拠: 2媒体が報道・先行情報(審議会・検討会・パブコメ等)</span></div>
+      <div class="insight-line"><span class="insight-label">重要度の根拠</span>2媒体が報道・先行情報(審議会・検討会・パブコメ等)</div>
       
       <div class="impact-block empty">このニュースに対応する影響銘柄は、現在のルールでは特定できませんでした。</div>
       
@@ -3452,7 +3413,7 @@ footer a{color:var(--accent)}
       </details>
     </article>
     <article class="news-card" id="news-7569c3054fd1" data-category="tech" data-importance="1"
-             data-codes="" data-search="NscaleのIPO：エヌビディアが支援するAIクラウドプロバイダーが米国上場を計画、評価額は350億ドルに達する可能性 TradingKey   " data-ts="2026-09-20 06:23"
+             data-codes="" data-search="NscaleのIPO：エヌビディアが支援するAIクラウドプロバイダーが米国上場を計画、評価額は350億ドルに達する可能性 tradingkey.com   " data-ts="2026-09-20 06:23"
              data-future="0"
              data-maturity="">
       <div class="news-meta">
@@ -3465,7 +3426,7 @@ footer a{color:var(--accent)}
         
         
         <span class="time">1日前</span>
-        <span class="source">TradingKey</span>
+        <span class="source">tradingkey.com</span>
         <button class="copy-link" type="button" data-url="https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdVZkam5xMlZETFRibE1KYnYzTDFsOHBveVVPQkFrS1M2d2xIVlpaY3NqUGxaaWVIMFExWkJMbFFLclhDa1Z5REF3Ml9Bc01wc21TVWc5SFRsX0FiV29IVFdLajZOaFFDWGJqaHRRRGRWSWowMTZFTmVLNlE2Tm9fWkxUQUtQNm0xSUo4UFRtQ21adHR1VTloMDBHcUZuVkVOdnFnWWZ5bVpiazNHSHVBNWlkN3EwNGhQSk9TMThVZV9hZXU4bjdmVEU3aDVEcTNpWVE?oc=5" data-title="NscaleのIPO：エヌビディアが支援するAIクラウドプロバイダーが米国上場を計画、評価額は350億ドルに達する可能性"
                 title="リンクをコピー" aria-label="リンクをコピー">🔗 コピー</button>
       </div>
@@ -3473,7 +3434,7 @@ footer a{color:var(--accent)}
       <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdVZkam5xMlZETFRibE1KYnYzTDFsOHBveVVPQkFrS1M2d2xIVlpaY3NqUGxaaWVIMFExWkJMbFFLclhDa1Z5REF3Ml9Bc01wc21TVWc5SFRsX0FiV29IVFdLajZOaFFDWGJqaHRRRGRWSWowMTZFTmVLNlE2Tm9fWkxUQUtQNm0xSUo4UFRtQ21adHR1VTloMDBHcUZuVkVOdnFnWWZ5bVpiazNHSHVBNWlkN3EwNGhQSk9TMThVZV9hZXU4bjdmVEU3aDVEcTNpWVE?oc=5" target="_blank" rel="noopener">NscaleのIPO：エヌビディアが支援するAIクラウドプロバイダーが米国上場を計画、評価額は350億ドルに達する可能性</a></h3>
       
       
-      <div class="themes"><span class="why" title="重要度の根拠">重要度の根拠: 一般的な市況ニュース</span></div>
+      <div class="insight-line"><span class="insight-label">重要度の根拠</span>一般的な市況ニュース</div>
       
       <div class="impact-block empty">このニュースに対応する影響銘柄は、現在のルールでは特定できませんでした。</div>
       
@@ -3500,7 +3461,7 @@ footer a{color:var(--accent)}
       <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE13di1rV3cxbmtFMU9vem8wRnZKTXJLemZxQ3ZESGlrMEtEbzBCZEZjaGxXcElNa0ltNG1LZlpHX0huQmdSRlM4M2RJcnFvM2hVblQ0Y1VpSDMyY3p1MlgySVpVbw?oc=5" target="_blank" rel="noopener">来週のドル円相場はどうなる？9/21週のイベント予定 2026年9月20日</a></h3>
       
       
-      <div class="themes"><span class="why" title="重要度の根拠">重要度の根拠: 一般的な市況ニュース</span></div>
+      <div class="insight-line"><span class="insight-label">重要度の根拠</span>一般的な市況ニュース</div>
       
       <div class="impact-block empty">このニュースに対応する影響銘柄は、現在のルールでは特定できませんでした。</div>
       
@@ -3527,7 +3488,7 @@ footer a{color:var(--accent)}
       <h3 class="news-title"><a href="https://www.soumu.go.jp/menu_news/s-news/01toukei02_01000021.html" target="_blank" rel="noopener">統計トピックスNo.149 統計からみた我が国の高齢者</a></h3>
       
       
-      <div class="themes"><span class="why" title="重要度の根拠">重要度の根拠: 一般的な市況ニュース</span></div>
+      <div class="insight-line"><span class="insight-label">重要度の根拠</span>一般的な市況ニュース</div>
       
       <div class="impact-block empty">このニュースに対応する影響銘柄は、現在のルールでは特定できませんでした。</div>
       
@@ -3539,7 +3500,7 @@ footer a{color:var(--accent)}
           各情報の著作権は提供元に帰属します。</p>
         <p>以前のテクニカル指標つきデイトレードダッシュボードは
           <a href="dashboard.html">dashboard.html</a> に残しています。</p>
-        <p>生成日時: 2026-09-21T15:26:07+09:00 ・ 19 件のニュースを取得しました。</p>
+        <p>生成日時: 2026-09-21T16:19:45+09:00 ・ 18 件のニュースを取得しました。</p>
       </footer>
     </main>
     <aside class="side">
