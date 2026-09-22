@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-22 09:02",
-  "run_type": "evening",
+  "generated_at": "2026-09-22 10:35",
+  "run_type": "morning",
   "us_market": {
     "sp500": {
       "value": "7,764.70",
@@ -24,13 +24,13 @@
     }
   },
   "fx": {
-    "value": "157.35円",
-    "change_pct": 0.19,
+    "value": "157.45円",
+    "change_pct": 0.26,
     "asof": "9/22終値"
   },
   "nikkei_futures": {
-    "value": "66,475.00",
-    "change_pct": 2.15,
+    "value": "66,810.00",
+    "change_pct": 2.67,
     "asof": "9/22終値"
   },
   "nikkei225": {
@@ -39,9 +39,15 @@
     "asof": "9/18終値"
   },
   "overnight_news": [],
-  "tdnet_morning": [],
-  "movers_morning": [],
-  "tdnet_afterclose": [
+  "tdnet_morning": [
+    {
+      "time": "09:40",
+      "code": "―",
+      "company": "ダイヤＨＤ",
+      "title": "【恵比寿八（通称：エビハチ）】こと「EIBS No.8」 における「JC-STAR★1」適合取得およびSII登録完了のお知らせ",
+      "url": "https://tdnet-pdf.kabutan.jp/20260922/140120260922539026.pdf",
+      "tag": "他"
+    },
     {
       "time": "―",
       "code": "―",
@@ -193,16 +199,10 @@
       "title": "川崎汽、自己株式の取得状況及び取得終了のお知らせ 自社 9月18日(金) 19:00",
       "url": "https://tdnet-pdf.kabutan.jp/20260918/140120260915536375.pdf",
       "tag": "他"
-    },
-    {
-      "time": "―",
-      "code": "―",
-      "company": "―",
-      "title": "川崎汽、Notice Regarding the Status and Completion of Own Share Repurchase 他 9月18日(金) 19:00",
-      "url": "https://tdnet-pdf.kabutan.jp/20260918/140120260916537273.pdf",
-      "tag": "他"
     }
   ],
+  "movers_morning": [],
+  "tdnet_afterclose": [],
   "afterclose_news": [],
   "movers_afterclose": [],
   "technical": [
@@ -882,7 +882,7 @@
     {
       "code": "7203",
       "company": "トヨタ自動車",
-      "title": "トヨタ車の相次ぐ受注停止や納期遅延は円安に半導体不足だけが原因じゃない！　他メーカーも含めた自動車業界全体で考えるべき問題 - WEB CARTOP",
+      "title": "トヨタ車の相次ぐ受注停止や納期遅延は円安に半導体不足だけが原因じゃない！　他メーカーも含めた自動車業界全体で考えるべき問題 - webcartop.jp",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1NYVhLcHZ4SVg1bk1yT2M1a1pILUh2elc1dk9LdTJDbUJQSWVlQlI0cVpfdGFwQVpBSFdhWU5WaVZNQVpUZlVCdms5cWxNMjVOcHZHMjd30gFbQVVfeXFMTzdZaUVpbHJMajBNdVdQbVFfOVZtOVNGT21ZeFByZEppOGJQUVd3UVZfQ0E2R2diOWlhZ2RlSE4tSjI4T3BTNjRZU0JCaGdPYVRsRE9VeEowV3otOA?oc=5",
       "keyword": "受注",
       "asof": "9/21 11:40"
@@ -898,7 +898,7 @@
     {
       "code": "8306",
       "company": "三菱UFJフィナンシャル・グループ",
-      "title": "【日本株人気ランキングTOP30】キオクシア首位、フジクラ2位 AI・データセンター関連に人気集中｜Infoseekニュース - Infoseek",
+      "title": "【日本株人気ランキングTOP30】キオクシア首位、フジクラ2位 AI・データセンター関連に人気集中｜Infoseekニュース - news.infoseek.co.jp",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16dHhFY3RVdnJ5dXNEYmVqcXpCUjFER05MMGxmU1BHTTBzYUg0TE9uN1Fyb3pfOGxQT1ZMZmYtTzFiU2VXMWhDM0pNakVMUGMybTlpQnBOdFlwT1QycVFScg?oc=5",
       "keyword": "データセンター",
       "asof": "9/17 11:30"
@@ -922,7 +922,7 @@
     {
       "code": "6954",
       "company": "ファナック",
-      "title": "ファナック（6954）の株価が好決算でも14％下落｜今後は受注2,819億円に注目 - 日本投資機構株式会社",
+      "title": "ファナック（6954）の株価が好決算でも14％下落｜今後は受注2,819億円に注目 - jioinc.jp",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9hV3JvVHdYY0J3OEZ3UHlJNnBYcE80UHhzUFpTWGtRQWQ2cEZvTEtWdDQwTzc3Ynd2OWhPMFBoZFVHcWhDUkF0NHVGWGFlMGtadUxPblFuX2w0UQ?oc=5",
       "keyword": "受注",
       "asof": "9/16 16:00"
@@ -930,7 +930,7 @@
     {
       "code": "9433",
       "company": "KDDI",
-      "title": "リテールロボットを活用した分散型データセンター実証を開始 - KDDI ニュースルーム",
+      "title": "リテールロボットを活用した分散型データセンター実証を開始 - newsroom.kddi.com",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5wQkpWejI2M3QtWkZ1SGRmWVp4UUZVWVVtZlNNekhPaGh4VEUtcE9ZSVdIUUhWWWpaekVmLWQ5d1h3aGRIRTNfby00cTkwcjhzaDN5Yi1MNmc1UzZWTmJzOVlfd2ktdGNfWmxjdg?oc=5",
       "keyword": "データセンター",
       "asof": "9/18 11:00"
@@ -957,85 +957,85 @@
     "code": "ＧＭＯ－ＰＰ"
   },
   "data_updated_at": {
-    "market_quotes": "2026-09-22 09:02",
-    "tdnet_afterclose": "2026-09-22 09:02",
-    "technical": "2026-09-22 09:02",
-    "growth_candidates": "2026-09-22 09:02",
-    "pre_earnings_watch": "2026-09-22 09:02",
-    "edinet_large_holdings": "2026-09-22 09:02",
-    "economic_calendar": "2026-09-22 09:02",
-    "pre_earnings_indicator": "2026-09-22 09:03"
+    "market_quotes": "2026-09-22 10:35",
+    "tdnet_morning": "2026-09-22 10:35",
+    "technical": "2026-09-22 10:35",
+    "growth_candidates": "2026-09-22 10:35",
+    "pre_earnings_watch": "2026-09-22 10:35",
+    "edinet_large_holdings": "2026-09-22 10:35",
+    "economic_calendar": "2026-09-22 10:35",
+    "pre_earnings_indicator": "2026-09-22 10:35"
   },
   "edinet_large_holdings": [],
   "data_status": {
     "market_quotes": {
       "state": "updated",
-      "checked_at": "2026-09-22 09:02",
+      "checked_at": "2026-09-22 10:35",
       "message": "今回の実行で取得・更新しました。"
     },
     "tdnet_morning": {
-      "state": "not_requested",
-      "checked_at": "2026-09-22 09:02",
-      "message": "今回の実行モードでは更新対象外です。"
+      "state": "updated",
+      "checked_at": "2026-09-22 10:35",
+      "message": "今回の実行で取得・更新しました。"
     },
     "tdnet_afterclose": {
-      "state": "updated",
-      "checked_at": "2026-09-22 09:02",
-      "message": "今回の実行で取得・更新しました。"
+      "state": "not_requested",
+      "checked_at": "2026-09-22 10:35",
+      "message": "今回の実行モードでは更新対象外です。"
     },
     "technical": {
       "state": "updated",
-      "checked_at": "2026-09-22 09:02",
+      "checked_at": "2026-09-22 10:35",
       "message": "今回の実行で取得・更新しました。"
     },
     "growth_candidates": {
       "state": "updated",
-      "checked_at": "2026-09-22 09:02",
+      "checked_at": "2026-09-22 10:35",
       "message": "今回の実行で取得・更新しました。"
     },
     "pre_earnings_watch": {
       "state": "updated",
-      "checked_at": "2026-09-22 09:02",
+      "checked_at": "2026-09-22 10:35",
       "message": "今回の実行で取得・更新しました。"
     },
     "overnight_news": {
-      "state": "not_requested",
-      "checked_at": "2026-09-22 09:03",
-      "message": "今回の実行モードでは更新対象外です。"
-    },
-    "afterclose_news": {
       "state": "unavailable",
-      "checked_at": "2026-09-22 09:03",
+      "checked_at": "2026-09-22 10:35",
       "message": "ニュース分析APIで取得できませんでした。"
     },
-    "movers_morning": {
+    "afterclose_news": {
       "state": "not_requested",
-      "checked_at": "2026-09-22 09:03",
+      "checked_at": "2026-09-22 10:35",
       "message": "今回の実行モードでは更新対象外です。"
     },
-    "movers_afterclose": {
+    "movers_morning": {
       "state": "unavailable",
-      "checked_at": "2026-09-22 09:03",
+      "checked_at": "2026-09-22 10:35",
       "message": "話題株分析APIで取得できませんでした。"
+    },
+    "movers_afterclose": {
+      "state": "not_requested",
+      "checked_at": "2026-09-22 10:35",
+      "message": "今回の実行モードでは更新対象外です。"
     },
     "us_good_news": {
       "state": "unavailable",
-      "checked_at": "2026-09-22 09:03",
+      "checked_at": "2026-09-22 10:35",
       "message": "ニュース分析APIで取得できませんでした。"
     },
     "edinet_large_holdings": {
       "state": "empty",
-      "checked_at": "2026-09-22 09:02",
+      "checked_at": "2026-09-22 10:35",
       "message": "取得済み・該当する大量保有報告書はありません。"
     },
     "economic_calendar": {
       "state": "updated",
-      "checked_at": "2026-09-22 09:02",
+      "checked_at": "2026-09-22 10:35",
       "message": "今回の実行で取得・更新しました。"
     },
     "pre_earnings_indicator": {
       "state": "updated",
-      "checked_at": "2026-09-22 09:03",
+      "checked_at": "2026-09-22 10:35",
       "message": "今回の実行で取得・更新しました。"
     }
   },
@@ -1054,83 +1054,83 @@
   "credit_history": {
     "7203": {
       "last": 6.57,
-      "ts": "2026-09-22 09:03"
+      "ts": "2026-09-22 10:35"
     },
     "6758": {
       "last": 25.33,
-      "ts": "2026-09-22 09:03"
+      "ts": "2026-09-22 10:35"
     },
     "8306": {
       "last": 21.09,
-      "ts": "2026-09-22 09:03"
+      "ts": "2026-09-22 10:35"
     },
     "9984": {
       "last": 4.68,
-      "ts": "2026-09-22 09:03"
+      "ts": "2026-09-22 10:35"
     },
     "6861": {
       "last": 3.26,
-      "ts": "2026-09-22 09:03"
+      "ts": "2026-09-22 10:35"
     },
     "6954": {
       "last": 22.99,
-      "ts": "2026-09-22 09:03"
+      "ts": "2026-09-22 10:35"
     },
     "7974": {
       "last": 12.47,
-      "ts": "2026-09-22 09:03"
+      "ts": "2026-09-22 10:35"
     },
     "6098": {
       "last": 1.63,
-      "ts": "2026-09-22 09:03"
+      "ts": "2026-09-22 10:35"
     },
     "8035": {
       "last": 10.83,
-      "ts": "2026-09-22 09:03"
+      "ts": "2026-09-22 10:35"
     },
     "9433": {
       "last": 0.75,
-      "ts": "2026-09-22 09:03"
+      "ts": "2026-09-22 10:35"
     },
     "9432": {
       "last": 3.21,
-      "ts": "2026-09-22 09:03"
+      "ts": "2026-09-22 10:35"
     },
     "7267": {
       "last": 2.38,
-      "ts": "2026-09-22 09:03"
+      "ts": "2026-09-22 10:35"
     },
     "6367": {
       "last": 21.23,
-      "ts": "2026-09-22 09:03"
+      "ts": "2026-09-22 10:35"
     },
     "9983": {
       "last": 3.2,
-      "ts": "2026-09-22 09:03"
+      "ts": "2026-09-22 10:35"
     },
     "4063": {
       "last": 26.26,
-      "ts": "2026-09-22 09:03"
+      "ts": "2026-09-22 10:35"
     },
     "6857": {
       "last": 1.87,
-      "ts": "2026-09-22 09:03"
+      "ts": "2026-09-22 10:35"
     },
     "4519": {
       "last": 66.27,
-      "ts": "2026-09-22 09:03"
+      "ts": "2026-09-22 10:35"
     },
     "5401": {
       "last": 12.88,
-      "ts": "2026-09-22 09:03"
+      "ts": "2026-09-22 10:35"
     },
     "2413": {
       "last": 4.14,
-      "ts": "2026-09-22 09:03"
+      "ts": "2026-09-22 10:35"
     },
     "6645": {
       "last": 19.69,
-      "ts": "2026-09-22 09:03"
+      "ts": "2026-09-22 10:35"
     }
   },
   "pre_earnings_indicator": [
