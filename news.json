@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-23 05:57",
-  "generated_iso": "2026-09-23T05:57:05+09:00",
+  "generated_at": "2026-09-23 07:02",
+  "generated_iso": "2026-09-23T07:02:11+09:00",
   "status": "updated",
-  "status_message": "24 件のニュースを取得しました。",
+  "status_message": "23 件のニュースを取得しました。",
   "llm_used": true,
   "categories": [
     {
@@ -65,8 +65,8 @@
     },
     {
       "label": "日経先物",
-      "value": "66,885.00",
-      "change_pct": 1.19,
+      "value": "66,860.00",
+      "change_pct": 1.15,
       "asof": "9/23終値"
     },
     {
@@ -557,9 +557,9 @@
       "news_novelty": "high",
       "news_novelty_label": "新規",
       "policy_event_id": "ukraine_russia-20260923-02",
-      "policy_event_is_update": false,
+      "policy_event_is_update": true,
       "policy_event_first_seen": "2026-09-23",
-      "policy_event_state": "NEW",
+      "policy_event_state": "UPDATE",
       "themes": [
         "ウクライナ・ロシア情勢"
       ],
@@ -764,8 +764,8 @@
       "source": "テレ朝NEWS",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
-      "published_at": "2026-09-22 22:45",
-      "published_ts": 1790084721.0,
+      "published_at": "2026-09-22 22:44",
+      "published_ts": 1790084695.0,
       "category": "geopolitics",
       "category_label": "地政学・有事",
       "category_emoji": "🌍",
@@ -1744,7 +1744,7 @@
       "category_label": "米国市場",
       "category_emoji": "🇺🇸",
       "importance": 2,
-      "importance_reason": "影響テーマ「米国株・ハイテク株の変動」に該当・2媒体が報道",
+      "importance_reason": "影響テーマ「米国株・ハイテク株の変動」に該当",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
@@ -1869,13 +1869,7 @@
           "policy_to_earnings_stage": null
         }
       ],
-      "related": [
-        {
-          "title": "ダウ平均は反発して始まる ２２４ドル高 ナスダックも上昇＝米国株オープン",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1RN1FzdzhmTVVJX0hVY2ZZUTgyN3Ixc0ZVUDVLUjdBcTRtZWdiZTk5dE00OFBXYzNoLTRKSXBVSGdxdmxKcmRwQg?oc=5",
-          "source": "みんかぶ FX/為替"
-        }
-      ],
+      "related": [],
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -2494,163 +2488,6 @@
       "emergence_growth": {}
     },
     {
-      "id": "abc0a09473eb",
-      "title": "ダウ平均は反発 ＡＩ関連株に買い強まりナスダックは大幅高＝米国株概況",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1rcHJwNVBIM2RtLVdPbk1zandrTFd5ZlZlcFNxQ0VLeE1DN0dvWVdRSHhGZG5LX3NLNnF4T01NUWl0LUM1NkNBVkZzVkRkWFJhRm9QOC1JV05KZ25wejg2Qw?oc=5",
-      "source": "株探",
-      "source_tier": "commentary",
-      "source_tier_label": "市場解説",
-      "published_at": "2026-09-22 05:33",
-      "published_ts": 1790022780.0,
-      "category": "us",
-      "category_label": "米国市場",
-      "category_emoji": "🇺🇸",
-      "importance": 2,
-      "importance_reason": "影響テーマ「米国株・ハイテク株の変動」に該当",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "low",
-      "news_novelty_label": "再報道",
-      "policy_event_id": "us_stock_move-20260921-02",
-      "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-09-21",
-      "policy_event_state": "UPDATE",
-      "themes": [
-        "米国株・ハイテク株の変動"
-      ],
-      "theme_ids": [
-        "us_stock_move"
-      ],
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [
-        {
-          "code": "8604",
-          "name": "野村ホールディングス",
-          "sector": "証券",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "中",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "米国株",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 35,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8601",
-          "name": "大和証券グループ本社",
-          "sector": "証券",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "中",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "米国株",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 35,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8473",
-          "name": "SBIホールディングス",
-          "sector": "証券",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "中",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "米国株",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 35,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "9984",
-          "name": "ソフトバンクグループ",
-          "sector": "情報・通信",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "中",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "米国株",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 35,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7203",
-          "name": "トヨタ自動車",
-          "sector": "自動車",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "中",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "米国株",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 35,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        }
-      ],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
       "id": "1a29ed514f7d",
       "title": "NYダウが366ドル高、AI関連で上昇目立つ ナスダックは最高値更新",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR1oxWEhhbFNzcEx5eHhValZGZ0x4TUhwQU1ZTWdGS1dIOWo0WXBiZlI1a003VUhGRGRnQUgzSE9UdHlqNTRNc28wOWhfMUQ2VzA4UDM2RzdxTHdjbkJQdnFlZ3c1ZmNXeXJ3Zw?oc=5",
@@ -2784,6 +2621,163 @@
           "matched_keyword": "ナスダック",
           "intelligence_layer": "government_policy",
           "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "f592ce4d1f61",
+      "title": "ダウ平均は反発 ＡＩ関連株に買い強まりナスダックは大幅高＝米国株概況",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA0My1xVi16U2l4ZXpuUnltTkJ1RElYMm9EZDJfX2VZZkZrQ0hxa01JTzNCYVBhTWVTeXMwUElMRFMwbXRzZV9VWQ?oc=5",
+      "source": "みんかぶ FX/為替",
+      "source_tier": "commentary",
+      "source_tier_label": "市場解説",
+      "published_at": "2026-09-22 05:24",
+      "published_ts": 1790022297.0,
+      "category": "us",
+      "category_label": "米国市場",
+      "category_emoji": "🇺🇸",
+      "importance": 2,
+      "importance_reason": "影響テーマ「米国株・ハイテク株の変動」に該当",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "low",
+      "news_novelty_label": "再報道",
+      "policy_event_id": "us_stock_move-20260921-02",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-09-21",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "米国株・ハイテク株の変動"
+      ],
+      "theme_ids": [
+        "us_stock_move"
+      ],
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "8604",
+          "name": "野村ホールディングス",
+          "sector": "証券",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 35,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8601",
+          "name": "大和証券グループ本社",
+          "sector": "証券",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 35,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8473",
+          "name": "SBIホールディングス",
+          "sector": "証券",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 35,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9984",
+          "name": "ソフトバンクグループ",
+          "sector": "情報・通信",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 35,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "sector": "自動車",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 35,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         }
@@ -3368,53 +3362,6 @@
       "category": "japan",
       "category_label": "日本経済・政治",
       "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "d6668bf5670c",
-      "title": "グーグル、フィンランドに2.3兆円投資…ロヴィーサ原発22年契約の裏側",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pYTRwbEZsOUhUVHNxd0pKRkdCYmN4WDEzZTRJeUFTMUhYOS0taEZwVGFBbjZ2XzJncVk0OHRHMkFtelc0Y2EyTkhWS1k1MmllRUpSX3c2TnFFeHM?oc=5",
-      "source": "ビジネスジャーナル",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-09-21 06:00",
-      "published_ts": 1789938013.0,
-      "category": "resources",
-      "category_label": "資源・エネルギー",
-      "category_emoji": "🛢️",
       "importance": 1,
       "importance_reason": "一般的な市況ニュース",
       "future_signal": false,
@@ -4050,8 +3997,8 @@
         "f5adfc707c6a",
         "3faac431f59f",
         "d70fd2f552a4",
-        "abc0a09473eb",
-        "1a29ed514f7d"
+        "1a29ed514f7d",
+        "f592ce4d1f61"
       ],
       "members": [
         {
@@ -4083,18 +4030,18 @@
           "source": "Reuters"
         },
         {
-          "id": "abc0a09473eb",
-          "title": "ダウ平均は反発 ＡＩ関連株に買い強まりナスダックは大幅高＝米国株概況",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1rcHJwNVBIM2RtLVdPbk1zandrTFd5ZlZlcFNxQ0VLeE1DN0dvWVdRSHhGZG5LX3NLNnF4T01NUWl0LUM1NkNBVkZzVkRkWFJhRm9QOC1JV05KZ25wejg2Qw?oc=5",
-          "importance": 2,
-          "source": "株探"
-        },
-        {
           "id": "1a29ed514f7d",
           "title": "NYダウが366ドル高、AI関連で上昇目立つ ナスダックは最高値更新",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR1oxWEhhbFNzcEx5eHhValZGZ0x4TUhwQU1ZTWdGS1dIOWo0WXBiZlI1a003VUhGRGRnQUgzSE9UdHlqNTRNc28wOWhfMUQ2VzA4UDM2RzdxTHdjbkJQdnFlZ3c1ZmNXeXJ3Zw?oc=5",
           "importance": 2,
           "source": "日本経済新聞"
+        },
+        {
+          "id": "f592ce4d1f61",
+          "title": "ダウ平均は反発 ＡＩ関連株に買い強まりナスダックは大幅高＝米国株概況",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA0My1xVi16U2l4ZXpuUnltTkJ1RElYMm9EZDJfX2VZZkZrQ0hxa01JTzNCYVBhTWVTeXMwUElMRFMwbXRzZV9VWQ?oc=5",
+          "importance": 2,
+          "source": "みんかぶ FX/為替"
         }
       ],
       "stocks": [
@@ -4836,8 +4783,8 @@
         "8d269f56f75c",
         "f5adfc707c6a",
         "3faac431f59f",
-        "abc0a09473eb",
-        "1a29ed514f7d"
+        "1a29ed514f7d",
+        "f592ce4d1f61"
       ],
       "members": [
         {
@@ -4883,18 +4830,18 @@
           "source": "TradingKey"
         },
         {
-          "id": "abc0a09473eb",
-          "title": "ダウ平均は反発 ＡＩ関連株に買い強まりナスダックは大幅高＝米国株概況",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1rcHJwNVBIM2RtLVdPbk1zandrTFd5ZlZlcFNxQ0VLeE1DN0dvWVdRSHhGZG5LX3NLNnF4T01NUWl0LUM1NkNBVkZzVkRkWFJhRm9QOC1JV05KZ25wejg2Qw?oc=5",
-          "importance": 2,
-          "source": "株探"
-        },
-        {
           "id": "1a29ed514f7d",
           "title": "NYダウが366ドル高、AI関連で上昇目立つ ナスダックは最高値更新",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR1oxWEhhbFNzcEx5eHhValZGZ0x4TUhwQU1ZTWdGS1dIOWo0WXBiZlI1a003VUhGRGRnQUgzSE9UdHlqNTRNc28wOWhfMUQ2VzA4UDM2RzdxTHdjbkJQdnFlZ3c1ZmNXeXJ3Zw?oc=5",
           "importance": 2,
           "source": "日本経済新聞"
+        },
+        {
+          "id": "f592ce4d1f61",
+          "title": "ダウ平均は反発 ＡＩ関連株に買い強まりナスダックは大幅高＝米国株概況",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA0My1xVi16U2l4ZXpuUnltTkJ1RElYMm9EZDJfX2VZZkZrQ0hxa01JTzNCYVBhTWVTeXMwUElMRFMwbXRzZV9VWQ?oc=5",
+          "importance": 2,
+          "source": "みんかぶ FX/為替"
         }
       ],
       "stocks": [
@@ -5140,8 +5087,8 @@
         "8d269f56f75c",
         "f5adfc707c6a",
         "3faac431f59f",
-        "abc0a09473eb",
-        "1a29ed514f7d"
+        "1a29ed514f7d",
+        "f592ce4d1f61"
       ],
       "members": [
         {
@@ -5187,18 +5134,18 @@
           "source": "TradingKey"
         },
         {
-          "id": "abc0a09473eb",
-          "title": "ダウ平均は反発 ＡＩ関連株に買い強まりナスダックは大幅高＝米国株概況",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1rcHJwNVBIM2RtLVdPbk1zandrTFd5ZlZlcFNxQ0VLeE1DN0dvWVdRSHhGZG5LX3NLNnF4T01NUWl0LUM1NkNBVkZzVkRkWFJhRm9QOC1JV05KZ25wejg2Qw?oc=5",
-          "importance": 2,
-          "source": "株探"
-        },
-        {
           "id": "1a29ed514f7d",
           "title": "NYダウが366ドル高、AI関連で上昇目立つ ナスダックは最高値更新",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR1oxWEhhbFNzcEx5eHhValZGZ0x4TUhwQU1ZTWdGS1dIOWo0WXBiZlI1a003VUhGRGRnQUgzSE9UdHlqNTRNc28wOWhfMUQ2VzA4UDM2RzdxTHdjbkJQdnFlZ3c1ZmNXeXJ3Zw?oc=5",
           "importance": 2,
           "source": "日本経済新聞"
+        },
+        {
+          "id": "f592ce4d1f61",
+          "title": "ダウ平均は反発 ＡＩ関連株に買い強まりナスダックは大幅高＝米国株概況",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA0My1xVi16U2l4ZXpuUnltTkJ1RElYMm9EZDJfX2VZZkZrQ0hxa01JTzNCYVBhTWVTeXMwUElMRFMwbXRzZV9VWQ?oc=5",
+          "importance": 2,
+          "source": "みんかぶ FX/為替"
         }
       ],
       "stocks": [
@@ -5582,8 +5529,8 @@
         "3faac431f59f",
         "ed2664c17c7c",
         "d70fd2f552a4",
-        "abc0a09473eb",
-        "1a29ed514f7d"
+        "1a29ed514f7d",
+        "f592ce4d1f61"
       ],
       "members": [
         {
@@ -5643,18 +5590,18 @@
           "source": "Reuters"
         },
         {
-          "id": "abc0a09473eb",
-          "title": "ダウ平均は反発 ＡＩ関連株に買い強まりナスダックは大幅高＝米国株概況",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1rcHJwNVBIM2RtLVdPbk1zandrTFd5ZlZlcFNxQ0VLeE1DN0dvWVdRSHhGZG5LX3NLNnF4T01NUWl0LUM1NkNBVkZzVkRkWFJhRm9QOC1JV05KZ25wejg2Qw?oc=5",
-          "importance": 2,
-          "source": "株探"
-        },
-        {
           "id": "1a29ed514f7d",
           "title": "NYダウが366ドル高、AI関連で上昇目立つ ナスダックは最高値更新",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR1oxWEhhbFNzcEx5eHhValZGZ0x4TUhwQU1ZTWdGS1dIOWo0WXBiZlI1a003VUhGRGRnQUgzSE9UdHlqNTRNc28wOWhfMUQ2VzA4UDM2RzdxTHdjbkJQdnFlZ3c1ZmNXeXJ3Zw?oc=5",
           "importance": 2,
           "source": "日本経済新聞"
+        },
+        {
+          "id": "f592ce4d1f61",
+          "title": "ダウ平均は反発 ＡＩ関連株に買い強まりナスダックは大幅高＝米国株概況",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA0My1xVi16U2l4ZXpuUnltTkJ1RElYMm9EZDJfX2VZZkZrQ0hxa01JTzNCYVBhTWVTeXMwUElMRFMwbXRzZV9VWQ?oc=5",
+          "importance": 2,
+          "source": "みんかぶ FX/為替"
         }
       ],
       "stocks": [
@@ -5729,8 +5676,8 @@
         "3faac431f59f",
         "ed2664c17c7c",
         "d70fd2f552a4",
-        "abc0a09473eb",
-        "1a29ed514f7d"
+        "1a29ed514f7d",
+        "f592ce4d1f61"
       ],
       "members": [
         {
@@ -5783,18 +5730,18 @@
           "source": "Reuters"
         },
         {
-          "id": "abc0a09473eb",
-          "title": "ダウ平均は反発 ＡＩ関連株に買い強まりナスダックは大幅高＝米国株概況",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1rcHJwNVBIM2RtLVdPbk1zandrTFd5ZlZlcFNxQ0VLeE1DN0dvWVdRSHhGZG5LX3NLNnF4T01NUWl0LUM1NkNBVkZzVkRkWFJhRm9QOC1JV05KZ25wejg2Qw?oc=5",
-          "importance": 2,
-          "source": "株探"
-        },
-        {
           "id": "1a29ed514f7d",
           "title": "NYダウが366ドル高、AI関連で上昇目立つ ナスダックは最高値更新",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR1oxWEhhbFNzcEx5eHhValZGZ0x4TUhwQU1ZTWdGS1dIOWo0WXBiZlI1a003VUhGRGRnQUgzSE9UdHlqNTRNc28wOWhfMUQ2VzA4UDM2RzdxTHdjbkJQdnFlZ3c1ZmNXeXJ3Zw?oc=5",
           "importance": 2,
           "source": "日本経済新聞"
+        },
+        {
+          "id": "f592ce4d1f61",
+          "title": "ダウ平均は反発 ＡＩ関連株に買い強まりナスダックは大幅高＝米国株概況",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA0My1xVi16U2l4ZXpuUnltTkJ1RElYMm9EZDJfX2VZZkZrQ0hxa01JTzNCYVBhTWVTeXMwUElMRFMwbXRzZV9VWQ?oc=5",
+          "importance": 2,
+          "source": "みんかぶ FX/為替"
         }
       ],
       "stocks": [
@@ -5875,8 +5822,8 @@
         "8d269f56f75c",
         "f5adfc707c6a",
         "3faac431f59f",
-        "abc0a09473eb",
-        "1a29ed514f7d"
+        "1a29ed514f7d",
+        "f592ce4d1f61"
       ],
       "members": [
         {
@@ -5922,18 +5869,18 @@
           "source": "TradingKey"
         },
         {
-          "id": "abc0a09473eb",
-          "title": "ダウ平均は反発 ＡＩ関連株に買い強まりナスダックは大幅高＝米国株概況",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1rcHJwNVBIM2RtLVdPbk1zandrTFd5ZlZlcFNxQ0VLeE1DN0dvWVdRSHhGZG5LX3NLNnF4T01NUWl0LUM1NkNBVkZzVkRkWFJhRm9QOC1JV05KZ25wejg2Qw?oc=5",
-          "importance": 2,
-          "source": "株探"
-        },
-        {
           "id": "1a29ed514f7d",
           "title": "NYダウが366ドル高、AI関連で上昇目立つ ナスダックは最高値更新",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR1oxWEhhbFNzcEx5eHhValZGZ0x4TUhwQU1ZTWdGS1dIOWo0WXBiZlI1a003VUhGRGRnQUgzSE9UdHlqNTRNc28wOWhfMUQ2VzA4UDM2RzdxTHdjbkJQdnFlZ3c1ZmNXeXJ3Zw?oc=5",
           "importance": 2,
           "source": "日本経済新聞"
+        },
+        {
+          "id": "f592ce4d1f61",
+          "title": "ダウ平均は反発 ＡＩ関連株に買い強まりナスダックは大幅高＝米国株概況",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA0My1xVi16U2l4ZXpuUnltTkJ1RElYMm9EZDJfX2VZZkZrQ0hxa01JTzNCYVBhTWVTeXMwUElMRFMwbXRzZV9VWQ?oc=5",
+          "importance": 2,
+          "source": "みんかぶ FX/為替"
         }
       ],
       "stocks": [
@@ -6014,8 +5961,8 @@
         "8d269f56f75c",
         "f5adfc707c6a",
         "3faac431f59f",
-        "abc0a09473eb",
-        "1a29ed514f7d"
+        "1a29ed514f7d",
+        "f592ce4d1f61"
       ],
       "members": [
         {
@@ -6061,18 +6008,18 @@
           "source": "TradingKey"
         },
         {
-          "id": "abc0a09473eb",
-          "title": "ダウ平均は反発 ＡＩ関連株に買い強まりナスダックは大幅高＝米国株概況",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1rcHJwNVBIM2RtLVdPbk1zandrTFd5ZlZlcFNxQ0VLeE1DN0dvWVdRSHhGZG5LX3NLNnF4T01NUWl0LUM1NkNBVkZzVkRkWFJhRm9QOC1JV05KZ25wejg2Qw?oc=5",
-          "importance": 2,
-          "source": "株探"
-        },
-        {
           "id": "1a29ed514f7d",
           "title": "NYダウが366ドル高、AI関連で上昇目立つ ナスダックは最高値更新",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR1oxWEhhbFNzcEx5eHhValZGZ0x4TUhwQU1ZTWdGS1dIOWo0WXBiZlI1a003VUhGRGRnQUgzSE9UdHlqNTRNc28wOWhfMUQ2VzA4UDM2RzdxTHdjbkJQdnFlZ3c1ZmNXeXJ3Zw?oc=5",
           "importance": 2,
           "source": "日本経済新聞"
+        },
+        {
+          "id": "f592ce4d1f61",
+          "title": "ダウ平均は反発 ＡＩ関連株に買い強まりナスダックは大幅高＝米国株概況",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA0My1xVi16U2l4ZXpuUnltTkJ1RElYMm9EZDJfX2VZZkZrQ0hxa01JTzNCYVBhTWVTeXMwUElMRFMwbXRzZV9VWQ?oc=5",
+          "importance": 2,
+          "source": "みんかぶ FX/為替"
         }
       ],
       "stocks": [
@@ -6136,10 +6083,10 @@
     "milestones": {
       "accumulating": "2026-09-21"
     },
-    "last_computed_at": "2026-09-23T05:57:09+09:00"
+    "last_computed_at": "2026-09-23T07:02:15+09:00"
   },
   "counts": {
-    "news": 24,
+    "news": 23,
     "high_importance": 6,
     "stocks": 20
   }
