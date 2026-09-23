@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-23 10:27",
-  "generated_iso": "2026-09-23T10:27:31+09:00",
+  "generated_at": "2026-09-23 10:28",
+  "generated_iso": "2026-09-23T10:28:11+09:00",
   "status": "updated",
-  "status_message": "26 件のニュースを取得しました。",
+  "status_message": "27 件のニュースを取得しました。",
   "llm_used": true,
   "categories": [
     {
@@ -65,14 +65,14 @@
     },
     {
       "label": "日経先物",
-      "value": "66,665.00",
-      "change_pct": 0.85,
+      "value": "66,670.00",
+      "change_pct": 0.86,
       "asof": "9/23終値"
     },
     {
       "label": "ドル円",
-      "value": "157.61円",
-      "change_pct": 0.16,
+      "value": "157.64円",
+      "change_pct": 0.17,
       "asof": "9/23終値"
     },
     {
@@ -761,7 +761,7 @@
       "id": "7efa2d7e1f79",
       "title": "レアアース輸出正常化、焦点に（時事通信）",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52eW9wUFJ6ck5mX1FGbWtuanNhbVBkRGtvYXdGaTRfQUZzVzJRQXAzaFZRVkEtb05RS1NKT2FfakhXbzRqMFA5VnhjdmlSZW1yc3lGY3ZtSHNTR2x2MzBMT01Cd0I1RU5aRjR0VTNkNUwwalUtZFp5N1AzYzVGMDQ?oc=5",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-09-23 09:08",
@@ -1054,163 +1054,6 @@
           "matched_keyword": "希土類",
           "intelligence_layer": "government_policy",
           "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        }
-      ],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "d6f8ecf0b5dd",
-      "title": "ナスダック総合の指数情報・推移",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
-      "source": "Yahoo!ファイナンス",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-09-23 07:37",
-      "published_ts": 1790116656.0,
-      "category": "us",
-      "category_label": "米国市場",
-      "category_emoji": "🇺🇸",
-      "importance": 2,
-      "importance_reason": "影響テーマ「米国株・ハイテク株の変動」に該当",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "low",
-      "news_novelty_label": "再報道",
-      "policy_event_id": "us_stock_move-20260921-01",
-      "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-09-21",
-      "policy_event_state": "UPDATE",
-      "themes": [
-        "米国株・ハイテク株の変動"
-      ],
-      "theme_ids": [
-        "us_stock_move"
-      ],
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [
-        {
-          "code": "8604",
-          "name": "野村ホールディングス",
-          "sector": "証券",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "中",
-          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "ナスダック",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8601",
-          "name": "大和証券グループ本社",
-          "sector": "証券",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "中",
-          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "ナスダック",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8473",
-          "name": "SBIホールディングス",
-          "sector": "証券",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "中",
-          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "ナスダック",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "9984",
-          "name": "ソフトバンクグループ",
-          "sector": "情報・通信",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "中",
-          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "ナスダック",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7203",
-          "name": "トヨタ自動車",
-          "sector": "自動車",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "中",
-          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "ナスダック",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         }
@@ -1777,6 +1620,228 @@
       "emergence_growth": {}
     },
     {
+      "id": "1ae4b896b5b4",
+      "title": "NY株続伸、ナスダックが一時最高値 米イラン協議期待で",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4wQjVKZnkxamVxc0ZWNXYzcXNqTTNxZGlpVWExMDh3bmhXSDE0U1dxcE10OEpRMGtrc2RsLVRKZU9EUjRielY4RDVyb3pvcHZ0OFRveEUtQXVZX2hOT0lvdXBwMGxNakZYU2NKc1hRcmtkaURi?oc=5",
+      "source": "BigGo ファイナンス",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-09-22 23:05",
+      "published_ts": 1790085900.0,
+      "category": "geopolitics",
+      "category_label": "地政学・有事",
+      "category_emoji": "🌍",
+      "importance": 2,
+      "importance_reason": "影響テーマ「中東情勢・地政学リスク」に該当",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": "middle_east-20260920-01",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-09-20",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "中東情勢・地政学リスク",
+        "米国株・ハイテク株の変動"
+      ],
+      "theme_ids": [
+        "middle_east",
+        "us_stock_move"
+      ],
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "1605",
+          "name": "INPEX",
+          "sector": "鉱業",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「イラン」に反応: 原油価格の上昇観測は在庫評価益・資源権益の採算改善につながりやすい",
+          "theme": "中東情勢・地政学リスク",
+          "theme_id": "middle_east",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "イラン",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 51,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "5020",
+          "name": "ENEOSホールディングス",
+          "sector": "石油",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「イラン」に反応: 原油価格の上昇観測は在庫評価益・資源権益の採算改善につながりやすい",
+          "theme": "中東情勢・地政学リスク",
+          "theme_id": "middle_east",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "イラン",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 51,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "5019",
+          "name": "出光興産",
+          "sector": "石油",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「イラン」に反応: 原油価格の上昇観測は在庫評価益・資源権益の採算改善につながりやすい",
+          "theme": "中東情勢・地政学リスク",
+          "theme_id": "middle_east",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "イラン",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 51,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8604",
+          "name": "野村ホールディングス",
+          "sector": "証券",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "ナスダック",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8601",
+          "name": "大和証券グループ本社",
+          "sector": "証券",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "ナスダック",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8473",
+          "name": "SBIホールディングス",
+          "sector": "証券",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "ナスダック",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9984",
+          "name": "ソフトバンクグループ",
+          "sector": "情報・通信",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "ナスダック",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "1540",
+          "name": "純金上場信託(現物国内保管型)",
+          "sector": "ETF",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "小",
+          "reason": "「イラン」に反応: 直接の影響とは別角度: コロナ禍のような過去の有事でも見られたように、地政学リスクの高まりは株式とは別に金など安全資産に資金が向かいやすい(質への逃避)",
+          "theme": "中東情勢・地政学リスク",
+          "theme_id": "middle_east",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "イラン",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 39,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
       "id": "f5adfc707c6a",
       "title": "ダウ平均は上昇して始まる １３７ドル高 ナスダックも上昇＝米国株オープン",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4wM1FlRzRrWjR3ZlB0a01ZY3l0SkpJUlZRSzlQUDhkdEd1NmR2SW9iN3A1WkVBWkRDbW1RM0Z6VE5kNEx4RE15Rg?oc=5",
@@ -2314,7 +2379,7 @@
       "id": "1a29ed514f7d",
       "title": "NYダウが366ドル高、AI関連で上昇目立つ ナスダックは最高値更新",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR1oxWEhhbFNzcEx5eHhValZGZ0x4TUhwQU1ZTWdGS1dIOWo0WXBiZlI1a003VUhGRGRnQUgzSE9UdHlqNTRNc28wOWhfMUQ2VzA4UDM2RzdxTHdjbkJQdnFlZ3c1ZmNXeXJ3Zw?oc=5",
-      "source": "日本経済新聞",
+      "source": "nikkei.com",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-09-22 05:25",
@@ -2628,9 +2693,9 @@
       "id": "f373f1297c7e",
       "title": "日本の長期金利は2035年「5％台」上昇の可能性も、問われる高市政権の財政規律と成長戦略",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE0zSGdrZERYaTVmb3JXdVRXazNOYW1peE1QUGQtc05LSGwxWVpPd09Pbk83ODE5OXB0OTlOQ1JFUzRRNGdsMGpRWnhGSULSAU9BVV95cUxQTGYyWUxuOUFjOVJKa2d2dW13VXBtSEl0cEQ2aU00QW05X2tZQmNTMTNfNEg4MWJjRjduS3JiWUtBQlh5b21GajlEelBrVjJv?oc=5",
-      "source": "diamond.jp",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
+      "source": "ダイヤモンド・オンライン",
+      "source_tier": "commentary",
+      "source_tier_label": "市場解説",
       "published_at": "2026-09-22 04:40",
       "published_ts": 1790019600.0,
       "category": "policy",
@@ -2673,7 +2738,7 @@
           "revenue_horizon_label": "0〜3ヶ月",
           "matched_keyword": "長期金利 上昇",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
+          "policy_impact_score": 54,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
@@ -2694,7 +2759,7 @@
           "revenue_horizon_label": "0〜3ヶ月",
           "matched_keyword": "長期金利 上昇",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
+          "policy_impact_score": 54,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
@@ -2715,7 +2780,7 @@
           "revenue_horizon_label": "0〜3ヶ月",
           "matched_keyword": "長期金利 上昇",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
+          "policy_impact_score": 54,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
@@ -2736,7 +2801,7 @@
           "revenue_horizon_label": "0〜3ヶ月",
           "matched_keyword": "長期金利 上昇",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
+          "policy_impact_score": 54,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
@@ -2757,7 +2822,7 @@
           "revenue_horizon_label": "0〜3ヶ月",
           "matched_keyword": "長期金利 上昇",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
+          "policy_impact_score": 54,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
@@ -2778,7 +2843,7 @@
           "revenue_horizon_label": "0〜3ヶ月",
           "matched_keyword": "長期金利 上昇",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
+          "policy_impact_score": 54,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
@@ -2799,7 +2864,7 @@
           "revenue_horizon_label": "3〜6ヶ月",
           "matched_keyword": "長期金利 上昇",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 60,
+          "policy_impact_score": 46,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
@@ -2820,7 +2885,7 @@
           "revenue_horizon_label": "3〜6ヶ月",
           "matched_keyword": "長期金利 上昇",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 60,
+          "policy_impact_score": 46,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         }
@@ -2903,6 +2968,53 @@
       "category": "us",
       "category_label": "米国市場",
       "category_emoji": "🇺🇸",
+      "importance": 1,
+      "importance_reason": "一般的な市況ニュース",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "0392df0f4047",
+      "title": "日経平均株価の指数情報・推移",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SRDk1ZENIQUIzSUZyMHZRNHpCR2xlcTI5UTJRYXVoMDBrM3BmNndBT29vV0dDZWdQazZHb2tURGZNYy1OMU93R0kyUUZUT3VmU2VhbA?oc=5",
+      "source": "Yahoo!ファイナンス",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-09-23 07:41",
+      "published_ts": 1790116861.0,
+      "category": "market",
+      "category_label": "株式市況",
+      "category_emoji": "📈",
       "importance": 1,
       "importance_reason": "一般的な市況ニュース",
       "future_signal": false,
@@ -3375,7 +3487,7 @@
       "sector": "自動車",
       "positive": 3,
       "negative": 3,
-      "watch": 4,
+      "watch": 3,
       "score": -5,
       "news": [
         {
@@ -3400,7 +3512,7 @@
           "importance": 3
         }
       ],
-      "mentions": 10
+      "mentions": 9
     },
     {
       "code": "8604",
@@ -3412,13 +3524,6 @@
       "score": 4,
       "news": [
         {
-          "title": "ナスダック総合の指数情報・推移",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
-          "direction": "watch",
-          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "importance": 2
-        },
-        {
           "title": "米国株式市場＝ナスダック連日最高値、ＡＩ関連株高で 米中首脳会談に注目",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSEJPSkZxeWdZRmFmYXFidkJ3VGl5bWZVa1VQZGVwb0NoSnJsbjNsU0V2QlRfLU1vUDVwYklCcHI1dzBtNFpXMzNFTGd6YlR2Y1hZdzhxZF8zeHZiMnR0Q0ZGenRRNFFwNVItZ2JLSjR2VWRqNzl6VHdBZGRsUDJQRFdlM0xMdw?oc=5",
           "direction": "watch",
@@ -3429,6 +3534,13 @@
           "title": "ダウ平均は反落 金融株が下落 半導体が買われナスダックはしっかり＝米国株概況",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yRGVCLTZWYk51QlhlMGIzeGlzcWFabV9QUV9xVTZuc1hmY05nRlEtVWVRaXpuTVZsYncxdXRJay02WWRmcEdqUHBhckpaZVAzNUE?oc=5",
           "direction": "negative",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
+        },
+        {
+          "title": "米国株3指数がそろって上昇、ナスダックは2.26%高で約4カ月ぶり史上最高値更新",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03dFkxUlBfN0J0dnNRcnEtcHdoZlBCYUk1WV9fNmhGeWxZajhsVWVLTXVlLWlGVEJkb29NWmtzaGwxOEJxanpuLXAyTmR0eDlvNmstWHFwT0paSk43YWUzUkEtWlRaZXhJbGdoQ0FVajlNMFU4?oc=5",
+          "direction": "positive",
           "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "importance": 2
         }
@@ -3445,13 +3557,6 @@
       "score": 4,
       "news": [
         {
-          "title": "ナスダック総合の指数情報・推移",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
-          "direction": "watch",
-          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "importance": 2
-        },
-        {
           "title": "米国株式市場＝ナスダック連日最高値、ＡＩ関連株高で 米中首脳会談に注目",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSEJPSkZxeWdZRmFmYXFidkJ3VGl5bWZVa1VQZGVwb0NoSnJsbjNsU0V2QlRfLU1vUDVwYklCcHI1dzBtNFpXMzNFTGd6YlR2Y1hZdzhxZF8zeHZiMnR0Q0ZGenRRNFFwNVItZ2JLSjR2VWRqNzl6VHdBZGRsUDJQRFdlM0xMdw?oc=5",
           "direction": "watch",
@@ -3462,6 +3567,13 @@
           "title": "ダウ平均は反落 金融株が下落 半導体が買われナスダックはしっかり＝米国株概況",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yRGVCLTZWYk51QlhlMGIzeGlzcWFabV9QUV9xVTZuc1hmY05nRlEtVWVRaXpuTVZsYncxdXRJay02WWRmcEdqUHBhckpaZVAzNUE?oc=5",
           "direction": "negative",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
+        },
+        {
+          "title": "米国株3指数がそろって上昇、ナスダックは2.26%高で約4カ月ぶり史上最高値更新",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03dFkxUlBfN0J0dnNRcnEtcHdoZlBCYUk1WV9fNmhGeWxZajhsVWVLTXVlLWlGVEJkb29NWmtzaGwxOEJxanpuLXAyTmR0eDlvNmstWHFwT0paSk43YWUzUkEtWlRaZXhJbGdoQ0FVajlNMFU4?oc=5",
+          "direction": "positive",
           "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "importance": 2
         }
@@ -3478,13 +3590,6 @@
       "score": 4,
       "news": [
         {
-          "title": "ナスダック総合の指数情報・推移",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
-          "direction": "watch",
-          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "importance": 2
-        },
-        {
           "title": "米国株式市場＝ナスダック連日最高値、ＡＩ関連株高で 米中首脳会談に注目",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSEJPSkZxeWdZRmFmYXFidkJ3VGl5bWZVa1VQZGVwb0NoSnJsbjNsU0V2QlRfLU1vUDVwYklCcHI1dzBtNFpXMzNFTGd6YlR2Y1hZdzhxZF8zeHZiMnR0Q0ZGenRRNFFwNVItZ2JLSjR2VWRqNzl6VHdBZGRsUDJQRFdlM0xMdw?oc=5",
           "direction": "watch",
@@ -3495,6 +3600,13 @@
           "title": "ダウ平均は反落 金融株が下落 半導体が買われナスダックはしっかり＝米国株概況",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yRGVCLTZWYk51QlhlMGIzeGlzcWFabV9QUV9xVTZuc1hmY05nRlEtVWVRaXpuTVZsYncxdXRJay02WWRmcEdqUHBhckpaZVAzNUE?oc=5",
           "direction": "negative",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
+        },
+        {
+          "title": "米国株3指数がそろって上昇、ナスダックは2.26%高で約4カ月ぶり史上最高値更新",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03dFkxUlBfN0J0dnNRcnEtcHdoZlBCYUk1WV9fNmhGeWxZajhsVWVLTXVlLWlGVEJkb29NWmtzaGwxOEJxanpuLXAyTmR0eDlvNmstWHFwT0paSk43YWUzUkEtWlRaZXhJbGdoQ0FVajlNMFU4?oc=5",
+          "direction": "positive",
           "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "importance": 2
         }
@@ -3511,13 +3623,6 @@
       "score": 4,
       "news": [
         {
-          "title": "ナスダック総合の指数情報・推移",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
-          "direction": "watch",
-          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "importance": 2
-        },
-        {
           "title": "米国株式市場＝ナスダック連日最高値、ＡＩ関連株高で 米中首脳会談に注目",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSEJPSkZxeWdZRmFmYXFidkJ3VGl5bWZVa1VQZGVwb0NoSnJsbjNsU0V2QlRfLU1vUDVwYklCcHI1dzBtNFpXMzNFTGd6YlR2Y1hZdzhxZF8zeHZiMnR0Q0ZGenRRNFFwNVItZ2JLSjR2VWRqNzl6VHdBZGRsUDJQRFdlM0xMdw?oc=5",
           "direction": "watch",
@@ -3528,6 +3633,13 @@
           "title": "ダウ平均は反落 金融株が下落 半導体が買われナスダックはしっかり＝米国株概況",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yRGVCLTZWYk51QlhlMGIzeGlzcWFabV9QUV9xVTZuc1hmY05nRlEtVWVRaXpuTVZsYncxdXRJay02WWRmcEdqUHBhckpaZVAzNUE?oc=5",
           "direction": "negative",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
+        },
+        {
+          "title": "米国株3指数がそろって上昇、ナスダックは2.26%高で約4カ月ぶり史上最高値更新",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03dFkxUlBfN0J0dnNRcnEtcHdoZlBCYUk1WV9fNmhGeWxZajhsVWVLTXVlLWlGVEJkb29NWmtzaGwxOEJxanpuLXAyTmR0eDlvNmstWHFwT0paSk43YWUzUkEtWlRaZXhJbGdoQ0FVajlNMFU4?oc=5",
+          "direction": "positive",
           "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "importance": 2
         }
@@ -3915,34 +4027,34 @@
       "mentions": 2
     },
     {
-      "code": "6857",
-      "name": "アドバンテスト",
-      "sector": "電気機器",
-      "positive": 1,
-      "negative": 1,
+      "code": "1540",
+      "name": "純金上場信託(現物国内保管型)",
+      "sector": "ETF",
+      "positive": 2,
+      "negative": 0,
       "watch": 0,
-      "score": -3,
+      "score": 4,
       "news": [
         {
-          "title": "「経済的威圧に断固反対」日米韓外相 中国のレアアース輸出規制念頭、経済安保で連携確認",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kdERaR0ZocHVmOVlMSmI1QVlTdDkxTzlKVnpMZmFRbUpUQ0JBT2ZsQ0lrSkhITVpaYlJnN3BFcW9uSjkxdFNHd3VWTktZMXoxS2pxMlF6TEZCRDVrazBVdWd2NGVnLVdzX2FRbTdJRklrZXZqSkE?oc=5",
-          "direction": "negative",
-          "reason": "「輸出規制」に反応: 中国向け売上比率が高く、規制強化は受注減・出荷制限のリスク要因になりやすい",
-          "importance": 5
+          "title": "NY株続伸、ナスダックが一時最高値 米イラン協議期待で",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4wQjVKZnkxamVxc0ZWNXYzcXNqTTNxZGlpVWExMDh3bmhXSDE0U1dxcE10OEpRMGtrc2RsLVRKZU9EUjRielY4RDVyb3pvcHZ0OFRveEUtQXVZX2hOT0lvdXBwMGxNakZYU2NKc1hRcmtkaURi?oc=5",
+          "direction": "positive",
+          "reason": "「イラン」に反応: 直接の影響とは別角度: コロナ禍のような過去の有事でも見られたように、地政学リスクの高まりは株式とは別に金など安全資産に資金が向かいやすい(質への逃避)",
+          "importance": 2
         },
         {
-          "title": "ダウ平均は反落 金融株が下落 半導体が買われナスダックはしっかり＝米国株概況",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yRGVCLTZWYk51QlhlMGIzeGlzcWFabV9QUV9xVTZuc1hmY05nRlEtVWVRaXpuTVZsYncxdXRJay02WWRmcEdqUHBhckpaZVAzNUE?oc=5",
+          "title": "【独占インタビュー】「北京は何をしても不満を示す」 英国元国防相、台湾防衛は「いくら急いでも急ぎすぎることはない」",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ORkFkMy03V2VtVkpoc2FXOVJxbW95UlFSYjNER204WnU2YUFYZFYydjQ2UkJ0SW14T0lEMkNqVjVhZ1VoU3lHLVpBSzZDaFVN?oc=5",
           "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "reason": "「台湾」に反応: 直接の影響とは別角度: コロナ禍のような過去の有事でも見られたように、地政学リスクの高まりは株式とは別に金など安全資産に資金が向かいやすい(質への逃避)",
           "importance": 2
         }
       ],
       "mentions": 2
     },
     {
-      "code": "6920",
-      "name": "レーザーテック",
+      "code": "6857",
+      "name": "アドバンテスト",
       "sector": "電気機器",
       "positive": 1,
       "negative": 1,
@@ -3977,23 +4089,16 @@
       "category_label": "米国市場",
       "category_emoji": "🇺🇸",
       "member_ids": [
-        "d6f8ecf0b5dd",
         "7440a49a6e49",
         "d5e69e8cda64",
         "8d269f56f75c",
+        "1ae4b896b5b4",
         "f5adfc707c6a",
         "3faac431f59f",
         "1a29ed514f7d",
         "f592ce4d1f61"
       ],
       "members": [
-        {
-          "id": "d6f8ecf0b5dd",
-          "title": "ナスダック総合の指数情報・推移",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ファイナンス"
-        },
         {
           "id": "7440a49a6e49",
           "title": "米国株式市場＝ナスダック連日最高値、ＡＩ関連株高で 米中首脳会談に注目",
@@ -4016,6 +4121,13 @@
           "source": "BigGo ファイナンス"
         },
         {
+          "id": "1ae4b896b5b4",
+          "title": "NY株続伸、ナスダックが一時最高値 米イラン協議期待で",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4wQjVKZnkxamVxc0ZWNXYzcXNqTTNxZGlpVWExMDh3bmhXSDE0U1dxcE10OEpRMGtrc2RsLVRKZU9EUjRielY4RDVyb3pvcHZ0OFRveEUtQXVZX2hOT0lvdXBwMGxNakZYU2NKc1hRcmtkaURi?oc=5",
+          "importance": 2,
+          "source": "BigGo ファイナンス"
+        },
+        {
           "id": "f5adfc707c6a",
           "title": "ダウ平均は上昇して始まる １３７ドル高 ナスダックも上昇＝米国株オープン",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4wM1FlRzRrWjR3ZlB0a01ZY3l0SkpJUlZRSzlQUDhkdEd1NmR2SW9iN3A1WkVBWkRDbW1RM0Z6VE5kNEx4RE15Rg?oc=5",
@@ -4034,7 +4146,7 @@
           "title": "NYダウが366ドル高、AI関連で上昇目立つ ナスダックは最高値更新",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR1oxWEhhbFNzcEx5eHhValZGZ0x4TUhwQU1ZTWdGS1dIOWo0WXBiZlI1a003VUhGRGRnQUgzSE9UdHlqNTRNc28wOWhfMUQ2VzA4UDM2RzdxTHdjbkJQdnFlZ3c1ZmNXeXJ3Zw?oc=5",
           "importance": 2,
-          "source": "日本経済新聞"
+          "source": "nikkei.com"
         },
         {
           "id": "f592ce4d1f61",
@@ -4078,7 +4190,7 @@
           "name": "トヨタ自動車",
           "positive": 3,
           "negative": 0,
-          "watch": 4
+          "watch": 3
         }
       ],
       "max_importance": 2,
@@ -4283,7 +4395,7 @@
           "title": "レアアース輸出正常化、焦点に（時事通信）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52eW9wUFJ6ck5mX1FGbWtuanNhbVBkRGtvYXdGaTRfQUZzVzJRQXAzaFZRVkEtb05RS1NKT2FfakhXbzRqMFA5VnhjdmlSZW1yc3lGY3ZtSHNTR2x2MzBMT01Cd0I1RU5aRjR0VTNkNUwwalUtZFp5N1AzYzVGMDQ?oc=5",
           "importance": 3,
-          "source": "Yahoo!ニュース"
+          "source": "news.yahoo.co.jp"
         },
         {
           "id": "2f78f370a276",
@@ -4375,7 +4487,7 @@
         },
         {
           "date": "2026-09-23",
-          "source": "Yahoo!ニュース",
+          "source": "news.yahoo.co.jp",
           "signal_labels": [
             "複数媒体での同時報道"
           ],
@@ -4583,7 +4695,6 @@
         "e81fc6e622b1",
         "7efa2d7e1f79",
         "2f78f370a276",
-        "d6f8ecf0b5dd",
         "7440a49a6e49",
         "8d269f56f75c",
         "f5adfc707c6a",
@@ -4604,7 +4715,7 @@
           "title": "レアアース輸出正常化、焦点に（時事通信）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52eW9wUFJ6ck5mX1FGbWtuanNhbVBkRGtvYXdGaTRfQUZzVzJRQXAzaFZRVkEtb05RS1NKT2FfakhXbzRqMFA5VnhjdmlSZW1yc3lGY3ZtSHNTR2x2MzBMT01Cd0I1RU5aRjR0VTNkNUwwalUtZFp5N1AzYzVGMDQ?oc=5",
           "importance": 3,
-          "source": "Yahoo!ニュース"
+          "source": "news.yahoo.co.jp"
         },
         {
           "id": "2f78f370a276",
@@ -4612,13 +4723,6 @@
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUmdQXy1mRGJITlhCXzV0X0o3YTRMWmY3OEhISzN5UHZCZXZjRXE4Q3ZlSjRZOVBYQUNtTk4zQVlzRVlXZDJrVGhYNlRPY0lIR3pUT3lTbVJCZVFmX19MOEFmWWJhOXgwaUZNdW1vdWNSaEpVa1FBcF9sVi04dlRHN3M5ZmZpVWhjcnVaLXpOdks5MjBELW9wSk1uYzNMa2c?oc=5",
           "importance": 3,
           "source": "Vietnam.vn"
-        },
-        {
-          "id": "d6f8ecf0b5dd",
-          "title": "ナスダック総合の指数情報・推移",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ファイナンス"
         },
         {
           "id": "7440a49a6e49",
@@ -4653,7 +4757,7 @@
           "title": "NYダウが366ドル高、AI関連で上昇目立つ ナスダックは最高値更新",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR1oxWEhhbFNzcEx5eHhValZGZ0x4TUhwQU1ZTWdGS1dIOWo0WXBiZlI1a003VUhGRGRnQUgzSE9UdHlqNTRNc28wOWhfMUQ2VzA4UDM2RzdxTHdjbkJQdnFlZ3c1ZmNXeXJ3Zw?oc=5",
           "importance": 2,
-          "source": "日本経済新聞"
+          "source": "nikkei.com"
         },
         {
           "id": "f592ce4d1f61",
@@ -4669,7 +4773,7 @@
           "name": "トヨタ自動車",
           "positive": 3,
           "negative": 3,
-          "watch": 4
+          "watch": 3
         }
       ],
       "max_importance": 5,
@@ -4895,7 +4999,6 @@
         "e81fc6e622b1",
         "7efa2d7e1f79",
         "2f78f370a276",
-        "d6f8ecf0b5dd",
         "7440a49a6e49",
         "8d269f56f75c",
         "f5adfc707c6a",
@@ -4916,7 +5019,7 @@
           "title": "レアアース輸出正常化、焦点に（時事通信）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52eW9wUFJ6ck5mX1FGbWtuanNhbVBkRGtvYXdGaTRfQUZzVzJRQXAzaFZRVkEtb05RS1NKT2FfakhXbzRqMFA5VnhjdmlSZW1yc3lGY3ZtSHNTR2x2MzBMT01Cd0I1RU5aRjR0VTNkNUwwalUtZFp5N1AzYzVGMDQ?oc=5",
           "importance": 3,
-          "source": "Yahoo!ニュース"
+          "source": "news.yahoo.co.jp"
         },
         {
           "id": "2f78f370a276",
@@ -4924,13 +5027,6 @@
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUmdQXy1mRGJITlhCXzV0X0o3YTRMWmY3OEhISzN5UHZCZXZjRXE4Q3ZlSjRZOVBYQUNtTk4zQVlzRVlXZDJrVGhYNlRPY0lIR3pUT3lTbVJCZVFmX19MOEFmWWJhOXgwaUZNdW1vdWNSaEpVa1FBcF9sVi04dlRHN3M5ZmZpVWhjcnVaLXpOdks5MjBELW9wSk1uYzNMa2c?oc=5",
           "importance": 3,
           "source": "Vietnam.vn"
-        },
-        {
-          "id": "d6f8ecf0b5dd",
-          "title": "ナスダック総合の指数情報・推移",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ファイナンス"
         },
         {
           "id": "7440a49a6e49",
@@ -4965,7 +5061,7 @@
           "title": "NYダウが366ドル高、AI関連で上昇目立つ ナスダックは最高値更新",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR1oxWEhhbFNzcEx5eHhValZGZ0x4TUhwQU1ZTWdGS1dIOWo0WXBiZlI1a003VUhGRGRnQUgzSE9UdHlqNTRNc28wOWhfMUQ2VzA4UDM2RzdxTHdjbkJQdnFlZ3c1ZmNXeXJ3Zw?oc=5",
           "importance": 2,
-          "source": "日本経済新聞"
+          "source": "nikkei.com"
         },
         {
           "id": "f592ce4d1f61",
@@ -4981,7 +5077,7 @@
           "name": "トヨタ自動車",
           "positive": 3,
           "negative": 3,
-          "watch": 4
+          "watch": 3
         },
         {
           "code": "7267",
@@ -5167,7 +5263,7 @@
           "title": "レアアース輸出正常化、焦点に（時事通信）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52eW9wUFJ6ck5mX1FGbWtuanNhbVBkRGtvYXdGaTRfQUZzVzJRQXAzaFZRVkEtb05RS1NKT2FfakhXbzRqMFA5VnhjdmlSZW1yc3lGY3ZtSHNTR2x2MzBMT01Cd0I1RU5aRjR0VTNkNUwwalUtZFp5N1AzYzVGMDQ?oc=5",
           "importance": 3,
-          "source": "Yahoo!ニュース"
+          "source": "news.yahoo.co.jp"
         },
         {
           "id": "2f78f370a276",
@@ -5301,10 +5397,10 @@
         "e81fc6e622b1",
         "7efa2d7e1f79",
         "2f78f370a276",
-        "d6f8ecf0b5dd",
         "7440a49a6e49",
         "d5e69e8cda64",
         "8d269f56f75c",
+        "1ae4b896b5b4",
         "f5adfc707c6a",
         "3faac431f59f",
         "ed2664c17c7c",
@@ -5324,7 +5420,7 @@
           "title": "レアアース輸出正常化、焦点に（時事通信）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52eW9wUFJ6ck5mX1FGbWtuanNhbVBkRGtvYXdGaTRfQUZzVzJRQXAzaFZRVkEtb05RS1NKT2FfakhXbzRqMFA5VnhjdmlSZW1yc3lGY3ZtSHNTR2x2MzBMT01Cd0I1RU5aRjR0VTNkNUwwalUtZFp5N1AzYzVGMDQ?oc=5",
           "importance": 3,
-          "source": "Yahoo!ニュース"
+          "source": "news.yahoo.co.jp"
         },
         {
           "id": "2f78f370a276",
@@ -5332,13 +5428,6 @@
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUmdQXy1mRGJITlhCXzV0X0o3YTRMWmY3OEhISzN5UHZCZXZjRXE4Q3ZlSjRZOVBYQUNtTk4zQVlzRVlXZDJrVGhYNlRPY0lIR3pUT3lTbVJCZVFmX19MOEFmWWJhOXgwaUZNdW1vdWNSaEpVa1FBcF9sVi04dlRHN3M5ZmZpVWhjcnVaLXpOdks5MjBELW9wSk1uYzNMa2c?oc=5",
           "importance": 3,
           "source": "Vietnam.vn"
-        },
-        {
-          "id": "d6f8ecf0b5dd",
-          "title": "ナスダック総合の指数情報・推移",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ファイナンス"
         },
         {
           "id": "7440a49a6e49",
@@ -5358,6 +5447,13 @@
           "id": "8d269f56f75c",
           "title": "米国株3指数がそろって上昇、ナスダックは2.26%高で約4カ月ぶり史上最高値更新",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03dFkxUlBfN0J0dnNRcnEtcHdoZlBCYUk1WV9fNmhGeWxZajhsVWVLTXVlLWlGVEJkb29NWmtzaGwxOEJxanpuLXAyTmR0eDlvNmstWHFwT0paSk43YWUzUkEtWlRaZXhJbGdoQ0FVajlNMFU4?oc=5",
+          "importance": 2,
+          "source": "BigGo ファイナンス"
+        },
+        {
+          "id": "1ae4b896b5b4",
+          "title": "NY株続伸、ナスダックが一時最高値 米イラン協議期待で",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4wQjVKZnkxamVxc0ZWNXYzcXNqTTNxZGlpVWExMDh3bmhXSDE0U1dxcE10OEpRMGtrc2RsLVRKZU9EUjRielY4RDVyb3pvcHZ0OFRveEUtQXVZX2hOT0lvdXBwMGxNakZYU2NKc1hRcmtkaURi?oc=5",
           "importance": 2,
           "source": "BigGo ファイナンス"
         },
@@ -5387,7 +5483,7 @@
           "title": "NYダウが366ドル高、AI関連で上昇目立つ ナスダックは最高値更新",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR1oxWEhhbFNzcEx5eHhValZGZ0x4TUhwQU1ZTWdGS1dIOWo0WXBiZlI1a003VUhGRGRnQUgzSE9UdHlqNTRNc28wOWhfMUQ2VzA4UDM2RzdxTHdjbkJQdnFlZ3c1ZmNXeXJ3Zw?oc=5",
           "importance": 2,
-          "source": "日本経済新聞"
+          "source": "nikkei.com"
         },
         {
           "id": "f592ce4d1f61",
@@ -5472,10 +5568,10 @@
         "e81fc6e622b1",
         "4c18599c5f9a",
         "4e8688c781cf",
-        "d6f8ecf0b5dd",
         "7440a49a6e49",
         "d5e69e8cda64",
         "8d269f56f75c",
+        "1ae4b896b5b4",
         "f5adfc707c6a",
         "3faac431f59f",
         "ed2664c17c7c",
@@ -5505,13 +5601,6 @@
           "source": "Reuters"
         },
         {
-          "id": "d6f8ecf0b5dd",
-          "title": "ナスダック総合の指数情報・推移",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ファイナンス"
-        },
-        {
           "id": "7440a49a6e49",
           "title": "米国株式市場＝ナスダック連日最高値、ＡＩ関連株高で 米中首脳会談に注目",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSEJPSkZxeWdZRmFmYXFidkJ3VGl5bWZVa1VQZGVwb0NoSnJsbjNsU0V2QlRfLU1vUDVwYklCcHI1dzBtNFpXMzNFTGd6YlR2Y1hZdzhxZF8zeHZiMnR0Q0ZGenRRNFFwNVItZ2JLSjR2VWRqNzl6VHdBZGRsUDJQRFdlM0xMdw?oc=5",
@@ -5529,6 +5618,13 @@
           "id": "8d269f56f75c",
           "title": "米国株3指数がそろって上昇、ナスダックは2.26%高で約4カ月ぶり史上最高値更新",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03dFkxUlBfN0J0dnNRcnEtcHdoZlBCYUk1WV9fNmhGeWxZajhsVWVLTXVlLWlGVEJkb29NWmtzaGwxOEJxanpuLXAyTmR0eDlvNmstWHFwT0paSk43YWUzUkEtWlRaZXhJbGdoQ0FVajlNMFU4?oc=5",
+          "importance": 2,
+          "source": "BigGo ファイナンス"
+        },
+        {
+          "id": "1ae4b896b5b4",
+          "title": "NY株続伸、ナスダックが一時最高値 米イラン協議期待で",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4wQjVKZnkxamVxc0ZWNXYzcXNqTTNxZGlpVWExMDh3bmhXSDE0U1dxcE10OEpRMGtrc2RsLVRKZU9EUjRielY4RDVyb3pvcHZ0OFRveEUtQXVZX2hOT0lvdXBwMGxNakZYU2NKc1hRcmtkaURi?oc=5",
           "importance": 2,
           "source": "BigGo ファイナンス"
         },
@@ -5558,7 +5654,7 @@
           "title": "NYダウが366ドル高、AI関連で上昇目立つ ナスダックは最高値更新",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR1oxWEhhbFNzcEx5eHhValZGZ0x4TUhwQU1ZTWdGS1dIOWo0WXBiZlI1a003VUhGRGRnQUgzSE9UdHlqNTRNc28wOWhfMUQ2VzA4UDM2RzdxTHdjbkJQdnFlZ3c1ZmNXeXJ3Zw?oc=5",
           "importance": 2,
-          "source": "日本経済新聞"
+          "source": "nikkei.com"
         },
         {
           "id": "f592ce4d1f61",
@@ -5636,7 +5732,6 @@
         "e81fc6e622b1",
         "7efa2d7e1f79",
         "2f78f370a276",
-        "d6f8ecf0b5dd",
         "7440a49a6e49",
         "8d269f56f75c",
         "f5adfc707c6a",
@@ -5657,7 +5752,7 @@
           "title": "レアアース輸出正常化、焦点に（時事通信）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52eW9wUFJ6ck5mX1FGbWtuanNhbVBkRGtvYXdGaTRfQUZzVzJRQXAzaFZRVkEtb05RS1NKT2FfakhXbzRqMFA5VnhjdmlSZW1yc3lGY3ZtSHNTR2x2MzBMT01Cd0I1RU5aRjR0VTNkNUwwalUtZFp5N1AzYzVGMDQ?oc=5",
           "importance": 3,
-          "source": "Yahoo!ニュース"
+          "source": "news.yahoo.co.jp"
         },
         {
           "id": "2f78f370a276",
@@ -5665,13 +5760,6 @@
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUmdQXy1mRGJITlhCXzV0X0o3YTRMWmY3OEhISzN5UHZCZXZjRXE4Q3ZlSjRZOVBYQUNtTk4zQVlzRVlXZDJrVGhYNlRPY0lIR3pUT3lTbVJCZVFmX19MOEFmWWJhOXgwaUZNdW1vdWNSaEpVa1FBcF9sVi04dlRHN3M5ZmZpVWhjcnVaLXpOdks5MjBELW9wSk1uYzNMa2c?oc=5",
           "importance": 3,
           "source": "Vietnam.vn"
-        },
-        {
-          "id": "d6f8ecf0b5dd",
-          "title": "ナスダック総合の指数情報・推移",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ファイナンス"
         },
         {
           "id": "7440a49a6e49",
@@ -5706,7 +5794,7 @@
           "title": "NYダウが366ドル高、AI関連で上昇目立つ ナスダックは最高値更新",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR1oxWEhhbFNzcEx5eHhValZGZ0x4TUhwQU1ZTWdGS1dIOWo0WXBiZlI1a003VUhGRGRnQUgzSE9UdHlqNTRNc28wOWhfMUQ2VzA4UDM2RzdxTHdjbkJQdnFlZ3c1ZmNXeXJ3Zw?oc=5",
           "importance": 2,
-          "source": "日本経済新聞"
+          "source": "nikkei.com"
         },
         {
           "id": "f592ce4d1f61",
@@ -5722,7 +5810,7 @@
           "name": "トヨタ自動車",
           "positive": 3,
           "negative": 3,
-          "watch": 4
+          "watch": 3
         },
         {
           "code": "7267",
@@ -5763,7 +5851,6 @@
         "e81fc6e622b1",
         "7efa2d7e1f79",
         "2f78f370a276",
-        "d6f8ecf0b5dd",
         "7440a49a6e49",
         "8d269f56f75c",
         "f5adfc707c6a",
@@ -5784,7 +5871,7 @@
           "title": "レアアース輸出正常化、焦点に（時事通信）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52eW9wUFJ6ck5mX1FGbWtuanNhbVBkRGtvYXdGaTRfQUZzVzJRQXAzaFZRVkEtb05RS1NKT2FfakhXbzRqMFA5VnhjdmlSZW1yc3lGY3ZtSHNTR2x2MzBMT01Cd0I1RU5aRjR0VTNkNUwwalUtZFp5N1AzYzVGMDQ?oc=5",
           "importance": 3,
-          "source": "Yahoo!ニュース"
+          "source": "news.yahoo.co.jp"
         },
         {
           "id": "2f78f370a276",
@@ -5792,13 +5879,6 @@
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUmdQXy1mRGJITlhCXzV0X0o3YTRMWmY3OEhISzN5UHZCZXZjRXE4Q3ZlSjRZOVBYQUNtTk4zQVlzRVlXZDJrVGhYNlRPY0lIR3pUT3lTbVJCZVFmX19MOEFmWWJhOXgwaUZNdW1vdWNSaEpVa1FBcF9sVi04dlRHN3M5ZmZpVWhjcnVaLXpOdks5MjBELW9wSk1uYzNMa2c?oc=5",
           "importance": 3,
           "source": "Vietnam.vn"
-        },
-        {
-          "id": "d6f8ecf0b5dd",
-          "title": "ナスダック総合の指数情報・推移",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ファイナンス"
         },
         {
           "id": "7440a49a6e49",
@@ -5833,7 +5913,7 @@
           "title": "NYダウが366ドル高、AI関連で上昇目立つ ナスダックは最高値更新",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR1oxWEhhbFNzcEx5eHhValZGZ0x4TUhwQU1ZTWdGS1dIOWo0WXBiZlI1a003VUhGRGRnQUgzSE9UdHlqNTRNc28wOWhfMUQ2VzA4UDM2RzdxTHdjbkJQdnFlZ3c1ZmNXeXJ3Zw?oc=5",
           "importance": 2,
-          "source": "日本経済新聞"
+          "source": "nikkei.com"
         },
         {
           "id": "f592ce4d1f61",
@@ -5849,7 +5929,7 @@
           "name": "トヨタ自動車",
           "positive": 3,
           "negative": 3,
-          "watch": 4
+          "watch": 3
         },
         {
           "code": "7267",
@@ -5897,10 +5977,10 @@
     "milestones": {
       "accumulating": "2026-09-21"
     },
-    "last_computed_at": "2026-09-23T10:27:35+09:00"
+    "last_computed_at": "2026-09-23T10:28:16+09:00"
   },
   "counts": {
-    "news": 26,
+    "news": 27,
     "high_importance": 3,
     "stocks": 20
   }
