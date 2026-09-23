@@ -34,6 +34,10 @@ class Rules:
         self.negative_words = raw.get("negative_words", [])
         self.future_signal_keywords = raw.get("future_signal_keywords", [])
         self.policy_maturity_stages = raw.get("policy_maturity_stages", [])
+        # 第9優先改修③ STEP1(ユーザー提案)。「期待値シフト」検出専用の
+        # テーマ対の対応表(dovish_theme/hawkish_theme)。既存のthemes/impacts
+        # (FACTUAL LAYER)には一切影響しない。判定ロジック自体はSTEP2以降。
+        self.expectation_shift_pairs = raw.get("expectation_shift_pairs", [])
         # 萌芽シグナル検知(theme_trends.py)用。テーマに依存しない汎用キーワード。
         self.rd_signal_keywords = raw.get("rd_signal_keywords", [])
         self.patent_signal_keywords = raw.get("patent_signal_keywords", [])

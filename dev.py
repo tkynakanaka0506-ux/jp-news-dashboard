@@ -247,6 +247,17 @@ def cmd_check(args):
                 if code not in master.by_code:
                     errors.append(f"テーマ {theme.get('id')} が指定した証券コード {code} は stocks.json にありません")
 
+    # 第9優先改修③ STEP1: expectation_shift_pairsが参照するtheme idが
+    # 実在するか(dovish_theme/hawkish_themeのtypoの早期検知)。
+    theme_ids = {t.get("id") for t in rules.themes}
+    for pair in rules.expectation_shift_pairs:
+        for key in ("dovish_theme", "hawkish_theme"):
+            tid = pair.get(key)
+            if tid not in theme_ids:
+                errors.append(
+                    f"expectation_shift_pairs「{pair.get('id')}」の{key}「{tid}」は themes のどのidとも一致しません"
+                )
+
     unused = sorted(stock_themes - used_themes)
     if unused:
         shown = "、".join(unused[:12]) + ("…" if len(unused) > 12 else "")

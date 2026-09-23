@@ -394,6 +394,48 @@
       ]
     },
     {
+      "id": "fed_dovish",
+      "label": "FRBの金融緩和期待(ハト派)",
+      "category": "policy",
+      "weight": 4,
+      "keywords": [
+        "FRB 利下げ",
+        "FOMC 利下げ",
+        "米利下げ",
+        "米政策金利 引き下げ",
+        "パウエル議長 ハト派"
+      ],
+      "exclude": [
+        "日銀"
+      ],
+      "impacts": [
+        {
+          "themes": [
+            "グロース"
+          ],
+          "limit": 6,
+          "direction": "positive",
+          "strength": "中",
+          "reason": "米金利の低下観測は割引率低下を通じて高PER銘柄のバリュエーションを押し上げやすく、米国のグロース株経由で日本のグロース株にも波及しやすい",
+          "beneficiary_tier": "primary",
+          "revenue_horizon": "0-3m"
+        },
+        {
+          "themes": [
+            "半導体",
+            "半導体製造装置",
+            "AI"
+          ],
+          "limit": 6,
+          "direction": "positive",
+          "strength": "小",
+          "reason": "米国のAI・半導体関連グロース株のバリュエーション改善が、同じテーマ性を持つ日本の半導体関連株に連想買いとして波及しやすい",
+          "beneficiary_tier": "secondary",
+          "revenue_horizon": "0-3m"
+        }
+      ]
+    },
+    {
       "id": "rate_cut",
       "label": "利下げ・金融緩和",
       "category": "policy",
@@ -2025,6 +2067,24 @@
       "keywords": [
         "検討"
       ]
+    }
+  ],
+  "_comment_expectation_shift_pairs": [
+    "第9優先改修③ STEP1(ユーザー提案)。「市場の前提が何から何へ変わったか」を",
+    "検出するための、対になるテーマの対応表。既存のthemes配列やimpacts",
+    "(FACTUAL LAYER)には一切触れない、完全に並行のデータ。",
+    "rate_cutはJP/US非区別の汎用テーマ(既存の他用途で使われている共有テーマ)",
+    "のため、ここでは対にしない。fed_hawkish/fed_dovishという専用の対を",
+    "別途新設した(米国限定・exclude:日銀で排他)。",
+    "判定ロジック(直近優勢の比較等)はSTEP2以降で別途実装する。ここでは",
+    "対応表の定義のみ。"
+  ],
+  "expectation_shift_pairs": [
+    {
+      "id": "us_rate_outlook",
+      "label": "米金利見通し",
+      "dovish_theme": "fed_dovish",
+      "hawkish_theme": "fed_hawkish"
     }
   ]
 }
