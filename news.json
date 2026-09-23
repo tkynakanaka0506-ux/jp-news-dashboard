@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-23 10:28",
-  "generated_iso": "2026-09-23T10:28:11+09:00",
+  "generated_at": "2026-09-23 13:58",
+  "generated_iso": "2026-09-23T13:58:17+09:00",
   "status": "updated",
-  "status_message": "27 件のニュースを取得しました。",
+  "status_message": "30 件のニュースを取得しました。",
   "llm_used": true,
   "categories": [
     {
@@ -65,32 +65,32 @@
     },
     {
       "label": "日経先物",
-      "value": "66,670.00",
-      "change_pct": 0.86,
+      "value": "66,690.00",
+      "change_pct": 1.44,
       "asof": "9/23終値"
     },
     {
       "label": "ドル円",
-      "value": "157.64円",
-      "change_pct": 0.17,
+      "value": "157.56円",
+      "change_pct": 0.12,
       "asof": "9/23終値"
     },
     {
       "label": "S&P500",
       "value": "7,764.64",
-      "change_pct": 0.0,
+      "change_pct": 1.49,
       "asof": "9/23終値"
     },
     {
       "label": "ナスダック",
       "value": "27,244.28",
-      "change_pct": 0.45,
+      "change_pct": 2.72,
       "asof": "9/23終値"
     },
     {
       "label": "SOX指数",
       "value": "12,689.82",
-      "change_pct": 2.06,
+      "change_pct": 6.44,
       "asof": "9/23終値"
     }
   ],
@@ -126,6 +126,7 @@
         "semi_regulation",
         "rare_earth"
       ],
+      "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [
@@ -318,6 +319,227 @@
       "emergence_growth": {}
     },
     {
+      "id": "679981489157",
+      "title": "米国務長官ルビオ氏、ロシアとウクライナのエネルギー停戦合意は未成立と説明",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCa0c2a3diT3Y1aVdXNWhnY3pCNVMtcnNkd1hTRm9GZ3JaMmdOSS1EU3pxNFduQm1MNUNhOVRGeHRyTUNfSmlBZmdYYW9kRjFFR2NiOXhlcVhrQTJPTnZYdlNLbw?oc=5",
+      "source": "Межа. Новини України.",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-09-23 12:51",
+      "published_ts": 1790135515.0,
+      "category": "geopolitics",
+      "category_label": "地政学・有事",
+      "category_emoji": "🌍",
+      "importance": 4,
+      "importance_reason": "重要語「停戦」・影響テーマ「ウクライナ・ロシア情勢」に該当",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": "ukraine_russia-20260920-01",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-09-20",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "ウクライナ・ロシア情勢"
+      ],
+      "theme_ids": [
+        "ukraine_russia"
+      ],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "8058",
+          "name": "三菱商事",
+          "sector": "卸売",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "theme": "ウクライナ・ロシア情勢",
+          "theme_id": "ukraine_russia",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "ウクライナ",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8031",
+          "name": "三井物産",
+          "sector": "卸売",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "theme": "ウクライナ・ロシア情勢",
+          "theme_id": "ukraine_russia",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "ウクライナ",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8053",
+          "name": "住友商事",
+          "sector": "卸売",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "theme": "ウクライナ・ロシア情勢",
+          "theme_id": "ukraine_russia",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "ウクライナ",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6503",
+          "name": "三菱電機",
+          "sector": "電気機器",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "theme": "ウクライナ・ロシア情勢",
+          "theme_id": "ukraine_russia",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "ウクライナ",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6701",
+          "name": "日本電気",
+          "sector": "電気機器",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "theme": "ウクライナ・ロシア情勢",
+          "theme_id": "ukraine_russia",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "ウクライナ",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8002",
+          "name": "丸紅",
+          "sector": "卸売",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "小",
+          "reason": "「ウクライナ」に反応: 穀物相場の変動が原材料コストに影響しやすい",
+          "theme": "ウクライナ・ロシア情勢",
+          "theme_id": "ukraine_russia",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "ウクライナ",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 39,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "2002",
+          "name": "日清製粉グループ本社",
+          "sector": "食品",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "小",
+          "reason": "「ウクライナ」に反応: 穀物相場の変動が原材料コストに影響しやすい",
+          "theme": "ウクライナ・ロシア情勢",
+          "theme_id": "ukraine_russia",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "ウクライナ",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 39,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8267",
+          "name": "イオン",
+          "sector": "小売",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "小",
+          "reason": "「ウクライナ」に反応: 穀物相場の変動が原材料コストに影響しやすい",
+          "theme": "ウクライナ・ロシア情勢",
+          "theme_id": "ukraine_russia",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "ウクライナ",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 39,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
       "id": "4c18599c5f9a",
       "title": "ゼレンスキー氏、ロシアとのエネルギー停戦に応じる用意 トランプ氏と会談 | ロイター",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWUdqYUxyY1VMUXBWd2dtMm9CU05rOGk2THE4U3dLUm1WOEFzLXRzZnhUSHNoOVRKbkRBT3VpYWExWGxVZElLa3VYb3VWcmxoNEFodlM5U1FmZlpoOTZDSXBzc3dBNjhlRWUtZ2RsaWpHYnU3bGc5djB1OWl3dWtFb1lxR29BQQ?oc=5",
@@ -346,6 +568,7 @@
       "theme_ids": [
         "ukraine_russia"
       ],
+      "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [
@@ -512,226 +735,6 @@
           "revenue_horizon": null,
           "revenue_horizon_label": "",
           "matched_keyword": "ロシア",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 39,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        }
-      ],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "4e8688c781cf",
-      "title": "ロ・ウクライナのエネルギー停戦巡りトランプ氏と協議＝仏大統領",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaFRPT3RpSGNGV3V4NHY0eVV6YTltOFhBRTk3WnpkVjMtbGlPczlpN2NkUVdYQjZtRlhQMHFZWmQyanN3MW9tZkQwOVBsQ2d1cGxTS1JMcGFBSFpPaGpUSXFrTmU2VHZwVHlhMG12cnBXMmFJM0lhV05ya3VZTHptREdQRFlOQQ?oc=5",
-      "source": "Reuters",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-09-22 11:26",
-      "published_ts": 1790043960.0,
-      "category": "geopolitics",
-      "category_label": "地政学・有事",
-      "category_emoji": "🌍",
-      "importance": 4,
-      "importance_reason": "重要語「停戦」・影響テーマ「ウクライナ・ロシア情勢」に該当",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": "ukraine_russia-20260920-01",
-      "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-09-20",
-      "policy_event_state": "UPDATE",
-      "themes": [
-        "ウクライナ・ロシア情勢"
-      ],
-      "theme_ids": [
-        "ukraine_russia"
-      ],
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [
-        {
-          "code": "8058",
-          "name": "三菱商事",
-          "sector": "卸売",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
-          "theme": "ウクライナ・ロシア情勢",
-          "theme_id": "ukraine_russia",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "ウクライナ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8031",
-          "name": "三井物産",
-          "sector": "卸売",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
-          "theme": "ウクライナ・ロシア情勢",
-          "theme_id": "ukraine_russia",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "ウクライナ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8053",
-          "name": "住友商事",
-          "sector": "卸売",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
-          "theme": "ウクライナ・ロシア情勢",
-          "theme_id": "ukraine_russia",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "ウクライナ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "6503",
-          "name": "三菱電機",
-          "sector": "電気機器",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
-          "theme": "ウクライナ・ロシア情勢",
-          "theme_id": "ukraine_russia",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "ウクライナ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "6701",
-          "name": "日本電気",
-          "sector": "電気機器",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
-          "theme": "ウクライナ・ロシア情勢",
-          "theme_id": "ukraine_russia",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "ウクライナ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8002",
-          "name": "丸紅",
-          "sector": "卸売",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "小",
-          "reason": "「ウクライナ」に反応: 穀物相場の変動が原材料コストに影響しやすい",
-          "theme": "ウクライナ・ロシア情勢",
-          "theme_id": "ukraine_russia",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "ウクライナ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 39,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "2002",
-          "name": "日清製粉グループ本社",
-          "sector": "食品",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "小",
-          "reason": "「ウクライナ」に反応: 穀物相場の変動が原材料コストに影響しやすい",
-          "theme": "ウクライナ・ロシア情勢",
-          "theme_id": "ukraine_russia",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "ウクライナ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 39,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8267",
-          "name": "イオン",
-          "sector": "小売",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "小",
-          "reason": "「ウクライナ」に反応: 穀物相場の変動が原材料コストに影響しやすい",
-          "theme": "ウクライナ・ロシア情勢",
-          "theme_id": "ukraine_russia",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "ウクライナ",
           "intelligence_layer": "government_policy",
           "policy_impact_score": 39,
           "ai_capex_impact_score": null,
@@ -761,7 +764,7 @@
       "id": "7efa2d7e1f79",
       "title": "レアアース輸出正常化、焦点に（時事通信）",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52eW9wUFJ6ck5mX1FGbWtuanNhbVBkRGtvYXdGaTRfQUZzVzJRQXAzaFZRVkEtb05RS1NKT2FfakhXbzRqMFA5VnhjdmlSZW1yc3lGY3ZtSHNTR2x2MzBMT01Cd0I1RU5aRjR0VTNkNUwwalUtZFp5N1AzYzVGMDQ?oc=5",
-      "source": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-09-23 09:08",
@@ -786,6 +789,7 @@
       "theme_ids": [
         "rare_earth"
       ],
+      "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [
@@ -949,6 +953,7 @@
       "theme_ids": [
         "rare_earth"
       ],
+      "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [
@@ -1078,6 +1083,227 @@
       "emergence_growth": {}
     },
     {
+      "id": "a43a47c1a498",
+      "title": "中国の駐米大使、首脳会談前に「レッドライン」警告 台湾や人権巡り",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMjJOLXUtMjlYTHF2UF9yMkUwS3dmQlRCNkk4ajBCQWtBdWNFSWdSUDFDN1p2WF9LYUZwVi1ENjNVdHh3LTNkelZKQ0xBOGlUVU8wU01pRUw5NTEzUU5aR3N5NEV5TjN3d2szd1ZJTXVvUkJNMkh6VFVFenZGSEFrTmFQSTE?oc=5",
+      "source": "Reuters",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-09-23 11:32",
+      "published_ts": 1790130720.0,
+      "category": "geopolitics",
+      "category_label": "地政学・有事",
+      "category_emoji": "🌍",
+      "importance": 2,
+      "importance_reason": "影響テーマ「台湾・中国情勢」に該当",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": "taiwan_china-20260920-01",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-09-20",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "台湾・中国情勢"
+      ],
+      "theme_ids": [
+        "taiwan_china"
+      ],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "6503",
+          "name": "三菱電機",
+          "sector": "電気機器",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「台湾」に反応: 安全保障関連の思惑が働きやすい",
+          "theme": "台湾・中国情勢",
+          "theme_id": "taiwan_china",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "台湾",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6701",
+          "name": "日本電気",
+          "sector": "電気機器",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「台湾」に反応: 安全保障関連の思惑が働きやすい",
+          "theme": "台湾・中国情勢",
+          "theme_id": "taiwan_china",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "台湾",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "5406",
+          "name": "神戸製鋼所",
+          "sector": "鉄鋼",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「台湾」に反応: 安全保障関連の思惑が働きやすい",
+          "theme": "台湾・中国情勢",
+          "theme_id": "taiwan_china",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "台湾",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8035",
+          "name": "東京エレクトロン",
+          "sector": "電気機器",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「台湾」に反応: 中国売上比率が高く、地政学リスクの高まりは業績不透明感につながりやすい",
+          "theme": "台湾・中国情勢",
+          "theme_id": "taiwan_china",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "台湾",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6954",
+          "name": "ファナック",
+          "sector": "電気機器",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「台湾」に反応: 中国売上比率が高く、地政学リスクの高まりは業績不透明感につながりやすい",
+          "theme": "台湾・中国情勢",
+          "theme_id": "taiwan_china",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "台湾",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6506",
+          "name": "安川電機",
+          "sector": "電気機器",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「台湾」に反応: 中国売上比率が高く、地政学リスクの高まりは業績不透明感につながりやすい",
+          "theme": "台湾・中国情勢",
+          "theme_id": "taiwan_china",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "台湾",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6645",
+          "name": "オムロン",
+          "sector": "電気機器",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「台湾」に反応: 中国売上比率が高く、地政学リスクの高まりは業績不透明感につながりやすい",
+          "theme": "台湾・中国情勢",
+          "theme_id": "taiwan_china",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "台湾",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "1540",
+          "name": "純金上場信託(現物国内保管型)",
+          "sector": "ETF",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "小",
+          "reason": "「台湾」に反応: 直接の影響とは別角度: コロナ禍のような過去の有事でも見られたように、地政学リスクの高まりは株式とは別に金など安全資産に資金が向かいやすい(質への逃避)",
+          "theme": "台湾・中国情勢",
+          "theme_id": "taiwan_china",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "台湾",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 39,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
       "id": "7440a49a6e49",
       "title": "米国株式市場＝ナスダック連日最高値、ＡＩ関連株高で 米中首脳会談に注目",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSEJPSkZxeWdZRmFmYXFidkJ3VGl5bWZVa1VQZGVwb0NoSnJsbjNsU0V2QlRfLU1vUDVwYklCcHI1dzBtNFpXMzNFTGd6YlR2Y1hZdzhxZF8zeHZiMnR0Q0ZGenRRNFFwNVItZ2JLSjR2VWRqNzl6VHdBZGRsUDJQRFdlM0xMdw?oc=5",
@@ -1090,7 +1316,7 @@
       "category_label": "米国市場",
       "category_emoji": "🇺🇸",
       "importance": 2,
-      "importance_reason": "影響テーマ「米国株・ハイテク株の変動」に該当・2媒体が報道",
+      "importance_reason": "影響テーマ「米国株・ハイテク株の変動」に該当",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
@@ -1106,6 +1332,7 @@
       "theme_ids": [
         "us_stock_move"
       ],
+      "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [
@@ -1215,13 +1442,165 @@
           "policy_to_earnings_stage": null
         }
       ],
-      "related": [
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "df5aef13d5a1",
+      "title": "米国株式市場概況・22日 ダウ反落・ナスダック史上最高値",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iR25zRlN1RU5xN0hnS1Y2dGRxYkhpMnVVRURkMWwtdGlQZDRoTlg1OXNUa0VIdC01RUxUSTJNUlpSTG9wSWhnZ2JRYVNDWFJhWV9sVGVla2VYUDdVZHhBRFB3TmZ0c2JpOGNkZDI0bzg?oc=5",
+      "source": "TradingView",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-09-23 05:42",
+      "published_ts": 1790109725.0,
+      "category": "us",
+      "category_label": "米国市場",
+      "category_emoji": "🇺🇸",
+      "importance": 2,
+      "importance_reason": "影響テーマ「米国株・ハイテク株の変動」に該当",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "low",
+      "news_novelty_label": "再報道",
+      "policy_event_id": "us_stock_move-20260921-02",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-09-21",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "米国株・ハイテク株の変動"
+      ],
+      "theme_ids": [
+        "us_stock_move"
+      ],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
         {
-          "title": "米国株式市場＝ナスダック史上最高値、ＡＩ・半導体株高がけん引 | ロイター",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOR2liZE14X3dlWVhwWWo5MmlqSU5SLTBvaXBXWlZ2LUZnV240N2dJdHFpQUZxUUxXaDNtTjhITW82UHdQTHFveDNvblpLVEVJWGtWZ3hPVFRPWVBpQmIxdjlVTW8wZDJVOTQ1YXdIWUJoX3pyNmk1WGlKUEdCZ25kdzRjYlZGQQ?oc=5",
-          "source": "Reuters"
+          "code": "8604",
+          "name": "野村ホールディングス",
+          "sector": "証券",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8601",
+          "name": "大和証券グループ本社",
+          "sector": "証券",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8473",
+          "name": "SBIホールディングス",
+          "sector": "証券",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9984",
+          "name": "ソフトバンクグループ",
+          "sector": "情報・通信",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "sector": "自動車",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
         }
       ],
+      "related": [],
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -1271,6 +1650,7 @@
         "semi_demand",
         "us_stock_move"
       ],
+      "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [
@@ -1463,45 +1843,69 @@
       "emergence_growth": {}
     },
     {
-      "id": "8d269f56f75c",
-      "title": "米国株3指数がそろって上昇、ナスダックは2.26%高で約4カ月ぶり史上最高値更新",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03dFkxUlBfN0J0dnNRcnEtcHdoZlBCYUk1WV9fNmhGeWxZajhsVWVLTXVlLWlGVEJkb29NWmtzaGwxOEJxanpuLXAyTmR0eDlvNmstWHFwT0paSk43YWUzUkEtWlRaZXhJbGdoQ0FVajlNMFU4?oc=5",
-      "source": "BigGo ファイナンス",
+      "id": "de59ddb1b1b1",
+      "title": "NYダウ、一進一退で始まる 原油安支えにナスダック総合は続伸",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBLQ3BNSXdBRVc2UGJjanF0MDgxUkM1Q245aVNwYTdHUGhpU0ZLN0hKOHN2MWQ5blBWTzVFcGZNSU9IOXFrSG1HbjFDRnhBNGVTOC1wTkdCWnEzcmpaRElnU3Y5ODRVZDVFTThERA?oc=5",
+      "source": "日本経済新聞",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
-      "published_at": "2026-09-22 23:13",
-      "published_ts": 1790086409.0,
-      "category": "us",
-      "category_label": "米国市場",
-      "category_emoji": "🇺🇸",
+      "published_at": "2026-09-22 23:28",
+      "published_ts": 1790087305.0,
+      "category": "resources",
+      "category_label": "資源・エネルギー",
+      "category_emoji": "🛢️",
       "importance": 2,
-      "importance_reason": "影響テーマ「米国株・ハイテク株の変動」に該当",
+      "importance_reason": "影響テーマ「原油安」に該当",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
       "news_novelty": "high",
       "news_novelty_label": "新規",
-      "policy_event_id": "us_stock_move-20260921-02",
-      "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-09-21",
-      "policy_event_state": "UPDATE",
+      "policy_event_id": "oil_down-20260923-01",
+      "policy_event_is_update": false,
+      "policy_event_first_seen": "2026-09-23",
+      "policy_event_state": "NEW",
       "themes": [
+        "原油安",
         "米国株・ハイテク株の変動"
       ],
       "theme_ids": [
+        "oil_down",
         "us_stock_move"
       ],
+      "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [
         {
-          "code": "8604",
-          "name": "野村ホールディングス",
-          "sector": "証券",
+          "code": "9501",
+          "name": "東京電力ホールディングス",
+          "sector": "電気・ガス",
           "direction": "positive",
           "direction_label": "追い風",
           "strength": "中",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "reason": "「原油安」に反応: 燃料費の低下がコスト改善につながりやすい",
+          "theme": "原油安",
+          "theme_id": "oil_down",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "原油安",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8604",
+          "name": "野村ホールディングス",
+          "sector": "証券",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "theme": "米国株・ハイテク株の変動",
           "theme_id": "us_stock_move",
           "origin": "rule",
@@ -1509,9 +1913,30 @@
           "beneficiary_tier_label": "周辺波及",
           "revenue_horizon": "0-3m",
           "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "米国株",
+          "matched_keyword": "ナスダック",
           "intelligence_layer": "government_policy",
           "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9503",
+          "name": "関西電力",
+          "sector": "電気・ガス",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「原油安」に反応: 燃料費の低下がコスト改善につながりやすい",
+          "theme": "原油安",
+          "theme_id": "oil_down",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "原油安",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
@@ -1519,10 +1944,10 @@
           "code": "8601",
           "name": "大和証券グループ本社",
           "sector": "証券",
-          "direction": "positive",
-          "direction_label": "追い風",
+          "direction": "watch",
+          "direction_label": "注目",
           "strength": "中",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "theme": "米国株・ハイテク株の変動",
           "theme_id": "us_stock_move",
           "origin": "rule",
@@ -1530,9 +1955,30 @@
           "beneficiary_tier_label": "周辺波及",
           "revenue_horizon": "0-3m",
           "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "米国株",
+          "matched_keyword": "ナスダック",
           "intelligence_layer": "government_policy",
           "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9502",
+          "name": "中部電力",
+          "sector": "電気・ガス",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「原油安」に反応: 燃料費の低下がコスト改善につながりやすい",
+          "theme": "原油安",
+          "theme_id": "oil_down",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "原油安",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
@@ -1540,10 +1986,10 @@
           "code": "8473",
           "name": "SBIホールディングス",
           "sector": "証券",
-          "direction": "positive",
-          "direction_label": "追い風",
+          "direction": "watch",
+          "direction_label": "注目",
           "strength": "中",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "theme": "米国株・ハイテク株の変動",
           "theme_id": "us_stock_move",
           "origin": "rule",
@@ -1551,9 +1997,30 @@
           "beneficiary_tier_label": "周辺波及",
           "revenue_horizon": "0-3m",
           "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "米国株",
+          "matched_keyword": "ナスダック",
           "intelligence_layer": "government_policy",
           "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9508",
+          "name": "九州電力",
+          "sector": "電気・ガス",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「原油安」に反応: 燃料費の低下がコスト改善につながりやすい",
+          "theme": "原油安",
+          "theme_id": "oil_down",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "原油安",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
@@ -1561,10 +2028,10 @@
           "code": "9984",
           "name": "ソフトバンクグループ",
           "sector": "情報・通信",
-          "direction": "positive",
-          "direction_label": "追い風",
+          "direction": "watch",
+          "direction_label": "注目",
           "strength": "中",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "theme": "米国株・ハイテク株の変動",
           "theme_id": "us_stock_move",
           "origin": "rule",
@@ -1572,28 +2039,7 @@
           "beneficiary_tier_label": "周辺波及",
           "revenue_horizon": "0-3m",
           "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "米国株",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7203",
-          "name": "トヨタ自動車",
-          "sector": "自動車",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "米国株",
+          "matched_keyword": "ナスダック",
           "intelligence_layer": "government_policy",
           "policy_impact_score": 46,
           "ai_capex_impact_score": null,
@@ -1650,6 +2096,7 @@
         "middle_east",
         "us_stock_move"
       ],
+      "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [
@@ -1870,6 +2317,7 @@
       "theme_ids": [
         "us_stock_move"
       ],
+      "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [
@@ -2027,6 +2475,7 @@
       "theme_ids": [
         "us_stock_move"
       ],
+      "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [
@@ -2156,6 +2605,227 @@
       "emergence_growth": {}
     },
     {
+      "id": "eec3cc2636d0",
+      "title": "中国軍幹部2名を過酷粛清！ 党籍剥奪が及ぼす台湾海峡と日本の安全保障への衝撃波",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fYnZ1eWZCczZ1WjRmUTJ6RU94LXJLZElpYW1lS0dvV2lDVmsxa2VXZFNvcU15bFdGTHhWcnZtcFp0YmtuZ3Fnck1RdTVpb00wT1l3SUw3aUJPSmFXVkdlTzVxZU9IVUM1dmZiU3NMeXNLR2c?oc=5",
+      "source": "ニコニコニュース",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-09-22 12:00",
+      "published_ts": 1790046022.0,
+      "category": "geopolitics",
+      "category_label": "地政学・有事",
+      "category_emoji": "🌍",
+      "importance": 2,
+      "importance_reason": "影響テーマ「台湾・中国情勢」に該当",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": "taiwan_china-20260920-01",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-09-20",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "台湾・中国情勢"
+      ],
+      "theme_ids": [
+        "taiwan_china"
+      ],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "6503",
+          "name": "三菱電機",
+          "sector": "電気機器",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「台湾」に反応: 安全保障関連の思惑が働きやすい",
+          "theme": "台湾・中国情勢",
+          "theme_id": "taiwan_china",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "台湾",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6701",
+          "name": "日本電気",
+          "sector": "電気機器",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「台湾」に反応: 安全保障関連の思惑が働きやすい",
+          "theme": "台湾・中国情勢",
+          "theme_id": "taiwan_china",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "台湾",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "5406",
+          "name": "神戸製鋼所",
+          "sector": "鉄鋼",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「台湾」に反応: 安全保障関連の思惑が働きやすい",
+          "theme": "台湾・中国情勢",
+          "theme_id": "taiwan_china",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "台湾",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8035",
+          "name": "東京エレクトロン",
+          "sector": "電気機器",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「台湾」に反応: 中国売上比率が高く、地政学リスクの高まりは業績不透明感につながりやすい",
+          "theme": "台湾・中国情勢",
+          "theme_id": "taiwan_china",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "台湾",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6954",
+          "name": "ファナック",
+          "sector": "電気機器",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「台湾」に反応: 中国売上比率が高く、地政学リスクの高まりは業績不透明感につながりやすい",
+          "theme": "台湾・中国情勢",
+          "theme_id": "taiwan_china",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "台湾",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6506",
+          "name": "安川電機",
+          "sector": "電気機器",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「台湾」に反応: 中国売上比率が高く、地政学リスクの高まりは業績不透明感につながりやすい",
+          "theme": "台湾・中国情勢",
+          "theme_id": "taiwan_china",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "台湾",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6645",
+          "name": "オムロン",
+          "sector": "電気機器",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「台湾」に反応: 中国売上比率が高く、地政学リスクの高まりは業績不透明感につながりやすい",
+          "theme": "台湾・中国情勢",
+          "theme_id": "taiwan_china",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "台湾",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "1540",
+          "name": "純金上場信託(現物国内保管型)",
+          "sector": "ETF",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "小",
+          "reason": "「台湾」に反応: 直接の影響とは別角度: コロナ禍のような過去の有事でも見られたように、地政学リスクの高まりは株式とは別に金など安全資産に資金が向かいやすい(質への逃避)",
+          "theme": "台湾・中国情勢",
+          "theme_id": "taiwan_china",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "台湾",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 39,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
       "id": "ed2664c17c7c",
       "title": "【独占インタビュー】「北京は何をしても不満を示す」 英国元国防相、台湾防衛は「いくら急いでも急ぎすぎることはない」",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ORkFkMy03V2VtVkpoc2FXOVJxbW95UlFSYjNER204WnU2YUFYZFYydjQ2UkJ0SW14T0lEMkNqVjVhZ1VoU3lHLVpBSzZDaFVN?oc=5",
@@ -2184,6 +2854,7 @@
       "theme_ids": [
         "taiwan_china"
       ],
+      "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [
@@ -2379,7 +3050,7 @@
       "id": "1a29ed514f7d",
       "title": "NYダウが366ドル高、AI関連で上昇目立つ ナスダックは最高値更新",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR1oxWEhhbFNzcEx5eHhValZGZ0x4TUhwQU1ZTWdGS1dIOWo0WXBiZlI1a003VUhGRGRnQUgzSE9UdHlqNTRNc28wOWhfMUQ2VzA4UDM2RzdxTHdjbkJQdnFlZ3c1ZmNXeXJ3Zw?oc=5",
-      "source": "nikkei.com",
+      "source": "日本経済新聞",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-09-22 05:25",
@@ -2404,6 +3075,7 @@
       "theme_ids": [
         "us_stock_move"
       ],
+      "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [
@@ -2561,6 +3233,7 @@
       "theme_ids": [
         "us_stock_move"
       ],
+      "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [
@@ -2693,9 +3366,9 @@
       "id": "f373f1297c7e",
       "title": "日本の長期金利は2035年「5％台」上昇の可能性も、問われる高市政権の財政規律と成長戦略",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE0zSGdrZERYaTVmb3JXdVRXazNOYW1peE1QUGQtc05LSGwxWVpPd09Pbk83ODE5OXB0OTlOQ1JFUzRRNGdsMGpRWnhGSULSAU9BVV95cUxQTGYyWUxuOUFjOVJKa2d2dW13VXBtSEl0cEQ2aU00QW05X2tZQmNTMTNfNEg4MWJjRjduS3JiWUtBQlh5b21GajlEelBrVjJv?oc=5",
-      "source": "ダイヤモンド・オンライン",
-      "source_tier": "commentary",
-      "source_tier_label": "市場解説",
+      "source": "diamond.jp",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
       "published_at": "2026-09-22 04:40",
       "published_ts": 1790019600.0,
       "category": "policy",
@@ -2718,6 +3391,7 @@
       "theme_ids": [
         "boj_hike"
       ],
+      "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [
@@ -2738,7 +3412,7 @@
           "revenue_horizon_label": "0〜3ヶ月",
           "matched_keyword": "長期金利 上昇",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 54,
+          "policy_impact_score": 70,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
@@ -2759,7 +3433,7 @@
           "revenue_horizon_label": "0〜3ヶ月",
           "matched_keyword": "長期金利 上昇",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 54,
+          "policy_impact_score": 70,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
@@ -2780,7 +3454,7 @@
           "revenue_horizon_label": "0〜3ヶ月",
           "matched_keyword": "長期金利 上昇",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 54,
+          "policy_impact_score": 70,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
@@ -2801,7 +3475,7 @@
           "revenue_horizon_label": "0〜3ヶ月",
           "matched_keyword": "長期金利 上昇",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 54,
+          "policy_impact_score": 70,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
@@ -2822,7 +3496,7 @@
           "revenue_horizon_label": "0〜3ヶ月",
           "matched_keyword": "長期金利 上昇",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 54,
+          "policy_impact_score": 70,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
@@ -2843,7 +3517,7 @@
           "revenue_horizon_label": "0〜3ヶ月",
           "matched_keyword": "長期金利 上昇",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 54,
+          "policy_impact_score": 70,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
@@ -2864,7 +3538,7 @@
           "revenue_horizon_label": "3〜6ヶ月",
           "matched_keyword": "長期金利 上昇",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
+          "policy_impact_score": 60,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
@@ -2885,7 +3559,7 @@
           "revenue_horizon_label": "3〜6ヶ月",
           "matched_keyword": "長期金利 上昇",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
+          "policy_impact_score": 60,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         }
@@ -2934,6 +3608,7 @@
       "policy_event_state": null,
       "themes": [],
       "theme_ids": [],
+      "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [],
@@ -2957,17 +3632,17 @@
       "emergence_growth": {}
     },
     {
-      "id": "252bcb8f0d35",
-      "title": "NYダウの指数情報・推移",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RX1F0c3NoRW1WOGhKVzFzd0tzWTlBS0NtMVZFbUUyZm14Z1Y5VWhzMjctd201Y2RMTFhBSGx0Rmdqc0ZFY1R2VzZUUG9PVjdUaXc?oc=5",
-      "source": "Yahoo!ファイナンス",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-09-23 08:37",
-      "published_ts": 1790120257.0,
-      "category": "us",
-      "category_label": "米国市場",
-      "category_emoji": "🇺🇸",
+      "id": "6f04962e8e4c",
+      "title": "日米観光・食文化交流の夕べ　高市総理ビデオメッセージ",
+      "url": "https://www.kantei.go.jp/jp/105/discourse/20260923message.html",
+      "source": "首相官邸",
+      "source_tier": "primary",
+      "source_tier_label": "一次情報",
+      "published_at": "2026-09-23 17:30",
+      "published_ts": 1790152200.0,
+      "category": "japan",
+      "category_label": "日本経済・政治",
+      "category_emoji": "🗾",
       "importance": 1,
       "importance_reason": "一般的な市況ニュース",
       "future_signal": false,
@@ -2981,6 +3656,55 @@
       "policy_event_state": null,
       "themes": [],
       "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "215df662d0e1",
+      "title": "米ドル/円【USDJPY】：外国為替相場FXレート・チャートをリアルタイム表示",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzbWxqc1ltSU1ndEE0VElnZldUTGdyRVJpOTdKeXBsc0RDSm40dm9kLTJqaDZlOVpoR2E5eEZIX1o0bFR1SFR2N2k4WjRiTnN5dHVBTHJn?oc=5",
+      "source": "Yahoo!ファイナンス",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-09-23 12:41",
+      "published_ts": 1790134862.0,
+      "category": "fx",
+      "category_label": "為替",
+      "category_emoji": "💱",
+      "importance": 1,
+      "importance_reason": "一般的な市況ニュース",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [],
@@ -3010,8 +3734,8 @@
       "source": "Yahoo!ファイナンス",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
-      "published_at": "2026-09-23 07:41",
-      "published_ts": 1790116861.0,
+      "published_at": "2026-09-23 11:35",
+      "published_ts": 1790130950.0,
       "category": "market",
       "category_label": "株式市況",
       "category_emoji": "📈",
@@ -3028,6 +3752,55 @@
       "policy_event_state": null,
       "themes": [],
       "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "252bcb8f0d35",
+      "title": "NYダウの指数情報・推移",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RX1F0c3NoRW1WOGhKVzFzd0tzWTlBS0NtMVZFbUUyZm14Z1Y5VWhzMjctd201Y2RMTFhBSGx0Rmdqc0ZFY1R2VzZUUG9PVjdUaXc?oc=5",
+      "source": "Yahoo!ファイナンス",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-09-23 11:35",
+      "published_ts": 1790130950.0,
+      "category": "us",
+      "category_label": "米国市場",
+      "category_emoji": "🇺🇸",
+      "importance": 1,
+      "importance_reason": "一般的な市況ニュース",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [],
@@ -3075,6 +3848,7 @@
       "policy_event_state": null,
       "themes": [],
       "theme_ids": [],
+      "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [],
@@ -3098,19 +3872,19 @@
       "emergence_growth": {}
     },
     {
-      "id": "215df662d0e1",
-      "title": "米ドル/円【USDJPY】：外国為替相場FXレート・チャートをリアルタイム表示",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzbWxqc1ltSU1ndEE0VElnZldUTGdyRVJpOTdKeXBsc0RDSm40dm9kLTJqaDZlOVpoR2E5eEZIX1o0bFR1SFR2N2k4WjRiTnN5dHVBTHJn?oc=5",
-      "source": "Yahoo!ファイナンス",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-09-23 06:38",
-      "published_ts": 1790113130.0,
+      "id": "0e08563e2c5f",
+      "title": "ドル円、リバウンド相場の流れは継続 １６０円を試す展開までは見せず＝ＮＹ為替概況 -",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9rb0poTUZPR3NqUWV3eFFRQTVMU0NiY0xvZ1JNczJ6ZzMxT1A0Sm1kcDEtLXVEMkMxZURYa3RMN0M1OWt3VXl4YQ?oc=5",
+      "source": "みんかぶ FX/為替",
+      "source_tier": "commentary",
+      "source_tier_label": "市場解説",
+      "published_at": "2026-09-23 05:40",
+      "published_ts": 1790109657.0,
       "category": "fx",
       "category_label": "為替",
       "category_emoji": "💱",
       "importance": 1,
-      "importance_reason": "2媒体が報道",
+      "importance_reason": "一般的な市況ニュース",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
@@ -3122,16 +3896,11 @@
       "policy_event_state": null,
       "themes": [],
       "theme_ids": [],
+      "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [],
-      "related": [
-        {
-          "title": "豪ドル/円【AUDJPY】：外国為替相場FXレート・チャートをリアルタイム表示",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05OFVuTURyMlFlNEM3WUpGTUFMWE92YU5yYjBSNm9Pc3NkeHplX0diaU9mVm5IRFIteUN6dzJOU1lFRXByX1BfVFhUdVh0YUdlbExySm5B?oc=5",
-          "source": "Yahoo!ファイナンス"
-        }
-      ],
+      "related": [],
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -3175,6 +3944,7 @@
       "policy_event_state": null,
       "themes": [],
       "theme_ids": [],
+      "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [],
@@ -3222,53 +3992,7 @@
       "policy_event_state": null,
       "themes": [],
       "theme_ids": [],
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "02b3c15c274a",
-      "title": "ドル円、１５６．８６付近まで下落後、１５７円台を回復＝ロンドン為替",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5zNTl5QXNfRzBpSnJuQUIzcXItclYtaDd5MzhucEhrcWxuV0xiZVhGZzdFS3M3V0tiNTJmQ3J1VXBpcnBUcEtwWQ?oc=5",
-      "source": "みんかぶ FX/為替",
-      "source_tier": "commentary",
-      "source_tier_label": "市場解説",
-      "published_at": "2026-09-22 18:48",
-      "published_ts": 1790070537.0,
-      "category": "fx",
-      "category_label": "為替",
-      "category_emoji": "💱",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
+      "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [],
@@ -3316,6 +4040,7 @@
       "policy_event_state": null,
       "themes": [],
       "theme_ids": [],
+      "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [],
@@ -3363,6 +4088,7 @@
       "policy_event_state": null,
       "themes": [],
       "theme_ids": [],
+      "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [],
@@ -3410,53 +4136,7 @@
       "policy_event_state": null,
       "themes": [],
       "theme_ids": [],
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "ce722d145205",
-      "title": "【ドル円見通し】円売り再開か、介入警戒で上値抑制か 156円台から仕切り直し（予想レンジ155.00〜158.00円） FX分析 2026年9月21日",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1zaEtOaUNWOWtGRzlfOHNtTVZYX3l4SUY5THVZVjJKdVZoYVZBNE4yc085OTZVS0tqZS1yNGJHME9wZUdWSnB0aUxWc1M1NU9IZU9DX0J3aDhwWFpSUFNUblFFdw?oc=5",
-      "source": "外為どっとコム",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-09-21 13:02",
-      "published_ts": 1789963367.0,
-      "category": "fx",
-      "category_label": "為替",
-      "category_emoji": "💱",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
+      "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [],
@@ -3485,10 +4165,10 @@
       "code": "7203",
       "name": "トヨタ自動車",
       "sector": "自動車",
-      "positive": 3,
+      "positive": 2,
       "negative": 3,
-      "watch": 3,
-      "score": -5,
+      "watch": 4,
+      "score": -7,
       "news": [
         {
           "title": "「経済的威圧に断固反対」日米韓外相 中国のレアアース輸出規制念頭、経済安保で連携確認",
@@ -3518,14 +4198,21 @@
       "code": "8604",
       "name": "野村ホールディングス",
       "sector": "証券",
-      "positive": 3,
+      "positive": 2,
       "negative": 1,
-      "watch": 4,
-      "score": 4,
+      "watch": 6,
+      "score": 2,
       "news": [
         {
           "title": "米国株式市場＝ナスダック連日最高値、ＡＩ関連株高で 米中首脳会談に注目",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSEJPSkZxeWdZRmFmYXFidkJ3VGl5bWZVa1VQZGVwb0NoSnJsbjNsU0V2QlRfLU1vUDVwYklCcHI1dzBtNFpXMzNFTGd6YlR2Y1hZdzhxZF8zeHZiMnR0Q0ZGenRRNFFwNVItZ2JLSjR2VWRqNzl6VHdBZGRsUDJQRFdlM0xMdw?oc=5",
+          "direction": "watch",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
+        },
+        {
+          "title": "米国株式市場概況・22日 ダウ反落・ナスダック史上最高値",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iR25zRlN1RU5xN0hnS1Y2dGRxYkhpMnVVRURkMWwtdGlQZDRoTlg1OXNUa0VIdC01RUxUSTJNUlpSTG9wSWhnZ2JRYVNDWFJhWV9sVGVla2VYUDdVZHhBRFB3TmZ0c2JpOGNkZDI0bzg?oc=5",
           "direction": "watch",
           "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "importance": 2
@@ -3536,29 +4223,29 @@
           "direction": "negative",
           "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "importance": 2
-        },
-        {
-          "title": "米国株3指数がそろって上昇、ナスダックは2.26%高で約4カ月ぶり史上最高値更新",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03dFkxUlBfN0J0dnNRcnEtcHdoZlBCYUk1WV9fNmhGeWxZajhsVWVLTXVlLWlGVEJkb29NWmtzaGwxOEJxanpuLXAyTmR0eDlvNmstWHFwT0paSk43YWUzUkEtWlRaZXhJbGdoQ0FVajlNMFU4?oc=5",
-          "direction": "positive",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "importance": 2
         }
       ],
-      "mentions": 8
+      "mentions": 9
     },
     {
       "code": "8601",
       "name": "大和証券グループ本社",
       "sector": "証券",
-      "positive": 3,
+      "positive": 2,
       "negative": 1,
-      "watch": 4,
-      "score": 4,
+      "watch": 6,
+      "score": 2,
       "news": [
         {
           "title": "米国株式市場＝ナスダック連日最高値、ＡＩ関連株高で 米中首脳会談に注目",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSEJPSkZxeWdZRmFmYXFidkJ3VGl5bWZVa1VQZGVwb0NoSnJsbjNsU0V2QlRfLU1vUDVwYklCcHI1dzBtNFpXMzNFTGd6YlR2Y1hZdzhxZF8zeHZiMnR0Q0ZGenRRNFFwNVItZ2JLSjR2VWRqNzl6VHdBZGRsUDJQRFdlM0xMdw?oc=5",
+          "direction": "watch",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
+        },
+        {
+          "title": "米国株式市場概況・22日 ダウ反落・ナスダック史上最高値",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iR25zRlN1RU5xN0hnS1Y2dGRxYkhpMnVVRURkMWwtdGlQZDRoTlg1OXNUa0VIdC01RUxUSTJNUlpSTG9wSWhnZ2JRYVNDWFJhWV9sVGVla2VYUDdVZHhBRFB3TmZ0c2JpOGNkZDI0bzg?oc=5",
           "direction": "watch",
           "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "importance": 2
@@ -3569,29 +4256,29 @@
           "direction": "negative",
           "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "importance": 2
-        },
-        {
-          "title": "米国株3指数がそろって上昇、ナスダックは2.26%高で約4カ月ぶり史上最高値更新",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03dFkxUlBfN0J0dnNRcnEtcHdoZlBCYUk1WV9fNmhGeWxZajhsVWVLTXVlLWlGVEJkb29NWmtzaGwxOEJxanpuLXAyTmR0eDlvNmstWHFwT0paSk43YWUzUkEtWlRaZXhJbGdoQ0FVajlNMFU4?oc=5",
-          "direction": "positive",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "importance": 2
         }
       ],
-      "mentions": 8
+      "mentions": 9
     },
     {
       "code": "8473",
       "name": "SBIホールディングス",
       "sector": "証券",
-      "positive": 3,
+      "positive": 2,
       "negative": 1,
-      "watch": 4,
-      "score": 4,
+      "watch": 6,
+      "score": 2,
       "news": [
         {
           "title": "米国株式市場＝ナスダック連日最高値、ＡＩ関連株高で 米中首脳会談に注目",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSEJPSkZxeWdZRmFmYXFidkJ3VGl5bWZVa1VQZGVwb0NoSnJsbjNsU0V2QlRfLU1vUDVwYklCcHI1dzBtNFpXMzNFTGd6YlR2Y1hZdzhxZF8zeHZiMnR0Q0ZGenRRNFFwNVItZ2JLSjR2VWRqNzl6VHdBZGRsUDJQRFdlM0xMdw?oc=5",
+          "direction": "watch",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
+        },
+        {
+          "title": "米国株式市場概況・22日 ダウ反落・ナスダック史上最高値",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iR25zRlN1RU5xN0hnS1Y2dGRxYkhpMnVVRURkMWwtdGlQZDRoTlg1OXNUa0VIdC01RUxUSTJNUlpSTG9wSWhnZ2JRYVNDWFJhWV9sVGVla2VYUDdVZHhBRFB3TmZ0c2JpOGNkZDI0bzg?oc=5",
           "direction": "watch",
           "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "importance": 2
@@ -3602,29 +4289,29 @@
           "direction": "negative",
           "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "importance": 2
-        },
-        {
-          "title": "米国株3指数がそろって上昇、ナスダックは2.26%高で約4カ月ぶり史上最高値更新",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03dFkxUlBfN0J0dnNRcnEtcHdoZlBCYUk1WV9fNmhGeWxZajhsVWVLTXVlLWlGVEJkb29NWmtzaGwxOEJxanpuLXAyTmR0eDlvNmstWHFwT0paSk43YWUzUkEtWlRaZXhJbGdoQ0FVajlNMFU4?oc=5",
-          "direction": "positive",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "importance": 2
         }
       ],
-      "mentions": 8
+      "mentions": 9
     },
     {
       "code": "9984",
       "name": "ソフトバンクグループ",
       "sector": "情報・通信",
-      "positive": 3,
+      "positive": 2,
       "negative": 1,
-      "watch": 4,
-      "score": 4,
+      "watch": 6,
+      "score": 2,
       "news": [
         {
           "title": "米国株式市場＝ナスダック連日最高値、ＡＩ関連株高で 米中首脳会談に注目",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSEJPSkZxeWdZRmFmYXFidkJ3VGl5bWZVa1VQZGVwb0NoSnJsbjNsU0V2QlRfLU1vUDVwYklCcHI1dzBtNFpXMzNFTGd6YlR2Y1hZdzhxZF8zeHZiMnR0Q0ZGenRRNFFwNVItZ2JLSjR2VWRqNzl6VHdBZGRsUDJQRFdlM0xMdw?oc=5",
+          "direction": "watch",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
+        },
+        {
+          "title": "米国株式市場概況・22日 ダウ反落・ナスダック史上最高値",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iR25zRlN1RU5xN0hnS1Y2dGRxYkhpMnVVRURkMWwtdGlQZDRoTlg1OXNUa0VIdC01RUxUSTJNUlpSTG9wSWhnZ2JRYVNDWFJhWV9sVGVla2VYUDdVZHhBRFB3TmZ0c2JpOGNkZDI0bzg?oc=5",
           "direction": "watch",
           "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "importance": 2
@@ -3635,16 +4322,141 @@
           "direction": "negative",
           "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "importance": 2
+        }
+      ],
+      "mentions": 9
+    },
+    {
+      "code": "8035",
+      "name": "東京エレクトロン",
+      "sector": "電気機器",
+      "positive": 1,
+      "negative": 4,
+      "watch": 0,
+      "score": -9,
+      "news": [
+        {
+          "title": "「経済的威圧に断固反対」日米韓外相 中国のレアアース輸出規制念頭、経済安保で連携確認",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kdERaR0ZocHVmOVlMSmI1QVlTdDkxTzlKVnpMZmFRbUpUQ0JBT2ZsQ0lrSkhITVpaYlJnN3BFcW9uSjkxdFNHd3VWTktZMXoxS2pxMlF6TEZCRDVrazBVdWd2NGVnLVdzX2FRbTdJRklrZXZqSkE?oc=5",
+          "direction": "negative",
+          "reason": "「輸出規制」に反応: 中国向け売上比率が高く、規制強化は受注減・出荷制限のリスク要因になりやすい",
+          "importance": 5
         },
         {
-          "title": "米国株3指数がそろって上昇、ナスダックは2.26%高で約4カ月ぶり史上最高値更新",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03dFkxUlBfN0J0dnNRcnEtcHdoZlBCYUk1WV9fNmhGeWxZajhsVWVLTXVlLWlGVEJkb29NWmtzaGwxOEJxanpuLXAyTmR0eDlvNmstWHFwT0paSk43YWUzUkEtWlRaZXhJbGdoQ0FVajlNMFU4?oc=5",
+          "title": "中国の駐米大使、首脳会談前に「レッドライン」警告 台湾や人権巡り",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMjJOLXUtMjlYTHF2UF9yMkUwS3dmQlRCNkk4ajBCQWtBdWNFSWdSUDFDN1p2WF9LYUZwVi1ENjNVdHh3LTNkelZKQ0xBOGlUVU8wU01pRUw5NTEzUU5aR3N5NEV5TjN3d2szd1ZJTXVvUkJNMkh6VFVFenZGSEFrTmFQSTE?oc=5",
+          "direction": "negative",
+          "reason": "「台湾」に反応: 中国売上比率が高く、地政学リスクの高まりは業績不透明感につながりやすい",
+          "importance": 2
+        },
+        {
+          "title": "ダウ平均は反落 金融株が下落 半導体が買われナスダックはしっかり＝米国株概況",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yRGVCLTZWYk51QlhlMGIzeGlzcWFabV9QUV9xVTZuc1hmY05nRlEtVWVRaXpuTVZsYncxdXRJay02WWRmcEdqUHBhckpaZVAzNUE?oc=5",
           "direction": "positive",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
           "importance": 2
         }
       ],
-      "mentions": 8
+      "mentions": 5
+    },
+    {
+      "code": "6503",
+      "name": "三菱電機",
+      "sector": "電気機器",
+      "positive": 3,
+      "negative": 2,
+      "watch": 0,
+      "score": -2,
+      "news": [
+        {
+          "title": "米国務長官ルビオ氏、ロシアとウクライナのエネルギー停戦合意は未成立と説明",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCa0c2a3diT3Y1aVdXNWhnY3pCNVMtcnNkd1hTRm9GZ3JaMmdOSS1EU3pxNFduQm1MNUNhOVRGeHRyTUNfSmlBZmdYYW9kRjFFR2NiOXhlcVhrQTJPTnZYdlNLbw?oc=5",
+          "direction": "negative",
+          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "importance": 4
+        },
+        {
+          "title": "ゼレンスキー氏、ロシアとのエネルギー停戦に応じる用意 トランプ氏と会談 | ロイター",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWUdqYUxyY1VMUXBWd2dtMm9CU05rOGk2THE4U3dLUm1WOEFzLXRzZnhUSHNoOVRKbkRBT3VpYWExWGxVZElLa3VYb3VWcmxoNEFodlM5U1FmZlpoOTZDSXBzc3dBNjhlRWUtZ2RsaWpHYnU3bGc5djB1OWl3dWtFb1lxR29BQQ?oc=5",
+          "direction": "negative",
+          "reason": "「ロシア」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "importance": 4
+        },
+        {
+          "title": "中国の駐米大使、首脳会談前に「レッドライン」警告 台湾や人権巡り",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMjJOLXUtMjlYTHF2UF9yMkUwS3dmQlRCNkk4ajBCQWtBdWNFSWdSUDFDN1p2WF9LYUZwVi1ENjNVdHh3LTNkelZKQ0xBOGlUVU8wU01pRUw5NTEzUU5aR3N5NEV5TjN3d2szd1ZJTXVvUkJNMkh6VFVFenZGSEFrTmFQSTE?oc=5",
+          "direction": "positive",
+          "reason": "「台湾」に反応: 安全保障関連の思惑が働きやすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 5
+    },
+    {
+      "code": "6701",
+      "name": "日本電気",
+      "sector": "電気機器",
+      "positive": 3,
+      "negative": 2,
+      "watch": 0,
+      "score": -2,
+      "news": [
+        {
+          "title": "米国務長官ルビオ氏、ロシアとウクライナのエネルギー停戦合意は未成立と説明",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCa0c2a3diT3Y1aVdXNWhnY3pCNVMtcnNkd1hTRm9GZ3JaMmdOSS1EU3pxNFduQm1MNUNhOVRGeHRyTUNfSmlBZmdYYW9kRjFFR2NiOXhlcVhrQTJPTnZYdlNLbw?oc=5",
+          "direction": "negative",
+          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "importance": 4
+        },
+        {
+          "title": "ゼレンスキー氏、ロシアとのエネルギー停戦に応じる用意 トランプ氏と会談 | ロイター",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWUdqYUxyY1VMUXBWd2dtMm9CU05rOGk2THE4U3dLUm1WOEFzLXRzZnhUSHNoOVRKbkRBT3VpYWExWGxVZElLa3VYb3VWcmxoNEFodlM5U1FmZlpoOTZDSXBzc3dBNjhlRWUtZ2RsaWpHYnU3bGc5djB1OWl3dWtFb1lxR29BQQ?oc=5",
+          "direction": "negative",
+          "reason": "「ロシア」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "importance": 4
+        },
+        {
+          "title": "中国の駐米大使、首脳会談前に「レッドライン」警告 台湾や人権巡り",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMjJOLXUtMjlYTHF2UF9yMkUwS3dmQlRCNkk4ajBCQWtBdWNFSWdSUDFDN1p2WF9LYUZwVi1ENjNVdHh3LTNkelZKQ0xBOGlUVU8wU01pRUw5NTEzUU5aR3N5NEV5TjN3d2szd1ZJTXVvUkJNMkh6VFVFenZGSEFrTmFQSTE?oc=5",
+          "direction": "positive",
+          "reason": "「台湾」に反応: 安全保障関連の思惑が働きやすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 5
+    },
+    {
+      "code": "1540",
+      "name": "純金上場信託(現物国内保管型)",
+      "sector": "ETF",
+      "positive": 4,
+      "negative": 0,
+      "watch": 0,
+      "score": 8,
+      "news": [
+        {
+          "title": "中国の駐米大使、首脳会談前に「レッドライン」警告 台湾や人権巡り",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMjJOLXUtMjlYTHF2UF9yMkUwS3dmQlRCNkk4ajBCQWtBdWNFSWdSUDFDN1p2WF9LYUZwVi1ENjNVdHh3LTNkelZKQ0xBOGlUVU8wU01pRUw5NTEzUU5aR3N5NEV5TjN3d2szd1ZJTXVvUkJNMkh6VFVFenZGSEFrTmFQSTE?oc=5",
+          "direction": "positive",
+          "reason": "「台湾」に反応: 直接の影響とは別角度: コロナ禍のような過去の有事でも見られたように、地政学リスクの高まりは株式とは別に金など安全資産に資金が向かいやすい(質への逃避)",
+          "importance": 2
+        },
+        {
+          "title": "NY株続伸、ナスダックが一時最高値 米イラン協議期待で",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4wQjVKZnkxamVxc0ZWNXYzcXNqTTNxZGlpVWExMDh3bmhXSDE0U1dxcE10OEpRMGtrc2RsLVRKZU9EUjRielY4RDVyb3pvcHZ0OFRveEUtQXVZX2hOT0lvdXBwMGxNakZYU2NKc1hRcmtkaURi?oc=5",
+          "direction": "positive",
+          "reason": "「イラン」に反応: 直接の影響とは別角度: コロナ禍のような過去の有事でも見られたように、地政学リスクの高まりは株式とは別に金など安全資産に資金が向かいやすい(質への逃避)",
+          "importance": 2
+        },
+        {
+          "title": "中国軍幹部2名を過酷粛清！ 党籍剥奪が及ぼす台湾海峡と日本の安全保障への衝撃波",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fYnZ1eWZCczZ1WjRmUTJ6RU94LXJLZElpYW1lS0dvV2lDVmsxa2VXZFNvcU15bFdGTHhWcnZtcFp0YmtuZ3Fnck1RdTVpb00wT1l3SUw3aUJPSmFXVkdlTzVxZU9IVUM1dmZiU3NMeXNLR2c?oc=5",
+          "direction": "positive",
+          "reason": "「台湾」に反応: 直接の影響とは別角度: コロナ禍のような過去の有事でも見られたように、地政学リスクの高まりは株式とは別に金など安全資産に資金が向かいやすい(質への逃避)",
+          "importance": 2
+        }
+      ],
+      "mentions": 4
     },
     {
       "code": "4063",
@@ -3746,27 +4558,27 @@
       "mentions": 3
     },
     {
-      "code": "6503",
-      "name": "三菱電機",
-      "sector": "電気機器",
-      "positive": 1,
-      "negative": 2,
+      "code": "5406",
+      "name": "神戸製鋼所",
+      "sector": "鉄鋼",
+      "positive": 3,
+      "negative": 0,
       "watch": 0,
-      "score": -6,
+      "score": 6,
       "news": [
         {
-          "title": "ゼレンスキー氏、ロシアとのエネルギー停戦に応じる用意 トランプ氏と会談 | ロイター",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWUdqYUxyY1VMUXBWd2dtMm9CU05rOGk2THE4U3dLUm1WOEFzLXRzZnhUSHNoOVRKbkRBT3VpYWExWGxVZElLa3VYb3VWcmxoNEFodlM5U1FmZlpoOTZDSXBzc3dBNjhlRWUtZ2RsaWpHYnU3bGc5djB1OWl3dWtFb1lxR29BQQ?oc=5",
-          "direction": "negative",
-          "reason": "「ロシア」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
-          "importance": 4
+          "title": "中国の駐米大使、首脳会談前に「レッドライン」警告 台湾や人権巡り",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMjJOLXUtMjlYTHF2UF9yMkUwS3dmQlRCNkk4ajBCQWtBdWNFSWdSUDFDN1p2WF9LYUZwVi1ENjNVdHh3LTNkelZKQ0xBOGlUVU8wU01pRUw5NTEzUU5aR3N5NEV5TjN3d2szd1ZJTXVvUkJNMkh6VFVFenZGSEFrTmFQSTE?oc=5",
+          "direction": "positive",
+          "reason": "「台湾」に反応: 安全保障関連の思惑が働きやすい",
+          "importance": 2
         },
         {
-          "title": "ロ・ウクライナのエネルギー停戦巡りトランプ氏と協議＝仏大統領",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaFRPT3RpSGNGV3V4NHY0eVV6YTltOFhBRTk3WnpkVjMtbGlPczlpN2NkUVdYQjZtRlhQMHFZWmQyanN3MW9tZkQwOVBsQ2d1cGxTS1JMcGFBSFpPaGpUSXFrTmU2VHZwVHlhMG12cnBXMmFJM0lhV05ya3VZTHptREdQRFlOQQ?oc=5",
-          "direction": "negative",
-          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
-          "importance": 4
+          "title": "中国軍幹部2名を過酷粛清！ 党籍剥奪が及ぼす台湾海峡と日本の安全保障への衝撃波",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fYnZ1eWZCczZ1WjRmUTJ6RU94LXJLZElpYW1lS0dvV2lDVmsxa2VXZFNvcU15bFdGTHhWcnZtcFp0YmtuZ3Fnck1RdTVpb00wT1l3SUw3aUJPSmFXVkdlTzVxZU9IVUM1dmZiU3NMeXNLR2c?oc=5",
+          "direction": "positive",
+          "reason": "「台湾」に反応: 安全保障関連の思惑が働きやすい",
+          "importance": 2
         },
         {
           "title": "【独占インタビュー】「北京は何をしても不満を示す」 英国元国防相、台湾防衛は「いくら急いでも急ぎすぎることはない」",
@@ -3779,59 +4591,92 @@
       "mentions": 3
     },
     {
-      "code": "6701",
-      "name": "日本電気",
+      "code": "6954",
+      "name": "ファナック",
       "sector": "電気機器",
-      "positive": 1,
-      "negative": 2,
+      "positive": 0,
+      "negative": 3,
       "watch": 0,
       "score": -6,
       "news": [
         {
-          "title": "ゼレンスキー氏、ロシアとのエネルギー停戦に応じる用意 トランプ氏と会談 | ロイター",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWUdqYUxyY1VMUXBWd2dtMm9CU05rOGk2THE4U3dLUm1WOEFzLXRzZnhUSHNoOVRKbkRBT3VpYWExWGxVZElLa3VYb3VWcmxoNEFodlM5U1FmZlpoOTZDSXBzc3dBNjhlRWUtZ2RsaWpHYnU3bGc5djB1OWl3dWtFb1lxR29BQQ?oc=5",
+          "title": "中国の駐米大使、首脳会談前に「レッドライン」警告 台湾や人権巡り",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMjJOLXUtMjlYTHF2UF9yMkUwS3dmQlRCNkk4ajBCQWtBdWNFSWdSUDFDN1p2WF9LYUZwVi1ENjNVdHh3LTNkelZKQ0xBOGlUVU8wU01pRUw5NTEzUU5aR3N5NEV5TjN3d2szd1ZJTXVvUkJNMkh6VFVFenZGSEFrTmFQSTE?oc=5",
           "direction": "negative",
-          "reason": "「ロシア」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
-          "importance": 4
+          "reason": "「台湾」に反応: 中国売上比率が高く、地政学リスクの高まりは業績不透明感につながりやすい",
+          "importance": 2
         },
         {
-          "title": "ロ・ウクライナのエネルギー停戦巡りトランプ氏と協議＝仏大統領",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaFRPT3RpSGNGV3V4NHY0eVV6YTltOFhBRTk3WnpkVjMtbGlPczlpN2NkUVdYQjZtRlhQMHFZWmQyanN3MW9tZkQwOVBsQ2d1cGxTS1JMcGFBSFpPaGpUSXFrTmU2VHZwVHlhMG12cnBXMmFJM0lhV05ya3VZTHptREdQRFlOQQ?oc=5",
+          "title": "中国軍幹部2名を過酷粛清！ 党籍剥奪が及ぼす台湾海峡と日本の安全保障への衝撃波",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fYnZ1eWZCczZ1WjRmUTJ6RU94LXJLZElpYW1lS0dvV2lDVmsxa2VXZFNvcU15bFdGTHhWcnZtcFp0YmtuZ3Fnck1RdTVpb00wT1l3SUw3aUJPSmFXVkdlTzVxZU9IVUM1dmZiU3NMeXNLR2c?oc=5",
           "direction": "negative",
-          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
-          "importance": 4
+          "reason": "「台湾」に反応: 中国売上比率が高く、地政学リスクの高まりは業績不透明感につながりやすい",
+          "importance": 2
         },
         {
           "title": "【独占インタビュー】「北京は何をしても不満を示す」 英国元国防相、台湾防衛は「いくら急いでも急ぎすぎることはない」",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ORkFkMy03V2VtVkpoc2FXOVJxbW95UlFSYjNER204WnU2YUFYZFYydjQ2UkJ0SW14T0lEMkNqVjVhZ1VoU3lHLVpBSzZDaFVN?oc=5",
-          "direction": "positive",
-          "reason": "「台湾」に反応: 安全保障関連の思惑が働きやすい",
+          "direction": "negative",
+          "reason": "「台湾」に反応: 中国売上比率が高く、地政学リスクの高まりは業績不透明感につながりやすい",
           "importance": 2
         }
       ],
       "mentions": 3
     },
     {
-      "code": "8035",
-      "name": "東京エレクトロン",
+      "code": "6506",
+      "name": "安川電機",
       "sector": "電気機器",
-      "positive": 1,
-      "negative": 2,
+      "positive": 0,
+      "negative": 3,
       "watch": 0,
-      "score": -5,
+      "score": -6,
       "news": [
         {
-          "title": "「経済的威圧に断固反対」日米韓外相 中国のレアアース輸出規制念頭、経済安保で連携確認",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kdERaR0ZocHVmOVlMSmI1QVlTdDkxTzlKVnpMZmFRbUpUQ0JBT2ZsQ0lrSkhITVpaYlJnN3BFcW9uSjkxdFNHd3VWTktZMXoxS2pxMlF6TEZCRDVrazBVdWd2NGVnLVdzX2FRbTdJRklrZXZqSkE?oc=5",
+          "title": "中国の駐米大使、首脳会談前に「レッドライン」警告 台湾や人権巡り",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMjJOLXUtMjlYTHF2UF9yMkUwS3dmQlRCNkk4ajBCQWtBdWNFSWdSUDFDN1p2WF9LYUZwVi1ENjNVdHh3LTNkelZKQ0xBOGlUVU8wU01pRUw5NTEzUU5aR3N5NEV5TjN3d2szd1ZJTXVvUkJNMkh6VFVFenZGSEFrTmFQSTE?oc=5",
           "direction": "negative",
-          "reason": "「輸出規制」に反応: 中国向け売上比率が高く、規制強化は受注減・出荷制限のリスク要因になりやすい",
-          "importance": 5
+          "reason": "「台湾」に反応: 中国売上比率が高く、地政学リスクの高まりは業績不透明感につながりやすい",
+          "importance": 2
         },
         {
-          "title": "ダウ平均は反落 金融株が下落 半導体が買われナスダックはしっかり＝米国株概況",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yRGVCLTZWYk51QlhlMGIzeGlzcWFabV9QUV9xVTZuc1hmY05nRlEtVWVRaXpuTVZsYncxdXRJay02WWRmcEdqUHBhckpaZVAzNUE?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "title": "中国軍幹部2名を過酷粛清！ 党籍剥奪が及ぼす台湾海峡と日本の安全保障への衝撃波",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fYnZ1eWZCczZ1WjRmUTJ6RU94LXJLZElpYW1lS0dvV2lDVmsxa2VXZFNvcU15bFdGTHhWcnZtcFp0YmtuZ3Fnck1RdTVpb00wT1l3SUw3aUJPSmFXVkdlTzVxZU9IVUM1dmZiU3NMeXNLR2c?oc=5",
+          "direction": "negative",
+          "reason": "「台湾」に反応: 中国売上比率が高く、地政学リスクの高まりは業績不透明感につながりやすい",
+          "importance": 2
+        },
+        {
+          "title": "【独占インタビュー】「北京は何をしても不満を示す」 英国元国防相、台湾防衛は「いくら急いでも急ぎすぎることはない」",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ORkFkMy03V2VtVkpoc2FXOVJxbW95UlFSYjNER204WnU2YUFYZFYydjQ2UkJ0SW14T0lEMkNqVjVhZ1VoU3lHLVpBSzZDaFVN?oc=5",
+          "direction": "negative",
+          "reason": "「台湾」に反応: 中国売上比率が高く、地政学リスクの高まりは業績不透明感につながりやすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 3
+    },
+    {
+      "code": "6645",
+      "name": "オムロン",
+      "sector": "電気機器",
+      "positive": 0,
+      "negative": 3,
+      "watch": 0,
+      "score": -6,
+      "news": [
+        {
+          "title": "中国の駐米大使、首脳会談前に「レッドライン」警告 台湾や人権巡り",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMjJOLXUtMjlYTHF2UF9yMkUwS3dmQlRCNkk4ajBCQWtBdWNFSWdSUDFDN1p2WF9LYUZwVi1ENjNVdHh3LTNkelZKQ0xBOGlUVU8wU01pRUw5NTEzUU5aR3N5NEV5TjN3d2szd1ZJTXVvUkJNMkh6VFVFenZGSEFrTmFQSTE?oc=5",
+          "direction": "negative",
+          "reason": "「台湾」に反応: 中国売上比率が高く、地政学リスクの高まりは業績不透明感につながりやすい",
+          "importance": 2
+        },
+        {
+          "title": "中国軍幹部2名を過酷粛清！ 党籍剥奪が及ぼす台湾海峡と日本の安全保障への衝撃波",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fYnZ1eWZCczZ1WjRmUTJ6RU94LXJLZElpYW1lS0dvV2lDVmsxa2VXZFNvcU15bFdGTHhWcnZtcFp0YmtuZ3Fnck1RdTVpb00wT1l3SUw3aUJPSmFXVkdlTzVxZU9IVUM1dmZiU3NMeXNLR2c?oc=5",
+          "direction": "negative",
+          "reason": "「台湾」に反応: 中国売上比率が高く、地政学リスクの高まりは業績不透明感につながりやすい",
           "importance": 2
         },
         {
@@ -3854,17 +4699,17 @@
       "score": -8,
       "news": [
         {
+          "title": "米国務長官ルビオ氏、ロシアとウクライナのエネルギー停戦合意は未成立と説明",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCa0c2a3diT3Y1aVdXNWhnY3pCNVMtcnNkd1hTRm9GZ3JaMmdOSS1EU3pxNFduQm1MNUNhOVRGeHRyTUNfSmlBZmdYYW9kRjFFR2NiOXhlcVhrQTJPTnZYdlNLbw?oc=5",
+          "direction": "negative",
+          "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "importance": 4
+        },
+        {
           "title": "ゼレンスキー氏、ロシアとのエネルギー停戦に応じる用意 トランプ氏と会談 | ロイター",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWUdqYUxyY1VMUXBWd2dtMm9CU05rOGk2THE4U3dLUm1WOEFzLXRzZnhUSHNoOVRKbkRBT3VpYWExWGxVZElLa3VYb3VWcmxoNEFodlM5U1FmZlpoOTZDSXBzc3dBNjhlRWUtZ2RsaWpHYnU3bGc5djB1OWl3dWtFb1lxR29BQQ?oc=5",
           "direction": "negative",
           "reason": "「ロシア」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
-          "importance": 4
-        },
-        {
-          "title": "ロ・ウクライナのエネルギー停戦巡りトランプ氏と協議＝仏大統領",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaFRPT3RpSGNGV3V4NHY0eVV6YTltOFhBRTk3WnpkVjMtbGlPczlpN2NkUVdYQjZtRlhQMHFZWmQyanN3MW9tZkQwOVBsQ2d1cGxTS1JMcGFBSFpPaGpUSXFrTmU2VHZwVHlhMG12cnBXMmFJM0lhV05ya3VZTHptREdQRFlOQQ?oc=5",
-          "direction": "negative",
-          "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
           "importance": 4
         }
       ],
@@ -3880,17 +4725,17 @@
       "score": -8,
       "news": [
         {
+          "title": "米国務長官ルビオ氏、ロシアとウクライナのエネルギー停戦合意は未成立と説明",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCa0c2a3diT3Y1aVdXNWhnY3pCNVMtcnNkd1hTRm9GZ3JaMmdOSS1EU3pxNFduQm1MNUNhOVRGeHRyTUNfSmlBZmdYYW9kRjFFR2NiOXhlcVhrQTJPTnZYdlNLbw?oc=5",
+          "direction": "negative",
+          "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "importance": 4
+        },
+        {
           "title": "ゼレンスキー氏、ロシアとのエネルギー停戦に応じる用意 トランプ氏と会談 | ロイター",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWUdqYUxyY1VMUXBWd2dtMm9CU05rOGk2THE4U3dLUm1WOEFzLXRzZnhUSHNoOVRKbkRBT3VpYWExWGxVZElLa3VYb3VWcmxoNEFodlM5U1FmZlpoOTZDSXBzc3dBNjhlRWUtZ2RsaWpHYnU3bGc5djB1OWl3dWtFb1lxR29BQQ?oc=5",
           "direction": "negative",
           "reason": "「ロシア」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
-          "importance": 4
-        },
-        {
-          "title": "ロ・ウクライナのエネルギー停戦巡りトランプ氏と協議＝仏大統領",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaFRPT3RpSGNGV3V4NHY0eVV6YTltOFhBRTk3WnpkVjMtbGlPczlpN2NkUVdYQjZtRlhQMHFZWmQyanN3MW9tZkQwOVBsQ2d1cGxTS1JMcGFBSFpPaGpUSXFrTmU2VHZwVHlhMG12cnBXMmFJM0lhV05ya3VZTHptREdQRFlOQQ?oc=5",
-          "direction": "negative",
-          "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
           "importance": 4
         }
       ],
@@ -3906,17 +4751,17 @@
       "score": -8,
       "news": [
         {
+          "title": "米国務長官ルビオ氏、ロシアとウクライナのエネルギー停戦合意は未成立と説明",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCa0c2a3diT3Y1aVdXNWhnY3pCNVMtcnNkd1hTRm9GZ3JaMmdOSS1EU3pxNFduQm1MNUNhOVRGeHRyTUNfSmlBZmdYYW9kRjFFR2NiOXhlcVhrQTJPTnZYdlNLbw?oc=5",
+          "direction": "negative",
+          "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "importance": 4
+        },
+        {
           "title": "ゼレンスキー氏、ロシアとのエネルギー停戦に応じる用意 トランプ氏と会談 | ロイター",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWUdqYUxyY1VMUXBWd2dtMm9CU05rOGk2THE4U3dLUm1WOEFzLXRzZnhUSHNoOVRKbkRBT3VpYWExWGxVZElLa3VYb3VWcmxoNEFodlM5U1FmZlpoOTZDSXBzc3dBNjhlRWUtZ2RsaWpHYnU3bGc5djB1OWl3dWtFb1lxR29BQQ?oc=5",
           "direction": "negative",
           "reason": "「ロシア」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
-          "importance": 4
-        },
-        {
-          "title": "ロ・ウクライナのエネルギー停戦巡りトランプ氏と協議＝仏大統領",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaFRPT3RpSGNGV3V4NHY0eVV6YTltOFhBRTk3WnpkVjMtbGlPczlpN2NkUVdYQjZtRlhQMHFZWmQyanN3MW9tZkQwOVBsQ2d1cGxTS1JMcGFBSFpPaGpUSXFrTmU2VHZwVHlhMG12cnBXMmFJM0lhV05ya3VZTHptREdQRFlOQQ?oc=5",
-          "direction": "negative",
-          "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
           "importance": 4
         }
       ],
@@ -3932,148 +4777,18 @@
       "score": -8,
       "news": [
         {
-          "title": "ゼレンスキー氏、ロシアとのエネルギー停戦に応じる用意 トランプ氏と会談 | ロイター",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWUdqYUxyY1VMUXBWd2dtMm9CU05rOGk2THE4U3dLUm1WOEFzLXRzZnhUSHNoOVRKbkRBT3VpYWExWGxVZElLa3VYb3VWcmxoNEFodlM5U1FmZlpoOTZDSXBzc3dBNjhlRWUtZ2RsaWpHYnU3bGc5djB1OWl3dWtFb1lxR29BQQ?oc=5",
-          "direction": "negative",
-          "reason": "「ロシア」に反応: 穀物相場の変動が原材料コストに影響しやすい",
-          "importance": 4
-        },
-        {
-          "title": "ロ・ウクライナのエネルギー停戦巡りトランプ氏と協議＝仏大統領",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaFRPT3RpSGNGV3V4NHY0eVV6YTltOFhBRTk3WnpkVjMtbGlPczlpN2NkUVdYQjZtRlhQMHFZWmQyanN3MW9tZkQwOVBsQ2d1cGxTS1JMcGFBSFpPaGpUSXFrTmU2VHZwVHlhMG12cnBXMmFJM0lhV05ya3VZTHptREdQRFlOQQ?oc=5",
+          "title": "米国務長官ルビオ氏、ロシアとウクライナのエネルギー停戦合意は未成立と説明",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCa0c2a3diT3Y1aVdXNWhnY3pCNVMtcnNkd1hTRm9GZ3JaMmdOSS1EU3pxNFduQm1MNUNhOVRGeHRyTUNfSmlBZmdYYW9kRjFFR2NiOXhlcVhrQTJPTnZYdlNLbw?oc=5",
           "direction": "negative",
           "reason": "「ウクライナ」に反応: 穀物相場の変動が原材料コストに影響しやすい",
           "importance": 4
-        }
-      ],
-      "mentions": 2
-    },
-    {
-      "code": "2002",
-      "name": "日清製粉グループ本社",
-      "sector": "食品",
-      "positive": 0,
-      "negative": 2,
-      "watch": 0,
-      "score": -8,
-      "news": [
+        },
         {
           "title": "ゼレンスキー氏、ロシアとのエネルギー停戦に応じる用意 トランプ氏と会談 | ロイター",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWUdqYUxyY1VMUXBWd2dtMm9CU05rOGk2THE4U3dLUm1WOEFzLXRzZnhUSHNoOVRKbkRBT3VpYWExWGxVZElLa3VYb3VWcmxoNEFodlM5U1FmZlpoOTZDSXBzc3dBNjhlRWUtZ2RsaWpHYnU3bGc5djB1OWl3dWtFb1lxR29BQQ?oc=5",
           "direction": "negative",
           "reason": "「ロシア」に反応: 穀物相場の変動が原材料コストに影響しやすい",
           "importance": 4
-        },
-        {
-          "title": "ロ・ウクライナのエネルギー停戦巡りトランプ氏と協議＝仏大統領",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaFRPT3RpSGNGV3V4NHY0eVV6YTltOFhBRTk3WnpkVjMtbGlPczlpN2NkUVdYQjZtRlhQMHFZWmQyanN3MW9tZkQwOVBsQ2d1cGxTS1JMcGFBSFpPaGpUSXFrTmU2VHZwVHlhMG12cnBXMmFJM0lhV05ya3VZTHptREdQRFlOQQ?oc=5",
-          "direction": "negative",
-          "reason": "「ウクライナ」に反応: 穀物相場の変動が原材料コストに影響しやすい",
-          "importance": 4
-        }
-      ],
-      "mentions": 2
-    },
-    {
-      "code": "8267",
-      "name": "イオン",
-      "sector": "小売",
-      "positive": 0,
-      "negative": 2,
-      "watch": 0,
-      "score": -8,
-      "news": [
-        {
-          "title": "ゼレンスキー氏、ロシアとのエネルギー停戦に応じる用意 トランプ氏と会談 | ロイター",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWUdqYUxyY1VMUXBWd2dtMm9CU05rOGk2THE4U3dLUm1WOEFzLXRzZnhUSHNoOVRKbkRBT3VpYWExWGxVZElLa3VYb3VWcmxoNEFodlM5U1FmZlpoOTZDSXBzc3dBNjhlRWUtZ2RsaWpHYnU3bGc5djB1OWl3dWtFb1lxR29BQQ?oc=5",
-          "direction": "negative",
-          "reason": "「ロシア」に反応: 穀物相場の変動が原材料コストに影響しやすい",
-          "importance": 4
-        },
-        {
-          "title": "ロ・ウクライナのエネルギー停戦巡りトランプ氏と協議＝仏大統領",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaFRPT3RpSGNGV3V4NHY0eVV6YTltOFhBRTk3WnpkVjMtbGlPczlpN2NkUVdYQjZtRlhQMHFZWmQyanN3MW9tZkQwOVBsQ2d1cGxTS1JMcGFBSFpPaGpUSXFrTmU2VHZwVHlhMG12cnBXMmFJM0lhV05ya3VZTHptREdQRFlOQQ?oc=5",
-          "direction": "negative",
-          "reason": "「ウクライナ」に反応: 穀物相場の変動が原材料コストに影響しやすい",
-          "importance": 4
-        }
-      ],
-      "mentions": 2
-    },
-    {
-      "code": "5713",
-      "name": "住友金属鉱山",
-      "sector": "非鉄金属",
-      "positive": 2,
-      "negative": 0,
-      "watch": 0,
-      "score": 6,
-      "news": [
-        {
-          "title": "レアアース輸出正常化、焦点に（時事通信）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52eW9wUFJ6ck5mX1FGbWtuanNhbVBkRGtvYXdGaTRfQUZzVzJRQXAzaFZRVkEtb05RS1NKT2FfakhXbzRqMFA5VnhjdmlSZW1yc3lGY3ZtSHNTR2x2MzBMT01Cd0I1RU5aRjR0VTNkNUwwalUtZFp5N1AzYzVGMDQ?oc=5",
-          "direction": "positive",
-          "reason": "「レアアース」に反応: 権益確保・リサイクル技術など供給網の脱中国依存を進めている企業には追い風になりやすい",
-          "importance": 3
-        },
-        {
-          "title": "希土類元素の管理：ドナルド・トランプ氏と習近平氏の会談における難題。",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUmdQXy1mRGJITlhCXzV0X0o3YTRMWmY3OEhISzN5UHZCZXZjRXE4Q3ZlSjRZOVBYQUNtTk4zQVlzRVlXZDJrVGhYNlRPY0lIR3pUT3lTbVJCZVFmX19MOEFmWWJhOXgwaUZNdW1vdWNSaEpVa1FBcF9sVi04dlRHN3M5ZmZpVWhjcnVaLXpOdks5MjBELW9wSk1uYzNMa2c?oc=5",
-          "direction": "positive",
-          "reason": "「希土類」に反応: 権益確保・リサイクル技術など供給網の脱中国依存を進めている企業には追い風になりやすい",
-          "importance": 3
-        }
-      ],
-      "mentions": 2
-    },
-    {
-      "code": "1540",
-      "name": "純金上場信託(現物国内保管型)",
-      "sector": "ETF",
-      "positive": 2,
-      "negative": 0,
-      "watch": 0,
-      "score": 4,
-      "news": [
-        {
-          "title": "NY株続伸、ナスダックが一時最高値 米イラン協議期待で",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4wQjVKZnkxamVxc0ZWNXYzcXNqTTNxZGlpVWExMDh3bmhXSDE0U1dxcE10OEpRMGtrc2RsLVRKZU9EUjRielY4RDVyb3pvcHZ0OFRveEUtQXVZX2hOT0lvdXBwMGxNakZYU2NKc1hRcmtkaURi?oc=5",
-          "direction": "positive",
-          "reason": "「イラン」に反応: 直接の影響とは別角度: コロナ禍のような過去の有事でも見られたように、地政学リスクの高まりは株式とは別に金など安全資産に資金が向かいやすい(質への逃避)",
-          "importance": 2
-        },
-        {
-          "title": "【独占インタビュー】「北京は何をしても不満を示す」 英国元国防相、台湾防衛は「いくら急いでも急ぎすぎることはない」",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ORkFkMy03V2VtVkpoc2FXOVJxbW95UlFSYjNER204WnU2YUFYZFYydjQ2UkJ0SW14T0lEMkNqVjVhZ1VoU3lHLVpBSzZDaFVN?oc=5",
-          "direction": "positive",
-          "reason": "「台湾」に反応: 直接の影響とは別角度: コロナ禍のような過去の有事でも見られたように、地政学リスクの高まりは株式とは別に金など安全資産に資金が向かいやすい(質への逃避)",
-          "importance": 2
-        }
-      ],
-      "mentions": 2
-    },
-    {
-      "code": "6857",
-      "name": "アドバンテスト",
-      "sector": "電気機器",
-      "positive": 1,
-      "negative": 1,
-      "watch": 0,
-      "score": -3,
-      "news": [
-        {
-          "title": "「経済的威圧に断固反対」日米韓外相 中国のレアアース輸出規制念頭、経済安保で連携確認",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kdERaR0ZocHVmOVlMSmI1QVlTdDkxTzlKVnpMZmFRbUpUQ0JBT2ZsQ0lrSkhITVpaYlJnN3BFcW9uSjkxdFNHd3VWTktZMXoxS2pxMlF6TEZCRDVrazBVdWd2NGVnLVdzX2FRbTdJRklrZXZqSkE?oc=5",
-          "direction": "negative",
-          "reason": "「輸出規制」に反応: 中国向け売上比率が高く、規制強化は受注減・出荷制限のリスク要因になりやすい",
-          "importance": 5
-        },
-        {
-          "title": "ダウ平均は反落 金融株が下落 半導体が買われナスダックはしっかり＝米国株概況",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yRGVCLTZWYk51QlhlMGIzeGlzcWFabV9QUV9xVTZuc1hmY05nRlEtVWVRaXpuTVZsYncxdXRJay02WWRmcEdqUHBhckpaZVAzNUE?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 2
         }
       ],
       "mentions": 2
@@ -4090,8 +4805,9 @@
       "category_emoji": "🇺🇸",
       "member_ids": [
         "7440a49a6e49",
+        "df5aef13d5a1",
         "d5e69e8cda64",
-        "8d269f56f75c",
+        "de59ddb1b1b1",
         "1ae4b896b5b4",
         "f5adfc707c6a",
         "3faac431f59f",
@@ -4107,6 +4823,13 @@
           "source": "Reuters"
         },
         {
+          "id": "df5aef13d5a1",
+          "title": "米国株式市場概況・22日 ダウ反落・ナスダック史上最高値",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iR25zRlN1RU5xN0hnS1Y2dGRxYkhpMnVVRURkMWwtdGlQZDRoTlg1OXNUa0VIdC01RUxUSTJNUlpSTG9wSWhnZ2JRYVNDWFJhWV9sVGVla2VYUDdVZHhBRFB3TmZ0c2JpOGNkZDI0bzg?oc=5",
+          "importance": 2,
+          "source": "TradingView"
+        },
+        {
           "id": "d5e69e8cda64",
           "title": "ダウ平均は反落 金融株が下落 半導体が買われナスダックはしっかり＝米国株概況",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yRGVCLTZWYk51QlhlMGIzeGlzcWFabV9QUV9xVTZuc1hmY05nRlEtVWVRaXpuTVZsYncxdXRJay02WWRmcEdqUHBhckpaZVAzNUE?oc=5",
@@ -4114,11 +4837,11 @@
           "source": "株探"
         },
         {
-          "id": "8d269f56f75c",
-          "title": "米国株3指数がそろって上昇、ナスダックは2.26%高で約4カ月ぶり史上最高値更新",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03dFkxUlBfN0J0dnNRcnEtcHdoZlBCYUk1WV9fNmhGeWxZajhsVWVLTXVlLWlGVEJkb29NWmtzaGwxOEJxanpuLXAyTmR0eDlvNmstWHFwT0paSk43YWUzUkEtWlRaZXhJbGdoQ0FVajlNMFU4?oc=5",
+          "id": "de59ddb1b1b1",
+          "title": "NYダウ、一進一退で始まる 原油安支えにナスダック総合は続伸",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBLQ3BNSXdBRVc2UGJjanF0MDgxUkM1Q245aVNwYTdHUGhpU0ZLN0hKOHN2MWQ5blBWTzVFcGZNSU9IOXFrSG1HbjFDRnhBNGVTOC1wTkdCWnEzcmpaRElnU3Y5ODRVZDVFTThERA?oc=5",
           "importance": 2,
-          "source": "BigGo ファイナンス"
+          "source": "日本経済新聞"
         },
         {
           "id": "1ae4b896b5b4",
@@ -4146,7 +4869,7 @@
           "title": "NYダウが366ドル高、AI関連で上昇目立つ ナスダックは最高値更新",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR1oxWEhhbFNzcEx5eHhValZGZ0x4TUhwQU1ZTWdGS1dIOWo0WXBiZlI1a003VUhGRGRnQUgzSE9UdHlqNTRNc28wOWhfMUQ2VzA4UDM2RzdxTHdjbkJQdnFlZ3c1ZmNXeXJ3Zw?oc=5",
           "importance": 2,
-          "source": "nikkei.com"
+          "source": "日本経済新聞"
         },
         {
           "id": "f592ce4d1f61",
@@ -4160,37 +4883,37 @@
         {
           "code": "8604",
           "name": "野村ホールディングス",
-          "positive": 3,
+          "positive": 2,
           "negative": 1,
-          "watch": 4
+          "watch": 6
         },
         {
           "code": "8601",
           "name": "大和証券グループ本社",
-          "positive": 3,
+          "positive": 2,
           "negative": 1,
-          "watch": 4
+          "watch": 6
         },
         {
           "code": "8473",
           "name": "SBIホールディングス",
-          "positive": 3,
+          "positive": 2,
           "negative": 1,
-          "watch": 4
+          "watch": 6
         },
         {
           "code": "9984",
           "name": "ソフトバンクグループ",
-          "positive": 3,
+          "positive": 2,
           "negative": 1,
-          "watch": 4
+          "watch": 6
         },
         {
           "code": "7203",
           "name": "トヨタ自動車",
-          "positive": 3,
+          "positive": 2,
           "negative": 0,
-          "watch": 3
+          "watch": 4
         }
       ],
       "max_importance": 2,
@@ -4200,7 +4923,7 @@
         "海外の動き",
         "複数媒体での同時報道"
       ],
-      "emergence_event_count": 11,
+      "emergence_event_count": 12,
       "emergence_source_count": 8,
       "emergence_actor_type_count": 1,
       "emergence_actor_type_labels": [
@@ -4219,9 +4942,9 @@
       "emergence_origin_regions": [],
       "emergence_first_seen": "2026-09-20",
       "emergence_window_counts": {
-        "7": 11,
-        "30": 11,
-        "90": 11
+        "7": 12,
+        "30": 12,
+        "90": 12
       },
       "emergence_timeline": [
         {
@@ -4344,6 +5067,17 @@
           "regions": [
             "米国"
           ]
+        },
+        {
+          "date": "2026-09-23",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
         }
       ],
       "emergence_milestones": [
@@ -4395,7 +5129,7 @@
           "title": "レアアース輸出正常化、焦点に（時事通信）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52eW9wUFJ6ck5mX1FGbWtuanNhbVBkRGtvYXdGaTRfQUZzVzJRQXAzaFZRVkEtb05RS1NKT2FfakhXbzRqMFA5VnhjdmlSZW1yc3lGY3ZtSHNTR2x2MzBMT01Cd0I1RU5aRjR0VTNkNUwwalUtZFp5N1AzYzVGMDQ?oc=5",
           "importance": 3,
-          "source": "news.yahoo.co.jp"
+          "source": "Yahoo!ニュース"
         },
         {
           "id": "2f78f370a276",
@@ -4523,27 +5257,226 @@
     {
       "connection_type": "theme",
       "connection_label": "同じテーマ",
+      "theme_id": "taiwan_china",
+      "label": "台湾・中国情勢",
+      "category": "geopolitics",
+      "category_label": "地政学・有事",
+      "category_emoji": "🌍",
+      "member_ids": [
+        "a43a47c1a498",
+        "eec3cc2636d0",
+        "ed2664c17c7c"
+      ],
+      "members": [
+        {
+          "id": "a43a47c1a498",
+          "title": "中国の駐米大使、首脳会談前に「レッドライン」警告 台湾や人権巡り",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMjJOLXUtMjlYTHF2UF9yMkUwS3dmQlRCNkk4ajBCQWtBdWNFSWdSUDFDN1p2WF9LYUZwVi1ENjNVdHh3LTNkelZKQ0xBOGlUVU8wU01pRUw5NTEzUU5aR3N5NEV5TjN3d2szd1ZJTXVvUkJNMkh6VFVFenZGSEFrTmFQSTE?oc=5",
+          "importance": 2,
+          "source": "Reuters"
+        },
+        {
+          "id": "eec3cc2636d0",
+          "title": "中国軍幹部2名を過酷粛清！ 党籍剥奪が及ぼす台湾海峡と日本の安全保障への衝撃波",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fYnZ1eWZCczZ1WjRmUTJ6RU94LXJLZElpYW1lS0dvV2lDVmsxa2VXZFNvcU15bFdGTHhWcnZtcFp0YmtuZ3Fnck1RdTVpb00wT1l3SUw3aUJPSmFXVkdlTzVxZU9IVUM1dmZiU3NMeXNLR2c?oc=5",
+          "importance": 2,
+          "source": "ニコニコニュース"
+        },
+        {
+          "id": "ed2664c17c7c",
+          "title": "【独占インタビュー】「北京は何をしても不満を示す」 英国元国防相、台湾防衛は「いくら急いでも急ぎすぎることはない」",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ORkFkMy03V2VtVkpoc2FXOVJxbW95UlFSYjNER204WnU2YUFYZFYydjQ2UkJ0SW14T0lEMkNqVjVhZ1VoU3lHLVpBSzZDaFVN?oc=5",
+          "importance": 2,
+          "source": "風傳媒"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "6503",
+          "name": "三菱電機",
+          "positive": 3,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "6701",
+          "name": "日本電気",
+          "positive": 3,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "5406",
+          "name": "神戸製鋼所",
+          "positive": 3,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "8035",
+          "name": "東京エレクトロン",
+          "positive": 0,
+          "negative": 3,
+          "watch": 0
+        },
+        {
+          "code": "6954",
+          "name": "ファナック",
+          "positive": 0,
+          "negative": 3,
+          "watch": 0
+        },
+        {
+          "code": "6506",
+          "name": "安川電機",
+          "positive": 0,
+          "negative": 3,
+          "watch": 0
+        }
+      ],
+      "max_importance": 2,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [
+        "海外の動き"
+      ],
+      "emergence_event_count": 6,
+      "emergence_source_count": 4,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 5,
+      "emergence_regions": [
+        "EU/欧州",
+        "中国",
+        "台湾",
+        "日本",
+        "英国"
+      ],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": "2026-09-20",
+      "emergence_window_counts": {
+        "7": 6,
+        "30": 6,
+        "90": 6
+      },
+      "emergence_timeline": [
+        {
+          "date": "2026-09-20",
+          "source": "Taiwan Today",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "EU/欧州",
+            "台湾"
+          ]
+        },
+        {
+          "date": "2026-09-20",
+          "source": "風傳媒",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "中国",
+            "台湾"
+          ]
+        },
+        {
+          "date": "2026-09-22",
+          "source": "風傳媒",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "中国",
+            "台湾"
+          ]
+        },
+        {
+          "date": "2026-09-22",
+          "source": "風傳媒",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "台湾",
+            "英国"
+          ]
+        },
+        {
+          "date": "2026-09-23",
+          "source": "Reuters",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "中国",
+            "台湾"
+          ]
+        },
+        {
+          "date": "2026-09-23",
+          "source": "ニコニコニュース",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "中国",
+            "台湾",
+            "日本"
+          ]
+        }
+      ],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {
+        "target_stage": "watch",
+        "target_stage_label": "👀 要監視テーマ",
+        "source_count": 4,
+        "required_sources": 2,
+        "signal_count": 1,
+        "required_signals": 3,
+        "missing": [
+          "シグナル種別があと2種類必要"
+        ]
+      },
+      "emergence_growth": {
+        "window_days": 14,
+        "recent_new_actor_types": 0,
+        "total_actor_types": 0
+      }
+    },
+    {
+      "connection_type": "theme",
+      "connection_label": "同じテーマ",
       "theme_id": "ukraine_russia",
       "label": "ウクライナ・ロシア情勢",
       "category": "geopolitics",
       "category_label": "地政学・有事",
       "category_emoji": "🌍",
       "member_ids": [
-        "4c18599c5f9a",
-        "4e8688c781cf"
+        "679981489157",
+        "4c18599c5f9a"
       ],
       "members": [
+        {
+          "id": "679981489157",
+          "title": "米国務長官ルビオ氏、ロシアとウクライナのエネルギー停戦合意は未成立と説明",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCa0c2a3diT3Y1aVdXNWhnY3pCNVMtcnNkd1hTRm9GZ3JaMmdOSS1EU3pxNFduQm1MNUNhOVRGeHRyTUNfSmlBZmdYYW9kRjFFR2NiOXhlcVhrQTJPTnZYdlNLbw?oc=5",
+          "importance": 4,
+          "source": "Межа. Новини України."
+        },
         {
           "id": "4c18599c5f9a",
           "title": "ゼレンスキー氏、ロシアとのエネルギー停戦に応じる用意 トランプ氏と会談 | ロイター",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWUdqYUxyY1VMUXBWd2dtMm9CU05rOGk2THE4U3dLUm1WOEFzLXRzZnhUSHNoOVRKbkRBT3VpYWExWGxVZElLa3VYb3VWcmxoNEFodlM5U1FmZlpoOTZDSXBzc3dBNjhlRWUtZ2RsaWpHYnU3bGc5djB1OWl3dWtFb1lxR29BQQ?oc=5",
-          "importance": 4,
-          "source": "Reuters"
-        },
-        {
-          "id": "4e8688c781cf",
-          "title": "ロ・ウクライナのエネルギー停戦巡りトランプ氏と協議＝仏大統領",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaFRPT3RpSGNGV3V4NHY0eVV6YTltOFhBRTk3WnpkVjMtbGlPczlpN2NkUVdYQjZtRlhQMHFZWmQyanN3MW9tZkQwOVBsQ2d1cGxTS1JMcGFBSFpPaGpUSXFrTmU2VHZwVHlhMG12cnBXMmFJM0lhV05ya3VZTHptREdQRFlOQQ?oc=5",
           "importance": 4,
           "source": "Reuters"
         }
@@ -4598,22 +5531,23 @@
       "emergence_signal_labels": [
         "海外の動き"
       ],
-      "emergence_event_count": 5,
-      "emergence_source_count": 3,
+      "emergence_event_count": 6,
+      "emergence_source_count": 4,
       "emergence_actor_type_count": 0,
       "emergence_actor_type_labels": [],
       "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 2,
+      "emergence_region_count": 3,
       "emergence_regions": [
         "中国",
-        "台湾"
+        "台湾",
+        "米国"
       ],
       "emergence_origin_regions": [],
       "emergence_first_seen": "2026-09-20",
       "emergence_window_counts": {
-        "7": 5,
-        "30": 5,
-        "90": 5
+        "7": 6,
+        "30": 6,
+        "90": 6
       },
       "emergence_timeline": [
         {
@@ -4663,13 +5597,24 @@
           ],
           "actor_type_labels": [],
           "regions": []
+        },
+        {
+          "date": "2026-09-23",
+          "source": "Межа. Новини України.",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
         }
       ],
       "emergence_milestones": [],
       "emergence_diagnosis": {
         "target_stage": "watch",
         "target_stage_label": "👀 要監視テーマ",
-        "source_count": 3,
+        "source_count": 4,
         "required_sources": 2,
         "signal_count": 1,
         "required_signals": 3,
@@ -4696,7 +5641,7 @@
         "7efa2d7e1f79",
         "2f78f370a276",
         "7440a49a6e49",
-        "8d269f56f75c",
+        "df5aef13d5a1",
         "f5adfc707c6a",
         "3faac431f59f",
         "1a29ed514f7d",
@@ -4715,7 +5660,7 @@
           "title": "レアアース輸出正常化、焦点に（時事通信）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52eW9wUFJ6ck5mX1FGbWtuanNhbVBkRGtvYXdGaTRfQUZzVzJRQXAzaFZRVkEtb05RS1NKT2FfakhXbzRqMFA5VnhjdmlSZW1yc3lGY3ZtSHNTR2x2MzBMT01Cd0I1RU5aRjR0VTNkNUwwalUtZFp5N1AzYzVGMDQ?oc=5",
           "importance": 3,
-          "source": "news.yahoo.co.jp"
+          "source": "Yahoo!ニュース"
         },
         {
           "id": "2f78f370a276",
@@ -4732,11 +5677,11 @@
           "source": "Reuters"
         },
         {
-          "id": "8d269f56f75c",
-          "title": "米国株3指数がそろって上昇、ナスダックは2.26%高で約4カ月ぶり史上最高値更新",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03dFkxUlBfN0J0dnNRcnEtcHdoZlBCYUk1WV9fNmhGeWxZajhsVWVLTXVlLWlGVEJkb29NWmtzaGwxOEJxanpuLXAyTmR0eDlvNmstWHFwT0paSk43YWUzUkEtWlRaZXhJbGdoQ0FVajlNMFU4?oc=5",
+          "id": "df5aef13d5a1",
+          "title": "米国株式市場概況・22日 ダウ反落・ナスダック史上最高値",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iR25zRlN1RU5xN0hnS1Y2dGRxYkhpMnVVRURkMWwtdGlQZDRoTlg1OXNUa0VIdC01RUxUSTJNUlpSTG9wSWhnZ2JRYVNDWFJhWV9sVGVla2VYUDdVZHhBRFB3TmZ0c2JpOGNkZDI0bzg?oc=5",
           "importance": 2,
-          "source": "BigGo ファイナンス"
+          "source": "TradingView"
         },
         {
           "id": "f5adfc707c6a",
@@ -4757,7 +5702,7 @@
           "title": "NYダウが366ドル高、AI関連で上昇目立つ ナスダックは最高値更新",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR1oxWEhhbFNzcEx5eHhValZGZ0x4TUhwQU1ZTWdGS1dIOWo0WXBiZlI1a003VUhGRGRnQUgzSE9UdHlqNTRNc28wOWhfMUQ2VzA4UDM2RzdxTHdjbkJQdnFlZ3c1ZmNXeXJ3Zw?oc=5",
           "importance": 2,
-          "source": "nikkei.com"
+          "source": "日本経済新聞"
         },
         {
           "id": "f592ce4d1f61",
@@ -4771,9 +5716,9 @@
         {
           "code": "7203",
           "name": "トヨタ自動車",
-          "positive": 3,
+          "positive": 2,
           "negative": 3,
-          "watch": 3
+          "watch": 4
         }
       ],
       "max_importance": 5,
@@ -4805,7 +5750,9 @@
       "category_emoji": "🏢",
       "member_ids": [
         "e81fc6e622b1",
+        "a43a47c1a498",
         "d5e69e8cda64",
+        "eec3cc2636d0",
         "ed2664c17c7c"
       ],
       "members": [
@@ -4817,11 +5764,25 @@
           "source": "産経ニュース"
         },
         {
+          "id": "a43a47c1a498",
+          "title": "中国の駐米大使、首脳会談前に「レッドライン」警告 台湾や人権巡り",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMjJOLXUtMjlYTHF2UF9yMkUwS3dmQlRCNkk4ajBCQWtBdWNFSWdSUDFDN1p2WF9LYUZwVi1ENjNVdHh3LTNkelZKQ0xBOGlUVU8wU01pRUw5NTEzUU5aR3N5NEV5TjN3d2szd1ZJTXVvUkJNMkh6VFVFenZGSEFrTmFQSTE?oc=5",
+          "importance": 2,
+          "source": "Reuters"
+        },
+        {
           "id": "d5e69e8cda64",
           "title": "ダウ平均は反落 金融株が下落 半導体が買われナスダックはしっかり＝米国株概況",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yRGVCLTZWYk51QlhlMGIzeGlzcWFabV9QUV9xVTZuc1hmY05nRlEtVWVRaXpuTVZsYncxdXRJay02WWRmcEdqUHBhckpaZVAzNUE?oc=5",
           "importance": 2,
           "source": "株探"
+        },
+        {
+          "id": "eec3cc2636d0",
+          "title": "中国軍幹部2名を過酷粛清！ 党籍剥奪が及ぼす台湾海峡と日本の安全保障への衝撃波",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fYnZ1eWZCczZ1WjRmUTJ6RU94LXJLZElpYW1lS0dvV2lDVmsxa2VXZFNvcU15bFdGTHhWcnZtcFp0YmtuZ3Fnck1RdTVpb00wT1l3SUw3aUJPSmFXVkdlTzVxZU9IVUM1dmZiU3NMeXNLR2c?oc=5",
+          "importance": 2,
+          "source": "ニコニコニュース"
         },
         {
           "id": "ed2664c17c7c",
@@ -4836,7 +5797,7 @@
           "code": "8035",
           "name": "東京エレクトロン",
           "positive": 1,
-          "negative": 2,
+          "negative": 4,
           "watch": 0
         }
       ],
@@ -4868,11 +5829,20 @@
       "category_label": "同じ企業",
       "category_emoji": "🏢",
       "member_ids": [
+        "679981489157",
         "4c18599c5f9a",
-        "4e8688c781cf",
+        "a43a47c1a498",
+        "eec3cc2636d0",
         "ed2664c17c7c"
       ],
       "members": [
+        {
+          "id": "679981489157",
+          "title": "米国務長官ルビオ氏、ロシアとウクライナのエネルギー停戦合意は未成立と説明",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCa0c2a3diT3Y1aVdXNWhnY3pCNVMtcnNkd1hTRm9GZ3JaMmdOSS1EU3pxNFduQm1MNUNhOVRGeHRyTUNfSmlBZmdYYW9kRjFFR2NiOXhlcVhrQTJPTnZYdlNLbw?oc=5",
+          "importance": 4,
+          "source": "Межа. Новини України."
+        },
         {
           "id": "4c18599c5f9a",
           "title": "ゼレンスキー氏、ロシアとのエネルギー停戦に応じる用意 トランプ氏と会談 | ロイター",
@@ -4881,11 +5851,18 @@
           "source": "Reuters"
         },
         {
-          "id": "4e8688c781cf",
-          "title": "ロ・ウクライナのエネルギー停戦巡りトランプ氏と協議＝仏大統領",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaFRPT3RpSGNGV3V4NHY0eVV6YTltOFhBRTk3WnpkVjMtbGlPczlpN2NkUVdYQjZtRlhQMHFZWmQyanN3MW9tZkQwOVBsQ2d1cGxTS1JMcGFBSFpPaGpUSXFrTmU2VHZwVHlhMG12cnBXMmFJM0lhV05ya3VZTHptREdQRFlOQQ?oc=5",
-          "importance": 4,
+          "id": "a43a47c1a498",
+          "title": "中国の駐米大使、首脳会談前に「レッドライン」警告 台湾や人権巡り",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMjJOLXUtMjlYTHF2UF9yMkUwS3dmQlRCNkk4ajBCQWtBdWNFSWdSUDFDN1p2WF9LYUZwVi1ENjNVdHh3LTNkelZKQ0xBOGlUVU8wU01pRUw5NTEzUU5aR3N5NEV5TjN3d2szd1ZJTXVvUkJNMkh6VFVFenZGSEFrTmFQSTE?oc=5",
+          "importance": 2,
           "source": "Reuters"
+        },
+        {
+          "id": "eec3cc2636d0",
+          "title": "中国軍幹部2名を過酷粛清！ 党籍剥奪が及ぼす台湾海峡と日本の安全保障への衝撃波",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fYnZ1eWZCczZ1WjRmUTJ6RU94LXJLZElpYW1lS0dvV2lDVmsxa2VXZFNvcU15bFdGTHhWcnZtcFp0YmtuZ3Fnck1RdTVpb00wT1l3SUw3aUJPSmFXVkdlTzVxZU9IVUM1dmZiU3NMeXNLR2c?oc=5",
+          "importance": 2,
+          "source": "ニコニコニュース"
         },
         {
           "id": "ed2664c17c7c",
@@ -4899,7 +5876,7 @@
         {
           "code": "6503",
           "name": "三菱電機",
-          "positive": 1,
+          "positive": 3,
           "negative": 2,
           "watch": 0
         }
@@ -4932,11 +5909,20 @@
       "category_label": "同じ企業",
       "category_emoji": "🏢",
       "member_ids": [
+        "679981489157",
         "4c18599c5f9a",
-        "4e8688c781cf",
+        "a43a47c1a498",
+        "eec3cc2636d0",
         "ed2664c17c7c"
       ],
       "members": [
+        {
+          "id": "679981489157",
+          "title": "米国務長官ルビオ氏、ロシアとウクライナのエネルギー停戦合意は未成立と説明",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCa0c2a3diT3Y1aVdXNWhnY3pCNVMtcnNkd1hTRm9GZ3JaMmdOSS1EU3pxNFduQm1MNUNhOVRGeHRyTUNfSmlBZmdYYW9kRjFFR2NiOXhlcVhrQTJPTnZYdlNLbw?oc=5",
+          "importance": 4,
+          "source": "Межа. Новини України."
+        },
         {
           "id": "4c18599c5f9a",
           "title": "ゼレンスキー氏、ロシアとのエネルギー停戦に応じる用意 トランプ氏と会談 | ロイター",
@@ -4945,11 +5931,18 @@
           "source": "Reuters"
         },
         {
-          "id": "4e8688c781cf",
-          "title": "ロ・ウクライナのエネルギー停戦巡りトランプ氏と協議＝仏大統領",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaFRPT3RpSGNGV3V4NHY0eVV6YTltOFhBRTk3WnpkVjMtbGlPczlpN2NkUVdYQjZtRlhQMHFZWmQyanN3MW9tZkQwOVBsQ2d1cGxTS1JMcGFBSFpPaGpUSXFrTmU2VHZwVHlhMG12cnBXMmFJM0lhV05ya3VZTHptREdQRFlOQQ?oc=5",
-          "importance": 4,
+          "id": "a43a47c1a498",
+          "title": "中国の駐米大使、首脳会談前に「レッドライン」警告 台湾や人権巡り",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMjJOLXUtMjlYTHF2UF9yMkUwS3dmQlRCNkk4ajBCQWtBdWNFSWdSUDFDN1p2WF9LYUZwVi1ENjNVdHh3LTNkelZKQ0xBOGlUVU8wU01pRUw5NTEzUU5aR3N5NEV5TjN3d2szd1ZJTXVvUkJNMkh6VFVFenZGSEFrTmFQSTE?oc=5",
+          "importance": 2,
           "source": "Reuters"
+        },
+        {
+          "id": "eec3cc2636d0",
+          "title": "中国軍幹部2名を過酷粛清！ 党籍剥奪が及ぼす台湾海峡と日本の安全保障への衝撃波",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fYnZ1eWZCczZ1WjRmUTJ6RU94LXJLZElpYW1lS0dvV2lDVmsxa2VXZFNvcU15bFdGTHhWcnZtcFp0YmtuZ3Fnck1RdTVpb00wT1l3SUw3aUJPSmFXVkdlTzVxZU9IVUM1dmZiU3NMeXNLR2c?oc=5",
+          "importance": 2,
+          "source": "ニコニコニュース"
         },
         {
           "id": "ed2664c17c7c",
@@ -4963,7 +5956,7 @@
         {
           "code": "6701",
           "name": "日本電気",
-          "positive": 1,
+          "positive": 3,
           "negative": 2,
           "watch": 0
         }
@@ -5000,7 +5993,7 @@
         "7efa2d7e1f79",
         "2f78f370a276",
         "7440a49a6e49",
-        "8d269f56f75c",
+        "df5aef13d5a1",
         "f5adfc707c6a",
         "3faac431f59f",
         "1a29ed514f7d",
@@ -5019,7 +6012,7 @@
           "title": "レアアース輸出正常化、焦点に（時事通信）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52eW9wUFJ6ck5mX1FGbWtuanNhbVBkRGtvYXdGaTRfQUZzVzJRQXAzaFZRVkEtb05RS1NKT2FfakhXbzRqMFA5VnhjdmlSZW1yc3lGY3ZtSHNTR2x2MzBMT01Cd0I1RU5aRjR0VTNkNUwwalUtZFp5N1AzYzVGMDQ?oc=5",
           "importance": 3,
-          "source": "news.yahoo.co.jp"
+          "source": "Yahoo!ニュース"
         },
         {
           "id": "2f78f370a276",
@@ -5036,11 +6029,11 @@
           "source": "Reuters"
         },
         {
-          "id": "8d269f56f75c",
-          "title": "米国株3指数がそろって上昇、ナスダックは2.26%高で約4カ月ぶり史上最高値更新",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03dFkxUlBfN0J0dnNRcnEtcHdoZlBCYUk1WV9fNmhGeWxZajhsVWVLTXVlLWlGVEJkb29NWmtzaGwxOEJxanpuLXAyTmR0eDlvNmstWHFwT0paSk43YWUzUkEtWlRaZXhJbGdoQ0FVajlNMFU4?oc=5",
+          "id": "df5aef13d5a1",
+          "title": "米国株式市場概況・22日 ダウ反落・ナスダック史上最高値",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iR25zRlN1RU5xN0hnS1Y2dGRxYkhpMnVVRURkMWwtdGlQZDRoTlg1OXNUa0VIdC01RUxUSTJNUlpSTG9wSWhnZ2JRYVNDWFJhWV9sVGVla2VYUDdVZHhBRFB3TmZ0c2JpOGNkZDI0bzg?oc=5",
           "importance": 2,
-          "source": "BigGo ファイナンス"
+          "source": "TradingView"
         },
         {
           "id": "f5adfc707c6a",
@@ -5061,7 +6054,7 @@
           "title": "NYダウが366ドル高、AI関連で上昇目立つ ナスダックは最高値更新",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR1oxWEhhbFNzcEx5eHhValZGZ0x4TUhwQU1ZTWdGS1dIOWo0WXBiZlI1a003VUhGRGRnQUgzSE9UdHlqNTRNc28wOWhfMUQ2VzA4UDM2RzdxTHdjbkJQdnFlZ3c1ZmNXeXJ3Zw?oc=5",
           "importance": 2,
-          "source": "nikkei.com"
+          "source": "日本経済新聞"
         },
         {
           "id": "f592ce4d1f61",
@@ -5075,9 +6068,9 @@
         {
           "code": "7203",
           "name": "トヨタ自動車",
-          "positive": 3,
+          "positive": 2,
           "negative": 3,
-          "watch": 3
+          "watch": 4
         },
         {
           "code": "7267",
@@ -5116,9 +6109,11 @@
       "category_emoji": "🏭",
       "member_ids": [
         "e81fc6e622b1",
+        "679981489157",
         "4c18599c5f9a",
-        "4e8688c781cf",
+        "a43a47c1a498",
         "d5e69e8cda64",
+        "eec3cc2636d0",
         "ed2664c17c7c"
       ],
       "members": [
@@ -5130,6 +6125,13 @@
           "source": "産経ニュース"
         },
         {
+          "id": "679981489157",
+          "title": "米国務長官ルビオ氏、ロシアとウクライナのエネルギー停戦合意は未成立と説明",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCa0c2a3diT3Y1aVdXNWhnY3pCNVMtcnNkd1hTRm9GZ3JaMmdOSS1EU3pxNFduQm1MNUNhOVRGeHRyTUNfSmlBZmdYYW9kRjFFR2NiOXhlcVhrQTJPTnZYdlNLbw?oc=5",
+          "importance": 4,
+          "source": "Межа. Новини України."
+        },
+        {
           "id": "4c18599c5f9a",
           "title": "ゼレンスキー氏、ロシアとのエネルギー停戦に応じる用意 トランプ氏と会談 | ロイター",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWUdqYUxyY1VMUXBWd2dtMm9CU05rOGk2THE4U3dLUm1WOEFzLXRzZnhUSHNoOVRKbkRBT3VpYWExWGxVZElLa3VYb3VWcmxoNEFodlM5U1FmZlpoOTZDSXBzc3dBNjhlRWUtZ2RsaWpHYnU3bGc5djB1OWl3dWtFb1lxR29BQQ?oc=5",
@@ -5137,10 +6139,10 @@
           "source": "Reuters"
         },
         {
-          "id": "4e8688c781cf",
-          "title": "ロ・ウクライナのエネルギー停戦巡りトランプ氏と協議＝仏大統領",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaFRPT3RpSGNGV3V4NHY0eVV6YTltOFhBRTk3WnpkVjMtbGlPczlpN2NkUVdYQjZtRlhQMHFZWmQyanN3MW9tZkQwOVBsQ2d1cGxTS1JMcGFBSFpPaGpUSXFrTmU2VHZwVHlhMG12cnBXMmFJM0lhV05ya3VZTHptREdQRFlOQQ?oc=5",
-          "importance": 4,
+          "id": "a43a47c1a498",
+          "title": "中国の駐米大使、首脳会談前に「レッドライン」警告 台湾や人権巡り",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMjJOLXUtMjlYTHF2UF9yMkUwS3dmQlRCNkk4ajBCQWtBdWNFSWdSUDFDN1p2WF9LYUZwVi1ENjNVdHh3LTNkelZKQ0xBOGlUVU8wU01pRUw5NTEzUU5aR3N5NEV5TjN3d2szd1ZJTXVvUkJNMkh6VFVFenZGSEFrTmFQSTE?oc=5",
+          "importance": 2,
           "source": "Reuters"
         },
         {
@@ -5149,6 +6151,13 @@
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yRGVCLTZWYk51QlhlMGIzeGlzcWFabV9QUV9xVTZuc1hmY05nRlEtVWVRaXpuTVZsYncxdXRJay02WWRmcEdqUHBhckpaZVAzNUE?oc=5",
           "importance": 2,
           "source": "株探"
+        },
+        {
+          "id": "eec3cc2636d0",
+          "title": "中国軍幹部2名を過酷粛清！ 党籍剥奪が及ぼす台湾海峡と日本の安全保障への衝撃波",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fYnZ1eWZCczZ1WjRmUTJ6RU94LXJLZElpYW1lS0dvV2lDVmsxa2VXZFNvcU15bFdGTHhWcnZtcFp0YmtuZ3Fnck1RdTVpb00wT1l3SUw3aUJPSmFXVkdlTzVxZU9IVUM1dmZiU3NMeXNLR2c?oc=5",
+          "importance": 2,
+          "source": "ニコニコニュース"
         },
         {
           "id": "ed2664c17c7c",
@@ -5163,42 +6172,42 @@
           "code": "8035",
           "name": "東京エレクトロン",
           "positive": 1,
-          "negative": 2,
+          "negative": 4,
           "watch": 0
         },
         {
           "code": "6503",
           "name": "三菱電機",
-          "positive": 1,
+          "positive": 3,
           "negative": 2,
           "watch": 0
         },
         {
           "code": "6701",
           "name": "日本電気",
-          "positive": 1,
+          "positive": 3,
           "negative": 2,
-          "watch": 0
-        },
-        {
-          "code": "6857",
-          "name": "アドバンテスト",
-          "positive": 1,
-          "negative": 1,
-          "watch": 0
-        },
-        {
-          "code": "6920",
-          "name": "レーザーテック",
-          "positive": 1,
-          "negative": 1,
           "watch": 0
         },
         {
           "code": "6954",
           "name": "ファナック",
           "positive": 0,
-          "negative": 1,
+          "negative": 3,
+          "watch": 0
+        },
+        {
+          "code": "6506",
+          "name": "安川電機",
+          "positive": 0,
+          "negative": 3,
+          "watch": 0
+        },
+        {
+          "code": "6645",
+          "name": "オムロン",
+          "positive": 0,
+          "negative": 3,
           "watch": 0
         }
       ],
@@ -5231,8 +6240,8 @@
       "category_emoji": "🏭",
       "member_ids": [
         "e81fc6e622b1",
+        "679981489157",
         "4c18599c5f9a",
-        "4e8688c781cf",
         "7efa2d7e1f79",
         "2f78f370a276"
       ],
@@ -5245,16 +6254,16 @@
           "source": "産経ニュース"
         },
         {
+          "id": "679981489157",
+          "title": "米国務長官ルビオ氏、ロシアとウクライナのエネルギー停戦合意は未成立と説明",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCa0c2a3diT3Y1aVdXNWhnY3pCNVMtcnNkd1hTRm9GZ3JaMmdOSS1EU3pxNFduQm1MNUNhOVRGeHRyTUNfSmlBZmdYYW9kRjFFR2NiOXhlcVhrQTJPTnZYdlNLbw?oc=5",
+          "importance": 4,
+          "source": "Межа. Новини України."
+        },
+        {
           "id": "4c18599c5f9a",
           "title": "ゼレンスキー氏、ロシアとのエネルギー停戦に応じる用意 トランプ氏と会談 | ロイター",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWUdqYUxyY1VMUXBWd2dtMm9CU05rOGk2THE4U3dLUm1WOEFzLXRzZnhUSHNoOVRKbkRBT3VpYWExWGxVZElLa3VYb3VWcmxoNEFodlM5U1FmZlpoOTZDSXBzc3dBNjhlRWUtZ2RsaWpHYnU3bGc5djB1OWl3dWtFb1lxR29BQQ?oc=5",
-          "importance": 4,
-          "source": "Reuters"
-        },
-        {
-          "id": "4e8688c781cf",
-          "title": "ロ・ウクライナのエネルギー停戦巡りトランプ氏と協議＝仏大統領",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaFRPT3RpSGNGV3V4NHY0eVV6YTltOFhBRTk3WnpkVjMtbGlPczlpN2NkUVdYQjZtRlhQMHFZWmQyanN3MW9tZkQwOVBsQ2d1cGxTS1JMcGFBSFpPaGpUSXFrTmU2VHZwVHlhMG12cnBXMmFJM0lhV05ya3VZTHptREdQRFlOQQ?oc=5",
           "importance": 4,
           "source": "Reuters"
         },
@@ -5263,7 +6272,7 @@
           "title": "レアアース輸出正常化、焦点に（時事通信）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52eW9wUFJ6ck5mX1FGbWtuanNhbVBkRGtvYXdGaTRfQUZzVzJRQXAzaFZRVkEtb05RS1NKT2FfakhXbzRqMFA5VnhjdmlSZW1yc3lGY3ZtSHNTR2x2MzBMT01Cd0I1RU5aRjR0VTNkNUwwalUtZFp5N1AzYzVGMDQ?oc=5",
           "importance": 3,
-          "source": "news.yahoo.co.jp"
+          "source": "Yahoo!ニュース"
         },
         {
           "id": "2f78f370a276",
@@ -5333,40 +6342,56 @@
       "connection_type": "sector",
       "connection_label": "同じ業界",
       "theme_id": null,
-      "label": "機械業界のニュース",
+      "label": "ETF業界のニュース",
       "category": "",
       "category_label": "同じ業界",
       "category_emoji": "🏭",
       "member_ids": [
-        "e81fc6e622b1",
-        "d5e69e8cda64"
+        "a43a47c1a498",
+        "1ae4b896b5b4",
+        "eec3cc2636d0",
+        "ed2664c17c7c"
       ],
       "members": [
         {
-          "id": "e81fc6e622b1",
-          "title": "「経済的威圧に断固反対」日米韓外相 中国のレアアース輸出規制念頭、経済安保で連携確認",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kdERaR0ZocHVmOVlMSmI1QVlTdDkxTzlKVnpMZmFRbUpUQ0JBT2ZsQ0lrSkhITVpaYlJnN3BFcW9uSjkxdFNHd3VWTktZMXoxS2pxMlF6TEZCRDVrazBVdWd2NGVnLVdzX2FRbTdJRklrZXZqSkE?oc=5",
-          "importance": 5,
-          "source": "産経ニュース"
+          "id": "a43a47c1a498",
+          "title": "中国の駐米大使、首脳会談前に「レッドライン」警告 台湾や人権巡り",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMjJOLXUtMjlYTHF2UF9yMkUwS3dmQlRCNkk4ajBCQWtBdWNFSWdSUDFDN1p2WF9LYUZwVi1ENjNVdHh3LTNkelZKQ0xBOGlUVU8wU01pRUw5NTEzUU5aR3N5NEV5TjN3d2szd1ZJTXVvUkJNMkh6VFVFenZGSEFrTmFQSTE?oc=5",
+          "importance": 2,
+          "source": "Reuters"
         },
         {
-          "id": "d5e69e8cda64",
-          "title": "ダウ平均は反落 金融株が下落 半導体が買われナスダックはしっかり＝米国株概況",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yRGVCLTZWYk51QlhlMGIzeGlzcWFabV9QUV9xVTZuc1hmY05nRlEtVWVRaXpuTVZsYncxdXRJay02WWRmcEdqUHBhckpaZVAzNUE?oc=5",
+          "id": "1ae4b896b5b4",
+          "title": "NY株続伸、ナスダックが一時最高値 米イラン協議期待で",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4wQjVKZnkxamVxc0ZWNXYzcXNqTTNxZGlpVWExMDh3bmhXSDE0U1dxcE10OEpRMGtrc2RsLVRKZU9EUjRielY4RDVyb3pvcHZ0OFRveEUtQXVZX2hOT0lvdXBwMGxNakZYU2NKc1hRcmtkaURi?oc=5",
           "importance": 2,
-          "source": "株探"
+          "source": "BigGo ファイナンス"
+        },
+        {
+          "id": "eec3cc2636d0",
+          "title": "中国軍幹部2名を過酷粛清！ 党籍剥奪が及ぼす台湾海峡と日本の安全保障への衝撃波",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fYnZ1eWZCczZ1WjRmUTJ6RU94LXJLZElpYW1lS0dvV2lDVmsxa2VXZFNvcU15bFdGTHhWcnZtcFp0YmtuZ3Fnck1RdTVpb00wT1l3SUw3aUJPSmFXVkdlTzVxZU9IVUM1dmZiU3NMeXNLR2c?oc=5",
+          "importance": 2,
+          "source": "ニコニコニュース"
+        },
+        {
+          "id": "ed2664c17c7c",
+          "title": "【独占インタビュー】「北京は何をしても不満を示す」 英国元国防相、台湾防衛は「いくら急いでも急ぎすぎることはない」",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ORkFkMy03V2VtVkpoc2FXOVJxbW95UlFSYjNER204WnU2YUFYZFYydjQ2UkJ0SW14T0lEMkNqVjVhZ1VoU3lHLVpBSzZDaFVN?oc=5",
+          "importance": 2,
+          "source": "風傳媒"
         }
       ],
       "stocks": [
         {
-          "code": "6146",
-          "name": "ディスコ",
-          "positive": 1,
-          "negative": 1,
+          "code": "1540",
+          "name": "純金上場信託(現物国内保管型)",
+          "positive": 4,
+          "negative": 0,
           "watch": 0
         }
       ],
-      "max_importance": 5,
+      "max_importance": 2,
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -5397,12 +6422,15 @@
         "e81fc6e622b1",
         "7efa2d7e1f79",
         "2f78f370a276",
+        "a43a47c1a498",
         "7440a49a6e49",
+        "df5aef13d5a1",
         "d5e69e8cda64",
-        "8d269f56f75c",
+        "de59ddb1b1b1",
         "1ae4b896b5b4",
         "f5adfc707c6a",
         "3faac431f59f",
+        "eec3cc2636d0",
         "ed2664c17c7c",
         "1a29ed514f7d",
         "f592ce4d1f61"
@@ -5420,7 +6448,7 @@
           "title": "レアアース輸出正常化、焦点に（時事通信）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52eW9wUFJ6ck5mX1FGbWtuanNhbVBkRGtvYXdGaTRfQUZzVzJRQXAzaFZRVkEtb05RS1NKT2FfakhXbzRqMFA5VnhjdmlSZW1yc3lGY3ZtSHNTR2x2MzBMT01Cd0I1RU5aRjR0VTNkNUwwalUtZFp5N1AzYzVGMDQ?oc=5",
           "importance": 3,
-          "source": "news.yahoo.co.jp"
+          "source": "Yahoo!ニュース"
         },
         {
           "id": "2f78f370a276",
@@ -5430,11 +6458,25 @@
           "source": "Vietnam.vn"
         },
         {
+          "id": "a43a47c1a498",
+          "title": "中国の駐米大使、首脳会談前に「レッドライン」警告 台湾や人権巡り",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMjJOLXUtMjlYTHF2UF9yMkUwS3dmQlRCNkk4ajBCQWtBdWNFSWdSUDFDN1p2WF9LYUZwVi1ENjNVdHh3LTNkelZKQ0xBOGlUVU8wU01pRUw5NTEzUU5aR3N5NEV5TjN3d2szd1ZJTXVvUkJNMkh6VFVFenZGSEFrTmFQSTE?oc=5",
+          "importance": 2,
+          "source": "Reuters"
+        },
+        {
           "id": "7440a49a6e49",
           "title": "米国株式市場＝ナスダック連日最高値、ＡＩ関連株高で 米中首脳会談に注目",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSEJPSkZxeWdZRmFmYXFidkJ3VGl5bWZVa1VQZGVwb0NoSnJsbjNsU0V2QlRfLU1vUDVwYklCcHI1dzBtNFpXMzNFTGd6YlR2Y1hZdzhxZF8zeHZiMnR0Q0ZGenRRNFFwNVItZ2JLSjR2VWRqNzl6VHdBZGRsUDJQRFdlM0xMdw?oc=5",
           "importance": 2,
           "source": "Reuters"
+        },
+        {
+          "id": "df5aef13d5a1",
+          "title": "米国株式市場概況・22日 ダウ反落・ナスダック史上最高値",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iR25zRlN1RU5xN0hnS1Y2dGRxYkhpMnVVRURkMWwtdGlQZDRoTlg1OXNUa0VIdC01RUxUSTJNUlpSTG9wSWhnZ2JRYVNDWFJhWV9sVGVla2VYUDdVZHhBRFB3TmZ0c2JpOGNkZDI0bzg?oc=5",
+          "importance": 2,
+          "source": "TradingView"
         },
         {
           "id": "d5e69e8cda64",
@@ -5444,11 +6486,11 @@
           "source": "株探"
         },
         {
-          "id": "8d269f56f75c",
-          "title": "米国株3指数がそろって上昇、ナスダックは2.26%高で約4カ月ぶり史上最高値更新",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03dFkxUlBfN0J0dnNRcnEtcHdoZlBCYUk1WV9fNmhGeWxZajhsVWVLTXVlLWlGVEJkb29NWmtzaGwxOEJxanpuLXAyTmR0eDlvNmstWHFwT0paSk43YWUzUkEtWlRaZXhJbGdoQ0FVajlNMFU4?oc=5",
+          "id": "de59ddb1b1b1",
+          "title": "NYダウ、一進一退で始まる 原油安支えにナスダック総合は続伸",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBLQ3BNSXdBRVc2UGJjanF0MDgxUkM1Q245aVNwYTdHUGhpU0ZLN0hKOHN2MWQ5blBWTzVFcGZNSU9IOXFrSG1HbjFDRnhBNGVTOC1wTkdCWnEzcmpaRElnU3Y5ODRVZDVFTThERA?oc=5",
           "importance": 2,
-          "source": "BigGo ファイナンス"
+          "source": "日本経済新聞"
         },
         {
           "id": "1ae4b896b5b4",
@@ -5472,6 +6514,13 @@
           "source": "TradingKey"
         },
         {
+          "id": "eec3cc2636d0",
+          "title": "中国軍幹部2名を過酷粛清！ 党籍剥奪が及ぼす台湾海峡と日本の安全保障への衝撃波",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fYnZ1eWZCczZ1WjRmUTJ6RU94LXJLZElpYW1lS0dvV2lDVmsxa2VXZFNvcU15bFdGTHhWcnZtcFp0YmtuZ3Fnck1RdTVpb00wT1l3SUw3aUJPSmFXVkdlTzVxZU9IVUM1dmZiU3NMeXNLR2c?oc=5",
+          "importance": 2,
+          "source": "ニコニコニュース"
+        },
+        {
           "id": "ed2664c17c7c",
           "title": "【独占インタビュー】「北京は何をしても不満を示す」 英国元国防相、台湾防衛は「いくら急いでも急ぎすぎることはない」",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ORkFkMy03V2VtVkpoc2FXOVJxbW95UlFSYjNER204WnU2YUFYZFYydjQ2UkJ0SW14T0lEMkNqVjVhZ1VoU3lHLVpBSzZDaFVN?oc=5",
@@ -5483,7 +6532,7 @@
           "title": "NYダウが366ドル高、AI関連で上昇目立つ ナスダックは最高値更新",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR1oxWEhhbFNzcEx5eHhValZGZ0x4TUhwQU1ZTWdGS1dIOWo0WXBiZlI1a003VUhGRGRnQUgzSE9UdHlqNTRNc28wOWhfMUQ2VzA4UDM2RzdxTHdjbkJQdnFlZ3c1ZmNXeXJ3Zw?oc=5",
           "importance": 2,
-          "source": "nikkei.com"
+          "source": "日本経済新聞"
         },
         {
           "id": "f592ce4d1f61",
@@ -5497,15 +6546,15 @@
         {
           "code": "9984",
           "name": "ソフトバンクグループ",
-          "positive": 3,
+          "positive": 2,
           "negative": 1,
-          "watch": 4
+          "watch": 6
         },
         {
           "code": "8035",
           "name": "東京エレクトロン",
           "positive": 1,
-          "negative": 2,
+          "negative": 4,
           "watch": 0
         },
         {
@@ -5566,14 +6615,17 @@
       "category_emoji": "🔗",
       "member_ids": [
         "e81fc6e622b1",
+        "679981489157",
         "4c18599c5f9a",
-        "4e8688c781cf",
+        "a43a47c1a498",
         "7440a49a6e49",
+        "df5aef13d5a1",
         "d5e69e8cda64",
-        "8d269f56f75c",
+        "de59ddb1b1b1",
         "1ae4b896b5b4",
         "f5adfc707c6a",
         "3faac431f59f",
+        "eec3cc2636d0",
         "ed2664c17c7c",
         "1a29ed514f7d",
         "f592ce4d1f61"
@@ -5587,6 +6639,13 @@
           "source": "産経ニュース"
         },
         {
+          "id": "679981489157",
+          "title": "米国務長官ルビオ氏、ロシアとウクライナのエネルギー停戦合意は未成立と説明",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCa0c2a3diT3Y1aVdXNWhnY3pCNVMtcnNkd1hTRm9GZ3JaMmdOSS1EU3pxNFduQm1MNUNhOVRGeHRyTUNfSmlBZmdYYW9kRjFFR2NiOXhlcVhrQTJPTnZYdlNLbw?oc=5",
+          "importance": 4,
+          "source": "Межа. Новини України."
+        },
+        {
           "id": "4c18599c5f9a",
           "title": "ゼレンスキー氏、ロシアとのエネルギー停戦に応じる用意 トランプ氏と会談 | ロイター",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWUdqYUxyY1VMUXBWd2dtMm9CU05rOGk2THE4U3dLUm1WOEFzLXRzZnhUSHNoOVRKbkRBT3VpYWExWGxVZElLa3VYb3VWcmxoNEFodlM5U1FmZlpoOTZDSXBzc3dBNjhlRWUtZ2RsaWpHYnU3bGc5djB1OWl3dWtFb1lxR29BQQ?oc=5",
@@ -5594,10 +6653,10 @@
           "source": "Reuters"
         },
         {
-          "id": "4e8688c781cf",
-          "title": "ロ・ウクライナのエネルギー停戦巡りトランプ氏と協議＝仏大統領",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaFRPT3RpSGNGV3V4NHY0eVV6YTltOFhBRTk3WnpkVjMtbGlPczlpN2NkUVdYQjZtRlhQMHFZWmQyanN3MW9tZkQwOVBsQ2d1cGxTS1JMcGFBSFpPaGpUSXFrTmU2VHZwVHlhMG12cnBXMmFJM0lhV05ya3VZTHptREdQRFlOQQ?oc=5",
-          "importance": 4,
+          "id": "a43a47c1a498",
+          "title": "中国の駐米大使、首脳会談前に「レッドライン」警告 台湾や人権巡り",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMjJOLXUtMjlYTHF2UF9yMkUwS3dmQlRCNkk4ajBCQWtBdWNFSWdSUDFDN1p2WF9LYUZwVi1ENjNVdHh3LTNkelZKQ0xBOGlUVU8wU01pRUw5NTEzUU5aR3N5NEV5TjN3d2szd1ZJTXVvUkJNMkh6VFVFenZGSEFrTmFQSTE?oc=5",
+          "importance": 2,
           "source": "Reuters"
         },
         {
@@ -5608,6 +6667,13 @@
           "source": "Reuters"
         },
         {
+          "id": "df5aef13d5a1",
+          "title": "米国株式市場概況・22日 ダウ反落・ナスダック史上最高値",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iR25zRlN1RU5xN0hnS1Y2dGRxYkhpMnVVRURkMWwtdGlQZDRoTlg1OXNUa0VIdC01RUxUSTJNUlpSTG9wSWhnZ2JRYVNDWFJhWV9sVGVla2VYUDdVZHhBRFB3TmZ0c2JpOGNkZDI0bzg?oc=5",
+          "importance": 2,
+          "source": "TradingView"
+        },
+        {
           "id": "d5e69e8cda64",
           "title": "ダウ平均は反落 金融株が下落 半導体が買われナスダックはしっかり＝米国株概況",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yRGVCLTZWYk51QlhlMGIzeGlzcWFabV9QUV9xVTZuc1hmY05nRlEtVWVRaXpuTVZsYncxdXRJay02WWRmcEdqUHBhckpaZVAzNUE?oc=5",
@@ -5615,11 +6681,11 @@
           "source": "株探"
         },
         {
-          "id": "8d269f56f75c",
-          "title": "米国株3指数がそろって上昇、ナスダックは2.26%高で約4カ月ぶり史上最高値更新",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03dFkxUlBfN0J0dnNRcnEtcHdoZlBCYUk1WV9fNmhGeWxZajhsVWVLTXVlLWlGVEJkb29NWmtzaGwxOEJxanpuLXAyTmR0eDlvNmstWHFwT0paSk43YWUzUkEtWlRaZXhJbGdoQ0FVajlNMFU4?oc=5",
+          "id": "de59ddb1b1b1",
+          "title": "NYダウ、一進一退で始まる 原油安支えにナスダック総合は続伸",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBLQ3BNSXdBRVc2UGJjanF0MDgxUkM1Q245aVNwYTdHUGhpU0ZLN0hKOHN2MWQ5blBWTzVFcGZNSU9IOXFrSG1HbjFDRnhBNGVTOC1wTkdCWnEzcmpaRElnU3Y5ODRVZDVFTThERA?oc=5",
           "importance": 2,
-          "source": "BigGo ファイナンス"
+          "source": "日本経済新聞"
         },
         {
           "id": "1ae4b896b5b4",
@@ -5643,6 +6709,13 @@
           "source": "TradingKey"
         },
         {
+          "id": "eec3cc2636d0",
+          "title": "中国軍幹部2名を過酷粛清！ 党籍剥奪が及ぼす台湾海峡と日本の安全保障への衝撃波",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fYnZ1eWZCczZ1WjRmUTJ6RU94LXJLZElpYW1lS0dvV2lDVmsxa2VXZFNvcU15bFdGTHhWcnZtcFp0YmtuZ3Fnck1RdTVpb00wT1l3SUw3aUJPSmFXVkdlTzVxZU9IVUM1dmZiU3NMeXNLR2c?oc=5",
+          "importance": 2,
+          "source": "ニコニコニュース"
+        },
+        {
           "id": "ed2664c17c7c",
           "title": "【独占インタビュー】「北京は何をしても不満を示す」 英国元国防相、台湾防衛は「いくら急いでも急ぎすぎることはない」",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ORkFkMy03V2VtVkpoc2FXOVJxbW95UlFSYjNER204WnU2YUFYZFYydjQ2UkJ0SW14T0lEMkNqVjVhZ1VoU3lHLVpBSzZDaFVN?oc=5",
@@ -5654,7 +6727,7 @@
           "title": "NYダウが366ドル高、AI関連で上昇目立つ ナスダックは最高値更新",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR1oxWEhhbFNzcEx5eHhValZGZ0x4TUhwQU1ZTWdGS1dIOWo0WXBiZlI1a003VUhGRGRnQUgzSE9UdHlqNTRNc28wOWhfMUQ2VzA4UDM2RzdxTHdjbkJQdnFlZ3c1ZmNXeXJ3Zw?oc=5",
           "importance": 2,
-          "source": "nikkei.com"
+          "source": "日本経済新聞"
         },
         {
           "id": "f592ce4d1f61",
@@ -5668,21 +6741,21 @@
         {
           "code": "9984",
           "name": "ソフトバンクグループ",
-          "positive": 3,
+          "positive": 2,
           "negative": 1,
-          "watch": 4
+          "watch": 6
         },
         {
           "code": "8035",
           "name": "東京エレクトロン",
           "positive": 1,
-          "negative": 2,
+          "negative": 4,
           "watch": 0
         },
         {
           "code": "6701",
           "name": "日本電気",
-          "positive": 1,
+          "positive": 3,
           "negative": 2,
           "watch": 0
         },
@@ -5733,7 +6806,7 @@
         "7efa2d7e1f79",
         "2f78f370a276",
         "7440a49a6e49",
-        "8d269f56f75c",
+        "df5aef13d5a1",
         "f5adfc707c6a",
         "3faac431f59f",
         "1a29ed514f7d",
@@ -5752,7 +6825,7 @@
           "title": "レアアース輸出正常化、焦点に（時事通信）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52eW9wUFJ6ck5mX1FGbWtuanNhbVBkRGtvYXdGaTRfQUZzVzJRQXAzaFZRVkEtb05RS1NKT2FfakhXbzRqMFA5VnhjdmlSZW1yc3lGY3ZtSHNTR2x2MzBMT01Cd0I1RU5aRjR0VTNkNUwwalUtZFp5N1AzYzVGMDQ?oc=5",
           "importance": 3,
-          "source": "news.yahoo.co.jp"
+          "source": "Yahoo!ニュース"
         },
         {
           "id": "2f78f370a276",
@@ -5769,11 +6842,11 @@
           "source": "Reuters"
         },
         {
-          "id": "8d269f56f75c",
-          "title": "米国株3指数がそろって上昇、ナスダックは2.26%高で約4カ月ぶり史上最高値更新",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03dFkxUlBfN0J0dnNRcnEtcHdoZlBCYUk1WV9fNmhGeWxZajhsVWVLTXVlLWlGVEJkb29NWmtzaGwxOEJxanpuLXAyTmR0eDlvNmstWHFwT0paSk43YWUzUkEtWlRaZXhJbGdoQ0FVajlNMFU4?oc=5",
+          "id": "df5aef13d5a1",
+          "title": "米国株式市場概況・22日 ダウ反落・ナスダック史上最高値",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iR25zRlN1RU5xN0hnS1Y2dGRxYkhpMnVVRURkMWwtdGlQZDRoTlg1OXNUa0VIdC01RUxUSTJNUlpSTG9wSWhnZ2JRYVNDWFJhWV9sVGVla2VYUDdVZHhBRFB3TmZ0c2JpOGNkZDI0bzg?oc=5",
           "importance": 2,
-          "source": "BigGo ファイナンス"
+          "source": "TradingView"
         },
         {
           "id": "f5adfc707c6a",
@@ -5794,7 +6867,7 @@
           "title": "NYダウが366ドル高、AI関連で上昇目立つ ナスダックは最高値更新",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR1oxWEhhbFNzcEx5eHhValZGZ0x4TUhwQU1ZTWdGS1dIOWo0WXBiZlI1a003VUhGRGRnQUgzSE9UdHlqNTRNc28wOWhfMUQ2VzA4UDM2RzdxTHdjbkJQdnFlZ3c1ZmNXeXJ3Zw?oc=5",
           "importance": 2,
-          "source": "nikkei.com"
+          "source": "日本経済新聞"
         },
         {
           "id": "f592ce4d1f61",
@@ -5808,9 +6881,9 @@
         {
           "code": "7203",
           "name": "トヨタ自動車",
-          "positive": 3,
+          "positive": 2,
           "negative": 3,
-          "watch": 3
+          "watch": 4
         },
         {
           "code": "7267",
@@ -5852,7 +6925,7 @@
         "7efa2d7e1f79",
         "2f78f370a276",
         "7440a49a6e49",
-        "8d269f56f75c",
+        "df5aef13d5a1",
         "f5adfc707c6a",
         "3faac431f59f",
         "1a29ed514f7d",
@@ -5871,7 +6944,7 @@
           "title": "レアアース輸出正常化、焦点に（時事通信）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52eW9wUFJ6ck5mX1FGbWtuanNhbVBkRGtvYXdGaTRfQUZzVzJRQXAzaFZRVkEtb05RS1NKT2FfakhXbzRqMFA5VnhjdmlSZW1yc3lGY3ZtSHNTR2x2MzBMT01Cd0I1RU5aRjR0VTNkNUwwalUtZFp5N1AzYzVGMDQ?oc=5",
           "importance": 3,
-          "source": "news.yahoo.co.jp"
+          "source": "Yahoo!ニュース"
         },
         {
           "id": "2f78f370a276",
@@ -5888,11 +6961,11 @@
           "source": "Reuters"
         },
         {
-          "id": "8d269f56f75c",
-          "title": "米国株3指数がそろって上昇、ナスダックは2.26%高で約4カ月ぶり史上最高値更新",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03dFkxUlBfN0J0dnNRcnEtcHdoZlBCYUk1WV9fNmhGeWxZajhsVWVLTXVlLWlGVEJkb29NWmtzaGwxOEJxanpuLXAyTmR0eDlvNmstWHFwT0paSk43YWUzUkEtWlRaZXhJbGdoQ0FVajlNMFU4?oc=5",
+          "id": "df5aef13d5a1",
+          "title": "米国株式市場概況・22日 ダウ反落・ナスダック史上最高値",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iR25zRlN1RU5xN0hnS1Y2dGRxYkhpMnVVRURkMWwtdGlQZDRoTlg1OXNUa0VIdC01RUxUSTJNUlpSTG9wSWhnZ2JRYVNDWFJhWV9sVGVla2VYUDdVZHhBRFB3TmZ0c2JpOGNkZDI0bzg?oc=5",
           "importance": 2,
-          "source": "BigGo ファイナンス"
+          "source": "TradingView"
         },
         {
           "id": "f5adfc707c6a",
@@ -5913,7 +6986,7 @@
           "title": "NYダウが366ドル高、AI関連で上昇目立つ ナスダックは最高値更新",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR1oxWEhhbFNzcEx5eHhValZGZ0x4TUhwQU1ZTWdGS1dIOWo0WXBiZlI1a003VUhGRGRnQUgzSE9UdHlqNTRNc28wOWhfMUQ2VzA4UDM2RzdxTHdjbkJQdnFlZ3c1ZmNXeXJ3Zw?oc=5",
           "importance": 2,
-          "source": "nikkei.com"
+          "source": "日本経済新聞"
         },
         {
           "id": "f592ce4d1f61",
@@ -5927,9 +7000,9 @@
         {
           "code": "7203",
           "name": "トヨタ自動車",
-          "positive": 3,
+          "positive": 2,
           "negative": 3,
-          "watch": 3
+          "watch": 4
         },
         {
           "code": "7267",
@@ -5962,7 +7035,7 @@
   "verification_status": {
     "phase": "accumulating",
     "phase_label": "データ蓄積中",
-    "total_themes": 15,
+    "total_themes": 16,
     "age_ge": {
       "7": 0,
       "14": 0,
@@ -5977,10 +7050,10 @@
     "milestones": {
       "accumulating": "2026-09-21"
     },
-    "last_computed_at": "2026-09-23T10:28:16+09:00"
+    "last_computed_at": "2026-09-23T13:58:20+09:00"
   },
   "counts": {
-    "news": 27,
+    "news": 30,
     "high_importance": 3,
     "stocks": 20
   }
