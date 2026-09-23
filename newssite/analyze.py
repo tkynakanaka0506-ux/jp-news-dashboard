@@ -124,6 +124,15 @@ def build_news(feeds=None, rules=None, master=None, use_llm=True, limit=MAX_NEWS
         if impact_mod.is_noise(title, rules):
             continue
         themes = impact_mod.match_themes(title, rules)
+        # [PRESENTATION LAYER] マクロ材料の伝播経路(第9優先改修②、ユーザー提案)。
+        # 「FRB→金利→グロース→半導体・AI→日経先物→日本株」のような固定の
+        # 因果の連なりを、rules.jsonのthemes[].transmission_chain(任意項目)
+        # からそのまま拾うだけ。新しい判定は行わず、theme/direction/impacts
+        # (FACTUAL LAYER)には一切影響しない。複数テーマが該当してもチェーンを
+        # 持つ最初の1つだけを表示する(複数チェーンの同時表示は視覚的に煩雑)。
+        transmission_chain = next(
+            (t["transmission_chain"] for t in themes if t.get("transmission_chain")), None
+        )
         stars, reason = impact_mod.score_importance(item, themes, rules)
         impacts = impact_mod.affected_stocks(item, themes, rules, master, max_items=8)
         category = impact_mod.pick_category(item, themes, rules)
@@ -190,6 +199,7 @@ def build_news(feeds=None, rules=None, master=None, use_llm=True, limit=MAX_NEWS
             "policy_event_state": policy_event_state,
             "themes": [t["label"] for t in themes],
             "theme_ids": [t["id"] for t in themes if t.get("id")],
+            "transmission_chain": transmission_chain,
             "summary": "",
             "impact_comment": "",
             "impacts": impacts,

@@ -308,6 +308,17 @@ def news_card_html(item, now):
         if item.get("impact_comment") else ""
     )
     themes = "".join(f'<span class="theme-tag">#{esc(t)}</span>' for t in item.get("themes", []))
+    # マクロ材料の伝播経路(第9優先改修②、ユーザー提案)。「なぜ今日のこの
+    # ニュースが日本株に関係するのか」を小さな経路図として見せる。
+    # transmission_chainはPRESENTATION LAYER専用の表示情報(rules.jsonの
+    # themes[].transmission_chain由来)で、影響銘柄の判定には一切使わない。
+    chain = item.get("transmission_chain")
+    transmission_block = (
+        f'<div class="transmission-chain" title="マクロ材料が日本株へ伝播する経路の一例。'
+        f'実際の値動きを保証するものではありません">'
+        + " → ".join(f'<span class="chain-step">{esc(step)}</span>' for step in chain)
+        + "</div>"
+    ) if chain else ""
     related = ""
     if item.get("related"):
         links = "".join(
@@ -394,6 +405,7 @@ def news_card_html(item, now):
       {summary}
       {comment}
       <div class="insight-line"><span class="insight-label">重要度の根拠</span>{esc(item.get('importance_reason', ''))}</div>
+      {transmission_block}
       {impact_block}
       {related}
     </article>"""
@@ -907,6 +919,12 @@ header.site>*{position:relative}
 .insight-label{flex-shrink:0;font-size:10.5px;font-weight:700;letter-spacing:.07em;
   color:var(--accent-2);background:rgba(34,211,238,.08);border:1px solid rgba(34,211,238,.28);
   border-radius:4px;padding:1px 6px}
+/* [第9優先改修②] マクロ材料の伝播経路。断定の予言ではなく「一例」で
+   あることをtitle属性でも明示している(render.py参照)。 */
+.transmission-chain{margin:6px 0;font-size:12px;color:var(--muted);
+  display:flex;flex-wrap:wrap;align-items:center;gap:4px;
+  background:var(--card-2);border:1px dashed var(--line);border-radius:8px;padding:6px 10px}
+.chain-step{white-space:nowrap}
 
 .impact-block{margin-top:12px;border-top:1px dashed var(--line);padding-top:12px}
 .impact-block.empty{font-size:14px;color:var(--muted)}
