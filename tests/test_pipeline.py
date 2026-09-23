@@ -222,6 +222,48 @@ class ImpactTest(unittest.TestCase):
         miss = [t["id"] for t in impact_mod.match_themes("日銀総裁が記者会見", self.rules)]
         self.assertNotIn("boj_hike", miss)
 
+    # ニュースボードに「マクロ材料→市場→セクター→個別銘柄」の伝播経路を
+    # 取り込む改修の①段階(ユーザー提案)。FRB/FOMCのタカ派材料を、既存の
+    # boj_hike(日銀)と同じ「テーマ→impacts」の1段階の仕組みでまず追加する。
+    def test_fed_hawkish_theme_matches_frb_headline_not_boj(self):
+        hit = [t["id"] for t in impact_mod.match_themes("FRBが利上げを決定、パウエル議長はタカ派姿勢を強調", self.rules)]
+        self.assertIn("fed_hawkish", hit)
+        self.assertNotIn("boj_hike", hit)  # 日銀のキーワードを含まないため誤帰属しない
+
+    def test_fed_hawkish_theme_excludes_boj_headline(self):
+        # "日銀"を含む見出しはexcludeでfed_hawkishとして誤帰属しない
+        # (見出しに"FRB"を含まないため、そもそもAND条件で一致しないが、
+        # 万一将来キーワードが緩んだ場合の回帰防止としてexclude自体も確認する)。
+        miss = [t["id"] for t in impact_mod.match_themes("日銀とFRBが金融政策を議論", self.rules)]
+        self.assertNotIn("fed_hawkish", miss)
+
+    def test_fed_hawkish_affects_growth_and_semiconductor_themes(self):
+        # 「グロース」「半導体/半導体製造装置/AI」への影響銘柄が実際に
+        # 引ける(東京エレクトロン・アドバンテスト・レーザーテック等、
+        # ユーザー例示の銘柄がstocks.jsonのテーマタグ経由で拾えること)。
+        item = self._item("FOMCが利上げを決定、米金利は高止まりの見通し")
+        themes = impact_mod.match_themes(item["title"], self.rules)
+        theme_ids = [t["id"] for t in themes]
+        self.assertIn("fed_hawkish", theme_ids)
+        impacts = impact_mod.affected_stocks(item, themes, self.rules, self.master, max_items=20)
+        codes = {i["code"] for i in impacts}
+        self.assertTrue({"8035", "6857", "6920"} & codes, "東京エレクトロン/アドバンテスト/レーザーテックのいずれも影響銘柄に出ていません")
+        for i in impacts:
+            if i.get("theme_id") == "fed_hawkish":
+                self.assertEqual(i["direction"], "negative")  # 「下がる」と断定せず「圧迫されやすい」旨はreason側で表現
+
+    def test_fed_hawkish_growth_impact_is_primary_tier_semiconductor_is_secondary(self):
+        # 「FRB→金利→グロース(1段階目)→半導体/AI(2段階目)」という伝播の
+        # 距離感を、新しい仕組みを作らず既存のbeneficiary_tier
+        # (direct/primary/secondary/peripheral)でそのまま表現する。
+        theme = next(t for t in self.rules.themes if t["id"] == "fed_hawkish")
+        tier_by_theme = {}
+        for rule in theme["impacts"]:
+            for name in rule["themes"]:
+                tier_by_theme[name] = rule.get("beneficiary_tier")
+        self.assertEqual(tier_by_theme["グロース"], "primary")
+        self.assertEqual(tier_by_theme["半導体"], "secondary")
+
     def test_importance_rises_with_keyword_and_coverage(self):
         plain = self._item("東証、小幅続伸で取引を終える")
         big = self._item("日銀が追加利上げを決定、長期金利は上昇",

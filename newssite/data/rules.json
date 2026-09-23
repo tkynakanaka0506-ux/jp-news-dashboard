@@ -348,6 +348,49 @@
       ]
     },
     {
+      "id": "fed_hawkish",
+      "label": "FRBの金融引き締め長期化(タカ派)",
+      "category": "policy",
+      "weight": 4,
+      "keywords": [
+        "FRB 利上げ",
+        "FOMC 利上げ",
+        "米利上げ",
+        "米政策金利 据え置き",
+        "米金利 高止まり",
+        "パウエル議長 タカ派"
+      ],
+      "exclude": [
+        "日銀"
+      ],
+      "impacts": [
+        {
+          "themes": [
+            "グロース"
+          ],
+          "limit": 6,
+          "direction": "negative",
+          "strength": "中",
+          "reason": "米金利の高止まり観測は割引率上昇を通じて高PER銘柄のバリュエーションを圧迫しやすく、米国のグロース株経由で日本のグロース株にも波及しやすい",
+          "beneficiary_tier": "primary",
+          "revenue_horizon": "0-3m"
+        },
+        {
+          "themes": [
+            "半導体",
+            "半導体製造装置",
+            "AI"
+          ],
+          "limit": 6,
+          "direction": "negative",
+          "strength": "小",
+          "reason": "米国のAI・半導体関連グロース株のバリュエーション調整が、同じテーマ性を持つ日本の半導体関連株に連想売りとして波及しやすい",
+          "beneficiary_tier": "secondary",
+          "revenue_horizon": "0-3m"
+        }
+      ]
+    },
+    {
       "id": "rate_cut",
       "label": "利下げ・金融緩和",
       "category": "policy",
