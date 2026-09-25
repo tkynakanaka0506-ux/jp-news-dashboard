@@ -235,7 +235,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 63,
+   "occurrences": 64,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -275,7 +275,7 @@
    "milestones": {
     "government_foreign": "2026-09-25"
    },
-   "occurrences": 2
+   "occurrences": 3
   },
   "jp_politics": {
    "events": [
@@ -390,6 +390,24 @@
      ],
      "source": "首相官邸",
      "title": "木原内閣官房長官は次官連絡会議を開催しました"
+    },
+    {
+     "actor_types": [
+      "government_jp",
+      "media"
+     ],
+     "date": "2026-09-25",
+     "item_id": "abd55e33cca1",
+     "origin_region": "日本",
+     "regions": [
+      "日本"
+     ],
+     "signals": [
+      "gov_source",
+      "multi_source"
+     ],
+     "source": "財務省",
+     "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年9月25日(金曜日))"
     }
    ],
    "first_seen": "2026-09-20",
@@ -397,7 +415,7 @@
     "government_jp": "2026-09-20",
     "media": "2026-09-20"
    },
-   "occurrences": 25,
+   "occurrences": 26,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
@@ -475,6 +493,12 @@
     "government_foreign": "2026-09-21"
    },
    "occurrences": 21
+  },
+  "power_demand": {
+   "events": [],
+   "first_seen": "2026-09-25",
+   "milestones": {},
+   "occurrences": 1
   },
   "rare_earth": {
    "events": [
@@ -564,7 +588,7 @@
    "milestones": {
     "media": "2026-09-20"
    },
-   "occurrences": 53
+   "occurrences": 54
   },
   "rate_cut": {
    "events": [
@@ -587,7 +611,7 @@
    "milestones": {
     "government_foreign": "2026-09-20"
    },
-   "occurrences": 15,
+   "occurrences": 16,
    "signals": {}
   },
   "semi_demand": {
@@ -637,7 +661,7 @@
    "milestones": {
     "media": "2026-09-24"
    },
-   "occurrences": 46,
+   "occurrences": 47,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -922,13 +946,28 @@
      ],
      "source": "Yahoo!ニュース",
      "title": "台湾は日本から輸入、でもその原料は中国から―「国名表示」だけでは見えない日台・経済安全保障の急所"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-09-25",
+     "item_id": "bedec97c3a2c",
+     "origin_region": null,
+     "regions": [
+      "中国",
+      "台湾"
+     ],
+     "signals": [
+      "foreign"
+     ],
+     "source": "CNN.co.jp",
+     "title": "習氏、トランプ氏に「台湾独立反対」を要請 中国国営メディア"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
     "international_org": "2026-09-24"
    },
-   "occurrences": 43,
+   "occurrences": 44,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -969,7 +1008,7 @@
    "milestones": {
     "government_jp": "2026-09-24"
    },
-   "occurrences": 11
+   "occurrences": 12
   },
   "ukraine_russia": {
    "events": [
@@ -1336,7 +1375,7 @@
     "international_org": "2026-09-24",
     "media": "2026-09-24"
    },
-   "occurrences": 33,
+   "occurrences": 34,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -1692,6 +1731,22 @@
      ],
      "source": "Bloomberg.com",
      "title": "日銀の利上げ後も円安基調が続く理由とは－金利差と介入効果の限界"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-09-25",
+     "item_id": "7c33526f3565",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "multi_source"
+     ],
+     "source": "Yahoo!ニュース",
+     "title": "円安進み1ドル＝159円台に 約3週間ぶり アメリカの利上げ観測高まり受け（テレビ朝日系（ANN））"
     }
    ],
    "first_seen": "2026-09-20",
@@ -1699,7 +1754,7 @@
     "government_foreign": "2026-09-21",
     "media": "2026-09-24"
    },
-   "occurrences": 57,
+   "occurrences": 58,
    "signals": {}
   }
  }
