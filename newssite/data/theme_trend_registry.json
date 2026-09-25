@@ -184,6 +184,48 @@
      ],
      "source": "沖縄タイムス社",
      "title": "長期金利上昇3・075％ 30年ぶり高水準 米金利上昇が波及"
+    },
+    {
+     "actor_types": [
+      "government_foreign"
+     ],
+     "date": "2026-09-25",
+     "item_id": "83014a7cd97b",
+     "origin_region": "米国",
+     "regions": [
+      "米国"
+     ],
+     "signals": [],
+     "source": "財経新聞",
+     "title": "米長期金利が約22年ぶり高水準、30年債利回り5.47%　FRB高官は追加利上げに含み"
+    },
+    {
+     "actor_types": [
+      "government_foreign"
+     ],
+     "date": "2026-09-25",
+     "item_id": "b317d89b8f3d",
+     "origin_region": "米国",
+     "regions": [
+      "米国"
+     ],
+     "signals": [],
+     "source": "日本経済新聞",
+     "title": "米長期金利が上昇、19年ぶり5.2%台 FRB10月利上げ予想7割に拡大"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-09-25",
+     "item_id": "2d00d76e4897",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "multi_source"
+     ],
+     "source": "朝日新聞",
+     "title": "長期金利、一時3.1% 米金利上昇の波及続き、30年ぶり高水準"
     }
    ],
    "first_seen": "2026-09-20",
@@ -193,10 +235,47 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 61,
+   "occurrences": 62,
    "signals": {
     "multi_source": "2026-09-20"
    }
+  },
+  "fed_hawkish": {
+   "events": [
+    {
+     "actor_types": [
+      "government_foreign"
+     ],
+     "date": "2026-09-25",
+     "item_id": "83014a7cd97b",
+     "origin_region": "米国",
+     "regions": [
+      "米国"
+     ],
+     "signals": [],
+     "source": "財経新聞",
+     "title": "米長期金利が約22年ぶり高水準、30年債利回り5.47%　FRB高官は追加利上げに含み"
+    },
+    {
+     "actor_types": [
+      "government_foreign"
+     ],
+     "date": "2026-09-25",
+     "item_id": "b317d89b8f3d",
+     "origin_region": "米国",
+     "regions": [
+      "米国"
+     ],
+     "signals": [],
+     "source": "日本経済新聞",
+     "title": "米長期金利が上昇、19年ぶり5.2%台 FRB10月利上げ予想7割に拡大"
+    }
+   ],
+   "first_seen": "2026-09-25",
+   "milestones": {
+    "government_foreign": "2026-09-25"
+   },
+   "occurrences": 1
   },
   "jp_politics": {
    "events": [
@@ -304,7 +383,7 @@
     "government_jp": "2026-09-20",
     "media": "2026-09-20"
    },
-   "occurrences": 22,
+   "occurrences": 23,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
@@ -471,7 +550,7 @@
    "milestones": {
     "media": "2026-09-20"
    },
-   "occurrences": 51
+   "occurrences": 52
   },
   "rate_cut": {
    "events": [
@@ -494,7 +573,7 @@
    "milestones": {
     "government_foreign": "2026-09-20"
    },
-   "occurrences": 13,
+   "occurrences": 14,
    "signals": {}
   },
   "semi_demand": {
@@ -544,7 +623,7 @@
    "milestones": {
     "media": "2026-09-24"
    },
-   "occurrences": 44,
+   "occurrences": 45,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -796,7 +875,7 @@
    "milestones": {
     "international_org": "2026-09-24"
    },
-   "occurrences": 41,
+   "occurrences": 42,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -817,13 +896,27 @@
      ],
      "source": "財務省",
      "title": "関税・外国為替等審議会　第70回外国為替等分科会 資料"
+    },
+    {
+     "actor_types": [
+      "government_jp"
+     ],
+     "date": "2026-09-25",
+     "item_id": "bd2eadc3e5a8",
+     "origin_region": "日本",
+     "regions": [],
+     "signals": [
+      "gov_source"
+     ],
+     "source": "財務省",
+     "title": "令和８年上半期の全国の税関における関税法違反事件の取締り状況"
     }
    ],
    "first_seen": "2026-09-24",
    "milestones": {
     "government_jp": "2026-09-24"
    },
-   "occurrences": 8
+   "occurrences": 9
   },
   "ukraine_russia": {
    "events": [
@@ -1190,7 +1283,7 @@
     "international_org": "2026-09-24",
     "media": "2026-09-24"
    },
-   "occurrences": 31,
+   "occurrences": 32,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -1462,7 +1555,7 @@
    "milestones": {
     "media": "2026-09-23"
    },
-   "occurrences": 61,
+   "occurrences": 62,
    "signals": {}
   },
   "yen_strong": {
@@ -1553,7 +1646,7 @@
     "government_foreign": "2026-09-21",
     "media": "2026-09-24"
    },
-   "occurrences": 55,
+   "occurrences": 56,
    "signals": {}
   }
  }
