@@ -156,6 +156,34 @@
      ],
      "source": "Bloomberg.com",
      "title": "新発10年債利回りが10bp高い3.075%に上昇、米長期金利上昇受けて売り"
+    },
+    {
+     "actor_types": [
+      "corporate"
+     ],
+     "date": "2026-09-25",
+     "item_id": "ce55133fbb73",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "corporate"
+     ],
+     "source": "nomura.co.jp",
+     "title": "野村證券の日銀見通しを変更 利上げ時期を12月に前倒しもターミナルレートは据え置き 野村證券・森田京平"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-09-25",
+     "item_id": "15cad481e6f4",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "multi_source"
+     ],
+     "source": "沖縄タイムス社",
+     "title": "長期金利上昇3・075％ 30年ぶり高水準 米金利上昇が波及"
     }
    ],
    "first_seen": "2026-09-20",
@@ -165,7 +193,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 59,
+   "occurrences": 60,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -276,7 +304,7 @@
     "government_jp": "2026-09-20",
     "media": "2026-09-20"
    },
-   "occurrences": 20,
+   "occurrences": 21,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
@@ -353,7 +381,7 @@
    "milestones": {
     "government_foreign": "2026-09-21"
    },
-   "occurrences": 19
+   "occurrences": 20
   },
   "rare_earth": {
    "events": [
@@ -443,7 +471,7 @@
    "milestones": {
     "media": "2026-09-20"
    },
-   "occurrences": 49
+   "occurrences": 50
   },
   "rate_cut": {
    "events": [
@@ -466,7 +494,7 @@
    "milestones": {
     "government_foreign": "2026-09-20"
    },
-   "occurrences": 11,
+   "occurrences": 12,
    "signals": {}
   },
   "semi_demand": {
@@ -498,13 +526,25 @@
      ],
      "source": "Reuters",
      "title": "米国株式市場＝ナスダック史上最高値、ＡＩ・半導体株高がけん引 | ロイター"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-09-25",
+     "item_id": "37e4e2d2adc9",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "capex"
+     ],
+     "source": "note",
+     "title": "AT&S、Marvell向けAI半導体基板を増産へ――マレーシア拠点を拡張、次世代AIインフラ需要を取り込む"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
     "media": "2026-09-24"
    },
-   "occurrences": 42,
+   "occurrences": 43,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -756,7 +796,7 @@
    "milestones": {
     "international_org": "2026-09-24"
    },
-   "occurrences": 39,
+   "occurrences": 40,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -783,7 +823,7 @@
    "milestones": {
     "government_jp": "2026-09-24"
    },
-   "occurrences": 6
+   "occurrences": 7
   },
   "ukraine_russia": {
    "events": [
@@ -877,7 +917,9 @@
      "title": "トランプ大統領とゼレンスキー大統領が会談 ロシアとの「エネルギー停戦」の提案を明らかに 米側に防空システムの供与を強く求める"
     },
     {
-     "actor_types": [],
+     "actor_types": [
+      "media"
+     ],
      "date": "2026-09-23",
      "item_id": "c5a4a76ac15d",
      "origin_region": null,
@@ -1117,6 +1159,30 @@
      ],
      "source": "ｄメニューニュース",
      "title": "ゼレンスキー氏、停戦なければ「ロシアも苦しい冬に」　国連で外交強化訴え"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-09-25",
+     "item_id": "a50311c3787f",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "ウクルインフォルム通信",
+     "title": "約５０か国、ロシアに対して侵略停止と即時停戦を要求"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-09-25",
+     "item_id": "b80e6b726b60",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "newsdig.tbs.co.jp",
+     "title": "トランプ大統領とゼレンスキー大統領が会談 ロシアとの「エネルギー停戦」の提案を明らかに 米側に防空システムの供与を強く求める"
     }
    ],
    "first_seen": "2026-09-20",
@@ -1124,7 +1190,7 @@
     "international_org": "2026-09-24",
     "media": "2026-09-24"
    },
-   "occurrences": 29,
+   "occurrences": 30,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -1373,13 +1439,30 @@
      ],
      "source": "TradingView",
      "title": "米国株相場、下げ幅縮小 ダウ平均は127ドル安・ナスダックは0.11％安"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-09-25",
+     "item_id": "c061ac8d8ae9",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign",
+      "multi_source"
+     ],
+     "source": "Yahoo!ファイナンス",
+     "title": "米国株式市場、ＮＹダウ３日続落、ナスダックは小反発(ウエルスアドバイザー)"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
     "media": "2026-09-23"
    },
-   "occurrences": 59,
+   "occurrences": 60,
    "signals": {}
   },
   "yen_strong": {
@@ -1470,7 +1553,7 @@
     "government_foreign": "2026-09-21",
     "media": "2026-09-24"
    },
-   "occurrences": 53,
+   "occurrences": 54,
    "signals": {}
   }
  }
