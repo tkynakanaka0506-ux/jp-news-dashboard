@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-25 21:12",
-  "generated_iso": "2026-09-25T21:12:20+09:00",
+  "generated_at": "2026-09-25 21:45",
+  "generated_iso": "2026-09-25T21:45:50+09:00",
   "status": "updated",
   "status_message": "40 件のニュースを取得しました。",
   "llm_used": true,
@@ -65,14 +65,14 @@
     },
     {
       "label": "日経先物",
-      "value": "66,330.00",
+      "value": "66,325.00",
       "change_pct": 0.91,
       "asof": "9/25終値"
     },
     {
       "label": "ドル円",
-      "value": "157.58円",
-      "change_pct": -0.43,
+      "value": "157.75円",
+      "change_pct": -0.33,
       "asof": "9/25終値"
     },
     {
@@ -990,229 +990,6 @@
       "source_tier_label": "二次情報",
       "published_at": "2026-09-24 14:40",
       "published_ts": 1790228435.0,
-      "category": "fx",
-      "category_label": "為替",
-      "category_emoji": "💱",
-      "importance": 5,
-      "importance_reason": "重要語「利上げ」・影響テーマ「円安進行」に該当",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "low",
-      "news_novelty_label": "再報道",
-      "policy_event_id": "yen_weak-20260920-01",
-      "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-09-20",
-      "policy_event_state": "UPDATE",
-      "themes": [
-        "円安進行",
-        "日銀の利上げ・金融正常化"
-      ],
-      "theme_ids": [
-        "yen_weak",
-        "boj_hike"
-      ],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [
-        {
-          "code": "8306",
-          "name": "三菱UFJフィナンシャル・グループ",
-          "sector": "銀行",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "日銀 利上げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8316",
-          "name": "三井住友フィナンシャルグループ",
-          "sector": "銀行",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "日銀 利上げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8411",
-          "name": "みずほフィナンシャルグループ",
-          "sector": "銀行",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "日銀 利上げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8309",
-          "name": "三井住友トラスト・ホールディングス",
-          "sector": "銀行",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "日銀 利上げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7203",
-          "name": "トヨタ自動車",
-          "sector": "自動車",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "円安",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7267",
-          "name": "本田技研工業",
-          "sector": "自動車",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "円安",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7201",
-          "name": "日産自動車",
-          "sector": "自動車",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "円安",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7269",
-          "name": "スズキ",
-          "sector": "自動車",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "円安",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        }
-      ],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "d6c0256e6786",
-      "title": "日銀の利上げ後も円安基調が続く理由とは－金利差と介入効果の限界（Bloomberg）",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAycy1QS1VZRmxKYnBkNVF0WXBlN1psZVVfOFpyaHhxcjlmd1ZKR1M2ZWhRUDJhaW9QZ1RmQkQ2YnU3cWRBU0FJY1ZRbXRDN0tUUEIxUHpMVlB1bmE1M2NDTVFrcjREdWZtSjF2N3lzaTlhOG5aQWFldGdNTzNGamc?oc=5",
-      "source": "Yahoo!ニュース",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-09-24 12:15",
-      "published_ts": 1790219741.0,
       "category": "fx",
       "category_label": "為替",
       "category_emoji": "💱",
@@ -5033,6 +4810,227 @@
       "emergence_growth": {}
     },
     {
+      "id": "b60d3eeb478c",
+      "title": "【速報】トランプ大統領が円安けん制「日米首脳会談で懸念示された」片山財務大臣が明らかに 高市総理も“過小評価は問題”と認識（TBS NEWS DIG Powered by JNN）",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wYnJkcllSZjN6aHdyLUppQTE5blB0S2cwaTZsZ19OdDAzRmZCVUhrQkNqY3N1NGE0Vm9PbDJTYldKX3MyUmZ1cFh2ZU1fTEVtd0xyY0tscGRpLURnMi1VbmNHSVRjSjVnQjZncDY1VTF2R2w0UFFkdXJ1UWIwOGc?oc=5",
+      "source": "Yahoo!ニュース",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-09-25 11:31",
+      "published_ts": 1790303509.0,
+      "category": "fx",
+      "category_label": "為替",
+      "category_emoji": "💱",
+      "importance": 3,
+      "importance_reason": "重要語「大統領」・影響テーマ「円安進行」に該当",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": "yen_weak-20260920-01",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-09-20",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "円安進行"
+      ],
+      "theme_ids": [
+        "yen_weak"
+      ],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "sector": "自動車",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7267",
+          "name": "本田技研工業",
+          "sector": "自動車",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7201",
+          "name": "日産自動車",
+          "sector": "自動車",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7269",
+          "name": "スズキ",
+          "sector": "自動車",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7270",
+          "name": "SUBARU",
+          "sector": "自動車",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7261",
+          "name": "マツダ",
+          "sector": "自動車",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9983",
+          "name": "ファーストリテイリング",
+          "sector": "小売",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「円安」に反応: 輸入原材料・仕入コストが膨らみ、採算の重しになりやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "3382",
+          "name": "セブン&アイ・ホールディングス",
+          "sector": "小売",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「円安」に反応: 輸入原材料・仕入コストが膨らみ、採算の重しになりやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
       "id": "bb9f3c336591",
       "title": "日本の長期金利上昇、一時3.115% 世界でインフレ懸念の売り",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MZ0kybjlXNG8zYU1lOE9wNFZhY2lQdzJKRy1rWWdFOUNDSTl3c1lpak1mRWNicFFKcFlxVW1FcEl3MGlEOVZweTMxRnFULWNGOGw2Nk9vZ1hFaEJxUWVKOW5lWFBuZjRjM25Gag?oc=5",
@@ -5523,322 +5521,6 @@
       "emergence_growth": {}
     },
     {
-      "id": "95f0e5c51924",
-      "title": "レアアース輸出正常化、焦点に 中国許可遅れ、日本向けも 米中首脳会談",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zcTZZTkJPZFBmNDFlN2IyajB2NjlyaHdxa1d4Z2p1SnFsTmhLVDdzT1RBdkswZXpIR0xPcjRQWlp5RG5pNS1qdF9CMVNkNzd1Mmc?oc=5",
-      "source": "dempa-digital.com",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-09-24 18:45",
-      "published_ts": 1790243113.0,
-      "category": "trade",
-      "category_label": "通商・規制",
-      "category_emoji": "⚖️",
-      "importance": 3,
-      "importance_reason": "影響テーマ「レアアース・重要鉱物の輸出規制」に該当",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "low",
-      "news_novelty_label": "再報道",
-      "policy_event_id": "rare_earth-20260920-01",
-      "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-09-20",
-      "policy_event_state": "UPDATE",
-      "themes": [
-        "レアアース・重要鉱物の輸出規制"
-      ],
-      "theme_ids": [
-        "rare_earth"
-      ],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [
-        {
-          "code": "4063",
-          "name": "信越化学工業",
-          "sector": "化学",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「レアアース」に反応: 永久磁石などレアアース由来部材の調達コスト上昇・供給不安が意識されやすい",
-          "theme": "レアアース・重要鉱物の輸出規制",
-          "theme_id": "rare_earth",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "レアアース",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7203",
-          "name": "トヨタ自動車",
-          "sector": "自動車",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「レアアース」に反応: 永久磁石などレアアース由来部材の調達コスト上昇・供給不安が意識されやすい",
-          "theme": "レアアース・重要鉱物の輸出規制",
-          "theme_id": "rare_earth",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "レアアース",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7267",
-          "name": "本田技研工業",
-          "sector": "自動車",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「レアアース」に反応: 永久磁石などレアアース由来部材の調達コスト上昇・供給不安が意識されやすい",
-          "theme": "レアアース・重要鉱物の輸出規制",
-          "theme_id": "rare_earth",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "レアアース",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "2768",
-          "name": "双日",
-          "sector": "卸売",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「レアアース」に反応: 権益確保・リサイクル技術など供給網の脱中国依存を進めている企業には追い風になりやすい",
-          "theme": "レアアース・重要鉱物の輸出規制",
-          "theme_id": "rare_earth",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "レアアース",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "5713",
-          "name": "住友金属鉱山",
-          "sector": "非鉄金属",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「レアアース」に反応: 権益確保・リサイクル技術など供給網の脱中国依存を進めている企業には追い風になりやすい",
-          "theme": "レアアース・重要鉱物の輸出規制",
-          "theme_id": "rare_earth",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "レアアース",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        }
-      ],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "7233900f9474",
-      "title": "画像・写真：レアアース輸出正常化、焦点に：時事ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB5Y01ScGNOUWxoa3g3NjhCN3drVEJ5bjM4TjVFeU9Ua0F2V1Y0UzEwN0tSdlF5ZnBhNFl2ZVZheHlQdGFnWHJZMExCVzRHQ2NwSHZ1OFAxa3pXVnY5SS1oVXA5Rmg?oc=5",
-      "source": "時事ドットコム",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-09-24 05:00",
-      "published_ts": 1790193621.0,
-      "category": "trade",
-      "category_label": "通商・規制",
-      "category_emoji": "⚖️",
-      "importance": 3,
-      "importance_reason": "影響テーマ「レアアース・重要鉱物の輸出規制」に該当",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "low",
-      "news_novelty_label": "再報道",
-      "policy_event_id": "rare_earth-20260920-01",
-      "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-09-20",
-      "policy_event_state": "UPDATE",
-      "themes": [
-        "レアアース・重要鉱物の輸出規制"
-      ],
-      "theme_ids": [
-        "rare_earth"
-      ],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [
-        {
-          "code": "4063",
-          "name": "信越化学工業",
-          "sector": "化学",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「レアアース」に反応: 永久磁石などレアアース由来部材の調達コスト上昇・供給不安が意識されやすい",
-          "theme": "レアアース・重要鉱物の輸出規制",
-          "theme_id": "rare_earth",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "レアアース",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7203",
-          "name": "トヨタ自動車",
-          "sector": "自動車",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「レアアース」に反応: 永久磁石などレアアース由来部材の調達コスト上昇・供給不安が意識されやすい",
-          "theme": "レアアース・重要鉱物の輸出規制",
-          "theme_id": "rare_earth",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "レアアース",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7267",
-          "name": "本田技研工業",
-          "sector": "自動車",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「レアアース」に反応: 永久磁石などレアアース由来部材の調達コスト上昇・供給不安が意識されやすい",
-          "theme": "レアアース・重要鉱物の輸出規制",
-          "theme_id": "rare_earth",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "レアアース",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "2768",
-          "name": "双日",
-          "sector": "卸売",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「レアアース」に反応: 権益確保・リサイクル技術など供給網の脱中国依存を進めている企業には追い風になりやすい",
-          "theme": "レアアース・重要鉱物の輸出規制",
-          "theme_id": "rare_earth",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "レアアース",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "5713",
-          "name": "住友金属鉱山",
-          "sector": "非鉄金属",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「レアアース」に反応: 権益確保・リサイクル技術など供給網の脱中国依存を進めている企業には追い風になりやすい",
-          "theme": "レアアース・重要鉱物の輸出規制",
-          "theme_id": "rare_earth",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "レアアース",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        }
-      ],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
       "id": "69e0cb284972",
       "title": "経営強化計画等の履行状況（令和８年３月期）について公表しました。",
       "url": "https://www.fsa.go.jp/news/r8/ginkou/20260925/20260925-3.html",
@@ -6105,9 +5787,9 @@
       "news_novelty": "high",
       "news_novelty_label": "新規",
       "policy_event_id": "semi_demand-20260925-02",
-      "policy_event_is_update": false,
+      "policy_event_is_update": true,
       "policy_event_first_seen": "2026-09-25",
-      "policy_event_state": "NEW",
+      "policy_event_state": "UPDATE",
       "themes": [
         "半導体・AI投資の拡大",
         "電力需要・データセンター"
@@ -6733,6 +6415,227 @@
       "emergence_growth": {}
     },
     {
+      "id": "46ae0aac4a97",
+      "title": "長期金利の上昇が加速、「ターミナルレート」も引き上がる？ 住宅ローンや債券投資の判断のポイント 野村證券・美和卓",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CODR4SFN3VHlXeUVXOTk1ZDRCcTZJeHY1ODZOM0doa3FhRVZOazBrT1VEX2hic2tmcGx3RERpeW84bnZibzk1d3FYaG9OVFRreW5KaE1vUncxbFRPRHl3?oc=5",
+      "source": "nomura.co.jp",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-09-25 12:23",
+      "published_ts": 1790306604.0,
+      "category": "policy",
+      "category_label": "金融政策・金利",
+      "category_emoji": "🏦",
+      "importance": 2,
+      "importance_reason": "影響テーマ「日銀の利上げ・金融正常化」に該当",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": "boj_hike-20260922-03",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-09-22",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "日銀の利上げ・金融正常化"
+      ],
+      "theme_ids": [
+        "boj_hike"
+      ],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "8604",
+          "name": "野村ホールディングス",
+          "sector": "証券",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "見出しで名指しされている当事者。内容は業績にプラスに働きうる材料",
+          "theme": "当事者",
+          "theme_id": null,
+          "origin": "direct",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": null,
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 51,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8306",
+          "name": "三菱UFJフィナンシャル・グループ",
+          "sector": "銀行",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「長期金利 上昇」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "theme": "日銀の利上げ・金融正常化",
+          "theme_id": "boj_hike",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "長期金利 上昇",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 70,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8316",
+          "name": "三井住友フィナンシャルグループ",
+          "sector": "銀行",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「長期金利 上昇」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "theme": "日銀の利上げ・金融正常化",
+          "theme_id": "boj_hike",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "長期金利 上昇",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 70,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8411",
+          "name": "みずほフィナンシャルグループ",
+          "sector": "銀行",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「長期金利 上昇」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "theme": "日銀の利上げ・金融正常化",
+          "theme_id": "boj_hike",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "長期金利 上昇",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 70,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8309",
+          "name": "三井住友トラスト・ホールディングス",
+          "sector": "銀行",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「長期金利 上昇」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "theme": "日銀の利上げ・金融正常化",
+          "theme_id": "boj_hike",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "長期金利 上昇",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 70,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7182",
+          "name": "ゆうちょ銀行",
+          "sector": "銀行",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「長期金利 上昇」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "theme": "日銀の利上げ・金融正常化",
+          "theme_id": "boj_hike",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "長期金利 上昇",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 70,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8766",
+          "name": "東京海上ホールディングス",
+          "sector": "保険",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「長期金利 上昇」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "theme": "日銀の利上げ・金融正常化",
+          "theme_id": "boj_hike",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "長期金利 上昇",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 70,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8801",
+          "name": "三井不動産",
+          "sector": "不動産",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「長期金利 上昇」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
+          "theme": "日銀の利上げ・金融正常化",
+          "theme_id": "boj_hike",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "3-6m",
+          "revenue_horizon_label": "3〜6ヶ月",
+          "matched_keyword": "長期金利 上昇",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 60,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
       "id": "bedec97c3a2c",
       "title": "習氏、トランプ氏に「台湾独立反対」を要請 中国国営メディア",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBobXhkX0dxaXFWSzdFdVB4b2FFUi1wMmEzc0hDUkJrbFh2cnZJRDIzcHlKZDhIaHBfeTh6VXJONS0wNWU0N2kySS04STE3VktRTUNN?oc=5",
@@ -6952,6 +6855,170 @@
       "emergence_milestones": [],
       "emergence_diagnosis": {},
       "emergence_growth": {}
+    },
+    {
+      "id": "c061ac8d8ae9",
+      "title": "米国株式市場、ＮＹダウ３日続落、ナスダックは小反発(ウエルスアドバイザー)",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSVB0OXNyOVdOYURranRVYWZlbkd1bVN2YzJ0VkxES0JxTURpcl9mc0FkaFRaMU9aY1lGaHZCM1FyZHZoREZQYWtkNGZjeXI4dHNYNFk2Ullfc0lKb2tMbVFVT3k4QUIxekZuR25PZThyVHdWYjFobkNvaERsUGdCN1U0Q3UwN00?oc=5",
+      "source": "Yahoo!ファイナンス",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-09-25 07:49",
+      "published_ts": 1790290167.0,
+      "category": "us",
+      "category_label": "米国市場",
+      "category_emoji": "🇺🇸",
+      "importance": 2,
+      "importance_reason": "影響テーマ「米国株・ハイテク株の変動」に該当・2媒体が報道",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "low",
+      "news_novelty_label": "再報道",
+      "policy_event_id": "us_stock_move-20260921-02",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-09-21",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "米国株・ハイテク株の変動"
+      ],
+      "theme_ids": [
+        "us_stock_move"
+      ],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "8604",
+          "name": "野村ホールディングス",
+          "sector": "証券",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8601",
+          "name": "大和証券グループ本社",
+          "sector": "証券",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8473",
+          "name": "SBIホールディングス",
+          "sector": "証券",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9984",
+          "name": "ソフトバンクグループ",
+          "sector": "情報・通信",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "sector": "自動車",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [
+        {
+          "title": "米国株式市場、ＮＹダウ続落、ナスダック５日ぶり反落(ウエルスアドバイザー)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYTNZVlo4ZFRfckQxdUh1dzFHNjdCTWxVSjlFS0Y5RHJWeTNrNTBWcG81Q3hTNXNURWNRaWJMNERHVWJqa0plNG5XSzVOODdQbFd0cmZSX0dkUUpiUGRXdUdHdzVWd180LU9KVVNxSlFHZ0oxODZ1cFJPZFJ1WmxVbVJmNHZ4dTQ?oc=5",
+          "source": "Yahoo!ファイナンス"
+        }
+      ],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
     }
   ],
   "stock_ranking": [
@@ -6962,7 +7029,7 @@
       "positive": 10,
       "negative": 0,
       "watch": 0,
-      "score": 42,
+      "score": 39,
       "news": [
         {
           "title": "野村證券の日銀見通しを変更 利上げ時期を12月に前倒しもターミナルレートは据え置き 野村證券・森田京平",
@@ -6995,7 +7062,7 @@
       "positive": 10,
       "negative": 0,
       "watch": 0,
-      "score": 42,
+      "score": 39,
       "news": [
         {
           "title": "野村證券の日銀見通しを変更 利上げ時期を12月に前倒しもターミナルレートは据え置き 野村證券・森田京平",
@@ -7028,7 +7095,7 @@
       "positive": 10,
       "negative": 0,
       "watch": 0,
-      "score": 42,
+      "score": 39,
       "news": [
         {
           "title": "野村證券の日銀見通しを変更 利上げ時期を12月に前倒しもターミナルレートは据え置き 野村證券・森田京平",
@@ -7061,7 +7128,7 @@
       "positive": 10,
       "negative": 0,
       "watch": 0,
-      "score": 42,
+      "score": 39,
       "news": [
         {
           "title": "野村證券の日銀見通しを変更 利上げ時期を12月に前倒しもターミナルレートは据え置き 野村證券・森田京平",
@@ -7152,6 +7219,39 @@
         }
       ],
       "mentions": 9
+    },
+    {
+      "code": "8801",
+      "name": "三井不動産",
+      "sector": "不動産",
+      "positive": 1,
+      "negative": 7,
+      "watch": 0,
+      "score": -20,
+      "news": [
+        {
+          "title": "野村證券の日銀見通しを変更 利上げ時期を12月に前倒しもターミナルレートは据え置き 野村證券・森田京平",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjdXA3Q2FtaTBMaUNiX0tBTkRURHoyUm51VFYzUWdiZG9pY3FoYkh5c0hWMFU3anZMODhWa2dVYzh0b1dWRXBhbnZ6WURpSGVNbkRyczVyUmVwSWV0dFhv?oc=5",
+          "direction": "negative",
+          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
+          "importance": 5
+        },
+        {
+          "title": "なぜ日銀は利上げしたのに「緩和的」とされるのか？【実質金利】で読み解く金融政策",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5VLUo1a2hxUDExbkM5RzllMFo2TXVSclp3aU9pOF9LYXZkdGhiaE5kWWNxdEtGc3NUR1FORkhlOHNRNmRiM2VaMnFRMkTSAU9BVV95cUxNWE42MTZvSnFXR0pzbnRpeEgwX3l2d2RfQXRIblVWMG1zMWkxd3FZbkw3SVNYWnRLbjBwWGFIdlYwbGlhUy11UGxZdUxkNWNZ?oc=5",
+          "direction": "positive",
+          "reason": "「緩和的」に反応: 金利低下は割引率低下・調達コスト低下につながり、成長株や不動産に追い風になりやすい",
+          "importance": 5
+        },
+        {
+          "title": "インタビュー：日銀は3カ月ごと利上げ、政策金利は来年6月に2％へ＝桜井元日銀委員",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9URDdWRDA0UmRMVkRKYjRtVkpKZ2pfNTFaUVZDRXNIWWNjV2dhVkZ0c2xZcy1HX0E4aF9QM2FqTTNDOGdvbktfelFfRm9lUm4zVWtWTkpJWXczbnZ5QURobW5ER0ZCZVpOME00MXE1UGM3VVNzVUhyQ2JRWnJKdw?oc=5",
+          "direction": "negative",
+          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
+          "importance": 5
+        }
+      ],
+      "mentions": 8
     },
     {
       "code": "8058",
@@ -7352,79 +7452,46 @@
       "mentions": 7
     },
     {
-      "code": "8801",
-      "name": "三井不動産",
-      "sector": "不動産",
-      "positive": 1,
-      "negative": 6,
+      "code": "7182",
+      "name": "ゆうちょ銀行",
+      "sector": "銀行",
+      "positive": 7,
+      "negative": 0,
       "watch": 0,
-      "score": -18,
+      "score": 25,
       "news": [
         {
           "title": "野村證券の日銀見通しを変更 利上げ時期を12月に前倒しもターミナルレートは据え置き 野村證券・森田京平",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjdXA3Q2FtaTBMaUNiX0tBTkRURHoyUm51VFYzUWdiZG9pY3FoYkh5c0hWMFU3anZMODhWa2dVYzh0b1dWRXBhbnZ6WURpSGVNbkRyczVyUmVwSWV0dFhv?oc=5",
-          "direction": "negative",
-          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
-          "importance": 5
-        },
-        {
-          "title": "なぜ日銀は利上げしたのに「緩和的」とされるのか？【実質金利】で読み解く金融政策",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5VLUo1a2hxUDExbkM5RzllMFo2TXVSclp3aU9pOF9LYXZkdGhiaE5kWWNxdEtGc3NUR1FORkhlOHNRNmRiM2VaMnFRMkTSAU9BVV95cUxNWE42MTZvSnFXR0pzbnRpeEgwX3l2d2RfQXRIblVWMG1zMWkxd3FZbkw3SVNYWnRLbjBwWGFIdlYwbGlhUy11UGxZdUxkNWNZ?oc=5",
           "direction": "positive",
-          "reason": "「緩和的」に反応: 金利低下は割引率低下・調達コスト低下につながり、成長株や不動産に追い風になりやすい",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
           "importance": 5
         },
         {
           "title": "インタビュー：日銀は3カ月ごと利上げ、政策金利は来年6月に2％へ＝桜井元日銀委員",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9URDdWRDA0UmRMVkRKYjRtVkpKZ2pfNTFaUVZDRXNIWWNjV2dhVkZ0c2xZcy1HX0E4aF9QM2FqTTNDOGdvbktfelFfRm9lUm4zVWtWTkpJWXczbnZ5QURobW5ER0ZCZVpOME00MXE1UGM3VVNzVUhyQ2JRWnJKdw?oc=5",
-          "direction": "negative",
-          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
+          "direction": "positive",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
           "importance": 5
+        },
+        {
+          "title": "【債券週間展望】長期金利は上昇継続、国内外の財政懸念と利上げ観測",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WSzFfbWg2T2hoTW03a205OXdwYzRZR2ZNZkwzOU04YjhYbzF2ei0xeW9XN0puSkZkOURrRUFTNWNpUXIyelhXLUYxU1NZZ1E3MUpsX0hib0c0SUdrRTBpN2t1ZzY4RWQ2QTFqSXlEVExUVXBP?oc=5",
+          "direction": "positive",
+          "reason": "「長期金利 上昇」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "importance": 4
         }
       ],
       "mentions": 7
     },
     {
-      "code": "7182",
-      "name": "ゆうちょ銀行",
-      "sector": "銀行",
-      "positive": 6,
-      "negative": 0,
-      "watch": 0,
-      "score": 23,
-      "news": [
-        {
-          "title": "野村證券の日銀見通しを変更 利上げ時期を12月に前倒しもターミナルレートは据え置き 野村證券・森田京平",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjdXA3Q2FtaTBMaUNiX0tBTkRURHoyUm51VFYzUWdiZG9pY3FoYkh5c0hWMFU3anZMODhWa2dVYzh0b1dWRXBhbnZ6WURpSGVNbkRyczVyUmVwSWV0dFhv?oc=5",
-          "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 5
-        },
-        {
-          "title": "インタビュー：日銀は3カ月ごと利上げ、政策金利は来年6月に2％へ＝桜井元日銀委員",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9URDdWRDA0UmRMVkRKYjRtVkpKZ2pfNTFaUVZDRXNIWWNjV2dhVkZ0c2xZcy1HX0E4aF9QM2FqTTNDOGdvbktfelFfRm9lUm4zVWtWTkpJWXczbnZ5QURobW5ER0ZCZVpOME00MXE1UGM3VVNzVUhyQ2JRWnJKdw?oc=5",
-          "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 5
-        },
-        {
-          "title": "【債券週間展望】長期金利は上昇継続、国内外の財政懸念と利上げ観測",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WSzFfbWg2T2hoTW03a205OXdwYzRZR2ZNZkwzOU04YjhYbzF2ei0xeW9XN0puSkZkOURrRUFTNWNpUXIyelhXLUYxU1NZZ1E3MUpsX0hib0c0SUdrRTBpN2t1ZzY4RWQ2QTFqSXlEVExUVXBP?oc=5",
-          "direction": "positive",
-          "reason": "「長期金利 上昇」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 4
-        }
-      ],
-      "mentions": 6
-    },
-    {
       "code": "8766",
       "name": "東京海上ホールディングス",
       "sector": "保険",
-      "positive": 6,
+      "positive": 7,
       "negative": 0,
       "watch": 0,
-      "score": 23,
+      "score": 25,
       "news": [
         {
           "title": "野村證券の日銀見通しを変更 利上げ時期を12月に前倒しもターミナルレートは据え置き 野村證券・森田京平",
@@ -7448,7 +7515,7 @@
           "importance": 4
         }
       ],
-      "mentions": 6
+      "mentions": 7
     },
     {
       "code": "8802",
@@ -7488,9 +7555,9 @@
       "name": "トヨタ自動車",
       "sector": "自動車",
       "positive": 3,
-      "negative": 3,
-      "watch": 0,
-      "score": 3,
+      "negative": 1,
+      "watch": 1,
+      "score": 7,
       "news": [
         {
           "title": "令和８年上半期の全国の税関における関税法違反事件の取締り状況",
@@ -7507,47 +7574,14 @@
           "importance": 5
         },
         {
-          "title": "日銀の利上げ後も円安基調が続く理由とは－金利差と介入効果の限界（Bloomberg）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAycy1QS1VZRmxKYnBkNVF0WXBlN1psZVVfOFpyaHhxcjlmd1ZKR1M2ZWhRUDJhaW9QZ1RmQkQ2YnU3cWRBU0FJY1ZRbXRDN0tUUEIxUHpMVlB1bmE1M2NDTVFrcjREdWZtSjF2N3lzaTlhOG5aQWFldGdNTzNGamc?oc=5",
+          "title": "円安進み1ドル＝159円台に 約3週間ぶり アメリカの利上げ観測高まり受け（テレビ朝日系（ANN））",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03UnNqYVhTRnlSaEYwdEpGeENBa18xczFlTmpZenVycEU5SDRPVWgtRVZ2UTZoR0dlckZ2el9acDNRSHhWWFlhSXNEcW12bEFRRzI5eEZpeTFLWTRvUTVRY2JLTVZuZXdLRlg2bmE5NTVJancwVktST19YVFhBb28?oc=5",
           "direction": "positive",
           "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "importance": 5
+          "importance": 4
         }
       ],
-      "mentions": 6
-    },
-    {
-      "code": "7267",
-      "name": "本田技研工業",
-      "sector": "自動車",
-      "positive": 3,
-      "negative": 3,
-      "watch": 0,
-      "score": 3,
-      "news": [
-        {
-          "title": "令和８年上半期の全国の税関における関税法違反事件の取締り状況",
-          "url": "https://www.mof.go.jp/policy/customs_tariff/trade/safe_society/mitsuyu/cy2026_1/index.html",
-          "direction": "negative",
-          "reason": "「関税」に反応: 対米輸出比率が高く、関税引き上げは採算悪化・価格転嫁の負担につながりやすい",
-          "importance": 5
-        },
-        {
-          "title": "日銀9月会合：タカ派的利上げペースに円安で反応",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aMHhFUzdMbl9RS0pScmRveGNOcGhqZ3lTRHZKVE1SX3JWeEZlemdUQlpabnJOMTNzZm1mVS16aFNhYmZ0T1kxMFVXSS1rcnp2MFhtN19DbzBJX1lCeDN5YUctOEVZOENKTlBSOW1wbGprVlk4a3dHS09wNTkyb00?oc=5",
-          "direction": "positive",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "importance": 5
-        },
-        {
-          "title": "日銀の利上げ後も円安基調が続く理由とは－金利差と介入効果の限界（Bloomberg）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAycy1QS1VZRmxKYnBkNVF0WXBlN1psZVVfOFpyaHhxcjlmd1ZKR1M2ZWhRUDJhaW9QZ1RmQkQ2YnU3cWRBU0FJY1ZRbXRDN0tUUEIxUHpMVlB1bmE1M2NDTVFrcjREdWZtSjF2N3lzaTlhOG5aQWFldGdNTzNGamc?oc=5",
-          "direction": "positive",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "importance": 5
-        }
-      ],
-      "mentions": 6
+      "mentions": 5
     },
     {
       "code": "8035",
@@ -7583,13 +7617,13 @@
       "mentions": 5
     },
     {
-      "code": "7201",
-      "name": "日産自動車",
+      "code": "7267",
+      "name": "本田技研工業",
       "sector": "自動車",
       "positive": 3,
       "negative": 1,
       "watch": 0,
-      "score": 9,
+      "score": 7,
       "news": [
         {
           "title": "令和８年上半期の全国の税関における関税法違反事件の取締り状況",
@@ -7606,11 +7640,44 @@
           "importance": 5
         },
         {
-          "title": "日銀の利上げ後も円安基調が続く理由とは－金利差と介入効果の限界（Bloomberg）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAycy1QS1VZRmxKYnBkNVF0WXBlN1psZVVfOFpyaHhxcjlmd1ZKR1M2ZWhRUDJhaW9QZ1RmQkQ2YnU3cWRBU0FJY1ZRbXRDN0tUUEIxUHpMVlB1bmE1M2NDTVFrcjREdWZtSjF2N3lzaTlhOG5aQWFldGdNTzNGamc?oc=5",
+          "title": "円安進み1ドル＝159円台に 約3週間ぶり アメリカの利上げ観測高まり受け（テレビ朝日系（ANN））",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03UnNqYVhTRnlSaEYwdEpGeENBa18xczFlTmpZenVycEU5SDRPVWgtRVZ2UTZoR0dlckZ2el9acDNRSHhWWFlhSXNEcW12bEFRRzI5eEZpeTFLWTRvUTVRY2JLTVZuZXdLRlg2bmE5NTVJancwVktST19YVFhBb28?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "importance": 4
+        }
+      ],
+      "mentions": 4
+    },
+    {
+      "code": "7201",
+      "name": "日産自動車",
+      "sector": "自動車",
+      "positive": 3,
+      "negative": 1,
+      "watch": 0,
+      "score": 7,
+      "news": [
+        {
+          "title": "令和８年上半期の全国の税関における関税法違反事件の取締り状況",
+          "url": "https://www.mof.go.jp/policy/customs_tariff/trade/safe_society/mitsuyu/cy2026_1/index.html",
+          "direction": "negative",
+          "reason": "「関税」に反応: 対米輸出比率が高く、関税引き上げは採算悪化・価格転嫁の負担につながりやすい",
+          "importance": 5
+        },
+        {
+          "title": "日銀9月会合：タカ派的利上げペースに円安で反応",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aMHhFUzdMbl9RS0pScmRveGNOcGhqZ3lTRHZKVE1SX3JWeEZlemdUQlpabnJOMTNzZm1mVS16aFNhYmZ0T1kxMFVXSS1rcnp2MFhtN19DbzBJX1lCeDN5YUctOEVZOENKTlBSOW1wbGprVlk4a3dHS09wNTkyb00?oc=5",
           "direction": "positive",
           "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
           "importance": 5
+        },
+        {
+          "title": "円安進み1ドル＝159円台に 約3週間ぶり アメリカの利上げ観測高まり受け（テレビ朝日系（ANN））",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03UnNqYVhTRnlSaEYwdEpGeENBa18xczFlTmpZenVycEU5SDRPVWgtRVZ2UTZoR0dlckZ2el9acDNRSHhWWFlhSXNEcW12bEFRRzI5eEZpeTFLWTRvUTVRY2JLTVZuZXdLRlg2bmE5NTVJancwVktST19YVFhBb28?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "importance": 4
         }
       ],
       "mentions": 4
@@ -7630,12 +7697,12 @@
         "b40ad3cf748c",
         "a117fe03980c",
         "0efe2b8a3730",
-        "d6c0256e6786",
         "dc626c91da68",
         "b317d89b8f3d",
         "52d2ef0cef10",
         "bb9f3c336591",
-        "da0c0bc46eb3"
+        "da0c0bc46eb3",
+        "46ae0aac4a97"
       ],
       "members": [
         {
@@ -7665,13 +7732,6 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aMHhFUzdMbl9RS0pScmRveGNOcGhqZ3lTRHZKVE1SX3JWeEZlemdUQlpabnJOMTNzZm1mVS16aFNhYmZ0T1kxMFVXSS1rcnp2MFhtN19DbzBJX1lCeDN5YUctOEVZOENKTlBSOW1wbGprVlk4a3dHS09wNTkyb00?oc=5",
           "importance": 5,
           "source": "ピクテ・ジャパン"
-        },
-        {
-          "id": "d6c0256e6786",
-          "title": "日銀の利上げ後も円安基調が続く理由とは－金利差と介入効果の限界（Bloomberg）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAycy1QS1VZRmxKYnBkNVF0WXBlN1psZVVfOFpyaHhxcjlmd1ZKR1M2ZWhRUDJhaW9QZ1RmQkQ2YnU3cWRBU0FJY1ZRbXRDN0tUUEIxUHpMVlB1bmE1M2NDTVFrcjREdWZtSjF2N3lzaTlhOG5aQWFldGdNTzNGamc?oc=5",
-          "importance": 5,
-          "source": "Yahoo!ニュース"
         },
         {
           "id": "dc626c91da68",
@@ -7707,6 +7767,13 @@
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5UU1VNEpvaUIyMzlRRzJmaXMxbjNmQmtWM2RNRG9rblhuNGU3UDloZDdvYkR5dXNhMUl1YlZEQVNRVi11eU5yRV9ZY1RpdzA5UHc?oc=5",
           "importance": 3,
           "source": "ザイFX！"
+        },
+        {
+          "id": "46ae0aac4a97",
+          "title": "長期金利の上昇が加速、「ターミナルレート」も引き上がる？ 住宅ローンや債券投資の判断のポイント 野村證券・美和卓",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CODR4SFN3VHlXeUVXOTk1ZDRCcTZJeHY1ODZOM0doa3FhRVZOazBrT1VEX2hic2tmcGx3RERpeW84bnZibzk1d3FYaG9OVFRreW5KaE1vUncxbFRPRHl3?oc=5",
+          "importance": 2,
+          "source": "nomura.co.jp"
         }
       ],
       "stocks": [
@@ -7741,14 +7808,14 @@
         {
           "code": "7182",
           "name": "ゆうちょ銀行",
-          "positive": 6,
+          "positive": 7,
           "negative": 0,
           "watch": 0
         },
         {
           "code": "8766",
           "name": "東京海上ホールディングス",
-          "positive": 6,
+          "positive": 7,
           "negative": 0,
           "watch": 0
         }
@@ -7760,7 +7827,7 @@
         "関連企業の直接発表",
         "複数媒体での同時報道"
       ],
-      "emergence_event_count": 16,
+      "emergence_event_count": 17,
       "emergence_source_count": 12,
       "emergence_actor_type_count": 4,
       "emergence_actor_type_labels": [
@@ -7772,7 +7839,7 @@
       "emergence_actor_type_breakdown": [
         {
           "label": "関連企業",
-          "count": 2
+          "count": 3
         },
         {
           "label": "海外政府・当局",
@@ -7796,9 +7863,9 @@
       ],
       "emergence_first_seen": "2026-09-20",
       "emergence_window_counts": {
-        "7": 16,
-        "30": 16,
-        "90": 16
+        "7": 17,
+        "30": 17,
+        "90": 17
       },
       "emergence_timeline": [
         {
@@ -7968,6 +8035,17 @@
           ],
           "actor_type_labels": [
             "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-25",
+          "source": "nomura.co.jp",
+          "signal_labels": [
+            "関連企業の直接発表"
+          ],
+          "actor_type_labels": [
+            "関連企業"
           ],
           "regions": []
         }
@@ -8471,8 +8549,8 @@
       "category_emoji": "💱",
       "member_ids": [
         "0efe2b8a3730",
-        "d6c0256e6786",
-        "7c33526f3565"
+        "7c33526f3565",
+        "b60d3eeb478c"
       ],
       "members": [
         {
@@ -8483,17 +8561,17 @@
           "source": "ピクテ・ジャパン"
         },
         {
-          "id": "d6c0256e6786",
-          "title": "日銀の利上げ後も円安基調が続く理由とは－金利差と介入効果の限界（Bloomberg）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAycy1QS1VZRmxKYnBkNVF0WXBlN1psZVVfOFpyaHhxcjlmd1ZKR1M2ZWhRUDJhaW9QZ1RmQkQ2YnU3cWRBU0FJY1ZRbXRDN0tUUEIxUHpMVlB1bmE1M2NDTVFrcjREdWZtSjF2N3lzaTlhOG5aQWFldGdNTzNGamc?oc=5",
-          "importance": 5,
-          "source": "Yahoo!ニュース"
-        },
-        {
           "id": "7c33526f3565",
           "title": "円安進み1ドル＝159円台に 約3週間ぶり アメリカの利上げ観測高まり受け（テレビ朝日系（ANN））",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03UnNqYVhTRnlSaEYwdEpGeENBa18xczFlTmpZenVycEU5SDRPVWgtRVZ2UTZoR0dlckZ2el9acDNRSHhWWFlhSXNEcW12bEFRRzI5eEZpeTFLWTRvUTVRY2JLTVZuZXdLRlg2bmE5NTVJancwVktST19YVFhBb28?oc=5",
           "importance": 4,
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "id": "b60d3eeb478c",
+          "title": "【速報】トランプ大統領が円安けん制「日米首脳会談で懸念示された」片山財務大臣が明らかに 高市総理も“過小評価は問題”と認識（TBS NEWS DIG Powered by JNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wYnJkcllSZjN6aHdyLUppQTE5blB0S2cwaTZsZ19OdDAzRmZCVUhrQkNqY3N1NGE0Vm9PbDJTYldKX3MyUmZ1cFh2ZU1fTEVtd0xyY0tscGRpLURnMi1VbmNHSVRjSjVnQjZncDY1VTF2R2w0UFFkdXJ1UWIwOGc?oc=5",
+          "importance": 3,
           "source": "Yahoo!ニュース"
         }
       ],
@@ -8529,14 +8607,14 @@
         {
           "code": "7270",
           "name": "SUBARU",
-          "positive": 1,
+          "positive": 2,
           "negative": 0,
           "watch": 0
         },
         {
           "code": "7261",
           "name": "マツダ",
-          "positive": 1,
+          "positive": 2,
           "negative": 0,
           "watch": 0
         }
@@ -9057,192 +9135,6 @@
         "required_signals": 3,
         "missing": [
           "シグナル種別があと1種類必要"
-        ]
-      },
-      "emergence_growth": {
-        "window_days": 14,
-        "recent_new_actor_types": 1,
-        "total_actor_types": 1
-      }
-    },
-    {
-      "connection_type": "theme",
-      "connection_label": "同じテーマ",
-      "theme_id": "rare_earth",
-      "label": "レアアース・重要鉱物の輸出規制",
-      "category": "trade",
-      "category_label": "通商・規制",
-      "category_emoji": "⚖️",
-      "member_ids": [
-        "95f0e5c51924",
-        "7233900f9474"
-      ],
-      "members": [
-        {
-          "id": "95f0e5c51924",
-          "title": "レアアース輸出正常化、焦点に 中国許可遅れ、日本向けも 米中首脳会談",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zcTZZTkJPZFBmNDFlN2IyajB2NjlyaHdxa1d4Z2p1SnFsTmhLVDdzT1RBdkswZXpIR0xPcjRQWlp5RG5pNS1qdF9CMVNkNzd1Mmc?oc=5",
-          "importance": 3,
-          "source": "dempa-digital.com"
-        },
-        {
-          "id": "7233900f9474",
-          "title": "画像・写真：レアアース輸出正常化、焦点に：時事ドットコム",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB5Y01ScGNOUWxoa3g3NjhCN3drVEJ5bjM4TjVFeU9Ua0F2V1Y0UzEwN0tSdlF5ZnBhNFl2ZVZheHlQdGFnWHJZMExCVzRHQ2NwSHZ1OFAxa3pXVnY5SS1oVXA5Rmg?oc=5",
-          "importance": 3,
-          "source": "時事ドットコム"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "4063",
-          "name": "信越化学工業",
-          "positive": 0,
-          "negative": 2,
-          "watch": 0
-        },
-        {
-          "code": "7203",
-          "name": "トヨタ自動車",
-          "positive": 0,
-          "negative": 2,
-          "watch": 0
-        },
-        {
-          "code": "7267",
-          "name": "本田技研工業",
-          "positive": 0,
-          "negative": 2,
-          "watch": 0
-        },
-        {
-          "code": "2768",
-          "name": "双日",
-          "positive": 2,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "5713",
-          "name": "住友金属鉱山",
-          "positive": 2,
-          "negative": 0,
-          "watch": 0
-        }
-      ],
-      "max_importance": 3,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [
-        "複数媒体での同時報道"
-      ],
-      "emergence_event_count": 5,
-      "emergence_source_count": 4,
-      "emergence_actor_type_count": 1,
-      "emergence_actor_type_labels": [
-        "複数メディア"
-      ],
-      "emergence_actor_type_breakdown": [
-        {
-          "label": "複数メディア",
-          "count": 5
-        }
-      ],
-      "emergence_region_count": 2,
-      "emergence_regions": [
-        "中国",
-        "日本"
-      ],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": "2026-09-20",
-      "emergence_window_counts": {
-        "7": 5,
-        "30": 5,
-        "90": 5
-      },
-      "emergence_timeline": [
-        {
-          "date": "2026-09-20",
-          "source": "静岡新聞DIGITAL",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "中国"
-          ]
-        },
-        {
-          "date": "2026-09-23",
-          "source": "news.yahoo.co.jp",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-09-23",
-          "source": "時事ドットコム",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "中国",
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-09-24",
-          "source": "時事ドットコム",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "中国",
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-09-24",
-          "source": "電波新聞デジタル",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "中国",
-            "日本"
-          ]
-        }
-      ],
-      "emergence_milestones": [
-        {
-          "date": "2026-09-20",
-          "actor_type_label": "複数メディア"
-        }
-      ],
-      "emergence_diagnosis": {
-        "target_stage": "watch",
-        "target_stage_label": "👀 要監視テーマ",
-        "source_count": 4,
-        "required_sources": 2,
-        "signal_count": 1,
-        "required_signals": 3,
-        "missing": [
-          "シグナル種別があと2種類必要"
         ]
       },
       "emergence_growth": {
@@ -9799,7 +9691,8 @@
         "dc626c91da68",
         "52d2ef0cef10",
         "bb9f3c336591",
-        "da0c0bc46eb3"
+        "da0c0bc46eb3",
+        "46ae0aac4a97"
       ],
       "members": [
         {
@@ -9850,6 +9743,13 @@
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5UU1VNEpvaUIyMzlRRzJmaXMxbjNmQmtWM2RNRG9rblhuNGU3UDloZDdvYkR5dXNhMUl1YlZEQVNRVi11eU5yRV9ZY1RpdzA5UHc?oc=5",
           "importance": 3,
           "source": "ザイFX！"
+        },
+        {
+          "id": "46ae0aac4a97",
+          "title": "長期金利の上昇が加速、「ターミナルレート」も引き上がる？ 住宅ローンや債券投資の判断のポイント 野村證券・美和卓",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CODR4SFN3VHlXeUVXOTk1ZDRCcTZJeHY1ODZOM0doa3FhRVZOazBrT1VEX2hic2tmcGx3RERpeW84bnZibzk1d3FYaG9OVFRreW5KaE1vUncxbFRPRHl3?oc=5",
+          "importance": 2,
+          "source": "nomura.co.jp"
         }
       ],
       "stocks": [
@@ -9857,7 +9757,7 @@
           "code": "8801",
           "name": "三井不動産",
           "positive": 1,
-          "negative": 6,
+          "negative": 7,
           "watch": 0
         }
       ],
@@ -9894,7 +9794,8 @@
         "dc626c91da68",
         "52d2ef0cef10",
         "bb9f3c336591",
-        "da0c0bc46eb3"
+        "da0c0bc46eb3",
+        "46ae0aac4a97"
       ],
       "members": [
         {
@@ -9938,13 +9839,20 @@
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5UU1VNEpvaUIyMzlRRzJmaXMxbjNmQmtWM2RNRG9rblhuNGU3UDloZDdvYkR5dXNhMUl1YlZEQVNRVi11eU5yRV9ZY1RpdzA5UHc?oc=5",
           "importance": 3,
           "source": "ザイFX！"
+        },
+        {
+          "id": "46ae0aac4a97",
+          "title": "長期金利の上昇が加速、「ターミナルレート」も引き上がる？ 住宅ローンや債券投資の判断のポイント 野村證券・美和卓",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CODR4SFN3VHlXeUVXOTk1ZDRCcTZJeHY1ODZOM0doa3FhRVZOazBrT1VEX2hic2tmcGx3RERpeW84bnZibzk1d3FYaG9OVFRreW5KaE1vUncxbFRPRHl3?oc=5",
+          "importance": 2,
+          "source": "nomura.co.jp"
         }
       ],
       "stocks": [
         {
           "code": "7182",
           "name": "ゆうちょ銀行",
-          "positive": 6,
+          "positive": 7,
           "negative": 0,
           "watch": 0
         }
@@ -10143,146 +10051,6 @@
       "connection_type": "sector",
       "connection_label": "同じ業界",
       "theme_id": null,
-      "label": "卸売業界のニュース",
-      "category": "",
-      "category_label": "同じ業界",
-      "category_emoji": "🏭",
-      "member_ids": [
-        "f5d14ae0c7b3",
-        "15d296b95dce",
-        "c64e8af9b614",
-        "6e29cfa0a1f2",
-        "b6c370a78e4f",
-        "a50311c3787f",
-        "14fbedf9f049",
-        "95f0e5c51924",
-        "7233900f9474"
-      ],
-      "members": [
-        {
-          "id": "f5d14ae0c7b3",
-          "title": "ウクライナはロシアに対し、「無条件で即時停戦」するよう求めた。",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTEdreHhVS21WdUxiQjBoVzd4MUk0cWZCbHVUbEZfMlYxWURpRV8td0o0U01udmkzVkhrUHZsSW9SN3hMV0c5WWU5dXNyNFJmLW5hcTBOd29VMFl5RDVsc1dKT1RPRXFpOGdxT01lY0VGSlFUOTVZc3JLekF2RGxVOE0yOXVseHZh?oc=5",
-          "importance": 4,
-          "source": "Vietnam.vn"
-        },
-        {
-          "id": "15d296b95dce",
-          "title": "ロシア外相がウクライナとの一時停戦拒絶 安保理閣僚級協議",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jNTNxU3R1Qnc4UVQ2VXF6OGlYWWNhZ0pDMC1Nby1vQVU1X0NxOVlQSkl4eTNabG1aSm1RQ1pVVUwwdWsxNHRQQVFVdkNfUXA2ZmZqNXR0RjlfNUZick0teXg3bXRCVXdf?oc=5",
-          "importance": 4,
-          "source": "毎日新聞"
-        },
-        {
-          "id": "c64e8af9b614",
-          "title": "「限定的な停戦」追求も ロシア、ウクライナが関心―米国務長官",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5OS1lBWmVobWN4bkE5bmtHbG1PSnRua21rMVNJeURsaVhEREZxanQybllmOU4yMUFVZVRXeWVlVWt0NHUycExKd1BaQWhWY0Rhc0Zqc2RabHlpQy0xaHpxb3F4MA?oc=5",
-          "importance": 4,
-          "source": "時事ドットコム"
-        },
-        {
-          "id": "6e29cfa0a1f2",
-          "title": "ゼレンスキー氏、停戦なければ「ロシアも苦しい冬に」　国連で外交強化訴え",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8waUZ3cXNHSTNDWkVvXzhBWWJfb05OLWFZX0NEX2o2Vm1PYWpfSDhrZUNNVEs1V0pwdTRrNUNta0ZkeEpvZ1dIU3RkQWxIUjl2RDBDN01BWERnYWR3d2l1Wk5FTGRvWW5vejNDVE5ZRWtJZ0dYdFhmWXBHLXJ3QdIBgwFBVV95cUxQSUl3OFNOXzJlOHptSVJMNnpfRzh6LWdsVWxYOWFfZG1PMVFIOEtPWjlPazJCNWNPd25RNkVyOUYzNnFScmJUcmZMZG83YmxPN0I4WHFvaEVxQnVkWHhrZTBTWjVaSmlKaDNScVEtbGFGRlkzZXdJNHptU1V1dlBWMEhMSQ?oc=5",
-          "importance": 4,
-          "source": "ｄメニューニュース"
-        },
-        {
-          "id": "b6c370a78e4f",
-          "title": "ゼレンスキー氏「エネルギー停戦」提案、米国に仲介を期待…ロシア側は事実上「拒否」の姿勢か",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBfLUV5UWktNC1tSndwT1oyU2daTmFNWEhjOERCTUZ6NENKUkM5bDZydWpIb3RhUTNTODhqdHExUjVMYVFFcWlZN0lOVFhMNDFsVS1ET2p0ZDYwT1p5aXNPdU53?oc=5",
-          "importance": 4,
-          "source": "読売新聞"
-        },
-        {
-          "id": "a50311c3787f",
-          "title": "約５０か国、ロシアに対して侵略停止と即時停戦を要求",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNTZFS0t3TWdraUttdWtib2FZUDJEOVgtX29Sb1lWSk9EX09udUc3Wko4RmM4TDZrZ0dYemlIVUtwM2R6Q3VZdHVNTnFrVDBWSVJjaTFJYXZkOWN3cU1qSFB0SmtpbzBxT1FVQjRrV0RPWExRWUxIV2g5dEg0bUZkbktLcnk3VGpuLU1iRVNMTHZRWTFubWxkVjV0MllpQWF5YXRVbHlQMld4am83WEJZc2dGM0x2SHpMTE1CMFZUT2JfTHl40gHKAUFVX3lxTE9xaTNweEhrLWdDelF1ZVF2S19KWHF6N3NPaHk3eS1RZFAydVAySFRUdnJZX3dUeXFoOUlTb0ZLdlVBZG0yak56bG5yZ25WaHJSZjFJRHI1ZHNpYmZWblc1a2JWNXJYdEc4WG4wVE5LR2dyZmNRVVBZR2tUUWJPbDZINS1FZE5abUJYdXUtajdCb2dTUmpOMThFTjRnS2VYUlRyZWhlaU9mWmNkMXctRlBSTGNBaDZ3OElHWV94UUhEUWM4VzlyeE1zV0E?oc=5",
-          "importance": 4,
-          "source": "ウクルインフォルム通信"
-        },
-        {
-          "id": "14fbedf9f049",
-          "title": "ロシアがウクライナのガソリンスタンドなどを攻撃 ゼレンスキー大統領がトランプ大統領と「エネルギー停戦」協議の直後",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBuVHQ3Y21hZHZTTEt4RGxDQnJzcjZXWGRPY3JLQXp2RXhmZWw0c1JHNXp1MkVnTjlUSjFlVWRxNGg0aGlNQi1BMUlqQUl3ZGxTMmk2SE1IeHVvQ1ZtT0NHNG5zdS1QZkpqRGwxTmdpM245NHdrVXVXRi1OdEhWN2s?oc=5",
-          "importance": 4,
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "id": "95f0e5c51924",
-          "title": "レアアース輸出正常化、焦点に 中国許可遅れ、日本向けも 米中首脳会談",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zcTZZTkJPZFBmNDFlN2IyajB2NjlyaHdxa1d4Z2p1SnFsTmhLVDdzT1RBdkswZXpIR0xPcjRQWlp5RG5pNS1qdF9CMVNkNzd1Mmc?oc=5",
-          "importance": 3,
-          "source": "dempa-digital.com"
-        },
-        {
-          "id": "7233900f9474",
-          "title": "画像・写真：レアアース輸出正常化、焦点に：時事ドットコム",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB5Y01ScGNOUWxoa3g3NjhCN3drVEJ5bjM4TjVFeU9Ua0F2V1Y0UzEwN0tSdlF5ZnBhNFl2ZVZheHlQdGFnWHJZMExCVzRHQ2NwSHZ1OFAxa3pXVnY5SS1oVXA5Rmg?oc=5",
-          "importance": 3,
-          "source": "時事ドットコム"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "8058",
-          "name": "三菱商事",
-          "positive": 0,
-          "negative": 7,
-          "watch": 0
-        },
-        {
-          "code": "8031",
-          "name": "三井物産",
-          "positive": 0,
-          "negative": 7,
-          "watch": 0
-        },
-        {
-          "code": "8053",
-          "name": "住友商事",
-          "positive": 0,
-          "negative": 7,
-          "watch": 0
-        },
-        {
-          "code": "8002",
-          "name": "丸紅",
-          "positive": 0,
-          "negative": 7,
-          "watch": 0
-        },
-        {
-          "code": "2768",
-          "name": "双日",
-          "positive": 2,
-          "negative": 0,
-          "watch": 0
-        }
-      ],
-      "max_importance": 4,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "connection_type": "sector",
-      "connection_label": "同じ業界",
-      "theme_id": null,
       "label": "小売業界のニュース",
       "category": "",
       "category_label": "同じ業界",
@@ -10295,7 +10063,8 @@
         "6e29cfa0a1f2",
         "b6c370a78e4f",
         "a50311c3787f",
-        "14fbedf9f049"
+        "14fbedf9f049",
+        "b60d3eeb478c"
       ],
       "members": [
         {
@@ -10353,6 +10122,13 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBuVHQ3Y21hZHZTTEt4RGxDQnJzcjZXWGRPY3JLQXp2RXhmZWw0c1JHNXp1MkVnTjlUSjFlVWRxNGg0aGlNQi1BMUlqQUl3ZGxTMmk2SE1IeHVvQ1ZtT0NHNG5zdS1QZkpqRGwxTmdpM245NHdrVXVXRi1OdEhWN2s?oc=5",
           "importance": 4,
           "source": "Yahoo!ニュース"
+        },
+        {
+          "id": "b60d3eeb478c",
+          "title": "【速報】トランプ大統領が円安けん制「日米首脳会談で懸念示された」片山財務大臣が明らかに 高市総理も“過小評価は問題”と認識（TBS NEWS DIG Powered by JNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wYnJkcllSZjN6aHdyLUppQTE5blB0S2cwaTZsZ19OdDAzRmZCVUhrQkNqY3N1NGE0Vm9PbDJTYldKX3MyUmZ1cFh2ZU1fTEVtd0xyY0tscGRpLURnMi1VbmNHSVRjSjVnQjZncDY1VTF2R2w0UFFkdXJ1UWIwOGc?oc=5",
+          "importance": 3,
+          "source": "Yahoo!ニュース"
         }
       ],
       "stocks": [
@@ -10367,14 +10143,14 @@
           "code": "9983",
           "name": "ファーストリテイリング",
           "positive": 0,
-          "negative": 1,
+          "negative": 2,
           "watch": 0
         },
         {
           "code": "3382",
           "name": "セブン&アイ・ホールディングス",
           "positive": 0,
-          "negative": 1,
+          "negative": 2,
           "watch": 0
         }
       ],
@@ -10412,7 +10188,8 @@
         "dc626c91da68",
         "52d2ef0cef10",
         "bb9f3c336591",
-        "da0c0bc46eb3"
+        "da0c0bc46eb3",
+        "46ae0aac4a97"
       ],
       "members": [
         {
@@ -10463,6 +10240,13 @@
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5UU1VNEpvaUIyMzlRRzJmaXMxbjNmQmtWM2RNRG9rblhuNGU3UDloZDdvYkR5dXNhMUl1YlZEQVNRVi11eU5yRV9ZY1RpdzA5UHc?oc=5",
           "importance": 3,
           "source": "ザイFX！"
+        },
+        {
+          "id": "46ae0aac4a97",
+          "title": "長期金利の上昇が加速、「ターミナルレート」も引き上がる？ 住宅ローンや債券投資の判断のポイント 野村證券・美和卓",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CODR4SFN3VHlXeUVXOTk1ZDRCcTZJeHY1ODZOM0doa3FhRVZOazBrT1VEX2hic2tmcGx3RERpeW84bnZibzk1d3FYaG9OVFRreW5KaE1vUncxbFRPRHl3?oc=5",
+          "importance": 2,
+          "source": "nomura.co.jp"
         }
       ],
       "stocks": [
@@ -10470,7 +10254,7 @@
           "code": "8801",
           "name": "三井不動産",
           "positive": 1,
-          "negative": 6,
+          "negative": 7,
           "watch": 0
         },
         {
@@ -10482,6 +10266,281 @@
         }
       ],
       "max_importance": 5,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "connection_type": "sector",
+      "connection_label": "同じ業界",
+      "theme_id": null,
+      "label": "保険業界のニュース",
+      "category": "",
+      "category_label": "同じ業界",
+      "category_emoji": "🏭",
+      "member_ids": [
+        "ce55133fbb73",
+        "a117fe03980c",
+        "dc626c91da68",
+        "52d2ef0cef10",
+        "bb9f3c336591",
+        "da0c0bc46eb3",
+        "46ae0aac4a97"
+      ],
+      "members": [
+        {
+          "id": "ce55133fbb73",
+          "title": "野村證券の日銀見通しを変更 利上げ時期を12月に前倒しもターミナルレートは据え置き 野村證券・森田京平",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjdXA3Q2FtaTBMaUNiX0tBTkRURHoyUm51VFYzUWdiZG9pY3FoYkh5c0hWMFU3anZMODhWa2dVYzh0b1dWRXBhbnZ6WURpSGVNbkRyczVyUmVwSWV0dFhv?oc=5",
+          "importance": 5,
+          "source": "nomura.co.jp"
+        },
+        {
+          "id": "a117fe03980c",
+          "title": "インタビュー：日銀は3カ月ごと利上げ、政策金利は来年6月に2％へ＝桜井元日銀委員",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9URDdWRDA0UmRMVkRKYjRtVkpKZ2pfNTFaUVZDRXNIWWNjV2dhVkZ0c2xZcy1HX0E4aF9QM2FqTTNDOGdvbktfelFfRm9lUm4zVWtWTkpJWXczbnZ5QURobW5ER0ZCZVpOME00MXE1UGM3VVNzVUhyQ2JRWnJKdw?oc=5",
+          "importance": 5,
+          "source": "Reuters"
+        },
+        {
+          "id": "dc626c91da68",
+          "title": "【債券週間展望】長期金利は上昇継続、国内外の財政懸念と利上げ観測",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WSzFfbWg2T2hoTW03a205OXdwYzRZR2ZNZkwzOU04YjhYbzF2ei0xeW9XN0puSkZkOURrRUFTNWNpUXIyelhXLUYxU1NZZ1E3MUpsX0hib0c0SUdrRTBpN2t1ZzY4RWQ2QTFqSXlEVExUVXBP?oc=5",
+          "importance": 4,
+          "source": "TBS NEWS DIG"
+        },
+        {
+          "id": "52d2ef0cef10",
+          "title": "長期金利上昇3.115％、30年1カ月ぶり高水準 インフレ懸念で売り",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPclhNM3JCVjV6aEx2QXhJWUI1NjNuMmtKbnZRZUJwXzMwaWJKTUd5RS1iSjRwYnFmcml5TG13T0lDallhNURNMk1DeFl5NXZ2YXk2S1hoWnJzR0xOTGpjQ2VVUUhvZFpzTV8tSVA2a2Y1TWo5QXRDWWpyRjFuOTVjdGpn?oc=5",
+          "importance": 3,
+          "source": "JAPAN Forward"
+        },
+        {
+          "id": "bb9f3c336591",
+          "title": "日本の長期金利上昇、一時3.115% 世界でインフレ懸念の売り",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MZ0kybjlXNG8zYU1lOE9wNFZhY2lQdzJKRy1rWWdFOUNDSTl3c1lpak1mRWNicFFKcFlxVW1FcEl3MGlEOVZweTMxRnFULWNGOGw2Nk9vZ1hFaEJxUWVKOW5lWFBuZjRjM25Gag?oc=5",
+          "importance": 3,
+          "source": "日本経済新聞"
+        },
+        {
+          "id": "da0c0bc46eb3",
+          "title": "東京為替見通し＝ドル円、米長期金利上昇で続伸見通し 円買い介入には要警戒か",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5UU1VNEpvaUIyMzlRRzJmaXMxbjNmQmtWM2RNRG9rblhuNGU3UDloZDdvYkR5dXNhMUl1YlZEQVNRVi11eU5yRV9ZY1RpdzA5UHc?oc=5",
+          "importance": 3,
+          "source": "ザイFX！"
+        },
+        {
+          "id": "46ae0aac4a97",
+          "title": "長期金利の上昇が加速、「ターミナルレート」も引き上がる？ 住宅ローンや債券投資の判断のポイント 野村證券・美和卓",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CODR4SFN3VHlXeUVXOTk1ZDRCcTZJeHY1ODZOM0doa3FhRVZOazBrT1VEX2hic2tmcGx3RERpeW84bnZibzk1d3FYaG9OVFRreW5KaE1vUncxbFRPRHl3?oc=5",
+          "importance": 2,
+          "source": "nomura.co.jp"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "8766",
+          "name": "東京海上ホールディングス",
+          "positive": 7,
+          "negative": 0,
+          "watch": 0
+        }
+      ],
+      "max_importance": 5,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "connection_type": "supply_chain",
+      "connection_label": "資源・サプライチェーン",
+      "theme_id": null,
+      "label": "AIに関連するニュース",
+      "category": "",
+      "category_label": "資源・サプライチェーン",
+      "category_emoji": "🔗",
+      "member_ids": [
+        "37e4e2d2adc9",
+        "b317d89b8f3d",
+        "f5d14ae0c7b3",
+        "15d296b95dce",
+        "c64e8af9b614",
+        "6e29cfa0a1f2",
+        "b6c370a78e4f",
+        "a50311c3787f",
+        "14fbedf9f049",
+        "d5b0411c51a7",
+        "9f74cccdf8ac",
+        "bedec97c3a2c",
+        "c061ac8d8ae9"
+      ],
+      "members": [
+        {
+          "id": "37e4e2d2adc9",
+          "title": "AT&S、Marvell向けAI半導体基板を増産へ――マレーシア拠点を拡張、次世代AIインフラ需要を取り込む",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VN1hpOGRVSm95SVN2RE5td0cyMnpua1lZeVB5OXpTWUVCUzFLY0tJVm1Oa0hhSE14c2doc0MxdEx4bnhEb09DMGVaLThlbU1MVm4yc2ZiT0FCR3RCV0E?oc=5",
+          "importance": 4,
+          "source": "note"
+        },
+        {
+          "id": "b317d89b8f3d",
+          "title": "米長期金利が上昇、19年ぶり5.2%台 FRB10月利上げ予想7割に拡大",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iOGVKVmlQQS1BTzZ1cW42ZW5POE9Ed0FaVnZjME1KaUg1MjVSVVJMUUwzVUVudzdtM0FRM3pxMW9NQ2FHTVJVSlBIclF3dE5YSzVOX1lHVzJjczVwRDY0ODFMR2NiblhZbzBNbg?oc=5",
+          "importance": 4,
+          "source": "日本経済新聞"
+        },
+        {
+          "id": "f5d14ae0c7b3",
+          "title": "ウクライナはロシアに対し、「無条件で即時停戦」するよう求めた。",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTEdreHhVS21WdUxiQjBoVzd4MUk0cWZCbHVUbEZfMlYxWURpRV8td0o0U01udmkzVkhrUHZsSW9SN3hMV0c5WWU5dXNyNFJmLW5hcTBOd29VMFl5RDVsc1dKT1RPRXFpOGdxT01lY0VGSlFUOTVZc3JLekF2RGxVOE0yOXVseHZh?oc=5",
+          "importance": 4,
+          "source": "Vietnam.vn"
+        },
+        {
+          "id": "15d296b95dce",
+          "title": "ロシア外相がウクライナとの一時停戦拒絶 安保理閣僚級協議",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jNTNxU3R1Qnc4UVQ2VXF6OGlYWWNhZ0pDMC1Nby1vQVU1X0NxOVlQSkl4eTNabG1aSm1RQ1pVVUwwdWsxNHRQQVFVdkNfUXA2ZmZqNXR0RjlfNUZick0teXg3bXRCVXdf?oc=5",
+          "importance": 4,
+          "source": "毎日新聞"
+        },
+        {
+          "id": "c64e8af9b614",
+          "title": "「限定的な停戦」追求も ロシア、ウクライナが関心―米国務長官",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5OS1lBWmVobWN4bkE5bmtHbG1PSnRua21rMVNJeURsaVhEREZxanQybllmOU4yMUFVZVRXeWVlVWt0NHUycExKd1BaQWhWY0Rhc0Zqc2RabHlpQy0xaHpxb3F4MA?oc=5",
+          "importance": 4,
+          "source": "時事ドットコム"
+        },
+        {
+          "id": "6e29cfa0a1f2",
+          "title": "ゼレンスキー氏、停戦なければ「ロシアも苦しい冬に」　国連で外交強化訴え",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8waUZ3cXNHSTNDWkVvXzhBWWJfb05OLWFZX0NEX2o2Vm1PYWpfSDhrZUNNVEs1V0pwdTRrNUNta0ZkeEpvZ1dIU3RkQWxIUjl2RDBDN01BWERnYWR3d2l1Wk5FTGRvWW5vejNDVE5ZRWtJZ0dYdFhmWXBHLXJ3QdIBgwFBVV95cUxQSUl3OFNOXzJlOHptSVJMNnpfRzh6LWdsVWxYOWFfZG1PMVFIOEtPWjlPazJCNWNPd25RNkVyOUYzNnFScmJUcmZMZG83YmxPN0I4WHFvaEVxQnVkWHhrZTBTWjVaSmlKaDNScVEtbGFGRlkzZXdJNHptU1V1dlBWMEhMSQ?oc=5",
+          "importance": 4,
+          "source": "ｄメニューニュース"
+        },
+        {
+          "id": "b6c370a78e4f",
+          "title": "ゼレンスキー氏「エネルギー停戦」提案、米国に仲介を期待…ロシア側は事実上「拒否」の姿勢か",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBfLUV5UWktNC1tSndwT1oyU2daTmFNWEhjOERCTUZ6NENKUkM5bDZydWpIb3RhUTNTODhqdHExUjVMYVFFcWlZN0lOVFhMNDFsVS1ET2p0ZDYwT1p5aXNPdU53?oc=5",
+          "importance": 4,
+          "source": "読売新聞"
+        },
+        {
+          "id": "a50311c3787f",
+          "title": "約５０か国、ロシアに対して侵略停止と即時停戦を要求",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNTZFS0t3TWdraUttdWtib2FZUDJEOVgtX29Sb1lWSk9EX09udUc3Wko4RmM4TDZrZ0dYemlIVUtwM2R6Q3VZdHVNTnFrVDBWSVJjaTFJYXZkOWN3cU1qSFB0SmtpbzBxT1FVQjRrV0RPWExRWUxIV2g5dEg0bUZkbktLcnk3VGpuLU1iRVNMTHZRWTFubWxkVjV0MllpQWF5YXRVbHlQMld4am83WEJZc2dGM0x2SHpMTE1CMFZUT2JfTHl40gHKAUFVX3lxTE9xaTNweEhrLWdDelF1ZVF2S19KWHF6N3NPaHk3eS1RZFAydVAySFRUdnJZX3dUeXFoOUlTb0ZLdlVBZG0yak56bG5yZ25WaHJSZjFJRHI1ZHNpYmZWblc1a2JWNXJYdEc4WG4wVE5LR2dyZmNRVVBZR2tUUWJPbDZINS1FZE5abUJYdXUtajdCb2dTUmpOMThFTjRnS2VYUlRyZWhlaU9mWmNkMXctRlBSTGNBaDZ3OElHWV94UUhEUWM4VzlyeE1zV0E?oc=5",
+          "importance": 4,
+          "source": "ウクルインフォルム通信"
+        },
+        {
+          "id": "14fbedf9f049",
+          "title": "ロシアがウクライナのガソリンスタンドなどを攻撃 ゼレンスキー大統領がトランプ大統領と「エネルギー停戦」協議の直後",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBuVHQ3Y21hZHZTTEt4RGxDQnJzcjZXWGRPY3JLQXp2RXhmZWw0c1JHNXp1MkVnTjlUSjFlVWRxNGg0aGlNQi1BMUlqQUl3ZGxTMmk2SE1IeHVvQ1ZtT0NHNG5zdS1QZkpqRGwxTmdpM245NHdrVXVXRi1OdEhWN2s?oc=5",
+          "importance": 4,
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "id": "d5b0411c51a7",
+          "title": "データセンター計画、深まる原子力依存――「原発回帰はやむなし」一転した国策（連載「揺れる川内原発 電力需要の光と陰」㊤）",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE42emd4dWVHWkxxamhBMnZRYzl1bFFaUG1PV0hxOWxWVEdzQWJUN05IT3pxQlVyMkpDbWtnbzNTTjg4U0RNalVFNktsMFBicXJTOE5BUWJoRQ?oc=5",
+          "importance": 2,
+          "source": "南日本新聞"
+        },
+        {
+          "id": "9f74cccdf8ac",
+          "title": "台湾は日本から輸入、でもその原料は中国から―「国名表示」だけでは見えない日台・経済安全保障の急所",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ2NseWJGdVBuUXNwRmFYaVptNzRpdzlEMFY4TWNuTllZS2VFSFJMd0dZZlVTX2ZHMERyRm1MV2pGOFAxVjZPbDFWTUViNXZSQzd5dlV0QkU2VFNvcjQxUVpLSWNLaFNTRkJWNjlVYTFsSlllbkJoX19vWUozOW5sa0dHWEhnT2h0?oc=5",
+          "importance": 2,
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "id": "bedec97c3a2c",
+          "title": "習氏、トランプ氏に「台湾独立反対」を要請 中国国営メディア",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBobXhkX0dxaXFWSzdFdVB4b2FFUi1wMmEzc0hDUkJrbFh2cnZJRDIzcHlKZDhIaHBfeTh6VXJONS0wNWU0N2kySS04STE3VktRTUNN?oc=5",
+          "importance": 2,
+          "source": "CNN.co.jp"
+        },
+        {
+          "id": "c061ac8d8ae9",
+          "title": "米国株式市場、ＮＹダウ３日続落、ナスダックは小反発(ウエルスアドバイザー)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSVB0OXNyOVdOYURranRVYWZlbkd1bVN2YzJ0VkxES0JxTURpcl9mc0FkaFRaMU9aY1lGaHZCM1FyZHZoREZQYWtkNGZjeXI4dHNYNFk2Ullfc0lKb2tMbVFVT3k4QUIxekZuR25PZThyVHdWYjFobkNvaERsUGdCN1U0Q3UwN00?oc=5",
+          "importance": 2,
+          "source": "Yahoo!ファイナンス"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "6701",
+          "name": "日本電気",
+          "positive": 2,
+          "negative": 7,
+          "watch": 0
+        },
+        {
+          "code": "8035",
+          "name": "東京エレクトロン",
+          "positive": 2,
+          "negative": 3,
+          "watch": 0
+        },
+        {
+          "code": "6857",
+          "name": "アドバンテスト",
+          "positive": 2,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "6146",
+          "name": "ディスコ",
+          "positive": 2,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "6501",
+          "name": "日立製作所",
+          "positive": 1,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "9984",
+          "name": "ソフトバンクグループ",
+          "positive": 0,
+          "negative": 0,
+          "watch": 1
+        }
+      ],
+      "max_importance": 4,
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -10661,31 +10720,58 @@
       "connection_type": "supply_chain",
       "connection_label": "資源・サプライチェーン",
       "theme_id": null,
-      "label": "AIに関連するニュース",
+      "label": "内需に関連するニュース",
       "category": "",
       "category_label": "資源・サプライチェーン",
       "category_emoji": "🔗",
       "member_ids": [
-        "37e4e2d2adc9",
+        "ce55133fbb73",
+        "b40ad3cf748c",
+        "a117fe03980c",
+        "abd55e33cca1",
+        "dc626c91da68",
         "b317d89b8f3d",
-        "f5d14ae0c7b3",
-        "15d296b95dce",
-        "c64e8af9b614",
-        "6e29cfa0a1f2",
-        "b6c370a78e4f",
-        "a50311c3787f",
-        "14fbedf9f049",
-        "d5b0411c51a7",
-        "9f74cccdf8ac",
-        "bedec97c3a2c"
+        "7df4fa60b54f",
+        "52d2ef0cef10",
+        "bb9f3c336591",
+        "da0c0bc46eb3",
+        "46ae0aac4a97"
       ],
       "members": [
         {
-          "id": "37e4e2d2adc9",
-          "title": "AT&S、Marvell向けAI半導体基板を増産へ――マレーシア拠点を拡張、次世代AIインフラ需要を取り込む",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VN1hpOGRVSm95SVN2RE5td0cyMnpua1lZeVB5OXpTWUVCUzFLY0tJVm1Oa0hhSE14c2doc0MxdEx4bnhEb09DMGVaLThlbU1MVm4yc2ZiT0FCR3RCV0E?oc=5",
+          "id": "ce55133fbb73",
+          "title": "野村證券の日銀見通しを変更 利上げ時期を12月に前倒しもターミナルレートは据え置き 野村證券・森田京平",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjdXA3Q2FtaTBMaUNiX0tBTkRURHoyUm51VFYzUWdiZG9pY3FoYkh5c0hWMFU3anZMODhWa2dVYzh0b1dWRXBhbnZ6WURpSGVNbkRyczVyUmVwSWV0dFhv?oc=5",
+          "importance": 5,
+          "source": "nomura.co.jp"
+        },
+        {
+          "id": "b40ad3cf748c",
+          "title": "なぜ日銀は利上げしたのに「緩和的」とされるのか？【実質金利】で読み解く金融政策",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5VLUo1a2hxUDExbkM5RzllMFo2TXVSclp3aU9pOF9LYXZkdGhiaE5kWWNxdEtGc3NUR1FORkhlOHNRNmRiM2VaMnFRMkTSAU9BVV95cUxNWE42MTZvSnFXR0pzbnRpeEgwX3l2d2RfQXRIblVWMG1zMWkxd3FZbkw3SVNYWnRLbjBwWGFIdlYwbGlhUy11UGxZdUxkNWNZ?oc=5",
+          "importance": 5,
+          "source": "ダイヤモンド・オンライン"
+        },
+        {
+          "id": "a117fe03980c",
+          "title": "インタビュー：日銀は3カ月ごと利上げ、政策金利は来年6月に2％へ＝桜井元日銀委員",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9URDdWRDA0UmRMVkRKYjRtVkpKZ2pfNTFaUVZDRXNIWWNjV2dhVkZ0c2xZcy1HX0E4aF9QM2FqTTNDOGdvbktfelFfRm9lUm4zVWtWTkpJWXczbnZ5QURobW5ER0ZCZVpOME00MXE1UGM3VVNzVUhyQ2JRWnJKdw?oc=5",
+          "importance": 5,
+          "source": "Reuters"
+        },
+        {
+          "id": "abd55e33cca1",
+          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年9月25日(金曜日))",
+          "url": "https://www.mof.go.jp/public_relations/conference/my20260925.html",
           "importance": 4,
-          "source": "note"
+          "source": "財務省"
+        },
+        {
+          "id": "dc626c91da68",
+          "title": "【債券週間展望】長期金利は上昇継続、国内外の財政懸念と利上げ観測",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WSzFfbWg2T2hoTW03a205OXdwYzRZR2ZNZkwzOU04YjhYbzF2ei0xeW9XN0puSkZkOURrRUFTNWNpUXIyelhXLUYxU1NZZ1E3MUpsX0hib0c0SUdrRTBpN2t1ZzY4RWQ2QTFqSXlEVExUVXBP?oc=5",
+          "importance": 4,
+          "source": "TBS NEWS DIG"
         },
         {
           "id": "b317d89b8f3d",
@@ -10695,271 +10781,80 @@
           "source": "日本経済新聞"
         },
         {
-          "id": "f5d14ae0c7b3",
-          "title": "ウクライナはロシアに対し、「無条件で即時停戦」するよう求めた。",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTEdreHhVS21WdUxiQjBoVzd4MUk0cWZCbHVUbEZfMlYxWURpRV8td0o0U01udmkzVkhrUHZsSW9SN3hMV0c5WWU5dXNyNFJmLW5hcTBOd29VMFl5RDVsc1dKT1RPRXFpOGdxT01lY0VGSlFUOTVZc3JLekF2RGxVOE0yOXVseHZh?oc=5",
-          "importance": 4,
-          "source": "Vietnam.vn"
+          "id": "7df4fa60b54f",
+          "title": "木原内閣官房長官は次官連絡会議を開催しました",
+          "url": "https://www.kantei.go.jp/jp/pages/20260925choukan_jikan.html",
+          "importance": 3,
+          "source": "首相官邸"
         },
         {
-          "id": "15d296b95dce",
-          "title": "ロシア外相がウクライナとの一時停戦拒絶 安保理閣僚級協議",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jNTNxU3R1Qnc4UVQ2VXF6OGlYWWNhZ0pDMC1Nby1vQVU1X0NxOVlQSkl4eTNabG1aSm1RQ1pVVUwwdWsxNHRQQVFVdkNfUXA2ZmZqNXR0RjlfNUZick0teXg3bXRCVXdf?oc=5",
-          "importance": 4,
-          "source": "毎日新聞"
+          "id": "52d2ef0cef10",
+          "title": "長期金利上昇3.115％、30年1カ月ぶり高水準 インフレ懸念で売り",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPclhNM3JCVjV6aEx2QXhJWUI1NjNuMmtKbnZRZUJwXzMwaWJKTUd5RS1iSjRwYnFmcml5TG13T0lDallhNURNMk1DeFl5NXZ2YXk2S1hoWnJzR0xOTGpjQ2VVUUhvZFpzTV8tSVA2a2Y1TWo5QXRDWWpyRjFuOTVjdGpn?oc=5",
+          "importance": 3,
+          "source": "JAPAN Forward"
         },
         {
-          "id": "c64e8af9b614",
-          "title": "「限定的な停戦」追求も ロシア、ウクライナが関心―米国務長官",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5OS1lBWmVobWN4bkE5bmtHbG1PSnRua21rMVNJeURsaVhEREZxanQybllmOU4yMUFVZVRXeWVlVWt0NHUycExKd1BaQWhWY0Rhc0Zqc2RabHlpQy0xaHpxb3F4MA?oc=5",
-          "importance": 4,
-          "source": "時事ドットコム"
+          "id": "bb9f3c336591",
+          "title": "日本の長期金利上昇、一時3.115% 世界でインフレ懸念の売り",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MZ0kybjlXNG8zYU1lOE9wNFZhY2lQdzJKRy1rWWdFOUNDSTl3c1lpak1mRWNicFFKcFlxVW1FcEl3MGlEOVZweTMxRnFULWNGOGw2Nk9vZ1hFaEJxUWVKOW5lWFBuZjRjM25Gag?oc=5",
+          "importance": 3,
+          "source": "日本経済新聞"
         },
         {
-          "id": "6e29cfa0a1f2",
-          "title": "ゼレンスキー氏、停戦なければ「ロシアも苦しい冬に」　国連で外交強化訴え",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8waUZ3cXNHSTNDWkVvXzhBWWJfb05OLWFZX0NEX2o2Vm1PYWpfSDhrZUNNVEs1V0pwdTRrNUNta0ZkeEpvZ1dIU3RkQWxIUjl2RDBDN01BWERnYWR3d2l1Wk5FTGRvWW5vejNDVE5ZRWtJZ0dYdFhmWXBHLXJ3QdIBgwFBVV95cUxQSUl3OFNOXzJlOHptSVJMNnpfRzh6LWdsVWxYOWFfZG1PMVFIOEtPWjlPazJCNWNPd25RNkVyOUYzNnFScmJUcmZMZG83YmxPN0I4WHFvaEVxQnVkWHhrZTBTWjVaSmlKaDNScVEtbGFGRlkzZXdJNHptU1V1dlBWMEhMSQ?oc=5",
-          "importance": 4,
-          "source": "ｄメニューニュース"
+          "id": "da0c0bc46eb3",
+          "title": "東京為替見通し＝ドル円、米長期金利上昇で続伸見通し 円買い介入には要警戒か",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5UU1VNEpvaUIyMzlRRzJmaXMxbjNmQmtWM2RNRG9rblhuNGU3UDloZDdvYkR5dXNhMUl1YlZEQVNRVi11eU5yRV9ZY1RpdzA5UHc?oc=5",
+          "importance": 3,
+          "source": "ザイFX！"
         },
         {
-          "id": "b6c370a78e4f",
-          "title": "ゼレンスキー氏「エネルギー停戦」提案、米国に仲介を期待…ロシア側は事実上「拒否」の姿勢か",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBfLUV5UWktNC1tSndwT1oyU2daTmFNWEhjOERCTUZ6NENKUkM5bDZydWpIb3RhUTNTODhqdHExUjVMYVFFcWlZN0lOVFhMNDFsVS1ET2p0ZDYwT1p5aXNPdU53?oc=5",
-          "importance": 4,
-          "source": "読売新聞"
-        },
-        {
-          "id": "a50311c3787f",
-          "title": "約５０か国、ロシアに対して侵略停止と即時停戦を要求",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNTZFS0t3TWdraUttdWtib2FZUDJEOVgtX29Sb1lWSk9EX09udUc3Wko4RmM4TDZrZ0dYemlIVUtwM2R6Q3VZdHVNTnFrVDBWSVJjaTFJYXZkOWN3cU1qSFB0SmtpbzBxT1FVQjRrV0RPWExRWUxIV2g5dEg0bUZkbktLcnk3VGpuLU1iRVNMTHZRWTFubWxkVjV0MllpQWF5YXRVbHlQMld4am83WEJZc2dGM0x2SHpMTE1CMFZUT2JfTHl40gHKAUFVX3lxTE9xaTNweEhrLWdDelF1ZVF2S19KWHF6N3NPaHk3eS1RZFAydVAySFRUdnJZX3dUeXFoOUlTb0ZLdlVBZG0yak56bG5yZ25WaHJSZjFJRHI1ZHNpYmZWblc1a2JWNXJYdEc4WG4wVE5LR2dyZmNRVVBZR2tUUWJPbDZINS1FZE5abUJYdXUtajdCb2dTUmpOMThFTjRnS2VYUlRyZWhlaU9mWmNkMXctRlBSTGNBaDZ3OElHWV94UUhEUWM4VzlyeE1zV0E?oc=5",
-          "importance": 4,
-          "source": "ウクルインフォルム通信"
-        },
-        {
-          "id": "14fbedf9f049",
-          "title": "ロシアがウクライナのガソリンスタンドなどを攻撃 ゼレンスキー大統領がトランプ大統領と「エネルギー停戦」協議の直後",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBuVHQ3Y21hZHZTTEt4RGxDQnJzcjZXWGRPY3JLQXp2RXhmZWw0c1JHNXp1MkVnTjlUSjFlVWRxNGg0aGlNQi1BMUlqQUl3ZGxTMmk2SE1IeHVvQ1ZtT0NHNG5zdS1QZkpqRGwxTmdpM245NHdrVXVXRi1OdEhWN2s?oc=5",
-          "importance": 4,
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "id": "d5b0411c51a7",
-          "title": "データセンター計画、深まる原子力依存――「原発回帰はやむなし」一転した国策（連載「揺れる川内原発 電力需要の光と陰」㊤）",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE42emd4dWVHWkxxamhBMnZRYzl1bFFaUG1PV0hxOWxWVEdzQWJUN05IT3pxQlVyMkpDbWtnbzNTTjg4U0RNalVFNktsMFBicXJTOE5BUWJoRQ?oc=5",
+          "id": "46ae0aac4a97",
+          "title": "長期金利の上昇が加速、「ターミナルレート」も引き上がる？ 住宅ローンや債券投資の判断のポイント 野村證券・美和卓",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CODR4SFN3VHlXeUVXOTk1ZDRCcTZJeHY1ODZOM0doa3FhRVZOazBrT1VEX2hic2tmcGx3RERpeW84bnZibzk1d3FYaG9OVFRreW5KaE1vUncxbFRPRHl3?oc=5",
           "importance": 2,
-          "source": "南日本新聞"
-        },
-        {
-          "id": "9f74cccdf8ac",
-          "title": "台湾は日本から輸入、でもその原料は中国から―「国名表示」だけでは見えない日台・経済安全保障の急所",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ2NseWJGdVBuUXNwRmFYaVptNzRpdzlEMFY4TWNuTllZS2VFSFJMd0dZZlVTX2ZHMERyRm1MV2pGOFAxVjZPbDFWTUViNXZSQzd5dlV0QkU2VFNvcjQxUVpLSWNLaFNTRkJWNjlVYTFsSlllbkJoX19vWUozOW5sa0dHWEhnT2h0?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "id": "bedec97c3a2c",
-          "title": "習氏、トランプ氏に「台湾独立反対」を要請 中国国営メディア",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBobXhkX0dxaXFWSzdFdVB4b2FFUi1wMmEzc0hDUkJrbFh2cnZJRDIzcHlKZDhIaHBfeTh6VXJONS0wNWU0N2kySS04STE3VktRTUNN?oc=5",
-          "importance": 2,
-          "source": "CNN.co.jp"
+          "source": "nomura.co.jp"
         }
       ],
       "stocks": [
         {
-          "code": "6701",
-          "name": "日本電気",
-          "positive": 2,
-          "negative": 7,
-          "watch": 0
-        },
-        {
-          "code": "8035",
-          "name": "東京エレクトロン",
-          "positive": 2,
-          "negative": 3,
-          "watch": 0
-        },
-        {
-          "code": "6857",
-          "name": "アドバンテスト",
-          "positive": 2,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "6146",
-          "name": "ディスコ",
-          "positive": 2,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "6501",
-          "name": "日立製作所",
+          "code": "8801",
+          "name": "三井不動産",
           "positive": 1,
-          "negative": 0,
-          "watch": 0
-        }
-      ],
-      "max_importance": 4,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "connection_type": "supply_chain",
-      "connection_label": "資源・サプライチェーン",
-      "theme_id": null,
-      "label": "資源エネルギーに関連するニュース",
-      "category": "",
-      "category_label": "資源・サプライチェーン",
-      "category_emoji": "🔗",
-      "member_ids": [
-        "bd2eadc3e5a8",
-        "f5d14ae0c7b3",
-        "15d296b95dce",
-        "c64e8af9b614",
-        "6e29cfa0a1f2",
-        "b6c370a78e4f",
-        "a50311c3787f",
-        "14fbedf9f049",
-        "95f0e5c51924",
-        "7233900f9474",
-        "e36225471169"
-      ],
-      "members": [
-        {
-          "id": "bd2eadc3e5a8",
-          "title": "令和８年上半期の全国の税関における関税法違反事件の取締り状況",
-          "url": "https://www.mof.go.jp/policy/customs_tariff/trade/safe_society/mitsuyu/cy2026_1/index.html",
-          "importance": 5,
-          "source": "財務省"
-        },
-        {
-          "id": "f5d14ae0c7b3",
-          "title": "ウクライナはロシアに対し、「無条件で即時停戦」するよう求めた。",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTEdreHhVS21WdUxiQjBoVzd4MUk0cWZCbHVUbEZfMlYxWURpRV8td0o0U01udmkzVkhrUHZsSW9SN3hMV0c5WWU5dXNyNFJmLW5hcTBOd29VMFl5RDVsc1dKT1RPRXFpOGdxT01lY0VGSlFUOTVZc3JLekF2RGxVOE0yOXVseHZh?oc=5",
-          "importance": 4,
-          "source": "Vietnam.vn"
-        },
-        {
-          "id": "15d296b95dce",
-          "title": "ロシア外相がウクライナとの一時停戦拒絶 安保理閣僚級協議",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jNTNxU3R1Qnc4UVQ2VXF6OGlYWWNhZ0pDMC1Nby1vQVU1X0NxOVlQSkl4eTNabG1aSm1RQ1pVVUwwdWsxNHRQQVFVdkNfUXA2ZmZqNXR0RjlfNUZick0teXg3bXRCVXdf?oc=5",
-          "importance": 4,
-          "source": "毎日新聞"
-        },
-        {
-          "id": "c64e8af9b614",
-          "title": "「限定的な停戦」追求も ロシア、ウクライナが関心―米国務長官",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5OS1lBWmVobWN4bkE5bmtHbG1PSnRua21rMVNJeURsaVhEREZxanQybllmOU4yMUFVZVRXeWVlVWt0NHUycExKd1BaQWhWY0Rhc0Zqc2RabHlpQy0xaHpxb3F4MA?oc=5",
-          "importance": 4,
-          "source": "時事ドットコム"
-        },
-        {
-          "id": "6e29cfa0a1f2",
-          "title": "ゼレンスキー氏、停戦なければ「ロシアも苦しい冬に」　国連で外交強化訴え",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8waUZ3cXNHSTNDWkVvXzhBWWJfb05OLWFZX0NEX2o2Vm1PYWpfSDhrZUNNVEs1V0pwdTRrNUNta0ZkeEpvZ1dIU3RkQWxIUjl2RDBDN01BWERnYWR3d2l1Wk5FTGRvWW5vejNDVE5ZRWtJZ0dYdFhmWXBHLXJ3QdIBgwFBVV95cUxQSUl3OFNOXzJlOHptSVJMNnpfRzh6LWdsVWxYOWFfZG1PMVFIOEtPWjlPazJCNWNPd25RNkVyOUYzNnFScmJUcmZMZG83YmxPN0I4WHFvaEVxQnVkWHhrZTBTWjVaSmlKaDNScVEtbGFGRlkzZXdJNHptU1V1dlBWMEhMSQ?oc=5",
-          "importance": 4,
-          "source": "ｄメニューニュース"
-        },
-        {
-          "id": "b6c370a78e4f",
-          "title": "ゼレンスキー氏「エネルギー停戦」提案、米国に仲介を期待…ロシア側は事実上「拒否」の姿勢か",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBfLUV5UWktNC1tSndwT1oyU2daTmFNWEhjOERCTUZ6NENKUkM5bDZydWpIb3RhUTNTODhqdHExUjVMYVFFcWlZN0lOVFhMNDFsVS1ET2p0ZDYwT1p5aXNPdU53?oc=5",
-          "importance": 4,
-          "source": "読売新聞"
-        },
-        {
-          "id": "a50311c3787f",
-          "title": "約５０か国、ロシアに対して侵略停止と即時停戦を要求",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNTZFS0t3TWdraUttdWtib2FZUDJEOVgtX29Sb1lWSk9EX09udUc3Wko4RmM4TDZrZ0dYemlIVUtwM2R6Q3VZdHVNTnFrVDBWSVJjaTFJYXZkOWN3cU1qSFB0SmtpbzBxT1FVQjRrV0RPWExRWUxIV2g5dEg0bUZkbktLcnk3VGpuLU1iRVNMTHZRWTFubWxkVjV0MllpQWF5YXRVbHlQMld4am83WEJZc2dGM0x2SHpMTE1CMFZUT2JfTHl40gHKAUFVX3lxTE9xaTNweEhrLWdDelF1ZVF2S19KWHF6N3NPaHk3eS1RZFAydVAySFRUdnJZX3dUeXFoOUlTb0ZLdlVBZG0yak56bG5yZ25WaHJSZjFJRHI1ZHNpYmZWblc1a2JWNXJYdEc4WG4wVE5LR2dyZmNRVVBZR2tUUWJPbDZINS1FZE5abUJYdXUtajdCb2dTUmpOMThFTjRnS2VYUlRyZWhlaU9mWmNkMXctRlBSTGNBaDZ3OElHWV94UUhEUWM4VzlyeE1zV0E?oc=5",
-          "importance": 4,
-          "source": "ウクルインフォルム通信"
-        },
-        {
-          "id": "14fbedf9f049",
-          "title": "ロシアがウクライナのガソリンスタンドなどを攻撃 ゼレンスキー大統領がトランプ大統領と「エネルギー停戦」協議の直後",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBuVHQ3Y21hZHZTTEt4RGxDQnJzcjZXWGRPY3JLQXp2RXhmZWw0c1JHNXp1MkVnTjlUSjFlVWRxNGg0aGlNQi1BMUlqQUl3ZGxTMmk2SE1IeHVvQ1ZtT0NHNG5zdS1QZkpqRGwxTmdpM245NHdrVXVXRi1OdEhWN2s?oc=5",
-          "importance": 4,
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "id": "95f0e5c51924",
-          "title": "レアアース輸出正常化、焦点に 中国許可遅れ、日本向けも 米中首脳会談",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zcTZZTkJPZFBmNDFlN2IyajB2NjlyaHdxa1d4Z2p1SnFsTmhLVDdzT1RBdkswZXpIR0xPcjRQWlp5RG5pNS1qdF9CMVNkNzd1Mmc?oc=5",
-          "importance": 3,
-          "source": "dempa-digital.com"
-        },
-        {
-          "id": "7233900f9474",
-          "title": "画像・写真：レアアース輸出正常化、焦点に：時事ドットコム",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB5Y01ScGNOUWxoa3g3NjhCN3drVEJ5bjM4TjVFeU9Ua0F2V1Y0UzEwN0tSdlF5ZnBhNFl2ZVZheHlQdGFnWHJZMExCVzRHQ2NwSHZ1OFAxa3pXVnY5SS1oVXA5Rmg?oc=5",
-          "importance": 3,
-          "source": "時事ドットコム"
-        },
-        {
-          "id": "e36225471169",
-          "title": "三菱マテリアル【5711】決算で株価ストップ高、2割減益から一転8割増益へ上方修正も、注意したい「逆回転」リスク（Finasee）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16cWZpbW5DVE9OTmd1SENwSG5fMm9UeTBydTdHNXlkcXQyWEVpeWRhM19Xdi1VbFM3MTBJZFZTZ1lYZ3ctczdnMUpiNVpCejJwMGhjaE1VclRoU281VFhTY1M4bnNCTWMxLXlkS1gwZ1Y0YldWZDhtZEExX2d2cVk?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ニュース"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "8058",
-          "name": "三菱商事",
-          "positive": 0,
           "negative": 7,
           "watch": 0
         },
         {
-          "code": "8031",
-          "name": "三井物産",
-          "positive": 0,
-          "negative": 7,
+          "code": "8802",
+          "name": "三菱地所",
+          "positive": 1,
+          "negative": 5,
           "watch": 0
         },
         {
-          "code": "8053",
-          "name": "住友商事",
-          "positive": 0,
-          "negative": 7,
+          "code": "4385",
+          "name": "メルカリ",
+          "positive": 1,
+          "negative": 1,
           "watch": 0
         },
         {
-          "code": "8002",
-          "name": "丸紅",
-          "positive": 0,
-          "negative": 7,
-          "watch": 0
-        },
-        {
-          "code": "2768",
-          "name": "双日",
+          "code": "1801",
+          "name": "大成建設",
           "positive": 2,
           "negative": 0,
           "watch": 0
         },
         {
-          "code": "5713",
-          "name": "住友金属鉱山",
+          "code": "1802",
+          "name": "大林組",
+          "positive": 2,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "1803",
+          "name": "清水建設",
           "positive": 2,
           "negative": 0,
           "watch": 0
@@ -11145,11 +11040,11 @@
     "milestones": {
       "accumulating": "2026-09-21"
     },
-    "last_computed_at": "2026-09-25T21:12:26+09:00"
+    "last_computed_at": "2026-09-25T21:45:56+09:00"
   },
   "counts": {
     "news": 40,
-    "high_importance": 19,
+    "high_importance": 18,
     "stocks": 20
   }
 }
