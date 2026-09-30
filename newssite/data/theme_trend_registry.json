@@ -31,7 +31,7 @@
     "government_jp": "2026-09-30",
     "media": "2026-09-30"
    },
-   "occurrences": 5
+   "occurrences": 6
   },
   "boj_hike": {
    "events": [
@@ -357,7 +357,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 111,
+   "occurrences": 112,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -383,7 +383,7 @@
    "milestones": {
     "government_foreign": "2026-09-30"
    },
-   "occurrences": 7
+   "occurrences": 8
   },
   "fed_hawkish": {
    "events": [
@@ -487,7 +487,7 @@
    "milestones": {
     "government_jp": "2026-09-29"
    },
-   "occurrences": 15
+   "occurrences": 16
   },
   "jp_politics": {
    "events": [
@@ -687,7 +687,7 @@
     "government_jp": "2026-09-20",
     "media": "2026-09-20"
    },
-   "occurrences": 57,
+   "occurrences": 58,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
@@ -784,13 +784,28 @@
      "signals": [],
      "source": "gaitame.com",
      "title": "【今日のドル円】昨日の振り返りと今日のドル円相場見通し「原油高で米金利急騰も158円は目前で足踏み？ 昨日の乱高下と今夜のFRB要人砲」 2026年9月29日"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-10-01",
+     "item_id": "cdaa9f8bce71",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "multi_source"
+     ],
+     "source": "gaitame.com",
+     "title": "FX/為替「ドル/円今日の見通し｜原油高を背景に切り返し 口先介入の効果は一時的」 外為どっとコム トゥデイ 2026年9月29日号"
     }
    ],
    "first_seen": "2026-09-21",
    "milestones": {
-    "government_foreign": "2026-09-21"
+    "government_foreign": "2026-09-21",
+    "media": "2026-10-01"
    },
-   "occurrences": 34
+   "occurrences": 35
   },
   "power_demand": {
    "events": [],
@@ -971,7 +986,7 @@
    "milestones": {
     "media": "2026-09-24"
    },
-   "occurrences": 86,
+   "occurrences": 87,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -997,7 +1012,7 @@
    "milestones": {
     "government_foreign": "2026-09-30"
    },
-   "occurrences": 26
+   "occurrences": 27
   },
   "shipbuilding_policy": {
    "events": [
@@ -1523,6 +1538,21 @@
      ],
      "source": "reuters.com",
      "title": "台湾の安全保障、米国は関与堅持を 米上院軍事委員長が訴え"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-01",
+     "item_id": "8af195ee8f64",
+     "origin_region": null,
+     "regions": [
+      "中国",
+      "台湾"
+     ],
+     "signals": [
+      "foreign"
+     ],
+     "source": "東京新聞",
+     "title": "中国・国防動員法16年ぶり改定は「台湾武力統一」の準備？ 当局は「自衛的」と言うが…"
     }
    ],
    "first_seen": "2026-09-20",
@@ -1531,7 +1561,7 @@
     "media": "2026-09-26",
     "research": "2026-09-27"
    },
-   "occurrences": 86,
+   "occurrences": 87,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -1586,7 +1616,7 @@
    "milestones": {
     "government_jp": "2026-09-24"
    },
-   "occurrences": 33
+   "occurrences": 34
   },
   "ukraine_russia": {
    "events": [
@@ -2444,13 +2474,62 @@
      ],
      "source": "みんかぶ FX/為替",
      "title": "ＮＹ各市場 ０時台 ダウ平均は小幅高 ナスダックもプラス圏での推移"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-10-01",
+     "item_id": "3af8aad70f49",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign",
+      "multi_source"
+     ],
+     "source": "みんかぶ FX/為替",
+     "title": "ダウ平均は下落もナスダックは上昇 ＰＣＥ価格指数を受け１０月利上げ期待は後退＝米国株概況 -"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-10-01",
+     "item_id": "26ea51421949",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign",
+      "multi_source"
+     ],
+     "source": "Reuters",
+     "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-01",
+     "item_id": "71efe955a886",
+     "origin_region": null,
+     "regions": [
+      "中国",
+      "米国"
+     ],
+     "signals": [
+      "foreign"
+     ],
+     "source": "BigGo ファイナンス",
+     "title": "米国株9月最終日：3指数が高く寄り付く、ハイテク株と中国関連株が全面高"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
     "media": "2026-09-23"
    },
-   "occurrences": 103,
+   "occurrences": 104,
    "signals": {}
   },
   "yen_strong": {
@@ -2600,7 +2679,7 @@
     "government_foreign": "2026-09-21",
     "media": "2026-09-24"
    },
-   "occurrences": 105,
+   "occurrences": 106,
    "signals": {}
   }
  }
