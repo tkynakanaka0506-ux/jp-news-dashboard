@@ -7,6 +7,32 @@
    "occurrences": 8,
    "signals": {}
   },
+  "aviation_policy": {
+   "events": [
+    {
+     "actor_types": [
+      "government_jp",
+      "media"
+     ],
+     "date": "2026-09-30",
+     "item_id": "f301658713f6",
+     "origin_region": "日本",
+     "regions": [],
+     "signals": [
+      "gov_source",
+      "multi_source"
+     ],
+     "source": "国土交通省(プレスリリース)",
+     "title": "航空輸送統計速報（令和8年7月分）"
+    }
+   ],
+   "first_seen": "2026-09-30",
+   "milestones": {
+    "government_jp": "2026-09-30",
+    "media": "2026-09-30"
+   },
+   "occurrences": 1
+  },
   "boj_hike": {
    "events": [
     {
@@ -331,7 +357,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 106,
+   "occurrences": 107,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -357,7 +383,7 @@
    "milestones": {
     "government_foreign": "2026-09-30"
    },
-   "occurrences": 2
+   "occurrences": 3
   },
   "fed_hawkish": {
    "events": [
@@ -447,7 +473,7 @@
    "milestones": {
     "government_jp": "2026-09-29"
    },
-   "occurrences": 10
+   "occurrences": 11
   },
   "jp_politics": {
    "events": [
@@ -624,6 +650,22 @@
      ],
      "source": "国土交通省(プレスリリース)",
      "title": "二地域居住の促進に資する取組を支援します！〜令和７年度補正予算による２事業の交付決定〜"
+    },
+    {
+     "actor_types": [
+      "government_jp"
+     ],
+     "date": "2026-09-30",
+     "item_id": "bf0e89f440d1",
+     "origin_region": "日本",
+     "regions": [
+      "日本"
+     ],
+     "signals": [
+      "gov_source"
+     ],
+     "source": "金融庁",
+     "title": "「銀行法施行規則等の一部を改正する内閣府令」等について公表しました。"
     }
    ],
    "first_seen": "2026-09-20",
@@ -631,7 +673,7 @@
     "government_jp": "2026-09-20",
     "media": "2026-09-20"
    },
-   "occurrences": 52,
+   "occurrences": 53,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
@@ -734,7 +776,7 @@
    "milestones": {
     "government_foreign": "2026-09-21"
    },
-   "occurrences": 30
+   "occurrences": 31
   },
   "power_demand": {
    "events": [],
@@ -915,7 +957,7 @@
    "milestones": {
     "media": "2026-09-24"
    },
-   "occurrences": 81,
+   "occurrences": 82,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -941,7 +983,7 @@
    "milestones": {
     "government_foreign": "2026-09-30"
    },
-   "occurrences": 21
+   "occurrences": 22
   },
   "shipbuilding_policy": {
    "events": [
@@ -1416,6 +1458,39 @@
      ],
      "source": "日本経済新聞",
      "title": "中国、「台湾統一」へ総力戦準備 改正国防動員法を施行へ 民間設備や技術転用"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-09-30",
+     "item_id": "251f85aaf3f0",
+     "origin_region": null,
+     "regions": [
+      "台湾",
+      "米国"
+     ],
+     "signals": [
+      "foreign",
+      "multi_source"
+     ],
+     "source": "Yahoo!ニュース",
+     "title": "台湾の安全保障、米国は関与堅持を 米上院軍事委員長が訴え（ロイター）"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-09-30",
+     "item_id": "ba48ff04edfb",
+     "origin_region": null,
+     "regions": [
+      "中国",
+      "台湾"
+     ],
+     "signals": [
+      "foreign"
+     ],
+     "source": "Reuters",
+     "title": "中国が台湾の批判に反発、第2次大戦の歴史認識巡り"
     }
    ],
    "first_seen": "2026-09-20",
@@ -1424,7 +1499,7 @@
     "media": "2026-09-26",
     "research": "2026-09-27"
    },
-   "occurrences": 81,
+   "occurrences": 82,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -1459,13 +1534,27 @@
      ],
      "source": "財務省",
      "title": "令和８年上半期の全国の税関における関税法違反事件の取締り状況"
+    },
+    {
+     "actor_types": [
+      "government_jp"
+     ],
+     "date": "2026-09-30",
+     "item_id": "74e90024854d",
+     "origin_region": "日本",
+     "regions": [],
+     "signals": [
+      "gov_source"
+     ],
+     "source": "財務省",
+     "title": "令和９年度関税改正要望事項"
     }
    ],
    "first_seen": "2026-09-24",
    "milestones": {
     "government_jp": "2026-09-24"
    },
-   "occurrences": 28
+   "occurrences": 29
   },
   "ukraine_russia": {
    "events": [
@@ -2289,7 +2378,7 @@
    "milestones": {
     "media": "2026-09-23"
    },
-   "occurrences": 98,
+   "occurrences": 99,
    "signals": {}
   },
   "yen_strong": {
@@ -2439,7 +2528,7 @@
     "government_foreign": "2026-09-21",
     "media": "2026-09-24"
    },
-   "occurrences": 100,
+   "occurrences": 101,
    "signals": {}
   }
  }
