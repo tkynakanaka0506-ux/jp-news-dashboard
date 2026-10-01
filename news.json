@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-01 17:50",
-  "generated_iso": "2026-10-01T17:50:21+09:00",
+  "generated_at": "2026-10-01 17:51",
+  "generated_iso": "2026-10-01T17:51:39+09:00",
   "status": "updated",
   "status_message": "40 件のニュースを取得しました。",
   "llm_used": true,
@@ -65,8 +65,8 @@
     },
     {
       "label": "日経先物",
-      "value": "68,245.00",
-      "change_pct": 2.15,
+      "value": "68,225.00",
+      "change_pct": 2.12,
       "asof": "10/1終値"
     },
     {
@@ -1875,175 +1875,6 @@
       "emergence_growth": {}
     },
     {
-      "id": "26ea51421949",
-      "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
-      "source": "Reuters",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-10-01 06:19",
-      "published_ts": 1790803190.0,
-      "category": "us",
-      "category_label": "米国市場",
-      "category_emoji": "🇺🇸",
-      "importance": 4,
-      "importance_reason": "重要語「四半期」・影響テーマ「米国株・ハイテク株の変動」に該当・3媒体が報道",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "low",
-      "news_novelty_label": "再報道",
-      "policy_event_id": "us_stock_move-20260921-02",
-      "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-09-21",
-      "policy_event_state": "UPDATE",
-      "themes": [
-        "米国株・ハイテク株の変動"
-      ],
-      "theme_ids": [
-        "us_stock_move"
-      ],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [
-        {
-          "code": "8604",
-          "name": "野村ホールディングス",
-          "sector": "証券",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "中",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "米国株",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8601",
-          "name": "大和証券グループ本社",
-          "sector": "証券",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "中",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "米国株",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8473",
-          "name": "SBIホールディングス",
-          "sector": "証券",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "中",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "米国株",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "9984",
-          "name": "ソフトバンクグループ",
-          "sector": "情報・通信",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "中",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "米国株",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7203",
-          "name": "トヨタ自動車",
-          "sector": "自動車",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "中",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "米国株",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        }
-      ],
-      "related": [
-        {
-          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高（ロイター）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HYUQ1dXltMnoxS0ZtcVpHUW9jc3dBWElobGZnaVdZc3l4cVFDa2wwX3M0RDR0TnY5M2ZwRnQwdVlONkI5MXFadEtvWmo5NkNnc1piN1dNSURWNTU2VjdpQW00V3BfT2lDa2ZQQnhnY2RSZXFhMWhBVjNpV0NJWDg?oc=5",
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5tWjBWTWNBZmNOMThsZUE4OU9neVo5Z1c3RXRzYTV4MW5lNWF5RjVaTERqY1oyaEFRTmk1Z0NtbXJJNUNFb2RYUzlDdER5eWVDWnVBTGxMZnNmSmZiX0p6LXZZWHlvQ3c?oc=5",
-          "source": "newsweekjapan.jp"
-        }
-      ],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
       "id": "3af8aad70f49",
       "title": "ダウ平均は下落もナスダックは上昇 ＰＣＥ価格指数を受け１０月利上げ期待は後退＝米国株概況 -",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1QSFY1QnFPS3ZwS0pKdUoyNUhZMlZDWThtaEdDQmtYaFJBdV9xb2dza1VtelhHbEEzdk5IUF85QWY1TExuNTVpNA?oc=5",
@@ -2633,7 +2464,7 @@
         {
           "title": "台湾の安全保障、米国は関与堅持を 米上院軍事委員長が訴え",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9MYllTOEFiMjQyVlhDQkpYekdZdXhkWTdiRjN0X21GZGZDZzc2UDY4bk0xX1Izb3lGOEkwcExUcTEwR3RJNUJWRnZLY0dkRHdhZ1JIcDdnaHB3Mm51b3JxUVVuMXA5TnM?oc=5",
-          "source": "newsweekjapan.jp"
+          "source": "ニューズウィーク日本版"
         },
         {
           "title": "台湾の安全保障、米国は関与堅持を 米上院軍事委員長が訴え",
@@ -3783,6 +3614,170 @@
         "recent_new_actor_types": 2,
         "total_actor_types": 2
       }
+    },
+    {
+      "id": "26ea51421949",
+      "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
+      "source": "Reuters",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-10-01 06:19",
+      "published_ts": 1790803190.0,
+      "category": "us",
+      "category_label": "米国市場",
+      "category_emoji": "🇺🇸",
+      "importance": 3,
+      "importance_reason": "重要語「四半期」・影響テーマ「米国株・ハイテク株の変動」に該当・2媒体が報道",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "low",
+      "news_novelty_label": "再報道",
+      "policy_event_id": "us_stock_move-20260921-02",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-09-21",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "米国株・ハイテク株の変動"
+      ],
+      "theme_ids": [
+        "us_stock_move"
+      ],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "8604",
+          "name": "野村ホールディングス",
+          "sector": "証券",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8601",
+          "name": "大和証券グループ本社",
+          "sector": "証券",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8473",
+          "name": "SBIホールディングス",
+          "sector": "証券",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9984",
+          "name": "ソフトバンクグループ",
+          "sector": "情報・通信",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "sector": "自動車",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [
+        {
+          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBSSVlKQjhxbXp2SEw1bnk4ZkZ2VHhkWkNGMzV1NWVmNkZRWkNBSTJMSEU1RWxQcFprSXVHOXd0aGxPOTdzSktWQ050NmxXdnRfNlRuOWFYYlVHRWJrM1Y0ZlZRNTVENEg3cjNoS2dR?oc=5",
+          "source": "Infoseek"
+        }
+      ],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
     },
     {
       "id": "bf0e89f440d1",
@@ -5358,34 +5353,144 @@
       "emergence_growth": {}
     },
     {
-      "id": "de78c8e059d9",
-      "title": "サムスン電機が基板に6.78兆ウォン投資 韓国・ベトナムで増産",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1XZXFlUXhEck84cElhVXdHZmVZeV96dDd0RWZJdnk2ZXBxWVBBeUZ5YWlkNFlEMXd1WXVvOWE4NGhWVnlQYk5BRHNsU0tVSFNYMHdiVmRrdHB4SkZ4TXo4?oc=5",
-      "source": "PlusWeb3",
+      "id": "d6f8ecf0b5dd",
+      "title": "ナスダック総合の指数情報・推移",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
+      "source": "Yahoo!ファイナンス",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
-      "published_at": "2026-10-01 14:30",
-      "published_ts": 1790832600.0,
-      "category": "tech",
-      "category_label": "半導体・AI",
-      "category_emoji": "🤖",
+      "published_at": "2026-10-01 14:24",
+      "published_ts": 1790832246.0,
+      "category": "us",
+      "category_label": "米国市場",
+      "category_emoji": "🇺🇸",
       "importance": 2,
-      "importance_reason": "重要語「増産」",
+      "importance_reason": "影響テーマ「米国株・ハイテク株の変動」に該当",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
+      "news_novelty": "low",
+      "news_novelty_label": "再報道",
+      "policy_event_id": "us_stock_move-20260921-01",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-09-21",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "米国株・ハイテク株の変動"
+      ],
+      "theme_ids": [
+        "us_stock_move"
+      ],
       "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
-      "impacts": [],
+      "impacts": [
+        {
+          "code": "8604",
+          "name": "野村ホールディングス",
+          "sector": "証券",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "ナスダック",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8601",
+          "name": "大和証券グループ本社",
+          "sector": "証券",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "ナスダック",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8473",
+          "name": "SBIホールディングス",
+          "sector": "証券",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "ナスダック",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9984",
+          "name": "ソフトバンクグループ",
+          "sector": "情報・通信",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "ナスダック",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "sector": "自動車",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "ナスダック",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
       "related": [],
       "emergence_stage": null,
       "emergence_stage_label": "",
@@ -5946,7 +6051,7 @@
       "id": "b59c59ae2c10",
       "title": "セキチュー《決算短信》2027年2月期予想 DIY部門好調で営業利益を上方修正",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBTZGtyR0pSbzdOaTd5T1pzUmJsbDdXQ1plRl9jWXREc0dFbEZWWkNlSVBrWUY3clgtU3YxSTBMNUZuVGdfNWNDN3lHSHllcHd3Sm9FWDRTc1dzQQ?oc=5",
-      "source": "上毛新聞電子版",
+      "source": "jomo-news.co.jp",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-09-30 15:30",
@@ -6042,7 +6147,7 @@
       "id": "f411b0384d2c",
       "title": "米長期金利、一時5.29％ 利上げ局面の長期化観測で 米国の財政悪化懸念も背景",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Ka2JFMmpDWHRyWmg3Q19KbUxIUUxlck5YRmdXM2xuN0YxbURNTEEyNmM0TlR4UGpTR2FISnBFQmdOcGV2Wjl3bjRCRTJ3dDlWYjJzVi1EQUU1Q0RaRFhaa3pfZEdtdzNDU2o4R05rU295NUlhSlE?oc=5",
-      "source": "sankei.com",
+      "source": "産経ニュース",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-09-30 09:08",
@@ -6980,7 +7085,7 @@
       "sector": "自動車",
       "positive": 5,
       "negative": 0,
-      "watch": 4,
+      "watch": 5,
       "score": 15,
       "news": [
         {
@@ -6991,21 +7096,21 @@
           "importance": 5
         },
         {
-          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
-          "direction": "watch",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "importance": 4
-        },
-        {
           "title": "ダウ平均は下落もナスダックは上昇 ＰＣＥ価格指数を受け１０月利上げ期待は後退＝米国株概況 -",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1QSFY1QnFPS3ZwS0pKdUoyNUhZMlZDWThtaEdDQmtYaFJBdV9xb2dza1VtelhHbEEzdk5IUF85QWY1TExuNTVpNA?oc=5",
           "direction": "watch",
           "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "importance": 4
+        },
+        {
+          "title": "日米首脳が円安を問題視…「為替介入」の可能性は？",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yQ2ItV1dMZkdicjRFdGYzYTV4ejJ4aHpGUFhJcWxaeGpZa3k1X1RJLW4wbllHU05FTTNQVUtzNTdWVHNVTGNmeEI3Nmk2amRvTVV0aE04OVpoZw?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "importance": 4
         }
       ],
-      "mentions": 9
+      "mentions": 10
     },
     {
       "code": "8306",
@@ -7140,6 +7245,39 @@
       "mentions": 8
     },
     {
+      "code": "8604",
+      "name": "野村ホールディングス",
+      "sector": "証券",
+      "positive": 1,
+      "negative": 0,
+      "watch": 6,
+      "score": 2,
+      "news": [
+        {
+          "title": "日銀は「普通」の利上げペースへ 2027年の利上げ局面終了後、超長期金利の低下を予想 野村證券・宍戸知暁",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9MZWVXNWxHQ1VPREtUZmFGQ3Q2U0M2Wmx1QmJtTXpNaGR6OGNFanlwMVdqUDdXcHpKWVEtd3ktZ3ZBRHVCLWVldGd3WHE0QzVkN01rVENmVUpqREdGOTZZ?oc=5",
+          "direction": "watch",
+          "reason": "見出しで名指しされている当事者。まず株価が反応しやすい",
+          "importance": 5
+        },
+        {
+          "title": "ダウ平均は下落もナスダックは上昇 ＰＣＥ価格指数を受け１０月利上げ期待は後退＝米国株概況 -",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1QSFY1QnFPS3ZwS0pKdUoyNUhZMlZDWThtaEdDQmtYaFJBdV9xb2dza1VtelhHbEEzdk5IUF85QWY1TExuNTVpNA?oc=5",
+          "direction": "watch",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 4
+        },
+        {
+          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
+          "direction": "watch",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 3
+        }
+      ],
+      "mentions": 7
+    },
+    {
       "code": "7182",
       "name": "ゆうちょ銀行",
       "sector": "銀行",
@@ -7239,8 +7377,8 @@
       "mentions": 6
     },
     {
-      "code": "8604",
-      "name": "野村ホールディングス",
+      "code": "8601",
+      "name": "大和証券グループ本社",
       "sector": "証券",
       "positive": 1,
       "negative": 0,
@@ -7248,25 +7386,91 @@
       "score": 2,
       "news": [
         {
-          "title": "日銀は「普通」の利上げペースへ 2027年の利上げ局面終了後、超長期金利の低下を予想 野村證券・宍戸知暁",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9MZWVXNWxHQ1VPREtUZmFGQ3Q2U0M2Wmx1QmJtTXpNaGR6OGNFanlwMVdqUDdXcHpKWVEtd3ktZ3ZBRHVCLWVldGd3WHE0QzVkN01rVENmVUpqREdGOTZZ?oc=5",
+          "title": "ダウ平均は下落もナスダックは上昇 ＰＣＥ価格指数を受け１０月利上げ期待は後退＝米国株概況 -",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1QSFY1QnFPS3ZwS0pKdUoyNUhZMlZDWThtaEdDQmtYaFJBdV9xb2dza1VtelhHbEEzdk5IUF85QWY1TExuNTVpNA?oc=5",
           "direction": "watch",
-          "reason": "見出しで名指しされている当事者。まず株価が反応しやすい",
-          "importance": 5
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 4
         },
         {
           "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
           "direction": "watch",
           "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "importance": 4
+          "importance": 3
         },
+        {
+          "title": "ナスダック総合の指数情報・推移",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
+          "direction": "watch",
+          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 6
+    },
+    {
+      "code": "8473",
+      "name": "SBIホールディングス",
+      "sector": "証券",
+      "positive": 1,
+      "negative": 0,
+      "watch": 5,
+      "score": 2,
+      "news": [
         {
           "title": "ダウ平均は下落もナスダックは上昇 ＰＣＥ価格指数を受け１０月利上げ期待は後退＝米国株概況 -",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1QSFY1QnFPS3ZwS0pKdUoyNUhZMlZDWThtaEdDQmtYaFJBdV9xb2dza1VtelhHbEEzdk5IUF85QWY1TExuNTVpNA?oc=5",
           "direction": "watch",
           "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "importance": 4
+        },
+        {
+          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
+          "direction": "watch",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 3
+        },
+        {
+          "title": "ナスダック総合の指数情報・推移",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
+          "direction": "watch",
+          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 6
+    },
+    {
+      "code": "9984",
+      "name": "ソフトバンクグループ",
+      "sector": "情報・通信",
+      "positive": 1,
+      "negative": 0,
+      "watch": 5,
+      "score": 2,
+      "news": [
+        {
+          "title": "ダウ平均は下落もナスダックは上昇 ＰＣＥ価格指数を受け１０月利上げ期待は後退＝米国株概況 -",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1QSFY1QnFPS3ZwS0pKdUoyNUhZMlZDWThtaEdDQmtYaFJBdV9xb2dza1VtelhHbEEzdk5IUF85QWY1TExuNTVpNA?oc=5",
+          "direction": "watch",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 4
+        },
+        {
+          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
+          "direction": "watch",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 3
+        },
+        {
+          "title": "ナスダック総合の指数情報・推移",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
+          "direction": "watch",
+          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
         }
       ],
       "mentions": 6
@@ -7432,105 +7636,6 @@
           "direction": "positive",
           "reason": "「内閣」に反応: 財政出動・公共投資の拡大観測が材料になりやすい",
           "importance": 3
-        }
-      ],
-      "mentions": 5
-    },
-    {
-      "code": "8601",
-      "name": "大和証券グループ本社",
-      "sector": "証券",
-      "positive": 1,
-      "negative": 0,
-      "watch": 4,
-      "score": 2,
-      "news": [
-        {
-          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
-          "direction": "watch",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "importance": 4
-        },
-        {
-          "title": "ダウ平均は下落もナスダックは上昇 ＰＣＥ価格指数を受け１０月利上げ期待は後退＝米国株概況 -",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1QSFY1QnFPS3ZwS0pKdUoyNUhZMlZDWThtaEdDQmtYaFJBdV9xb2dza1VtelhHbEEzdk5IUF85QWY1TExuNTVpNA?oc=5",
-          "direction": "watch",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "importance": 4
-        },
-        {
-          "title": "米国株9月最終日：3指数が高く寄り付く、ハイテク株と中国関連株が全面高",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5uVXptZW1sSFV2eWJMVkxIMVQzQjJMZU15Uk9fMGVJVFdEZE5qMkpJbEVGaTF3eXBBUHdPbkxjLURxdWFCZkV5SEVFYVFHYzNNVmJTb0xoN09VamRocHlqaWZwZUs5NTVPbEk0NHA4RG1sdFBo?oc=5",
-          "direction": "watch",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "importance": 2
-        }
-      ],
-      "mentions": 5
-    },
-    {
-      "code": "8473",
-      "name": "SBIホールディングス",
-      "sector": "証券",
-      "positive": 1,
-      "negative": 0,
-      "watch": 4,
-      "score": 2,
-      "news": [
-        {
-          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
-          "direction": "watch",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "importance": 4
-        },
-        {
-          "title": "ダウ平均は下落もナスダックは上昇 ＰＣＥ価格指数を受け１０月利上げ期待は後退＝米国株概況 -",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1QSFY1QnFPS3ZwS0pKdUoyNUhZMlZDWThtaEdDQmtYaFJBdV9xb2dza1VtelhHbEEzdk5IUF85QWY1TExuNTVpNA?oc=5",
-          "direction": "watch",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "importance": 4
-        },
-        {
-          "title": "米国株9月最終日：3指数が高く寄り付く、ハイテク株と中国関連株が全面高",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5uVXptZW1sSFV2eWJMVkxIMVQzQjJMZU15Uk9fMGVJVFdEZE5qMkpJbEVGaTF3eXBBUHdPbkxjLURxdWFCZkV5SEVFYVFHYzNNVmJTb0xoN09VamRocHlqaWZwZUs5NTVPbEk0NHA4RG1sdFBo?oc=5",
-          "direction": "watch",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "importance": 2
-        }
-      ],
-      "mentions": 5
-    },
-    {
-      "code": "9984",
-      "name": "ソフトバンクグループ",
-      "sector": "情報・通信",
-      "positive": 1,
-      "negative": 0,
-      "watch": 4,
-      "score": 2,
-      "news": [
-        {
-          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
-          "direction": "watch",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "importance": 4
-        },
-        {
-          "title": "ダウ平均は下落もナスダックは上昇 ＰＣＥ価格指数を受け１０月利上げ期待は後退＝米国株概況 -",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1QSFY1QnFPS3ZwS0pKdUoyNUhZMlZDWThtaEdDQmtYaFJBdV9xb2dza1VtelhHbEEzdk5IUF85QWY1TExuNTVpNA?oc=5",
-          "direction": "watch",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "importance": 4
-        },
-        {
-          "title": "米国株9月最終日：3指数が高く寄り付く、ハイテク株と中国関連株が全面高",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5uVXptZW1sSFV2eWJMVkxIMVQzQjJMZU15Uk9fMGVJVFdEZE5qMkpJbEVGaTF3eXBBUHdPbkxjLURxdWFCZkV5SEVFYVFHYzNNVmJTb0xoN09VamRocHlqaWZwZUs5NTVPbEk0NHA4RG1sdFBo?oc=5",
-          "direction": "watch",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "importance": 2
         }
       ],
       "mentions": 5
@@ -8099,375 +8204,40 @@
     {
       "connection_type": "theme",
       "connection_label": "同じテーマ",
-      "theme_id": "jp_politics",
-      "label": "日本の政局・経済対策",
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "member_ids": [
-        "d17198b2f8e7",
-        "256f1e1a3692",
-        "2b4b9b0ef152",
-        "bf0e89f440d1",
-        "73c140a290a0"
-      ],
-      "members": [
-        {
-          "id": "d17198b2f8e7",
-          "title": "短い間隔の追加利上げに複数の言及、内閣府は中立金利に踏み込む＝日銀9月会合",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRHBLMUMtZTdkX1FuMG40SHJ0Y2VwSWZqUW5TUmN3UzFWdlNkdFJnY2xEVlAyZ1FuMUltQlcwaEVYd05JZUpCcldHdHBSNTgzYnZzM0NXcFVjRTZVWDJERXRQTzM1WFBMYjF4VXE1RGdGOXdTUWdFUE1LdFp3aDRkSU96XzBrclFwMkdFY0t3R28?oc=5",
-          "importance": 5,
-          "source": "Reuters"
-        },
-        {
-          "id": "256f1e1a3692",
-          "title": "「経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律に基づく特定社会基盤事業者の指定等に関する内閣府令の一部を改正する内閣府令（案）」等について公表しました。",
-          "url": "https://www.fsa.go.jp/news/r8/sonota/20261001/20261001.html",
-          "importance": 3,
-          "source": "金融庁"
-        },
-        {
-          "id": "2b4b9b0ef152",
-          "title": "食品表示基準の一部を改正する内閣府令(案)に関する意見募集の結果について",
-          "url": "https://www.caa.go.jp/notice/entry/047591/",
-          "importance": 3,
-          "source": "消費者庁"
-        },
-        {
-          "id": "bf0e89f440d1",
-          "title": "「銀行法施行規則等の一部を改正する内閣府令」等について公表しました。",
-          "url": "https://www.fsa.go.jp/news/r8/ginkou/20260930/20260930.html",
-          "importance": 3,
-          "source": "金融庁"
-        },
-        {
-          "id": "73c140a290a0",
-          "title": "高市総理はモンゴル国のニャムオソル・オチラル首相と首脳会談を行いました",
-          "url": "https://www.kantei.go.jp/jp/105/actions/202609/29mongolia.html",
-          "importance": 3,
-          "source": "首相官邸"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "1801",
-          "name": "大成建設",
-          "positive": 5,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "1802",
-          "name": "大林組",
-          "positive": 5,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "1803",
-          "name": "清水建設",
-          "positive": 5,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "1812",
-          "name": "鹿島建設",
-          "positive": 5,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "9020",
-          "name": "東日本旅客鉄道",
-          "positive": 1,
-          "negative": 0,
-          "watch": 3
-        },
-        {
-          "code": "9022",
-          "name": "東海旅客鉄道",
-          "positive": 1,
-          "negative": 0,
-          "watch": 3
-        }
-      ],
-      "max_importance": 5,
-      "emergence_stage": "watch",
-      "emergence_stage_label": "👀 要監視テーマ",
-      "emergence_signal_labels": [
-        "政策の検討・審議段階",
-        "政府・省庁の一次情報",
-        "複数媒体での同時報道"
-      ],
-      "emergence_event_count": 14,
-      "emergence_source_count": 6,
-      "emergence_actor_type_count": 2,
-      "emergence_actor_type_labels": [
-        "日本政府・省庁",
-        "複数メディア"
-      ],
-      "emergence_actor_type_breakdown": [
-        {
-          "label": "日本政府・省庁",
-          "count": 13
-        },
-        {
-          "label": "複数メディア",
-          "count": 2
-        }
-      ],
-      "emergence_region_count": 2,
-      "emergence_regions": [
-        "中国",
-        "日本"
-      ],
-      "emergence_origin_regions": [
-        "日本"
-      ],
-      "emergence_first_seen": "2026-09-20",
-      "emergence_window_counts": {
-        "7": 9,
-        "30": 14,
-        "90": 14
-      },
-      "emergence_timeline": [
-        {
-          "date": "2026-09-20",
-          "source": "金融庁",
-          "signal_labels": [
-            "政策の検討・審議段階",
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-09-20",
-          "source": "金融庁",
-          "signal_labels": [
-            "政府・省庁の一次情報",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁",
-            "複数メディア"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-09-20",
-          "source": "首相官邸",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": [
-            "中国",
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-09-20",
-          "source": "農林水産省",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-09-20",
-          "source": "",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-09-24",
-          "source": "財務省",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-09-25",
-          "source": "首相官邸",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-09-25",
-          "source": "財務省",
-          "signal_labels": [
-            "政府・省庁の一次情報",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁",
-            "複数メディア"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-09-29",
-          "source": "財務省",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-09-29",
-          "source": "首相官邸",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-09-30",
-          "source": "国土交通省(プレスリリース)",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-09-30",
-          "source": "金融庁",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-10-01",
-          "source": "金融庁",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-10-01",
-          "source": "消費者庁",
-          "signal_labels": [
-            "政策の検討・審議段階",
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": [
-            "日本"
-          ]
-        }
-      ],
-      "emergence_milestones": [
-        {
-          "date": "2026-09-20",
-          "actor_type_label": "日本政府・省庁"
-        },
-        {
-          "date": "2026-09-20",
-          "actor_type_label": "複数メディア"
-        }
-      ],
-      "emergence_diagnosis": {
-        "target_stage": "watch",
-        "target_stage_label": "👀 要監視テーマ",
-        "source_count": 6,
-        "required_sources": 2,
-        "signal_count": 3,
-        "required_signals": 3,
-        "missing": []
-      },
-      "emergence_growth": {
-        "window_days": 14,
-        "recent_new_actor_types": 2,
-        "total_actor_types": 2
-      }
-    },
-    {
-      "connection_type": "theme",
-      "connection_label": "同じテーマ",
       "theme_id": "us_stock_move",
       "label": "米国株・ハイテク株の変動",
       "category": "us",
       "category_label": "米国市場",
       "category_emoji": "🇺🇸",
       "member_ids": [
-        "26ea51421949",
         "3af8aad70f49",
+        "26ea51421949",
+        "d6f8ecf0b5dd",
         "71efe955a886",
         "9057d23a4db7",
         "d4eab1c321f1"
       ],
       "members": [
         {
-          "id": "26ea51421949",
-          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
-          "importance": 4,
-          "source": "Reuters"
-        },
-        {
           "id": "3af8aad70f49",
           "title": "ダウ平均は下落もナスダックは上昇 ＰＣＥ価格指数を受け１０月利上げ期待は後退＝米国株概況 -",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1QSFY1QnFPS3ZwS0pKdUoyNUhZMlZDWThtaEdDQmtYaFJBdV9xb2dza1VtelhHbEEzdk5IUF85QWY1TExuNTVpNA?oc=5",
           "importance": 4,
           "source": "みんかぶ FX/為替"
+        },
+        {
+          "id": "26ea51421949",
+          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
+          "importance": 3,
+          "source": "Reuters"
+        },
+        {
+          "id": "d6f8ecf0b5dd",
+          "title": "ナスダック総合の指数情報・推移",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
+          "importance": 2,
+          "source": "Yahoo!ファイナンス"
         },
         {
           "id": "71efe955a886",
@@ -8497,35 +8267,35 @@
           "name": "野村ホールディングス",
           "positive": 1,
           "negative": 0,
-          "watch": 4
+          "watch": 5
         },
         {
           "code": "8601",
           "name": "大和証券グループ本社",
           "positive": 1,
           "negative": 0,
-          "watch": 4
+          "watch": 5
         },
         {
           "code": "8473",
           "name": "SBIホールディングス",
           "positive": 1,
           "negative": 0,
-          "watch": 4
+          "watch": 5
         },
         {
           "code": "9984",
           "name": "ソフトバンクグループ",
           "positive": 1,
           "negative": 0,
-          "watch": 4
+          "watch": 5
         },
         {
           "code": "7203",
           "name": "トヨタ自動車",
           "positive": 1,
           "negative": 0,
-          "watch": 4
+          "watch": 5
         }
       ],
       "max_importance": 4,
@@ -9000,6 +8770,349 @@
         "window_days": 14,
         "recent_new_actor_types": 1,
         "total_actor_types": 1
+      }
+    },
+    {
+      "connection_type": "theme",
+      "connection_label": "同じテーマ",
+      "theme_id": "jp_politics",
+      "label": "日本の政局・経済対策",
+      "category": "japan",
+      "category_label": "日本経済・政治",
+      "category_emoji": "🗾",
+      "member_ids": [
+        "d17198b2f8e7",
+        "256f1e1a3692",
+        "2b4b9b0ef152",
+        "bf0e89f440d1",
+        "73c140a290a0"
+      ],
+      "members": [
+        {
+          "id": "d17198b2f8e7",
+          "title": "短い間隔の追加利上げに複数の言及、内閣府は中立金利に踏み込む＝日銀9月会合",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRHBLMUMtZTdkX1FuMG40SHJ0Y2VwSWZqUW5TUmN3UzFWdlNkdFJnY2xEVlAyZ1FuMUltQlcwaEVYd05JZUpCcldHdHBSNTgzYnZzM0NXcFVjRTZVWDJERXRQTzM1WFBMYjF4VXE1RGdGOXdTUWdFUE1LdFp3aDRkSU96XzBrclFwMkdFY0t3R28?oc=5",
+          "importance": 5,
+          "source": "Reuters"
+        },
+        {
+          "id": "256f1e1a3692",
+          "title": "「経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律に基づく特定社会基盤事業者の指定等に関する内閣府令の一部を改正する内閣府令（案）」等について公表しました。",
+          "url": "https://www.fsa.go.jp/news/r8/sonota/20261001/20261001.html",
+          "importance": 3,
+          "source": "金融庁"
+        },
+        {
+          "id": "2b4b9b0ef152",
+          "title": "食品表示基準の一部を改正する内閣府令(案)に関する意見募集の結果について",
+          "url": "https://www.caa.go.jp/notice/entry/047591/",
+          "importance": 3,
+          "source": "消費者庁"
+        },
+        {
+          "id": "bf0e89f440d1",
+          "title": "「銀行法施行規則等の一部を改正する内閣府令」等について公表しました。",
+          "url": "https://www.fsa.go.jp/news/r8/ginkou/20260930/20260930.html",
+          "importance": 3,
+          "source": "金融庁"
+        },
+        {
+          "id": "73c140a290a0",
+          "title": "高市総理はモンゴル国のニャムオソル・オチラル首相と首脳会談を行いました",
+          "url": "https://www.kantei.go.jp/jp/105/actions/202609/29mongolia.html",
+          "importance": 3,
+          "source": "首相官邸"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "1801",
+          "name": "大成建設",
+          "positive": 5,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "1802",
+          "name": "大林組",
+          "positive": 5,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "1803",
+          "name": "清水建設",
+          "positive": 5,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "1812",
+          "name": "鹿島建設",
+          "positive": 5,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "9020",
+          "name": "東日本旅客鉄道",
+          "positive": 1,
+          "negative": 0,
+          "watch": 3
+        },
+        {
+          "code": "9022",
+          "name": "東海旅客鉄道",
+          "positive": 1,
+          "negative": 0,
+          "watch": 3
+        }
+      ],
+      "max_importance": 5,
+      "emergence_stage": "watch",
+      "emergence_stage_label": "👀 要監視テーマ",
+      "emergence_signal_labels": [
+        "政策の検討・審議段階",
+        "政府・省庁の一次情報",
+        "複数媒体での同時報道"
+      ],
+      "emergence_event_count": 14,
+      "emergence_source_count": 6,
+      "emergence_actor_type_count": 2,
+      "emergence_actor_type_labels": [
+        "日本政府・省庁",
+        "複数メディア"
+      ],
+      "emergence_actor_type_breakdown": [
+        {
+          "label": "日本政府・省庁",
+          "count": 13
+        },
+        {
+          "label": "複数メディア",
+          "count": 2
+        }
+      ],
+      "emergence_region_count": 2,
+      "emergence_regions": [
+        "中国",
+        "日本"
+      ],
+      "emergence_origin_regions": [
+        "日本"
+      ],
+      "emergence_first_seen": "2026-09-20",
+      "emergence_window_counts": {
+        "7": 9,
+        "30": 14,
+        "90": 14
+      },
+      "emergence_timeline": [
+        {
+          "date": "2026-09-20",
+          "source": "金融庁",
+          "signal_labels": [
+            "政策の検討・審議段階",
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-09-20",
+          "source": "金融庁",
+          "signal_labels": [
+            "政府・省庁の一次情報",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁",
+            "複数メディア"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-09-20",
+          "source": "首相官邸",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "中国",
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-09-20",
+          "source": "農林水産省",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-09-20",
+          "source": "",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "source": "財務省",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-09-25",
+          "source": "首相官邸",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-25",
+          "source": "財務省",
+          "signal_labels": [
+            "政府・省庁の一次情報",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁",
+            "複数メディア"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-09-29",
+          "source": "財務省",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-09-29",
+          "source": "首相官邸",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-30",
+          "source": "国土交通省(プレスリリース)",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-30",
+          "source": "金融庁",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-10-01",
+          "source": "金融庁",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-10-01",
+          "source": "消費者庁",
+          "signal_labels": [
+            "政策の検討・審議段階",
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "日本"
+          ]
+        }
+      ],
+      "emergence_milestones": [
+        {
+          "date": "2026-09-20",
+          "actor_type_label": "日本政府・省庁"
+        },
+        {
+          "date": "2026-09-20",
+          "actor_type_label": "複数メディア"
+        }
+      ],
+      "emergence_diagnosis": {
+        "target_stage": "watch",
+        "target_stage_label": "👀 要監視テーマ",
+        "source_count": 6,
+        "required_sources": 2,
+        "signal_count": 3,
+        "required_signals": 3,
+        "missing": []
+      },
+      "emergence_growth": {
+        "window_days": 14,
+        "recent_new_actor_types": 2,
+        "total_actor_types": 2
       }
     },
     {
@@ -9795,10 +9908,11 @@
       "category_emoji": "🏢",
       "member_ids": [
         "9f75bf56778d",
-        "26ea51421949",
         "3af8aad70f49",
         "749982dee74b",
+        "26ea51421949",
         "6aadf0054583",
+        "d6f8ecf0b5dd",
         "9ff075960636",
         "71efe955a886",
         "9057d23a4db7",
@@ -9811,13 +9925,6 @@
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9xVWtPcmJoOEdja3RaUGNobmhNUHplNmNFQkJST3o4T0diVjhZWDZrV2s3cVZHTkEtaWdvNHhIX0pSWi13Vkw2NHB0VlbSAU9BVV95cUxOS1VCLU5NaXpVU2J6czcxMHY0N1hJdnRFUHo2MGxvYk1BeXdJTEduQ3d3RUVrUkNuMGZEUmk4MmxwVWNmbDVTeXRBNnRCaTJz?oc=5",
           "importance": 5,
           "source": "ダイヤモンド・オンライン"
-        },
-        {
-          "id": "26ea51421949",
-          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
-          "importance": 4,
-          "source": "Reuters"
         },
         {
           "id": "3af8aad70f49",
@@ -9834,11 +9941,25 @@
           "source": "トウシル"
         },
         {
+          "id": "26ea51421949",
+          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
+          "importance": 3,
+          "source": "Reuters"
+        },
+        {
           "id": "6aadf0054583",
           "title": "［動画］【円相場・米日金利・株】円安反転へ。米国の実現力、日本の本気度。そのリスクとチャンス",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VQjIxQ2RocDc5alNUMVBtY0hOLU5CdUVpTk1lQVU5U2hXanJ2eGwxQlgxRm9aSlVaM0VuWDdieEZ1cGZ5QXg0bFMyYmE0U213dW9mcDhhUTZodw?oc=5",
           "importance": 2,
           "source": "トウシル"
+        },
+        {
+          "id": "d6f8ecf0b5dd",
+          "title": "ナスダック総合の指数情報・推移",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
+          "importance": 2,
+          "source": "Yahoo!ファイナンス"
         },
         {
           "id": "9ff075960636",
@@ -9875,7 +9996,7 @@
           "name": "トヨタ自動車",
           "positive": 5,
           "negative": 0,
-          "watch": 4
+          "watch": 5
         }
       ],
       "max_importance": 5,
@@ -9907,8 +10028,9 @@
       "category_emoji": "🏢",
       "member_ids": [
         "ff0a3267d083",
-        "26ea51421949",
         "3af8aad70f49",
+        "26ea51421949",
+        "d6f8ecf0b5dd",
         "71efe955a886",
         "9057d23a4db7",
         "d4eab1c321f1"
@@ -9922,18 +10044,25 @@
           "source": "nomura.co.jp"
         },
         {
-          "id": "26ea51421949",
-          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
-          "importance": 4,
-          "source": "Reuters"
-        },
-        {
           "id": "3af8aad70f49",
           "title": "ダウ平均は下落もナスダックは上昇 ＰＣＥ価格指数を受け１０月利上げ期待は後退＝米国株概況 -",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1QSFY1QnFPS3ZwS0pKdUoyNUhZMlZDWThtaEdDQmtYaFJBdV9xb2dza1VtelhHbEEzdk5IUF85QWY1TExuNTVpNA?oc=5",
           "importance": 4,
           "source": "みんかぶ FX/為替"
+        },
+        {
+          "id": "26ea51421949",
+          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
+          "importance": 3,
+          "source": "Reuters"
+        },
+        {
+          "id": "d6f8ecf0b5dd",
+          "title": "ナスダック総合の指数情報・推移",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
+          "importance": 2,
+          "source": "Yahoo!ファイナンス"
         },
         {
           "id": "71efe955a886",
@@ -9963,7 +10092,7 @@
           "name": "野村ホールディングス",
           "positive": 1,
           "negative": 0,
-          "watch": 5
+          "watch": 6
         }
       ],
       "max_importance": 5,
@@ -10171,10 +10300,11 @@
       "category_emoji": "🏭",
       "member_ids": [
         "9f75bf56778d",
-        "26ea51421949",
         "3af8aad70f49",
         "749982dee74b",
+        "26ea51421949",
         "6aadf0054583",
+        "d6f8ecf0b5dd",
         "9ff075960636",
         "71efe955a886",
         "9057d23a4db7",
@@ -10187,13 +10317,6 @@
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9xVWtPcmJoOEdja3RaUGNobmhNUHplNmNFQkJST3o4T0diVjhZWDZrV2s3cVZHTkEtaWdvNHhIX0pSWi13Vkw2NHB0VlbSAU9BVV95cUxOS1VCLU5NaXpVU2J6czcxMHY0N1hJdnRFUHo2MGxvYk1BeXdJTEduQ3d3RUVrUkNuMGZEUmk4MmxwVWNmbDVTeXRBNnRCaTJz?oc=5",
           "importance": 5,
           "source": "ダイヤモンド・オンライン"
-        },
-        {
-          "id": "26ea51421949",
-          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
-          "importance": 4,
-          "source": "Reuters"
         },
         {
           "id": "3af8aad70f49",
@@ -10210,11 +10333,25 @@
           "source": "トウシル"
         },
         {
+          "id": "26ea51421949",
+          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
+          "importance": 3,
+          "source": "Reuters"
+        },
+        {
           "id": "6aadf0054583",
           "title": "［動画］【円相場・米日金利・株】円安反転へ。米国の実現力、日本の本気度。そのリスクとチャンス",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VQjIxQ2RocDc5alNUMVBtY0hOLU5CdUVpTk1lQVU5U2hXanJ2eGwxQlgxRm9aSlVaM0VuWDdieEZ1cGZ5QXg0bFMyYmE0U213dW9mcDhhUTZodw?oc=5",
           "importance": 2,
           "source": "トウシル"
+        },
+        {
+          "id": "d6f8ecf0b5dd",
+          "title": "ナスダック総合の指数情報・推移",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
+          "importance": 2,
+          "source": "Yahoo!ファイナンス"
         },
         {
           "id": "9ff075960636",
@@ -10251,7 +10388,7 @@
           "name": "トヨタ自動車",
           "positive": 5,
           "negative": 0,
-          "watch": 4
+          "watch": 5
         },
         {
           "code": "7267",
@@ -10318,8 +10455,9 @@
       "category_emoji": "🏭",
       "member_ids": [
         "ff0a3267d083",
-        "26ea51421949",
         "3af8aad70f49",
+        "26ea51421949",
+        "d6f8ecf0b5dd",
         "71efe955a886",
         "9057d23a4db7",
         "d4eab1c321f1"
@@ -10333,18 +10471,25 @@
           "source": "nomura.co.jp"
         },
         {
-          "id": "26ea51421949",
-          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
-          "importance": 4,
-          "source": "Reuters"
-        },
-        {
           "id": "3af8aad70f49",
           "title": "ダウ平均は下落もナスダックは上昇 ＰＣＥ価格指数を受け１０月利上げ期待は後退＝米国株概況 -",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1QSFY1QnFPS3ZwS0pKdUoyNUhZMlZDWThtaEdDQmtYaFJBdV9xb2dza1VtelhHbEEzdk5IUF85QWY1TExuNTVpNA?oc=5",
           "importance": 4,
           "source": "みんかぶ FX/為替"
+        },
+        {
+          "id": "26ea51421949",
+          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
+          "importance": 3,
+          "source": "Reuters"
+        },
+        {
+          "id": "d6f8ecf0b5dd",
+          "title": "ナスダック総合の指数情報・推移",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
+          "importance": 2,
+          "source": "Yahoo!ファイナンス"
         },
         {
           "id": "71efe955a886",
@@ -10374,21 +10519,21 @@
           "name": "野村ホールディングス",
           "positive": 1,
           "negative": 0,
-          "watch": 5
+          "watch": 6
         },
         {
           "code": "8601",
           "name": "大和証券グループ本社",
           "positive": 1,
           "negative": 0,
-          "watch": 4
+          "watch": 5
         },
         {
           "code": "8473",
           "name": "SBIホールディングス",
           "positive": 1,
           "negative": 0,
-          "watch": 4
+          "watch": 5
         }
       ],
       "max_importance": 5,
@@ -10766,10 +10911,11 @@
       "category_emoji": "🔗",
       "member_ids": [
         "9f75bf56778d",
-        "26ea51421949",
         "3af8aad70f49",
         "749982dee74b",
+        "26ea51421949",
         "6aadf0054583",
+        "d6f8ecf0b5dd",
         "9ff075960636",
         "71efe955a886",
         "9057d23a4db7",
@@ -10782,13 +10928,6 @@
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9xVWtPcmJoOEdja3RaUGNobmhNUHplNmNFQkJST3o4T0diVjhZWDZrV2s3cVZHTkEtaWdvNHhIX0pSWi13Vkw2NHB0VlbSAU9BVV95cUxOS1VCLU5NaXpVU2J6czcxMHY0N1hJdnRFUHo2MGxvYk1BeXdJTEduQ3d3RUVrUkNuMGZEUmk4MmxwVWNmbDVTeXRBNnRCaTJz?oc=5",
           "importance": 5,
           "source": "ダイヤモンド・オンライン"
-        },
-        {
-          "id": "26ea51421949",
-          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
-          "importance": 4,
-          "source": "Reuters"
         },
         {
           "id": "3af8aad70f49",
@@ -10805,11 +10944,25 @@
           "source": "トウシル"
         },
         {
+          "id": "26ea51421949",
+          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
+          "importance": 3,
+          "source": "Reuters"
+        },
+        {
           "id": "6aadf0054583",
           "title": "［動画］【円相場・米日金利・株】円安反転へ。米国の実現力、日本の本気度。そのリスクとチャンス",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VQjIxQ2RocDc5alNUMVBtY0hOLU5CdUVpTk1lQVU5U2hXanJ2eGwxQlgxRm9aSlVaM0VuWDdieEZ1cGZ5QXg0bFMyYmE0U213dW9mcDhhUTZodw?oc=5",
           "importance": 2,
           "source": "トウシル"
+        },
+        {
+          "id": "d6f8ecf0b5dd",
+          "title": "ナスダック総合の指数情報・推移",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
+          "importance": 2,
+          "source": "Yahoo!ファイナンス"
         },
         {
           "id": "9ff075960636",
@@ -10846,7 +10999,7 @@
           "name": "トヨタ自動車",
           "positive": 5,
           "negative": 0,
-          "watch": 4
+          "watch": 5
         },
         {
           "code": "7267",
@@ -10913,10 +11066,11 @@
       "category_emoji": "🔗",
       "member_ids": [
         "9f75bf56778d",
-        "26ea51421949",
         "3af8aad70f49",
         "749982dee74b",
+        "26ea51421949",
         "6aadf0054583",
+        "d6f8ecf0b5dd",
         "9ff075960636",
         "71efe955a886",
         "9057d23a4db7",
@@ -10929,13 +11083,6 @@
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9xVWtPcmJoOEdja3RaUGNobmhNUHplNmNFQkJST3o4T0diVjhZWDZrV2s3cVZHTkEtaWdvNHhIX0pSWi13Vkw2NHB0VlbSAU9BVV95cUxOS1VCLU5NaXpVU2J6czcxMHY0N1hJdnRFUHo2MGxvYk1BeXdJTEduQ3d3RUVrUkNuMGZEUmk4MmxwVWNmbDVTeXRBNnRCaTJz?oc=5",
           "importance": 5,
           "source": "ダイヤモンド・オンライン"
-        },
-        {
-          "id": "26ea51421949",
-          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
-          "importance": 4,
-          "source": "Reuters"
         },
         {
           "id": "3af8aad70f49",
@@ -10952,11 +11099,25 @@
           "source": "トウシル"
         },
         {
+          "id": "26ea51421949",
+          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
+          "importance": 3,
+          "source": "Reuters"
+        },
+        {
           "id": "6aadf0054583",
           "title": "［動画］【円相場・米日金利・株】円安反転へ。米国の実現力、日本の本気度。そのリスクとチャンス",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VQjIxQ2RocDc5alNUMVBtY0hOLU5CdUVpTk1lQVU5U2hXanJ2eGwxQlgxRm9aSlVaM0VuWDdieEZ1cGZ5QXg0bFMyYmE0U213dW9mcDhhUTZodw?oc=5",
           "importance": 2,
           "source": "トウシル"
+        },
+        {
+          "id": "d6f8ecf0b5dd",
+          "title": "ナスダック総合の指数情報・推移",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
+          "importance": 2,
+          "source": "Yahoo!ファイナンス"
         },
         {
           "id": "9ff075960636",
@@ -10993,7 +11154,7 @@
           "name": "トヨタ自動車",
           "positive": 5,
           "negative": 0,
-          "watch": 4
+          "watch": 5
         },
         {
           "code": "7267",
@@ -11039,10 +11200,11 @@
       "category_emoji": "🔗",
       "member_ids": [
         "9f75bf56778d",
-        "26ea51421949",
         "3af8aad70f49",
         "749982dee74b",
+        "26ea51421949",
         "6aadf0054583",
+        "d6f8ecf0b5dd",
         "9ff075960636",
         "71efe955a886",
         "9057d23a4db7",
@@ -11055,13 +11217,6 @@
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9xVWtPcmJoOEdja3RaUGNobmhNUHplNmNFQkJST3o4T0diVjhZWDZrV2s3cVZHTkEtaWdvNHhIX0pSWi13Vkw2NHB0VlbSAU9BVV95cUxOS1VCLU5NaXpVU2J6czcxMHY0N1hJdnRFUHo2MGxvYk1BeXdJTEduQ3d3RUVrUkNuMGZEUmk4MmxwVWNmbDVTeXRBNnRCaTJz?oc=5",
           "importance": 5,
           "source": "ダイヤモンド・オンライン"
-        },
-        {
-          "id": "26ea51421949",
-          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
-          "importance": 4,
-          "source": "Reuters"
         },
         {
           "id": "3af8aad70f49",
@@ -11078,11 +11233,25 @@
           "source": "トウシル"
         },
         {
+          "id": "26ea51421949",
+          "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzNXSGQ4M2lyRV9KSVJTdjdNdlFlb2JZX0VKWlBCUzZkVEd4SzJaUy10Smp1Mkd1QlY0QzlJSGVSWmVUYlZFWk9HYjI1d1FzNHpwYlZzMFZKODRGdW1nRkdLeHplTmxHa2xvY0tTTkFyU1pTU1I1ekRaRm5wSTlYU29QSVBOZw?oc=5",
+          "importance": 3,
+          "source": "Reuters"
+        },
+        {
           "id": "6aadf0054583",
           "title": "［動画］【円相場・米日金利・株】円安反転へ。米国の実現力、日本の本気度。そのリスクとチャンス",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VQjIxQ2RocDc5alNUMVBtY0hOLU5CdUVpTk1lQVU5U2hXanJ2eGwxQlgxRm9aSlVaM0VuWDdieEZ1cGZ5QXg0bFMyYmE0U213dW9mcDhhUTZodw?oc=5",
           "importance": 2,
           "source": "トウシル"
+        },
+        {
+          "id": "d6f8ecf0b5dd",
+          "title": "ナスダック総合の指数情報・推移",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
+          "importance": 2,
+          "source": "Yahoo!ファイナンス"
         },
         {
           "id": "9ff075960636",
@@ -11119,7 +11288,7 @@
           "name": "トヨタ自動車",
           "positive": 5,
           "negative": 0,
-          "watch": 4
+          "watch": 5
         },
         {
           "code": "7267",
@@ -11174,11 +11343,11 @@
     "milestones": {
       "accumulating": "2026-09-21"
     },
-    "last_computed_at": "2026-10-01T17:50:29+09:00"
+    "last_computed_at": "2026-10-01T17:51:47+09:00"
   },
   "counts": {
     "news": 40,
-    "high_importance": 12,
+    "high_importance": 11,
     "stocks": 20
   }
 }
