@@ -31,7 +31,7 @@
     "government_jp": "2026-09-30",
     "media": "2026-09-30"
    },
-   "occurrences": 7
+   "occurrences": 8
   },
   "boj_hike": {
    "events": [
@@ -357,7 +357,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 113,
+   "occurrences": 114,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -487,7 +487,7 @@
    "milestones": {
     "government_jp": "2026-09-29"
    },
-   "occurrences": 17
+   "occurrences": 18
   },
   "jp_politics": {
    "events": [
@@ -680,6 +680,39 @@
      ],
      "source": "金融庁",
      "title": "「銀行法施行規則等の一部を改正する内閣府令」等について公表しました。"
+    },
+    {
+     "actor_types": [
+      "government_jp"
+     ],
+     "date": "2026-10-01",
+     "item_id": "256f1e1a3692",
+     "origin_region": "日本",
+     "regions": [
+      "日本"
+     ],
+     "signals": [
+      "gov_source"
+     ],
+     "source": "金融庁",
+     "title": "「経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律に基づく特定社会基盤事業者の指定等に関する内閣府令の一部を改正する内閣府令（案）」等について公表しました。"
+    },
+    {
+     "actor_types": [
+      "government_jp"
+     ],
+     "date": "2026-10-01",
+     "item_id": "2b4b9b0ef152",
+     "origin_region": "日本",
+     "regions": [
+      "日本"
+     ],
+     "signals": [
+      "gov_policy",
+      "gov_source"
+     ],
+     "source": "消費者庁",
+     "title": "食品表示基準の一部を改正する内閣府令(案)に関する意見募集の結果について"
     }
    ],
    "first_seen": "2026-09-20",
@@ -687,7 +720,7 @@
     "government_jp": "2026-09-20",
     "media": "2026-09-20"
    },
-   "occurrences": 59,
+   "occurrences": 60,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
@@ -986,7 +1019,7 @@
    "milestones": {
     "media": "2026-09-24"
    },
-   "occurrences": 88,
+   "occurrences": 89,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -1561,7 +1594,7 @@
     "media": "2026-09-26",
     "research": "2026-09-27"
    },
-   "occurrences": 88,
+   "occurrences": 89,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -2523,13 +2556,27 @@
      ],
      "source": "BigGo ファイナンス",
      "title": "米国株9月最終日：3指数が高く寄り付く、ハイテク株と中国関連株が全面高"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-01",
+     "item_id": "5d39135ea552",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign"
+     ],
+     "source": "Infoseek",
+     "title": "米国株式市場＝まちまち、Ｓ＆Ｐとナスダックは2四半期連続高"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
     "media": "2026-09-23"
    },
-   "occurrences": 105,
+   "occurrences": 106,
    "signals": {}
   },
   "yen_strong": {
@@ -2679,7 +2726,7 @@
     "government_foreign": "2026-09-21",
     "media": "2026-09-24"
    },
-   "occurrences": 107,
+   "occurrences": 108,
    "signals": {}
   }
  }
