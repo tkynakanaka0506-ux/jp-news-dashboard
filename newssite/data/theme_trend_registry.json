@@ -403,7 +403,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 123,
+   "occurrences": 124,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -427,7 +427,7 @@
    ],
    "first_seen": "2026-10-02",
    "milestones": {},
-   "occurrences": 5
+   "occurrences": 6
   },
   "deregulation": {
    "events": [
@@ -451,6 +451,55 @@
     "government_foreign": "2026-09-30"
    },
    "occurrences": 9
+  },
+  "ev": {
+   "events": [
+    {
+     "actor_types": [
+      "government_jp",
+      "media"
+     ],
+     "date": "2026-10-02",
+     "item_id": "0b314e89b5cc",
+     "origin_region": "日本",
+     "regions": [],
+     "signals": [
+      "gov_source",
+      "multi_source"
+     ],
+     "source": "国土交通省(プレスリリース)",
+     "title": "リコールの届出について（日野　ブルーリボンZ　EV）"
+    }
+   ],
+   "first_seen": "2026-10-02",
+   "milestones": {
+    "government_jp": "2026-10-02",
+    "media": "2026-10-02"
+   },
+   "occurrences": 1
+  },
+  "fed_dovish": {
+   "events": [
+    {
+     "actor_types": [
+      "government_foreign"
+     ],
+     "date": "2026-10-02",
+     "item_id": "141fc5263e7e",
+     "origin_region": "米国",
+     "regions": [
+      "米国"
+     ],
+     "signals": [],
+     "source": "ダイヤモンド・オンライン",
+     "title": "FRBが突きつけた「28年まで利下げなし」の強い意志、米金利上昇でドル円160円再接近へ"
+    }
+   ],
+   "first_seen": "2026-10-02",
+   "milestones": {
+    "government_foreign": "2026-10-02"
+   },
+   "occurrences": 1
   },
   "fed_hawkish": {
    "events": [
@@ -495,13 +544,27 @@
      "signals": [],
      "source": "日本経済新聞",
      "title": "米国30年債利回り、22年ぶり5.5%台 FRBの3回連続利上げ予想6割に"
+    },
+    {
+     "actor_types": [
+      "government_foreign"
+     ],
+     "date": "2026-10-02",
+     "item_id": "cb0082c484a4",
+     "origin_region": "米国",
+     "regions": [
+      "米国"
+     ],
+     "signals": [],
+     "source": "外為どっとコム",
+     "title": "FX/為替「ドル/円今日の見通し｜米雇用統計はFRBの早期利上げを巡り平均時給に焦点」 外為どっとコム トゥデイ 2026年10月2日号"
     }
    ],
    "first_seen": "2026-09-25",
    "milestones": {
     "government_foreign": "2026-09-25"
    },
-   "occurrences": 15
+   "occurrences": 16
   },
   "gx_decarbonization": {
    "events": [
@@ -547,7 +610,7 @@
    ],
    "first_seen": "2026-10-02",
    "milestones": {},
-   "occurrences": 5
+   "occurrences": 6
   },
   "infra_construction_policy": {
    "events": [
@@ -594,13 +657,27 @@
      ],
      "source": "国土交通省(プレスリリース)",
      "title": "公共事業におけるピュア型ＣＭ方式活用実態調査（令和８年度）結果〜ＣＭ方式の導入実績、建築・土木事業とも増加〜"
+    },
+    {
+     "actor_types": [
+      "government_jp"
+     ],
+     "date": "2026-10-02",
+     "item_id": "a525bd3df755",
+     "origin_region": "日本",
+     "regions": [],
+     "signals": [
+      "gov_source"
+     ],
+     "source": "デジタル庁",
+     "title": "政策ダッシュボード一覧に国土強靭化の取組に関するダッシュボード（内閣官房）を掲載しました"
     }
    ],
    "first_seen": "2026-09-29",
    "milestones": {
     "government_jp": "2026-09-29"
    },
-   "occurrences": 18
+   "occurrences": 19
   },
   "jp_politics": {
    "events": [
@@ -826,6 +903,20 @@
      ],
      "source": "消費者庁",
      "title": "食品表示基準の一部を改正する内閣府令(案)に関する意見募集の結果について"
+    },
+    {
+     "actor_types": [
+      "government_jp"
+     ],
+     "date": "2026-10-02",
+     "item_id": "a525bd3df755",
+     "origin_region": "日本",
+     "regions": [],
+     "signals": [
+      "gov_source"
+     ],
+     "source": "デジタル庁",
+     "title": "政策ダッシュボード一覧に国土強靭化の取組に関するダッシュボード（内閣官房）を掲載しました"
     }
    ],
    "first_seen": "2026-09-20",
@@ -833,7 +924,7 @@
     "government_jp": "2026-09-20",
     "media": "2026-09-20"
    },
-   "occurrences": 69,
+   "occurrences": 70,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
@@ -951,7 +1042,7 @@
     "government_foreign": "2026-09-21",
     "media": "2026-10-01"
    },
-   "occurrences": 38
+   "occurrences": 39
   },
   "power_demand": {
    "events": [],
@@ -1047,7 +1138,7 @@
    "milestones": {
     "media": "2026-09-20"
    },
-   "occurrences": 62
+   "occurrences": 63
   },
   "rate_cut": {
    "events": [
@@ -1064,13 +1155,27 @@
      "signals": [],
      "source": "外為どっとコム",
      "title": "【ドル/円、来週の見通し】ドル/円、再び160円を試すのか…タカ派利上げのFOMC・ハト派利上げの日銀＿2026/9/18"
+    },
+    {
+     "actor_types": [
+      "government_foreign"
+     ],
+     "date": "2026-10-02",
+     "item_id": "141fc5263e7e",
+     "origin_region": "米国",
+     "regions": [
+      "米国"
+     ],
+     "signals": [],
+     "source": "ダイヤモンド・オンライン",
+     "title": "FRBが突きつけた「28年まで利下げなし」の強い意志、米金利上昇でドル円160円再接近へ"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
     "government_foreign": "2026-09-20"
    },
-   "occurrences": 27,
+   "occurrences": 28,
    "signals": {}
   },
   "semi_demand": {
@@ -1241,13 +1346,27 @@
      ],
      "source": "国土交通省(プレスリリース)",
      "title": "内航船舶輸送統計月報の概要（令和8年6月分）"
+    },
+    {
+     "actor_types": [
+      "government_jp"
+     ],
+     "date": "2026-10-02",
+     "item_id": "821b30ae918b",
+     "origin_region": "日本",
+     "regions": [],
+     "signals": [
+      "gov_source"
+     ],
+     "source": "国土交通省(プレスリリース)",
+     "title": "東海汽船株式会社に対する船舶の使用停止命令について〜海上運送法第17条に基づく行政処分〜"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
     "government_jp": "2026-09-20"
    },
-   "occurrences": 19
+   "occurrences": 20
   },
   "taiwan_china": {
    "events": [
@@ -1806,7 +1925,7 @@
     "media": "2026-09-26",
     "research": "2026-09-27"
    },
-   "occurrences": 98,
+   "occurrences": 99,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -2257,14 +2376,32 @@
      ],
      "source": "Vietnam.vn",
      "title": "ロシアはウクライナ大統領の停戦提案についてコメントした。"
+    },
+    {
+     "actor_types": [
+      "government_jp"
+     ],
+     "date": "2026-10-02",
+     "item_id": "18bd3f150cd0",
+     "origin_region": "日本",
+     "regions": [
+      "日本"
+     ],
+     "signals": [
+      "foreign",
+      "gov_source"
+     ],
+     "source": "厚生労働省",
+     "title": "ロシア連邦政府等から提供された抑留者に関する資料を日本側の資料と照合し、抑留中に死亡した者の個人を特定しました"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
+    "government_jp": "2026-10-02",
     "international_org": "2026-09-24",
     "media": "2026-09-24"
    },
-   "occurrences": 81,
+   "occurrences": 82,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -2838,13 +2975,30 @@
      ],
      "source": "TradingView",
      "title": "米国株相場、下げ渋り ダウ平均は57ドル安・ナスダックは0.13％安"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-10-02",
+     "item_id": "9bf8577a2224",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign",
+      "multi_source"
+     ],
+     "source": "TradingView",
+     "title": "米国株相場、下げ渋り ダウ平均は57ドル安・ナスダックは0.13％安"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
     "media": "2026-09-23"
    },
-   "occurrences": 115,
+   "occurrences": 116,
    "signals": {}
   },
   "yen_strong": {
@@ -2868,7 +3022,7 @@
    "milestones": {
     "media": "2026-09-20"
    },
-   "occurrences": 50,
+   "occurrences": 51,
    "signals": {}
   },
   "yen_weak": {
@@ -2994,7 +3148,7 @@
     "government_foreign": "2026-09-21",
     "media": "2026-09-24"
    },
-   "occurrences": 117,
+   "occurrences": 118,
    "signals": {}
   }
  }
