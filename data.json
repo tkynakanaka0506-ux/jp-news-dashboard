@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-03 10:52",
-  "run_type": "morning",
+  "generated_at": "2026-10-03 13:55",
+  "run_type": "evening",
   "us_market": {
     "sp500": {
       "value": "7,722.72",
@@ -29,8 +29,8 @@
     "asof": "10/3終値"
   },
   "nikkei_futures": {
-    "value": "69,760.00",
-    "change_pct": 2.18,
+    "value": "69,910.00",
+    "change_pct": 2.4,
     "asof": "10/3終値"
   },
   "nikkei225": {
@@ -39,12 +39,14 @@
     "asof": "10/2終値"
   },
   "overnight_news": [],
-  "tdnet_morning": [
+  "tdnet_morning": [],
+  "movers_morning": [],
+  "tdnet_afterclose": [
     {
       "time": "―",
       "code": "―",
       "company": "―",
-      "title": "第21回定時株主総会招集ご通知 他 今日 08:00 New!",
+      "title": "第21回定時株主総会招集ご通知 他 今日 08:00",
       "url": "https://tdnet-pdf.kabutan.jp/20261003/140120261002545062.pdf",
       "tag": "他"
     },
@@ -52,7 +54,7 @@
       "time": "―",
       "code": "―",
       "company": "―",
-      "title": "第37期定時株主総会招集ご通知 他 今日 08:00 New!",
+      "title": "第37期定時株主総会招集ご通知 他 今日 08:00",
       "url": "https://tdnet-pdf.kabutan.jp/20261003/140120261001544842.pdf",
       "tag": "他"
     },
@@ -201,8 +203,6 @@
       "tag": "他"
     }
   ],
-  "movers_morning": [],
-  "tdnet_afterclose": [],
   "afterclose_news": [],
   "movers_afterclose": [],
   "technical": [
@@ -898,18 +898,18 @@
     {
       "code": "8306",
       "company": "三菱UFJフィナンシャル・グループ",
-      "title": "米AIデータセンター融資に暗雲 オラクル認可遅れ、金融市場が警戒 - 日本経済新聞",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE82M0NRcGRCdnNwS0M5WFZJeEo0TUlUaU5Yc19fUV9LU21HcXRHUkFkZ0FPSEUteHdXTFYzVjdvMlBCZW5YWXFOS2Vkc2pVa3ZHNEhKWmxGN2ZwOFA4N2NZcmFjOFV0QjhocjhDXw?oc=5",
-      "keyword": "データセンター",
-      "asof": "10/3 05:00"
-    },
-    {
-      "code": "8306",
-      "company": "三菱UFJフィナンシャル・グループ",
       "title": "AI向けデータセンター、危うい「錬金術」 資金調達複雑に GPUを担保/ローン証券化 - 日本経済新聞",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tdS1mcDRjVWUwb2pNWmpKeXVnTWFyTm1lbFlpRE1ESDZXRVUzUGQ4Q2ZxZXBvOE5TYjhLVk9kRFVlLTA5OXk2SWtiTmt4WWVNOWFmck4yNWNBN0p6UElXWnZkR3prN2h3M05rZw?oc=5",
       "keyword": "データセンター",
       "asof": "9/26 02:00"
+    },
+    {
+      "code": "8306",
+      "company": "三菱UFJフィナンシャル・グループ",
+      "title": "米AIデータセンター融資に暗雲 オラクル認可遅れ、金融市場が警戒 - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE82M0NRcGRCdnNwS0M5WFZJeEo0TUlUaU5Yc19fUV9LU21HcXRHUkFkZ0FPSEUteHdXTFYzVjdvMlBCZW5YWXFOS2Vkc2pVa3ZHNEhKWmxGN2ZwOFA4N2NZcmFjOFV0QjhocjhDXw?oc=5",
+      "keyword": "データセンター",
+      "asof": "10/3 05:00"
     },
     {
       "code": "9984",
@@ -930,7 +930,7 @@
     {
       "code": "6861",
       "company": "キーエンス",
-      "title": "初受注まで「1年→5カ月」に短縮 AIで実現する営業の育成改革とは？：2025年9月のヒット記事を振り返る - ITmedia",
+      "title": "初受注まで「1年→5カ月」に短縮 AIで実現する営業の育成改革とは？：2025年9月のヒット記事を振り返る - itmedia.co.jp",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA1SnJuZ0gwY1JJT1padVBBb2VFUXVLY2pzb3FxbHhyYzJwX2tjdHB5T2ZVamFLTlFuYmFxX3dSMzJncXBxZmZfdkxZVzBCaklVVlZCVG9hM3pPRWp4UEtQMldSTGhiOGFXZjFwQ1ZzdDQxUQ?oc=5",
       "keyword": "受注",
       "asof": "9/24 07:00"
@@ -968,14 +968,6 @@
       "asof": "9/30 03:49"
     },
     {
-      "code": "9432",
-      "company": "日本電信電話",
-      "title": "日本データセンター建設上位10社ランキング - pando.life",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1ieFg1YXk1dnFBNi14aFY3V2R0RUlNY3VmVGhhSzVVak11UDUyc0JRNjktNDR2dGxuLVlnemNCX0FZR05KNTQ0LTdB?oc=5",
-      "keyword": "データセンター",
-      "asof": "9/27 00:30"
-    },
-    {
       "code": "7267",
       "company": "本田技研工業",
       "title": "ホンダ、最大4000億円投じオハイオ州にHV新工場建設へ - BigGo ファイナンス",
@@ -1005,85 +997,85 @@
     "code": "ＧＭＯ－ＰＰ"
   },
   "data_updated_at": {
-    "market_quotes": "2026-10-03 10:52",
-    "tdnet_morning": "2026-10-03 10:52",
-    "technical": "2026-10-03 10:52",
-    "growth_candidates": "2026-10-03 10:52",
-    "pre_earnings_watch": "2026-10-03 10:52",
-    "edinet_large_holdings": "2026-10-03 10:52",
-    "economic_calendar": "2026-10-03 10:52",
-    "pre_earnings_indicator": "2026-10-03 10:53"
+    "market_quotes": "2026-10-03 13:55",
+    "tdnet_afterclose": "2026-10-03 13:55",
+    "technical": "2026-10-03 13:55",
+    "growth_candidates": "2026-10-03 13:55",
+    "pre_earnings_watch": "2026-10-03 13:55",
+    "edinet_large_holdings": "2026-10-03 13:55",
+    "economic_calendar": "2026-10-03 13:55",
+    "pre_earnings_indicator": "2026-10-03 13:56"
   },
   "edinet_large_holdings": [],
   "data_status": {
     "market_quotes": {
       "state": "updated",
-      "checked_at": "2026-10-03 10:52",
+      "checked_at": "2026-10-03 13:55",
       "message": "今回の実行で取得・更新しました。"
     },
     "tdnet_morning": {
-      "state": "updated",
-      "checked_at": "2026-10-03 10:52",
-      "message": "今回の実行で取得・更新しました。"
+      "state": "not_requested",
+      "checked_at": "2026-10-03 13:55",
+      "message": "今回の実行モードでは更新対象外です。"
     },
     "tdnet_afterclose": {
-      "state": "not_requested",
-      "checked_at": "2026-10-03 10:52",
-      "message": "今回の実行モードでは更新対象外です。"
+      "state": "updated",
+      "checked_at": "2026-10-03 13:55",
+      "message": "今回の実行で取得・更新しました。"
     },
     "technical": {
       "state": "updated",
-      "checked_at": "2026-10-03 10:52",
+      "checked_at": "2026-10-03 13:55",
       "message": "今回の実行で取得・更新しました。"
     },
     "growth_candidates": {
       "state": "updated",
-      "checked_at": "2026-10-03 10:52",
+      "checked_at": "2026-10-03 13:55",
       "message": "今回の実行で取得・更新しました。"
     },
     "pre_earnings_watch": {
       "state": "updated",
-      "checked_at": "2026-10-03 10:52",
+      "checked_at": "2026-10-03 13:55",
       "message": "今回の実行で取得・更新しました。"
     },
     "overnight_news": {
-      "state": "unavailable",
-      "checked_at": "2026-10-03 10:53",
-      "message": "ニュース分析APIで取得できませんでした。"
+      "state": "not_requested",
+      "checked_at": "2026-10-03 13:56",
+      "message": "今回の実行モードでは更新対象外です。"
     },
     "afterclose_news": {
-      "state": "not_requested",
-      "checked_at": "2026-10-03 10:53",
-      "message": "今回の実行モードでは更新対象外です。"
+      "state": "unavailable",
+      "checked_at": "2026-10-03 13:56",
+      "message": "ニュース分析APIで取得できませんでした。"
     },
     "movers_morning": {
-      "state": "unavailable",
-      "checked_at": "2026-10-03 10:53",
-      "message": "話題株分析APIで取得できませんでした。"
+      "state": "not_requested",
+      "checked_at": "2026-10-03 13:56",
+      "message": "今回の実行モードでは更新対象外です。"
     },
     "movers_afterclose": {
-      "state": "not_requested",
-      "checked_at": "2026-10-03 10:53",
-      "message": "今回の実行モードでは更新対象外です。"
+      "state": "unavailable",
+      "checked_at": "2026-10-03 13:56",
+      "message": "話題株分析APIで取得できませんでした。"
     },
     "us_good_news": {
       "state": "unavailable",
-      "checked_at": "2026-10-03 10:53",
+      "checked_at": "2026-10-03 13:56",
       "message": "ニュース分析APIで取得できませんでした。"
     },
     "edinet_large_holdings": {
       "state": "empty",
-      "checked_at": "2026-10-03 10:52",
+      "checked_at": "2026-10-03 13:55",
       "message": "取得済み・該当する大量保有報告書はありません。"
     },
     "economic_calendar": {
       "state": "updated",
-      "checked_at": "2026-10-03 10:52",
+      "checked_at": "2026-10-03 13:55",
       "message": "今回の実行で取得・更新しました。"
     },
     "pre_earnings_indicator": {
       "state": "updated",
-      "checked_at": "2026-10-03 10:53",
+      "checked_at": "2026-10-03 13:56",
       "message": "今回の実行で取得・更新しました。"
     }
   },
