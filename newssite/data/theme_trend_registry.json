@@ -419,7 +419,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 169,
+   "occurrences": 170,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -619,7 +619,7 @@
    "milestones": {
     "government_jp": "2026-10-01"
    },
-   "occurrences": 8
+   "occurrences": 9
   },
   "inbound": {
    "events": [
@@ -750,7 +750,7 @@
    "milestones": {
     "government_jp": "2026-09-29"
    },
-   "occurrences": 55
+   "occurrences": 56
   },
   "jp_politics": {
    "events": [
@@ -1048,6 +1048,21 @@
      ],
      "source": "au Webポータル",
      "title": "政府が第２次補正予算を編成する方向で検討、災害対応含む必要事業に絞り歳出は小規模…年明けの成立目指す"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-10-07",
+     "item_id": "966d8c0b1247",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "gov_policy",
+      "multi_source"
+     ],
+     "source": "読売新聞",
+     "title": "政府が第２次補正予算を編成する方向で検討、災害対応含む必要事業に絞り歳出は小規模…年明けの成立目指す"
     }
    ],
    "first_seen": "2026-09-20",
@@ -1055,7 +1070,7 @@
     "government_jp": "2026-09-20",
     "media": "2026-09-20"
    },
-   "occurrences": 93,
+   "occurrences": 94,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
@@ -1240,7 +1255,7 @@
    ],
    "first_seen": "2026-09-25",
    "milestones": {},
-   "occurrences": 35
+   "occurrences": 36
   },
   "rare_earth": {
    "events": [
@@ -1330,7 +1345,7 @@
    "milestones": {
     "media": "2026-09-20"
    },
-   "occurrences": 78
+   "occurrences": 79
   },
   "rate_cut": {
    "events": [
@@ -1361,13 +1376,28 @@
      "signals": [],
      "source": "ダイヤモンド・オンライン",
      "title": "FRBが突きつけた「28年まで利下げなし」の強い意志、米金利上昇でドル円160円再接近へ"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-10-07",
+     "item_id": "803e94d23ab8",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "multi_source"
+     ],
+     "source": "外為どっとコム",
+     "title": "【今日のドル円】昨日の振り返りと今日のドル円相場見通し「158円の攻防――日銀のハト派姿勢と米赤字ショックが招く膠着」 2026年10月7日"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
-    "government_foreign": "2026-09-20"
+    "government_foreign": "2026-09-20",
+    "media": "2026-10-07"
    },
-   "occurrences": 33,
+   "occurrences": 34,
    "signals": {}
   },
   "semi_demand": {
@@ -1502,7 +1532,7 @@
     "corporate": "2026-10-02",
     "media": "2026-09-24"
    },
-   "occurrences": 136,
+   "occurrences": 137,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -1528,7 +1558,7 @@
    "milestones": {
     "government_foreign": "2026-09-30"
    },
-   "occurrences": 40
+   "occurrences": 41
   },
   "shipbuilding_policy": {
    "events": [
@@ -2261,6 +2291,21 @@
      ],
      "source": "Reuters",
      "title": "米武器売却の小分け案「情報なし」 防衛支援は不変＝台湾国防部長"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-07",
+     "item_id": "9e2f873b0b12",
+     "origin_region": null,
+     "regions": [
+      "中国",
+      "台湾"
+     ],
+     "signals": [
+      "foreign"
+     ],
+     "source": "Reuters",
+     "title": "中国当局の指示で台湾総統の息子を監視か、米ＦＢＩが女を逮捕 | ロイター"
     }
    ],
    "first_seen": "2026-09-20",
@@ -2270,7 +2315,7 @@
     "media": "2026-09-26",
     "research": "2026-09-27"
    },
-   "occurrences": 135,
+   "occurrences": 136,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -2340,7 +2385,7 @@
    "milestones": {
     "government_jp": "2026-09-24"
    },
-   "occurrences": 42
+   "occurrences": 43
   },
   "ukraine_russia": {
    "events": [
@@ -3592,13 +3637,47 @@
      ],
      "source": "株探",
      "title": "ダウ平均は上昇して始まる １６２ドル高 ナスダックも上昇＝米国株オープン"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-10-07",
+     "item_id": "0be9ec75e585",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign",
+      "multi_source"
+     ],
+     "source": "Yahoo!ファイナンス",
+     "title": "米国株式市場、ＮＹダウ４日続伸、ナスダックは５日上昇し連日で最高値更新(ウエルスアドバイザー)"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-10-07",
+     "item_id": "1cb7e36ad8a4",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign",
+      "multi_source"
+     ],
+     "source": "Reuters",
+     "title": "米国株式市場＝Ｓ＆Ｐ５００とナスダックが最高値更新、原油価格の安定で"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
     "media": "2026-09-23"
    },
-   "occurrences": 159,
+   "occurrences": 160,
    "signals": {}
   },
   "yen_strong": {
