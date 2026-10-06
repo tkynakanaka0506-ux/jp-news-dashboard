@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06 18:41",
-  "generated_iso": "2026-10-06T18:41:08+09:00",
+  "generated_at": "2026-10-06 19:09",
+  "generated_iso": "2026-10-06T19:09:29+09:00",
   "status": "updated",
   "status_message": "40 件のニュースを取得しました。",
   "llm_used": true,
@@ -65,14 +65,14 @@
     },
     {
       "label": "日経先物",
-      "value": "71,010.00",
-      "change_pct": 1.54,
+      "value": "70,995.00",
+      "change_pct": 1.52,
       "asof": "10/6終値"
     },
     {
       "label": "ドル円",
-      "value": "158.20円",
-      "change_pct": 0.3,
+      "value": "158.17円",
+      "change_pct": 0.27,
       "asof": "10/6終値"
     },
     {
@@ -735,6 +735,227 @@
           "matched_keyword": "日銀 利上げ",
           "intelligence_layer": "government_policy",
           "policy_impact_score": 60,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "b0975c29ea80",
+      "title": "イランとの戦闘は「中間選挙後に終結」 トランプ氏が見通し",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9icVdPYlFfUWhGQ05zQ0EzOTdrRkZKSHVzUHlzUWNMelU5UnFyV2lRLTNKaWNIY0FiM2Yzb3RaWng1Nkc1VFhNanhZaFB1Z2pJLXgteTYzc0tRQVkzNHB2dQ?oc=5",
+      "source": "テレ朝NEWS",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-10-06 16:52",
+      "published_ts": 1791273171.0,
+      "category": "geopolitics",
+      "category_label": "地政学・有事",
+      "category_emoji": "🌍",
+      "importance": 4,
+      "importance_reason": "重要語「選挙」・影響テーマ「中東情勢・地政学リスク」に該当",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "low",
+      "news_novelty_label": "再報道",
+      "policy_event_id": "middle_east-20260920-01",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-09-20",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "中東情勢・地政学リスク"
+      ],
+      "theme_ids": [
+        "middle_east"
+      ],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "1605",
+          "name": "INPEX",
+          "sector": "鉱業",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「イラン」に反応: 原油価格の上昇観測は在庫評価益・資源権益の採算改善につながりやすい",
+          "theme": "中東情勢・地政学リスク",
+          "theme_id": "middle_east",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "イラン",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 51,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "5020",
+          "name": "ENEOSホールディングス",
+          "sector": "石油",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「イラン」に反応: 原油価格の上昇観測は在庫評価益・資源権益の採算改善につながりやすい",
+          "theme": "中東情勢・地政学リスク",
+          "theme_id": "middle_east",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "イラン",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 51,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "5019",
+          "name": "出光興産",
+          "sector": "石油",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「イラン」に反応: 原油価格の上昇観測は在庫評価益・資源権益の採算改善につながりやすい",
+          "theme": "中東情勢・地政学リスク",
+          "theme_id": "middle_east",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "イラン",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 51,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9101",
+          "name": "日本郵船",
+          "sector": "海運",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「イラン」に反応: 航路迂回による運賃上昇が意識されやすい",
+          "theme": "中東情勢・地政学リスク",
+          "theme_id": "middle_east",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "イラン",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9104",
+          "name": "商船三井",
+          "sector": "海運",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「イラン」に反応: 航路迂回による運賃上昇が意識されやすい",
+          "theme": "中東情勢・地政学リスク",
+          "theme_id": "middle_east",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "イラン",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9107",
+          "name": "川崎汽船",
+          "sector": "海運",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「イラン」に反応: 航路迂回による運賃上昇が意識されやすい",
+          "theme": "中東情勢・地政学リスク",
+          "theme_id": "middle_east",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "イラン",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6503",
+          "name": "三菱電機",
+          "sector": "電気機器",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「イラン」に反応: 安全保障・防衛需要の高まりが材料視されやすい",
+          "theme": "中東情勢・地政学リスク",
+          "theme_id": "middle_east",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "イラン",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "1540",
+          "name": "純金上場信託(現物国内保管型)",
+          "sector": "ETF",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "小",
+          "reason": "「イラン」に反応: 直接の影響とは別角度: コロナ禍のような過去の有事でも見られたように、地政学リスクの高まりは株式とは別に金など安全資産に資金が向かいやすい(質への逃避)",
+          "theme": "中東情勢・地政学リスク",
+          "theme_id": "middle_east",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "イラン",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 39,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         }
@@ -2188,6 +2409,235 @@
       }
     },
     {
+      "id": "706e5a3e5e26",
+      "title": "ドル・円は伸び悩みか、米金利高止まりも日米協調介入に警戒｜FX・為替ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GdGw2WFZKZXpKemFoZEVjSEtnV0RBNGVNWUFlcDlueU1DbU4wR01oOE5lMUFQcmQzbkxYaUVMQnVWV25tbHd2Z25xMmliVE4zVlE?oc=5",
+      "source": "zai.diamond.jp",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-10-06 15:50",
+      "published_ts": 1791269400.0,
+      "category": "policy",
+      "category_label": "金融政策・金利",
+      "category_emoji": "🏦",
+      "importance": 3,
+      "importance_reason": "影響テーマ「FRBの金融引き締め長期化(タカ派)」に該当",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": "fed_hawkish-20261006-02",
+      "policy_event_is_update": false,
+      "policy_event_first_seen": "2026-10-06",
+      "policy_event_state": "NEW",
+      "themes": [
+        "FRBの金融引き締め長期化(タカ派)"
+      ],
+      "theme_ids": [
+        "fed_hawkish"
+      ],
+      "transmission_chain": [
+        "FRB",
+        "金利",
+        "グロース",
+        "半導体・AI",
+        "日経先物",
+        "日本の半導体・値がさ株",
+        "日経平均"
+      ],
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "2413",
+          "name": "エムスリー",
+          "sector": "サービス",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「米金利 高止まり」に反応: 米金利の高止まり観測は割引率上昇を通じて高PER銘柄のバリュエーションを圧迫しやすく、米国のグロース株経由で日本のグロース株にも波及しやすい",
+          "theme": "FRBの金融引き締め長期化(タカ派)",
+          "theme_id": "fed_hawkish",
+          "origin": "rule",
+          "beneficiary_tier": "primary",
+          "beneficiary_tier_label": "一次波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米金利 高止まり",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 57,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "4385",
+          "name": "メルカリ",
+          "sector": "情報・通信",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「米金利 高止まり」に反応: 米金利の高止まり観測は割引率上昇を通じて高PER銘柄のバリュエーションを圧迫しやすく、米国のグロース株経由で日本のグロース株にも波及しやすい",
+          "theme": "FRBの金融引き締め長期化(タカ派)",
+          "theme_id": "fed_hawkish",
+          "origin": "rule",
+          "beneficiary_tier": "primary",
+          "beneficiary_tier_label": "一次波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米金利 高止まり",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 57,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6902",
+          "name": "デンソー",
+          "sector": "自動車部品",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "小",
+          "reason": "「米金利 高止まり」に反応: 米国のAI・半導体関連グロース株のバリュエーション調整が、同じテーマ性を持つ日本の半導体関連株に連想売りとして波及しやすい",
+          "theme": "FRBの金融引き締め長期化(タカ派)",
+          "theme_id": "fed_hawkish",
+          "origin": "rule",
+          "beneficiary_tier": "secondary",
+          "beneficiary_tier_label": "二次波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米金利 高止まり",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 45,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8035",
+          "name": "東京エレクトロン",
+          "sector": "電気機器",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "小",
+          "reason": "「米金利 高止まり」に反応: 米国のAI・半導体関連グロース株のバリュエーション調整が、同じテーマ性を持つ日本の半導体関連株に連想売りとして波及しやすい",
+          "theme": "FRBの金融引き締め長期化(タカ派)",
+          "theme_id": "fed_hawkish",
+          "origin": "rule",
+          "beneficiary_tier": "secondary",
+          "beneficiary_tier_label": "二次波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米金利 高止まり",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 45,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6857",
+          "name": "アドバンテスト",
+          "sector": "電気機器",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "小",
+          "reason": "「米金利 高止まり」に反応: 米国のAI・半導体関連グロース株のバリュエーション調整が、同じテーマ性を持つ日本の半導体関連株に連想売りとして波及しやすい",
+          "theme": "FRBの金融引き締め長期化(タカ派)",
+          "theme_id": "fed_hawkish",
+          "origin": "rule",
+          "beneficiary_tier": "secondary",
+          "beneficiary_tier_label": "二次波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米金利 高止まり",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 45,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6920",
+          "name": "レーザーテック",
+          "sector": "電気機器",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "小",
+          "reason": "「米金利 高止まり」に反応: 米国のAI・半導体関連グロース株のバリュエーション調整が、同じテーマ性を持つ日本の半導体関連株に連想売りとして波及しやすい",
+          "theme": "FRBの金融引き締め長期化(タカ派)",
+          "theme_id": "fed_hawkish",
+          "origin": "rule",
+          "beneficiary_tier": "secondary",
+          "beneficiary_tier_label": "二次波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米金利 高止まり",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 45,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6146",
+          "name": "ディスコ",
+          "sector": "機械",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "小",
+          "reason": "「米金利 高止まり」に反応: 米国のAI・半導体関連グロース株のバリュエーション調整が、同じテーマ性を持つ日本の半導体関連株に連想売りとして波及しやすい",
+          "theme": "FRBの金融引き締め長期化(タカ派)",
+          "theme_id": "fed_hawkish",
+          "origin": "rule",
+          "beneficiary_tier": "secondary",
+          "beneficiary_tier_label": "二次波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米金利 高止まり",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 45,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7735",
+          "name": "SCREENホールディングス",
+          "sector": "電気機器",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "小",
+          "reason": "「米金利 高止まり」に反応: 米国のAI・半導体関連グロース株のバリュエーション調整が、同じテーマ性を持つ日本の半導体関連株に連想売りとして波及しやすい",
+          "theme": "FRBの金融引き締め長期化(タカ派)",
+          "theme_id": "fed_hawkish",
+          "origin": "rule",
+          "beneficiary_tier": "secondary",
+          "beneficiary_tier_label": "二次波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米金利 高止まり",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 45,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
       "id": "64163e39f6fe",
       "title": "米ドル／円は156～159円で膠着か…世界的な長期金利上昇と「159円の壁」が意識される1週間【今週の米ドル／円予想レンジ「156～159円」の根拠】（THE GOLD ONLINE（ゴールドオンライン））",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NTFdDMzJ0RzNtQkstcDdEYi1DclNrN2NVZ0pnM2VKbzdNSXA3Y0xjczFkY2NjMG5haFN5UXBoNGo3ME5zMmxENVNSdkNHYWlFb29ES18yM2NiMjJXdjVkeUdDdGZXNFZPUlVwaXQtZHRzSEFOMVluTlhmUkUweGs?oc=5",
@@ -3436,7 +3886,7 @@
       "id": "eced037a214d",
       "title": "アルファベット、AIデータセンター向けにコンステレーションと10億ドル規模の原子力電力購入契約へ",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kdS1RaVdQV2ZNN2QyekZ1LVM2SkJIX1RzTjAtRXZ3NGh2NzJBQ1NUclZJQ2FEOGI1MTNYQjdxOGRlVlJXcVVxODNsUHZSSDlqV3hfOU5BczFxcGgxSF8zaWRaS2gxVHJONjdOZm9hQTZxSE9U?oc=5",
-      "source": "BigGo ファイナンス",
+      "source": "finance.biggo.jp",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-10-06 11:55",
@@ -3799,7 +4249,7 @@
       "id": "31228d3e2273",
       "title": "外為：豪ドル、110円01銭前後と豪ドル高・円安で推移(株探ニュース)",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTTFubTFSS3VxZUJ0cUFFcDdVc05XUnRqblJPSGtoOURZZXliNzFrelUxcG4xdk5adVlNQnRLUmJvcUVvdFRFaFNNelRCdTVmZjIya1RyYzUwMXVZcHVOWmdndFZlOFRBUU5FYURmQWR5eG43UUVocHJZb3N2ZFIzT1pmRDZ2ZDg?oc=5",
-      "source": "Yahoo!ファイナンス",
+      "source": "finance.yahoo.co.jp",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-10-06 10:31",
@@ -4020,7 +4470,7 @@
       "id": "ad6fe53f8139",
       "title": "米国株式市場、ＮＹダウ３日続伸、ナスダックは４日上昇し終値ベースの最高値更新(ウエルスアドバイザー)",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ1FmbEFJZDh2d2F0OVJtazhmVEhOVnVmQi1RUnJOejVfekt6bXBaODFuc3BkQlZIa28xb1p1b1ZBVXhxOFRnR1I1X2c3U2ZlRWFHQkVTSThLR0MzZ1hfNUZjVXhqbUg5Rzg2SEdiaXVPZzk0WjBoQUk2VFl5NzgxYlJXU1J1cWM?oc=5",
-      "source": "Yahoo!ファイナンス",
+      "source": "finance.yahoo.co.jp",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-10-06 07:45",
@@ -4159,7 +4609,7 @@
         {
           "title": "米国株式市場、ＮＹダウ続伸、ナスダックは３日上昇(ウエルスアドバイザー)",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZWtNWjEtWmNXUEhuOFItOGJlQVJBM3JzdmFCLXhyMEFVQ191cWZIUDJuYWJQZ1pvb1g1RW9xMmluajk1MzZyaGUwUkFiWFhfX2N3NzFJdWZfeS0zUTF1T1M5d2NkcVo0bFRpMG4yYi1RZWlHY2JObnZlZ0Q3Mm5WNVROcGQ4RE0?oc=5",
-          "source": "Yahoo!ファイナンス"
+          "source": "finance.yahoo.co.jp"
         }
       ],
       "emergence_stage": null,
@@ -4184,7 +4634,7 @@
       "id": "378d9d695fc4",
       "title": "ナスダックが最高値更新、ハイテク堅調で24年ぶり長期金利上昇を相殺",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBoSHNCSmFvNEdnTFhGUGJvRW5YeGFQR3Y2Z09kSTRpWGstZXVwYXEydnVxOU5RX1JVOE1wN2RNVFRhTVVjUVE3aEdFRHUtTmRBZHpUaXVNS3JXdEpsTndmRHF2U2UtZDkyczh4ZHlmd2ZjUl9F?oc=5",
-      "source": "BigGo ファイナンス",
+      "source": "finance.biggo.jp",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-10-06 07:25",
@@ -4995,9 +5445,9 @@
       "emergence_growth": {}
     },
     {
-      "id": "de00fa8de1cf",
-      "title": "情報通信審議会　情報通信政策部会　放送政策委員会（第4回）",
-      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/housou_seisaku/02ryutsu07_04000597.html",
+      "id": "1a76b89a648f",
+      "title": "第15回衆議院議員選挙区画定審議会",
+      "url": "https://www.soumu.go.jp/main_sosiki/singi/senkyoku/02gyosei14_04000272.html",
       "source": "総務省",
       "source_tier": "primary",
       "source_tier_label": "一次情報",
@@ -5007,12 +5457,12 @@
       "category_label": "日本経済・政治",
       "category_emoji": "🗾",
       "importance": 2,
-      "importance_reason": "3媒体が報道・先行情報(審議会・検討会・パブコメ等)",
+      "importance_reason": "重要語「選挙」・先行情報(審議会・検討会・パブコメ等)",
       "future_signal": true,
       "policy_maturity": 35,
       "policy_maturity_label": "審議会・検討会",
-      "news_novelty": "medium",
-      "news_novelty_label": "続報",
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
       "policy_event_id": null,
       "policy_event_is_update": null,
       "policy_event_first_seen": null,
@@ -5023,18 +5473,7 @@
       "summary": "",
       "impact_comment": "",
       "impacts": [],
-      "related": [
-        {
-          "title": "情報通信審議会　情報通信技術分科会　電波利用環境委員会（第69回）配布資料",
-          "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/denpa_kankyou/02kiban16_04000965.html",
-          "source": "総務省"
-        },
-        {
-          "title": "情報通信審議会　情報通信技術分科会　陸上無線通信委員会　特定ラジオマイク作業班（第9回）",
-          "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/02kiban14_04001372.html",
-          "source": "総務省"
-        }
-      ],
+      "related": [],
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -6288,6 +6727,54 @@
       "emergence_growth": {}
     },
     {
+      "id": "5c56b40bdac9",
+      "title": "高市総理は日豪・豪日経済委員会による表敬を受けました",
+      "url": "https://www.kantei.go.jp/jp/105/actions/202610/06hyoukei.html",
+      "source": "首相官邸",
+      "source_tier": "primary",
+      "source_tier_label": "一次情報",
+      "published_at": "2026-10-07 01:30",
+      "published_ts": 1791304200.0,
+      "category": "japan",
+      "category_label": "日本経済・政治",
+      "category_emoji": "🗾",
+      "importance": 1,
+      "importance_reason": "一般的な市況ニュース",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
       "id": "21ba42a57f89",
       "title": "閣議の概要について",
       "url": "https://www.kantei.go.jp/jp/tyoukanpress/202610/6_a.html",
@@ -6393,7 +6880,7 @@
       "id": "0392df0f4047",
       "title": "日経平均株価の指数情報・推移",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SRDk1ZENIQUIzSUZyMHZRNHpCR2xlcTI5UTJRYXVoMDBrM3BmNndBT29vV0dDZWdQazZHb2tURGZNYy1OMU93R0kyUUZUT3VmU2VhbA?oc=5",
-      "source": "Yahoo!ファイナンス",
+      "source": "finance.yahoo.co.jp",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-10-06 17:17",
@@ -6532,172 +7019,6 @@
       "emergence_milestones": [],
       "emergence_diagnosis": {},
       "emergence_growth": {}
-    },
-    {
-      "id": "0d34c87f64b6",
-      "title": "第５回ゲノム編集技術等を用いたヒト受精胚等の取扱い等に関する合同会議（第13回ゲノム編集技術等を用いたヒト受精胚等の臨床利用のあり方に関する専門委員会、第26回ヒト受精胚を用いる遺伝性・先天性疾患研究に関する専門委員会）　資料",
-      "url": "https://www.mhlw.go.jp/stf/newpage_76509.html",
-      "source": "厚生労働省",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-10-06 17:00",
-      "published_ts": 1791273600.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "4bf88367dc24",
-      "title": "海上・水路輸送のグリーン開発を促進するため、優先的な「滑走路」を拡大する。",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMUJGdndBZUtueEVWSllDVnh0bkpFWHVNSGptN1hpVXpfcTVmWmlBaEdWS3pIREJ0M3czRGR6SW83VGU5LXl6MmowcHBLVGx3QXg3ZDRqTmJnVmZJS1pNM3N2bWJ6QlZEZWhTZ1lBdm1jVHlsdnlIU0MyaVZVMGlqX0xrYUFWQ2JqUjM5SXBvUUFwN3lSLVRiVWdmMGEtWnps?oc=5",
-      "source": "Vietnam.vn",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-10-06 16:31",
-      "published_ts": 1791271881.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "fc7790dacbb7",
-      "title": "東京エレクトロン株続伸 「営業益1兆円の公算」報道（6日の株式市場）",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2MURnTmNBclRWenNpdm9kYm44VXgzVEJVQ1dvUzluSUtOY3JCR0ZWOW5aMnZDeUJIUTVmc1A4cmVYcWJQMWViaEtOeHdNZFp0cXhMUWJtWmE0U09SRVZmYTBiS1dneV90bjVaRg?oc=5",
-      "source": "日本経済新聞",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-10-06 16:30",
-      "published_ts": 1791271800.0,
-      "category": "market",
-      "category_label": "株式市況",
-      "category_emoji": "📈",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [
-        {
-          "code": "8035",
-          "name": "東京エレクトロン",
-          "sector": "電気機器",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "大",
-          "reason": "見出しで名指しされている当事者。まず株価が反応しやすい",
-          "theme": "当事者",
-          "theme_id": null,
-          "origin": "direct",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": null,
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 51,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        }
-      ],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
     }
   ],
   "stock_ranking": [
@@ -6706,9 +7027,9 @@
       "name": "東京エレクトロン",
       "sector": "電気機器",
       "positive": 5,
-      "negative": 4,
-      "watch": 1,
-      "score": 7,
+      "negative": 5,
+      "watch": 0,
+      "score": 4,
       "news": [
         {
           "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
@@ -6725,14 +7046,47 @@
           "importance": 4
         },
         {
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
-          "direction": "positive",
-          "reason": "「エヌビディア」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "title": "ドル・円は伸び悩みか、米金利高止まりも日米協調介入に警戒｜FX・為替ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GdGw2WFZKZXpKemFoZEVjSEtnV0RBNGVNWUFlcDlueU1DbU4wR01oOE5lMUFQcmQzbkxYaUVMQnVWV25tbHd2Z25xMmliVE4zVlE?oc=5",
+          "direction": "negative",
+          "reason": "「米金利 高止まり」に反応: 米国のAI・半導体関連グロース株のバリュエーション調整が、同じテーマ性を持つ日本の半導体関連株に連想売りとして波及しやすい",
           "importance": 3
         }
       ],
       "mentions": 10
+    },
+    {
+      "code": "6503",
+      "name": "三菱電機",
+      "sector": "電気機器",
+      "positive": 6,
+      "negative": 1,
+      "watch": 0,
+      "score": 10,
+      "news": [
+        {
+          "title": "イランとの戦闘は「中間選挙後に終結」 トランプ氏が見通し",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9icVdPYlFfUWhGQ05zQ0EzOTdrRkZKSHVzUHlzUWNMelU5UnFyV2lRLTNKaWNIY0FiM2Yzb3RaWng1Nkc1VFhNanhZaFB1Z2pJLXgteTYzc0tRQVkzNHB2dQ?oc=5",
+          "direction": "positive",
+          "reason": "「イラン」に反応: 安全保障・防衛需要の高まりが材料視されやすい",
+          "importance": 4
+        },
+        {
+          "title": "プーチン大統領を震撼させた「北極圏のガス施設」“空爆”…進化するウクライナのドローン攻撃に「厳冬期は停戦状態」というロシア軍の常識が崩壊か（デイリー新潮）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kSndiOXNQcTlqdzR1eFp0UGs5QlV0bmtVOUdFWlhoc1ZLczJJRmxEdEY3clZ3cU55c1pJYnBoNGF3aTNjc2RwTEpZNjc4NFhHNFJTLUhrQkE4YU9BUTEwdlBfNm5fYVl0Zmxvb1FIeHd5VURfNDlXUV9UdXRrbWM?oc=5",
+          "direction": "negative",
+          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "importance": 4
+        },
+        {
+          "title": "台湾国防部に米国防総省関係者らが長期駐在か 協力経費12倍増、野党が疑問視 | 鍾秉哲（ショウ・ヘイテツ） | ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBmV1FLTEFpYzIyVmNaSHFxdEsxWE5SVzJFYzY0Q0N2NHNYYVdMSUk4UFV1MnQtZ3pPVnRZMHVnNXI5Tl9KMmFoU2c0SUoySnQ4?oc=5",
+          "direction": "positive",
+          "reason": "「台湾」に反応: 安全保障関連の思惑が働きやすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 7
     },
     {
       "code": "8604",
@@ -6867,34 +7221,100 @@
       "mentions": 7
     },
     {
-      "code": "6503",
-      "name": "三菱電機",
+      "code": "6857",
+      "name": "アドバンテスト",
       "sector": "電気機器",
       "positive": 5,
       "negative": 1,
       "watch": 0,
-      "score": 6,
+      "score": 12,
       "news": [
         {
-          "title": "プーチン大統領を震撼させた「北極圏のガス施設」“空爆”…進化するウクライナのドローン攻撃に「厳冬期は停戦状態」というロシア軍の常識が崩壊か（デイリー新潮）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kSndiOXNQcTlqdzR1eFp0UGs5QlV0bmtVOUdFWlhoc1ZLczJJRmxEdEY3clZ3cU55c1pJYnBoNGF3aTNjc2RwTEpZNjc4NFhHNFJTLUhrQkE4YU9BUTEwdlBfNm5fYVl0Zmxvb1FIeHd5VURfNDlXUV9UdXRrbWM?oc=5",
-          "direction": "negative",
-          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84ZzR0MFFjZkFOWmJPT2NadmlqNWFYeW44ZkpTZXZObUx4V0NFNmY3UWFHd19DVTJ6aURfQTZ0WWtLb093N0k1THg4bmNpM3FtWHYtdktCMHhxQW9P?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
           "importance": 4
         },
         {
-          "title": "台湾国防部に米国防総省関係者らが長期駐在か 協力経費12倍増、野党が疑問視 | 鍾秉哲（ショウ・ヘイテツ） | ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBmV1FLTEFpYzIyVmNaSHFxdEsxWE5SVzJFYzY0Q0N2NHNYYVdMSUk4UFV1MnQtZ3pPVnRZMHVnNXI5Tl9KMmFoU2c0SUoySnQ4?oc=5",
+          "title": "半導体メモリー未曾有の高騰はいつ収まるのか。異例の増産投資ラッシュから見える現実",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX09CNzA0ZWlxT1RiZVRKREk1NC1TLVNFRWtqWVFWUGNCbFBvOHYtaVRBWVA3b2tOcXoxZUQ2Q1VLUEFqdHpoZnRiQURKU0QzbGd5STFiRXUzMURkLVpKZGgtakhCcDhLb3BxNDRvYWZKZXhhcG9UT2p3dUVDVk9YaDhfU1dhNGdjTnh6S3k1Y29ONmdjZVFOWWoyVnpVV19H?oc=5",
           "direction": "positive",
-          "reason": "「台湾」に反応: 安全保障関連の思惑が働きやすい",
-          "importance": 2
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 4
         },
         {
-          "title": "米武器売却の小分け案「情報なし」 防衛支援は不変＝台湾国防部長",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVXhQVjJZMGc5UDV1ZGg1NkpEX2RDc0Z4NWNwdG9UUGNicXpKNEZOeDNXTkloTWFuZGdYa0pWX0duNEhXNG12a1NPRVVCTnhpdHM1bnlYU3hlaW52U0hlUWpFRHVUa2tibDk1Q1NFSHVxOFZlQnVHV3NNUWtWb05pV1VZeEU?oc=5",
+          "title": "ドル・円は伸び悩みか、米金利高止まりも日米協調介入に警戒｜FX・為替ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GdGw2WFZKZXpKemFoZEVjSEtnV0RBNGVNWUFlcDlueU1DbU4wR01oOE5lMUFQcmQzbkxYaUVMQnVWV25tbHd2Z25xMmliVE4zVlE?oc=5",
+          "direction": "negative",
+          "reason": "「米金利 高止まり」に反応: 米国のAI・半導体関連グロース株のバリュエーション調整が、同じテーマ性を持つ日本の半導体関連株に連想売りとして波及しやすい",
+          "importance": 3
+        }
+      ],
+      "mentions": 6
+    },
+    {
+      "code": "6920",
+      "name": "レーザーテック",
+      "sector": "電気機器",
+      "positive": 5,
+      "negative": 1,
+      "watch": 0,
+      "score": 12,
+      "news": [
+        {
+          "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84ZzR0MFFjZkFOWmJPT2NadmlqNWFYeW44ZkpTZXZObUx4V0NFNmY3UWFHd19DVTJ6aURfQTZ0WWtLb093N0k1THg4bmNpM3FtWHYtdktCMHhxQW9P?oc=5",
           "direction": "positive",
-          "reason": "「台湾」に反応: 安全保障関連の思惑が働きやすい",
-          "importance": 2
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 4
+        },
+        {
+          "title": "半導体メモリー未曾有の高騰はいつ収まるのか。異例の増産投資ラッシュから見える現実",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX09CNzA0ZWlxT1RiZVRKREk1NC1TLVNFRWtqWVFWUGNCbFBvOHYtaVRBWVA3b2tOcXoxZUQ2Q1VLUEFqdHpoZnRiQURKU0QzbGd5STFiRXUzMURkLVpKZGgtakhCcDhLb3BxNDRvYWZKZXhhcG9UT2p3dUVDVk9YaDhfU1dhNGdjTnh6S3k1Y29ONmdjZVFOWWoyVnpVV19H?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 4
+        },
+        {
+          "title": "ドル・円は伸び悩みか、米金利高止まりも日米協調介入に警戒｜FX・為替ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GdGw2WFZKZXpKemFoZEVjSEtnV0RBNGVNWUFlcDlueU1DbU4wR01oOE5lMUFQcmQzbkxYaUVMQnVWV25tbHd2Z25xMmliVE4zVlE?oc=5",
+          "direction": "negative",
+          "reason": "「米金利 高止まり」に反応: 米国のAI・半導体関連グロース株のバリュエーション調整が、同じテーマ性を持つ日本の半導体関連株に連想売りとして波及しやすい",
+          "importance": 3
+        }
+      ],
+      "mentions": 6
+    },
+    {
+      "code": "6146",
+      "name": "ディスコ",
+      "sector": "機械",
+      "positive": 5,
+      "negative": 1,
+      "watch": 0,
+      "score": 12,
+      "news": [
+        {
+          "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84ZzR0MFFjZkFOWmJPT2NadmlqNWFYeW44ZkpTZXZObUx4V0NFNmY3UWFHd19DVTJ6aURfQTZ0WWtLb093N0k1THg4bmNpM3FtWHYtdktCMHhxQW9P?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 4
+        },
+        {
+          "title": "半導体メモリー未曾有の高騰はいつ収まるのか。異例の増産投資ラッシュから見える現実",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX09CNzA0ZWlxT1RiZVRKREk1NC1TLVNFRWtqWVFWUGNCbFBvOHYtaVRBWVA3b2tOcXoxZUQ2Q1VLUEFqdHpoZnRiQURKU0QzbGd5STFiRXUzMURkLVpKZGgtakhCcDhLb3BxNDRvYWZKZXhhcG9UT2p3dUVDVk9YaDhfU1dhNGdjTnh6S3k1Y29ONmdjZVFOWWoyVnpVV19H?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 4
+        },
+        {
+          "title": "ドル・円は伸び悩みか、米金利高止まりも日米協調介入に警戒｜FX・為替ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GdGw2WFZKZXpKemFoZEVjSEtnV0RBNGVNWUFlcDlueU1DbU4wR01oOE5lMUFQcmQzbkxYaUVMQnVWV25tbHd2Z25xMmliVE4zVlE?oc=5",
+          "direction": "negative",
+          "reason": "「米金利 高止まり」に反応: 米国のAI・半導体関連グロース株のバリュエーション調整が、同じテーマ性を持つ日本の半導体関連株に連想売りとして波及しやすい",
+          "importance": 3
         }
       ],
       "mentions": 6
@@ -7065,100 +7485,34 @@
       "mentions": 5
     },
     {
-      "code": "6857",
-      "name": "アドバンテスト",
-      "sector": "電気機器",
+      "code": "1540",
+      "name": "純金上場信託(現物国内保管型)",
+      "sector": "ETF",
       "positive": 5,
       "negative": 0,
       "watch": 0,
-      "score": 15,
+      "score": 12,
       "news": [
         {
-          "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84ZzR0MFFjZkFOWmJPT2NadmlqNWFYeW44ZkpTZXZObUx4V0NFNmY3UWFHd19DVTJ6aURfQTZ0WWtLb093N0k1THg4bmNpM3FtWHYtdktCMHhxQW9P?oc=5",
+          "title": "イランとの戦闘は「中間選挙後に終結」 トランプ氏が見通し",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9icVdPYlFfUWhGQ05zQ0EzOTdrRkZKSHVzUHlzUWNMelU5UnFyV2lRLTNKaWNIY0FiM2Yzb3RaWng1Nkc1VFhNanhZaFB1Z2pJLXgteTYzc0tRQVkzNHB2dQ?oc=5",
           "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "reason": "「イラン」に反応: 直接の影響とは別角度: コロナ禍のような過去の有事でも見られたように、地政学リスクの高まりは株式とは別に金など安全資産に資金が向かいやすい(質への逃避)",
           "importance": 4
         },
         {
-          "title": "半導体メモリー未曾有の高騰はいつ収まるのか。異例の増産投資ラッシュから見える現実",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX09CNzA0ZWlxT1RiZVRKREk1NC1TLVNFRWtqWVFWUGNCbFBvOHYtaVRBWVA3b2tOcXoxZUQ2Q1VLUEFqdHpoZnRiQURKU0QzbGd5STFiRXUzMURkLVpKZGgtakhCcDhLb3BxNDRvYWZKZXhhcG9UT2p3dUVDVk9YaDhfU1dhNGdjTnh6S3k1Y29ONmdjZVFOWWoyVnpVV19H?oc=5",
+          "title": "台湾国防部に米国防総省関係者らが長期駐在か 協力経費12倍増、野党が疑問視 | 鍾秉哲（ショウ・ヘイテツ） | ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBmV1FLTEFpYzIyVmNaSHFxdEsxWE5SVzJFYzY0Q0N2NHNYYVdMSUk4UFV1MnQtZ3pPVnRZMHVnNXI5Tl9KMmFoU2c0SUoySnQ4?oc=5",
           "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 4
+          "reason": "「台湾」に反応: 直接の影響とは別角度: コロナ禍のような過去の有事でも見られたように、地政学リスクの高まりは株式とは別に金など安全資産に資金が向かいやすい(質への逃避)",
+          "importance": 2
         },
         {
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
+          "title": "米武器売却の小分け案「情報なし」 防衛支援は不変＝台湾国防部長",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVXhQVjJZMGc5UDV1ZGg1NkpEX2RDc0Z4NWNwdG9UUGNicXpKNEZOeDNXTkloTWFuZGdYa0pWX0duNEhXNG12a1NPRVVCTnhpdHM1bnlYU3hlaW52U0hlUWpFRHVUa2tibDk1Q1NFSHVxOFZlQnVHV3NNUWtWb05pV1VZeEU?oc=5",
           "direction": "positive",
-          "reason": "「エヌビディア」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 3
-        }
-      ],
-      "mentions": 5
-    },
-    {
-      "code": "6920",
-      "name": "レーザーテック",
-      "sector": "電気機器",
-      "positive": 5,
-      "negative": 0,
-      "watch": 0,
-      "score": 15,
-      "news": [
-        {
-          "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84ZzR0MFFjZkFOWmJPT2NadmlqNWFYeW44ZkpTZXZObUx4V0NFNmY3UWFHd19DVTJ6aURfQTZ0WWtLb093N0k1THg4bmNpM3FtWHYtdktCMHhxQW9P?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 4
-        },
-        {
-          "title": "半導体メモリー未曾有の高騰はいつ収まるのか。異例の増産投資ラッシュから見える現実",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX09CNzA0ZWlxT1RiZVRKREk1NC1TLVNFRWtqWVFWUGNCbFBvOHYtaVRBWVA3b2tOcXoxZUQ2Q1VLUEFqdHpoZnRiQURKU0QzbGd5STFiRXUzMURkLVpKZGgtakhCcDhLb3BxNDRvYWZKZXhhcG9UT2p3dUVDVk9YaDhfU1dhNGdjTnh6S3k1Y29ONmdjZVFOWWoyVnpVV19H?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 4
-        },
-        {
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
-          "direction": "positive",
-          "reason": "「エヌビディア」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 3
-        }
-      ],
-      "mentions": 5
-    },
-    {
-      "code": "6146",
-      "name": "ディスコ",
-      "sector": "機械",
-      "positive": 5,
-      "negative": 0,
-      "watch": 0,
-      "score": 15,
-      "news": [
-        {
-          "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84ZzR0MFFjZkFOWmJPT2NadmlqNWFYeW44ZkpTZXZObUx4V0NFNmY3UWFHd19DVTJ6aURfQTZ0WWtLb093N0k1THg4bmNpM3FtWHYtdktCMHhxQW9P?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 4
-        },
-        {
-          "title": "半導体メモリー未曾有の高騰はいつ収まるのか。異例の増産投資ラッシュから見える現実",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX09CNzA0ZWlxT1RiZVRKREk1NC1TLVNFRWtqWVFWUGNCbFBvOHYtaVRBWVA3b2tOcXoxZUQ2Q1VLUEFqdHpoZnRiQURKU0QzbGd5STFiRXUzMURkLVpKZGgtakhCcDhLb3BxNDRvYWZKZXhhcG9UT2p3dUVDVk9YaDhfU1dhNGdjTnh6S3k1Y29ONmdjZVFOWWoyVnpVV19H?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 4
-        },
-        {
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
-          "direction": "positive",
-          "reason": "「エヌビディア」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 3
+          "reason": "「台湾」に反応: 直接の影響とは別角度: コロナ禍のような過去の有事でも見られたように、地政学リスクの高まりは株式とは別に金など安全資産に資金が向かいやすい(質への逃避)",
+          "importance": 2
         }
       ],
       "mentions": 5
@@ -7327,39 +7681,6 @@
         }
       ],
       "mentions": 4
-    },
-    {
-      "code": "8802",
-      "name": "三菱地所",
-      "sector": "不動産",
-      "positive": 0,
-      "negative": 4,
-      "watch": 0,
-      "score": -15,
-      "news": [
-        {
-          "title": "植田日銀総裁、利上げ継続姿勢も10月は示唆せず－全国証券大会",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9mVUxYSWd5eWJKdTZPUTk1a01SblZlSnpaaFJ4cWlkblZMNndtcm5nWXZOYnN3SXBpLWVEaFlBNVY5QV9JQ0dFSmplLTI0MGRzeHNYX2RDRnRrMDR3dHR6VWh2WkVZMGUwcHdYMDF0ekpsS0dl?oc=5",
-          "direction": "negative",
-          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
-          "importance": 5
-        },
-        {
-          "title": "利上げしても円安、介入しても円高は一時的…通貨防衛戦の足枷になり始めた政府・日銀の政策不一致 【唐鎌大輔の為替から見る日本】日銀「主な意見」が映した政府との温度差、中立金利接近で2027年の政策論点が鮮明に(1/4)",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtZVFYMEZySk9GN25DYV9qdDNjdUJBWFkwVUpPa3hRSkZSQ0VTNGstU0tKM3MwODJ4b3ZicC1UQkxkNnVxQS16ZjZqSWJXcGRlZFZRLWpB?oc=5",
-          "direction": "negative",
-          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
-          "importance": 5
-        },
-        {
-          "title": "米ドル／円は156～159円で膠着か…世界的な長期金利上昇と「159円の壁」が意識される1週間【今週の米ドル／円予想レンジ「156～159円」の根拠】（THE GOLD ONLINE（ゴールドオンライン））",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NTFdDMzJ0RzNtQkstcDdEYi1DclNrN2NVZ0pnM2VKbzdNSXA3Y0xjczFkY2NjMG5haFN5UXBoNGo3ME5zMmxENVNSdkNHYWlFb29ES18yM2NiMjJXdjVkeUdDdGZXNFZPUlVwaXQtZHRzSEFOMVluTlhmUkUweGs?oc=5",
-          "direction": "negative",
-          "reason": "「長期金利 上昇」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
-          "importance": 3
-        }
-      ],
-      "mentions": 4
     }
   ],
   "clusters": [
@@ -7407,14 +7728,14 @@
           "title": "米国株式市場、ＮＹダウ３日続伸、ナスダックは４日上昇し終値ベースの最高値更新(ウエルスアドバイザー)",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ1FmbEFJZDh2d2F0OVJtazhmVEhOVnVmQi1RUnJOejVfekt6bXBaODFuc3BkQlZIa28xb1p1b1ZBVXhxOFRnR1I1X2c3U2ZlRWFHQkVTSThLR0MzZ1hfNUZjVXhqbUg5Rzg2SEdiaXVPZzk0WjBoQUk2VFl5NzgxYlJXU1J1cWM?oc=5",
           "importance": 2,
-          "source": "Yahoo!ファイナンス"
+          "source": "finance.yahoo.co.jp"
         },
         {
           "id": "378d9d695fc4",
           "title": "ナスダックが最高値更新、ハイテク堅調で24年ぶり長期金利上昇を相殺",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBoSHNCSmFvNEdnTFhGUGJvRW5YeGFQR3Y2Z09kSTRpWGstZXVwYXEydnVxOU5RX1JVOE1wN2RNVFRhTVVjUVE3aEdFRHUtTmRBZHpUaXVNS3JXdEpsTndmRHF2U2UtZDkyczh4ZHlmd2ZjUl9F?oc=5",
           "importance": 2,
-          "source": "BigGo ファイナンス"
+          "source": "finance.biggo.jp"
         },
         {
           "id": "2188af4b2cc6",
@@ -8168,7 +8489,7 @@
           "title": "ナスダックが最高値更新、ハイテク堅調で24年ぶり長期金利上昇を相殺",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBoSHNCSmFvNEdnTFhGUGJvRW5YeGFQR3Y2Z09kSTRpWGstZXVwYXEydnVxOU5RX1JVOE1wN2RNVFRhTVVjUVE3aEdFRHUtTmRBZHpUaXVNS3JXdEpsTndmRHF2U2UtZDkyczh4ZHlmd2ZjUl9F?oc=5",
           "importance": 2,
-          "source": "BigGo ファイナンス"
+          "source": "finance.biggo.jp"
         },
         {
           "id": "4489e77e4ba7",
@@ -8644,7 +8965,7 @@
           "title": "アルファベット、AIデータセンター向けにコンステレーションと10億ドル規模の原子力電力購入契約へ",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kdS1RaVdQV2ZNN2QyekZ1LVM2SkJIX1RzTjAtRXZ3NGh2NzJBQ1NUclZJQ2FEOGI1MTNYQjdxOGRlVlJXcVVxODNsUHZSSDlqV3hfOU5BczFxcGgxSF8zaWRaS2gxVHJONjdOZm9hQTZxSE9U?oc=5",
           "importance": 2,
-          "source": "BigGo ファイナンス"
+          "source": "finance.biggo.jp"
         },
         {
           "id": "346e7d952c36",
@@ -9558,14 +9879,14 @@
       "member_ids": [
         "343e7407ac1b",
         "5ecc522af285",
+        "706e5a3e5e26",
         "d176e388c319",
         "5b38637014c3",
         "9664a65ef7d7",
         "eced037a214d",
         "72e676294f15",
         "346e7d952c36",
-        "79e47be46790",
-        "fc7790dacbb7"
+        "79e47be46790"
       ],
       "members": [
         {
@@ -9581,6 +9902,13 @@
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX09CNzA0ZWlxT1RiZVRKREk1NC1TLVNFRWtqWVFWUGNCbFBvOHYtaVRBWVA3b2tOcXoxZUQ2Q1VLUEFqdHpoZnRiQURKU0QzbGd5STFiRXUzMURkLVpKZGgtakhCcDhLb3BxNDRvYWZKZXhhcG9UT2p3dUVDVk9YaDhfU1dhNGdjTnh6S3k1Y29ONmdjZVFOWWoyVnpVV19H?oc=5",
           "importance": 4,
           "source": "Business Insider Japan"
+        },
+        {
+          "id": "706e5a3e5e26",
+          "title": "ドル・円は伸び悩みか、米金利高止まりも日米協調介入に警戒｜FX・為替ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GdGw2WFZKZXpKemFoZEVjSEtnV0RBNGVNWUFlcDlueU1DbU4wR01oOE5lMUFQcmQzbkxYaUVMQnVWV25tbHd2Z25xMmliVE4zVlE?oc=5",
+          "importance": 3,
+          "source": "zai.diamond.jp"
         },
         {
           "id": "d176e388c319",
@@ -9608,7 +9936,7 @@
           "title": "アルファベット、AIデータセンター向けにコンステレーションと10億ドル規模の原子力電力購入契約へ",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kdS1RaVdQV2ZNN2QyekZ1LVM2SkJIX1RzTjAtRXZ3NGh2NzJBQ1NUclZJQ2FEOGI1MTNYQjdxOGRlVlJXcVVxODNsUHZSSDlqV3hfOU5BczFxcGgxSF8zaWRaS2gxVHJONjdOZm9hQTZxSE9U?oc=5",
           "importance": 2,
-          "source": "BigGo ファイナンス"
+          "source": "finance.biggo.jp"
         },
         {
           "id": "72e676294f15",
@@ -9630,13 +9958,6 @@
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSFlFU2RSYlRkYWppZFFrbmx3Smo2d2VsX0dENGhGb1NvdjVucDllZGlBS3dTY3RUWDFxZXBRSnFyekpoaDlLbHF0b2Mtci1FUlpQQ3NjMmlmZzZXWms0VWpqbVN1ME45aTNubk1oYk81UWZEZWdZMVNMZDZwcFBGX2pSVFJGdzl2?oc=5",
           "importance": 2,
           "source": "Yahoo!ニュース"
-        },
-        {
-          "id": "fc7790dacbb7",
-          "title": "東京エレクトロン株続伸 「営業益1兆円の公算」報道（6日の株式市場）",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2MURnTmNBclRWenNpdm9kYm44VXgzVEJVQ1dvUzluSUtOY3JCR0ZWOW5aMnZDeUJIUTVmc1A4cmVYcWJQMWViaEtOeHdNZFp0cXhMUWJtWmE0U09SRVZmYTBiS1dneV90bjVaRg?oc=5",
-          "importance": 1,
-          "source": "日本経済新聞"
         }
       ],
       "stocks": [
@@ -9644,8 +9965,104 @@
           "code": "8035",
           "name": "東京エレクトロン",
           "positive": 5,
-          "negative": 4,
-          "watch": 1
+          "negative": 5,
+          "watch": 0
+        }
+      ],
+      "max_importance": 4,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "connection_type": "company",
+      "connection_label": "同じ企業",
+      "theme_id": null,
+      "label": "三菱電機に関するニュース",
+      "category": "",
+      "category_label": "同じ企業",
+      "category_emoji": "🏢",
+      "member_ids": [
+        "b0975c29ea80",
+        "ed1032b28b69",
+        "5b38637014c3",
+        "9664a65ef7d7",
+        "72e676294f15",
+        "346e7d952c36",
+        "79e47be46790"
+      ],
+      "members": [
+        {
+          "id": "b0975c29ea80",
+          "title": "イランとの戦闘は「中間選挙後に終結」 トランプ氏が見通し",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9icVdPYlFfUWhGQ05zQ0EzOTdrRkZKSHVzUHlzUWNMelU5UnFyV2lRLTNKaWNIY0FiM2Yzb3RaWng1Nkc1VFhNanhZaFB1Z2pJLXgteTYzc0tRQVkzNHB2dQ?oc=5",
+          "importance": 4,
+          "source": "テレ朝NEWS"
+        },
+        {
+          "id": "ed1032b28b69",
+          "title": "プーチン大統領を震撼させた「北極圏のガス施設」“空爆”…進化するウクライナのドローン攻撃に「厳冬期は停戦状態」というロシア軍の常識が崩壊か（デイリー新潮）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kSndiOXNQcTlqdzR1eFp0UGs5QlV0bmtVOUdFWlhoc1ZLczJJRmxEdEY3clZ3cU55c1pJYnBoNGF3aTNjc2RwTEpZNjc4NFhHNFJTLUhrQkE4YU9BUTEwdlBfNm5fYVl0Zmxvb1FIeHd5VURfNDlXUV9UdXRrbWM?oc=5",
+          "importance": 4,
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "id": "5b38637014c3",
+          "title": "台湾国防部に米国防総省関係者らが長期駐在か 協力経費12倍増、野党が疑問視 | 鍾秉哲（ショウ・ヘイテツ） | ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBmV1FLTEFpYzIyVmNaSHFxdEsxWE5SVzJFYzY0Q0N2NHNYYVdMSUk4UFV1MnQtZ3pPVnRZMHVnNXI5Tl9KMmFoU2c0SUoySnQ4?oc=5",
+          "importance": 2,
+          "source": "Storm.mg"
+        },
+        {
+          "id": "9664a65ef7d7",
+          "title": "米武器売却の小分け案「情報なし」 防衛支援は不変＝台湾国防部長",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVXhQVjJZMGc5UDV1ZGg1NkpEX2RDc0Z4NWNwdG9UUGNicXpKNEZOeDNXTkloTWFuZGdYa0pWX0duNEhXNG12a1NPRVVCTnhpdHM1bnlYU3hlaW52U0hlUWpFRHVUa2tibDk1Q1NFSHVxOFZlQnVHV3NNUWtWb05pV1VZeEU?oc=5",
+          "importance": 2,
+          "source": "Reuters"
+        },
+        {
+          "id": "72e676294f15",
+          "title": "米FBI、中国政府の指示で台湾総統の息子を監視した疑いで女を逮捕|安全保障のニュース-セキュリティ対策Lab",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLUFvdDRiT2JfVlUzOThmLUhwSl9MeWtLRFNyMXV6aDA2eE9rdTFSLXNSalFyamYzR1g1ZUg3Z1FaU0ZhcFpET3gzemNueEpIS3BRYmNfd0RZTFVlODVBZ2lLWGRRNG5zS2VQSUxiR3k1bWxFcVRraVJkdmJNcHJWZDdEUWtOa2NCQWFvaWFNOVlkR0JLa2Qzd2tSVDZzSjQ?oc=5",
+          "importance": 2,
+          "source": "合同会社ロケットボーイズ"
+        },
+        {
+          "id": "346e7d952c36",
+          "title": "データセンター建設ラッシュで揺らぐ国の脱炭素方針、JERA「千葉火力2.3兆円」黒船連合の衝撃",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1JQjdyWUk5Y3duWDFjZFQwcnJxa0xCR1ZTdnpuajdoMzJyOFlHLWJKaEVsU3VKdVlyY1kydERkcHhPQU9kSzJKOVNVWnLSAU9BVV95cUxOT3pCU0g1VTJndnBhSEdRb3VwbmQ3V25sWEFyV18yclBWQ0ROYUljLWNINzBEQmhtMUVBRHhwcTJBYmx1TFBodXloc29hOUlF?oc=5",
+          "importance": 2,
+          "source": "ダイヤモンド・オンライン"
+        },
+        {
+          "id": "79e47be46790",
+          "title": "台湾の退役巡視船、フィリピンで「サランガニ」として就役 台比の海洋安全保障協力進む（高橋浩祐） - エキスパート",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSFlFU2RSYlRkYWppZFFrbmx3Smo2d2VsX0dENGhGb1NvdjVucDllZGlBS3dTY3RUWDFxZXBRSnFyekpoaDlLbHF0b2Mtci1FUlpQQ3NjMmlmZzZXWms0VWpqbVN1ME45aTNubk1oYk81UWZEZWdZMVNMZDZwcFBGX2pSVFJGdzl2?oc=5",
+          "importance": 2,
+          "source": "Yahoo!ニュース"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "6503",
+          "name": "三菱電機",
+          "positive": 6,
+          "negative": 1,
+          "watch": 0
         }
       ],
       "max_importance": 4,
@@ -9703,14 +10120,14 @@
           "title": "外為：豪ドル、110円01銭前後と豪ドル高・円安で推移(株探ニュース)",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTTFubTFSS3VxZUJ0cUFFcDdVc05XUnRqblJPSGtoOURZZXliNzFrelUxcG4xdk5adVlNQnRLUmJvcUVvdFRFaFNNelRCdTVmZjIya1RyYzUwMXVZcHVOWmdndFZlOFRBUU5FYURmQWR5eG43UUVocHJZb3N2ZFIzT1pmRDZ2ZDg?oc=5",
           "importance": 2,
-          "source": "Yahoo!ファイナンス"
+          "source": "finance.yahoo.co.jp"
         },
         {
           "id": "ad6fe53f8139",
           "title": "米国株式市場、ＮＹダウ３日続伸、ナスダックは４日上昇し終値ベースの最高値更新(ウエルスアドバイザー)",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ1FmbEFJZDh2d2F0OVJtazhmVEhOVnVmQi1RUnJOejVfekt6bXBaODFuc3BkQlZIa28xb1p1b1ZBVXhxOFRnR1I1X2c3U2ZlRWFHQkVTSThLR0MzZ1hfNUZjVXhqbUg5Rzg2SEdiaXVPZzk0WjBoQUk2VFl5NzgxYlJXU1J1cWM?oc=5",
           "importance": 2,
-          "source": "Yahoo!ファイナンス"
+          "source": "finance.yahoo.co.jp"
         },
         {
           "id": "2188af4b2cc6",
@@ -9759,46 +10176,53 @@
       "connection_type": "company",
       "connection_label": "同じ企業",
       "theme_id": null,
-      "label": "三菱電機に関するニュース",
+      "label": "アドバンテストに関するニュース",
       "category": "",
       "category_label": "同じ企業",
       "category_emoji": "🏢",
       "member_ids": [
-        "ed1032b28b69",
-        "5b38637014c3",
-        "9664a65ef7d7",
-        "72e676294f15",
-        "346e7d952c36",
-        "79e47be46790"
+        "343e7407ac1b",
+        "5ecc522af285",
+        "706e5a3e5e26",
+        "d176e388c319",
+        "eced037a214d",
+        "346e7d952c36"
       ],
       "members": [
         {
-          "id": "ed1032b28b69",
-          "title": "プーチン大統領を震撼させた「北極圏のガス施設」“空爆”…進化するウクライナのドローン攻撃に「厳冬期は停戦状態」というロシア軍の常識が崩壊か（デイリー新潮）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kSndiOXNQcTlqdzR1eFp0UGs5QlV0bmtVOUdFWlhoc1ZLczJJRmxEdEY3clZ3cU55c1pJYnBoNGF3aTNjc2RwTEpZNjc4NFhHNFJTLUhrQkE4YU9BUTEwdlBfNm5fYVl0Zmxvb1FIeHd5VURfNDlXUV9UdXRrbWM?oc=5",
+          "id": "343e7407ac1b",
+          "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84ZzR0MFFjZkFOWmJPT2NadmlqNWFYeW44ZkpTZXZObUx4V0NFNmY3UWFHd19DVTJ6aURfQTZ0WWtLb093N0k1THg4bmNpM3FtWHYtdktCMHhxQW9P?oc=5",
           "importance": 4,
-          "source": "Yahoo!ニュース"
+          "source": "YouTube"
         },
         {
-          "id": "5b38637014c3",
-          "title": "台湾国防部に米国防総省関係者らが長期駐在か 協力経費12倍増、野党が疑問視 | 鍾秉哲（ショウ・ヘイテツ） | ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBmV1FLTEFpYzIyVmNaSHFxdEsxWE5SVzJFYzY0Q0N2NHNYYVdMSUk4UFV1MnQtZ3pPVnRZMHVnNXI5Tl9KMmFoU2c0SUoySnQ4?oc=5",
-          "importance": 2,
-          "source": "Storm.mg"
+          "id": "5ecc522af285",
+          "title": "半導体メモリー未曾有の高騰はいつ収まるのか。異例の増産投資ラッシュから見える現実",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX09CNzA0ZWlxT1RiZVRKREk1NC1TLVNFRWtqWVFWUGNCbFBvOHYtaVRBWVA3b2tOcXoxZUQ2Q1VLUEFqdHpoZnRiQURKU0QzbGd5STFiRXUzMURkLVpKZGgtakhCcDhLb3BxNDRvYWZKZXhhcG9UT2p3dUVDVk9YaDhfU1dhNGdjTnh6S3k1Y29ONmdjZVFOWWoyVnpVV19H?oc=5",
+          "importance": 4,
+          "source": "Business Insider Japan"
         },
         {
-          "id": "9664a65ef7d7",
-          "title": "米武器売却の小分け案「情報なし」 防衛支援は不変＝台湾国防部長",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVXhQVjJZMGc5UDV1ZGg1NkpEX2RDc0Z4NWNwdG9UUGNicXpKNEZOeDNXTkloTWFuZGdYa0pWX0duNEhXNG12a1NPRVVCTnhpdHM1bnlYU3hlaW52U0hlUWpFRHVUa2tibDk1Q1NFSHVxOFZlQnVHV3NNUWtWb05pV1VZeEU?oc=5",
-          "importance": 2,
+          "id": "706e5a3e5e26",
+          "title": "ドル・円は伸び悩みか、米金利高止まりも日米協調介入に警戒｜FX・為替ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GdGw2WFZKZXpKemFoZEVjSEtnV0RBNGVNWUFlcDlueU1DbU4wR01oOE5lMUFQcmQzbkxYaUVMQnVWV25tbHd2Z25xMmliVE4zVlE?oc=5",
+          "importance": 3,
+          "source": "zai.diamond.jp"
+        },
+        {
+          "id": "d176e388c319",
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
+          "importance": 3,
           "source": "Reuters"
         },
         {
-          "id": "72e676294f15",
-          "title": "米FBI、中国政府の指示で台湾総統の息子を監視した疑いで女を逮捕|安全保障のニュース-セキュリティ対策Lab",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLUFvdDRiT2JfVlUzOThmLUhwSl9MeWtLRFNyMXV6aDA2eE9rdTFSLXNSalFyamYzR1g1ZUg3Z1FaU0ZhcFpET3gzemNueEpIS3BRYmNfd0RZTFVlODVBZ2lLWGRRNG5zS2VQSUxiR3k1bWxFcVRraVJkdmJNcHJWZDdEUWtOa2NCQWFvaWFNOVlkR0JLa2Qzd2tSVDZzSjQ?oc=5",
+          "id": "eced037a214d",
+          "title": "アルファベット、AIデータセンター向けにコンステレーションと10億ドル規模の原子力電力購入契約へ",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kdS1RaVdQV2ZNN2QyekZ1LVM2SkJIX1RzTjAtRXZ3NGh2NzJBQ1NUclZJQ2FEOGI1MTNYQjdxOGRlVlJXcVVxODNsUHZSSDlqV3hfOU5BczFxcGgxSF8zaWRaS2gxVHJONjdOZm9hQTZxSE9U?oc=5",
           "importance": 2,
-          "source": "合同会社ロケットボーイズ"
+          "source": "finance.biggo.jp"
         },
         {
           "id": "346e7d952c36",
@@ -9806,105 +10230,18 @@
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1JQjdyWUk5Y3duWDFjZFQwcnJxa0xCR1ZTdnpuajdoMzJyOFlHLWJKaEVsU3VKdVlyY1kydERkcHhPQU9kSzJKOVNVWnLSAU9BVV95cUxOT3pCU0g1VTJndnBhSEdRb3VwbmQ3V25sWEFyV18yclBWQ0ROYUljLWNINzBEQmhtMUVBRHhwcTJBYmx1TFBodXloc29hOUlF?oc=5",
           "importance": 2,
           "source": "ダイヤモンド・オンライン"
-        },
-        {
-          "id": "79e47be46790",
-          "title": "台湾の退役巡視船、フィリピンで「サランガニ」として就役 台比の海洋安全保障協力進む（高橋浩祐） - エキスパート",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSFlFU2RSYlRkYWppZFFrbmx3Smo2d2VsX0dENGhGb1NvdjVucDllZGlBS3dTY3RUWDFxZXBRSnFyekpoaDlLbHF0b2Mtci1FUlpQQ3NjMmlmZzZXWms0VWpqbVN1ME45aTNubk1oYk81UWZEZWdZMVNMZDZwcFBGX2pSVFJGdzl2?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ニュース"
         }
       ],
       "stocks": [
         {
-          "code": "6503",
-          "name": "三菱電機",
+          "code": "6857",
+          "name": "アドバンテスト",
           "positive": 5,
           "negative": 1,
           "watch": 0
         }
       ],
       "max_importance": 4,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "connection_type": "company",
-      "connection_label": "同じ企業",
-      "theme_id": null,
-      "label": "神戸製鋼所に関するニュース",
-      "category": "",
-      "category_label": "同じ企業",
-      "category_emoji": "🏢",
-      "member_ids": [
-        "6a4b2498237c",
-        "5b38637014c3",
-        "9664a65ef7d7",
-        "72e676294f15",
-        "79e47be46790"
-      ],
-      "members": [
-        {
-          "id": "6a4b2498237c",
-          "title": "関税・外国為替等審議会　関税分科会（令和８年10月６日開催）配付資料",
-          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_customs/material/kana20261006.html",
-          "importance": 5,
-          "source": "財務省"
-        },
-        {
-          "id": "5b38637014c3",
-          "title": "台湾国防部に米国防総省関係者らが長期駐在か 協力経費12倍増、野党が疑問視 | 鍾秉哲（ショウ・ヘイテツ） | ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBmV1FLTEFpYzIyVmNaSHFxdEsxWE5SVzJFYzY0Q0N2NHNYYVdMSUk4UFV1MnQtZ3pPVnRZMHVnNXI5Tl9KMmFoU2c0SUoySnQ4?oc=5",
-          "importance": 2,
-          "source": "Storm.mg"
-        },
-        {
-          "id": "9664a65ef7d7",
-          "title": "米武器売却の小分け案「情報なし」 防衛支援は不変＝台湾国防部長",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVXhQVjJZMGc5UDV1ZGg1NkpEX2RDc0Z4NWNwdG9UUGNicXpKNEZOeDNXTkloTWFuZGdYa0pWX0duNEhXNG12a1NPRVVCTnhpdHM1bnlYU3hlaW52U0hlUWpFRHVUa2tibDk1Q1NFSHVxOFZlQnVHV3NNUWtWb05pV1VZeEU?oc=5",
-          "importance": 2,
-          "source": "Reuters"
-        },
-        {
-          "id": "72e676294f15",
-          "title": "米FBI、中国政府の指示で台湾総統の息子を監視した疑いで女を逮捕|安全保障のニュース-セキュリティ対策Lab",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLUFvdDRiT2JfVlUzOThmLUhwSl9MeWtLRFNyMXV6aDA2eE9rdTFSLXNSalFyamYzR1g1ZUg3Z1FaU0ZhcFpET3gzemNueEpIS3BRYmNfd0RZTFVlODVBZ2lLWGRRNG5zS2VQSUxiR3k1bWxFcVRraVJkdmJNcHJWZDdEUWtOa2NCQWFvaWFNOVlkR0JLa2Qzd2tSVDZzSjQ?oc=5",
-          "importance": 2,
-          "source": "合同会社ロケットボーイズ"
-        },
-        {
-          "id": "79e47be46790",
-          "title": "台湾の退役巡視船、フィリピンで「サランガニ」として就役 台比の海洋安全保障協力進む（高橋浩祐） - エキスパート",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSFlFU2RSYlRkYWppZFFrbmx3Smo2d2VsX0dENGhGb1NvdjVucDllZGlBS3dTY3RUWDFxZXBRSnFyekpoaDlLbHF0b2Mtci1FUlpQQ3NjMmlmZzZXWms0VWpqbVN1ME45aTNubk1oYk81UWZEZWdZMVNMZDZwcFBGX2pSVFJGdzl2?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ニュース"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "5406",
-          "name": "神戸製鋼所",
-          "positive": 4,
-          "negative": 1,
-          "watch": 0
-        }
-      ],
-      "max_importance": 5,
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -9932,19 +10269,27 @@
       "category_label": "同じ業界",
       "category_emoji": "🏭",
       "member_ids": [
+        "b0975c29ea80",
         "343e7407ac1b",
         "5ecc522af285",
         "ed1032b28b69",
+        "706e5a3e5e26",
         "d176e388c319",
         "5b38637014c3",
         "9664a65ef7d7",
         "eced037a214d",
         "72e676294f15",
         "346e7d952c36",
-        "79e47be46790",
-        "fc7790dacbb7"
+        "79e47be46790"
       ],
       "members": [
+        {
+          "id": "b0975c29ea80",
+          "title": "イランとの戦闘は「中間選挙後に終結」 トランプ氏が見通し",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9icVdPYlFfUWhGQ05zQ0EzOTdrRkZKSHVzUHlzUWNMelU5UnFyV2lRLTNKaWNIY0FiM2Yzb3RaWng1Nkc1VFhNanhZaFB1Z2pJLXgteTYzc0tRQVkzNHB2dQ?oc=5",
+          "importance": 4,
+          "source": "テレ朝NEWS"
+        },
         {
           "id": "343e7407ac1b",
           "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
@@ -9965,6 +10310,13 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kSndiOXNQcTlqdzR1eFp0UGs5QlV0bmtVOUdFWlhoc1ZLczJJRmxEdEY3clZ3cU55c1pJYnBoNGF3aTNjc2RwTEpZNjc4NFhHNFJTLUhrQkE4YU9BUTEwdlBfNm5fYVl0Zmxvb1FIeHd5VURfNDlXUV9UdXRrbWM?oc=5",
           "importance": 4,
           "source": "Yahoo!ニュース"
+        },
+        {
+          "id": "706e5a3e5e26",
+          "title": "ドル・円は伸び悩みか、米金利高止まりも日米協調介入に警戒｜FX・為替ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GdGw2WFZKZXpKemFoZEVjSEtnV0RBNGVNWUFlcDlueU1DbU4wR01oOE5lMUFQcmQzbkxYaUVMQnVWV25tbHd2Z25xMmliVE4zVlE?oc=5",
+          "importance": 3,
+          "source": "zai.diamond.jp"
         },
         {
           "id": "d176e388c319",
@@ -9992,7 +10344,7 @@
           "title": "アルファベット、AIデータセンター向けにコンステレーションと10億ドル規模の原子力電力購入契約へ",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kdS1RaVdQV2ZNN2QyekZ1LVM2SkJIX1RzTjAtRXZ3NGh2NzJBQ1NUclZJQ2FEOGI1MTNYQjdxOGRlVlJXcVVxODNsUHZSSDlqV3hfOU5BczFxcGgxSF8zaWRaS2gxVHJONjdOZm9hQTZxSE9U?oc=5",
           "importance": 2,
-          "source": "BigGo ファイナンス"
+          "source": "finance.biggo.jp"
         },
         {
           "id": "72e676294f15",
@@ -10014,13 +10366,6 @@
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSFlFU2RSYlRkYWppZFFrbmx3Smo2d2VsX0dENGhGb1NvdjVucDllZGlBS3dTY3RUWDFxZXBRSnFyekpoaDlLbHF0b2Mtci1FUlpQQ3NjMmlmZzZXWms0VWpqbVN1ME45aTNubk1oYk81UWZEZWdZMVNMZDZwcFBGX2pSVFJGdzl2?oc=5",
           "importance": 2,
           "source": "Yahoo!ニュース"
-        },
-        {
-          "id": "fc7790dacbb7",
-          "title": "東京エレクトロン株続伸 「営業益1兆円の公算」報道（6日の株式市場）",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2MURnTmNBclRWenNpdm9kYm44VXgzVEJVQ1dvUzluSUtOY3JCR0ZWOW5aMnZDeUJIUTVmc1A4cmVYcWJQMWViaEtOeHdNZFp0cXhMUWJtWmE0U09SRVZmYTBiS1dneV90bjVaRg?oc=5",
-          "importance": 1,
-          "source": "日本経済新聞"
         }
       ],
       "stocks": [
@@ -10028,13 +10373,13 @@
           "code": "8035",
           "name": "東京エレクトロン",
           "positive": 5,
-          "negative": 4,
-          "watch": 1
+          "negative": 5,
+          "watch": 0
         },
         {
           "code": "6503",
           "name": "三菱電機",
-          "positive": 5,
+          "positive": 6,
           "negative": 1,
           "watch": 0
         },
@@ -10042,14 +10387,14 @@
           "code": "6857",
           "name": "アドバンテスト",
           "positive": 5,
-          "negative": 0,
+          "negative": 1,
           "watch": 0
         },
         {
           "code": "6920",
           "name": "レーザーテック",
           "positive": 5,
-          "negative": 0,
+          "negative": 1,
           "watch": 0
         },
         {
@@ -10064,6 +10409,117 @@
           "name": "ファナック",
           "positive": 0,
           "negative": 4,
+          "watch": 0
+        }
+      ],
+      "max_importance": 4,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "connection_type": "sector",
+      "connection_label": "同じ業界",
+      "theme_id": null,
+      "label": "情報・通信業界のニュース",
+      "category": "",
+      "category_label": "同じ業界",
+      "category_emoji": "🏭",
+      "member_ids": [
+        "343e7407ac1b",
+        "706e5a3e5e26",
+        "d176e388c319",
+        "addcd2de594c",
+        "ad6fe53f8139",
+        "378d9d695fc4",
+        "2188af4b2cc6",
+        "8c03e0077b0b"
+      ],
+      "members": [
+        {
+          "id": "343e7407ac1b",
+          "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84ZzR0MFFjZkFOWmJPT2NadmlqNWFYeW44ZkpTZXZObUx4V0NFNmY3UWFHd19DVTJ6aURfQTZ0WWtLb093N0k1THg4bmNpM3FtWHYtdktCMHhxQW9P?oc=5",
+          "importance": 4,
+          "source": "YouTube"
+        },
+        {
+          "id": "706e5a3e5e26",
+          "title": "ドル・円は伸び悩みか、米金利高止まりも日米協調介入に警戒｜FX・為替ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GdGw2WFZKZXpKemFoZEVjSEtnV0RBNGVNWUFlcDlueU1DbU4wR01oOE5lMUFQcmQzbkxYaUVMQnVWV25tbHd2Z25xMmliVE4zVlE?oc=5",
+          "importance": 3,
+          "source": "zai.diamond.jp"
+        },
+        {
+          "id": "d176e388c319",
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
+          "importance": 3,
+          "source": "Reuters"
+        },
+        {
+          "id": "addcd2de594c",
+          "title": "【米国株】S波動でみた米国株の上値余地",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBRTktPMmQxempGNE9rRXFzSzBmd1VzZjlGZXoxeEtNanlJaExnLUVpQ1FrLXl6dTJmd3ZNODlBMHlPelEtUG1IUnJoVGVkdDZ5QVU3VtIBV0FVX3lxTE1nSUE5YmwzOTU0ZnBJRGREVWxfdUU2ZUhoc1RiN043cklZcUtIMi1sYnB4MzVyZ2RNdjRvSUFUbjdmV0lJXzlSRTQ4eWcwdGE5QzVOY0tXYw?oc=5",
+          "importance": 2,
+          "source": "マネクリ"
+        },
+        {
+          "id": "ad6fe53f8139",
+          "title": "米国株式市場、ＮＹダウ３日続伸、ナスダックは４日上昇し終値ベースの最高値更新(ウエルスアドバイザー)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ1FmbEFJZDh2d2F0OVJtazhmVEhOVnVmQi1RUnJOejVfekt6bXBaODFuc3BkQlZIa28xb1p1b1ZBVXhxOFRnR1I1X2c3U2ZlRWFHQkVTSThLR0MzZ1hfNUZjVXhqbUg5Rzg2SEdiaXVPZzk0WjBoQUk2VFl5NzgxYlJXU1J1cWM?oc=5",
+          "importance": 2,
+          "source": "finance.yahoo.co.jp"
+        },
+        {
+          "id": "378d9d695fc4",
+          "title": "ナスダックが最高値更新、ハイテク堅調で24年ぶり長期金利上昇を相殺",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBoSHNCSmFvNEdnTFhGUGJvRW5YeGFQR3Y2Z09kSTRpWGstZXVwYXEydnVxOU5RX1JVOE1wN2RNVFRhTVVjUVE3aEdFRHUtTmRBZHpUaXVNS3JXdEpsTndmRHF2U2UtZDkyczh4ZHlmd2ZjUl9F?oc=5",
+          "importance": 2,
+          "source": "finance.biggo.jp"
+        },
+        {
+          "id": "2188af4b2cc6",
+          "title": "NYダウは続伸し90ドル高 ナスダック最高値、スペースX株が8%高",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1oLXo1MFRwMERhcjFtTjREY2FkV2NSRWtCX1h1SmlWdGlpeWVEQk1KdERKRmZkbG42bFpzS0NaU2pGYkpUS3l6U1J2RUdGaUlFbEdYeUtqVjVaai1RZGhKYTZHYm94eXpGcXg2Mg?oc=5",
+          "importance": 2,
+          "source": "日本経済新聞"
+        },
+        {
+          "id": "8c03e0077b0b",
+          "title": "ダウ平均はプラスで終える 利回りと原油にらみ＝米国株概況",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1FRS1jZm82TXM4UGltZ0ZjQkxwVmNxcXNjM3h5b3dxS000eHNiekFNcHZoMnQ0X1pURm9Sei1QNm1PZ2h3Rm1peA?oc=5",
+          "importance": 2,
+          "source": "みんかぶ FX/為替"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "9984",
+          "name": "ソフトバンクグループ",
+          "positive": 2,
+          "negative": 1,
+          "watch": 4
+        },
+        {
+          "code": "4385",
+          "name": "メルカリ",
+          "positive": 0,
+          "negative": 1,
           "watch": 0
         }
       ],
@@ -10122,14 +10578,14 @@
           "title": "外為：豪ドル、110円01銭前後と豪ドル高・円安で推移(株探ニュース)",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTTFubTFSS3VxZUJ0cUFFcDdVc05XUnRqblJPSGtoOURZZXliNzFrelUxcG4xdk5adVlNQnRLUmJvcUVvdFRFaFNNelRCdTVmZjIya1RyYzUwMXVZcHVOWmdndFZlOFRBUU5FYURmQWR5eG43UUVocHJZb3N2ZFIzT1pmRDZ2ZDg?oc=5",
           "importance": 2,
-          "source": "Yahoo!ファイナンス"
+          "source": "finance.yahoo.co.jp"
         },
         {
           "id": "ad6fe53f8139",
           "title": "米国株式市場、ＮＹダウ３日続伸、ナスダックは４日上昇し終値ベースの最高値更新(ウエルスアドバイザー)",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ1FmbEFJZDh2d2F0OVJtazhmVEhOVnVmQi1RUnJOejVfekt6bXBaODFuc3BkQlZIa28xb1p1b1ZBVXhxOFRnR1I1X2c3U2ZlRWFHQkVTSThLR0MzZ1hfNUZjVXhqbUg5Rzg2SEdiaXVPZzk0WjBoQUk2VFl5NzgxYlJXU1J1cWM?oc=5",
           "importance": 2,
-          "source": "Yahoo!ファイナンス"
+          "source": "finance.yahoo.co.jp"
         },
         {
           "id": "2188af4b2cc6",
@@ -10213,150 +10669,72 @@
       "connection_type": "sector",
       "connection_label": "同じ業界",
       "theme_id": null,
-      "label": "鉄鋼業界のニュース",
+      "label": "機械業界のニュース",
       "category": "",
       "category_label": "同じ業界",
       "category_emoji": "🏭",
       "member_ids": [
-        "6a4b2498237c",
-        "5b38637014c3",
-        "9664a65ef7d7",
-        "72e676294f15",
-        "79e47be46790"
+        "343e7407ac1b",
+        "5ecc522af285",
+        "706e5a3e5e26",
+        "d176e388c319",
+        "eced037a214d",
+        "346e7d952c36"
       ],
       "members": [
         {
-          "id": "6a4b2498237c",
-          "title": "関税・外国為替等審議会　関税分科会（令和８年10月６日開催）配付資料",
-          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_customs/material/kana20261006.html",
-          "importance": 5,
-          "source": "財務省"
+          "id": "343e7407ac1b",
+          "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84ZzR0MFFjZkFOWmJPT2NadmlqNWFYeW44ZkpTZXZObUx4V0NFNmY3UWFHd19DVTJ6aURfQTZ0WWtLb093N0k1THg4bmNpM3FtWHYtdktCMHhxQW9P?oc=5",
+          "importance": 4,
+          "source": "YouTube"
         },
         {
-          "id": "5b38637014c3",
-          "title": "台湾国防部に米国防総省関係者らが長期駐在か 協力経費12倍増、野党が疑問視 | 鍾秉哲（ショウ・ヘイテツ） | ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBmV1FLTEFpYzIyVmNaSHFxdEsxWE5SVzJFYzY0Q0N2NHNYYVdMSUk4UFV1MnQtZ3pPVnRZMHVnNXI5Tl9KMmFoU2c0SUoySnQ4?oc=5",
-          "importance": 2,
-          "source": "Storm.mg"
+          "id": "5ecc522af285",
+          "title": "半導体メモリー未曾有の高騰はいつ収まるのか。異例の増産投資ラッシュから見える現実",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX09CNzA0ZWlxT1RiZVRKREk1NC1TLVNFRWtqWVFWUGNCbFBvOHYtaVRBWVA3b2tOcXoxZUQ2Q1VLUEFqdHpoZnRiQURKU0QzbGd5STFiRXUzMURkLVpKZGgtakhCcDhLb3BxNDRvYWZKZXhhcG9UT2p3dUVDVk9YaDhfU1dhNGdjTnh6S3k1Y29ONmdjZVFOWWoyVnpVV19H?oc=5",
+          "importance": 4,
+          "source": "Business Insider Japan"
         },
         {
-          "id": "9664a65ef7d7",
-          "title": "米武器売却の小分け案「情報なし」 防衛支援は不変＝台湾国防部長",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVXhQVjJZMGc5UDV1ZGg1NkpEX2RDc0Z4NWNwdG9UUGNicXpKNEZOeDNXTkloTWFuZGdYa0pWX0duNEhXNG12a1NPRVVCTnhpdHM1bnlYU3hlaW52U0hlUWpFRHVUa2tibDk1Q1NFSHVxOFZlQnVHV3NNUWtWb05pV1VZeEU?oc=5",
-          "importance": 2,
+          "id": "706e5a3e5e26",
+          "title": "ドル・円は伸び悩みか、米金利高止まりも日米協調介入に警戒｜FX・為替ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GdGw2WFZKZXpKemFoZEVjSEtnV0RBNGVNWUFlcDlueU1DbU4wR01oOE5lMUFQcmQzbkxYaUVMQnVWV25tbHd2Z25xMmliVE4zVlE?oc=5",
+          "importance": 3,
+          "source": "zai.diamond.jp"
+        },
+        {
+          "id": "d176e388c319",
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
+          "importance": 3,
           "source": "Reuters"
         },
         {
-          "id": "72e676294f15",
-          "title": "米FBI、中国政府の指示で台湾総統の息子を監視した疑いで女を逮捕|安全保障のニュース-セキュリティ対策Lab",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLUFvdDRiT2JfVlUzOThmLUhwSl9MeWtLRFNyMXV6aDA2eE9rdTFSLXNSalFyamYzR1g1ZUg3Z1FaU0ZhcFpET3gzemNueEpIS3BRYmNfd0RZTFVlODVBZ2lLWGRRNG5zS2VQSUxiR3k1bWxFcVRraVJkdmJNcHJWZDdEUWtOa2NCQWFvaWFNOVlkR0JLa2Qzd2tSVDZzSjQ?oc=5",
+          "id": "eced037a214d",
+          "title": "アルファベット、AIデータセンター向けにコンステレーションと10億ドル規模の原子力電力購入契約へ",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kdS1RaVdQV2ZNN2QyekZ1LVM2SkJIX1RzTjAtRXZ3NGh2NzJBQ1NUclZJQ2FEOGI1MTNYQjdxOGRlVlJXcVVxODNsUHZSSDlqV3hfOU5BczFxcGgxSF8zaWRaS2gxVHJONjdOZm9hQTZxSE9U?oc=5",
           "importance": 2,
-          "source": "合同会社ロケットボーイズ"
+          "source": "finance.biggo.jp"
         },
         {
-          "id": "79e47be46790",
-          "title": "台湾の退役巡視船、フィリピンで「サランガニ」として就役 台比の海洋安全保障協力進む（高橋浩祐） - エキスパート",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSFlFU2RSYlRkYWppZFFrbmx3Smo2d2VsX0dENGhGb1NvdjVucDllZGlBS3dTY3RUWDFxZXBRSnFyekpoaDlLbHF0b2Mtci1FUlpQQ3NjMmlmZzZXWms0VWpqbVN1ME45aTNubk1oYk81UWZEZWdZMVNMZDZwcFBGX2pSVFJGdzl2?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ニュース"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "5406",
-          "name": "神戸製鋼所",
-          "positive": 4,
-          "negative": 1,
-          "watch": 0
-        },
-        {
-          "code": "5401",
-          "name": "日本製鉄",
-          "positive": 0,
-          "negative": 1,
-          "watch": 0
-        },
-        {
-          "code": "5411",
-          "name": "JFEホールディングス",
-          "positive": 0,
-          "negative": 1,
-          "watch": 0
-        }
-      ],
-      "max_importance": 5,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "connection_type": "sector",
-      "connection_label": "同じ業界",
-      "theme_id": null,
-      "label": "保険業界のニュース",
-      "category": "",
-      "category_label": "同じ業界",
-      "category_emoji": "🏭",
-      "member_ids": [
-        "d5a2db2ca5c6",
-        "b1aa50753130",
-        "64163e39f6fe",
-        "4489e77e4ba7"
-      ],
-      "members": [
-        {
-          "id": "d5a2db2ca5c6",
-          "title": "植田日銀総裁、利上げ継続姿勢も10月は示唆せず－全国証券大会",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9mVUxYSWd5eWJKdTZPUTk1a01SblZlSnpaaFJ4cWlkblZMNndtcm5nWXZOYnN3SXBpLWVEaFlBNVY5QV9JQ0dFSmplLTI0MGRzeHNYX2RDRnRrMDR3dHR6VWh2WkVZMGUwcHdYMDF0ekpsS0dl?oc=5",
-          "importance": 5,
-          "source": "TBS NEWS DIG"
-        },
-        {
-          "id": "b1aa50753130",
-          "title": "利上げしても円安、介入しても円高は一時的…通貨防衛戦の足枷になり始めた政府・日銀の政策不一致 【唐鎌大輔の為替から見る日本】日銀「主な意見」が映した政府との温度差、中立金利接近で2027年の政策論点が鮮明に(1/4)",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtZVFYMEZySk9GN25DYV9qdDNjdUJBWFkwVUpPa3hRSkZSQ0VTNGstU0tKM3MwODJ4b3ZicC1UQkxkNnVxQS16ZjZqSWJXcGRlZFZRLWpB?oc=5",
-          "importance": 5,
-          "source": "JBpress"
-        },
-        {
-          "id": "64163e39f6fe",
-          "title": "米ドル／円は156～159円で膠着か…世界的な長期金利上昇と「159円の壁」が意識される1週間【今週の米ドル／円予想レンジ「156～159円」の根拠】（THE GOLD ONLINE（ゴールドオンライン））",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NTFdDMzJ0RzNtQkstcDdEYi1DclNrN2NVZ0pnM2VKbzdNSXA3Y0xjczFkY2NjMG5haFN5UXBoNGo3ME5zMmxENVNSdkNHYWlFb29ES18yM2NiMjJXdjVkeUdDdGZXNFZPUlVwaXQtZHRzSEFOMVluTlhmUkUweGs?oc=5",
-          "importance": 3,
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "id": "4489e77e4ba7",
-          "title": "財政規律の緩みが招く世界の金利上昇、米10年国債利回りは5％に、早急な再建策の提示が不可欠",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8tdXJQRWxzX1hzcC1jcTVIdThuYldleDVtMjlJYjB4RnRiRlNpR2JueERCaHpPUjBxVllTVmhYT1hIdFhpU2JkQUtPdVTSAU9BVV95cUxPMzJMdy0tTGdVcUs3VnZFOXBWV0NmanNtVTJMVFNGcEZ6RG1UY0VLajJZRWw4ZENOa0w1eFZMUFdtY1JrSUxTQWZ4bk40MlBn?oc=5",
+          "id": "346e7d952c36",
+          "title": "データセンター建設ラッシュで揺らぐ国の脱炭素方針、JERA「千葉火力2.3兆円」黒船連合の衝撃",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1JQjdyWUk5Y3duWDFjZFQwcnJxa0xCR1ZTdnpuajdoMzJyOFlHLWJKaEVsU3VKdVlyY1kydERkcHhPQU9kSzJKOVNVWnLSAU9BVV95cUxOT3pCU0g1VTJndnBhSEdRb3VwbmQ3V25sWEFyV18yclBWQ0ROYUljLWNINzBEQmhtMUVBRHhwcTJBYmx1TFBodXloc29hOUlF?oc=5",
           "importance": 2,
           "source": "ダイヤモンド・オンライン"
         }
       ],
       "stocks": [
         {
-          "code": "8766",
-          "name": "東京海上ホールディングス",
-          "positive": 4,
-          "negative": 0,
+          "code": "6146",
+          "name": "ディスコ",
+          "positive": 5,
+          "negative": 1,
           "watch": 0
         }
       ],
-      "max_importance": 5,
+      "max_importance": 4,
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -10387,6 +10765,7 @@
         "343e7407ac1b",
         "5ecc522af285",
         "ed1032b28b69",
+        "706e5a3e5e26",
         "d176e388c319",
         "5b38637014c3",
         "9664a65ef7d7",
@@ -10398,8 +10777,7 @@
         "8c03e0077b0b",
         "72e676294f15",
         "346e7d952c36",
-        "79e47be46790",
-        "fc7790dacbb7"
+        "79e47be46790"
       ],
       "members": [
         {
@@ -10422,6 +10800,13 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kSndiOXNQcTlqdzR1eFp0UGs5QlV0bmtVOUdFWlhoc1ZLczJJRmxEdEY3clZ3cU55c1pJYnBoNGF3aTNjc2RwTEpZNjc4NFhHNFJTLUhrQkE4YU9BUTEwdlBfNm5fYVl0Zmxvb1FIeHd5VURfNDlXUV9UdXRrbWM?oc=5",
           "importance": 4,
           "source": "Yahoo!ニュース"
+        },
+        {
+          "id": "706e5a3e5e26",
+          "title": "ドル・円は伸び悩みか、米金利高止まりも日米協調介入に警戒｜FX・為替ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GdGw2WFZKZXpKemFoZEVjSEtnV0RBNGVNWUFlcDlueU1DbU4wR01oOE5lMUFQcmQzbkxYaUVMQnVWV25tbHd2Z25xMmliVE4zVlE?oc=5",
+          "importance": 3,
+          "source": "zai.diamond.jp"
         },
         {
           "id": "d176e388c319",
@@ -10456,21 +10841,21 @@
           "title": "アルファベット、AIデータセンター向けにコンステレーションと10億ドル規模の原子力電力購入契約へ",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kdS1RaVdQV2ZNN2QyekZ1LVM2SkJIX1RzTjAtRXZ3NGh2NzJBQ1NUclZJQ2FEOGI1MTNYQjdxOGRlVlJXcVVxODNsUHZSSDlqV3hfOU5BczFxcGgxSF8zaWRaS2gxVHJONjdOZm9hQTZxSE9U?oc=5",
           "importance": 2,
-          "source": "BigGo ファイナンス"
+          "source": "finance.biggo.jp"
         },
         {
           "id": "ad6fe53f8139",
           "title": "米国株式市場、ＮＹダウ３日続伸、ナスダックは４日上昇し終値ベースの最高値更新(ウエルスアドバイザー)",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ1FmbEFJZDh2d2F0OVJtazhmVEhOVnVmQi1RUnJOejVfekt6bXBaODFuc3BkQlZIa28xb1p1b1ZBVXhxOFRnR1I1X2c3U2ZlRWFHQkVTSThLR0MzZ1hfNUZjVXhqbUg5Rzg2SEdiaXVPZzk0WjBoQUk2VFl5NzgxYlJXU1J1cWM?oc=5",
           "importance": 2,
-          "source": "Yahoo!ファイナンス"
+          "source": "finance.yahoo.co.jp"
         },
         {
           "id": "378d9d695fc4",
           "title": "ナスダックが最高値更新、ハイテク堅調で24年ぶり長期金利上昇を相殺",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBoSHNCSmFvNEdnTFhGUGJvRW5YeGFQR3Y2Z09kSTRpWGstZXVwYXEydnVxOU5RX1JVOE1wN2RNVFRhTVVjUVE3aEdFRHUtTmRBZHpUaXVNS3JXdEpsTndmRHF2U2UtZDkyczh4ZHlmd2ZjUl9F?oc=5",
           "importance": 2,
-          "source": "BigGo ファイナンス"
+          "source": "finance.biggo.jp"
         },
         {
           "id": "2188af4b2cc6",
@@ -10506,13 +10891,6 @@
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSFlFU2RSYlRkYWppZFFrbmx3Smo2d2VsX0dENGhGb1NvdjVucDllZGlBS3dTY3RUWDFxZXBRSnFyekpoaDlLbHF0b2Mtci1FUlpQQ3NjMmlmZzZXWms0VWpqbVN1ME45aTNubk1oYk81UWZEZWdZMVNMZDZwcFBGX2pSVFJGdzl2?oc=5",
           "importance": 2,
           "source": "Yahoo!ニュース"
-        },
-        {
-          "id": "fc7790dacbb7",
-          "title": "東京エレクトロン株続伸 「営業益1兆円の公算」報道（6日の株式市場）",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2MURnTmNBclRWenNpdm9kYm44VXgzVEJVQ1dvUzluSUtOY3JCR0ZWOW5aMnZDeUJIUTVmc1A4cmVYcWJQMWViaEtOeHdNZFp0cXhMUWJtWmE0U09SRVZmYTBiS1dneV90bjVaRg?oc=5",
-          "importance": 1,
-          "source": "日本経済新聞"
         }
       ],
       "stocks": [
@@ -10520,8 +10898,8 @@
           "code": "8035",
           "name": "東京エレクトロン",
           "positive": 5,
-          "negative": 4,
-          "watch": 1
+          "negative": 5,
+          "watch": 0
         },
         {
           "code": "9984",
@@ -10534,14 +10912,14 @@
           "code": "6857",
           "name": "アドバンテスト",
           "positive": 5,
-          "negative": 0,
+          "negative": 1,
           "watch": 0
         },
         {
           "code": "6146",
           "name": "ディスコ",
           "positive": 5,
-          "negative": 0,
+          "negative": 1,
           "watch": 0
         },
         {
@@ -10589,6 +10967,7 @@
       "member_ids": [
         "343e7407ac1b",
         "5ecc522af285",
+        "706e5a3e5e26",
         "d176e388c319",
         "5b38637014c3",
         "9664a65ef7d7",
@@ -10600,8 +10979,7 @@
         "8c03e0077b0b",
         "72e676294f15",
         "346e7d952c36",
-        "79e47be46790",
-        "fc7790dacbb7"
+        "79e47be46790"
       ],
       "members": [
         {
@@ -10617,6 +10995,13 @@
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX09CNzA0ZWlxT1RiZVRKREk1NC1TLVNFRWtqWVFWUGNCbFBvOHYtaVRBWVA3b2tOcXoxZUQ2Q1VLUEFqdHpoZnRiQURKU0QzbGd5STFiRXUzMURkLVpKZGgtakhCcDhLb3BxNDRvYWZKZXhhcG9UT2p3dUVDVk9YaDhfU1dhNGdjTnh6S3k1Y29ONmdjZVFOWWoyVnpVV19H?oc=5",
           "importance": 4,
           "source": "Business Insider Japan"
+        },
+        {
+          "id": "706e5a3e5e26",
+          "title": "ドル・円は伸び悩みか、米金利高止まりも日米協調介入に警戒｜FX・為替ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GdGw2WFZKZXpKemFoZEVjSEtnV0RBNGVNWUFlcDlueU1DbU4wR01oOE5lMUFQcmQzbkxYaUVMQnVWV25tbHd2Z25xMmliVE4zVlE?oc=5",
+          "importance": 3,
+          "source": "zai.diamond.jp"
         },
         {
           "id": "d176e388c319",
@@ -10651,21 +11036,21 @@
           "title": "アルファベット、AIデータセンター向けにコンステレーションと10億ドル規模の原子力電力購入契約へ",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kdS1RaVdQV2ZNN2QyekZ1LVM2SkJIX1RzTjAtRXZ3NGh2NzJBQ1NUclZJQ2FEOGI1MTNYQjdxOGRlVlJXcVVxODNsUHZSSDlqV3hfOU5BczFxcGgxSF8zaWRaS2gxVHJONjdOZm9hQTZxSE9U?oc=5",
           "importance": 2,
-          "source": "BigGo ファイナンス"
+          "source": "finance.biggo.jp"
         },
         {
           "id": "ad6fe53f8139",
           "title": "米国株式市場、ＮＹダウ３日続伸、ナスダックは４日上昇し終値ベースの最高値更新(ウエルスアドバイザー)",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ1FmbEFJZDh2d2F0OVJtazhmVEhOVnVmQi1RUnJOejVfekt6bXBaODFuc3BkQlZIa28xb1p1b1ZBVXhxOFRnR1I1X2c3U2ZlRWFHQkVTSThLR0MzZ1hfNUZjVXhqbUg5Rzg2SEdiaXVPZzk0WjBoQUk2VFl5NzgxYlJXU1J1cWM?oc=5",
           "importance": 2,
-          "source": "Yahoo!ファイナンス"
+          "source": "finance.yahoo.co.jp"
         },
         {
           "id": "378d9d695fc4",
           "title": "ナスダックが最高値更新、ハイテク堅調で24年ぶり長期金利上昇を相殺",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBoSHNCSmFvNEdnTFhGUGJvRW5YeGFQR3Y2Z09kSTRpWGstZXVwYXEydnVxOU5RX1JVOE1wN2RNVFRhTVVjUVE3aEdFRHUtTmRBZHpUaXVNS3JXdEpsTndmRHF2U2UtZDkyczh4ZHlmd2ZjUl9F?oc=5",
           "importance": 2,
-          "source": "BigGo ファイナンス"
+          "source": "finance.biggo.jp"
         },
         {
           "id": "2188af4b2cc6",
@@ -10701,13 +11086,6 @@
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSFlFU2RSYlRkYWppZFFrbmx3Smo2d2VsX0dENGhGb1NvdjVucDllZGlBS3dTY3RUWDFxZXBRSnFyekpoaDlLbHF0b2Mtci1FUlpQQ3NjMmlmZzZXWms0VWpqbVN1ME45aTNubk1oYk81UWZEZWdZMVNMZDZwcFBGX2pSVFJGdzl2?oc=5",
           "importance": 2,
           "source": "Yahoo!ニュース"
-        },
-        {
-          "id": "fc7790dacbb7",
-          "title": "東京エレクトロン株続伸 「営業益1兆円の公算」報道（6日の株式市場）",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2MURnTmNBclRWenNpdm9kYm44VXgzVEJVQ1dvUzluSUtOY3JCR0ZWOW5aMnZDeUJIUTVmc1A4cmVYcWJQMWViaEtOeHdNZFp0cXhMUWJtWmE0U09SRVZmYTBiS1dneV90bjVaRg?oc=5",
-          "importance": 1,
-          "source": "日本経済新聞"
         }
       ],
       "stocks": [
@@ -10715,8 +11093,8 @@
           "code": "8035",
           "name": "東京エレクトロン",
           "positive": 5,
-          "negative": 4,
-          "watch": 1
+          "negative": 5,
+          "watch": 0
         },
         {
           "code": "9984",
@@ -10729,28 +11107,28 @@
           "code": "6857",
           "name": "アドバンテスト",
           "positive": 5,
-          "negative": 0,
+          "negative": 1,
           "watch": 0
         },
         {
           "code": "6920",
           "name": "レーザーテック",
           "positive": 5,
-          "negative": 0,
+          "negative": 1,
           "watch": 0
         },
         {
           "code": "6146",
           "name": "ディスコ",
           "positive": 5,
-          "negative": 0,
+          "negative": 1,
           "watch": 0
         },
         {
           "code": "7735",
           "name": "SCREENホールディングス",
           "positive": 2,
-          "negative": 0,
+          "negative": 1,
           "watch": 0
         }
       ],
@@ -10785,14 +11163,14 @@
         "6a4b2498237c",
         "343e7407ac1b",
         "5ecc522af285",
+        "706e5a3e5e26",
         "d176e388c319",
         "5b38637014c3",
         "9664a65ef7d7",
         "eced037a214d",
         "72e676294f15",
         "346e7d952c36",
-        "79e47be46790",
-        "fc7790dacbb7"
+        "79e47be46790"
       ],
       "members": [
         {
@@ -10815,6 +11193,13 @@
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX09CNzA0ZWlxT1RiZVRKREk1NC1TLVNFRWtqWVFWUGNCbFBvOHYtaVRBWVA3b2tOcXoxZUQ2Q1VLUEFqdHpoZnRiQURKU0QzbGd5STFiRXUzMURkLVpKZGgtakhCcDhLb3BxNDRvYWZKZXhhcG9UT2p3dUVDVk9YaDhfU1dhNGdjTnh6S3k1Y29ONmdjZVFOWWoyVnpVV19H?oc=5",
           "importance": 4,
           "source": "Business Insider Japan"
+        },
+        {
+          "id": "706e5a3e5e26",
+          "title": "ドル・円は伸び悩みか、米金利高止まりも日米協調介入に警戒｜FX・為替ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GdGw2WFZKZXpKemFoZEVjSEtnV0RBNGVNWUFlcDlueU1DbU4wR01oOE5lMUFQcmQzbkxYaUVMQnVWV25tbHd2Z25xMmliVE4zVlE?oc=5",
+          "importance": 3,
+          "source": "zai.diamond.jp"
         },
         {
           "id": "d176e388c319",
@@ -10842,7 +11227,7 @@
           "title": "アルファベット、AIデータセンター向けにコンステレーションと10億ドル規模の原子力電力購入契約へ",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kdS1RaVdQV2ZNN2QyekZ1LVM2SkJIX1RzTjAtRXZ3NGh2NzJBQ1NUclZJQ2FEOGI1MTNYQjdxOGRlVlJXcVVxODNsUHZSSDlqV3hfOU5BczFxcGgxSF8zaWRaS2gxVHJONjdOZm9hQTZxSE9U?oc=5",
           "importance": 2,
-          "source": "BigGo ファイナンス"
+          "source": "finance.biggo.jp"
         },
         {
           "id": "72e676294f15",
@@ -10864,13 +11249,6 @@
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSFlFU2RSYlRkYWppZFFrbmx3Smo2d2VsX0dENGhGb1NvdjVucDllZGlBS3dTY3RUWDFxZXBRSnFyekpoaDlLbHF0b2Mtci1FUlpQQ3NjMmlmZzZXWms0VWpqbVN1ME45aTNubk1oYk81UWZEZWdZMVNMZDZwcFBGX2pSVFJGdzl2?oc=5",
           "importance": 2,
           "source": "Yahoo!ニュース"
-        },
-        {
-          "id": "fc7790dacbb7",
-          "title": "東京エレクトロン株続伸 「営業益1兆円の公算」報道（6日の株式市場）",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2MURnTmNBclRWenNpdm9kYm44VXgzVEJVQ1dvUzluSUtOY3JCR0ZWOW5aMnZDeUJIUTVmc1A4cmVYcWJQMWViaEtOeHdNZFp0cXhMUWJtWmE0U09SRVZmYTBiS1dneV90bjVaRg?oc=5",
-          "importance": 1,
-          "source": "日本経済新聞"
         }
       ],
       "stocks": [
@@ -10878,8 +11256,8 @@
           "code": "8035",
           "name": "東京エレクトロン",
           "positive": 5,
-          "negative": 4,
-          "watch": 1
+          "negative": 5,
+          "watch": 0
         },
         {
           "code": "6954",
@@ -10947,14 +11325,14 @@
       "member_ids": [
         "343e7407ac1b",
         "5ecc522af285",
+        "706e5a3e5e26",
         "d176e388c319",
         "5b38637014c3",
         "9664a65ef7d7",
         "eced037a214d",
         "72e676294f15",
         "346e7d952c36",
-        "79e47be46790",
-        "fc7790dacbb7"
+        "79e47be46790"
       ],
       "members": [
         {
@@ -10970,6 +11348,13 @@
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX09CNzA0ZWlxT1RiZVRKREk1NC1TLVNFRWtqWVFWUGNCbFBvOHYtaVRBWVA3b2tOcXoxZUQ2Q1VLUEFqdHpoZnRiQURKU0QzbGd5STFiRXUzMURkLVpKZGgtakhCcDhLb3BxNDRvYWZKZXhhcG9UT2p3dUVDVk9YaDhfU1dhNGdjTnh6S3k1Y29ONmdjZVFOWWoyVnpVV19H?oc=5",
           "importance": 4,
           "source": "Business Insider Japan"
+        },
+        {
+          "id": "706e5a3e5e26",
+          "title": "ドル・円は伸び悩みか、米金利高止まりも日米協調介入に警戒｜FX・為替ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GdGw2WFZKZXpKemFoZEVjSEtnV0RBNGVNWUFlcDlueU1DbU4wR01oOE5lMUFQcmQzbkxYaUVMQnVWV25tbHd2Z25xMmliVE4zVlE?oc=5",
+          "importance": 3,
+          "source": "zai.diamond.jp"
         },
         {
           "id": "d176e388c319",
@@ -10997,7 +11382,7 @@
           "title": "アルファベット、AIデータセンター向けにコンステレーションと10億ドル規模の原子力電力購入契約へ",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kdS1RaVdQV2ZNN2QyekZ1LVM2SkJIX1RzTjAtRXZ3NGh2NzJBQ1NUclZJQ2FEOGI1MTNYQjdxOGRlVlJXcVVxODNsUHZSSDlqV3hfOU5BczFxcGgxSF8zaWRaS2gxVHJONjdOZm9hQTZxSE9U?oc=5",
           "importance": 2,
-          "source": "BigGo ファイナンス"
+          "source": "finance.biggo.jp"
         },
         {
           "id": "72e676294f15",
@@ -11019,13 +11404,6 @@
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSFlFU2RSYlRkYWppZFFrbmx3Smo2d2VsX0dENGhGb1NvdjVucDllZGlBS3dTY3RUWDFxZXBRSnFyekpoaDlLbHF0b2Mtci1FUlpQQ3NjMmlmZzZXWms0VWpqbVN1ME45aTNubk1oYk81UWZEZWdZMVNMZDZwcFBGX2pSVFJGdzl2?oc=5",
           "importance": 2,
           "source": "Yahoo!ニュース"
-        },
-        {
-          "id": "fc7790dacbb7",
-          "title": "東京エレクトロン株続伸 「営業益1兆円の公算」報道（6日の株式市場）",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2MURnTmNBclRWenNpdm9kYm44VXgzVEJVQ1dvUzluSUtOY3JCR0ZWOW5aMnZDeUJIUTVmc1A4cmVYcWJQMWViaEtOeHdNZFp0cXhMUWJtWmE0U09SRVZmYTBiS1dneV90bjVaRg?oc=5",
-          "importance": 1,
-          "source": "日本経済新聞"
         }
       ],
       "stocks": [
@@ -11033,35 +11411,35 @@
           "code": "8035",
           "name": "東京エレクトロン",
           "positive": 5,
-          "negative": 4,
-          "watch": 1
+          "negative": 5,
+          "watch": 0
         },
         {
           "code": "6857",
           "name": "アドバンテスト",
           "positive": 5,
-          "negative": 0,
+          "negative": 1,
           "watch": 0
         },
         {
           "code": "6920",
           "name": "レーザーテック",
           "positive": 5,
-          "negative": 0,
+          "negative": 1,
           "watch": 0
         },
         {
           "code": "6146",
           "name": "ディスコ",
           "positive": 5,
-          "negative": 0,
+          "negative": 1,
           "watch": 0
         },
         {
           "code": "7735",
           "name": "SCREENホールディングス",
           "positive": 2,
-          "negative": 0,
+          "negative": 1,
           "watch": 0
         }
       ],
@@ -11103,11 +11481,11 @@
     "milestones": {
       "accumulating": "2026-09-21"
     },
-    "last_computed_at": "2026-10-06T18:41:16+09:00"
+    "last_computed_at": "2026-10-06T19:09:38+09:00"
   },
   "counts": {
     "news": 40,
-    "high_importance": 7,
+    "high_importance": 8,
     "stocks": 20
   }
 }
