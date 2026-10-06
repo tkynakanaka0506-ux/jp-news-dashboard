@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06 11:41",
-  "generated_iso": "2026-10-06T11:41:09+09:00",
+  "generated_at": "2026-10-06 11:56",
+  "generated_iso": "2026-10-06T11:56:46+09:00",
   "status": "updated",
   "status_message": "40 件のニュースを取得しました。",
   "llm_used": true,
@@ -59,20 +59,20 @@
   "market": [
     {
       "label": "日経平均",
-      "value": "70,145.23",
-      "change_pct": 0.28,
+      "value": "70,081.53",
+      "change_pct": 0.19,
       "asof": "10/6終値"
     },
     {
       "label": "日経先物",
-      "value": "70,265.00",
-      "change_pct": 0.47,
+      "value": "70,350.00",
+      "change_pct": 0.59,
       "asof": "10/6終値"
     },
     {
       "label": "ドル円",
-      "value": "157.92円",
-      "change_pct": 0.12,
+      "value": "157.95円",
+      "change_pct": 0.14,
       "asof": "10/6終値"
     },
     {
@@ -320,7 +320,7 @@
       "id": "16d0586ef10e",
       "title": "住宅ローンは変動型がなお有利？ 日銀利上げで増える不安で固定に乗り換えるべきか…「追いつくには利上げ8回必要」",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zWkQzNE5HUUIzY3dFMU4wTzZycDZ0a2UwT0lmUkVFNThtTjlxWjhBaFd4MkRIUTdhSUQ5c19PQWF4NDZrQktKUnFFTFVhbW1qTm1OZy13MUdiQ19Md2ROZkF6b1J1OEoyaXBXZ3VpdnlQUF8tNVlzbGZnOTkwc0E?oc=5",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-10-05 07:30",
@@ -759,6 +759,377 @@
       "emergence_growth": {}
     },
     {
+      "id": "d176e388c319",
+      "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
+      "source": "Reuters",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-10-06 06:17",
+      "published_ts": 1791235075.0,
+      "category": "tech",
+      "category_label": "半導体・AI",
+      "category_emoji": "🤖",
+      "importance": 4,
+      "importance_reason": "重要語「決算」・影響テーマ「半導体・AI投資の拡大」に該当・2媒体が報道",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "low",
+      "news_novelty_label": "再報道",
+      "policy_event_id": "semi_demand-20261006-04",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-10-06",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "半導体・AI投資の拡大",
+        "米国株・ハイテク株の変動"
+      ],
+      "theme_ids": [
+        "semi_demand",
+        "us_stock_move"
+      ],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "8035",
+          "name": "東京エレクトロン",
+          "sector": "電気機器",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「エヌビディア」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "theme": "半導体・AI投資の拡大",
+          "theme_id": "semi_demand",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "エヌビディア",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 51,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6857",
+          "name": "アドバンテスト",
+          "sector": "電気機器",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「エヌビディア」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "theme": "半導体・AI投資の拡大",
+          "theme_id": "semi_demand",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "エヌビディア",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 51,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6920",
+          "name": "レーザーテック",
+          "sector": "電気機器",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「エヌビディア」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "theme": "半導体・AI投資の拡大",
+          "theme_id": "semi_demand",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "エヌビディア",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 51,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6146",
+          "name": "ディスコ",
+          "sector": "機械",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「エヌビディア」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "theme": "半導体・AI投資の拡大",
+          "theme_id": "semi_demand",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "エヌビディア",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 51,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8604",
+          "name": "野村ホールディングス",
+          "sector": "証券",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8601",
+          "name": "大和証券グループ本社",
+          "sector": "証券",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8473",
+          "name": "SBIホールディングス",
+          "sector": "証券",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9984",
+          "name": "ソフトバンクグループ",
+          "sector": "情報・通信",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [
+        {
+          "title": "米国株式市場＝ナスダック最高値、エヌビディア・マイクロソフトけん引 企業決算に注目",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5GWjNEV3l2TnBkU0RZcnZ1Y250U3dibjRMSDNSRHNtdHl4ZjdJdEJCWUgtcXo1RmI5eWFQODRlYXFzb2VvNjFWd2VGZVNReFI5SVFKOFFRS3gxVjBsaFFSR25HT3BhaUdrTkIxS2pB?oc=5",
+          "source": "news.infoseek.co.jp"
+        }
+      ],
+      "emergence_stage": "watch",
+      "emergence_stage_label": "👀 要監視テーマ",
+      "emergence_signal_labels": [
+        "企業の設備投資",
+        "関連企業の直接発表",
+        "政策の検討・審議段階",
+        "複数媒体での同時報道"
+      ],
+      "emergence_event_count": 9,
+      "emergence_source_count": 6,
+      "emergence_actor_type_count": 2,
+      "emergence_actor_type_labels": [
+        "関連企業",
+        "複数メディア"
+      ],
+      "emergence_actor_type_breakdown": [
+        {
+          "label": "関連企業",
+          "count": 1
+        },
+        {
+          "label": "複数メディア",
+          "count": 3
+        }
+      ],
+      "emergence_region_count": 1,
+      "emergence_regions": [
+        "米国"
+      ],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": "2026-09-20",
+      "emergence_window_counts": {
+        "7": 6,
+        "30": 9,
+        "90": 9
+      },
+      "emergence_timeline": [
+        {
+          "date": "2026-09-20",
+          "source": "xenospectrum.com",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-24",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-25",
+          "source": "note",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-29",
+          "source": "digitaltoday.co.kr",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-02",
+          "source": "TBS NEWS DIG",
+          "signal_labels": [
+            "企業の設備投資",
+            "関連企業の直接発表",
+            "政策の検討・審議段階"
+          ],
+          "actor_type_labels": [
+            "関連企業"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-05",
+          "source": "Business Insider Japan",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-05",
+          "source": "Business Insider Japan",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        }
+      ],
+      "emergence_milestones": [
+        {
+          "date": "2026-09-24",
+          "actor_type_label": "複数メディア"
+        },
+        {
+          "date": "2026-10-02",
+          "actor_type_label": "関連企業"
+        }
+      ],
+      "emergence_diagnosis": {
+        "target_stage": "watch",
+        "target_stage_label": "👀 要監視テーマ",
+        "source_count": 6,
+        "required_sources": 2,
+        "signal_count": 4,
+        "required_signals": 3,
+        "missing": []
+      },
+      "emergence_growth": {
+        "window_days": 14,
+        "recent_new_actor_types": 2,
+        "total_actor_types": 2
+      }
+    },
+    {
       "id": "343e7407ac1b",
       "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84ZzR0MFFjZkFOWmJPT2NadmlqNWFYeW44ZkpTZXZObUx4V0NFNmY3UWFHd19DVTJ6aURfQTZ0WWtLb093N0k1THg4bmNpM3FtWHYtdktCMHhxQW9P?oc=5",
@@ -971,7 +1342,7 @@
         "政策の検討・審議段階",
         "複数媒体での同時報道"
       ],
-      "emergence_event_count": 8,
+      "emergence_event_count": 9,
       "emergence_source_count": 6,
       "emergence_actor_type_count": 2,
       "emergence_actor_type_labels": [
@@ -985,7 +1356,7 @@
         },
         {
           "label": "複数メディア",
-          "count": 2
+          "count": 3
         }
       ],
       "emergence_region_count": 1,
@@ -995,9 +1366,9 @@
       "emergence_origin_regions": [],
       "emergence_first_seen": "2026-09-20",
       "emergence_window_counts": {
-        "7": 5,
-        "30": 8,
-        "90": 8
+        "7": 6,
+        "30": 9,
+        "90": 9
       },
       "emergence_timeline": [
         {
@@ -1070,6 +1441,19 @@
           ],
           "actor_type_labels": [],
           "regions": []
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
         },
         {
           "date": "2026-10-06",
@@ -1385,7 +1769,7 @@
         "政策の検討・審議段階",
         "複数媒体での同時報道"
       ],
-      "emergence_event_count": 8,
+      "emergence_event_count": 9,
       "emergence_source_count": 6,
       "emergence_actor_type_count": 2,
       "emergence_actor_type_labels": [
@@ -1399,7 +1783,7 @@
         },
         {
           "label": "複数メディア",
-          "count": 2
+          "count": 3
         }
       ],
       "emergence_region_count": 1,
@@ -1409,9 +1793,9 @@
       "emergence_origin_regions": [],
       "emergence_first_seen": "2026-09-20",
       "emergence_window_counts": {
-        "7": 5,
-        "30": 8,
-        "90": 8
+        "7": 6,
+        "30": 9,
+        "90": 9
       },
       "emergence_timeline": [
         {
@@ -1497,345 +1881,6 @@
           "regions": [
             "米国"
           ]
-        }
-      ],
-      "emergence_milestones": [
-        {
-          "date": "2026-09-24",
-          "actor_type_label": "複数メディア"
-        },
-        {
-          "date": "2026-10-02",
-          "actor_type_label": "関連企業"
-        }
-      ],
-      "emergence_diagnosis": {
-        "target_stage": "watch",
-        "target_stage_label": "👀 要監視テーマ",
-        "source_count": 6,
-        "required_sources": 2,
-        "signal_count": 4,
-        "required_signals": 3,
-        "missing": []
-      },
-      "emergence_growth": {
-        "window_days": 14,
-        "recent_new_actor_types": 2,
-        "total_actor_types": 2
-      }
-    },
-    {
-      "id": "d176e388c319",
-      "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
-      "source": "Reuters",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-10-06 06:17",
-      "published_ts": 1791235075.0,
-      "category": "tech",
-      "category_label": "半導体・AI",
-      "category_emoji": "🤖",
-      "importance": 3,
-      "importance_reason": "重要語「決算」・影響テーマ「半導体・AI投資の拡大」に該当",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "low",
-      "news_novelty_label": "再報道",
-      "policy_event_id": "semi_demand-20261006-04",
-      "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-10-06",
-      "policy_event_state": "UPDATE",
-      "themes": [
-        "半導体・AI投資の拡大",
-        "米国株・ハイテク株の変動"
-      ],
-      "theme_ids": [
-        "semi_demand",
-        "us_stock_move"
-      ],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [
-        {
-          "code": "8035",
-          "name": "東京エレクトロン",
-          "sector": "電気機器",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「エヌビディア」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "theme": "半導体・AI投資の拡大",
-          "theme_id": "semi_demand",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "エヌビディア",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 51,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "6857",
-          "name": "アドバンテスト",
-          "sector": "電気機器",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「エヌビディア」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "theme": "半導体・AI投資の拡大",
-          "theme_id": "semi_demand",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "エヌビディア",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 51,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "6920",
-          "name": "レーザーテック",
-          "sector": "電気機器",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「エヌビディア」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "theme": "半導体・AI投資の拡大",
-          "theme_id": "semi_demand",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "エヌビディア",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 51,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "6146",
-          "name": "ディスコ",
-          "sector": "機械",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「エヌビディア」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "theme": "半導体・AI投資の拡大",
-          "theme_id": "semi_demand",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "エヌビディア",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 51,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8604",
-          "name": "野村ホールディングス",
-          "sector": "証券",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "中",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "米国株",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8601",
-          "name": "大和証券グループ本社",
-          "sector": "証券",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "中",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "米国株",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8473",
-          "name": "SBIホールディングス",
-          "sector": "証券",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "中",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "米国株",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "9984",
-          "name": "ソフトバンクグループ",
-          "sector": "情報・通信",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "中",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "米国株",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        }
-      ],
-      "related": [],
-      "emergence_stage": "watch",
-      "emergence_stage_label": "👀 要監視テーマ",
-      "emergence_signal_labels": [
-        "企業の設備投資",
-        "関連企業の直接発表",
-        "政策の検討・審議段階",
-        "複数媒体での同時報道"
-      ],
-      "emergence_event_count": 8,
-      "emergence_source_count": 6,
-      "emergence_actor_type_count": 2,
-      "emergence_actor_type_labels": [
-        "関連企業",
-        "複数メディア"
-      ],
-      "emergence_actor_type_breakdown": [
-        {
-          "label": "関連企業",
-          "count": 1
-        },
-        {
-          "label": "複数メディア",
-          "count": 2
-        }
-      ],
-      "emergence_region_count": 1,
-      "emergence_regions": [
-        "米国"
-      ],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": "2026-09-20",
-      "emergence_window_counts": {
-        "7": 5,
-        "30": 8,
-        "90": 8
-      },
-      "emergence_timeline": [
-        {
-          "date": "2026-09-20",
-          "source": "xenospectrum.com",
-          "signal_labels": [
-            "企業の設備投資"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-09-24",
-          "source": "Reuters",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-25",
-          "source": "note",
-          "signal_labels": [
-            "企業の設備投資"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-09-29",
-          "source": "digitaltoday.co.kr",
-          "signal_labels": [
-            "企業の設備投資"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-02",
-          "source": "TBS NEWS DIG",
-          "signal_labels": [
-            "企業の設備投資",
-            "関連企業の直接発表",
-            "政策の検討・審議段階"
-          ],
-          "actor_type_labels": [
-            "関連企業"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-05",
-          "source": "Business Insider Japan",
-          "signal_labels": [
-            "企業の設備投資"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-05",
-          "source": "Business Insider Japan",
-          "signal_labels": [
-            "企業の設備投資"
-          ],
-          "actor_type_labels": [],
-          "regions": []
         },
         {
           "date": "2026-10-06",
@@ -2101,7 +2146,7 @@
       "id": "ff31ccec15a0",
       "title": "長期金利が歴史的水準に上昇…インフレ懸念などから国債に売り圧力、景気下押し懸念も（読売新聞オンライン）",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9OUE8yT0htdjRpR2dGQWI0b3luWWF6dVg2YTBoVUE4MnJLMlFsWFl4ZzFwVmJsR2s0cVBlV3h6LVhoMUtIaloxdUtJazZ4ZER2X2tRR3E4UGxaUW5IVzVHV2xiNHhCaXZQU1laSEVrckx0WGJRUWg2RFNjZmJPWEE?oc=5",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-10-05 20:16",
@@ -2972,7 +3017,7 @@
       "id": "79e47be46790",
       "title": "台湾の退役巡視船、フィリピンで「サランガニ」として就役 台比の海洋安全保障協力進む（高橋浩祐） - エキスパート",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSFlFU2RSYlRkYWppZFFrbmx3Smo2d2VsX0dENGhGb1NvdjVucDllZGlBS3dTY3RUWDFxZXBRSnFyekpoaDlLbHF0b2Mtci1FUlpQQ3NjMmlmZzZXWms0VWpqbVN1ME45aTNubk1oYk81UWZEZWdZMVNMZDZwcFBGX2pSVFJGdzl2?oc=5",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-10-05 15:58",
@@ -3166,124 +3211,6 @@
           "matched_keyword": "台湾",
           "intelligence_layer": "government_policy",
           "policy_impact_score": 39,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        }
-      ],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "f4ffa223d319",
-      "title": "【ドル円見通し】10月利上げ観測に雇用統計がダメ押し、次は米12月利上げ観測まで後退か 焦点は米10年債 FX分析 2026年10月5日",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YWkJDbVNnb2JteW9zUWR2eU5JNHNHcExuNlJMZW4xbWZOTWhYV0hQenVjWkdSdFMtRTdCMk1raXR0ZVplYzhNLVpPejBjSW1TOTJlb1Y5X3RtNHA1eDRkdVRZZw?oc=5",
-      "source": "外為どっとコム",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-10-05 12:46",
-      "published_ts": 1791172008.0,
-      "category": "fx",
-      "category_label": "為替",
-      "category_emoji": "💱",
-      "importance": 2,
-      "importance_reason": "重要語「利上げ」",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "0c42962e8b51",
-      "title": "【株式市場特集】２月期・８月期決算で次の主役を探る、上方修正１５銘柄から「ネクスト安川電機」まで",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE92cWhRLU1FTHBPY1lCS2FzSEhiNlR0eVVaOXRQZXRkRlpzcWNqNjF5Z1BkSW00VzRwSVNvV3VLbTgtLWM4LV8tRXlGZy10T2NUS1hrNw?oc=5",
-      "source": "kabu-ir.com",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-10-05 08:36",
-      "published_ts": 1791156987.0,
-      "category": "corporate",
-      "category_label": "企業・決算",
-      "category_emoji": "🏢",
-      "importance": 2,
-      "importance_reason": "重要語「上方修正」",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [
-        {
-          "code": "6506",
-          "name": "安川電機",
-          "sector": "電気機器",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "見出しで名指しされている当事者。内容は業績にプラスに働きうる材料",
-          "theme": "当事者",
-          "theme_id": null,
-          "origin": "direct",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": null,
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 51,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         }
@@ -3768,6 +3695,54 @@
       "emergence_growth": {}
     },
     {
+      "id": "5b38857ac825",
+      "title": "第31回キャリアコンサルタント登録制度等に関する検討会（議事録）",
+      "url": "https://www.mhlw.go.jp/stf/newpage_76596.html",
+      "source": "厚生労働省",
+      "source_tier": "primary",
+      "source_tier_label": "一次情報",
+      "published_at": "2026-10-06 11:30",
+      "published_ts": 1791253800.0,
+      "category": "japan",
+      "category_label": "日本経済・政治",
+      "category_emoji": "🗾",
+      "importance": 1,
+      "importance_reason": "先行情報(審議会・検討会・パブコメ等)",
+      "future_signal": true,
+      "policy_maturity": 35,
+      "policy_maturity_label": "審議会・検討会",
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
       "id": "2adfbf5d3f4c",
       "title": "10年利付国債（第384回）の入札発行（令和8年10月6日入札）",
       "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/offer20261006.htm",
@@ -4008,10 +3983,58 @@
       "emergence_growth": {}
     },
     {
+      "id": "d797496dedfa",
+      "title": "今日のFX予想：ドル円は158円台乗せも失速 植田総裁発言に注目 2026/10/6",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE53MEpaZ1cwYk95SEk1V0p1Mm5YaV81UGxHWW1neFlOQldEeDB5ckhscW1aS1EtRzNqbUFraWhLcmxtTXpSeTBiUFh1cWpkZ0F2dXJnOXU4YUFDUTdERUpUYmlNSQ?oc=5",
+      "source": "外為どっとコム",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-10-06 09:15",
+      "published_ts": 1791245700.0,
+      "category": "fx",
+      "category_label": "為替",
+      "category_emoji": "💱",
+      "importance": 1,
+      "importance_reason": "一般的な市況ニュース",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "low",
+      "news_novelty_label": "再報道",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
       "id": "3667a3b00ef4",
       "title": "日米「円の過小評価」を警告…ドル円相場は「政策の壁」を越えられるのか",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1udUxFVkUycDA1WXhISDdaVlotaWpxdHhxbnlDNncySmhhd3pKZHpNdGwyTk1oVWFJM3lpTWdIdkZaRzFrU2Rkb2VSTmlickl4UmtKcUFjT2k5X016bnVsdENNcw?oc=5",
-      "source": "Infoseek",
+      "source": "news.infoseek.co.jp",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-10-06 09:15",
@@ -4104,62 +4127,14 @@
       "emergence_growth": {}
     },
     {
-      "id": "252bcb8f0d35",
-      "title": "NYダウの指数情報・推移",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RX1F0c3NoRW1WOGhKVzFzd0tzWTlBS0NtMVZFbUUyZm14Z1Y5VWhzMjctd201Y2RMTFhBSGx0Rmdqc0ZFY1R2VzZUUG9PVjdUaXc?oc=5",
+      "id": "f0bc8a0f0bf1",
+      "title": "TOPIXの指数情報・推移",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1DeFBMbTJZUmR2akJBZlhCYU12WGMyZ3U3TEVkTm5JOUZHenE2eWRfanNXb0Zvc3NYWFRZSTZSbWdvTDllbjcwejhfSGN3b0ZiUzJxXw?oc=5",
       "source": "Yahoo!ファイナンス",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
-      "published_at": "2026-10-06 07:52",
-      "published_ts": 1791240733.0,
-      "category": "us",
-      "category_label": "米国市場",
-      "category_emoji": "🇺🇸",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "0392df0f4047",
-      "title": "日経平均株価の指数情報・推移",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SRDk1ZENIQUIzSUZyMHZRNHpCR2xlcTI5UTJRYXVoMDBrM3BmNndBT29vV0dDZWdQazZHb2tURGZNYy1OMU93R0kyUUZUT3VmU2VhbA?oc=5",
-      "source": "Yahoo!ファイナンス",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-10-06 05:15",
-      "published_ts": 1791231324.0,
+      "published_at": "2026-10-06 07:19",
+      "published_ts": 1791238788.0,
       "category": "market",
       "category_label": "株式市況",
       "category_emoji": "📈",
@@ -4684,6 +4659,54 @@
       "emergence_milestones": [],
       "emergence_diagnosis": {},
       "emergence_growth": {}
+    },
+    {
+      "id": "c009aab4ad83",
+      "title": "「金融業界横断的なサイバーセキュリティ演習 （Delta Wall 2026）」の実施について公表しました。",
+      "url": "https://www.fsa.go.jp/news/r8/sonota/20261005/deltawall2026.html",
+      "source": "金融庁",
+      "source_tier": "primary",
+      "source_tier_label": "一次情報",
+      "published_at": "2026-10-06 00:00",
+      "published_ts": 1791212400.0,
+      "category": "japan",
+      "category_label": "日本経済・政治",
+      "category_emoji": "🗾",
+      "importance": 1,
+      "importance_reason": "一般的な市況ニュース",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
     }
   ],
   "stock_ranking": [
@@ -4958,8 +4981,15 @@
       "positive": 3,
       "negative": 2,
       "watch": 0,
-      "score": 7,
+      "score": 8,
       "news": [
+        {
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
+          "direction": "positive",
+          "reason": "「エヌビディア」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 4
+        },
         {
           "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84ZzR0MFFjZkFOWmJPT2NadmlqNWFYeW44ZkpTZXZObUx4V0NFNmY3UWFHd19DVTJ6aURfQTZ0WWtLb093N0k1THg4bmNpM3FtWHYtdktCMHhxQW9P?oc=5",
@@ -4973,13 +5003,6 @@
           "direction": "positive",
           "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
           "importance": 4
-        },
-        {
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
-          "direction": "positive",
-          "reason": "「エヌビディア」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 3
         }
       ],
       "mentions": 5
@@ -4994,18 +5017,18 @@
       "score": -2,
       "news": [
         {
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
+          "direction": "watch",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 4
+        },
+        {
           "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84ZzR0MFFjZkFOWmJPT2NadmlqNWFYeW44ZkpTZXZObUx4V0NFNmY3UWFHd19DVTJ6aURfQTZ0WWtLb093N0k1THg4bmNpM3FtWHYtdktCMHhxQW9P?oc=5",
           "direction": "negative",
           "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "importance": 4
-        },
-        {
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
-          "direction": "watch",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "importance": 3
         },
         {
           "title": "米国株式市場、ＮＹダウ３日続伸、ナスダックは４日上昇し終値ベースの最高値更新(ウエルスアドバイザー)",
@@ -5027,18 +5050,18 @@
       "score": -2,
       "news": [
         {
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
+          "direction": "watch",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 4
+        },
+        {
           "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84ZzR0MFFjZkFOWmJPT2NadmlqNWFYeW44ZkpTZXZObUx4V0NFNmY3UWFHd19DVTJ6aURfQTZ0WWtLb093N0k1THg4bmNpM3FtWHYtdktCMHhxQW9P?oc=5",
           "direction": "negative",
           "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "importance": 4
-        },
-        {
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
-          "direction": "watch",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "importance": 3
         },
         {
           "title": "米国株式市場、ＮＹダウ３日続伸、ナスダックは４日上昇し終値ベースの最高値更新(ウエルスアドバイザー)",
@@ -5060,18 +5083,18 @@
       "score": -2,
       "news": [
         {
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
+          "direction": "watch",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 4
+        },
+        {
           "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84ZzR0MFFjZkFOWmJPT2NadmlqNWFYeW44ZkpTZXZObUx4V0NFNmY3UWFHd19DVTJ6aURfQTZ0WWtLb093N0k1THg4bmNpM3FtWHYtdktCMHhxQW9P?oc=5",
           "direction": "negative",
           "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "importance": 4
-        },
-        {
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
-          "direction": "watch",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "importance": 3
         },
         {
           "title": "米国株式市場、ＮＹダウ３日続伸、ナスダックは４日上昇し終値ベースの最高値更新(ウエルスアドバイザー)",
@@ -5093,18 +5116,18 @@
       "score": -2,
       "news": [
         {
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
+          "direction": "watch",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 4
+        },
+        {
           "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84ZzR0MFFjZkFOWmJPT2NadmlqNWFYeW44ZkpTZXZObUx4V0NFNmY3UWFHd19DVTJ6aURfQTZ0WWtLb093N0k1THg4bmNpM3FtWHYtdktCMHhxQW9P?oc=5",
           "direction": "negative",
           "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "importance": 4
-        },
-        {
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
-          "direction": "watch",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "importance": 3
         },
         {
           "title": "米国株式市場、ＮＹダウ３日続伸、ナスダックは４日上昇し終値ベースの最高値更新(ウエルスアドバイザー)",
@@ -5123,8 +5146,15 @@
       "positive": 3,
       "negative": 0,
       "watch": 0,
-      "score": 11,
+      "score": 12,
       "news": [
+        {
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
+          "direction": "positive",
+          "reason": "「エヌビディア」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 4
+        },
         {
           "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84ZzR0MFFjZkFOWmJPT2NadmlqNWFYeW44ZkpTZXZObUx4V0NFNmY3UWFHd19DVTJ6aURfQTZ0WWtLb093N0k1THg4bmNpM3FtWHYtdktCMHhxQW9P?oc=5",
@@ -5138,13 +5168,6 @@
           "direction": "positive",
           "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
           "importance": 4
-        },
-        {
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
-          "direction": "positive",
-          "reason": "「エヌビディア」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 3
         }
       ],
       "mentions": 3
@@ -5156,8 +5179,15 @@
       "positive": 3,
       "negative": 0,
       "watch": 0,
-      "score": 11,
+      "score": 12,
       "news": [
+        {
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
+          "direction": "positive",
+          "reason": "「エヌビディア」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 4
+        },
         {
           "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84ZzR0MFFjZkFOWmJPT2NadmlqNWFYeW44ZkpTZXZObUx4V0NFNmY3UWFHd19DVTJ6aURfQTZ0WWtLb093N0k1THg4bmNpM3FtWHYtdktCMHhxQW9P?oc=5",
@@ -5171,13 +5201,6 @@
           "direction": "positive",
           "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
           "importance": 4
-        },
-        {
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
-          "direction": "positive",
-          "reason": "「エヌビディア」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 3
         }
       ],
       "mentions": 3
@@ -5189,8 +5212,15 @@
       "positive": 3,
       "negative": 0,
       "watch": 0,
-      "score": 11,
+      "score": 12,
       "news": [
+        {
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
+          "direction": "positive",
+          "reason": "「エヌビディア」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 4
+        },
         {
           "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84ZzR0MFFjZkFOWmJPT2NadmlqNWFYeW44ZkpTZXZObUx4V0NFNmY3UWFHd19DVTJ6aURfQTZ0WWtLb093N0k1THg4bmNpM3FtWHYtdktCMHhxQW9P?oc=5",
@@ -5204,46 +5234,6 @@
           "direction": "positive",
           "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
           "importance": 4
-        },
-        {
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
-          "direction": "positive",
-          "reason": "「エヌビディア」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 3
-        }
-      ],
-      "mentions": 3
-    },
-    {
-      "code": "6506",
-      "name": "安川電機",
-      "sector": "電気機器",
-      "positive": 1,
-      "negative": 2,
-      "watch": 0,
-      "score": -2,
-      "news": [
-        {
-          "title": "米FBI、中国政府の指示で台湾総統の息子を監視した疑いで女を逮捕|安全保障のニュース-セキュリティ対策Lab",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLUFvdDRiT2JfVlUzOThmLUhwSl9MeWtLRFNyMXV6aDA2eE9rdTFSLXNSalFyamYzR1g1ZUg3Z1FaU0ZhcFpET3gzemNueEpIS3BRYmNfd0RZTFVlODVBZ2lLWGRRNG5zS2VQSUxiR3k1bWxFcVRraVJkdmJNcHJWZDdEUWtOa2NCQWFvaWFNOVlkR0JLa2Qzd2tSVDZzSjQ?oc=5",
-          "direction": "negative",
-          "reason": "「台湾」に反応: 中国売上比率が高く、地政学リスクの高まりは業績不透明感につながりやすい",
-          "importance": 2
-        },
-        {
-          "title": "台湾の退役巡視船、フィリピンで「サランガニ」として就役 台比の海洋安全保障協力進む（高橋浩祐） - エキスパート",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSFlFU2RSYlRkYWppZFFrbmx3Smo2d2VsX0dENGhGb1NvdjVucDllZGlBS3dTY3RUWDFxZXBRSnFyekpoaDlLbHF0b2Mtci1FUlpQQ3NjMmlmZzZXWms0VWpqbVN1ME45aTNubk1oYk81UWZEZWdZMVNMZDZwcFBGX2pSVFJGdzl2?oc=5",
-          "direction": "negative",
-          "reason": "「台湾」に反応: 中国売上比率が高く、地政学リスクの高まりは業績不透明感につながりやすい",
-          "importance": 2
-        },
-        {
-          "title": "【株式市場特集】２月期・８月期決算で次の主役を探る、上方修正１５銘柄から「ネクスト安川電機」まで",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE92cWhRLU1FTHBPY1lCS2FzSEhiNlR0eVVaOXRQZXRkRlpzcWNqNjF5Z1BkSW00VzRwSVNvV3VLbTgtLWM4LV8tRXlGZy10T2NUS1hrNw?oc=5",
-          "direction": "positive",
-          "reason": "見出しで名指しされている当事者。内容は業績にプラスに働きうる材料",
-          "importance": 2
         }
       ],
       "mentions": 3
@@ -5325,6 +5315,32 @@
         }
       ],
       "mentions": 2
+    },
+    {
+      "code": "6954",
+      "name": "ファナック",
+      "sector": "電気機器",
+      "positive": 0,
+      "negative": 2,
+      "watch": 0,
+      "score": -4,
+      "news": [
+        {
+          "title": "米FBI、中国政府の指示で台湾総統の息子を監視した疑いで女を逮捕|安全保障のニュース-セキュリティ対策Lab",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLUFvdDRiT2JfVlUzOThmLUhwSl9MeWtLRFNyMXV6aDA2eE9rdTFSLXNSalFyamYzR1g1ZUg3Z1FaU0ZhcFpET3gzemNueEpIS3BRYmNfd0RZTFVlODVBZ2lLWGRRNG5zS2VQSUxiR3k1bWxFcVRraVJkdmJNcHJWZDdEUWtOa2NCQWFvaWFNOVlkR0JLa2Qzd2tSVDZzSjQ?oc=5",
+          "direction": "negative",
+          "reason": "「台湾」に反応: 中国売上比率が高く、地政学リスクの高まりは業績不透明感につながりやすい",
+          "importance": 2
+        },
+        {
+          "title": "台湾の退役巡視船、フィリピンで「サランガニ」として就役 台比の海洋安全保障協力進む（高橋浩祐） - エキスパート",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSFlFU2RSYlRkYWppZFFrbmx3Smo2d2VsX0dENGhGb1NvdjVucDllZGlBS3dTY3RUWDFxZXBRSnFyekpoaDlLbHF0b2Mtci1FUlpQQ3NjMmlmZzZXWms0VWpqbVN1ME45aTNubk1oYk81UWZEZWdZMVNMZDZwcFBGX2pSVFJGdzl2?oc=5",
+          "direction": "negative",
+          "reason": "「台湾」に反応: 中国売上比率が高く、地政学リスクの高まりは業績不透明感につながりやすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 2
     }
   ],
   "clusters": [
@@ -5357,7 +5373,7 @@
           "title": "住宅ローンは変動型がなお有利？ 日銀利上げで増える不安で固定に乗り換えるべきか…「追いつくには利上げ8回必要」",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zWkQzNE5HUUIzY3dFMU4wTzZycDZ0a2UwT0lmUkVFNThtTjlxWjhBaFd4MkRIUTdhSUQ5c19PQWF4NDZrQktKUnFFTFVhbW1qTm1OZy13MUdiQ19Md2ROZkF6b1J1OEoyaXBXZ3VpdnlQUF8tNVlzbGZnOTkwc0E?oc=5",
           "importance": 5,
-          "source": "Yahoo!ニュース"
+          "source": "news.yahoo.co.jp"
         },
         {
           "id": "b1aa50753130",
@@ -5378,7 +5394,7 @@
           "title": "長期金利が歴史的水準に上昇…インフレ懸念などから国債に売り圧力、景気下押し懸念も（読売新聞オンライン）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9OUE8yT0htdjRpR2dGQWI0b3luWWF6dVg2YTBoVUE4MnJLMlFsWFl4ZzFwVmJsR2s0cVBlV3h6LVhoMUtIaloxdUtJazZ4ZER2X2tRR3E4UGxaUW5IVzVHV2xiNHhCaXZQU1laSEVrckx0WGJRUWg2RFNjZmJPWEE?oc=5",
           "importance": 3,
-          "source": "Yahoo!ニュース"
+          "source": "news.yahoo.co.jp"
         },
         {
           "id": "4489e77e4ba7",
@@ -5821,25 +5837,25 @@
       "category_label": "米国市場",
       "category_emoji": "🇺🇸",
       "member_ids": [
-        "343e7407ac1b",
         "d176e388c319",
+        "343e7407ac1b",
         "ad6fe53f8139",
         "2188af4b2cc6"
       ],
       "members": [
+        {
+          "id": "d176e388c319",
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
+          "importance": 4,
+          "source": "Reuters"
+        },
         {
           "id": "343e7407ac1b",
           "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84ZzR0MFFjZkFOWmJPT2NadmlqNWFYeW44ZkpTZXZObUx4V0NFNmY3UWFHd19DVTJ6aURfQTZ0WWtLb093N0k1THg4bmNpM3FtWHYtdktCMHhxQW9P?oc=5",
           "importance": 4,
           "source": "YouTube"
-        },
-        {
-          "id": "d176e388c319",
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
-          "importance": 3,
-          "source": "Reuters"
         },
         {
           "id": "ad6fe53f8139",
@@ -5900,7 +5916,7 @@
         "海外の動き",
         "複数媒体での同時報道"
       ],
-      "emergence_event_count": 49,
+      "emergence_event_count": 50,
       "emergence_source_count": 12,
       "emergence_actor_type_count": 1,
       "emergence_actor_type_labels": [
@@ -5909,7 +5925,7 @@
       "emergence_actor_type_breakdown": [
         {
           "label": "複数メディア",
-          "count": 14
+          "count": 15
         }
       ],
       "emergence_region_count": 2,
@@ -5920,9 +5936,9 @@
       "emergence_origin_regions": [],
       "emergence_first_seen": "2026-09-20",
       "emergence_window_counts": {
-        "7": 25,
-        "30": 49,
-        "90": 49
+        "7": 26,
+        "30": 50,
+        "90": 50
       },
       "emergence_timeline": [
         {
@@ -6491,6 +6507,19 @@
           "regions": [
             "米国"
           ]
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
         }
       ],
       "emergence_milestones": [
@@ -6525,11 +6554,18 @@
       "category_label": "半導体・AI",
       "category_emoji": "🤖",
       "member_ids": [
+        "d176e388c319",
         "343e7407ac1b",
-        "a5c1c14cac38",
-        "d176e388c319"
+        "a5c1c14cac38"
       ],
       "members": [
+        {
+          "id": "d176e388c319",
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
+          "importance": 4,
+          "source": "Reuters"
+        },
         {
           "id": "343e7407ac1b",
           "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
@@ -6543,13 +6579,6 @@
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZVVVSGxDTVBxbkkzSEc0OFFqbWpsSlU1ZUVScHV1ZFlib1Nnb2locFRSZC01TkRIZmM0SUdKelJIcGFLWWJEQXV3QjBVb2RjSVZoU1ZMSWlHV3hpMzhQelhIMDFpWkl4TGRQVG1wMnhKTUYtMkdLNjFXRzF5NHNyQXZSNXd5UmhteGh4ZV9PajlEV3IyRDVn?oc=5",
           "importance": 4,
           "source": "Business Insider Japan"
-        },
-        {
-          "id": "d176e388c319",
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
-          "importance": 3,
-          "source": "Reuters"
         }
       ],
       "stocks": [
@@ -6605,7 +6634,7 @@
         "政策の検討・審議段階",
         "複数媒体での同時報道"
       ],
-      "emergence_event_count": 8,
+      "emergence_event_count": 9,
       "emergence_source_count": 6,
       "emergence_actor_type_count": 2,
       "emergence_actor_type_labels": [
@@ -6619,7 +6648,7 @@
         },
         {
           "label": "複数メディア",
-          "count": 2
+          "count": 3
         }
       ],
       "emergence_region_count": 1,
@@ -6629,9 +6658,9 @@
       "emergence_origin_regions": [],
       "emergence_first_seen": "2026-09-20",
       "emergence_window_counts": {
-        "7": 5,
-        "30": 8,
-        "90": 8
+        "7": 6,
+        "30": 9,
+        "90": 9
       },
       "emergence_timeline": [
         {
@@ -6717,6 +6746,19 @@
           "regions": [
             "米国"
           ]
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
         }
       ],
       "emergence_milestones": [
@@ -6769,7 +6811,7 @@
           "title": "台湾の退役巡視船、フィリピンで「サランガニ」として就役 台比の海洋安全保障協力進む（高橋浩祐） - エキスパート",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSFlFU2RSYlRkYWppZFFrbmx3Smo2d2VsX0dENGhGb1NvdjVucDllZGlBS3dTY3RUWDFxZXBRSnFyekpoaDlLbHF0b2Mtci1FUlpQQ3NjMmlmZzZXWms0VWpqbVN1ME45aTNubk1oYk81UWZEZWdZMVNMZDZwcFBGX2pSVFJGdzl2?oc=5",
           "importance": 2,
-          "source": "Yahoo!ニュース"
+          "source": "news.yahoo.co.jp"
         }
       ],
       "stocks": [
@@ -7399,13 +7441,20 @@
       "category_label": "同じ企業",
       "category_emoji": "🏢",
       "member_ids": [
+        "d176e388c319",
         "343e7407ac1b",
         "a5c1c14cac38",
-        "d176e388c319",
         "72e676294f15",
         "79e47be46790"
       ],
       "members": [
+        {
+          "id": "d176e388c319",
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
+          "importance": 4,
+          "source": "Reuters"
+        },
         {
           "id": "343e7407ac1b",
           "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
@@ -7421,13 +7470,6 @@
           "source": "Business Insider Japan"
         },
         {
-          "id": "d176e388c319",
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
-          "importance": 3,
-          "source": "Reuters"
-        },
-        {
           "id": "72e676294f15",
           "title": "米FBI、中国政府の指示で台湾総統の息子を監視した疑いで女を逮捕|安全保障のニュース-セキュリティ対策Lab",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLUFvdDRiT2JfVlUzOThmLUhwSl9MeWtLRFNyMXV6aDA2eE9rdTFSLXNSalFyamYzR1g1ZUg3Z1FaU0ZhcFpET3gzemNueEpIS3BRYmNfd0RZTFVlODVBZ2lLWGRRNG5zS2VQSUxiR3k1bWxFcVRraVJkdmJNcHJWZDdEUWtOa2NCQWFvaWFNOVlkR0JLa2Qzd2tSVDZzSjQ?oc=5",
@@ -7439,7 +7481,7 @@
           "title": "台湾の退役巡視船、フィリピンで「サランガニ」として就役 台比の海洋安全保障協力進む（高橋浩祐） - エキスパート",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSFlFU2RSYlRkYWppZFFrbmx3Smo2d2VsX0dENGhGb1NvdjVucDllZGlBS3dTY3RUWDFxZXBRSnFyekpoaDlLbHF0b2Mtci1FUlpQQ3NjMmlmZzZXWms0VWpqbVN1ME45aTNubk1oYk81UWZEZWdZMVNMZDZwcFBGX2pSVFJGdzl2?oc=5",
           "importance": 2,
-          "source": "Yahoo!ニュース"
+          "source": "news.yahoo.co.jp"
         }
       ],
       "stocks": [
@@ -7452,70 +7494,6 @@
         }
       ],
       "max_importance": 4,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "connection_type": "company",
-      "connection_label": "同じ企業",
-      "theme_id": null,
-      "label": "安川電機に関するニュース",
-      "category": "",
-      "category_label": "同じ企業",
-      "category_emoji": "🏢",
-      "member_ids": [
-        "72e676294f15",
-        "79e47be46790",
-        "0c42962e8b51"
-      ],
-      "members": [
-        {
-          "id": "72e676294f15",
-          "title": "米FBI、中国政府の指示で台湾総統の息子を監視した疑いで女を逮捕|安全保障のニュース-セキュリティ対策Lab",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLUFvdDRiT2JfVlUzOThmLUhwSl9MeWtLRFNyMXV6aDA2eE9rdTFSLXNSalFyamYzR1g1ZUg3Z1FaU0ZhcFpET3gzemNueEpIS3BRYmNfd0RZTFVlODVBZ2lLWGRRNG5zS2VQSUxiR3k1bWxFcVRraVJkdmJNcHJWZDdEUWtOa2NCQWFvaWFNOVlkR0JLa2Qzd2tSVDZzSjQ?oc=5",
-          "importance": 2,
-          "source": "合同会社ロケットボーイズ"
-        },
-        {
-          "id": "79e47be46790",
-          "title": "台湾の退役巡視船、フィリピンで「サランガニ」として就役 台比の海洋安全保障協力進む（高橋浩祐） - エキスパート",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSFlFU2RSYlRkYWppZFFrbmx3Smo2d2VsX0dENGhGb1NvdjVucDllZGlBS3dTY3RUWDFxZXBRSnFyekpoaDlLbHF0b2Mtci1FUlpQQ3NjMmlmZzZXWms0VWpqbVN1ME45aTNubk1oYk81UWZEZWdZMVNMZDZwcFBGX2pSVFJGdzl2?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "id": "0c42962e8b51",
-          "title": "【株式市場特集】２月期・８月期決算で次の主役を探る、上方修正１５銘柄から「ネクスト安川電機」まで",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE92cWhRLU1FTHBPY1lCS2FzSEhiNlR0eVVaOXRQZXRkRlpzcWNqNjF5Z1BkSW00VzRwSVNvV3VLbTgtLWM4LV8tRXlGZy10T2NUS1hrNw?oc=5",
-          "importance": 2,
-          "source": "kabu-ir.com"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "6506",
-          "name": "安川電機",
-          "positive": 1,
-          "negative": 2,
-          "watch": 0
-        }
-      ],
-      "max_importance": 2,
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -7599,14 +7577,20 @@
       "category_label": "同じ業界",
       "category_emoji": "🏭",
       "member_ids": [
+        "d176e388c319",
         "343e7407ac1b",
         "a5c1c14cac38",
-        "d176e388c319",
         "72e676294f15",
-        "79e47be46790",
-        "0c42962e8b51"
+        "79e47be46790"
       ],
       "members": [
+        {
+          "id": "d176e388c319",
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
+          "importance": 4,
+          "source": "Reuters"
+        },
         {
           "id": "343e7407ac1b",
           "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
@@ -7622,13 +7606,6 @@
           "source": "Business Insider Japan"
         },
         {
-          "id": "d176e388c319",
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
-          "importance": 3,
-          "source": "Reuters"
-        },
-        {
           "id": "72e676294f15",
           "title": "米FBI、中国政府の指示で台湾総統の息子を監視した疑いで女を逮捕|安全保障のニュース-セキュリティ対策Lab",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLUFvdDRiT2JfVlUzOThmLUhwSl9MeWtLRFNyMXV6aDA2eE9rdTFSLXNSalFyamYzR1g1ZUg3Z1FaU0ZhcFpET3gzemNueEpIS3BRYmNfd0RZTFVlODVBZ2lLWGRRNG5zS2VQSUxiR3k1bWxFcVRraVJkdmJNcHJWZDdEUWtOa2NCQWFvaWFNOVlkR0JLa2Qzd2tSVDZzSjQ?oc=5",
@@ -7640,14 +7617,7 @@
           "title": "台湾の退役巡視船、フィリピンで「サランガニ」として就役 台比の海洋安全保障協力進む（高橋浩祐） - エキスパート",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSFlFU2RSYlRkYWppZFFrbmx3Smo2d2VsX0dENGhGb1NvdjVucDllZGlBS3dTY3RUWDFxZXBRSnFyekpoaDlLbHF0b2Mtci1FUlpQQ3NjMmlmZzZXWms0VWpqbVN1ME45aTNubk1oYk81UWZEZWdZMVNMZDZwcFBGX2pSVFJGdzl2?oc=5",
           "importance": 2,
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "id": "0c42962e8b51",
-          "title": "【株式市場特集】２月期・８月期決算で次の主役を探る、上方修正１５銘柄から「ネクスト安川電機」まで",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE92cWhRLU1FTHBPY1lCS2FzSEhiNlR0eVVaOXRQZXRkRlpzcWNqNjF5Z1BkSW00VzRwSVNvV3VLbTgtLWM4LV8tRXlGZy10T2NUS1hrNw?oc=5",
-          "importance": 2,
-          "source": "kabu-ir.com"
+          "source": "news.yahoo.co.jp"
         }
       ],
       "stocks": [
@@ -7673,13 +7643,6 @@
           "watch": 0
         },
         {
-          "code": "6506",
-          "name": "安川電機",
-          "positive": 1,
-          "negative": 2,
-          "watch": 0
-        },
-        {
           "code": "6503",
           "name": "三菱電機",
           "positive": 2,
@@ -7691,6 +7654,13 @@
           "name": "日本電気",
           "positive": 2,
           "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "6954",
+          "name": "ファナック",
+          "positive": 0,
+          "negative": 2,
           "watch": 0
         }
       ],
@@ -7799,7 +7769,7 @@
           "title": "住宅ローンは変動型がなお有利？ 日銀利上げで増える不安で固定に乗り換えるべきか…「追いつくには利上げ8回必要」",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zWkQzNE5HUUIzY3dFMU4wTzZycDZ0a2UwT0lmUkVFNThtTjlxWjhBaFd4MkRIUTdhSUQ5c19PQWF4NDZrQktKUnFFTFVhbW1qTm1OZy13MUdiQ19Md2ROZkF6b1J1OEoyaXBXZ3VpdnlQUF8tNVlzbGZnOTkwc0E?oc=5",
           "importance": 5,
-          "source": "Yahoo!ニュース"
+          "source": "news.yahoo.co.jp"
         },
         {
           "id": "b1aa50753130",
@@ -7820,7 +7790,7 @@
           "title": "長期金利が歴史的水準に上昇…インフレ懸念などから国債に売り圧力、景気下押し懸念も（読売新聞オンライン）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9OUE8yT0htdjRpR2dGQWI0b3luWWF6dVg2YTBoVUE4MnJLMlFsWFl4ZzFwVmJsR2s0cVBlV3h6LVhoMUtIaloxdUtJazZ4ZER2X2tRR3E4UGxaUW5IVzVHV2xiNHhCaXZQU1laSEVrckx0WGJRUWg2RFNjZmJPWEE?oc=5",
           "importance": 3,
-          "source": "Yahoo!ニュース"
+          "source": "news.yahoo.co.jp"
         },
         {
           "id": "4489e77e4ba7",
@@ -7909,15 +7879,22 @@
       "category_label": "資源・サプライチェーン",
       "category_emoji": "🔗",
       "member_ids": [
+        "d176e388c319",
         "343e7407ac1b",
         "a5c1c14cac38",
-        "d176e388c319",
         "ad6fe53f8139",
         "2188af4b2cc6",
         "72e676294f15",
         "79e47be46790"
       ],
       "members": [
+        {
+          "id": "d176e388c319",
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
+          "importance": 4,
+          "source": "Reuters"
+        },
         {
           "id": "343e7407ac1b",
           "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
@@ -7931,13 +7908,6 @@
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZVVVSGxDTVBxbkkzSEc0OFFqbWpsSlU1ZUVScHV1ZFlib1Nnb2locFRSZC01TkRIZmM0SUdKelJIcGFLWWJEQXV3QjBVb2RjSVZoU1ZMSWlHV3hpMzhQelhIMDFpWkl4TGRQVG1wMnhKTUYtMkdLNjFXRzF5NHNyQXZSNXd5UmhteGh4ZV9PajlEV3IyRDVn?oc=5",
           "importance": 4,
           "source": "Business Insider Japan"
-        },
-        {
-          "id": "d176e388c319",
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
-          "importance": 3,
-          "source": "Reuters"
         },
         {
           "id": "ad6fe53f8139",
@@ -7965,7 +7935,7 @@
           "title": "台湾の退役巡視船、フィリピンで「サランガニ」として就役 台比の海洋安全保障協力進む（高橋浩祐） - エキスパート",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSFlFU2RSYlRkYWppZFFrbmx3Smo2d2VsX0dENGhGb1NvdjVucDllZGlBS3dTY3RUWDFxZXBRSnFyekpoaDlLbHF0b2Mtci1FUlpQQ3NjMmlmZzZXWms0VWpqbVN1ME45aTNubk1oYk81UWZEZWdZMVNMZDZwcFBGX2pSVFJGdzl2?oc=5",
           "importance": 2,
-          "source": "Yahoo!ニュース"
+          "source": "news.yahoo.co.jp"
         }
       ],
       "stocks": [
@@ -8040,15 +8010,22 @@
       "category_label": "資源・サプライチェーン",
       "category_emoji": "🔗",
       "member_ids": [
+        "d176e388c319",
         "343e7407ac1b",
         "a5c1c14cac38",
-        "d176e388c319",
         "ad6fe53f8139",
         "2188af4b2cc6",
         "72e676294f15",
         "79e47be46790"
       ],
       "members": [
+        {
+          "id": "d176e388c319",
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
+          "importance": 4,
+          "source": "Reuters"
+        },
         {
           "id": "343e7407ac1b",
           "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
@@ -8062,13 +8039,6 @@
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZVVVSGxDTVBxbkkzSEc0OFFqbWpsSlU1ZUVScHV1ZFlib1Nnb2locFRSZC01TkRIZmM0SUdKelJIcGFLWWJEQXV3QjBVb2RjSVZoU1ZMSWlHV3hpMzhQelhIMDFpWkl4TGRQVG1wMnhKTUYtMkdLNjFXRzF5NHNyQXZSNXd5UmhteGh4ZV9PajlEV3IyRDVn?oc=5",
           "importance": 4,
           "source": "Business Insider Japan"
-        },
-        {
-          "id": "d176e388c319",
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
-          "importance": 3,
-          "source": "Reuters"
         },
         {
           "id": "ad6fe53f8139",
@@ -8096,7 +8066,7 @@
           "title": "台湾の退役巡視船、フィリピンで「サランガニ」として就役 台比の海洋安全保障協力進む（高橋浩祐） - エキスパート",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSFlFU2RSYlRkYWppZFFrbmx3Smo2d2VsX0dENGhGb1NvdjVucDllZGlBS3dTY3RUWDFxZXBRSnFyekpoaDlLbHF0b2Mtci1FUlpQQ3NjMmlmZzZXWms0VWpqbVN1ME45aTNubk1oYk81UWZEZWdZMVNMZDZwcFBGX2pSVFJGdzl2?oc=5",
           "importance": 2,
-          "source": "Yahoo!ニュース"
+          "source": "news.yahoo.co.jp"
         }
       ],
       "stocks": [
@@ -8159,19 +8129,25 @@
       "connection_type": "supply_chain",
       "connection_label": "資源・サプライチェーン",
       "theme_id": null,
-      "label": "中国関連に関連するニュース",
+      "label": "半導体製造装置に関連するニュース",
       "category": "",
       "category_label": "資源・サプライチェーン",
       "category_emoji": "🔗",
       "member_ids": [
+        "d176e388c319",
         "343e7407ac1b",
         "a5c1c14cac38",
-        "d176e388c319",
         "72e676294f15",
-        "79e47be46790",
-        "0c42962e8b51"
+        "79e47be46790"
       ],
       "members": [
+        {
+          "id": "d176e388c319",
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
+          "importance": 4,
+          "source": "Reuters"
+        },
         {
           "id": "343e7407ac1b",
           "title": "10/5【日本株急落サイン見逃すな‼】AI半導体株急騰で日経平均一時７万円突破‼キオクシア下落。バリュー株弱すぎる‼ドル円軟調。米国株、ナスダック、ハイテク株上がるか。仮想通貨BTC上昇",
@@ -8187,13 +8163,6 @@
           "source": "Business Insider Japan"
         },
         {
-          "id": "d176e388c319",
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
-          "importance": 3,
-          "source": "Reuters"
-        },
-        {
           "id": "72e676294f15",
           "title": "米FBI、中国政府の指示で台湾総統の息子を監視した疑いで女を逮捕|安全保障のニュース-セキュリティ対策Lab",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLUFvdDRiT2JfVlUzOThmLUhwSl9MeWtLRFNyMXV6aDA2eE9rdTFSLXNSalFyamYzR1g1ZUg3Z1FaU0ZhcFpET3gzemNueEpIS3BRYmNfd0RZTFVlODVBZ2lLWGRRNG5zS2VQSUxiR3k1bWxFcVRraVJkdmJNcHJWZDdEUWtOa2NCQWFvaWFNOVlkR0JLa2Qzd2tSVDZzSjQ?oc=5",
@@ -8205,14 +8174,7 @@
           "title": "台湾の退役巡視船、フィリピンで「サランガニ」として就役 台比の海洋安全保障協力進む（高橋浩祐） - エキスパート",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSFlFU2RSYlRkYWppZFFrbmx3Smo2d2VsX0dENGhGb1NvdjVucDllZGlBS3dTY3RUWDFxZXBRSnFyekpoaDlLbHF0b2Mtci1FUlpQQ3NjMmlmZzZXWms0VWpqbVN1ME45aTNubk1oYk81UWZEZWdZMVNMZDZwcFBGX2pSVFJGdzl2?oc=5",
           "importance": 2,
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "id": "0c42962e8b51",
-          "title": "【株式市場特集】２月期・８月期決算で次の主役を探る、上方修正１５銘柄から「ネクスト安川電機」まで",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE92cWhRLU1FTHBPY1lCS2FzSEhiNlR0eVVaOXRQZXRkRlpzcWNqNjF5Z1BkSW00VzRwSVNvV3VLbTgtLWM4LV8tRXlGZy10T2NUS1hrNw?oc=5",
-          "importance": 2,
-          "source": "kabu-ir.com"
+          "source": "news.yahoo.co.jp"
         }
       ],
       "stocks": [
@@ -8224,24 +8186,31 @@
           "watch": 0
         },
         {
-          "code": "6506",
-          "name": "安川電機",
+          "code": "6857",
+          "name": "アドバンテスト",
+          "positive": 3,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "6920",
+          "name": "レーザーテック",
+          "positive": 3,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "6146",
+          "name": "ディスコ",
+          "positive": 3,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7735",
+          "name": "SCREENホールディングス",
           "positive": 1,
-          "negative": 2,
-          "watch": 0
-        },
-        {
-          "code": "6954",
-          "name": "ファナック",
-          "positive": 0,
-          "negative": 2,
-          "watch": 0
-        },
-        {
-          "code": "6645",
-          "name": "オムロン",
-          "positive": 0,
-          "negative": 2,
+          "negative": 0,
           "watch": 0
         }
       ],
@@ -8283,11 +8252,11 @@
     "milestones": {
       "accumulating": "2026-09-21"
     },
-    "last_computed_at": "2026-10-06T11:41:16+09:00"
+    "last_computed_at": "2026-10-06T11:56:51+09:00"
   },
   "counts": {
     "news": 40,
-    "high_importance": 6,
+    "high_importance": 7,
     "stocks": 20
   }
 }
