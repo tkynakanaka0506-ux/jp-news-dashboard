@@ -419,7 +419,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 181,
+   "occurrences": 182,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -480,7 +480,7 @@
    "milestones": {
     "government_jp": "2026-10-08"
    },
-   "occurrences": 4
+   "occurrences": 5
   },
   "deregulation": {
    "events": [
@@ -815,7 +815,7 @@
    "milestones": {
     "government_jp": "2026-09-29"
    },
-   "occurrences": 62
+   "occurrences": 63
   },
   "jp_politics": {
    "events": [
@@ -1281,6 +1281,20 @@
      ],
      "source": "埼玉新聞",
      "title": "政府、２次補正予算編成へ"
+    },
+    {
+     "actor_types": [
+      "government_jp"
+     ],
+     "date": "2026-10-09",
+     "item_id": "611fc7598296",
+     "origin_region": "日本",
+     "regions": [],
+     "signals": [
+      "gov_source"
+     ],
+     "source": "首相官邸",
+     "title": "内閣官房長官談話を掲載しました"
     }
    ],
    "first_seen": "2026-09-20",
@@ -1288,7 +1302,7 @@
     "government_jp": "2026-09-20",
     "media": "2026-09-20"
    },
-   "occurrences": 105,
+   "occurrences": 106,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
@@ -1407,11 +1421,23 @@
      ],
      "source": "合同会社ロケットボーイズ",
      "title": "中国外務省はなぜ高市首相を「呼び捨て」にしたのか―米・台湾・イスラエルの分析から見る対日メッセージ戦略"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-09",
+     "item_id": "ffaaae60df4a",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "Bloomberg.com",
+     "title": "米長期金利が低下、30年債入札が好調－対イラン攻撃の見送りも材料"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {},
-   "occurrences": 63
+   "occurrences": 64
   },
   "oil_down": {
    "events": [
@@ -1436,7 +1462,7 @@
    "milestones": {
     "media": "2026-10-09"
    },
-   "occurrences": 18
+   "occurrences": 19
   },
   "oil_up": {
    "events": [
@@ -1507,7 +1533,30 @@
    ],
    "first_seen": "2026-09-25",
    "milestones": {},
-   "occurrences": 46
+   "occurrences": 47
+  },
+  "quantum": {
+   "events": [
+    {
+     "actor_types": [
+      "government_jp"
+     ],
+     "date": "2026-10-09",
+     "item_id": "fa0279ddef46",
+     "origin_region": "日本",
+     "regions": [],
+     "signals": [
+      "gov_source"
+     ],
+     "source": "IPA(新着情報)",
+     "title": "IPA量子コンピューティング技術勉強会を開催します"
+    }
+   ],
+   "first_seen": "2026-10-09",
+   "milestones": {
+    "government_jp": "2026-10-09"
+   },
+   "occurrences": 1
   },
   "rare_earth": {
    "events": [
@@ -1597,7 +1646,7 @@
    "milestones": {
     "media": "2026-09-20"
    },
-   "occurrences": 89
+   "occurrences": 90
   },
   "rate_cut": {
    "events": [
@@ -1814,7 +1863,7 @@
     "corporate": "2026-10-02",
     "media": "2026-09-24"
    },
-   "occurrences": 148,
+   "occurrences": 149,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -1887,7 +1936,7 @@
     "government_jp": "2026-10-08",
     "media": "2026-10-08"
    },
-   "occurrences": 51
+   "occurrences": 52
   },
   "shipbuilding_policy": {
    "events": [
@@ -2792,6 +2841,25 @@
      ],
      "source": "ニコニコニュース",
      "title": "【米中首脳会談の衝撃裏側】台湾情勢を揺るがす55年攻防と「一つの中国」を巡る深層暗闘"
+    },
+    {
+     "actor_types": [
+      "media",
+      "research"
+     ],
+     "date": "2026-10-09",
+     "item_id": "36c5af79f5dc",
+     "origin_region": null,
+     "regions": [
+      "中国",
+      "台湾"
+     ],
+     "signals": [
+      "foreign",
+      "multi_source"
+     ],
+     "source": "ｄメニューニュース",
+     "title": "台湾の蔡前総統、中国の「持続的な圧力」批判　米大学で講演"
     }
    ],
    "first_seen": "2026-09-20",
@@ -2801,7 +2869,7 @@
     "media": "2026-09-26",
     "research": "2026-09-27"
    },
-   "occurrences": 146,
+   "occurrences": 147,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -3397,7 +3465,7 @@
     "international_org": "2026-09-24",
     "media": "2026-09-24"
    },
-   "occurrences": 129,
+   "occurrences": 130,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -4296,13 +4364,27 @@
      ],
      "source": "Reuters",
      "title": "米国株式市場＝Ｓ＆Ｐ・ナスダック下落、原油急騰で 半導体株が安い"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-09",
+     "item_id": "80a9a8a1c182",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign"
+     ],
+     "source": "みんかぶ FX/為替",
+     "title": "ダウ平均は横ばい 利回りが下げに転じる オープンＡＩの報道にナスダックが大幅安＝米国株概況 -"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
     "media": "2026-09-23"
    },
-   "occurrences": 171,
+   "occurrences": 172,
    "signals": {}
   },
   "yen_strong": {
@@ -4452,7 +4534,7 @@
     "government_foreign": "2026-09-21",
     "media": "2026-09-24"
    },
-   "occurrences": 134,
+   "occurrences": 135,
    "signals": {}
   }
  }
