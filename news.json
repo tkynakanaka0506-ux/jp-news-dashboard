@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-11 07:33",
-  "generated_iso": "2026-10-11T07:33:40+09:00",
+  "generated_at": "2026-10-11 09:13",
+  "generated_iso": "2026-10-11T09:13:36+09:00",
   "status": "updated",
   "status_message": "40 件のニュースを取得しました。",
   "llm_used": true,
@@ -1711,6 +1711,54 @@
           "policy_to_earnings_stage": null
         }
       ],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "a01a93390dd7",
+      "title": "【ドル円週間見通し】底堅いか 為替介入に警戒も米高金利でドル買い継続",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFAyV1FpUFpqZXc4MFNiczlvcWFFYjEzcDZfM0RUbWcwaVJpUnpTWTl5M3hBSXUyd0E0Wk9pX2ZXRmY3RjJQTU5F?oc=5",
+      "source": "マネーポストWEB",
+      "source_tier": "commentary",
+      "source_tier_label": "市場解説",
+      "published_at": "2026-10-11 08:00",
+      "published_ts": 1791673200.0,
+      "category": "fx",
+      "category_label": "為替",
+      "category_emoji": "💱",
+      "importance": 3,
+      "importance_reason": "重要語「為替介入」",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
       "related": [],
       "emergence_stage": null,
       "emergence_stage_label": "",
@@ -5574,203 +5622,203 @@
       }
     },
     {
-      "id": "b312f4e21246",
-      "title": "NY円反落、158円台半ば 原油高で米金利上昇が重荷",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5OcUxCaXF1ODBFQlhrOTJSMDJyRTRDbUhkWFNqRF91d3luekcwSU9hYUtEM19aY185S0tibnNBRTVPSnRiMTFJOHFMSFdYNVVLNE5hZVhmdjc1QVNtWldWVTZleVNUU2REeVlnejRrN0xleXJK?oc=5",
-      "source": "BigGo ファイナンス",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-10-11 03:16",
-      "published_ts": 1791656160.0,
-      "category": "resources",
-      "category_label": "資源・エネルギー",
-      "category_emoji": "🛢️",
+      "id": "678604731abc",
+      "title": "【投資クイズ】円安はまだ続く？為替が動く仕組みを学ぼう",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12OUttbVhEaVFmVEJ2MjdnTjhhTk05dVM1VHprRnE5TG5qcGRRbVBjQXQ5ZlppLTRGdl9URHdpYlE4Yko0QkhnVWpJU2t5OGs5NXBhWlJNWmtOQQ?oc=5",
+      "source": "トウシル",
+      "source_tier": "commentary",
+      "source_tier_label": "市場解説",
+      "published_at": "2026-10-11 08:00",
+      "published_ts": 1791673200.0,
+      "category": "fx",
+      "category_label": "為替",
+      "category_emoji": "💱",
       "importance": 2,
-      "importance_reason": "影響テーマ「原油高」に該当",
+      "importance_reason": "影響テーマ「円安進行」に該当",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
       "news_novelty": "high",
       "news_novelty_label": "新規",
-      "policy_event_id": "oil_up-20260925-01",
+      "policy_event_id": "yen_weak-20260920-01",
       "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-09-25",
+      "policy_event_first_seen": "2026-09-20",
       "policy_event_state": "UPDATE",
       "themes": [
-        "原油高"
+        "円安進行"
       ],
       "theme_ids": [
-        "oil_up"
+        "yen_weak"
       ],
       "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [
         {
-          "code": "1605",
-          "name": "INPEX",
-          "sector": "鉱業",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「原油高」に反応: 販売価格・権益収入の改善につながりやすい",
-          "theme": "原油高",
-          "theme_id": "oil_up",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "原油高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "5020",
-          "name": "ENEOSホールディングス",
-          "sector": "石油",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「原油高」に反応: 販売価格・権益収入の改善につながりやすい",
-          "theme": "原油高",
-          "theme_id": "oil_up",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "原油高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "5019",
-          "name": "出光興産",
-          "sector": "石油",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「原油高」に反応: 販売価格・権益収入の改善につながりやすい",
-          "theme": "原油高",
-          "theme_id": "oil_up",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "原油高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8058",
-          "name": "三菱商事",
-          "sector": "卸売",
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "sector": "自動車",
           "direction": "positive",
           "direction_label": "追い風",
           "strength": "中",
-          "reason": "「原油高」に反応: 資源権益の採算改善が意識されやすい",
-          "theme": "原油高",
-          "theme_id": "oil_up",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
           "origin": "rule",
-          "beneficiary_tier": "primary",
-          "beneficiary_tier_label": "一次波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "原油高",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 57,
+          "policy_impact_score": 34,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
         {
-          "code": "8031",
-          "name": "三井物産",
-          "sector": "卸売",
+          "code": "7267",
+          "name": "本田技研工業",
+          "sector": "自動車",
           "direction": "positive",
           "direction_label": "追い風",
           "strength": "中",
-          "reason": "「原油高」に反応: 資源権益の採算改善が意識されやすい",
-          "theme": "原油高",
-          "theme_id": "oil_up",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
           "origin": "rule",
-          "beneficiary_tier": "primary",
-          "beneficiary_tier_label": "一次波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "原油高",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 57,
+          "policy_impact_score": 34,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
         {
-          "code": "8001",
-          "name": "伊藤忠商事",
-          "sector": "卸売",
+          "code": "7201",
+          "name": "日産自動車",
+          "sector": "自動車",
           "direction": "positive",
           "direction_label": "追い風",
           "strength": "中",
-          "reason": "「原油高」に反応: 資源権益の採算改善が意識されやすい",
-          "theme": "原油高",
-          "theme_id": "oil_up",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
           "origin": "rule",
-          "beneficiary_tier": "primary",
-          "beneficiary_tier_label": "一次波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "原油高",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 57,
+          "policy_impact_score": 34,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
         {
-          "code": "9501",
-          "name": "東京電力ホールディングス",
-          "sector": "電気・ガス",
+          "code": "7269",
+          "name": "スズキ",
+          "sector": "自動車",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 34,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7270",
+          "name": "SUBARU",
+          "sector": "自動車",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 34,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7261",
+          "name": "マツダ",
+          "sector": "自動車",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 34,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9983",
+          "name": "ファーストリテイリング",
+          "sector": "小売",
           "direction": "negative",
           "direction_label": "逆風",
           "strength": "中",
-          "reason": "「原油高」に反応: 燃料・原材料コストの上昇が採算を圧迫しやすい",
-          "theme": "原油高",
-          "theme_id": "oil_up",
+          "reason": "「円安」に反応: 輸入原材料・仕入コストが膨らみ、採算の重しになりやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
           "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "原油高",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
+          "policy_impact_score": 34,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
         {
-          "code": "9503",
-          "name": "関西電力",
-          "sector": "電気・ガス",
+          "code": "3382",
+          "name": "セブン&アイ・ホールディングス",
+          "sector": "小売",
           "direction": "negative",
           "direction_label": "逆風",
           "strength": "中",
-          "reason": "「原油高」に反応: 燃料・原材料コストの上昇が採算を圧迫しやすい",
-          "theme": "原油高",
-          "theme_id": "oil_up",
+          "reason": "「円安」に反応: 輸入原材料・仕入コストが膨らみ、採算の重しになりやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
           "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "原油高",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
+          "policy_impact_score": 34,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         }
@@ -7398,6 +7446,102 @@
       "emergence_growth": {}
     },
     {
+      "id": "0e258f15e6fd",
+      "title": "千葉県における野生イノシシの豚熱感染事例について",
+      "url": "https://www.maff.go.jp/j/press/syouan/douei/261011.html",
+      "source": "農林水産省",
+      "source_tier": "primary",
+      "source_tier_label": "一次情報",
+      "published_at": "2026-10-11 08:00",
+      "published_ts": 1791673200.0,
+      "category": "japan",
+      "category_label": "日本経済・政治",
+      "category_emoji": "🗾",
+      "importance": 1,
+      "importance_reason": "一般的な市況ニュース",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "215df662d0e1",
+      "title": "米ドル/円【USDJPY】：外国為替相場FXレート・チャートをリアルタイム表示",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzbWxqc1ltSU1ndEE0VElnZldUTGdyRVJpOTdKeXBsc0RDSm40dm9kLTJqaDZlOVpoR2E5eEZIX1o0bFR1SFR2N2k4WjRiTnN5dHVBTHJn?oc=5",
+      "source": "Yahoo!ファイナンス",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-10-11 05:14",
+      "published_ts": 1791663262.0,
+      "category": "fx",
+      "category_label": "為替",
+      "category_emoji": "💱",
+      "importance": 1,
+      "importance_reason": "一般的な市況ニュース",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
       "id": "f0bc8a0f0bf1",
       "title": "TOPIXの指数情報・推移",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1DeFBMbTJZUmR2akJBZlhCYU12WGMyZ3U3TEVkTm5JOUZHenE2eWRfanNXb0Zvc3NYWFRZSTZSbWdvTDllbjcwejhfSGN3b0ZiUzJxXw?oc=5",
@@ -8068,150 +8212,6 @@
       "emergence_milestones": [],
       "emergence_diagnosis": {},
       "emergence_growth": {}
-    },
-    {
-      "id": "83acbeab6da2",
-      "title": "「熊本産業復興相談センター」の開設及び「令和８年熊本地震復興支援ファンド」の設立について（令和８年熊本地震による被災事業者の多重債務問題対応）公表しました。",
-      "url": "https://www.fsa.go.jp/ordinary/earthquake202607/fund.html",
-      "source": "金融庁",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-10-09 19:00",
-      "published_ts": 1791540000.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "440646829b79",
-      "title": "令和8年梅雨前線豪雨から台風第25号までの一連の気象現象による災害（仮称）における「大規模災害時の災害査定の効率化」の対象について",
-      "url": "https://www.maff.go.jp/j/press/kanbo/bunsyo/saigai/261009.html",
-      "source": "農林水産省",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-10-09 18:15",
-      "published_ts": 1791537300.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "3fbec1dfbe80",
-      "title": "ドル円１５８円台前半で上昇一服、介入警戒感もあるか＝ロンドン為替",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1Zc0lSN1M5S1ZqSk1LTUFHV01RY2hfZXFxLXNDVEYwdlRuUURZQ3A2MDdJZFhoT2k1VnpZaFlOaEg2VXZySkxZNA?oc=5",
-      "source": "みんかぶ FX/為替",
-      "source_tier": "commentary",
-      "source_tier_label": "市場解説",
-      "published_at": "2026-10-09 18:02",
-      "published_ts": 1791536548.0,
-      "category": "fx",
-      "category_label": "為替",
-      "category_emoji": "💱",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
     }
   ],
   "stock_ranking": [
@@ -8219,10 +8219,10 @@
       "code": "7203",
       "name": "トヨタ自動車",
       "sector": "自動車",
-      "positive": 4,
+      "positive": 5,
       "negative": 1,
       "watch": 1,
-      "score": 5,
+      "score": 7,
       "news": [
         {
           "title": "強まる利上げ観測、でもなぜ円高にならない？ 根強い日銀への疑念",
@@ -8239,14 +8239,14 @@
           "importance": 4
         },
         {
-          "title": "米長期金利5％超でも株高は続くのか？企業利益と財務体質から読み解く米国株の行方",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5mQVhlNzIzRzFPZUhnYnVFWVQ1Q2xSazJIcjJwbElvTnFObDVUZWs4a1lqSXRuTnNiTE1yaTVLZUE0eUVSWHBaSml5aW8zbHFOcHNSS2o4RXo?oc=5",
-          "direction": "watch",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "title": "【投資クイズ】円安はまだ続く？為替が動く仕組みを学ぼう",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12OUttbVhEaVFmVEJ2MjdnTjhhTk05dVM1VHprRnE5TG5qcGRRbVBjQXQ5ZlppLTRGdl9URHdpYlE4Yko0QkhnVWpJU2t5OGs5NXBhWlJNWmtOQQ?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
           "importance": 2
         }
       ],
-      "mentions": 6
+      "mentions": 7
     },
     {
       "code": "1801",
@@ -8480,6 +8480,105 @@
       "mentions": 5
     },
     {
+      "code": "7267",
+      "name": "本田技研工業",
+      "sector": "自動車",
+      "positive": 3,
+      "negative": 1,
+      "watch": 0,
+      "score": 3,
+      "news": [
+        {
+          "title": "強まる利上げ観測、でもなぜ円高にならない？ 根強い日銀への疑念",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DYld5N1FQdE04cERLRVhVWThRQVNEQjZjZjdnWU8yX2dGNWY0dlQzWVJEMFl0aEgtbExSWnZGeFh6cTZVNXEwNHhuUEllMDhFX3U3dVFxOTJ3X3VNQzBYYTNLZnNJbm8?oc=5",
+          "direction": "negative",
+          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "importance": 5
+        },
+        {
+          "title": "〔決算〕安川電、27年2月期の売上高予想を上方修正＝需要増と円安で(時事通信)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYWg0NlQ2SHUzcjliaE9GUE1GZU9BODF5Vm15VnNzSDZXZ25BZGx2eEY4WW1mSV9RQnBwc0pRMkY3dldwT21uZk1BdF9DUjh5YU1MaXMyQVBpaFZoZ0pqb0hLeklVWUYwaS1YZVdOU3RaOVR4N1V0TkluZ1oxSDR2Y1JPUV83VTA?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "importance": 4
+        },
+        {
+          "title": "【投資クイズ】円安はまだ続く？為替が動く仕組みを学ぼう",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12OUttbVhEaVFmVEJ2MjdnTjhhTk05dVM1VHprRnE5TG5qcGRRbVBjQXQ5ZlppLTRGdl9URHdpYlE4Yko0QkhnVWpJU2t5OGs5NXBhWlJNWmtOQQ?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 4
+    },
+    {
+      "code": "7201",
+      "name": "日産自動車",
+      "sector": "自動車",
+      "positive": 3,
+      "negative": 1,
+      "watch": 0,
+      "score": 3,
+      "news": [
+        {
+          "title": "強まる利上げ観測、でもなぜ円高にならない？ 根強い日銀への疑念",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DYld5N1FQdE04cERLRVhVWThRQVNEQjZjZjdnWU8yX2dGNWY0dlQzWVJEMFl0aEgtbExSWnZGeFh6cTZVNXEwNHhuUEllMDhFX3U3dVFxOTJ3X3VNQzBYYTNLZnNJbm8?oc=5",
+          "direction": "negative",
+          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "importance": 5
+        },
+        {
+          "title": "〔決算〕安川電、27年2月期の売上高予想を上方修正＝需要増と円安で(時事通信)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYWg0NlQ2SHUzcjliaE9GUE1GZU9BODF5Vm15VnNzSDZXZ25BZGx2eEY4WW1mSV9RQnBwc0pRMkY3dldwT21uZk1BdF9DUjh5YU1MaXMyQVBpaFZoZ0pqb0hLeklVWUYwaS1YZVdOU3RaOVR4N1V0TkluZ1oxSDR2Y1JPUV83VTA?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "importance": 4
+        },
+        {
+          "title": "【投資クイズ】円安はまだ続く？為替が動く仕組みを学ぼう",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12OUttbVhEaVFmVEJ2MjdnTjhhTk05dVM1VHprRnE5TG5qcGRRbVBjQXQ5ZlppLTRGdl9URHdpYlE4Yko0QkhnVWpJU2t5OGs5NXBhWlJNWmtOQQ?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 4
+    },
+    {
+      "code": "7269",
+      "name": "スズキ",
+      "sector": "自動車",
+      "positive": 3,
+      "negative": 1,
+      "watch": 0,
+      "score": 3,
+      "news": [
+        {
+          "title": "強まる利上げ観測、でもなぜ円高にならない？ 根強い日銀への疑念",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DYld5N1FQdE04cERLRVhVWThRQVNEQjZjZjdnWU8yX2dGNWY0dlQzWVJEMFl0aEgtbExSWnZGeFh6cTZVNXEwNHhuUEllMDhFX3U3dVFxOTJ3X3VNQzBYYTNLZnNJbm8?oc=5",
+          "direction": "negative",
+          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "importance": 5
+        },
+        {
+          "title": "〔決算〕安川電、27年2月期の売上高予想を上方修正＝需要増と円安で(時事通信)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYWg0NlQ2SHUzcjliaE9GUE1GZU9BODF5Vm15VnNzSDZXZ25BZGx2eEY4WW1mSV9RQnBwc0pRMkY3dldwT21uZk1BdF9DUjh5YU1MaXMyQVBpaFZoZ0pqb0hLeklVWUYwaS1YZVdOU3RaOVR4N1V0TkluZ1oxSDR2Y1JPUV83VTA?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "importance": 4
+        },
+        {
+          "title": "【投資クイズ】円安はまだ続く？為替が動く仕組みを学ぼう",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12OUttbVhEaVFmVEJ2MjdnTjhhTk05dVM1VHprRnE5TG5qcGRRbVBjQXQ5ZlppLTRGdl9URHdpYlE4Yko0QkhnVWpJU2t5OGs5NXBhWlJNWmtOQQ?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 4
+    },
+    {
       "code": "6701",
       "name": "日本電気",
       "sector": "電気機器",
@@ -8507,6 +8606,138 @@
           "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
           "direction": "positive",
           "reason": "「不正アクセス」に反応: セキュリティ投資の拡大観測が材料視されやすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 3
+    },
+    {
+      "code": "7270",
+      "name": "SUBARU",
+      "sector": "自動車",
+      "positive": 3,
+      "negative": 0,
+      "watch": 0,
+      "score": 8,
+      "news": [
+        {
+          "title": "〔決算〕安川電、27年2月期の売上高予想を上方修正＝需要増と円安で(時事通信)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYWg0NlQ2SHUzcjliaE9GUE1GZU9BODF5Vm15VnNzSDZXZ25BZGx2eEY4WW1mSV9RQnBwc0pRMkY3dldwT21uZk1BdF9DUjh5YU1MaXMyQVBpaFZoZ0pqb0hLeklVWUYwaS1YZVdOU3RaOVR4N1V0TkluZ1oxSDR2Y1JPUV83VTA?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "importance": 4
+        },
+        {
+          "title": "【投資クイズ】円安はまだ続く？為替が動く仕組みを学ぼう",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12OUttbVhEaVFmVEJ2MjdnTjhhTk05dVM1VHprRnE5TG5qcGRRbVBjQXQ5ZlppLTRGdl9URHdpYlE4Yko0QkhnVWpJU2t5OGs5NXBhWlJNWmtOQQ?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "importance": 2
+        },
+        {
+          "title": "【日経平均8万円超】朝倉慶が予測！株高・円安・金利高で加速する爆発的強気シナリオ 2026年10月9日",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1zdkllT3VtcHM1QzZvMDl4WG0xNUhmaUZVcGtiSGo1d1lSOVdEa1o5V0lRbWpmUXJlYjMtSUFfN3ZERmdteFlHR0xOd2Utb2daVWJ2UkxwZEpqbWRMclNETjBVOA?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 3
+    },
+    {
+      "code": "7261",
+      "name": "マツダ",
+      "sector": "自動車",
+      "positive": 3,
+      "negative": 0,
+      "watch": 0,
+      "score": 8,
+      "news": [
+        {
+          "title": "〔決算〕安川電、27年2月期の売上高予想を上方修正＝需要増と円安で(時事通信)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYWg0NlQ2SHUzcjliaE9GUE1GZU9BODF5Vm15VnNzSDZXZ25BZGx2eEY4WW1mSV9RQnBwc0pRMkY3dldwT21uZk1BdF9DUjh5YU1MaXMyQVBpaFZoZ0pqb0hLeklVWUYwaS1YZVdOU3RaOVR4N1V0TkluZ1oxSDR2Y1JPUV83VTA?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "importance": 4
+        },
+        {
+          "title": "【投資クイズ】円安はまだ続く？為替が動く仕組みを学ぼう",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12OUttbVhEaVFmVEJ2MjdnTjhhTk05dVM1VHprRnE5TG5qcGRRbVBjQXQ5ZlppLTRGdl9URHdpYlE4Yko0QkhnVWpJU2t5OGs5NXBhWlJNWmtOQQ?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "importance": 2
+        },
+        {
+          "title": "【日経平均8万円超】朝倉慶が予測！株高・円安・金利高で加速する爆発的強気シナリオ 2026年10月9日",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1zdkllT3VtcHM1QzZvMDl4WG0xNUhmaUZVcGtiSGo1d1lSOVdEa1o5V0lRbWpmUXJlYjMtSUFfN3ZERmdteFlHR0xOd2Utb2daVWJ2UkxwZEpqbWRMclNETjBVOA?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 3
+    },
+    {
+      "code": "9983",
+      "name": "ファーストリテイリング",
+      "sector": "小売",
+      "positive": 0,
+      "negative": 3,
+      "watch": 0,
+      "score": -8,
+      "news": [
+        {
+          "title": "〔決算〕安川電、27年2月期の売上高予想を上方修正＝需要増と円安で(時事通信)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYWg0NlQ2SHUzcjliaE9GUE1GZU9BODF5Vm15VnNzSDZXZ25BZGx2eEY4WW1mSV9RQnBwc0pRMkY3dldwT21uZk1BdF9DUjh5YU1MaXMyQVBpaFZoZ0pqb0hLeklVWUYwaS1YZVdOU3RaOVR4N1V0TkluZ1oxSDR2Y1JPUV83VTA?oc=5",
+          "direction": "negative",
+          "reason": "「円安」に反応: 輸入原材料・仕入コストが膨らみ、採算の重しになりやすい",
+          "importance": 4
+        },
+        {
+          "title": "【投資クイズ】円安はまだ続く？為替が動く仕組みを学ぼう",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12OUttbVhEaVFmVEJ2MjdnTjhhTk05dVM1VHprRnE5TG5qcGRRbVBjQXQ5ZlppLTRGdl9URHdpYlE4Yko0QkhnVWpJU2t5OGs5NXBhWlJNWmtOQQ?oc=5",
+          "direction": "negative",
+          "reason": "「円安」に反応: 輸入原材料・仕入コストが膨らみ、採算の重しになりやすい",
+          "importance": 2
+        },
+        {
+          "title": "【日経平均8万円超】朝倉慶が予測！株高・円安・金利高で加速する爆発的強気シナリオ 2026年10月9日",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1zdkllT3VtcHM1QzZvMDl4WG0xNUhmaUZVcGtiSGo1d1lSOVdEa1o5V0lRbWpmUXJlYjMtSUFfN3ZERmdteFlHR0xOd2Utb2daVWJ2UkxwZEpqbWRMclNETjBVOA?oc=5",
+          "direction": "negative",
+          "reason": "「円安」に反応: 輸入原材料・仕入コストが膨らみ、採算の重しになりやすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 3
+    },
+    {
+      "code": "3382",
+      "name": "セブン&アイ・ホールディングス",
+      "sector": "小売",
+      "positive": 0,
+      "negative": 3,
+      "watch": 0,
+      "score": -8,
+      "news": [
+        {
+          "title": "〔決算〕安川電、27年2月期の売上高予想を上方修正＝需要増と円安で(時事通信)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYWg0NlQ2SHUzcjliaE9GUE1GZU9BODF5Vm15VnNzSDZXZ25BZGx2eEY4WW1mSV9RQnBwc0pRMkY3dldwT21uZk1BdF9DUjh5YU1MaXMyQVBpaFZoZ0pqb0hLeklVWUYwaS1YZVdOU3RaOVR4N1V0TkluZ1oxSDR2Y1JPUV83VTA?oc=5",
+          "direction": "negative",
+          "reason": "「円安」に反応: 輸入原材料・仕入コストが膨らみ、採算の重しになりやすい",
+          "importance": 4
+        },
+        {
+          "title": "【投資クイズ】円安はまだ続く？為替が動く仕組みを学ぼう",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12OUttbVhEaVFmVEJ2MjdnTjhhTk05dVM1VHprRnE5TG5qcGRRbVBjQXQ5ZlppLTRGdl9URHdpYlE4Yko0QkhnVWpJU2t5OGs5NXBhWlJNWmtOQQ?oc=5",
+          "direction": "negative",
+          "reason": "「円安」に反応: 輸入原材料・仕入コストが膨らみ、採算の重しになりやすい",
+          "importance": 2
+        },
+        {
+          "title": "【日経平均8万円超】朝倉慶が予測！株高・円安・金利高で加速する爆発的強気シナリオ 2026年10月9日",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1zdkllT3VtcHM1QzZvMDl4WG0xNUhmaUZVcGtiSGo1d1lSOVdEa1o5V0lRbWpmUXJlYjMtSUFfN3ZERmdteFlHR0xOd2Utb2daVWJ2UkxwZEpqbWRMclNETjBVOA?oc=5",
+          "direction": "negative",
+          "reason": "「円安」に反応: 輸入原材料・仕入コストが膨らみ、採算の重しになりやすい",
           "importance": 2
         }
       ],
@@ -8643,209 +8874,6 @@
         }
       ],
       "mentions": 3
-    },
-    {
-      "code": "7267",
-      "name": "本田技研工業",
-      "sector": "自動車",
-      "positive": 2,
-      "negative": 1,
-      "watch": 0,
-      "score": 1,
-      "news": [
-        {
-          "title": "強まる利上げ観測、でもなぜ円高にならない？ 根強い日銀への疑念",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DYld5N1FQdE04cERLRVhVWThRQVNEQjZjZjdnWU8yX2dGNWY0dlQzWVJEMFl0aEgtbExSWnZGeFh6cTZVNXEwNHhuUEllMDhFX3U3dVFxOTJ3X3VNQzBYYTNLZnNJbm8?oc=5",
-          "direction": "negative",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "importance": 5
-        },
-        {
-          "title": "〔決算〕安川電、27年2月期の売上高予想を上方修正＝需要増と円安で(時事通信)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYWg0NlQ2SHUzcjliaE9GUE1GZU9BODF5Vm15VnNzSDZXZ25BZGx2eEY4WW1mSV9RQnBwc0pRMkY3dldwT21uZk1BdF9DUjh5YU1MaXMyQVBpaFZoZ0pqb0hLeklVWUYwaS1YZVdOU3RaOVR4N1V0TkluZ1oxSDR2Y1JPUV83VTA?oc=5",
-          "direction": "positive",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "importance": 4
-        },
-        {
-          "title": "【日経平均8万円超】朝倉慶が予測！株高・円安・金利高で加速する爆発的強気シナリオ 2026年10月9日",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1zdkllT3VtcHM1QzZvMDl4WG0xNUhmaUZVcGtiSGo1d1lSOVdEa1o5V0lRbWpmUXJlYjMtSUFfN3ZERmdteFlHR0xOd2Utb2daVWJ2UkxwZEpqbWRMclNETjBVOA?oc=5",
-          "direction": "positive",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "importance": 2
-        }
-      ],
-      "mentions": 3
-    },
-    {
-      "code": "7201",
-      "name": "日産自動車",
-      "sector": "自動車",
-      "positive": 2,
-      "negative": 1,
-      "watch": 0,
-      "score": 1,
-      "news": [
-        {
-          "title": "強まる利上げ観測、でもなぜ円高にならない？ 根強い日銀への疑念",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DYld5N1FQdE04cERLRVhVWThRQVNEQjZjZjdnWU8yX2dGNWY0dlQzWVJEMFl0aEgtbExSWnZGeFh6cTZVNXEwNHhuUEllMDhFX3U3dVFxOTJ3X3VNQzBYYTNLZnNJbm8?oc=5",
-          "direction": "negative",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "importance": 5
-        },
-        {
-          "title": "〔決算〕安川電、27年2月期の売上高予想を上方修正＝需要増と円安で(時事通信)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYWg0NlQ2SHUzcjliaE9GUE1GZU9BODF5Vm15VnNzSDZXZ25BZGx2eEY4WW1mSV9RQnBwc0pRMkY3dldwT21uZk1BdF9DUjh5YU1MaXMyQVBpaFZoZ0pqb0hLeklVWUYwaS1YZVdOU3RaOVR4N1V0TkluZ1oxSDR2Y1JPUV83VTA?oc=5",
-          "direction": "positive",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "importance": 4
-        },
-        {
-          "title": "【日経平均8万円超】朝倉慶が予測！株高・円安・金利高で加速する爆発的強気シナリオ 2026年10月9日",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1zdkllT3VtcHM1QzZvMDl4WG0xNUhmaUZVcGtiSGo1d1lSOVdEa1o5V0lRbWpmUXJlYjMtSUFfN3ZERmdteFlHR0xOd2Utb2daVWJ2UkxwZEpqbWRMclNETjBVOA?oc=5",
-          "direction": "positive",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "importance": 2
-        }
-      ],
-      "mentions": 3
-    },
-    {
-      "code": "7269",
-      "name": "スズキ",
-      "sector": "自動車",
-      "positive": 2,
-      "negative": 1,
-      "watch": 0,
-      "score": 1,
-      "news": [
-        {
-          "title": "強まる利上げ観測、でもなぜ円高にならない？ 根強い日銀への疑念",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DYld5N1FQdE04cERLRVhVWThRQVNEQjZjZjdnWU8yX2dGNWY0dlQzWVJEMFl0aEgtbExSWnZGeFh6cTZVNXEwNHhuUEllMDhFX3U3dVFxOTJ3X3VNQzBYYTNLZnNJbm8?oc=5",
-          "direction": "negative",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "importance": 5
-        },
-        {
-          "title": "〔決算〕安川電、27年2月期の売上高予想を上方修正＝需要増と円安で(時事通信)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYWg0NlQ2SHUzcjliaE9GUE1GZU9BODF5Vm15VnNzSDZXZ25BZGx2eEY4WW1mSV9RQnBwc0pRMkY3dldwT21uZk1BdF9DUjh5YU1MaXMyQVBpaFZoZ0pqb0hLeklVWUYwaS1YZVdOU3RaOVR4N1V0TkluZ1oxSDR2Y1JPUV83VTA?oc=5",
-          "direction": "positive",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "importance": 4
-        },
-        {
-          "title": "【日経平均8万円超】朝倉慶が予測！株高・円安・金利高で加速する爆発的強気シナリオ 2026年10月9日",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1zdkllT3VtcHM1QzZvMDl4WG0xNUhmaUZVcGtiSGo1d1lSOVdEa1o5V0lRbWpmUXJlYjMtSUFfN3ZERmdteFlHR0xOd2Utb2daVWJ2UkxwZEpqbWRMclNETjBVOA?oc=5",
-          "direction": "positive",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "importance": 2
-        }
-      ],
-      "mentions": 3
-    },
-    {
-      "code": "8306",
-      "name": "三菱UFJフィナンシャル・グループ",
-      "sector": "銀行",
-      "positive": 2,
-      "negative": 0,
-      "watch": 0,
-      "score": 10,
-      "news": [
-        {
-          "title": "強まる利上げ観測、でもなぜ円高にならない？ 根強い日銀への疑念",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DYld5N1FQdE04cERLRVhVWThRQVNEQjZjZjdnWU8yX2dGNWY0dlQzWVJEMFl0aEgtbExSWnZGeFh6cTZVNXEwNHhuUEllMDhFX3U3dVFxOTJ3X3VNQzBYYTNLZnNJbm8?oc=5",
-          "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 5
-        },
-        {
-          "title": "日銀は「10月の連続利上げ」を示唆するか 総裁と審議委員の発信に注目",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40eVZnQV92WGlkWHhmMmpDaGVveWlseWpmN3k1VHpER1h3M1N4dE1TLWJFS0RPVjMzQ2R1ak1ONWtBUFVNVm5CX05zRFhuSzAzblBwU25JTnFMRnFUdklJWUc1NWxhODA?oc=5",
-          "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 5
-        }
-      ],
-      "mentions": 2
-    },
-    {
-      "code": "8316",
-      "name": "三井住友フィナンシャルグループ",
-      "sector": "銀行",
-      "positive": 2,
-      "negative": 0,
-      "watch": 0,
-      "score": 10,
-      "news": [
-        {
-          "title": "強まる利上げ観測、でもなぜ円高にならない？ 根強い日銀への疑念",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DYld5N1FQdE04cERLRVhVWThRQVNEQjZjZjdnWU8yX2dGNWY0dlQzWVJEMFl0aEgtbExSWnZGeFh6cTZVNXEwNHhuUEllMDhFX3U3dVFxOTJ3X3VNQzBYYTNLZnNJbm8?oc=5",
-          "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 5
-        },
-        {
-          "title": "日銀は「10月の連続利上げ」を示唆するか 総裁と審議委員の発信に注目",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40eVZnQV92WGlkWHhmMmpDaGVveWlseWpmN3k1VHpER1h3M1N4dE1TLWJFS0RPVjMzQ2R1ak1ONWtBUFVNVm5CX05zRFhuSzAzblBwU25JTnFMRnFUdklJWUc1NWxhODA?oc=5",
-          "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 5
-        }
-      ],
-      "mentions": 2
-    },
-    {
-      "code": "8411",
-      "name": "みずほフィナンシャルグループ",
-      "sector": "銀行",
-      "positive": 2,
-      "negative": 0,
-      "watch": 0,
-      "score": 10,
-      "news": [
-        {
-          "title": "強まる利上げ観測、でもなぜ円高にならない？ 根強い日銀への疑念",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DYld5N1FQdE04cERLRVhVWThRQVNEQjZjZjdnWU8yX2dGNWY0dlQzWVJEMFl0aEgtbExSWnZGeFh6cTZVNXEwNHhuUEllMDhFX3U3dVFxOTJ3X3VNQzBYYTNLZnNJbm8?oc=5",
-          "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 5
-        },
-        {
-          "title": "日銀は「10月の連続利上げ」を示唆するか 総裁と審議委員の発信に注目",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40eVZnQV92WGlkWHhmMmpDaGVveWlseWpmN3k1VHpER1h3M1N4dE1TLWJFS0RPVjMzQ2R1ak1ONWtBUFVNVm5CX05zRFhuSzAzblBwU25JTnFMRnFUdklJWUc1NWxhODA?oc=5",
-          "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 5
-        }
-      ],
-      "mentions": 2
-    },
-    {
-      "code": "8309",
-      "name": "三井住友トラスト・ホールディングス",
-      "sector": "銀行",
-      "positive": 2,
-      "negative": 0,
-      "watch": 0,
-      "score": 10,
-      "news": [
-        {
-          "title": "強まる利上げ観測、でもなぜ円高にならない？ 根強い日銀への疑念",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DYld5N1FQdE04cERLRVhVWThRQVNEQjZjZjdnWU8yX2dGNWY0dlQzWVJEMFl0aEgtbExSWnZGeFh6cTZVNXEwNHhuUEllMDhFX3U3dVFxOTJ3X3VNQzBYYTNLZnNJbm8?oc=5",
-          "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 5
-        },
-        {
-          "title": "日銀は「10月の連続利上げ」を示唆するか 総裁と審議委員の発信に注目",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40eVZnQV92WGlkWHhmMmpDaGVveWlseWpmN3k1VHpER1h3M1N4dE1TLWJFS0RPVjMzQ2R1ak1ONWtBUFVNVm5CX05zRFhuSzAzblBwU25JTnFMRnFUdklJWUc1NWxhODA?oc=5",
-          "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 5
-        }
-      ],
-      "mentions": 2
     }
   ],
   "clusters": [
@@ -9449,6 +9477,251 @@
         "window_days": 14,
         "recent_new_actor_types": 0,
         "total_actor_types": 2
+      }
+    },
+    {
+      "connection_type": "theme",
+      "connection_label": "同じテーマ",
+      "theme_id": "yen_weak",
+      "label": "円安進行",
+      "category": "fx",
+      "category_label": "為替",
+      "category_emoji": "💱",
+      "member_ids": [
+        "b6cd2e0a3343",
+        "678604731abc",
+        "6679e3d59cd6"
+      ],
+      "members": [
+        {
+          "id": "b6cd2e0a3343",
+          "title": "〔決算〕安川電、27年2月期の売上高予想を上方修正＝需要増と円安で(時事通信)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYWg0NlQ2SHUzcjliaE9GUE1GZU9BODF5Vm15VnNzSDZXZ25BZGx2eEY4WW1mSV9RQnBwc0pRMkY3dldwT21uZk1BdF9DUjh5YU1MaXMyQVBpaFZoZ0pqb0hLeklVWUYwaS1YZVdOU3RaOVR4N1V0TkluZ1oxSDR2Y1JPUV83VTA?oc=5",
+          "importance": 4,
+          "source": "Yahoo!ファイナンス"
+        },
+        {
+          "id": "678604731abc",
+          "title": "【投資クイズ】円安はまだ続く？為替が動く仕組みを学ぼう",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12OUttbVhEaVFmVEJ2MjdnTjhhTk05dVM1VHprRnE5TG5qcGRRbVBjQXQ5ZlppLTRGdl9URHdpYlE4Yko0QkhnVWpJU2t5OGs5NXBhWlJNWmtOQQ?oc=5",
+          "importance": 2,
+          "source": "トウシル"
+        },
+        {
+          "id": "6679e3d59cd6",
+          "title": "【日経平均8万円超】朝倉慶が予測！株高・円安・金利高で加速する爆発的強気シナリオ 2026年10月9日",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1zdkllT3VtcHM1QzZvMDl4WG0xNUhmaUZVcGtiSGo1d1lSOVdEa1o5V0lRbWpmUXJlYjMtSUFfN3ZERmdteFlHR0xOd2Utb2daVWJ2UkxwZEpqbWRMclNETjBVOA?oc=5",
+          "importance": 2,
+          "source": "外為どっとコム"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "positive": 3,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7267",
+          "name": "本田技研工業",
+          "positive": 3,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7201",
+          "name": "日産自動車",
+          "positive": 3,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7269",
+          "name": "スズキ",
+          "positive": 3,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7270",
+          "name": "SUBARU",
+          "positive": 3,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7261",
+          "name": "マツダ",
+          "positive": 3,
+          "negative": 0,
+          "watch": 0
+        }
+      ],
+      "max_importance": 4,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [
+        "関連企業の直接発表",
+        "複数媒体での同時報道"
+      ],
+      "emergence_event_count": 8,
+      "emergence_source_count": 7,
+      "emergence_actor_type_count": 3,
+      "emergence_actor_type_labels": [
+        "関連企業",
+        "海外政府・当局",
+        "複数メディア"
+      ],
+      "emergence_actor_type_breakdown": [
+        {
+          "label": "関連企業",
+          "count": 1
+        },
+        {
+          "label": "海外政府・当局",
+          "count": 2
+        },
+        {
+          "label": "複数メディア",
+          "count": 5
+        }
+      ],
+      "emergence_region_count": 1,
+      "emergence_regions": [
+        "米国"
+      ],
+      "emergence_origin_regions": [
+        "米国"
+      ],
+      "emergence_first_seen": "2026-09-20",
+      "emergence_window_counts": {
+        "7": 0,
+        "30": 8,
+        "90": 8
+      },
+      "emergence_timeline": [
+        {
+          "date": "2026-09-21",
+          "source": "gaitame.com",
+          "signal_labels": [],
+          "actor_type_labels": [
+            "海外政府・当局"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "source": "TBS NEWS DIG",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-24",
+          "source": "読売新聞",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-24",
+          "source": "Bloomberg.com",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-25",
+          "source": "Yahoo!ニュース",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "source": "外為どっとコム",
+          "signal_labels": [],
+          "actor_type_labels": [
+            "海外政府・当局"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-28",
+          "source": "Yahoo!ニュース",
+          "signal_labels": [
+            "関連企業の直接発表"
+          ],
+          "actor_type_labels": [
+            "関連企業"
+          ],
+          "regions": []
+        }
+      ],
+      "emergence_milestones": [
+        {
+          "date": "2026-09-21",
+          "actor_type_label": "海外政府・当局"
+        },
+        {
+          "date": "2026-09-24",
+          "actor_type_label": "複数メディア"
+        },
+        {
+          "date": "2026-09-28",
+          "actor_type_label": "関連企業"
+        }
+      ],
+      "emergence_diagnosis": {
+        "target_stage": "watch",
+        "target_stage_label": "👀 要監視テーマ",
+        "source_count": 7,
+        "required_sources": 2,
+        "signal_count": 2,
+        "required_signals": 3,
+        "missing": [
+          "シグナル種別があと1種類必要"
+        ]
+      },
+      "emergence_growth": {
+        "window_days": 14,
+        "recent_new_actor_types": 1,
+        "total_actor_types": 3
       }
     },
     {
@@ -10855,243 +11128,6 @@
     {
       "connection_type": "theme",
       "connection_label": "同じテーマ",
-      "theme_id": "yen_weak",
-      "label": "円安進行",
-      "category": "fx",
-      "category_label": "為替",
-      "category_emoji": "💱",
-      "member_ids": [
-        "b6cd2e0a3343",
-        "6679e3d59cd6"
-      ],
-      "members": [
-        {
-          "id": "b6cd2e0a3343",
-          "title": "〔決算〕安川電、27年2月期の売上高予想を上方修正＝需要増と円安で(時事通信)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYWg0NlQ2SHUzcjliaE9GUE1GZU9BODF5Vm15VnNzSDZXZ25BZGx2eEY4WW1mSV9RQnBwc0pRMkY3dldwT21uZk1BdF9DUjh5YU1MaXMyQVBpaFZoZ0pqb0hLeklVWUYwaS1YZVdOU3RaOVR4N1V0TkluZ1oxSDR2Y1JPUV83VTA?oc=5",
-          "importance": 4,
-          "source": "Yahoo!ファイナンス"
-        },
-        {
-          "id": "6679e3d59cd6",
-          "title": "【日経平均8万円超】朝倉慶が予測！株高・円安・金利高で加速する爆発的強気シナリオ 2026年10月9日",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1zdkllT3VtcHM1QzZvMDl4WG0xNUhmaUZVcGtiSGo1d1lSOVdEa1o5V0lRbWpmUXJlYjMtSUFfN3ZERmdteFlHR0xOd2Utb2daVWJ2UkxwZEpqbWRMclNETjBVOA?oc=5",
-          "importance": 2,
-          "source": "外為どっとコム"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "7203",
-          "name": "トヨタ自動車",
-          "positive": 2,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "7267",
-          "name": "本田技研工業",
-          "positive": 2,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "7201",
-          "name": "日産自動車",
-          "positive": 2,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "7269",
-          "name": "スズキ",
-          "positive": 2,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "7270",
-          "name": "SUBARU",
-          "positive": 2,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "7261",
-          "name": "マツダ",
-          "positive": 2,
-          "negative": 0,
-          "watch": 0
-        }
-      ],
-      "max_importance": 4,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [
-        "関連企業の直接発表",
-        "複数媒体での同時報道"
-      ],
-      "emergence_event_count": 8,
-      "emergence_source_count": 7,
-      "emergence_actor_type_count": 3,
-      "emergence_actor_type_labels": [
-        "関連企業",
-        "海外政府・当局",
-        "複数メディア"
-      ],
-      "emergence_actor_type_breakdown": [
-        {
-          "label": "関連企業",
-          "count": 1
-        },
-        {
-          "label": "海外政府・当局",
-          "count": 2
-        },
-        {
-          "label": "複数メディア",
-          "count": 5
-        }
-      ],
-      "emergence_region_count": 1,
-      "emergence_regions": [
-        "米国"
-      ],
-      "emergence_origin_regions": [
-        "米国"
-      ],
-      "emergence_first_seen": "2026-09-20",
-      "emergence_window_counts": {
-        "7": 0,
-        "30": 8,
-        "90": 8
-      },
-      "emergence_timeline": [
-        {
-          "date": "2026-09-21",
-          "source": "gaitame.com",
-          "signal_labels": [],
-          "actor_type_labels": [
-            "海外政府・当局"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-24",
-          "source": "TBS NEWS DIG",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-09-24",
-          "source": "読売新聞",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-09-24",
-          "source": "Bloomberg.com",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-09-25",
-          "source": "Yahoo!ニュース",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-26",
-          "source": "外為どっとコム",
-          "signal_labels": [],
-          "actor_type_labels": [
-            "海外政府・当局"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-26",
-          "source": "みんかぶ FX/為替",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-09-28",
-          "source": "Yahoo!ニュース",
-          "signal_labels": [
-            "関連企業の直接発表"
-          ],
-          "actor_type_labels": [
-            "関連企業"
-          ],
-          "regions": []
-        }
-      ],
-      "emergence_milestones": [
-        {
-          "date": "2026-09-21",
-          "actor_type_label": "海外政府・当局"
-        },
-        {
-          "date": "2026-09-24",
-          "actor_type_label": "複数メディア"
-        },
-        {
-          "date": "2026-09-28",
-          "actor_type_label": "関連企業"
-        }
-      ],
-      "emergence_diagnosis": {
-        "target_stage": "watch",
-        "target_stage_label": "👀 要監視テーマ",
-        "source_count": 7,
-        "required_sources": 2,
-        "signal_count": 2,
-        "required_signals": 3,
-        "missing": [
-          "シグナル種別があと1種類必要"
-        ]
-      },
-      "emergence_growth": {
-        "window_days": 14,
-        "recent_new_actor_types": 1,
-        "total_actor_types": 3
-      }
-    },
-    {
-      "connection_type": "theme",
-      "connection_label": "同じテーマ",
       "theme_id": "semi_demand",
       "label": "半導体・AI投資の拡大",
       "category": "tech",
@@ -11539,6 +11575,7 @@
       "member_ids": [
         "f926a6172654",
         "b6cd2e0a3343",
+        "678604731abc",
         "3cc6fcb4892a",
         "0961c0adbe8e",
         "d665dae7ddc3",
@@ -11558,6 +11595,13 @@
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYWg0NlQ2SHUzcjliaE9GUE1GZU9BODF5Vm15VnNzSDZXZ25BZGx2eEY4WW1mSV9RQnBwc0pRMkY3dldwT21uZk1BdF9DUjh5YU1MaXMyQVBpaFZoZ0pqb0hLeklVWUYwaS1YZVdOU3RaOVR4N1V0TkluZ1oxSDR2Y1JPUV83VTA?oc=5",
           "importance": 4,
           "source": "Yahoo!ファイナンス"
+        },
+        {
+          "id": "678604731abc",
+          "title": "【投資クイズ】円安はまだ続く？為替が動く仕組みを学ぼう",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12OUttbVhEaVFmVEJ2MjdnTjhhTk05dVM1VHprRnE5TG5qcGRRbVBjQXQ5ZlppLTRGdl9URHdpYlE4Yko0QkhnVWpJU2t5OGs5NXBhWlJNWmtOQQ?oc=5",
+          "importance": 2,
+          "source": "トウシル"
         },
         {
           "id": "3cc6fcb4892a",
@@ -11592,7 +11636,7 @@
         {
           "code": "7203",
           "name": "トヨタ自動車",
-          "positive": 4,
+          "positive": 5,
           "negative": 1,
           "watch": 1
         }
@@ -11627,6 +11671,7 @@
       "member_ids": [
         "f926a6172654",
         "b6cd2e0a3343",
+        "678604731abc",
         "6679e3d59cd6"
       ],
       "members": [
@@ -11645,6 +11690,13 @@
           "source": "Yahoo!ファイナンス"
         },
         {
+          "id": "678604731abc",
+          "title": "【投資クイズ】円安はまだ続く？為替が動く仕組みを学ぼう",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12OUttbVhEaVFmVEJ2MjdnTjhhTk05dVM1VHprRnE5TG5qcGRRbVBjQXQ5ZlppLTRGdl9URHdpYlE4Yko0QkhnVWpJU2t5OGs5NXBhWlJNWmtOQQ?oc=5",
+          "importance": 2,
+          "source": "トウシル"
+        },
+        {
           "id": "6679e3d59cd6",
           "title": "【日経平均8万円超】朝倉慶が予測！株高・円安・金利高で加速する爆発的強気シナリオ 2026年10月9日",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1zdkllT3VtcHM1QzZvMDl4WG0xNUhmaUZVcGtiSGo1d1lSOVdEa1o5V0lRbWpmUXJlYjMtSUFfN3ZERmdteFlHR0xOd2Utb2daVWJ2UkxwZEpqbWRMclNETjBVOA?oc=5",
@@ -11656,7 +11708,7 @@
         {
           "code": "7267",
           "name": "本田技研工業",
-          "positive": 2,
+          "positive": 3,
           "negative": 1,
           "watch": 0
         }
@@ -11691,6 +11743,7 @@
       "member_ids": [
         "f926a6172654",
         "b6cd2e0a3343",
+        "678604731abc",
         "6679e3d59cd6"
       ],
       "members": [
@@ -11709,6 +11762,13 @@
           "source": "Yahoo!ファイナンス"
         },
         {
+          "id": "678604731abc",
+          "title": "【投資クイズ】円安はまだ続く？為替が動く仕組みを学ぼう",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12OUttbVhEaVFmVEJ2MjdnTjhhTk05dVM1VHprRnE5TG5qcGRRbVBjQXQ5ZlppLTRGdl9URHdpYlE4Yko0QkhnVWpJU2t5OGs5NXBhWlJNWmtOQQ?oc=5",
+          "importance": 2,
+          "source": "トウシル"
+        },
+        {
           "id": "6679e3d59cd6",
           "title": "【日経平均8万円超】朝倉慶が予測！株高・円安・金利高で加速する爆発的強気シナリオ 2026年10月9日",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1zdkllT3VtcHM1QzZvMDl4WG0xNUhmaUZVcGtiSGo1d1lSOVdEa1o5V0lRbWpmUXJlYjMtSUFfN3ZERmdteFlHR0xOd2Utb2daVWJ2UkxwZEpqbWRMclNETjBVOA?oc=5",
@@ -11720,7 +11780,7 @@
         {
           "code": "7201",
           "name": "日産自動車",
-          "positive": 2,
+          "positive": 3,
           "negative": 1,
           "watch": 0
         }
@@ -11755,6 +11815,7 @@
       "member_ids": [
         "f926a6172654",
         "b6cd2e0a3343",
+        "678604731abc",
         "6679e3d59cd6"
       ],
       "members": [
@@ -11773,6 +11834,13 @@
           "source": "Yahoo!ファイナンス"
         },
         {
+          "id": "678604731abc",
+          "title": "【投資クイズ】円安はまだ続く？為替が動く仕組みを学ぼう",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12OUttbVhEaVFmVEJ2MjdnTjhhTk05dVM1VHprRnE5TG5qcGRRbVBjQXQ5ZlppLTRGdl9URHdpYlE4Yko0QkhnVWpJU2t5OGs5NXBhWlJNWmtOQQ?oc=5",
+          "importance": 2,
+          "source": "トウシル"
+        },
+        {
           "id": "6679e3d59cd6",
           "title": "【日経平均8万円超】朝倉慶が予測！株高・円安・金利高で加速する爆発的強気シナリオ 2026年10月9日",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1zdkllT3VtcHM1QzZvMDl4WG0xNUhmaUZVcGtiSGo1d1lSOVdEa1o5V0lRbWpmUXJlYjMtSUFfN3ZERmdteFlHR0xOd2Utb2daVWJ2UkxwZEpqbWRMclNETjBVOA?oc=5",
@@ -11784,7 +11852,7 @@
         {
           "code": "7269",
           "name": "スズキ",
-          "positive": 2,
+          "positive": 3,
           "negative": 1,
           "watch": 0
         }
@@ -11819,6 +11887,7 @@
       "member_ids": [
         "f926a6172654",
         "b6cd2e0a3343",
+        "678604731abc",
         "3cc6fcb4892a",
         "0961c0adbe8e",
         "d665dae7ddc3",
@@ -11838,6 +11907,13 @@
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYWg0NlQ2SHUzcjliaE9GUE1GZU9BODF5Vm15VnNzSDZXZ25BZGx2eEY4WW1mSV9RQnBwc0pRMkY3dldwT21uZk1BdF9DUjh5YU1MaXMyQVBpaFZoZ0pqb0hLeklVWUYwaS1YZVdOU3RaOVR4N1V0TkluZ1oxSDR2Y1JPUV83VTA?oc=5",
           "importance": 4,
           "source": "Yahoo!ファイナンス"
+        },
+        {
+          "id": "678604731abc",
+          "title": "【投資クイズ】円安はまだ続く？為替が動く仕組みを学ぼう",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12OUttbVhEaVFmVEJ2MjdnTjhhTk05dVM1VHprRnE5TG5qcGRRbVBjQXQ5ZlppLTRGdl9URHdpYlE4Yko0QkhnVWpJU2t5OGs5NXBhWlJNWmtOQQ?oc=5",
+          "importance": 2,
+          "source": "トウシル"
         },
         {
           "id": "3cc6fcb4892a",
@@ -11872,42 +11948,42 @@
         {
           "code": "7203",
           "name": "トヨタ自動車",
-          "positive": 4,
+          "positive": 5,
           "negative": 1,
           "watch": 1
         },
         {
           "code": "7267",
           "name": "本田技研工業",
-          "positive": 2,
+          "positive": 3,
           "negative": 1,
           "watch": 0
         },
         {
           "code": "7201",
           "name": "日産自動車",
-          "positive": 2,
+          "positive": 3,
           "negative": 1,
           "watch": 0
         },
         {
           "code": "7269",
           "name": "スズキ",
-          "positive": 2,
+          "positive": 3,
           "negative": 1,
           "watch": 0
         },
         {
           "code": "7270",
           "name": "SUBARU",
-          "positive": 2,
+          "positive": 3,
           "negative": 0,
           "watch": 0
         },
         {
           "code": "7261",
           "name": "マツダ",
-          "positive": 2,
+          "positive": 3,
           "negative": 0,
           "watch": 0
         }
@@ -12141,188 +12217,6 @@
       "emergence_growth": {}
     },
     {
-      "connection_type": "sector",
-      "connection_label": "同じ業界",
-      "theme_id": null,
-      "label": "鉱業業界のニュース",
-      "category": "",
-      "category_label": "同じ業界",
-      "category_emoji": "🏭",
-      "member_ids": [
-        "25e69cb24fd0",
-        "b312f4e21246"
-      ],
-      "members": [
-        {
-          "id": "25e69cb24fd0",
-          "title": "「イランに勝てない米軍は中国にも勝てない」 米研究者、 台湾有事への直接介入排除を提言",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qRFU0c2E0M2kwRVJPZVVNWDBKdkoxbVMwZ1pxaV9pNDc0ZTNXUU41U3dkdmpubFNtZ0tmWTdhWWhpOFlrRjBpbVZzMjAzNHlG?oc=5",
-          "importance": 4,
-          "source": "Storm.mg"
-        },
-        {
-          "id": "b312f4e21246",
-          "title": "NY円反落、158円台半ば 原油高で米金利上昇が重荷",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5OcUxCaXF1ODBFQlhrOTJSMDJyRTRDbUhkWFNqRF91d3luekcwSU9hYUtEM19aY185S0tibnNBRTVPSnRiMTFJOHFMSFdYNVVLNE5hZVhmdjc1QVNtWldWVTZleVNUU2REeVlnejRrN0xleXJK?oc=5",
-          "importance": 2,
-          "source": "BigGo ファイナンス"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "1605",
-          "name": "INPEX",
-          "positive": 2,
-          "negative": 0,
-          "watch": 0
-        }
-      ],
-      "max_importance": 4,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "connection_type": "supply_chain",
-      "connection_label": "資源・サプライチェーン",
-      "theme_id": null,
-      "label": "データセンターに関連するニュース",
-      "category": "",
-      "category_label": "資源・サプライチェーン",
-      "category_emoji": "🔗",
-      "member_ids": [
-        "25e69cb24fd0",
-        "dd974f5f4ab2",
-        "8b1e8215f8f4",
-        "bc27ba71d496",
-        "f5ae6d9fe065",
-        "611fc7598296",
-        "b312f4e21246",
-        "80511f976ed0",
-        "56c9914693c7"
-      ],
-      "members": [
-        {
-          "id": "25e69cb24fd0",
-          "title": "「イランに勝てない米軍は中国にも勝てない」 米研究者、 台湾有事への直接介入排除を提言",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qRFU0c2E0M2kwRVJPZVVNWDBKdkoxbVMwZ1pxaV9pNDc0ZTNXUU41U3dkdmpubFNtZ0tmWTdhWWhpOFlrRjBpbVZzMjAzNHlG?oc=5",
-          "importance": 4,
-          "source": "Storm.mg"
-        },
-        {
-          "id": "dd974f5f4ab2",
-          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月9日(金曜日))",
-          "url": "https://www.mof.go.jp/public_relations/conference/my20261009.html",
-          "importance": 3,
-          "source": "財務省"
-        },
-        {
-          "id": "8b1e8215f8f4",
-          "title": "木原内閣官房長官は第３回租税特別措置・補助金・基金の徹底見直しに関する関係閣僚等及び副大臣会議を開催しました",
-          "url": "https://www.kantei.go.jp/jp/pages/20261009choukan_hojyokin.html",
-          "importance": 3,
-          "source": "首相官邸"
-        },
-        {
-          "id": "bc27ba71d496",
-          "title": "閣議の概要について（尾﨑正直内閣官房副長官）",
-          "url": "https://www.kantei.go.jp/jp/tyoukanpress/202610/9_a.html",
-          "importance": 3,
-          "source": "首相官邸"
-        },
-        {
-          "id": "f5ae6d9fe065",
-          "title": "木原内閣官房長官は給与関係閣僚会議を開催しました",
-          "url": "https://www.kantei.go.jp/jp/pages/20261009choukan_kyuuyo.html",
-          "importance": 3,
-          "source": "首相官邸"
-        },
-        {
-          "id": "611fc7598296",
-          "title": "内閣官房長官談話を掲載しました",
-          "url": "https://www.kantei.go.jp/jp/tyokan/105/20261009danwa.html",
-          "importance": 3,
-          "source": "首相官邸"
-        },
-        {
-          "id": "b312f4e21246",
-          "title": "NY円反落、158円台半ば 原油高で米金利上昇が重荷",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5OcUxCaXF1ODBFQlhrOTJSMDJyRTRDbUhkWFNqRF91d3luekcwSU9hYUtEM19aY185S0tibnNBRTVPSnRiMTFJOHFMSFdYNVVLNE5hZVhmdjc1QVNtWldWVTZleVNUU2REeVlnejRrN0xleXJK?oc=5",
-          "importance": 2,
-          "source": "BigGo ファイナンス"
-        },
-        {
-          "id": "80511f976ed0",
-          "title": "「インターネット取引サービスへの不正アクセス・不正取引にご注意ください」のページを更新しました。",
-          "url": "https://www.fsa.go.jp/ordinary/chuui/chuui_phishing.html",
-          "importance": 2,
-          "source": "金融庁"
-        },
-        {
-          "id": "56c9914693c7",
-          "title": "注意喚起: 直近で相次いでいる国内組織における不正アクセスに関する注意喚起  (更新)",
-          "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
-          "importance": 2,
-          "source": "JPCERT/CC"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "1812",
-          "name": "鹿島建設",
-          "positive": 5,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "6701",
-          "name": "日本電気",
-          "positive": 3,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "9503",
-          "name": "関西電力",
-          "positive": 0,
-          "negative": 1,
-          "watch": 0
-        }
-      ],
-      "max_importance": 4,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
       "connection_type": "supply_chain",
       "connection_label": "資源・サプライチェーン",
       "theme_id": null,
@@ -12458,6 +12352,117 @@
       "connection_type": "supply_chain",
       "connection_label": "資源・サプライチェーン",
       "theme_id": null,
+      "label": "データセンターに関連するニュース",
+      "category": "",
+      "category_label": "資源・サプライチェーン",
+      "category_emoji": "🔗",
+      "member_ids": [
+        "25e69cb24fd0",
+        "dd974f5f4ab2",
+        "8b1e8215f8f4",
+        "bc27ba71d496",
+        "f5ae6d9fe065",
+        "611fc7598296",
+        "80511f976ed0",
+        "56c9914693c7"
+      ],
+      "members": [
+        {
+          "id": "25e69cb24fd0",
+          "title": "「イランに勝てない米軍は中国にも勝てない」 米研究者、 台湾有事への直接介入排除を提言",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qRFU0c2E0M2kwRVJPZVVNWDBKdkoxbVMwZ1pxaV9pNDc0ZTNXUU41U3dkdmpubFNtZ0tmWTdhWWhpOFlrRjBpbVZzMjAzNHlG?oc=5",
+          "importance": 4,
+          "source": "Storm.mg"
+        },
+        {
+          "id": "dd974f5f4ab2",
+          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月9日(金曜日))",
+          "url": "https://www.mof.go.jp/public_relations/conference/my20261009.html",
+          "importance": 3,
+          "source": "財務省"
+        },
+        {
+          "id": "8b1e8215f8f4",
+          "title": "木原内閣官房長官は第３回租税特別措置・補助金・基金の徹底見直しに関する関係閣僚等及び副大臣会議を開催しました",
+          "url": "https://www.kantei.go.jp/jp/pages/20261009choukan_hojyokin.html",
+          "importance": 3,
+          "source": "首相官邸"
+        },
+        {
+          "id": "bc27ba71d496",
+          "title": "閣議の概要について（尾﨑正直内閣官房副長官）",
+          "url": "https://www.kantei.go.jp/jp/tyoukanpress/202610/9_a.html",
+          "importance": 3,
+          "source": "首相官邸"
+        },
+        {
+          "id": "f5ae6d9fe065",
+          "title": "木原内閣官房長官は給与関係閣僚会議を開催しました",
+          "url": "https://www.kantei.go.jp/jp/pages/20261009choukan_kyuuyo.html",
+          "importance": 3,
+          "source": "首相官邸"
+        },
+        {
+          "id": "611fc7598296",
+          "title": "内閣官房長官談話を掲載しました",
+          "url": "https://www.kantei.go.jp/jp/tyokan/105/20261009danwa.html",
+          "importance": 3,
+          "source": "首相官邸"
+        },
+        {
+          "id": "80511f976ed0",
+          "title": "「インターネット取引サービスへの不正アクセス・不正取引にご注意ください」のページを更新しました。",
+          "url": "https://www.fsa.go.jp/ordinary/chuui/chuui_phishing.html",
+          "importance": 2,
+          "source": "金融庁"
+        },
+        {
+          "id": "56c9914693c7",
+          "title": "注意喚起: 直近で相次いでいる国内組織における不正アクセスに関する注意喚起  (更新)",
+          "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+          "importance": 2,
+          "source": "JPCERT/CC"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "1812",
+          "name": "鹿島建設",
+          "positive": 5,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "6701",
+          "name": "日本電気",
+          "positive": 3,
+          "negative": 0,
+          "watch": 0
+        }
+      ],
+      "max_importance": 4,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "connection_type": "supply_chain",
+      "connection_label": "資源・サプライチェーン",
+      "theme_id": null,
       "label": "インバウンドに関連するニュース",
       "category": "",
       "category_label": "資源・サプライチェーン",
@@ -12469,6 +12474,7 @@
         "bc27ba71d496",
         "f5ae6d9fe065",
         "611fc7598296",
+        "678604731abc",
         "6679e3d59cd6"
       ],
       "members": [
@@ -12515,6 +12521,13 @@
           "source": "首相官邸"
         },
         {
+          "id": "678604731abc",
+          "title": "【投資クイズ】円安はまだ続く？為替が動く仕組みを学ぼう",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12OUttbVhEaVFmVEJ2MjdnTjhhTk05dVM1VHprRnE5TG5qcGRRbVBjQXQ5ZlppLTRGdl9URHdpYlE4Yko0QkhnVWpJU2t5OGs5NXBhWlJNWmtOQQ?oc=5",
+          "importance": 2,
+          "source": "トウシル"
+        },
+        {
           "id": "6679e3d59cd6",
           "title": "【日経平均8万円超】朝倉慶が予測！株高・円安・金利高で加速する爆発的強気シナリオ 2026年10月9日",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1zdkllT3VtcHM1QzZvMDl4WG0xNUhmaUZVcGtiSGo1d1lSOVdEa1o5V0lRbWpmUXJlYjMtSUFfN3ZERmdteFlHR0xOd2Utb2daVWJ2UkxwZEpqbWRMclNETjBVOA?oc=5",
@@ -12548,7 +12561,7 @@
           "code": "9983",
           "name": "ファーストリテイリング",
           "positive": 0,
-          "negative": 2,
+          "negative": 3,
           "watch": 0
         }
       ],
@@ -12582,6 +12595,7 @@
       "member_ids": [
         "f926a6172654",
         "b6cd2e0a3343",
+        "678604731abc",
         "3cc6fcb4892a",
         "0961c0adbe8e",
         "d665dae7ddc3",
@@ -12601,6 +12615,13 @@
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYWg0NlQ2SHUzcjliaE9GUE1GZU9BODF5Vm15VnNzSDZXZ25BZGx2eEY4WW1mSV9RQnBwc0pRMkY3dldwT21uZk1BdF9DUjh5YU1MaXMyQVBpaFZoZ0pqb0hLeklVWUYwaS1YZVdOU3RaOVR4N1V0TkluZ1oxSDR2Y1JPUV83VTA?oc=5",
           "importance": 4,
           "source": "Yahoo!ファイナンス"
+        },
+        {
+          "id": "678604731abc",
+          "title": "【投資クイズ】円安はまだ続く？為替が動く仕組みを学ぼう",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12OUttbVhEaVFmVEJ2MjdnTjhhTk05dVM1VHprRnE5TG5qcGRRbVBjQXQ5ZlppLTRGdl9URHdpYlE4Yko0QkhnVWpJU2t5OGs5NXBhWlJNWmtOQQ?oc=5",
+          "importance": 2,
+          "source": "トウシル"
         },
         {
           "id": "3cc6fcb4892a",
@@ -12635,42 +12656,42 @@
         {
           "code": "7203",
           "name": "トヨタ自動車",
-          "positive": 4,
+          "positive": 5,
           "negative": 1,
           "watch": 1
         },
         {
           "code": "7267",
           "name": "本田技研工業",
-          "positive": 2,
+          "positive": 3,
           "negative": 1,
           "watch": 0
         },
         {
           "code": "7201",
           "name": "日産自動車",
-          "positive": 2,
+          "positive": 3,
           "negative": 1,
           "watch": 0
         },
         {
           "code": "7269",
           "name": "スズキ",
-          "positive": 2,
+          "positive": 3,
           "negative": 1,
           "watch": 0
         },
         {
           "code": "7270",
           "name": "SUBARU",
-          "positive": 2,
+          "positive": 3,
           "negative": 0,
           "watch": 0
         },
         {
           "code": "7261",
           "name": "マツダ",
-          "positive": 2,
+          "positive": 3,
           "negative": 0,
           "watch": 0
         }
@@ -12713,7 +12734,7 @@
     "milestones": {
       "accumulating": "2026-09-21"
     },
-    "last_computed_at": "2026-10-11T07:33:47+09:00"
+    "last_computed_at": "2026-10-11T09:13:43+09:00"
   },
   "counts": {
     "news": 40,
