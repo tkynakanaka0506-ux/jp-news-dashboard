@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-15 21:04",
-  "generated_iso": "2026-10-15T21:04:17+09:00",
+  "generated_at": "2026-10-15 21:38",
+  "generated_iso": "2026-10-15T21:38:54+09:00",
   "status": "updated",
   "status_message": "40 件のニュースを取得しました。",
   "llm_used": true,
@@ -65,13 +65,13 @@
     },
     {
       "label": "日経先物",
-      "value": "64,735.00",
-      "change_pct": -2.62,
+      "value": "64,720.00",
+      "change_pct": -2.65,
       "asof": "10/15終値"
     },
     {
       "label": "ドル円",
-      "value": "157.94円",
+      "value": "157.95円",
       "change_pct": -0.24,
       "asof": "10/15終値"
     },
@@ -998,7 +998,7 @@
       "category_label": "米国市場",
       "category_emoji": "🇺🇸",
       "importance": 4,
-      "importance_reason": "重要語「利上げ」・影響テーマ「米国株・ハイテク株の変動」に該当・2媒体が報道",
+      "importance_reason": "重要語「利上げ」・影響テーマ「米国株・ハイテク株の変動」に該当",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
@@ -1124,13 +1124,7 @@
           "policy_to_earnings_stage": null
         }
       ],
-      "related": [
-        {
-          "title": "米国株式市場＝ナスダック続落、半導体株安続く 銀行決算まちまち",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQjJxYXRNNGdDdXk4TjZfdTc2ZGpab3Zidm1lVi01VXJhVGctcnNhQU5LVk9HUTVSaExWUEE1NkRkZmw5aVl2V01YR0o0Q0JpbEVreEUwSG9CUEtHem9zeEVZMGM2QW5jQ2lVUjdnMFFrbXUtc2Yya0hIMHFMNDA0UndnTG1qUQ?oc=5",
-          "source": "Reuters"
-        }
-      ],
+      "related": [],
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -7338,9 +7332,9 @@
       "news_novelty": "medium",
       "news_novelty_label": "続報",
       "policy_event_id": "deregulation-20261015-01",
-      "policy_event_is_update": false,
+      "policy_event_is_update": true,
       "policy_event_first_seen": "2026-10-15",
-      "policy_event_state": "NEW",
+      "policy_event_state": "UPDATE",
       "themes": [
         "規制緩和・法改正"
       ],
@@ -8171,6 +8165,60 @@
           "title": "〔決算〕高島屋、２７年２月期の連結業績予想を上方修正",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOM015RHVXRTRxbHg1VWRGeFdKN1R5RU1aWXRYZ1p0TEZSYmpfMzIyczRhc09WellpU3ZLVHVfMkp6VW5aMU5kci1KVVE2V1hLdWg4MV9COUg2am4wY21zZklfTmR0VUY0Y2w3TWVibUhOeG8xMV9jZUdxMGcydGFURTEzZ2F2eC1jbE8yMEhZTk1NX2liMXBzY2w1cGVEZlU2QkU4MnRkQ0s1WXp2ejRXYWo1bHNCLVk0bjJrVUhzdDBjR0F5THhmdXg1T0hobnVm0gGAAUFVX3lxTE9kQjJaakZ4N1pxZ2JxTjc4cGl4X3ZMOFVaXzlmOE1OckNuaG0wanp5LXFKbFdSTXRGS0ktelVPT2duWEctUkxoNDVVQ0hrc19EUVZuQUlGQXZYSHc0ZkVCOGlyb0hQSDd2UFloQXRPOEx4XzFzU2diM3Z6c1VWNkZv?oc=5",
           "source": "ｄメニューニュース"
+        }
+      ],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "7364d2eb8bd3",
+      "title": "大末建、今期経常を一転5％増益に上方修正・最高益、配当も48円増額",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5QUlrMmp0N0tVWFNxOFdWRHNMWWNJVlhxdEFpUU5uUFpVYjB6S2lnVGdxWC0wWnR5aWJBMEtCUFpNSGxRN1dtd3VuYzhzdDdDeXc?oc=5",
+      "source": "株探",
+      "source_tier": "commentary",
+      "source_tier_label": "市場解説",
+      "published_at": "2026-10-15 16:30",
+      "published_ts": 1792049400.0,
+      "category": "corporate",
+      "category_label": "企業・決算",
+      "category_emoji": "🏢",
+      "importance": 3,
+      "importance_reason": "重要語「上方修正」・2媒体が報道",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [
+        {
+          "title": "ＭＯＲＥＳＣ、今期経常を一転78％増益に上方修正・12期ぶり最高益、配当も40円増額",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBGMDlSZUVVdThnVEF4U3ZZSm9ubzhXNEVMWnRpckRCc2duVVJ5Qk4tajB4ZVpMQ3YyM201S3ZLeXhvWlc1cWtzZU1iVGNveVc5RlE?oc=5",
+          "source": "株探"
         }
       ],
       "emergence_stage": null,
@@ -9483,7 +9531,7 @@
       "category_label": "為替",
       "category_emoji": "💱",
       "importance": 3,
-      "importance_reason": "影響テーマ「円高進行」に該当・3媒体が報道",
+      "importance_reason": "影響テーマ「円高進行」に該当・4媒体が報道",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
@@ -9681,6 +9729,11 @@
         {
           "title": "外為：NZドル、88円72銭前後とNZドル安・円高で推移(株探ニュース)",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNckpJVE5yYlpaRVB3WHpLMlRaSlZsYl92OUYwYWZBUjU0MVhKLTF4MzdxMGNmSEFFTWhhVFlQWHJ6T3JiY3dqbkxfWV9ZU1pVS0tMOWlCbV9KWEhTNkVodS1BWWlxTmJ4WlVDNGtkMFFxSThhMDRhZUpYcFBiV3E4UzdTSTFDTmc?oc=5",
+          "source": "Yahoo!ファイナンス"
+        },
+        {
+          "title": "外為：1ドル158円14銭前後と小幅なドル安・円高で推移(株探ニュース)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOWJ0UWdIc1hRUk1OTUIzX1lpYXVaQTlocEV4elh1SmswdkRwc2NyWG1WTnV0NFRoSC1GT2dZeEtLZk9Mc041WDlBLXk1Y0dXVnd1RTFnUkxzcTluNmlRT3JzQXhnal90Z0VFUkpBcXdNY0ZXb09oUXhEZGZ6Y2p4WkJNLVYwSWs?oc=5",
           "source": "Yahoo!ファイナンス"
         }
       ],
@@ -10270,12 +10323,12 @@
       "category_label": "半導体・AI",
       "category_emoji": "🤖",
       "importance": 3,
-      "importance_reason": "影響テーマ「半導体・AI投資の拡大」に該当・2媒体が報道",
+      "importance_reason": "影響テーマ「半導体・AI投資の拡大」に該当・3媒体が報道",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
+      "news_novelty": "medium",
+      "news_novelty_label": "続報",
       "policy_event_id": "semi_demand-20260920-01",
       "policy_event_is_update": true,
       "policy_event_first_seen": "2026-09-20",
@@ -10462,6 +10515,11 @@
         }
       ],
       "related": [
+        {
+          "title": "ダウ平均は下落 ナスダックも大幅安 半導体のほか金融株が下落＝米国株序盤",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZl85eXBDMkQtbjk1dnE4VndENVd4WGw1Mzdvd05Ba2M0UnBaMHAwMzFvRngxbTVqSW5TcVN4c2Vqdnk5OUJqWndEZm9IUWppWDZBeldZOUJHcWsxTmdUZ1VKUnNrNVg5YktGaXR1czZQT3lSdzM4LXdFdjg1cXpkajFSN1lrU29uZTlz?oc=5",
+          "source": "Moomoo"
+        },
         {
           "title": "ダウ平均は続落 ナスダックは大幅安 半導体のほか銀行株が下落＝米国株概況",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9kZEhGTjIzZVdSajE3SG1pT0pjZll6ZUIyTFRrUE43RlFzQkRZVW96czFiWVFraXkwa1V3Z2plX1U3WGRLVWlvU21vNEpEQi1Ccjk4SUxMRjhQSFpYLXJ1VA?oc=5",
@@ -11478,34 +11536,144 @@
       "emergence_growth": {}
     },
     {
-      "id": "3361abb27e23",
-      "title": "東宝－27年2月期の連結業績予想を上方修正〔DZH 個別株情報〕(時事通信)",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONFE5cXpHWFVsZ2QxVkpGb3pPbDRXRC1GMTUtT0pnNDl4U2h5NWtmaDRseUw4NWV1TzE3TTJiTmltUkNSZTNxa0E0U2JFbjZOc0tOMGF5NXByTl9rcUVZbzlEcFc4RWFuaXplcFpqZzN6UzRzZDRPYjA4d2NFUHE2M2NSME01d1U?oc=5",
-      "source": "Yahoo!ファイナンス",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-10-15 17:00",
-      "published_ts": 1792051246.0,
-      "category": "corporate",
-      "category_label": "企業・決算",
-      "category_emoji": "🏢",
+      "id": "daa79e29d271",
+      "title": "ダウ先物は上昇もナスダック１００は大幅安＝米国株",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ZUHMzMGlWU0RMMTZ0WG4wOUVScm9iSVhHT0JCRjB4NGFXLXk3NFhGbm5aMVpNT3BWd3dMek52UUY2RWNsWVJuN3lLREQzODNiVFE?oc=5",
+      "source": "株探",
+      "source_tier": "commentary",
+      "source_tier_label": "市場解説",
+      "published_at": "2026-10-15 21:18",
+      "published_ts": 1792066680.0,
+      "category": "us",
+      "category_label": "米国市場",
+      "category_emoji": "🇺🇸",
       "importance": 2,
-      "importance_reason": "重要語「上方修正」",
+      "importance_reason": "影響テーマ「米国株・ハイテク株の変動」に該当",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
+      "news_novelty": "low",
+      "news_novelty_label": "再報道",
+      "policy_event_id": "us_stock_move-20260921-02",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-09-21",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "米国株・ハイテク株の変動"
+      ],
+      "theme_ids": [
+        "us_stock_move"
+      ],
       "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
-      "impacts": [],
+      "impacts": [
+        {
+          "code": "8604",
+          "name": "野村ホールディングス",
+          "sector": "証券",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 35,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8601",
+          "name": "大和証券グループ本社",
+          "sector": "証券",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 35,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8473",
+          "name": "SBIホールディングス",
+          "sector": "証券",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 35,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9984",
+          "name": "ソフトバンクグループ",
+          "sector": "情報・通信",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 35,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "sector": "自動車",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 35,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
       "related": [],
       "emergence_stage": null,
       "emergence_stage_label": "",
@@ -11526,14 +11694,14 @@
       "emergence_growth": {}
     },
     {
-      "id": "7364d2eb8bd3",
-      "title": "大末建、今期経常を一転5％増益に上方修正・最高益、配当も48円増額",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5QUlrMmp0N0tVWFNxOFdWRHNMWWNJVlhxdEFpUU5uUFpVYjB6S2lnVGdxWC0wWnR5aWJBMEtCUFpNSGxRN1dtd3VuYzhzdDdDeXc?oc=5",
-      "source": "株探",
-      "source_tier": "commentary",
-      "source_tier_label": "市場解説",
-      "published_at": "2026-10-15 16:30",
-      "published_ts": 1792049400.0,
+      "id": "3361abb27e23",
+      "title": "東宝－27年2月期の連結業績予想を上方修正〔DZH 個別株情報〕(時事通信)",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONFE5cXpHWFVsZ2QxVkpGb3pPbDRXRC1GMTUtT0pnNDl4U2h5NWtmaDRseUw4NWV1TzE3TTJiTmltUkNSZTNxa0E0U2JFbjZOc0tOMGF5NXByTl9rcUVZbzlEcFc4RWFuaXplcFpqZzN6UzRzZDRPYjA4d2NFUHE2M2NSME01d1U?oc=5",
+      "source": "Yahoo!ファイナンス",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-10-15 17:00",
+      "published_ts": 1792051246.0,
       "category": "corporate",
       "category_label": "企業・決算",
       "category_emoji": "🏢",
@@ -11849,54 +12017,6 @@
       "category_emoji": "📈",
       "importance": 2,
       "importance_reason": "重要語「急落」",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "7b864040231a",
-      "title": "QPSホールディングスが業績上方修正好感し3日ぶり反発",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBpSWxmWVpOaEtjbnFaZmxDTk5pLUVlYVFBaXpIdW5HU2ZzS2xHaGwyUnRBVDVRdjhaM0RWM2F3emlDSHhzYkFSUGRzUXpqd1ZRaEZWbDNNYw?oc=5",
-      "source": "四季報オンライン",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-10-15 10:53",
-      "published_ts": 1792029205.0,
-      "category": "corporate",
-      "category_label": "企業・決算",
-      "category_emoji": "🏢",
-      "importance": 2,
-      "importance_reason": "重要語「上方修正」",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
@@ -16306,6 +16426,1163 @@
     {
       "connection_type": "theme",
       "connection_label": "同じテーマ",
+      "theme_id": "us_stock_move",
+      "label": "米国株・ハイテク株の変動",
+      "category": "us",
+      "category_label": "米国市場",
+      "category_emoji": "🇺🇸",
+      "member_ids": [
+        "e660583cc48f",
+        "feab04bc9fc6",
+        "daa79e29d271"
+      ],
+      "members": [
+        {
+          "id": "e660583cc48f",
+          "title": "米国株式市場＝ナスダック大幅安、インフレ加速で利上げ懸念",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQjVGN3A0TnI3X0gtQWhTQmMxUnk2bEdrdno2c3R1UzQ0NWlUV2hEYVl5WUJGUUpwZUtiVUVjT1pEVDNwN1NBNnhFQUpnR0RCT211Q3lkMjJIREFaamhDTnA4SXJBVDZBc0JTbGFSUnhoVjNfX2tHeFdiT0V2UDg2LUVPcDF4UQ?oc=5",
+          "importance": 4,
+          "source": "Reuters"
+        },
+        {
+          "id": "feab04bc9fc6",
+          "title": "ダウ平均は下落 ナスダックも大幅安 半導体のほか金融株が下落＝米国株序盤",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE54WTVRc281LUpSbEd5WDE4SC10SUM4UEprVG85Y3Y3T1dlNUphYTBHUGliakN2VEhrMFMzS2JLOGJCQUJtUUI2MlFnckxYSUl4MHN6YzMwUUphR1FmaWNHeg?oc=5",
+          "importance": 3,
+          "source": "株探"
+        },
+        {
+          "id": "daa79e29d271",
+          "title": "ダウ先物は上昇もナスダック１００は大幅安＝米国株",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ZUHMzMGlWU0RMMTZ0WG4wOUVScm9iSVhHT0JCRjB4NGFXLXk3NFhGbm5aMVpNT3BWd3dMek52UUY2RWNsWVJuN3lLREQzODNiVFE?oc=5",
+          "importance": 2,
+          "source": "株探"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "8604",
+          "name": "野村ホールディングス",
+          "positive": 1,
+          "negative": 1,
+          "watch": 1
+        },
+        {
+          "code": "8601",
+          "name": "大和証券グループ本社",
+          "positive": 1,
+          "negative": 1,
+          "watch": 1
+        },
+        {
+          "code": "8473",
+          "name": "SBIホールディングス",
+          "positive": 1,
+          "negative": 1,
+          "watch": 1
+        },
+        {
+          "code": "9984",
+          "name": "ソフトバンクグループ",
+          "positive": 1,
+          "negative": 1,
+          "watch": 1
+        },
+        {
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "positive": 1,
+          "negative": 0,
+          "watch": 1
+        }
+      ],
+      "max_importance": 4,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [
+        "海外の動き",
+        "複数媒体での同時報道"
+      ],
+      "emergence_event_count": 87,
+      "emergence_source_count": 18,
+      "emergence_actor_type_count": 1,
+      "emergence_actor_type_labels": [
+        "複数メディア"
+      ],
+      "emergence_actor_type_breakdown": [
+        {
+          "label": "複数メディア",
+          "count": 32
+        }
+      ],
+      "emergence_region_count": 2,
+      "emergence_regions": [
+        "中国",
+        "米国"
+      ],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": "2026-09-20",
+      "emergence_window_counts": {
+        "7": 28,
+        "30": 87,
+        "90": 87
+      },
+      "emergence_timeline": [
+        {
+          "date": "2026-09-21",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-21",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-22",
+          "source": "日本経済新聞",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-22",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-22",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-23",
+          "source": "BigGo ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-23",
+          "source": "BigGo ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-23",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-23",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-23",
+          "source": "TradingKey",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-23",
+          "source": "Reuters",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-23",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-25",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-25",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-25",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-27",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-28",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-29",
+          "source": "tradingview.com",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-29",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-29",
+          "source": "chiba-tv.com",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-30",
+          "source": "日本経済新聞",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-30",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-01",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-01",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-01",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-01",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-01",
+          "source": "Reuters",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-01",
+          "source": "BigGo ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "中国",
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-01",
+          "source": "Infoseek",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-02",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-02",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-02",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-02",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-03",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-03",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-03",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-03",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-05",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-05",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-06",
+          "source": "nikkei.com",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-06",
+          "source": "マネクリ",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-06",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-06",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-07",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-07",
+          "source": "Reuters",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-07",
+          "source": "千葉テレビ放送株式会社",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-07",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-07",
+          "source": "Business Insider Japan",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-07",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-08",
+          "source": "BigGo ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "source": "マネーフォワード",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "source": "Moomoo",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "source": "日本経済新聞",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-11",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-13",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-13",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-13",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-13",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-13",
+          "source": "Vietnam.vn",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "source": "Reuters",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "source": "株探",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "source": "株探",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        }
+      ],
+      "emergence_milestones": [
+        {
+          "date": "2026-09-23",
+          "actor_type_label": "複数メディア"
+        }
+      ],
+      "emergence_diagnosis": {
+        "target_stage": "watch",
+        "target_stage_label": "👀 要監視テーマ",
+        "source_count": 18,
+        "required_sources": 2,
+        "signal_count": 2,
+        "required_signals": 3,
+        "missing": [
+          "シグナル種別があと1種類必要"
+        ]
+      },
+      "emergence_growth": {
+        "window_days": 14,
+        "recent_new_actor_types": 0,
+        "total_actor_types": 1
+      }
+    },
+    {
+      "connection_type": "theme",
+      "connection_label": "同じテーマ",
       "theme_id": "ukraine_russia",
       "label": "ウクライナ・ロシア情勢",
       "category": "geopolitics",
@@ -17413,1144 +18690,6 @@
         "window_days": 14,
         "recent_new_actor_types": 1,
         "total_actor_types": 3
-      }
-    },
-    {
-      "connection_type": "theme",
-      "connection_label": "同じテーマ",
-      "theme_id": "us_stock_move",
-      "label": "米国株・ハイテク株の変動",
-      "category": "us",
-      "category_label": "米国市場",
-      "category_emoji": "🇺🇸",
-      "member_ids": [
-        "e660583cc48f",
-        "feab04bc9fc6"
-      ],
-      "members": [
-        {
-          "id": "e660583cc48f",
-          "title": "米国株式市場＝ナスダック大幅安、インフレ加速で利上げ懸念",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQjVGN3A0TnI3X0gtQWhTQmMxUnk2bEdrdno2c3R1UzQ0NWlUV2hEYVl5WUJGUUpwZUtiVUVjT1pEVDNwN1NBNnhFQUpnR0RCT211Q3lkMjJIREFaamhDTnA4SXJBVDZBc0JTbGFSUnhoVjNfX2tHeFdiT0V2UDg2LUVPcDF4UQ?oc=5",
-          "importance": 4,
-          "source": "Reuters"
-        },
-        {
-          "id": "feab04bc9fc6",
-          "title": "ダウ平均は下落 ナスダックも大幅安 半導体のほか金融株が下落＝米国株序盤",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE54WTVRc281LUpSbEd5WDE4SC10SUM4UEprVG85Y3Y3T1dlNUphYTBHUGliakN2VEhrMFMzS2JLOGJCQUJtUUI2MlFnckxYSUl4MHN6YzMwUUphR1FmaWNHeg?oc=5",
-          "importance": 3,
-          "source": "株探"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "8604",
-          "name": "野村ホールディングス",
-          "positive": 0,
-          "negative": 1,
-          "watch": 1
-        },
-        {
-          "code": "8601",
-          "name": "大和証券グループ本社",
-          "positive": 0,
-          "negative": 1,
-          "watch": 1
-        },
-        {
-          "code": "8473",
-          "name": "SBIホールディングス",
-          "positive": 0,
-          "negative": 1,
-          "watch": 1
-        },
-        {
-          "code": "9984",
-          "name": "ソフトバンクグループ",
-          "positive": 0,
-          "negative": 1,
-          "watch": 1
-        },
-        {
-          "code": "7203",
-          "name": "トヨタ自動車",
-          "positive": 0,
-          "negative": 0,
-          "watch": 1
-        }
-      ],
-      "max_importance": 4,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [
-        "海外の動き",
-        "複数媒体での同時報道"
-      ],
-      "emergence_event_count": 86,
-      "emergence_source_count": 18,
-      "emergence_actor_type_count": 1,
-      "emergence_actor_type_labels": [
-        "複数メディア"
-      ],
-      "emergence_actor_type_breakdown": [
-        {
-          "label": "複数メディア",
-          "count": 32
-        }
-      ],
-      "emergence_region_count": 2,
-      "emergence_regions": [
-        "中国",
-        "米国"
-      ],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": "2026-09-20",
-      "emergence_window_counts": {
-        "7": 27,
-        "30": 86,
-        "90": 86
-      },
-      "emergence_timeline": [
-        {
-          "date": "2026-09-21",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-09-21",
-          "source": "みんかぶ FX/為替",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-22",
-          "source": "日本経済新聞",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-09-22",
-          "source": "みんかぶ FX/為替",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-22",
-          "source": "TradingView",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-23",
-          "source": "BigGo ファイナンス",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-23",
-          "source": "BigGo ファイナンス",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-09-23",
-          "source": "みんかぶ FX/為替",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-23",
-          "source": "株探",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-23",
-          "source": "TradingKey",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-23",
-          "source": "Reuters",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-23",
-          "source": "TradingView",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-24",
-          "source": "みんかぶ FX/為替",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-24",
-          "source": "Reuters",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-24",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-25",
-          "source": "株探",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-25",
-          "source": "TradingView",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-25",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-26",
-          "source": "TradingView",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-26",
-          "source": "株探",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-26",
-          "source": "TradingView",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-26",
-          "source": "TradingView",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-27",
-          "source": "TradingView",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-28",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-29",
-          "source": "tradingview.com",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-29",
-          "source": "TradingView",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-29",
-          "source": "chiba-tv.com",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-30",
-          "source": "日本経済新聞",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-09-30",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-01",
-          "source": "みんかぶ FX/為替",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-01",
-          "source": "株探",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-01",
-          "source": "みんかぶ FX/為替",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-01",
-          "source": "みんかぶ FX/為替",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-01",
-          "source": "Reuters",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-01",
-          "source": "BigGo ファイナンス",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "中国",
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-01",
-          "source": "Infoseek",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-02",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-02",
-          "source": "TradingView",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-02",
-          "source": "TradingView",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-02",
-          "source": "TradingView",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-03",
-          "source": "TradingView",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-03",
-          "source": "TradingView",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-03",
-          "source": "TradingView",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-03",
-          "source": "TradingView",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-05",
-          "source": "TradingView",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-05",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-06",
-          "source": "Reuters",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-06",
-          "source": "nikkei.com",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-06",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-06",
-          "source": "Reuters",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-06",
-          "source": "マネクリ",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-06",
-          "source": "みんかぶ FX/為替",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-06",
-          "source": "株探",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-07",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-07",
-          "source": "Reuters",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-07",
-          "source": "千葉テレビ放送株式会社",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-07",
-          "source": "みんかぶ FX/為替",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-07",
-          "source": "Business Insider Japan",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-07",
-          "source": "みんかぶ FX/為替",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-08",
-          "source": "BigGo ファイナンス",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-09",
-          "source": "Reuters",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-09",
-          "source": "みんかぶ FX/為替",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-09",
-          "source": "みんかぶ FX/為替",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-09",
-          "source": "株探",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-10",
-          "source": "株探",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-10",
-          "source": "マネーフォワード",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-10",
-          "source": "みんかぶ FX/為替",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-10",
-          "source": "Moomoo",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-10",
-          "source": "日本経済新聞",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-11",
-          "source": "株探",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-13",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-13",
-          "source": "Reuters",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-13",
-          "source": "みんかぶ FX/為替",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-13",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-13",
-          "source": "Vietnam.vn",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-14",
-          "source": "株探",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-14",
-          "source": "Reuters",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-14",
-          "source": "みんかぶ FX/為替",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-14",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-14",
-          "source": "株探",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-14",
-          "source": "TradingView",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-15",
-          "source": "株探",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-15",
-          "source": "Reuters",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-15",
-          "source": "みんかぶ FX/為替",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-15",
-          "source": "株探",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-15",
-          "source": "株探",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        }
-      ],
-      "emergence_milestones": [
-        {
-          "date": "2026-09-23",
-          "actor_type_label": "複数メディア"
-        }
-      ],
-      "emergence_diagnosis": {
-        "target_stage": "watch",
-        "target_stage_label": "👀 要監視テーマ",
-        "source_count": 18,
-        "required_sources": 2,
-        "signal_count": 2,
-        "required_signals": 3,
-        "missing": [
-          "シグナル種別があと1種類必要"
-        ]
-      },
-      "emergence_growth": {
-        "window_days": 14,
-        "recent_new_actor_types": 0,
-        "total_actor_types": 1
       }
     },
     {
@@ -21111,6 +21250,7 @@
         "31ea33743682",
         "feab04bc9fc6",
         "2f14a2420cc8",
+        "daa79e29d271",
         "80346f9e2f71",
         "97f28071c880",
         "534636b4209d"
@@ -21194,6 +21334,13 @@
           "source": "PR TIMES"
         },
         {
+          "id": "daa79e29d271",
+          "title": "ダウ先物は上昇もナスダック１００は大幅安＝米国株",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ZUHMzMGlWU0RMMTZ0WG4wOUVScm9iSVhHT0JCRjB4NGFXLXk3NFhGbm5aMVpNT3BWd3dMek52UUY2RWNsWVJuN3lLREQzODNiVFE?oc=5",
+          "importance": 2,
+          "source": "株探"
+        },
+        {
           "id": "80346f9e2f71",
           "title": "令和8年度予算「データセンター等の地方分散によるデジタルインフラ強靱化事業」に係る執行団体（補助事業者）の決定",
           "url": "https://www.soumu.go.jp/menu_news/s-news/01kiban04_02000286.html",
@@ -21247,7 +21394,7 @@
         {
           "code": "9984",
           "name": "ソフトバンクグループ",
-          "positive": 0,
+          "positive": 1,
           "negative": 1,
           "watch": 1
         }
@@ -21288,6 +21435,7 @@
         "31ea33743682",
         "feab04bc9fc6",
         "2f14a2420cc8",
+        "daa79e29d271",
         "80346f9e2f71",
         "97f28071c880",
         "534636b4209d"
@@ -21348,6 +21496,13 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xZlpBTTF5VUIzYldpZGo3Y0dsZDR2ak9IQmVzY3E3TGRjT0RuNWpGazM3S3ozSDlXY0Jna1Y0azVscWNEVTFKd042dHp1NjV3NnNQTHRjWF9uTktOSm9kd1hkWXBtWnc0MXc?oc=5",
           "importance": 3,
           "source": "PR TIMES"
+        },
+        {
+          "id": "daa79e29d271",
+          "title": "ダウ先物は上昇もナスダック１００は大幅安＝米国株",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ZUHMzMGlWU0RMMTZ0WG4wOUVScm9iSVhHT0JCRjB4NGFXLXk3NFhGbm5aMVpNT3BWd3dMek52UUY2RWNsWVJuN3lLREQzODNiVFE?oc=5",
+          "importance": 2,
+          "source": "株探"
         },
         {
           "id": "80346f9e2f71",
@@ -21742,7 +21897,7 @@
     "milestones": {
       "accumulating": "2026-09-21"
     },
-    "last_computed_at": "2026-10-15T21:04:29+09:00"
+    "last_computed_at": "2026-10-15T21:39:04+09:00"
   },
   "counts": {
     "news": 40,
