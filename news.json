@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-15 07:16",
-  "generated_iso": "2026-10-15T07:16:28+09:00",
+  "generated_at": "2026-10-15 10:27",
+  "generated_iso": "2026-10-15T10:27:48+09:00",
   "status": "updated",
   "status_message": "40 件のニュースを取得しました。",
   "llm_used": true,
@@ -59,20 +59,20 @@
   "market": [
     {
       "label": "日経平均",
-      "value": "67,744.29",
-      "change_pct": -1.86,
-      "asof": "10/14終値"
+      "value": "65,148.71",
+      "change_pct": -3.83,
+      "asof": "10/15終値"
     },
     {
       "label": "日経先物",
-      "value": "66,535.00",
-      "change_pct": -2.09,
+      "value": "65,265.00",
+      "change_pct": -3.96,
       "asof": "10/15終値"
     },
     {
       "label": "ドル円",
-      "value": "158.28円",
-      "change_pct": -0.03,
+      "value": "157.69円",
+      "change_pct": -0.4,
       "asof": "10/15終値"
     },
     {
@@ -1434,7 +1434,7 @@
       "category_label": "米国市場",
       "category_emoji": "🇺🇸",
       "importance": 4,
-      "importance_reason": "重要語「利上げ」・影響テーマ「米国株・ハイテク株の変動」に該当・2媒体が報道",
+      "importance_reason": "重要語「利上げ」・影響テーマ「米国株・ハイテク株の変動」に該当",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
@@ -1560,13 +1560,7 @@
           "policy_to_earnings_stage": null
         }
       ],
-      "related": [
-        {
-          "title": "米国株式市場＝ナスダック続落、半導体株安続く 銀行決算まちまち",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQjJxYXRNNGdDdXk4TjZfdTc2ZGpab3Zidm1lVi01VXJhVGctcnNhQU5LVk9HUTVSaExWUEE1NkRkZmw5aVl2V01YR0o0Q0JpbEVreEUwSG9CUEtHem9zeEVZMGM2QW5jQ2lVUjdnMFFrbXUtc2Yya0hIMHFMNDA0UndnTG1qUQ?oc=5",
-          "source": "Reuters"
-        }
-      ],
+      "related": [],
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -1594,1240 +1588,6 @@
       "source_tier_label": "二次情報",
       "published_at": "2026-10-15 03:31",
       "published_ts": 1792002710.0,
-      "category": "geopolitics",
-      "category_label": "地政学・有事",
-      "category_emoji": "🌍",
-      "importance": 4,
-      "importance_reason": "重要語「停戦」・影響テーマ「ウクライナ・ロシア情勢」に該当",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "low",
-      "news_novelty_label": "再報道",
-      "policy_event_id": "ukraine_russia-20260920-01",
-      "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-09-20",
-      "policy_event_state": "UPDATE",
-      "themes": [
-        "ウクライナ・ロシア情勢"
-      ],
-      "theme_ids": [
-        "ukraine_russia"
-      ],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [
-        {
-          "code": "8058",
-          "name": "三菱商事",
-          "sector": "卸売",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
-          "theme": "ウクライナ・ロシア情勢",
-          "theme_id": "ukraine_russia",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "ウクライナ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8031",
-          "name": "三井物産",
-          "sector": "卸売",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
-          "theme": "ウクライナ・ロシア情勢",
-          "theme_id": "ukraine_russia",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "ウクライナ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8053",
-          "name": "住友商事",
-          "sector": "卸売",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
-          "theme": "ウクライナ・ロシア情勢",
-          "theme_id": "ukraine_russia",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "ウクライナ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "6503",
-          "name": "三菱電機",
-          "sector": "電気機器",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
-          "theme": "ウクライナ・ロシア情勢",
-          "theme_id": "ukraine_russia",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "ウクライナ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "6701",
-          "name": "日本電気",
-          "sector": "電気機器",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
-          "theme": "ウクライナ・ロシア情勢",
-          "theme_id": "ukraine_russia",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "ウクライナ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8002",
-          "name": "丸紅",
-          "sector": "卸売",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "小",
-          "reason": "「ウクライナ」に反応: 穀物相場の変動が原材料コストに影響しやすい",
-          "theme": "ウクライナ・ロシア情勢",
-          "theme_id": "ukraine_russia",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "ウクライナ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 39,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "2002",
-          "name": "日清製粉グループ本社",
-          "sector": "食品",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "小",
-          "reason": "「ウクライナ」に反応: 穀物相場の変動が原材料コストに影響しやすい",
-          "theme": "ウクライナ・ロシア情勢",
-          "theme_id": "ukraine_russia",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "ウクライナ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 39,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8267",
-          "name": "イオン",
-          "sector": "小売",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "小",
-          "reason": "「ウクライナ」に反応: 穀物相場の変動が原材料コストに影響しやすい",
-          "theme": "ウクライナ・ロシア情勢",
-          "theme_id": "ukraine_russia",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "ウクライナ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 39,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        }
-      ],
-      "related": [],
-      "emergence_stage": "watch",
-      "emergence_stage_label": "👀 要監視テーマ",
-      "emergence_signal_labels": [
-        "海外の動き",
-        "政策の検討・審議段階",
-        "政府・省庁の一次情報",
-        "複数媒体での同時報道"
-      ],
-      "emergence_event_count": 94,
-      "emergence_source_count": 35,
-      "emergence_actor_type_count": 3,
-      "emergence_actor_type_labels": [
-        "日本政府・省庁",
-        "国際機関",
-        "複数メディア"
-      ],
-      "emergence_actor_type_breakdown": [
-        {
-          "label": "日本政府・省庁",
-          "count": 2
-        },
-        {
-          "label": "国際機関",
-          "count": 5
-        },
-        {
-          "label": "複数メディア",
-          "count": 23
-        }
-      ],
-      "emergence_region_count": 4,
-      "emergence_regions": [
-        "中国",
-        "台湾",
-        "日本",
-        "米国"
-      ],
-      "emergence_origin_regions": [
-        "日本"
-      ],
-      "emergence_first_seen": "2026-09-20",
-      "emergence_window_counts": {
-        "7": 58,
-        "30": 94,
-        "90": 94
-      },
-      "emergence_timeline": [
-        {
-          "date": "2026-09-20",
-          "source": "Vietnam.vn",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-09-22",
-          "source": "風傳媒",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "中国",
-            "台湾"
-          ]
-        },
-        {
-          "date": "2026-09-23",
-          "source": "Reuters",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-09-23",
-          "source": "Reuters",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-09-23",
-          "source": "Reuters",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-09-23",
-          "source": "Межа. Новини України.",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-23",
-          "source": "TBS NEWS DIG",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-09-23",
-          "source": "Yahoo!ニュース",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-09-23",
-          "source": "テレ朝NEWS",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-09-24",
-          "source": "Yahoo!ニュース",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-09-24",
-          "source": "mezha.net",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [
-            "国際機関"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-09-24",
-          "source": "Reuters",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "国際機関",
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-09-24",
-          "source": "Reuters",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-09-24",
-          "source": "Vietnam.vn",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-09-24",
-          "source": "読売新聞",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-24",
-          "source": "Reuters",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "国際機関",
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-09-24",
-          "source": "news.yahoo.co.jp",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-24",
-          "source": "ｄメニューニュース",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-09-24",
-          "source": "毎日新聞",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-09-24",
-          "source": "時事ドットコム",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-24",
-          "source": "ｄメニューニュース",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-24",
-          "source": "Vietnam.vn",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-09-24",
-          "source": "Vietnam.vn",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-09-25",
-          "source": "Vietnam.vn",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-25",
-          "source": "ｄメニューニュース",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "国際機関",
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-09-25",
-          "source": "ウクルインフォルム通信",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-09-25",
-          "source": "newsdig.tbs.co.jp",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-09-26",
-          "source": "東京報道新聞",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-09-28",
-          "source": "読売新聞",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-01",
-          "source": "Vietnam.vn",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-02",
-          "source": "厚生労働省",
-          "signal_labels": [
-            "海外の動き",
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-10-02",
-          "source": "Межа. Новини України.",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [
-            "国際機関"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-02",
-          "source": "財務省",
-          "signal_labels": [
-            "海外の動き",
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-04",
-          "source": "BigGo ファイナンス",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-06",
-          "source": "Yahoo!ニュース",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-07",
-          "source": "Vietnam.vn",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-08",
-          "source": "mezha.net",
-          "signal_labels": [
-            "海外の動き",
-            "政策の検討・審議段階"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-08",
-          "source": "mezha.net",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-08",
-          "source": "Vietnam.vn",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-09",
-          "source": "JBpress",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "台湾"
-          ]
-        },
-        {
-          "date": "2026-10-12",
-          "source": "日本経済新聞",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-12",
-          "source": "TBS NEWS DIG",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-12",
-          "source": "日テレNEWS NNN",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-12",
-          "source": "au Webポータル",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-12",
-          "source": "時事ドットコム",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-12",
-          "source": "TBS NEWS DIG",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-12",
-          "source": "Yahoo!ニュース",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-10-12",
-          "source": "Vietnam.vn",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-12",
-          "source": "Vietnam.vn",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-12",
-          "source": "時事ドットコム",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-12",
-          "source": "Yahoo!ニュース",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-10-12",
-          "source": "CNN.co.jp",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-12",
-          "source": "JBpress",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-12",
-          "source": "朝日新聞",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-12",
-          "source": "Yahoo!ニュース",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-12",
-          "source": "NHKニュース",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-12",
-          "source": "Bloomberg.com",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-12",
-          "source": "BBC",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-12",
-          "source": "TBS NEWS DIG",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-12",
-          "source": "JBpress",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-12",
-          "source": "TBS NEWS DIG",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-12",
-          "source": "日テレNEWS NNN",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-12",
-          "source": "時事ドットコム",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-12",
-          "source": "47NEWS",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-12",
-          "source": "Bloomberg.com",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-13",
-          "source": "TBS NEWS DIG",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-13",
-          "source": "ダイヤモンド・オンライン",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-13",
-          "source": "読売新聞",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-13",
-          "source": "日テレNEWS NNN",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-13",
-          "source": "日本経済新聞",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-13",
-          "source": "Yahoo!ニュース",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-13",
-          "source": "Yahoo!ニュース",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-13",
-          "source": "WSJ",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-13",
-          "source": "TBS NEWS DIG",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-13",
-          "source": "Yahoo!ニュース",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-13",
-          "source": "NHKニュース",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-13",
-          "source": "Yahoo!ニュース",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-13",
-          "source": "朝日新聞",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-13",
-          "source": "BBC",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-13",
-          "source": "時事ドットコム",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-13",
-          "source": "BBC",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-13",
-          "source": "北海道新聞デジタル",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-14",
-          "source": "Reuters",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-14",
-          "source": "テレ朝NEWS",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-14",
-          "source": "Yahoo!ニュース",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-14",
-          "source": "Reuters",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-14",
-          "source": "時事ドットコム",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-14",
-          "source": "TBS NEWS DIG",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-14",
-          "source": "ハンギョレ新聞",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-10-14",
-          "source": "テレ東BIZ",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-14",
-          "source": "TBS NEWS DIG",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-15",
-          "source": "FNNプライムオンライン",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-15",
-          "source": "Bloomberg.com",
-          "signal_labels": [
-            "海外の動き",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-15",
-          "source": "Yahoo!ニュース",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        }
-      ],
-      "emergence_milestones": [
-        {
-          "date": "2026-09-24",
-          "actor_type_label": "国際機関"
-        },
-        {
-          "date": "2026-09-24",
-          "actor_type_label": "複数メディア"
-        },
-        {
-          "date": "2026-10-02",
-          "actor_type_label": "日本政府・省庁"
-        }
-      ],
-      "emergence_diagnosis": {
-        "target_stage": "watch",
-        "target_stage_label": "👀 要監視テーマ",
-        "source_count": 35,
-        "required_sources": 2,
-        "signal_count": 4,
-        "required_signals": 3,
-        "missing": []
-      },
-      "emergence_growth": {
-        "window_days": 14,
-        "recent_new_actor_types": 1,
-        "total_actor_types": 3
-      }
-    },
-    {
-      "id": "8bff3b0e8613",
-      "title": "ロシアがウクライナのエネルギー施設を大規模攻撃 60万人が停電被害 「エネルギー停戦」発表後も攻撃続く",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0LUp6SHZaY1JBa1VHX1RzMEswdDdVb21pd1ZNa25uR2kydXNKbzRmSTByTzZuUVNPalZucXlVOUxodVNpZ21tUUlMYnItcDZHTnVSZzg1MkNiTEZDWjdxbUU2NmkzZlhKUkdiSjg1aVJBSnlod0N5dzJPWlVFU28?oc=5",
-      "source": "Yahoo!ニュース",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-10-14 23:32",
-      "published_ts": 1791988340.0,
       "category": "geopolitics",
       "category_label": "地政学・有事",
       "category_emoji": "🌍",
@@ -8916,6 +7676,1240 @@
       "emergence_growth": {}
     },
     {
+      "id": "c0b78671731c",
+      "title": "トランプ氏、再び「エネルギー停戦」主張 「私が言ったから」",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HNkgybWlkYTdUQmU5OWRZTU5EQU9SWTFDQ3ZfRkh1RHVrNnZyVDE3SzJMQlMtUU9VdGNFWnJUb01wTkRtanZoR1lzSTNub1pyWTRLejZhQUJUXzZtTjhTaldDdlpiM3M?oc=5",
+      "source": "朝日新聞",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-10-13 12:00",
+      "published_ts": 1791860400.0,
+      "category": "geopolitics",
+      "category_label": "地政学・有事",
+      "category_emoji": "🌍",
+      "importance": 4,
+      "importance_reason": "重要語「停戦」・影響テーマ「ウクライナ・ロシア情勢」に該当",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "low",
+      "news_novelty_label": "再報道",
+      "policy_event_id": "ukraine_russia-20261012-03",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-10-12",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "ウクライナ・ロシア情勢"
+      ],
+      "theme_ids": [
+        "ukraine_russia"
+      ],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "8058",
+          "name": "三菱商事",
+          "sector": "卸売",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「停戦」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "theme": "ウクライナ・ロシア情勢",
+          "theme_id": "ukraine_russia",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "停戦",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8031",
+          "name": "三井物産",
+          "sector": "卸売",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「停戦」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "theme": "ウクライナ・ロシア情勢",
+          "theme_id": "ukraine_russia",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "停戦",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8053",
+          "name": "住友商事",
+          "sector": "卸売",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「停戦」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "theme": "ウクライナ・ロシア情勢",
+          "theme_id": "ukraine_russia",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "停戦",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6503",
+          "name": "三菱電機",
+          "sector": "電気機器",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「停戦」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "theme": "ウクライナ・ロシア情勢",
+          "theme_id": "ukraine_russia",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "停戦",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6701",
+          "name": "日本電気",
+          "sector": "電気機器",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「停戦」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "theme": "ウクライナ・ロシア情勢",
+          "theme_id": "ukraine_russia",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "停戦",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8002",
+          "name": "丸紅",
+          "sector": "卸売",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "小",
+          "reason": "「停戦」に反応: 穀物相場の変動が原材料コストに影響しやすい",
+          "theme": "ウクライナ・ロシア情勢",
+          "theme_id": "ukraine_russia",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "停戦",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 39,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "2002",
+          "name": "日清製粉グループ本社",
+          "sector": "食品",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "小",
+          "reason": "「停戦」に反応: 穀物相場の変動が原材料コストに影響しやすい",
+          "theme": "ウクライナ・ロシア情勢",
+          "theme_id": "ukraine_russia",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "停戦",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 39,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8267",
+          "name": "イオン",
+          "sector": "小売",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "小",
+          "reason": "「停戦」に反応: 穀物相場の変動が原材料コストに影響しやすい",
+          "theme": "ウクライナ・ロシア情勢",
+          "theme_id": "ukraine_russia",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "停戦",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 39,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [],
+      "emergence_stage": "watch",
+      "emergence_stage_label": "👀 要監視テーマ",
+      "emergence_signal_labels": [
+        "海外の動き",
+        "政策の検討・審議段階",
+        "政府・省庁の一次情報",
+        "複数媒体での同時報道"
+      ],
+      "emergence_event_count": 94,
+      "emergence_source_count": 35,
+      "emergence_actor_type_count": 3,
+      "emergence_actor_type_labels": [
+        "日本政府・省庁",
+        "国際機関",
+        "複数メディア"
+      ],
+      "emergence_actor_type_breakdown": [
+        {
+          "label": "日本政府・省庁",
+          "count": 2
+        },
+        {
+          "label": "国際機関",
+          "count": 5
+        },
+        {
+          "label": "複数メディア",
+          "count": 23
+        }
+      ],
+      "emergence_region_count": 4,
+      "emergence_regions": [
+        "中国",
+        "台湾",
+        "日本",
+        "米国"
+      ],
+      "emergence_origin_regions": [
+        "日本"
+      ],
+      "emergence_first_seen": "2026-09-20",
+      "emergence_window_counts": {
+        "7": 58,
+        "30": 94,
+        "90": 94
+      },
+      "emergence_timeline": [
+        {
+          "date": "2026-09-20",
+          "source": "Vietnam.vn",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-22",
+          "source": "風傳媒",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "中国",
+            "台湾"
+          ]
+        },
+        {
+          "date": "2026-09-23",
+          "source": "Reuters",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-23",
+          "source": "Reuters",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-23",
+          "source": "Reuters",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-23",
+          "source": "Межа. Новини України.",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-23",
+          "source": "TBS NEWS DIG",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-23",
+          "source": "Yahoo!ニュース",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-23",
+          "source": "テレ朝NEWS",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-24",
+          "source": "Yahoo!ニュース",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-24",
+          "source": "mezha.net",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [
+            "国際機関"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-24",
+          "source": "Reuters",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "国際機関",
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-24",
+          "source": "Reuters",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-24",
+          "source": "Vietnam.vn",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-24",
+          "source": "読売新聞",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "source": "Reuters",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "国際機関",
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-24",
+          "source": "news.yahoo.co.jp",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "source": "ｄメニューニュース",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-24",
+          "source": "毎日新聞",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-24",
+          "source": "時事ドットコム",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "source": "ｄメニューニュース",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "source": "Vietnam.vn",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-24",
+          "source": "Vietnam.vn",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-25",
+          "source": "Vietnam.vn",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-25",
+          "source": "ｄメニューニュース",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "国際機関",
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-25",
+          "source": "ウクルインフォルム通信",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-25",
+          "source": "newsdig.tbs.co.jp",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-26",
+          "source": "東京報道新聞",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-28",
+          "source": "読売新聞",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-01",
+          "source": "Vietnam.vn",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-02",
+          "source": "厚生労働省",
+          "signal_labels": [
+            "海外の動き",
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-10-02",
+          "source": "Межа. Новини України.",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [
+            "国際機関"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-02",
+          "source": "財務省",
+          "signal_labels": [
+            "海外の動き",
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-04",
+          "source": "BigGo ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Yahoo!ニュース",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-07",
+          "source": "Vietnam.vn",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-08",
+          "source": "mezha.net",
+          "signal_labels": [
+            "海外の動き",
+            "政策の検討・審議段階"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-08",
+          "source": "mezha.net",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-08",
+          "source": "Vietnam.vn",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-09",
+          "source": "JBpress",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "台湾"
+          ]
+        },
+        {
+          "date": "2026-10-12",
+          "source": "日本経済新聞",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-12",
+          "source": "TBS NEWS DIG",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-12",
+          "source": "日テレNEWS NNN",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-12",
+          "source": "au Webポータル",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-12",
+          "source": "時事ドットコム",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-12",
+          "source": "TBS NEWS DIG",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-12",
+          "source": "Yahoo!ニュース",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-10-12",
+          "source": "Vietnam.vn",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-12",
+          "source": "Vietnam.vn",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-12",
+          "source": "時事ドットコム",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-12",
+          "source": "Yahoo!ニュース",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-10-12",
+          "source": "CNN.co.jp",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-12",
+          "source": "JBpress",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-12",
+          "source": "朝日新聞",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-12",
+          "source": "Yahoo!ニュース",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-12",
+          "source": "NHKニュース",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-12",
+          "source": "Bloomberg.com",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-12",
+          "source": "BBC",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-12",
+          "source": "TBS NEWS DIG",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-12",
+          "source": "JBpress",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-12",
+          "source": "TBS NEWS DIG",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-12",
+          "source": "日テレNEWS NNN",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-12",
+          "source": "時事ドットコム",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-12",
+          "source": "47NEWS",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-12",
+          "source": "Bloomberg.com",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-13",
+          "source": "TBS NEWS DIG",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-13",
+          "source": "ダイヤモンド・オンライン",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-13",
+          "source": "読売新聞",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-13",
+          "source": "日テレNEWS NNN",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-13",
+          "source": "日本経済新聞",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-13",
+          "source": "Yahoo!ニュース",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-13",
+          "source": "Yahoo!ニュース",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-13",
+          "source": "WSJ",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-13",
+          "source": "TBS NEWS DIG",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-13",
+          "source": "Yahoo!ニュース",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-13",
+          "source": "NHKニュース",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-13",
+          "source": "Yahoo!ニュース",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-13",
+          "source": "朝日新聞",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-13",
+          "source": "BBC",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-13",
+          "source": "時事ドットコム",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-13",
+          "source": "BBC",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-13",
+          "source": "北海道新聞デジタル",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Reuters",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-14",
+          "source": "テレ朝NEWS",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Yahoo!ニュース",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Reuters",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-14",
+          "source": "時事ドットコム",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-14",
+          "source": "TBS NEWS DIG",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-14",
+          "source": "ハンギョレ新聞",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "source": "テレ東BIZ",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-14",
+          "source": "TBS NEWS DIG",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-15",
+          "source": "FNNプライムオンライン",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-15",
+          "source": "Bloomberg.com",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-15",
+          "source": "Yahoo!ニュース",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        }
+      ],
+      "emergence_milestones": [
+        {
+          "date": "2026-09-24",
+          "actor_type_label": "国際機関"
+        },
+        {
+          "date": "2026-09-24",
+          "actor_type_label": "複数メディア"
+        },
+        {
+          "date": "2026-10-02",
+          "actor_type_label": "日本政府・省庁"
+        }
+      ],
+      "emergence_diagnosis": {
+        "target_stage": "watch",
+        "target_stage_label": "👀 要監視テーマ",
+        "source_count": 35,
+        "required_sources": 2,
+        "signal_count": 4,
+        "required_signals": 3,
+        "missing": []
+      },
+      "emergence_growth": {
+        "window_days": 14,
+        "recent_new_actor_types": 1,
+        "total_actor_types": 3
+      }
+    },
+    {
       "id": "b3893fd17267",
       "title": "ウクライナのエネルギー施設6カ所、ロシアが攻撃とゼレンスキー氏　トランプ氏の停戦発表後",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xTG5fek16WXQ1MTR4RHcwSGZSQTBEX3A2U0Z3aXk1NkVULXdUa0hjM2ZRMnV0S0VJSEV3SVp4NUNtVUtrQlh0aEs3dDNNZFBxUVMyME1zOFNhMTJrdXV0dNIBZkFVX3lxTE9nb0Vna3NLRnhZUlIyVmljNThRZW5rSUlUVGlPNWhUS0I5R280UTYzR1JnRlljWk84WWpuR0hUZ0NpMTBFbEZLVTVYYjVHbDV5NHc3eGVkX1NQNTcySm84TnEyTkFYZw?oc=5",
@@ -10156,6 +10150,238 @@
       }
     },
     {
+      "id": "8e0fe97cdea0",
+      "title": "外為：1ドル157円88銭前後とドル安・円高で推移(株探ニュース)",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWmdqUk9TRVZUQnZ5SElva2JRMm94aU1JNXhBakg1cnVRaV9LU0JvZXUtLWpBS3FNMlhEOE1vaGZMTDU3cWV4VmJNRjM5NWZuT2lmTkY5MmtuQ05JQTVfV3o4b0trSHQ4VXRoR3RfcFJUdVFXMFBKSkwtRDZWeFR4QmNXU3RvRlE?oc=5",
+      "source": "Yahoo!ファイナンス",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-10-15 10:01",
+      "published_ts": 1792026097.0,
+      "category": "fx",
+      "category_label": "為替",
+      "category_emoji": "💱",
+      "importance": 3,
+      "importance_reason": "影響テーマ「円高進行」に該当・3媒体が報道",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "low",
+      "news_novelty_label": "再報道",
+      "policy_event_id": "yen_strong-20260920-01",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-09-20",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "円高進行"
+      ],
+      "theme_ids": [
+        "yen_strong"
+      ],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "sector": "自動車",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "theme": "円高進行",
+          "theme_id": "yen_strong",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "円高",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 63,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7267",
+          "name": "本田技研工業",
+          "sector": "自動車",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "theme": "円高進行",
+          "theme_id": "yen_strong",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "円高",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 63,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7201",
+          "name": "日産自動車",
+          "sector": "自動車",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "theme": "円高進行",
+          "theme_id": "yen_strong",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "円高",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 63,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7269",
+          "name": "スズキ",
+          "sector": "自動車",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "theme": "円高進行",
+          "theme_id": "yen_strong",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "円高",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 63,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7270",
+          "name": "SUBARU",
+          "sector": "自動車",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "theme": "円高進行",
+          "theme_id": "yen_strong",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "円高",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 63,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7261",
+          "name": "マツダ",
+          "sector": "自動車",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "theme": "円高進行",
+          "theme_id": "yen_strong",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "円高",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 63,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9201",
+          "name": "日本航空",
+          "sector": "空運",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「円高」に反応: 輸入コスト低下が採算改善につながりやすい",
+          "theme": "円高進行",
+          "theme_id": "yen_strong",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "円高",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 63,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9202",
+          "name": "ANAホールディングス",
+          "sector": "空運",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「円高」に反応: 輸入コスト低下が採算改善につながりやすい",
+          "theme": "円高進行",
+          "theme_id": "yen_strong",
+          "origin": "rule",
+          "beneficiary_tier": "direct",
+          "beneficiary_tier_label": "直接受益",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "円高",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 63,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [
+        {
+          "title": "外為：1ドル158円14銭前後と小幅なドル安・円高で推移(株探ニュース)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOWJ0UWdIc1hRUk1OTUIzX1lpYXVaQTlocEV4elh1SmswdkRwc2NyWG1WTnV0NFRoSC1GT2dZeEtLZk9Mc041WDlBLXk1Y0dXVnd1RTFnUkxzcTluNmlRT3JzQXhnal90Z0VFUkpBcXdNY0ZXb09oUXhEZGZ6Y2p4WkJNLVYwSWs?oc=5",
+          "source": "Yahoo!ファイナンス"
+        },
+        {
+          "title": "外為：1ドル158円23銭前後と横ばい圏で推移(株探ニュース)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMHZiamNGRnVuVDBycW52d2w5NllTRUk1YlpRTnBNdnpFc1JFZUdONGRfWHRBdjFnNVNvejc2VkFTMnB2M01XMXM4dGhDWDg5SmNaUkFEbHZDc0hYODRRa0xKd0ZiVFB4TXpJZW5jbE4wdklpWHFibExBbl9ENExPUmw2Wm9tOWM?oc=5",
+          "source": "Yahoo!ファイナンス"
+        }
+      ],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
       "id": "dac42bddd384",
       "title": "ダウ平均は続落 ナスダックは大幅安 半導体のほか銀行株が下落＝米国株概況",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5BMDZKWGxNWXJCbElqYk94c1hoMEJ6QVgzZEpqUmF1WXNMU0FpWVltWGRtQkNNVXhfaTdrOXNSWkpWUEdZLU12WA?oc=5",
@@ -10168,12 +10394,12 @@
       "category_label": "半導体・AI",
       "category_emoji": "🤖",
       "importance": 3,
-      "importance_reason": "影響テーマ「半導体・AI投資の拡大」に該当・2媒体が報道",
+      "importance_reason": "影響テーマ「半導体・AI投資の拡大」に該当・3媒体が報道",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
+      "news_novelty": "medium",
+      "news_novelty_label": "続報",
       "policy_event_id": "semi_demand-20260920-01",
       "policy_event_is_update": true,
       "policy_event_first_seen": "2026-09-20",
@@ -10364,6 +10590,11 @@
           "title": "ダウ平均は下落 ナスダックも大幅安 半導体のほか金融株が下落＝米国株序盤",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9YdGRFRnVCeENvdDVLTkNlRXpQRnY3SVVFd3l0eGh3UXNhZElfcGtnaXZ2eVN6VlFtNjJpQUdyT0dZRWE5NGlKcnRpamNvUWVrb2c?oc=5",
           "source": "株探"
+        },
+        {
+          "title": "ダウ平均は下落 ナスダックも大幅安 半導体のほか金融株が下落＝米国株序盤",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZl85eXBDMkQtbjk1dnE4VndENVd4WGw1Mzdvd05Ba2M0UnBaMHAwMzFvRngxbTVqSW5TcVN4c2Vqdnk5OUJqWndEZm9IUWppWDZBeldZOUJHcWsxTmdUZ1VKUnNrNVg5YktGaXR1czZQT3lSdzM4LXdFdjg1cXpkajFSN1lrU29uZTlz?oc=5",
+          "source": "Moomoo"
         }
       ],
       "emergence_stage": "watch",
@@ -11830,243 +12061,6 @@
       "emergence_growth": {}
     },
     {
-      "id": "438ea73ac9ae",
-      "title": "外為：1ドル158円14銭前後と小幅なドル安・円高で推移(株探ニュース)",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOWJ0UWdIc1hRUk1OTUIzX1lpYXVaQTlocEV4elh1SmswdkRwc2NyWG1WTnV0NFRoSC1GT2dZeEtLZk9Mc041WDlBLXk1Y0dXVnd1RTFnUkxzcTluNmlRT3JzQXhnal90Z0VFUkpBcXdNY0ZXb09oUXhEZGZ6Y2p4WkJNLVYwSWs?oc=5",
-      "source": "Yahoo!ファイナンス",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-10-14 14:01",
-      "published_ts": 1791954113.0,
-      "category": "fx",
-      "category_label": "為替",
-      "category_emoji": "💱",
-      "importance": 3,
-      "importance_reason": "影響テーマ「円高進行」に該当・4媒体が報道",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "low",
-      "news_novelty_label": "再報道",
-      "policy_event_id": "yen_strong-20260920-01",
-      "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-09-20",
-      "policy_event_state": "UPDATE",
-      "themes": [
-        "円高進行"
-      ],
-      "theme_ids": [
-        "yen_strong"
-      ],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [
-        {
-          "code": "7203",
-          "name": "トヨタ自動車",
-          "sector": "自動車",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "theme": "円高進行",
-          "theme_id": "yen_strong",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "円高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7267",
-          "name": "本田技研工業",
-          "sector": "自動車",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "theme": "円高進行",
-          "theme_id": "yen_strong",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "円高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7201",
-          "name": "日産自動車",
-          "sector": "自動車",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "theme": "円高進行",
-          "theme_id": "yen_strong",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "円高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7269",
-          "name": "スズキ",
-          "sector": "自動車",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "theme": "円高進行",
-          "theme_id": "yen_strong",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "円高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7270",
-          "name": "SUBARU",
-          "sector": "自動車",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "theme": "円高進行",
-          "theme_id": "yen_strong",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "円高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7261",
-          "name": "マツダ",
-          "sector": "自動車",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "theme": "円高進行",
-          "theme_id": "yen_strong",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "円高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "9201",
-          "name": "日本航空",
-          "sector": "空運",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円高」に反応: 輸入コスト低下が採算改善につながりやすい",
-          "theme": "円高進行",
-          "theme_id": "yen_strong",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "円高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "9202",
-          "name": "ANAホールディングス",
-          "sector": "空運",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円高」に反応: 輸入コスト低下が採算改善につながりやすい",
-          "theme": "円高進行",
-          "theme_id": "yen_strong",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "円高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        }
-      ],
-      "related": [
-        {
-          "title": "外為：1ドル158円44銭前後とドル高・円安で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRnMtcnZrTWloS2syZm55dDhTNFBlOVhfaWxvX25ZWHUyLUxOS0xaX1FHb3VVNk4tU085TW1rdGN2NUNTYWc4RjhzQlYzZzZuTzd6VEJOY1RTOGZCNjRLREVmUDZQVFpCcmI5bmFsMFFCZDgwRUdYbjZnaV9wekhsODdWVDJrRXc?oc=5",
-          "source": "Yahoo!ファイナンス"
-        },
-        {
-          "title": "外為：カナダドル、110円94銭前後とカナダドル安・円高で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMjNoa3hNRHhPRzJnVkRnbzI0X1VIZC1acWVMbExsVHNtMVZPcTM2cFhsSmFncngzZmdoQ1BOTEJyaTZxMmtvWEdaUktrTjlYRnlHenByaHV5ei1YMjZFNTlkdjcwMktYdGp4bDd2V0FNcy1qcTRraDF2bDZhR214T01rRVNCRlU?oc=5",
-          "source": "Yahoo!ファイナンス"
-        },
-        {
-          "title": "外為：1ドル158円34銭前後とドル高・円安で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQM2pHYTZXcEZuZlZyMFNfYU9GN2VCX1NwMmV6LXJ5RUwza19zYVk1YTRRY1NpYlFxd2ZSUnZZWFFJREJwSVRMdTJzVjYweFZOTklXWEc4eUIwbzVTMEowcjBYZDVCc25TVzhTLVZ5dk5SY2toeGV1TDZxMm53d21fMEdtSmFRTm8?oc=5",
-          "source": "Yahoo!ファイナンス"
-        }
-      ],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
       "id": "ce7cd9dd7271",
       "title": "【為替】「為替介入」の基本を確認する",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5jRXoweEQzb2pzdXpiZ2NqOEJtdE9PVXQ3c250eHdqS3c1UzlEZEEyZWNibW1GYTR0OGtzSUE0aTRjNG96UnRNaUx1X0VxcF85aGd0LVZZd9IBV0FVX3lxTE5jRXoweEQzb2pzdXpiZ2NqOEJtdE9PVXQ3c250eHdqS3c1UzlEZEEyZWNibW1GYTR0OGtzSUE0aTRjNG96UnRNaUx1X0VxcF85aGd0LVZZdw?oc=5",
@@ -12095,164 +12089,6 @@
       "summary": "",
       "impact_comment": "",
       "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "de410c365610",
-      "title": "ダウ平均、ナスダックとも下落 メモリー株の下げ目立つ 米大手銀の決算始まる＝米国株概況",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBad0NmellIRDBfZFg3LVh5dXlZZ05HcTF5NHUtd0lsOGVqeTBncVdwQm9GS1U2dWwtUXBNbTdyV1drQjh2cDgwRXhpWWw2S2ZTMlAzN2IwQjlmWDZhdUJTUQ?oc=5",
-      "source": "株探",
-      "source_tier": "commentary",
-      "source_tier_label": "市場解説",
-      "published_at": "2026-10-14 05:32",
-      "published_ts": 1791923520.0,
-      "category": "us",
-      "category_label": "米国市場",
-      "category_emoji": "🇺🇸",
-      "importance": 3,
-      "importance_reason": "重要語「決算」・影響テーマ「米国株・ハイテク株の変動」に該当",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "low",
-      "news_novelty_label": "再報道",
-      "policy_event_id": "us_stock_move-20260921-02",
-      "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-09-21",
-      "policy_event_state": "UPDATE",
-      "themes": [
-        "米国株・ハイテク株の変動"
-      ],
-      "theme_ids": [
-        "us_stock_move"
-      ],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [
-        {
-          "code": "8604",
-          "name": "野村ホールディングス",
-          "sector": "証券",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "米国株",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 35,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8601",
-          "name": "大和証券グループ本社",
-          "sector": "証券",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "米国株",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 35,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8473",
-          "name": "SBIホールディングス",
-          "sector": "証券",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "米国株",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 35,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "9984",
-          "name": "ソフトバンクグループ",
-          "sector": "情報・通信",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "米国株",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 35,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7203",
-          "name": "トヨタ自動車",
-          "sector": "自動車",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
-          "theme": "米国株・ハイテク株の変動",
-          "theme_id": "us_stock_move",
-          "origin": "rule",
-          "beneficiary_tier": "peripheral",
-          "beneficiary_tier_label": "周辺波及",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "米国株",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 35,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        }
-      ],
       "related": [],
       "emergence_stage": null,
       "emergence_stage_label": "",
@@ -12973,19 +12809,136 @@
       }
     },
     {
-      "id": "e85016ea22e0",
-      "title": "ドル／円は日米の利上げ観測の変化注視、上昇なら介入警戒＝今週の外為市場",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBJckZDb3otVnJLQXRrLS03YVMxT3cxbHNNcjJkNHJ4TWp4WENuMEVOODQ5d3ZvWFRxaS1DOE14UTR5b3RTZVhyaTg0d05tQjdMNndpR3ZzRDlMLU9UbzRKM2xnOTQwSGFiRVhqeHBjeF8wRTY5dWJVeWlncGlxdw?oc=5",
-      "source": "Reuters",
+      "id": "4a3d525a793a",
+      "title": "Weekly Report: Drupalの複数のモジュールに脆弱性",
+      "url": "https://www.jpcert.or.jp/wr/2026/wr261015.html#1",
+      "source": "JPCERT/CC",
+      "source_tier": "primary",
+      "source_tier_label": "一次情報",
+      "published_at": "2026-10-15 09:29",
+      "published_ts": 1792024140.0,
+      "category": "trade",
+      "category_label": "通商・規制",
+      "category_emoji": "⚖️",
+      "importance": 2,
+      "importance_reason": "6媒体が報道",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "medium",
+      "news_novelty_label": "続報",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [
+        {
+          "title": "Weekly Report: 複数のSplunk製品に脆弱性",
+          "url": "https://www.jpcert.or.jp/wr/2026/wr261015.html#2",
+          "source": "JPCERT/CC"
+        },
+        {
+          "title": "Weekly Report: 複数のCisco製品に脆弱性",
+          "url": "https://www.jpcert.or.jp/wr/2026/wr261015.html#3",
+          "source": "JPCERT/CC"
+        },
+        {
+          "title": "Weekly Report: Movable Typeに複数の脆弱性",
+          "url": "https://www.jpcert.or.jp/wr/2026/wr261015.html#4",
+          "source": "JPCERT/CC"
+        },
+        {
+          "title": "Weekly Report: 複数のElastic製品に脆弱性",
+          "url": "https://www.jpcert.or.jp/wr/2026/wr261015.html#5",
+          "source": "JPCERT/CC"
+        }
+      ],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "2a79f4faaf08",
+      "title": "機械受注統計調査報告（令和8年8月実績）",
+      "url": "https://www.esri.cao.go.jp/jp/stat/juchu/juchu.html",
+      "source": "内閣府",
+      "source_tier": "primary",
+      "source_tier_label": "一次情報",
+      "published_at": "2026-10-15 08:24",
+      "published_ts": 1792020240.0,
+      "category": "japan",
+      "category_label": "日本経済・政治",
+      "category_emoji": "🗾",
+      "importance": 2,
+      "importance_reason": "重要語「受注」",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "bbca04b30af3",
+      "title": "映画「ちいかわ」大ヒットの東宝、中間決算で上方修正はあるか？ 決算発表で見るべき3つの視点｜Infoseekニュース",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9KaTBlNWdfR3Q4QWwtWWhwU0d0OXJNREhocFpUNC1kd0F0eTh1LUZZZHB0M3A1NWRJcWZpNTIzck1HaV9tQnFkQXh1MElwSnQ0MTFHa3hyaDQyUmlRX0g2UTRn?oc=5",
+      "source": "Infoseek",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
-      "published_at": "2026-10-13 07:35",
-      "published_ts": 1791844543.0,
-      "category": "fx",
-      "category_label": "為替",
-      "category_emoji": "💱",
-      "importance": 3,
-      "importance_reason": "重要語「利上げ」",
+      "published_at": "2026-10-15 07:30",
+      "published_ts": 1792017000.0,
+      "category": "corporate",
+      "category_label": "企業・決算",
+      "category_emoji": "🏢",
+      "importance": 2,
+      "importance_reason": "重要語「上方修正」",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
@@ -16090,54 +16043,6 @@
       "emergence_growth": {}
     },
     {
-      "id": "41f3c3d2fadb",
-      "title": "メディアドゥ、今期最終を一転52％増益に上方修正・最高益、配当も15円増額",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10MlNRSG94a3BubGhJUDlvZ25xc3RhZXpHVzkxUGpkQzc3UDdXV1VWTWRUZTZjbDZzZ2F6Q2tnZG9PemphYU55cUlMdXNqWG9VTkE?oc=5",
-      "source": "株探",
-      "source_tier": "commentary",
-      "source_tier_label": "市場解説",
-      "published_at": "2026-10-14 16:00",
-      "published_ts": 1791961200.0,
-      "category": "corporate",
-      "category_label": "企業・決算",
-      "category_emoji": "🏢",
-      "importance": 2,
-      "importance_reason": "重要語「上方修正」",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
       "id": "749d658e5077",
       "title": "【決算速報】ヤマザワ、今期経常を50％上方修正(株探ニュース)",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcmMxUUVoSzBKcUNIV1pEQ2J3Slh0dXlwaVFWamxuUkdoNzBrREJZZUJOWUpWR0YzRTk4WlFqS3lBU0piMFVEazVYdkdXMWt5a2lQQzEzak1EYzZ1bmdqTU1hM0VBbUR1OFdoc3dqamh5OEJQY0gzRDJTSXZFdGFyNnhVdFFGXzg?oc=5",
@@ -17439,7 +17344,7 @@
       "category_label": "為替",
       "category_emoji": "💱",
       "importance": 2,
-      "importance_reason": "影響テーマ「円安進行」に該当・2媒体が報道",
+      "importance_reason": "影響テーマ「円安進行」に該当",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
@@ -17628,13 +17533,7 @@
           "policy_to_earnings_stage": null
         }
       ],
-      "related": [
-        {
-          "title": "外為：豪ドル、110円76銭前後と大幅な豪ドル高・円安で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOT1QwSmRmOHNYMXlyc0FFU1FYcDU1UktFWmcxeWQ5OUFRcjQ2SkNCWEl3QUotR0RKbmViU3p4NUN6ZTdtZmI5VzlNclEzdUFEbE1RNkVzemE0NUVMRzB1U2UzNmNTeWxYWTJ5MHk0ZXBqX2dPZnB5NkdMaUZlc1otWEFta3FvZnM?oc=5",
-          "source": "Yahoo!ファイナンス"
-        }
-      ],
+      "related": [],
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -17660,8 +17559,8 @@
       "source": "Reuters",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
-      "published_at": "2026-10-14 13:04",
-      "published_ts": 1791950696.0,
+      "published_at": "2026-10-14 13:07",
+      "published_ts": 1791950822.0,
       "category": "fx",
       "category_label": "為替",
       "category_emoji": "💱",
@@ -18162,17 +18061,17 @@
           "importance": 4
         },
         {
-          "title": "ロシアがウクライナのエネルギー施設を大規模攻撃 60万人が停電被害 「エネルギー停戦」発表後も攻撃続く",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0LUp6SHZaY1JBa1VHX1RzMEswdDdVb21pd1ZNa25uR2kydXNKbzRmSTByTzZuUVNPalZucXlVOUxodVNpZ21tUUlMYnItcDZHTnVSZzg1MkNiTEZDWjdxbUU2NmkzZlhKUkdiSjg1aVJBSnlod0N5dzJPWlVFU28?oc=5",
+          "title": "ウクライナ ゼレンスキー大統領 「ロシアが“エネルギー停戦”違反」",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95dTJaVHoyaFpHUWJ5dEU2OFExOEp1RndhakloWkNBSW5fb3lnTURyOTljSWQ0MXhkWmFybENJbDRmaS0yV1dzamxMUTVfdGY4cVJTdTBrSUlfSzhVeEpscGxGVQ?oc=5",
           "direction": "negative",
           "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
           "importance": 4
         },
         {
-          "title": "ウクライナ ゼレンスキー大統領 「ロシアが“エネルギー停戦”違反」",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95dTJaVHoyaFpHUWJ5dEU2OFExOEp1RndhakloWkNBSW5fb3lnTURyOTljSWQ0MXhkWmFybENJbDRmaS0yV1dzamxMUTVfdGY4cVJTdTBrSUlfSzhVeEpscGxGVQ?oc=5",
-          "direction": "negative",
-          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "title": "中国軍が「占領」か「失敗」か…台湾有事で起こり得る4つの事態、元幹部自衛官が考察してみると？ 【JBpressセレクション】台湾有事は既に始まっている 「自衛隊は中国軍にかなわない」という言説を日本に広めたい中国の深謀(1/8)",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGMkIwdl9MN1FXQWRtczVVSi1JQThYNXR6UWVNSUZPRVZiZVdTMWIyX3c5a2MyUDZNNk5MQXR6ZmVROHFLV2JIU1h1MlVTS1Z5eTA4bGx3?oc=5",
+          "direction": "positive",
+          "reason": "「台湾」に反応: 安全保障関連の思惑が働きやすい",
           "importance": 4
         }
       ],
@@ -18195,17 +18094,17 @@
           "importance": 4
         },
         {
-          "title": "ロシアがウクライナのエネルギー施設を大規模攻撃 60万人が停電被害 「エネルギー停戦」発表後も攻撃続く",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0LUp6SHZaY1JBa1VHX1RzMEswdDdVb21pd1ZNa25uR2kydXNKbzRmSTByTzZuUVNPalZucXlVOUxodVNpZ21tUUlMYnItcDZHTnVSZzg1MkNiTEZDWjdxbUU2NmkzZlhKUkdiSjg1aVJBSnlod0N5dzJPWlVFU28?oc=5",
+          "title": "ウクライナ ゼレンスキー大統領 「ロシアが“エネルギー停戦”違反」",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95dTJaVHoyaFpHUWJ5dEU2OFExOEp1RndhakloWkNBSW5fb3lnTURyOTljSWQ0MXhkWmFybENJbDRmaS0yV1dzamxMUTVfdGY4cVJTdTBrSUlfSzhVeEpscGxGVQ?oc=5",
           "direction": "negative",
           "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
           "importance": 4
         },
         {
-          "title": "ウクライナ ゼレンスキー大統領 「ロシアが“エネルギー停戦”違反」",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95dTJaVHoyaFpHUWJ5dEU2OFExOEp1RndhakloWkNBSW5fb3lnTURyOTljSWQ0MXhkWmFybENJbDRmaS0yV1dzamxMUTVfdGY4cVJTdTBrSUlfSzhVeEpscGxGVQ?oc=5",
-          "direction": "negative",
-          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "title": "中国軍が「占領」か「失敗」か…台湾有事で起こり得る4つの事態、元幹部自衛官が考察してみると？ 【JBpressセレクション】台湾有事は既に始まっている 「自衛隊は中国軍にかなわない」という言説を日本に広めたい中国の深謀(1/8)",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGMkIwdl9MN1FXQWRtczVVSi1JQThYNXR6UWVNSUZPRVZiZVdTMWIyX3c5a2MyUDZNNk5MQXR6ZmVROHFLV2JIU1h1MlVTS1Z5eTA4bGx3?oc=5",
+          "direction": "positive",
+          "reason": "「台湾」に反応: 安全保障関連の思惑が働きやすい",
           "importance": 4
         }
       ],
@@ -18525,15 +18424,15 @@
           "importance": 4
         },
         {
-          "title": "ロシアがウクライナのエネルギー施設を大規模攻撃 60万人が停電被害 「エネルギー停戦」発表後も攻撃続く",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0LUp6SHZaY1JBa1VHX1RzMEswdDdVb21pd1ZNa25uR2kydXNKbzRmSTByTzZuUVNPalZucXlVOUxodVNpZ21tUUlMYnItcDZHTnVSZzg1MkNiTEZDWjdxbUU2NmkzZlhKUkdiSjg1aVJBSnlod0N5dzJPWlVFU28?oc=5",
+          "title": "ウクライナ ゼレンスキー大統領 「ロシアが“エネルギー停戦”違反」",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95dTJaVHoyaFpHUWJ5dEU2OFExOEp1RndhakloWkNBSW5fb3lnTURyOTljSWQ0MXhkWmFybENJbDRmaS0yV1dzamxMUTVfdGY4cVJTdTBrSUlfSzhVeEpscGxGVQ?oc=5",
           "direction": "negative",
           "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
           "importance": 4
         },
         {
-          "title": "ウクライナ ゼレンスキー大統領 「ロシアが“エネルギー停戦”違反」",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95dTJaVHoyaFpHUWJ5dEU2OFExOEp1RndhakloWkNBSW5fb3lnTURyOTljSWQ0MXhkWmFybENJbDRmaS0yV1dzamxMUTVfdGY4cVJTdTBrSUlfSzhVeEpscGxGVQ?oc=5",
+          "title": "【解説】 トランプ氏が主張するロシアとウクライナの「エネルギー停戦」、ロシアはなぜ沈黙したままなのか",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40X0J3d3BRQXFUVkpoeFlfT29TNzhZaDN5eHQzNGFVODZreWF1b0lPTXFCVURvNUthMFBwQmhRdV9CNFlJNFdIX0c3WUladHdVSG41WHJ3U2hZakhuWXZJUNIBZkFVX3lxTE9XQlJkbnE0MzRrTHVaS3hqWXNWRXBCQTFEUmhkSFB3eXhPMXg5YmVKV2NELVAxNFA3SjFUOENtdnAzdGlMUW1mRkZES3VfeDNHT1RsWFhZcVhVMWV2bG92WUpsN3hnUQ?oc=5",
           "direction": "negative",
           "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
           "importance": 4
@@ -18558,15 +18457,15 @@
           "importance": 4
         },
         {
-          "title": "ロシアがウクライナのエネルギー施設を大規模攻撃 60万人が停電被害 「エネルギー停戦」発表後も攻撃続く",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0LUp6SHZaY1JBa1VHX1RzMEswdDdVb21pd1ZNa25uR2kydXNKbzRmSTByTzZuUVNPalZucXlVOUxodVNpZ21tUUlMYnItcDZHTnVSZzg1MkNiTEZDWjdxbUU2NmkzZlhKUkdiSjg1aVJBSnlod0N5dzJPWlVFU28?oc=5",
+          "title": "ウクライナ ゼレンスキー大統領 「ロシアが“エネルギー停戦”違反」",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95dTJaVHoyaFpHUWJ5dEU2OFExOEp1RndhakloWkNBSW5fb3lnTURyOTljSWQ0MXhkWmFybENJbDRmaS0yV1dzamxMUTVfdGY4cVJTdTBrSUlfSzhVeEpscGxGVQ?oc=5",
           "direction": "negative",
           "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
           "importance": 4
         },
         {
-          "title": "ウクライナ ゼレンスキー大統領 「ロシアが“エネルギー停戦”違反」",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95dTJaVHoyaFpHUWJ5dEU2OFExOEp1RndhakloWkNBSW5fb3lnTURyOTljSWQ0MXhkWmFybENJbDRmaS0yV1dzamxMUTVfdGY4cVJTdTBrSUlfSzhVeEpscGxGVQ?oc=5",
+          "title": "【解説】 トランプ氏が主張するロシアとウクライナの「エネルギー停戦」、ロシアはなぜ沈黙したままなのか",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40X0J3d3BRQXFUVkpoeFlfT29TNzhZaDN5eHQzNGFVODZreWF1b0lPTXFCVURvNUthMFBwQmhRdV9CNFlJNFdIX0c3WUladHdVSG41WHJ3U2hZakhuWXZJUNIBZkFVX3lxTE9XQlJkbnE0MzRrTHVaS3hqWXNWRXBCQTFEUmhkSFB3eXhPMXg5YmVKV2NELVAxNFA3SjFUOENtdnAzdGlMUW1mRkZES3VfeDNHT1RsWFhZcVhVMWV2bG92WUpsN3hnUQ?oc=5",
           "direction": "negative",
           "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
           "importance": 4
@@ -18591,15 +18490,15 @@
           "importance": 4
         },
         {
-          "title": "ロシアがウクライナのエネルギー施設を大規模攻撃 60万人が停電被害 「エネルギー停戦」発表後も攻撃続く",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0LUp6SHZaY1JBa1VHX1RzMEswdDdVb21pd1ZNa25uR2kydXNKbzRmSTByTzZuUVNPalZucXlVOUxodVNpZ21tUUlMYnItcDZHTnVSZzg1MkNiTEZDWjdxbUU2NmkzZlhKUkdiSjg1aVJBSnlod0N5dzJPWlVFU28?oc=5",
+          "title": "ウクライナ ゼレンスキー大統領 「ロシアが“エネルギー停戦”違反」",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95dTJaVHoyaFpHUWJ5dEU2OFExOEp1RndhakloWkNBSW5fb3lnTURyOTljSWQ0MXhkWmFybENJbDRmaS0yV1dzamxMUTVfdGY4cVJTdTBrSUlfSzhVeEpscGxGVQ?oc=5",
           "direction": "negative",
           "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
           "importance": 4
         },
         {
-          "title": "ウクライナ ゼレンスキー大統領 「ロシアが“エネルギー停戦”違反」",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95dTJaVHoyaFpHUWJ5dEU2OFExOEp1RndhakloWkNBSW5fb3lnTURyOTljSWQ0MXhkWmFybENJbDRmaS0yV1dzamxMUTVfdGY4cVJTdTBrSUlfSzhVeEpscGxGVQ?oc=5",
+          "title": "【解説】 トランプ氏が主張するロシアとウクライナの「エネルギー停戦」、ロシアはなぜ沈黙したままなのか",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40X0J3d3BRQXFUVkpoeFlfT29TNzhZaDN5eHQzNGFVODZreWF1b0lPTXFCVURvNUthMFBwQmhRdV9CNFlJNFdIX0c3WUladHdVSG41WHJ3U2hZakhuWXZJUNIBZkFVX3lxTE9XQlJkbnE0MzRrTHVaS3hqWXNWRXBCQTFEUmhkSFB3eXhPMXg5YmVKV2NELVAxNFA3SjFUOENtdnAzdGlMUW1mRkZES3VfeDNHT1RsWFhZcVhVMWV2bG92WUpsN3hnUQ?oc=5",
           "direction": "negative",
           "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
           "importance": 4
@@ -18624,15 +18523,15 @@
           "importance": 4
         },
         {
-          "title": "ロシアがウクライナのエネルギー施設を大規模攻撃 60万人が停電被害 「エネルギー停戦」発表後も攻撃続く",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0LUp6SHZaY1JBa1VHX1RzMEswdDdVb21pd1ZNa25uR2kydXNKbzRmSTByTzZuUVNPalZucXlVOUxodVNpZ21tUUlMYnItcDZHTnVSZzg1MkNiTEZDWjdxbUU2NmkzZlhKUkdiSjg1aVJBSnlod0N5dzJPWlVFU28?oc=5",
+          "title": "ウクライナ ゼレンスキー大統領 「ロシアが“エネルギー停戦”違反」",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95dTJaVHoyaFpHUWJ5dEU2OFExOEp1RndhakloWkNBSW5fb3lnTURyOTljSWQ0MXhkWmFybENJbDRmaS0yV1dzamxMUTVfdGY4cVJTdTBrSUlfSzhVeEpscGxGVQ?oc=5",
           "direction": "negative",
           "reason": "「ウクライナ」に反応: 穀物相場の変動が原材料コストに影響しやすい",
           "importance": 4
         },
         {
-          "title": "ウクライナ ゼレンスキー大統領 「ロシアが“エネルギー停戦”違反」",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95dTJaVHoyaFpHUWJ5dEU2OFExOEp1RndhakloWkNBSW5fb3lnTURyOTljSWQ0MXhkWmFybENJbDRmaS0yV1dzamxMUTVfdGY4cVJTdTBrSUlfSzhVeEpscGxGVQ?oc=5",
+          "title": "【解説】 トランプ氏が主張するロシアとウクライナの「エネルギー停戦」、ロシアはなぜ沈黙したままなのか",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40X0J3d3BRQXFUVkpoeFlfT29TNzhZaDN5eHQzNGFVODZreWF1b0lPTXFCVURvNUthMFBwQmhRdV9CNFlJNFdIX0c3WUladHdVSG41WHJ3U2hZakhuWXZJUNIBZkFVX3lxTE9XQlJkbnE0MzRrTHVaS3hqWXNWRXBCQTFEUmhkSFB3eXhPMXg5YmVKV2NELVAxNFA3SjFUOENtdnAzdGlMUW1mRkZES3VfeDNHT1RsWFhZcVhVMWV2bG92WUpsN3hnUQ?oc=5",
           "direction": "negative",
           "reason": "「ウクライナ」に反応: 穀物相場の変動が原材料コストに影響しやすい",
           "importance": 4
@@ -18657,15 +18556,15 @@
           "importance": 4
         },
         {
-          "title": "ロシアがウクライナのエネルギー施設を大規模攻撃 60万人が停電被害 「エネルギー停戦」発表後も攻撃続く",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0LUp6SHZaY1JBa1VHX1RzMEswdDdVb21pd1ZNa25uR2kydXNKbzRmSTByTzZuUVNPalZucXlVOUxodVNpZ21tUUlMYnItcDZHTnVSZzg1MkNiTEZDWjdxbUU2NmkzZlhKUkdiSjg1aVJBSnlod0N5dzJPWlVFU28?oc=5",
+          "title": "ウクライナ ゼレンスキー大統領 「ロシアが“エネルギー停戦”違反」",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95dTJaVHoyaFpHUWJ5dEU2OFExOEp1RndhakloWkNBSW5fb3lnTURyOTljSWQ0MXhkWmFybENJbDRmaS0yV1dzamxMUTVfdGY4cVJTdTBrSUlfSzhVeEpscGxGVQ?oc=5",
           "direction": "negative",
           "reason": "「ウクライナ」に反応: 穀物相場の変動が原材料コストに影響しやすい",
           "importance": 4
         },
         {
-          "title": "ウクライナ ゼレンスキー大統領 「ロシアが“エネルギー停戦”違反」",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95dTJaVHoyaFpHUWJ5dEU2OFExOEp1RndhakloWkNBSW5fb3lnTURyOTljSWQ0MXhkWmFybENJbDRmaS0yV1dzamxMUTVfdGY4cVJTdTBrSUlfSzhVeEpscGxGVQ?oc=5",
+          "title": "【解説】 トランプ氏が主張するロシアとウクライナの「エネルギー停戦」、ロシアはなぜ沈黙したままなのか",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40X0J3d3BRQXFUVkpoeFlfT29TNzhZaDN5eHQzNGFVODZreWF1b0lPTXFCVURvNUthMFBwQmhRdV9CNFlJNFdIX0c3WUladHdVSG41WHJ3U2hZakhuWXZJUNIBZkFVX3lxTE9XQlJkbnE0MzRrTHVaS3hqWXNWRXBCQTFEUmhkSFB3eXhPMXg5YmVKV2NELVAxNFA3SjFUOENtdnAzdGlMUW1mRkZES3VfeDNHT1RsWFhZcVhVMWV2bG92WUpsN3hnUQ?oc=5",
           "direction": "negative",
           "reason": "「ウクライナ」に反応: 穀物相場の変動が原材料コストに影響しやすい",
           "importance": 4
@@ -18690,15 +18589,15 @@
           "importance": 4
         },
         {
-          "title": "ロシアがウクライナのエネルギー施設を大規模攻撃 60万人が停電被害 「エネルギー停戦」発表後も攻撃続く",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0LUp6SHZaY1JBa1VHX1RzMEswdDdVb21pd1ZNa25uR2kydXNKbzRmSTByTzZuUVNPalZucXlVOUxodVNpZ21tUUlMYnItcDZHTnVSZzg1MkNiTEZDWjdxbUU2NmkzZlhKUkdiSjg1aVJBSnlod0N5dzJPWlVFU28?oc=5",
+          "title": "ウクライナ ゼレンスキー大統領 「ロシアが“エネルギー停戦”違反」",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95dTJaVHoyaFpHUWJ5dEU2OFExOEp1RndhakloWkNBSW5fb3lnTURyOTljSWQ0MXhkWmFybENJbDRmaS0yV1dzamxMUTVfdGY4cVJTdTBrSUlfSzhVeEpscGxGVQ?oc=5",
           "direction": "negative",
           "reason": "「ウクライナ」に反応: 穀物相場の変動が原材料コストに影響しやすい",
           "importance": 4
         },
         {
-          "title": "ウクライナ ゼレンスキー大統領 「ロシアが“エネルギー停戦”違反」",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95dTJaVHoyaFpHUWJ5dEU2OFExOEp1RndhakloWkNBSW5fb3lnTURyOTljSWQ0MXhkWmFybENJbDRmaS0yV1dzamxMUTVfdGY4cVJTdTBrSUlfSzhVeEpscGxGVQ?oc=5",
+          "title": "【解説】 トランプ氏が主張するロシアとウクライナの「エネルギー停戦」、ロシアはなぜ沈黙したままなのか",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40X0J3d3BRQXFUVkpoeFlfT29TNzhZaDN5eHQzNGFVODZreWF1b0lPTXFCVURvNUthMFBwQmhRdV9CNFlJNFdIX0c3WUladHdVSG41WHJ3U2hZakhuWXZJUNIBZkFVX3lxTE9XQlJkbnE0MzRrTHVaS3hqWXNWRXBCQTFEUmhkSFB3eXhPMXg5YmVKV2NELVAxNFA3SjFUOENtdnAzdGlMUW1mRkZES3VfeDNHT1RsWFhZcVhVMWV2bG92WUpsN3hnUQ?oc=5",
           "direction": "negative",
           "reason": "「ウクライナ」に反応: 穀物相場の変動が原材料コストに影響しやすい",
           "importance": 4
@@ -19376,9 +19275,9 @@
       "category_emoji": "🌍",
       "member_ids": [
         "de5695e626d6",
-        "8bff3b0e8613",
         "e562b70abc3a",
         "7ee9596b54a6",
+        "c0b78671731c",
         "b3893fd17267"
       ],
       "members": [
@@ -19388,13 +19287,6 @@
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaDJxQkxURnVHdXU0QTk2SktLVk56MDBRMVFDZjBuS3lsMGt4V1Frd2EyVlNaY1ZuZ0Y1SnM0SS1BWmluOFNNQVJjaE54S0pLc0g1Y2VucGRUYTFVb3UxNGFfSm0zX2VZSzhEQmN6VmlYcG5qV3k5OWREYXF3NVFZOFlRZUl0aXc?oc=5",
           "importance": 4,
           "source": "TBS NEWS DIG"
-        },
-        {
-          "id": "8bff3b0e8613",
-          "title": "ロシアがウクライナのエネルギー施設を大規模攻撃 60万人が停電被害 「エネルギー停戦」発表後も攻撃続く",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0LUp6SHZaY1JBa1VHX1RzMEswdDdVb21pd1ZNa25uR2kydXNKbzRmSTByTzZuUVNPalZucXlVOUxodVNpZ21tUUlMYnItcDZHTnVSZzg1MkNiTEZDWjdxbUU2NmkzZlhKUkdiSjg1aVJBSnlod0N5dzJPWlVFU28?oc=5",
-          "importance": 4,
-          "source": "Yahoo!ニュース"
         },
         {
           "id": "e562b70abc3a",
@@ -19409,6 +19301,13 @@
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40X0J3d3BRQXFUVkpoeFlfT29TNzhZaDN5eHQzNGFVODZreWF1b0lPTXFCVURvNUthMFBwQmhRdV9CNFlJNFdIX0c3WUladHdVSG41WHJ3U2hZakhuWXZJUNIBZkFVX3lxTE9XQlJkbnE0MzRrTHVaS3hqWXNWRXBCQTFEUmhkSFB3eXhPMXg5YmVKV2NELVAxNFA3SjFUOENtdnAzdGlMUW1mRkZES3VfeDNHT1RsWFhZcVhVMWV2bG92WUpsN3hnUQ?oc=5",
           "importance": 4,
           "source": "BBC"
+        },
+        {
+          "id": "c0b78671731c",
+          "title": "トランプ氏、再び「エネルギー停戦」主張 「私が言ったから」",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HNkgybWlkYTdUQmU5OWRZTU5EQU9SWTFDQ3ZfRkh1RHVrNnZyVDE3SzJMQlMtUU9VdGNFWnJUb01wTkRtanZoR1lzSTNub1pyWTRLejZhQUJUXzZtTjhTaldDdlpiM3M?oc=5",
+          "importance": 4,
+          "source": "朝日新聞"
         },
         {
           "id": "b3893fd17267",
@@ -21902,8 +21801,7 @@
       "category_emoji": "🇺🇸",
       "member_ids": [
         "e660583cc48f",
-        "dac42bddd384",
-        "de410c365610"
+        "dac42bddd384"
       ],
       "members": [
         {
@@ -21919,13 +21817,6 @@
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5BMDZKWGxNWXJCbElqYk94c1hoMEJ6QVgzZEpqUmF1WXNMU0FpWVltWGRtQkNNVXhfaTdrOXNSWkpWUEdZLU12WA?oc=5",
           "importance": 3,
           "source": "みんかぶ FX/為替"
-        },
-        {
-          "id": "de410c365610",
-          "title": "ダウ平均、ナスダックとも下落 メモリー株の下げ目立つ 米大手銀の決算始まる＝米国株概況",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBad0NmellIRDBfZFg3LVh5dXlZZ05HcTF5NHUtd0lsOGVqeTBncVdwQm9GS1U2dWwtUXBNbTdyV1drQjh2cDgwRXhpWWw2S2ZTMlAzN2IwQjlmWDZhdUJTUQ?oc=5",
-          "importance": 3,
-          "source": "株探"
         }
       ],
       "stocks": [
@@ -21933,35 +21824,35 @@
           "code": "8604",
           "name": "野村ホールディングス",
           "positive": 0,
-          "negative": 2,
+          "negative": 1,
           "watch": 1
         },
         {
           "code": "8601",
           "name": "大和証券グループ本社",
           "positive": 0,
-          "negative": 2,
+          "negative": 1,
           "watch": 1
         },
         {
           "code": "8473",
           "name": "SBIホールディングス",
           "positive": 0,
-          "negative": 2,
+          "negative": 1,
           "watch": 1
         },
         {
           "code": "9984",
           "name": "ソフトバンクグループ",
           "positive": 0,
-          "negative": 2,
+          "negative": 1,
           "watch": 1
         },
         {
           "code": "7203",
           "name": "トヨタ自動車",
           "positive": 0,
-          "negative": 1,
+          "negative": 0,
           "watch": 1
         }
       ],
@@ -23281,10 +23172,10 @@
       "category_emoji": "🏢",
       "member_ids": [
         "de5695e626d6",
-        "8bff3b0e8613",
         "e562b70abc3a",
         "8c720bd1d293",
         "7ee9596b54a6",
+        "c0b78671731c",
         "b3893fd17267",
         "f0afd3bc3522",
         "534636b4209d",
@@ -23298,13 +23189,6 @@
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaDJxQkxURnVHdXU0QTk2SktLVk56MDBRMVFDZjBuS3lsMGt4V1Frd2EyVlNaY1ZuZ0Y1SnM0SS1BWmluOFNNQVJjaE54S0pLc0g1Y2VucGRUYTFVb3UxNGFfSm0zX2VZSzhEQmN6VmlYcG5qV3k5OWREYXF3NVFZOFlRZUl0aXc?oc=5",
           "importance": 4,
           "source": "TBS NEWS DIG"
-        },
-        {
-          "id": "8bff3b0e8613",
-          "title": "ロシアがウクライナのエネルギー施設を大規模攻撃 60万人が停電被害 「エネルギー停戦」発表後も攻撃続く",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0LUp6SHZaY1JBa1VHX1RzMEswdDdVb21pd1ZNa25uR2kydXNKbzRmSTByTzZuUVNPalZucXlVOUxodVNpZ21tUUlMYnItcDZHTnVSZzg1MkNiTEZDWjdxbUU2NmkzZlhKUkdiSjg1aVJBSnlod0N5dzJPWlVFU28?oc=5",
-          "importance": 4,
-          "source": "Yahoo!ニュース"
         },
         {
           "id": "e562b70abc3a",
@@ -23326,6 +23210,13 @@
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40X0J3d3BRQXFUVkpoeFlfT29TNzhZaDN5eHQzNGFVODZreWF1b0lPTXFCVURvNUthMFBwQmhRdV9CNFlJNFdIX0c3WUladHdVSG41WHJ3U2hZakhuWXZJUNIBZkFVX3lxTE9XQlJkbnE0MzRrTHVaS3hqWXNWRXBCQTFEUmhkSFB3eXhPMXg5YmVKV2NELVAxNFA3SjFUOENtdnAzdGlMUW1mRkZES3VfeDNHT1RsWFhZcVhVMWV2bG92WUpsN3hnUQ?oc=5",
           "importance": 4,
           "source": "BBC"
+        },
+        {
+          "id": "c0b78671731c",
+          "title": "トランプ氏、再び「エネルギー停戦」主張 「私が言ったから」",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HNkgybWlkYTdUQmU5OWRZTU5EQU9SWTFDQ3ZfRkh1RHVrNnZyVDE3SzJMQlMtUU9VdGNFWnJUb01wTkRtanZoR1lzSTNub1pyWTRLejZhQUJUXzZtTjhTaldDdlpiM3M?oc=5",
+          "importance": 4,
+          "source": "朝日新聞"
         },
         {
           "id": "b3893fd17267",
@@ -23401,10 +23292,10 @@
       "category_emoji": "🏢",
       "member_ids": [
         "de5695e626d6",
-        "8bff3b0e8613",
         "e562b70abc3a",
         "8c720bd1d293",
         "7ee9596b54a6",
+        "c0b78671731c",
         "b3893fd17267",
         "f0afd3bc3522",
         "534636b4209d",
@@ -23418,13 +23309,6 @@
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaDJxQkxURnVHdXU0QTk2SktLVk56MDBRMVFDZjBuS3lsMGt4V1Frd2EyVlNaY1ZuZ0Y1SnM0SS1BWmluOFNNQVJjaE54S0pLc0g1Y2VucGRUYTFVb3UxNGFfSm0zX2VZSzhEQmN6VmlYcG5qV3k5OWREYXF3NVFZOFlRZUl0aXc?oc=5",
           "importance": 4,
           "source": "TBS NEWS DIG"
-        },
-        {
-          "id": "8bff3b0e8613",
-          "title": "ロシアがウクライナのエネルギー施設を大規模攻撃 60万人が停電被害 「エネルギー停戦」発表後も攻撃続く",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0LUp6SHZaY1JBa1VHX1RzMEswdDdVb21pd1ZNa25uR2kydXNKbzRmSTByTzZuUVNPalZucXlVOUxodVNpZ21tUUlMYnItcDZHTnVSZzg1MkNiTEZDWjdxbUU2NmkzZlhKUkdiSjg1aVJBSnlod0N5dzJPWlVFU28?oc=5",
-          "importance": 4,
-          "source": "Yahoo!ニュース"
         },
         {
           "id": "e562b70abc3a",
@@ -23446,6 +23330,13 @@
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40X0J3d3BRQXFUVkpoeFlfT29TNzhZaDN5eHQzNGFVODZreWF1b0lPTXFCVURvNUthMFBwQmhRdV9CNFlJNFdIX0c3WUladHdVSG41WHJ3U2hZakhuWXZJUNIBZkFVX3lxTE9XQlJkbnE0MzRrTHVaS3hqWXNWRXBCQTFEUmhkSFB3eXhPMXg5YmVKV2NELVAxNFA3SjFUOENtdnAzdGlMUW1mRkZES3VfeDNHT1RsWFhZcVhVMWV2bG92WUpsN3hnUQ?oc=5",
           "importance": 4,
           "source": "BBC"
+        },
+        {
+          "id": "c0b78671731c",
+          "title": "トランプ氏、再び「エネルギー停戦」主張 「私が言ったから」",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HNkgybWlkYTdUQmU5OWRZTU5EQU9SWTFDQ3ZfRkh1RHVrNnZyVDE3SzJMQlMtUU9VdGNFWnJUb01wTkRtanZoR1lzSTNub1pyWTRLejZhQUJUXzZtTjhTaldDdlpiM3M?oc=5",
+          "importance": 4,
+          "source": "朝日新聞"
         },
         {
           "id": "b3893fd17267",
@@ -23737,12 +23628,12 @@
       "category_emoji": "🏭",
       "member_ids": [
         "de5695e626d6",
-        "8bff3b0e8613",
         "6086827d773c",
         "e562b70abc3a",
         "8c720bd1d293",
         "8c53be5660d3",
         "7ee9596b54a6",
+        "c0b78671731c",
         "b3893fd17267",
         "dac42bddd384",
         "f0afd3bc3522",
@@ -23758,13 +23649,6 @@
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaDJxQkxURnVHdXU0QTk2SktLVk56MDBRMVFDZjBuS3lsMGt4V1Frd2EyVlNaY1ZuZ0Y1SnM0SS1BWmluOFNNQVJjaE54S0pLc0g1Y2VucGRUYTFVb3UxNGFfSm0zX2VZSzhEQmN6VmlYcG5qV3k5OWREYXF3NVFZOFlRZUl0aXc?oc=5",
           "importance": 4,
           "source": "TBS NEWS DIG"
-        },
-        {
-          "id": "8bff3b0e8613",
-          "title": "ロシアがウクライナのエネルギー施設を大規模攻撃 60万人が停電被害 「エネルギー停戦」発表後も攻撃続く",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0LUp6SHZaY1JBa1VHX1RzMEswdDdVb21pd1ZNa25uR2kydXNKbzRmSTByTzZuUVNPalZucXlVOUxodVNpZ21tUUlMYnItcDZHTnVSZzg1MkNiTEZDWjdxbUU2NmkzZlhKUkdiSjg1aVJBSnlod0N5dzJPWlVFU28?oc=5",
-          "importance": 4,
-          "source": "Yahoo!ニュース"
         },
         {
           "id": "6086827d773c",
@@ -23800,6 +23684,13 @@
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40X0J3d3BRQXFUVkpoeFlfT29TNzhZaDN5eHQzNGFVODZreWF1b0lPTXFCVURvNUthMFBwQmhRdV9CNFlJNFdIX0c3WUladHdVSG41WHJ3U2hZakhuWXZJUNIBZkFVX3lxTE9XQlJkbnE0MzRrTHVaS3hqWXNWRXBCQTFEUmhkSFB3eXhPMXg5YmVKV2NELVAxNFA3SjFUOENtdnAzdGlMUW1mRkZES3VfeDNHT1RsWFhZcVhVMWV2bG92WUpsN3hnUQ?oc=5",
           "importance": 4,
           "source": "BBC"
+        },
+        {
+          "id": "c0b78671731c",
+          "title": "トランプ氏、再び「エネルギー停戦」主張 「私が言ったから」",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HNkgybWlkYTdUQmU5OWRZTU5EQU9SWTFDQ3ZfRkh1RHVrNnZyVDE3SzJMQlMtUU9VdGNFWnJUb01wTkRtanZoR1lzSTNub1pyWTRLejZhQUJUXzZtTjhTaldDdlpiM3M?oc=5",
+          "importance": 4,
+          "source": "朝日新聞"
         },
         {
           "id": "b3893fd17267",
@@ -23924,9 +23815,9 @@
       "category_emoji": "🏭",
       "member_ids": [
         "de5695e626d6",
-        "8bff3b0e8613",
         "e562b70abc3a",
         "7ee9596b54a6",
+        "c0b78671731c",
         "b3893fd17267",
         "028d24622722",
         "5a780d036023"
@@ -23938,13 +23829,6 @@
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaDJxQkxURnVHdXU0QTk2SktLVk56MDBRMVFDZjBuS3lsMGt4V1Frd2EyVlNaY1ZuZ0Y1SnM0SS1BWmluOFNNQVJjaE54S0pLc0g1Y2VucGRUYTFVb3UxNGFfSm0zX2VZSzhEQmN6VmlYcG5qV3k5OWREYXF3NVFZOFlRZUl0aXc?oc=5",
           "importance": 4,
           "source": "TBS NEWS DIG"
-        },
-        {
-          "id": "8bff3b0e8613",
-          "title": "ロシアがウクライナのエネルギー施設を大規模攻撃 60万人が停電被害 「エネルギー停戦」発表後も攻撃続く",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0LUp6SHZaY1JBa1VHX1RzMEswdDdVb21pd1ZNa25uR2kydXNKbzRmSTByTzZuUVNPalZucXlVOUxodVNpZ21tUUlMYnItcDZHTnVSZzg1MkNiTEZDWjdxbUU2NmkzZlhKUkdiSjg1aVJBSnlod0N5dzJPWlVFU28?oc=5",
-          "importance": 4,
-          "source": "Yahoo!ニュース"
         },
         {
           "id": "e562b70abc3a",
@@ -23959,6 +23843,13 @@
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40X0J3d3BRQXFUVkpoeFlfT29TNzhZaDN5eHQzNGFVODZreWF1b0lPTXFCVURvNUthMFBwQmhRdV9CNFlJNFdIX0c3WUladHdVSG41WHJ3U2hZakhuWXZJUNIBZkFVX3lxTE9XQlJkbnE0MzRrTHVaS3hqWXNWRXBCQTFEUmhkSFB3eXhPMXg5YmVKV2NELVAxNFA3SjFUOENtdnAzdGlMUW1mRkZES3VfeDNHT1RsWFhZcVhVMWV2bG92WUpsN3hnUQ?oc=5",
           "importance": 4,
           "source": "BBC"
+        },
+        {
+          "id": "c0b78671731c",
+          "title": "トランプ氏、再び「エネルギー停戦」主張 「私が言ったから」",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HNkgybWlkYTdUQmU5OWRZTU5EQU9SWTFDQ3ZfRkh1RHVrNnZyVDE3SzJMQlMtUU9VdGNFWnJUb01wTkRtanZoR1lzSTNub1pyWTRLejZhQUJUXzZtTjhTaldDdlpiM3M?oc=5",
+          "importance": 4,
+          "source": "朝日新聞"
         },
         {
           "id": "b3893fd17267",
@@ -24002,121 +23893,6 @@
           "name": "セブン&アイ・ホールディングス",
           "positive": 0,
           "negative": 2,
-          "watch": 0
-        }
-      ],
-      "max_importance": 4,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "connection_type": "sector",
-      "connection_label": "同じ業界",
-      "theme_id": null,
-      "label": "自動車業界のニュース",
-      "category": "",
-      "category_label": "同じ業界",
-      "category_emoji": "🏭",
-      "member_ids": [
-        "e660583cc48f",
-        "438ea73ac9ae",
-        "de410c365610",
-        "028d24622722",
-        "5a780d036023"
-      ],
-      "members": [
-        {
-          "id": "e660583cc48f",
-          "title": "米国株式市場＝ナスダック大幅安、インフレ加速で利上げ懸念",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQjVGN3A0TnI3X0gtQWhTQmMxUnk2bEdrdno2c3R1UzQ0NWlUV2hEYVl5WUJGUUpwZUtiVUVjT1pEVDNwN1NBNnhFQUpnR0RCT211Q3lkMjJIREFaamhDTnA4SXJBVDZBc0JTbGFSUnhoVjNfX2tHeFdiT0V2UDg2LUVPcDF4UQ?oc=5",
-          "importance": 4,
-          "source": "Reuters"
-        },
-        {
-          "id": "438ea73ac9ae",
-          "title": "外為：1ドル158円14銭前後と小幅なドル安・円高で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOWJ0UWdIc1hRUk1OTUIzX1lpYXVaQTlocEV4elh1SmswdkRwc2NyWG1WTnV0NFRoSC1GT2dZeEtLZk9Mc041WDlBLXk1Y0dXVnd1RTFnUkxzcTluNmlRT3JzQXhnal90Z0VFUkpBcXdNY0ZXb09oUXhEZGZ6Y2p4WkJNLVYwSWs?oc=5",
-          "importance": 3,
-          "source": "Yahoo!ファイナンス"
-        },
-        {
-          "id": "de410c365610",
-          "title": "ダウ平均、ナスダックとも下落 メモリー株の下げ目立つ 米大手銀の決算始まる＝米国株概況",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBad0NmellIRDBfZFg3LVh5dXlZZ05HcTF5NHUtd0lsOGVqeTBncVdwQm9GS1U2dWwtUXBNbTdyV1drQjh2cDgwRXhpWWw2S2ZTMlAzN2IwQjlmWDZhdUJTUQ?oc=5",
-          "importance": 3,
-          "source": "株探"
-        },
-        {
-          "id": "028d24622722",
-          "title": "外為：カナダドル、111円44銭前後と大幅なカナダドル高・円安で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQem4tRkg0bnVfeFY1OGhmSXc0Snh5MTItaW5ZSTJnakxTZEZIN2JHTV9rVGNMZElxa1ZDb2txM3MxNEo3bXJxWlpxR0taOE5SNEZiZ2JJSkpPQmdHWFhqWXNSQk9VSE5jSm1aOVNIV3RIZEJfMFlINk5TVTJnYkU1VlFVd3Q5STQ?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ファイナンス"
-        },
-        {
-          "id": "5a780d036023",
-          "title": "コラム：円安は峠を越えたのか、令和8年度下期以降のドル円展望＝植野大作氏",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQWVVUU5zQno4cDRIUW1hcUU5VmNnanFQSmFHU1lMS3Y3RzBTYVBSdk5oMjlOY0l0SGZRUmtiMG92cFRfWlpFUUoxU2lYZ2N3ZkNqVVhpajdnZEJhMmpoNnJ3S2VoRDVZR1VKeEpaanFPb24yRGU3cEY1QjhOekdWN3hZZl9tUDJMUWpQa0dB?oc=5",
-          "importance": 2,
-          "source": "Reuters"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "7203",
-          "name": "トヨタ自動車",
-          "positive": 2,
-          "negative": 2,
-          "watch": 1
-        },
-        {
-          "code": "7267",
-          "name": "本田技研工業",
-          "positive": 2,
-          "negative": 1,
-          "watch": 0
-        },
-        {
-          "code": "7201",
-          "name": "日産自動車",
-          "positive": 2,
-          "negative": 1,
-          "watch": 0
-        },
-        {
-          "code": "7269",
-          "name": "スズキ",
-          "positive": 2,
-          "negative": 1,
-          "watch": 0
-        },
-        {
-          "code": "7270",
-          "name": "SUBARU",
-          "positive": 2,
-          "negative": 1,
-          "watch": 0
-        },
-        {
-          "code": "7261",
-          "name": "マツダ",
-          "positive": 2,
-          "negative": 1,
           "watch": 0
         }
       ],
@@ -24234,6 +24010,113 @@
       "emergence_growth": {}
     },
     {
+      "connection_type": "sector",
+      "connection_label": "同じ業界",
+      "theme_id": null,
+      "label": "自動車業界のニュース",
+      "category": "",
+      "category_label": "同じ業界",
+      "category_emoji": "🏭",
+      "member_ids": [
+        "e660583cc48f",
+        "8e0fe97cdea0",
+        "028d24622722",
+        "5a780d036023"
+      ],
+      "members": [
+        {
+          "id": "e660583cc48f",
+          "title": "米国株式市場＝ナスダック大幅安、インフレ加速で利上げ懸念",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQjVGN3A0TnI3X0gtQWhTQmMxUnk2bEdrdno2c3R1UzQ0NWlUV2hEYVl5WUJGUUpwZUtiVUVjT1pEVDNwN1NBNnhFQUpnR0RCT211Q3lkMjJIREFaamhDTnA4SXJBVDZBc0JTbGFSUnhoVjNfX2tHeFdiT0V2UDg2LUVPcDF4UQ?oc=5",
+          "importance": 4,
+          "source": "Reuters"
+        },
+        {
+          "id": "8e0fe97cdea0",
+          "title": "外為：1ドル157円88銭前後とドル安・円高で推移(株探ニュース)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWmdqUk9TRVZUQnZ5SElva2JRMm94aU1JNXhBakg1cnVRaV9LU0JvZXUtLWpBS3FNMlhEOE1vaGZMTDU3cWV4VmJNRjM5NWZuT2lmTkY5MmtuQ05JQTVfV3o4b0trSHQ4VXRoR3RfcFJUdVFXMFBKSkwtRDZWeFR4QmNXU3RvRlE?oc=5",
+          "importance": 3,
+          "source": "Yahoo!ファイナンス"
+        },
+        {
+          "id": "028d24622722",
+          "title": "外為：カナダドル、111円44銭前後と大幅なカナダドル高・円安で推移(株探ニュース)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQem4tRkg0bnVfeFY1OGhmSXc0Snh5MTItaW5ZSTJnakxTZEZIN2JHTV9rVGNMZElxa1ZDb2txM3MxNEo3bXJxWlpxR0taOE5SNEZiZ2JJSkpPQmdHWFhqWXNSQk9VSE5jSm1aOVNIV3RIZEJfMFlINk5TVTJnYkU1VlFVd3Q5STQ?oc=5",
+          "importance": 2,
+          "source": "Yahoo!ファイナンス"
+        },
+        {
+          "id": "5a780d036023",
+          "title": "コラム：円安は峠を越えたのか、令和8年度下期以降のドル円展望＝植野大作氏",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQWVVUU5zQno4cDRIUW1hcUU5VmNnanFQSmFHU1lMS3Y3RzBTYVBSdk5oMjlOY0l0SGZRUmtiMG92cFRfWlpFUUoxU2lYZ2N3ZkNqVVhpajdnZEJhMmpoNnJ3S2VoRDVZR1VKeEpaanFPb24yRGU3cEY1QjhOekdWN3hZZl9tUDJMUWpQa0dB?oc=5",
+          "importance": 2,
+          "source": "Reuters"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "positive": 2,
+          "negative": 1,
+          "watch": 1
+        },
+        {
+          "code": "7267",
+          "name": "本田技研工業",
+          "positive": 2,
+          "negative": 1,
+          "watch": 0
+        },
+        {
+          "code": "7201",
+          "name": "日産自動車",
+          "positive": 2,
+          "negative": 1,
+          "watch": 0
+        },
+        {
+          "code": "7269",
+          "name": "スズキ",
+          "positive": 2,
+          "negative": 1,
+          "watch": 0
+        },
+        {
+          "code": "7270",
+          "name": "SUBARU",
+          "positive": 2,
+          "negative": 1,
+          "watch": 0
+        },
+        {
+          "code": "7261",
+          "name": "マツダ",
+          "positive": 2,
+          "negative": 1,
+          "watch": 0
+        }
+      ],
+      "max_importance": 4,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
       "connection_type": "supply_chain",
       "connection_label": "資源・サプライチェーン",
       "theme_id": null,
@@ -24244,16 +24127,15 @@
       "member_ids": [
         "e660583cc48f",
         "de5695e626d6",
-        "8bff3b0e8613",
         "6086827d773c",
         "e562b70abc3a",
         "8c720bd1d293",
         "8c53be5660d3",
         "7ee9596b54a6",
+        "c0b78671731c",
         "b3893fd17267",
         "dac42bddd384",
         "f0afd3bc3522",
-        "de410c365610",
         "2f14a2420cc8",
         "534636b4209d",
         "8555837cd880",
@@ -24273,13 +24155,6 @@
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaDJxQkxURnVHdXU0QTk2SktLVk56MDBRMVFDZjBuS3lsMGt4V1Frd2EyVlNaY1ZuZ0Y1SnM0SS1BWmluOFNNQVJjaE54S0pLc0g1Y2VucGRUYTFVb3UxNGFfSm0zX2VZSzhEQmN6VmlYcG5qV3k5OWREYXF3NVFZOFlRZUl0aXc?oc=5",
           "importance": 4,
           "source": "TBS NEWS DIG"
-        },
-        {
-          "id": "8bff3b0e8613",
-          "title": "ロシアがウクライナのエネルギー施設を大規模攻撃 60万人が停電被害 「エネルギー停戦」発表後も攻撃続く",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0LUp6SHZaY1JBa1VHX1RzMEswdDdVb21pd1ZNa25uR2kydXNKbzRmSTByTzZuUVNPalZucXlVOUxodVNpZ21tUUlMYnItcDZHTnVSZzg1MkNiTEZDWjdxbUU2NmkzZlhKUkdiSjg1aVJBSnlod0N5dzJPWlVFU28?oc=5",
-          "importance": 4,
-          "source": "Yahoo!ニュース"
         },
         {
           "id": "6086827d773c",
@@ -24317,6 +24192,13 @@
           "source": "BBC"
         },
         {
+          "id": "c0b78671731c",
+          "title": "トランプ氏、再び「エネルギー停戦」主張 「私が言ったから」",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HNkgybWlkYTdUQmU5OWRZTU5EQU9SWTFDQ3ZfRkh1RHVrNnZyVDE3SzJMQlMtUU9VdGNFWnJUb01wTkRtanZoR1lzSTNub1pyWTRLejZhQUJUXzZtTjhTaldDdlpiM3M?oc=5",
+          "importance": 4,
+          "source": "朝日新聞"
+        },
+        {
           "id": "b3893fd17267",
           "title": "ウクライナのエネルギー施設6カ所、ロシアが攻撃とゼレンスキー氏　トランプ氏の停戦発表後",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xTG5fek16WXQ1MTR4RHcwSGZSQTBEX3A2U0Z3aXk1NkVULXdUa0hjM2ZRMnV0S0VJSEV3SVp4NUNtVUtrQlh0aEs3dDNNZFBxUVMyME1zOFNhMTJrdXV0dNIBZkFVX3lxTE9nb0Vna3NLRnhZUlIyVmljNThRZW5rSUlUVGlPNWhUS0I5R280UTYzR1JnRlljWk84WWpuR0hUZ0NpMTBFbEZLVTVYYjVHbDV5NHc3eGVkX1NQNTcySm84TnEyTkFYZw?oc=5",
@@ -24336,13 +24218,6 @@
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9yRHR1dkdwWTVac3Q0d1QxZkpHMTNCdUx4cWtJMTN0S0pDVlRickNCbEZ5UDlJVGpURDUwS3JVNkFIZHBZLTBpLTFmU0NiZ1l5?oc=5",
           "importance": 3,
           "source": "風傳媒"
-        },
-        {
-          "id": "de410c365610",
-          "title": "ダウ平均、ナスダックとも下落 メモリー株の下げ目立つ 米大手銀の決算始まる＝米国株概況",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBad0NmellIRDBfZFg3LVh5dXlZZ05HcTF5NHUtd0lsOGVqeTBncVdwQm9GS1U2dWwtUXBNbTdyV1drQjh2cDgwRXhpWWw2S2ZTMlAzN2IwQjlmWDZhdUJTUQ?oc=5",
-          "importance": 3,
-          "source": "株探"
         },
         {
           "id": "2f14a2420cc8",
@@ -24406,171 +24281,8 @@
           "code": "9984",
           "name": "ソフトバンクグループ",
           "positive": 0,
-          "negative": 2,
+          "negative": 1,
           "watch": 1
-        }
-      ],
-      "max_importance": 4,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "connection_type": "supply_chain",
-      "connection_label": "資源・サプライチェーン",
-      "theme_id": null,
-      "label": "半導体に関連するニュース",
-      "category": "",
-      "category_label": "資源・サプライチェーン",
-      "category_emoji": "🔗",
-      "member_ids": [
-        "e660583cc48f",
-        "6086827d773c",
-        "8c720bd1d293",
-        "8c53be5660d3",
-        "dac42bddd384",
-        "f0afd3bc3522",
-        "de410c365610",
-        "2f14a2420cc8",
-        "534636b4209d",
-        "8555837cd880",
-        "12f65e2d0f34"
-      ],
-      "members": [
-        {
-          "id": "e660583cc48f",
-          "title": "米国株式市場＝ナスダック大幅安、インフレ加速で利上げ懸念",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQjVGN3A0TnI3X0gtQWhTQmMxUnk2bEdrdno2c3R1UzQ0NWlUV2hEYVl5WUJGUUpwZUtiVUVjT1pEVDNwN1NBNnhFQUpnR0RCT211Q3lkMjJIREFaamhDTnA4SXJBVDZBc0JTbGFSUnhoVjNfX2tHeFdiT0V2UDg2LUVPcDF4UQ?oc=5",
-          "importance": 4,
-          "source": "Reuters"
-        },
-        {
-          "id": "6086827d773c",
-          "title": "AI半導体の製造を支えるCMPスラリを米国で増産、富士フイルムがアリゾナ拠点に約30億円の設備投資 | TECH+（テックプラス）",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE02MXJaTzVRamVteGlSUE5yTHcxbFBsbWdRRUlDaGxFbmVyNVl3VWFMNnNNeXVFTEZ2U2NTQ2dORkZFSjZmZGlGX090cVBJQ3dzd0hDbThUSU5PUnI3ZE0zVXBTTEt6N0d5?oc=5",
-          "importance": 4,
-          "source": "マイナビニュース"
-        },
-        {
-          "id": "8c720bd1d293",
-          "title": "中国軍が「占領」か「失敗」か…台湾有事で起こり得る4つの事態、元幹部自衛官が考察してみると？ 【JBpressセレクション】台湾有事は既に始まっている 「自衛隊は中国軍にかなわない」という言説を日本に広めたい中国の深謀(1/8)",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGMkIwdl9MN1FXQWRtczVVSi1JQThYNXR6UWVNSUZPRVZiZVdTMWIyX3c5a2MyUDZNNk5MQXR6ZmVROHFLV2JIU1h1MlVTS1Z5eTA4bGx3?oc=5",
-          "importance": 4,
-          "source": "JBpress"
-        },
-        {
-          "id": "8c53be5660d3",
-          "title": "🚨 半導体セクターの惨状：中国のチップ増産とAIバブルへの最大の現実的な警鐘",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSDJCcU1ZU3k1djZ4MHg1eHlKUi1YNDJRQ0dtcFMwa2lkSUp6TEJ5dkc4NmRaQ1BNaTREaG81NWFMMG9fZFh5Tl9WTFBwYU9wdGhrWjRiUTRkWjY1X01FUFJfRzBVdXpPX0MyUjZGRUstelZlSmVzT2R1ODJRZ0U4Uk9qR0pMU0FGelFLUmN4dDJVUnlEa0x1N3VYcl8tQUtEc0l4X1hKdnNoaUQ5VXBCaEt4eFR0TkRXUmc?oc=5",
-          "importance": 4,
-          "source": "Moomoo"
-        },
-        {
-          "id": "dac42bddd384",
-          "title": "ダウ平均は続落 ナスダックは大幅安 半導体のほか銀行株が下落＝米国株概況",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5BMDZKWGxNWXJCbElqYk94c1hoMEJ6QVgzZEpqUmF1WXNMU0FpWVltWGRtQkNNVXhfaTdrOXNSWkpWUEdZLU12WA?oc=5",
-          "importance": 3,
-          "source": "みんかぶ FX/為替"
-        },
-        {
-          "id": "f0afd3bc3522",
-          "title": "【舞台裏】中国の台湾選挙介入を警戒 「ファイブ・アイズ」のカナダも台湾と水面下で協力 | 鍾秉哲（ショウ・ヘイテツ） | ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9yRHR1dkdwWTVac3Q0d1QxZkpHMTNCdUx4cWtJMTN0S0pDVlRickNCbEZ5UDlJVGpURDUwS3JVNkFIZHBZLTBpLTFmU0NiZ1l5?oc=5",
-          "importance": 3,
-          "source": "風傳媒"
-        },
-        {
-          "id": "de410c365610",
-          "title": "ダウ平均、ナスダックとも下落 メモリー株の下げ目立つ 米大手銀の決算始まる＝米国株概況",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBad0NmellIRDBfZFg3LVh5dXlZZ05HcTF5NHUtd0lsOGVqeTBncVdwQm9GS1U2dWwtUXBNbTdyV1drQjh2cDgwRXhpWWw2S2ZTMlAzN2IwQjlmWDZhdUJTUQ?oc=5",
-          "importance": 3,
-          "source": "株探"
-        },
-        {
-          "id": "2f14a2420cc8",
-          "title": "CHECKMATE JAPAN、国内AIデータセンターの開発を推進",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xZlpBTTF5VUIzYldpZGo3Y0dsZDR2ak9IQmVzY3E3TGRjT0RuNWpGazM3S3ozSDlXY0Jna1Y0azVscWNEVTFKd042dHp1NjV3NnNQTHRjWF9uTktOSm9kd1hkWXBtWnc0MXc?oc=5",
-          "importance": 2,
-          "source": "PR TIMES"
-        },
-        {
-          "id": "534636b4209d",
-          "title": "シーレーン安全保障国際会議、元米太平洋軍司令官「台湾が自衛に努めれば、各国の協力も進む」",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HdUNLbkRXeVl1LWNUWHpNNVg5UHcxWjE4VDBfSHN0NVk4VWdwYlRETDNscjEtLVRwTlU3Y1B3TGZ4elJQS2t0ZS1Bd2VNYVVNaC1iRWZrT3BQSEk?oc=5",
-          "importance": 2,
-          "source": "Rti 中央廣播電臺"
-        },
-        {
-          "id": "8555837cd880",
-          "title": "林・外交部長、ワルシャワ安全保障フォーラムで講演 「台湾こそ欧州の賢明な選択」",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9SaVN1Rnluak83Z1lNMlphZGs3UWFwOVVXaTM4ck1RTVVWbnVMRUFGZl9mMC1hTjdrV0xlbzRJY1RJNGVJRk4wWEZtV25TbDlCd0pJMEpTRGdjcU0?oc=5",
-          "importance": 2,
-          "source": "Rti 中央廣播電臺"
-        },
-        {
-          "id": "12f65e2d0f34",
-          "title": "中国、漁船への放水巡り台湾に「結果負うべき」と警告",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdHo2SC1HWktMZnJRR3VuUlpSYVN5OFBLQ1RzTGplYnMtd1NJS2FYMFNuVkpNa2ZGaWdoUTNqV0x3aDdVQy1YR0MyaWVYcXViVjRCMk9ZQmczUldqSjc0b1kyczJIVkQtV1ZuN1FOSHJTQS1iTHV3bGZFUjkyS2xPUE95MGI?oc=5",
-          "importance": 2,
-          "source": "Reuters"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "8035",
-          "name": "東京エレクトロン",
-          "positive": 4,
-          "negative": 5,
-          "watch": 0
-        },
-        {
-          "code": "6857",
-          "name": "アドバンテスト",
-          "positive": 4,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "6920",
-          "name": "レーザーテック",
-          "positive": 4,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "6146",
-          "name": "ディスコ",
-          "positive": 4,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "9984",
-          "name": "ソフトバンクグループ",
-          "positive": 0,
-          "negative": 2,
-          "watch": 1
-        },
-        {
-          "code": "7735",
-          "name": "SCREENホールディングス",
-          "positive": 3,
-          "negative": 0,
-          "watch": 0
         }
       ],
       "max_importance": 4,
@@ -24602,10 +24314,10 @@
       "category_emoji": "🔗",
       "member_ids": [
         "de5695e626d6",
-        "8bff3b0e8613",
         "e562b70abc3a",
         "8c720bd1d293",
         "7ee9596b54a6",
+        "c0b78671731c",
         "b3893fd17267",
         "f0afd3bc3522",
         "3f1d7fec4bbd",
@@ -24620,13 +24332,6 @@
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaDJxQkxURnVHdXU0QTk2SktLVk56MDBRMVFDZjBuS3lsMGt4V1Frd2EyVlNaY1ZuZ0Y1SnM0SS1BWmluOFNNQVJjaE54S0pLc0g1Y2VucGRUYTFVb3UxNGFfSm0zX2VZSzhEQmN6VmlYcG5qV3k5OWREYXF3NVFZOFlRZUl0aXc?oc=5",
           "importance": 4,
           "source": "TBS NEWS DIG"
-        },
-        {
-          "id": "8bff3b0e8613",
-          "title": "ロシアがウクライナのエネルギー施設を大規模攻撃 60万人が停電被害 「エネルギー停戦」発表後も攻撃続く",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0LUp6SHZaY1JBa1VHX1RzMEswdDdVb21pd1ZNa25uR2kydXNKbzRmSTByTzZuUVNPalZucXlVOUxodVNpZ21tUUlMYnItcDZHTnVSZzg1MkNiTEZDWjdxbUU2NmkzZlhKUkdiSjg1aVJBSnlod0N5dzJPWlVFU28?oc=5",
-          "importance": 4,
-          "source": "Yahoo!ニュース"
         },
         {
           "id": "e562b70abc3a",
@@ -24648,6 +24353,13 @@
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40X0J3d3BRQXFUVkpoeFlfT29TNzhZaDN5eHQzNGFVODZreWF1b0lPTXFCVURvNUthMFBwQmhRdV9CNFlJNFdIX0c3WUladHdVSG41WHJ3U2hZakhuWXZJUNIBZkFVX3lxTE9XQlJkbnE0MzRrTHVaS3hqWXNWRXBCQTFEUmhkSFB3eXhPMXg5YmVKV2NELVAxNFA3SjFUOENtdnAzdGlMUW1mRkZES3VfeDNHT1RsWFhZcVhVMWV2bG92WUpsN3hnUQ?oc=5",
           "importance": 4,
           "source": "BBC"
+        },
+        {
+          "id": "c0b78671731c",
+          "title": "トランプ氏、再び「エネルギー停戦」主張 「私が言ったから」",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HNkgybWlkYTdUQmU5OWRZTU5EQU9SWTFDQ3ZfRkh1RHVrNnZyVDE3SzJMQlMtUU9VdGNFWnJUb01wTkRtanZoR1lzSTNub1pyWTRLejZhQUJUXzZtTjhTaldDdlpiM3M?oc=5",
+          "importance": 4,
+          "source": "朝日新聞"
         },
         {
           "id": "b3893fd17267",
@@ -24888,6 +24600,161 @@
       "emergence_milestones": [],
       "emergence_diagnosis": {},
       "emergence_growth": {}
+    },
+    {
+      "connection_type": "supply_chain",
+      "connection_label": "資源・サプライチェーン",
+      "theme_id": null,
+      "label": "半導体に関連するニュース",
+      "category": "",
+      "category_label": "資源・サプライチェーン",
+      "category_emoji": "🔗",
+      "member_ids": [
+        "e660583cc48f",
+        "6086827d773c",
+        "8c720bd1d293",
+        "8c53be5660d3",
+        "dac42bddd384",
+        "f0afd3bc3522",
+        "2f14a2420cc8",
+        "534636b4209d",
+        "8555837cd880",
+        "12f65e2d0f34"
+      ],
+      "members": [
+        {
+          "id": "e660583cc48f",
+          "title": "米国株式市場＝ナスダック大幅安、インフレ加速で利上げ懸念",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQjVGN3A0TnI3X0gtQWhTQmMxUnk2bEdrdno2c3R1UzQ0NWlUV2hEYVl5WUJGUUpwZUtiVUVjT1pEVDNwN1NBNnhFQUpnR0RCT211Q3lkMjJIREFaamhDTnA4SXJBVDZBc0JTbGFSUnhoVjNfX2tHeFdiT0V2UDg2LUVPcDF4UQ?oc=5",
+          "importance": 4,
+          "source": "Reuters"
+        },
+        {
+          "id": "6086827d773c",
+          "title": "AI半導体の製造を支えるCMPスラリを米国で増産、富士フイルムがアリゾナ拠点に約30億円の設備投資 | TECH+（テックプラス）",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE02MXJaTzVRamVteGlSUE5yTHcxbFBsbWdRRUlDaGxFbmVyNVl3VWFMNnNNeXVFTEZ2U2NTQ2dORkZFSjZmZGlGX090cVBJQ3dzd0hDbThUSU5PUnI3ZE0zVXBTTEt6N0d5?oc=5",
+          "importance": 4,
+          "source": "マイナビニュース"
+        },
+        {
+          "id": "8c720bd1d293",
+          "title": "中国軍が「占領」か「失敗」か…台湾有事で起こり得る4つの事態、元幹部自衛官が考察してみると？ 【JBpressセレクション】台湾有事は既に始まっている 「自衛隊は中国軍にかなわない」という言説を日本に広めたい中国の深謀(1/8)",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGMkIwdl9MN1FXQWRtczVVSi1JQThYNXR6UWVNSUZPRVZiZVdTMWIyX3c5a2MyUDZNNk5MQXR6ZmVROHFLV2JIU1h1MlVTS1Z5eTA4bGx3?oc=5",
+          "importance": 4,
+          "source": "JBpress"
+        },
+        {
+          "id": "8c53be5660d3",
+          "title": "🚨 半導体セクターの惨状：中国のチップ増産とAIバブルへの最大の現実的な警鐘",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSDJCcU1ZU3k1djZ4MHg1eHlKUi1YNDJRQ0dtcFMwa2lkSUp6TEJ5dkc4NmRaQ1BNaTREaG81NWFMMG9fZFh5Tl9WTFBwYU9wdGhrWjRiUTRkWjY1X01FUFJfRzBVdXpPX0MyUjZGRUstelZlSmVzT2R1ODJRZ0U4Uk9qR0pMU0FGelFLUmN4dDJVUnlEa0x1N3VYcl8tQUtEc0l4X1hKdnNoaUQ5VXBCaEt4eFR0TkRXUmc?oc=5",
+          "importance": 4,
+          "source": "Moomoo"
+        },
+        {
+          "id": "dac42bddd384",
+          "title": "ダウ平均は続落 ナスダックは大幅安 半導体のほか銀行株が下落＝米国株概況",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5BMDZKWGxNWXJCbElqYk94c1hoMEJ6QVgzZEpqUmF1WXNMU0FpWVltWGRtQkNNVXhfaTdrOXNSWkpWUEdZLU12WA?oc=5",
+          "importance": 3,
+          "source": "みんかぶ FX/為替"
+        },
+        {
+          "id": "f0afd3bc3522",
+          "title": "【舞台裏】中国の台湾選挙介入を警戒 「ファイブ・アイズ」のカナダも台湾と水面下で協力 | 鍾秉哲（ショウ・ヘイテツ） | ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9yRHR1dkdwWTVac3Q0d1QxZkpHMTNCdUx4cWtJMTN0S0pDVlRickNCbEZ5UDlJVGpURDUwS3JVNkFIZHBZLTBpLTFmU0NiZ1l5?oc=5",
+          "importance": 3,
+          "source": "風傳媒"
+        },
+        {
+          "id": "2f14a2420cc8",
+          "title": "CHECKMATE JAPAN、国内AIデータセンターの開発を推進",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xZlpBTTF5VUIzYldpZGo3Y0dsZDR2ak9IQmVzY3E3TGRjT0RuNWpGazM3S3ozSDlXY0Jna1Y0azVscWNEVTFKd042dHp1NjV3NnNQTHRjWF9uTktOSm9kd1hkWXBtWnc0MXc?oc=5",
+          "importance": 2,
+          "source": "PR TIMES"
+        },
+        {
+          "id": "534636b4209d",
+          "title": "シーレーン安全保障国際会議、元米太平洋軍司令官「台湾が自衛に努めれば、各国の協力も進む」",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HdUNLbkRXeVl1LWNUWHpNNVg5UHcxWjE4VDBfSHN0NVk4VWdwYlRETDNscjEtLVRwTlU3Y1B3TGZ4elJQS2t0ZS1Bd2VNYVVNaC1iRWZrT3BQSEk?oc=5",
+          "importance": 2,
+          "source": "Rti 中央廣播電臺"
+        },
+        {
+          "id": "8555837cd880",
+          "title": "林・外交部長、ワルシャワ安全保障フォーラムで講演 「台湾こそ欧州の賢明な選択」",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9SaVN1Rnluak83Z1lNMlphZGs3UWFwOVVXaTM4ck1RTVVWbnVMRUFGZl9mMC1hTjdrV0xlbzRJY1RJNGVJRk4wWEZtV25TbDlCd0pJMEpTRGdjcU0?oc=5",
+          "importance": 2,
+          "source": "Rti 中央廣播電臺"
+        },
+        {
+          "id": "12f65e2d0f34",
+          "title": "中国、漁船への放水巡り台湾に「結果負うべき」と警告",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdHo2SC1HWktMZnJRR3VuUlpSYVN5OFBLQ1RzTGplYnMtd1NJS2FYMFNuVkpNa2ZGaWdoUTNqV0x3aDdVQy1YR0MyaWVYcXViVjRCMk9ZQmczUldqSjc0b1kyczJIVkQtV1ZuN1FOSHJTQS1iTHV3bGZFUjkyS2xPUE95MGI?oc=5",
+          "importance": 2,
+          "source": "Reuters"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "8035",
+          "name": "東京エレクトロン",
+          "positive": 4,
+          "negative": 5,
+          "watch": 0
+        },
+        {
+          "code": "6857",
+          "name": "アドバンテスト",
+          "positive": 4,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "6920",
+          "name": "レーザーテック",
+          "positive": 4,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "6146",
+          "name": "ディスコ",
+          "positive": 4,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7735",
+          "name": "SCREENホールディングス",
+          "positive": 3,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "3436",
+          "name": "SUMCO",
+          "positive": 3,
+          "negative": 0,
+          "watch": 0
+        }
+      ],
+      "max_importance": 4,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
     }
   ],
   "verification_status": {
@@ -24908,7 +24775,7 @@
     "milestones": {
       "accumulating": "2026-09-21"
     },
-    "last_computed_at": "2026-10-15T07:16:38+09:00"
+    "last_computed_at": "2026-10-15T10:27:58+09:00"
   },
   "counts": {
     "news": 40,
