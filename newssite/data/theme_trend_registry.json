@@ -488,7 +488,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 220,
+   "occurrences": 221,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -631,7 +631,7 @@
    ],
    "first_seen": "2026-10-12",
    "milestones": {},
-   "occurrences": 20
+   "occurrences": 21
   },
   "deregulation": {
    "events": [
@@ -672,7 +672,7 @@
     "government_jp": "2026-10-15",
     "media": "2026-10-15"
    },
-   "occurrences": 11
+   "occurrences": 12
   },
   "ev": {
    "events": [
@@ -1610,6 +1610,22 @@
      ],
      "source": "首相官邸",
      "title": "米日カウンシル２０２６年年次総会に際する高市内閣総理大臣の祝辞の発出"
+    },
+    {
+     "actor_types": [
+      "government_jp",
+      "media"
+     ],
+     "date": "2026-10-16",
+     "item_id": "04a037be74a6",
+     "origin_region": "日本",
+     "regions": [],
+     "signals": [
+      "gov_source",
+      "multi_source"
+     ],
+     "source": "財務省",
+     "title": "片山大臣とタイのエクニティ副首相兼財務大臣との面会（令和8年10月15日（木））"
     }
    ],
    "first_seen": "2026-09-20",
@@ -1617,7 +1633,7 @@
     "government_jp": "2026-09-20",
     "media": "2026-09-20"
    },
-   "occurrences": 144,
+   "occurrences": 145,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
@@ -2480,7 +2496,7 @@
     "media": "2026-09-24",
     "research": "2026-10-10"
    },
-   "occurrences": 198,
+   "occurrences": 199,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -3765,7 +3781,7 @@
     "media": "2026-09-26",
     "research": "2026-09-27"
    },
-   "occurrences": 199,
+   "occurrences": 200,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -5074,6 +5090,18 @@
      ],
      "source": "Yahoo!ニュース",
      "title": "ロシアがウクライナのエネルギー施設を大規模攻撃 60万人が停電被害 「エネルギー停戦」発表後も攻撃続く"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-16",
+     "item_id": "354aec0bb899",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "テレ朝NEWS",
+     "title": "ウクライナ ロシア製油所へ攻撃再開か“エネルギー停戦合意”後もロ軍の攻撃止まらず"
     }
    ],
    "first_seen": "2026-09-20",
@@ -5082,7 +5110,7 @@
     "international_org": "2026-09-24",
     "media": "2026-09-24"
    },
-   "occurrences": 176,
+   "occurrences": 177,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -6365,7 +6393,9 @@
      "title": "ダウ平均は下落 ナスダックも大幅安 半導体のほか金融株が下落＝米国株序盤"
     },
     {
-     "actor_types": [],
+     "actor_types": [
+      "media"
+     ],
      "date": "2026-10-15",
      "item_id": "daa79e29d271",
      "origin_region": null,
@@ -6377,13 +6407,27 @@
      ],
      "source": "株探",
      "title": "ダウ先物は上昇もナスダック１００は大幅安＝米国株"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-16",
+     "item_id": "9ec1696d47fe",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign"
+     ],
+     "source": "TradingView",
+     "title": "米国株相場、高安まちまち ダウ平均は370ドル高・ナスダックは0.68％安"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
     "media": "2026-09-23"
    },
-   "occurrences": 217,
+   "occurrences": 218,
    "signals": {}
   },
   "yen_strong": {
@@ -6471,13 +6515,27 @@
      ],
      "source": "Yahoo!ファイナンス",
      "title": "外為：1ドル157円96銭前後とドル安・円高で推移(株探ニュース)"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-10-16",
+     "item_id": "d0de6d42b2ec",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "multi_source"
+     ],
+     "source": "Yahoo!ファイナンス",
+     "title": "外為：NZドル、88円72銭前後とNZドル安・円高で推移(株探ニュース)"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
     "media": "2026-09-20"
    },
-   "occurrences": 101,
+   "occurrences": 102,
    "signals": {}
   },
   "yen_weak": {
