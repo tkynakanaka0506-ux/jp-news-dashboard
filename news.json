@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-16 20:53",
-  "generated_iso": "2026-10-16T20:53:52+09:00",
+  "generated_at": "2026-10-16 21:21",
+  "generated_iso": "2026-10-16T21:21:28+09:00",
   "status": "updated",
   "status_message": "40 件のニュースを取得しました。",
   "llm_used": true,
@@ -65,13 +65,13 @@
     },
     {
       "label": "日経先物",
-      "value": "65,410.00",
-      "change_pct": -0.11,
+      "value": "65,560.00",
+      "change_pct": 0.12,
       "asof": "10/16終値"
     },
     {
       "label": "ドル円",
-      "value": "157.98円",
+      "value": "157.99円",
       "change_pct": 0.02,
       "asof": "10/16終値"
     },
@@ -1215,32 +1215,34 @@
       "emergence_growth": {}
     },
     {
-      "id": "bc8e5d085c06",
-      "title": "日銀・小枝委員、追加利上げ「過度に慎重になることはない」 中立金利〝1％より相応に上〟",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1kdkRrcHJ0cWZaalJuR2F5Zl96b1RzOS1EdWlZWkJIRHlUejBVSUFjSXNNczNHS0x6TFpzSGdqNU4zblhnclhVelFjeUhqOG51NDU3ZlRB?oc=5",
-      "source": "ニッキンONLINE",
+      "id": "2892da0b9744",
+      "title": "日銀の「2％到達」宣言は事実上のリフレ脱却宣言、それでも利上げ終了とはなりそうにない円安防衛のジレンマ 【唐鎌大輔の為替から見る日本】アベノミクスから13年、中立金利への接近と通貨防衛の両立を迫られる日銀",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wSHU5Mkk2RmhyX2F0Sk5rcTdsQ3hkZ0p4SDI1RVVNdFpfNFFwYUVJWWJLWXBrb1lGZVgzLTlWeFZhbFVfQnVndjV2bklpcnZsY3FhTWh3?oc=5",
+      "source": "JBpress",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
-      "published_at": "2026-10-15 12:58",
-      "published_ts": 1792036680.0,
-      "category": "policy",
-      "category_label": "金融政策・金利",
-      "category_emoji": "🏦",
+      "published_at": "2026-10-16 06:00",
+      "published_ts": 1792098000.0,
+      "category": "fx",
+      "category_label": "為替",
+      "category_emoji": "💱",
       "importance": 5,
-      "importance_reason": "重要語「利上げ」・影響テーマ「日銀の利上げ・金融正常化」に該当",
+      "importance_reason": "重要語「利上げ」・影響テーマ「円安進行」に該当",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
-      "news_novelty": "low",
-      "news_novelty_label": "再報道",
-      "policy_event_id": "boj_hike-20260920-01",
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": "yen_weak-20260920-01",
       "policy_event_is_update": true,
       "policy_event_first_seen": "2026-09-20",
       "policy_event_state": "UPDATE",
       "themes": [
+        "円安進行",
         "日銀の利上げ・金融正常化"
       ],
       "theme_ids": [
+        "yen_weak",
         "boj_hike"
       ],
       "transmission_chain": null,
@@ -1332,86 +1334,86 @@
           "policy_to_earnings_stage": null
         },
         {
-          "code": "7182",
-          "name": "ゆうちょ銀行",
-          "sector": "銀行",
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "sector": "自動車",
           "direction": "positive",
           "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
+          "strength": "中",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
           "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "日銀 利上げ",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
+          "policy_impact_score": 44,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
         {
-          "code": "8766",
-          "name": "東京海上ホールディングス",
-          "sector": "保険",
+          "code": "7267",
+          "name": "本田技研工業",
+          "sector": "自動車",
           "direction": "positive",
           "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
+          "strength": "中",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
           "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "日銀 利上げ",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 70,
+          "policy_impact_score": 44,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
         {
-          "code": "8801",
-          "name": "三井不動産",
-          "sector": "不動産",
-          "direction": "negative",
-          "direction_label": "逆風",
+          "code": "7201",
+          "name": "日産自動車",
+          "sector": "自動車",
+          "direction": "positive",
+          "direction_label": "追い風",
           "strength": "中",
-          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
           "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "3-6m",
-          "revenue_horizon_label": "3〜6ヶ月",
-          "matched_keyword": "日銀 利上げ",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 60,
+          "policy_impact_score": 44,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
         {
-          "code": "8802",
-          "name": "三菱地所",
-          "sector": "不動産",
-          "direction": "negative",
-          "direction_label": "逆風",
+          "code": "7269",
+          "name": "スズキ",
+          "sector": "自動車",
+          "direction": "positive",
+          "direction_label": "追い風",
           "strength": "中",
-          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
-          "theme": "日銀の利上げ・金融正常化",
-          "theme_id": "boj_hike",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "theme": "円安進行",
+          "theme_id": "yen_weak",
           "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "3-6m",
-          "revenue_horizon_label": "3〜6ヶ月",
-          "matched_keyword": "日銀 利上げ",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "円安",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 60,
+          "policy_impact_score": 44,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         }
@@ -10774,8 +10776,8 @@
       "source": "Yahoo!ファイナンス",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
-      "published_at": "2026-10-16 19:22",
-      "published_ts": 1792146149.0,
+      "published_at": "2026-10-16 18:24",
+      "published_ts": 1792142658.0,
       "category": "us",
       "category_label": "米国市場",
       "category_emoji": "🇺🇸",
@@ -15273,10 +15275,10 @@
       "code": "7203",
       "name": "トヨタ自動車",
       "sector": "自動車",
-      "positive": 2,
+      "positive": 3,
       "negative": 3,
       "watch": 4,
-      "score": -5,
+      "score": 0,
       "news": [
         {
           "title": "中華人民共和国産二酸化チタンルチル型をもととした顔料及び調製品に対する不当廉売関税の課税に関する調査を開始します",
@@ -15286,21 +15288,21 @@
           "importance": 5
         },
         {
+          "title": "日銀の「2％到達」宣言は事実上のリフレ脱却宣言、それでも利上げ終了とはなりそうにない円安防衛のジレンマ 【唐鎌大輔の為替から見る日本】アベノミクスから13年、中立金利への接近と通貨防衛の両立を迫られる日銀",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wSHU5Mkk2RmhyX2F0Sk5rcTdsQ3hkZ0p4SDI1RVVNdFpfNFFwYUVJWWJLWXBrb1lGZVgzLTlWeFZhbFVfQnVndjV2bklpcnZsY3FhTWh3?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "importance": 5
+        },
+        {
           "title": "米国株式市場＝ナスダック大幅安、インフレ加速で利上げ懸念",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQjVGN3A0TnI3X0gtQWhTQmMxUnk2bEdrdno2c3R1UzQ0NWlUV2hEYVl5WUJGUUpwZUtiVUVjT1pEVDNwN1NBNnhFQUpnR0RCT211Q3lkMjJIREFaamhDTnA4SXJBVDZBc0JTbGFSUnhoVjNfX2tHeFdiT0V2UDg2LUVPcDF4UQ?oc=5",
           "direction": "watch",
           "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "importance": 4
-        },
-        {
-          "title": "外為：カナダドル、111円33銭前後とカナダドル高・円安で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSnlmaTRGdlhxdUk1TWQwSzI4Mk5OTDFIcERiVEQ5eXRrdWlfUmNBdkRBX2tseDlRLUVodC0xdkpEOHVRcVZrakljSWJ2YlR2NE41VUYxSmhEUmNmV1BOTHIyUk1JdXljTko5QVdDVWZ0a1V5YmN6TEF2MFlaS2plamhsazJrSUU?oc=5",
-          "direction": "positive",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "importance": 3
         }
       ],
-      "mentions": 9
+      "mentions": 10
     },
     {
       "code": "6701",
@@ -15732,133 +15734,34 @@
       "mentions": 5
     },
     {
-      "code": "7182",
-      "name": "ゆうちょ銀行",
-      "sector": "銀行",
-      "positive": 5,
-      "negative": 0,
+      "code": "7267",
+      "name": "本田技研工業",
+      "sector": "自動車",
+      "positive": 2,
+      "negative": 3,
       "watch": 0,
-      "score": 22,
+      "score": -2,
       "news": [
         {
-          "title": "植田日銀総裁､利上げ継続姿勢示す発言に変化なし―全国信用組合大会",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51aGJKakVia0hIQXY0NmJYUXI0d0lqSGZjRWlOMDBHQjJmcS1EZVpWRkplVl80YXJnYkhTMlFJdERnVUFNTW1BUlhtYnI1UlZ1VFMwMFh1WW04YVp4SW5QN2JCZ0loUVhCVmhkczYxbHBBYmJ2?oc=5",
-          "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 5
-        },
-        {
-          "title": "植田・日銀総裁「引き続き政策金利を引き上げる」あいさつ文で強調",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YanBVdHdVWVNJbFNLb1lVN1JrT0ZwZUFZcmpqVDk3ekNYRGl0czgzWmtjS0h0cUMycDJJVVNfVU8td2RMUnRWUDdSUlFQNndBcTFLVFNDVXRQNllyeUJGeEZUc1o0N1k?oc=5",
-          "direction": "positive",
-          "reason": "「政策金利 引き上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 5
-        },
-        {
-          "title": "日銀の利上げペースは加速する?10月会合の焦点と円高・円安への影響",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tcHJxUmlEVjgyZ3Fzd1ppUG85TjBmZ2ZrV19haWNIaGphQ1ZZXzNvcC11clVMUmo1c3dnZUVwRXJqUlROM1hVeDJ5WTY4bGpZN1E?oc=5",
-          "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 5
-        }
-      ],
-      "mentions": 5
-    },
-    {
-      "code": "8766",
-      "name": "東京海上ホールディングス",
-      "sector": "保険",
-      "positive": 5,
-      "negative": 0,
-      "watch": 0,
-      "score": 22,
-      "news": [
-        {
-          "title": "植田日銀総裁､利上げ継続姿勢示す発言に変化なし―全国信用組合大会",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51aGJKakVia0hIQXY0NmJYUXI0d0lqSGZjRWlOMDBHQjJmcS1EZVpWRkplVl80YXJnYkhTMlFJdERnVUFNTW1BUlhtYnI1UlZ1VFMwMFh1WW04YVp4SW5QN2JCZ0loUVhCVmhkczYxbHBBYmJ2?oc=5",
-          "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 5
-        },
-        {
-          "title": "植田・日銀総裁「引き続き政策金利を引き上げる」あいさつ文で強調",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YanBVdHdVWVNJbFNLb1lVN1JrT0ZwZUFZcmpqVDk3ekNYRGl0czgzWmtjS0h0cUMycDJJVVNfVU8td2RMUnRWUDdSUlFQNndBcTFLVFNDVXRQNllyeUJGeEZUc1o0N1k?oc=5",
-          "direction": "positive",
-          "reason": "「政策金利 引き上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 5
-        },
-        {
-          "title": "日銀の利上げペースは加速する?10月会合の焦点と円高・円安への影響",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tcHJxUmlEVjgyZ3Fzd1ppUG85TjBmZ2ZrV19haWNIaGphQ1ZZXzNvcC11clVMUmo1c3dnZUVwRXJqUlROM1hVeDJ5WTY4bGpZN1E?oc=5",
-          "direction": "positive",
-          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
-          "importance": 5
-        }
-      ],
-      "mentions": 5
-    },
-    {
-      "code": "8801",
-      "name": "三井不動産",
-      "sector": "不動産",
-      "positive": 0,
-      "negative": 5,
-      "watch": 0,
-      "score": -22,
-      "news": [
-        {
-          "title": "植田日銀総裁､利上げ継続姿勢示す発言に変化なし―全国信用組合大会",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51aGJKakVia0hIQXY0NmJYUXI0d0lqSGZjRWlOMDBHQjJmcS1EZVpWRkplVl80YXJnYkhTMlFJdERnVUFNTW1BUlhtYnI1UlZ1VFMwMFh1WW04YVp4SW5QN2JCZ0loUVhCVmhkczYxbHBBYmJ2?oc=5",
+          "title": "中華人民共和国産二酸化チタンルチル型をもととした顔料及び調製品に対する不当廉売関税の課税に関する調査を開始します",
+          "url": "https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261016.html",
           "direction": "negative",
-          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
+          "reason": "「関税」に反応: 対米輸出比率が高く、関税引き上げは採算悪化・価格転嫁の負担につながりやすい",
           "importance": 5
         },
         {
-          "title": "植田・日銀総裁「引き続き政策金利を引き上げる」あいさつ文で強調",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YanBVdHdVWVNJbFNLb1lVN1JrT0ZwZUFZcmpqVDk3ekNYRGl0czgzWmtjS0h0cUMycDJJVVNfVU8td2RMUnRWUDdSUlFQNndBcTFLVFNDVXRQNllyeUJGeEZUc1o0N1k?oc=5",
-          "direction": "negative",
-          "reason": "「政策金利 引き上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
+          "title": "日銀の「2％到達」宣言は事実上のリフレ脱却宣言、それでも利上げ終了とはなりそうにない円安防衛のジレンマ 【唐鎌大輔の為替から見る日本】アベノミクスから13年、中立金利への接近と通貨防衛の両立を迫られる日銀",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wSHU5Mkk2RmhyX2F0Sk5rcTdsQ3hkZ0p4SDI1RVVNdFpfNFFwYUVJWWJLWXBrb1lGZVgzLTlWeFZhbFVfQnVndjV2bklpcnZsY3FhTWh3?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
           "importance": 5
         },
         {
-          "title": "日銀の利上げペースは加速する?10月会合の焦点と円高・円安への影響",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tcHJxUmlEVjgyZ3Fzd1ppUG85TjBmZ2ZrV19haWNIaGphQ1ZZXzNvcC11clVMUmo1c3dnZUVwRXJqUlROM1hVeDJ5WTY4bGpZN1E?oc=5",
-          "direction": "negative",
-          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
-          "importance": 5
-        }
-      ],
-      "mentions": 5
-    },
-    {
-      "code": "8802",
-      "name": "三菱地所",
-      "sector": "不動産",
-      "positive": 0,
-      "negative": 5,
-      "watch": 0,
-      "score": -22,
-      "news": [
-        {
-          "title": "植田日銀総裁､利上げ継続姿勢示す発言に変化なし―全国信用組合大会",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51aGJKakVia0hIQXY0NmJYUXI0d0lqSGZjRWlOMDBHQjJmcS1EZVpWRkplVl80YXJnYkhTMlFJdERnVUFNTW1BUlhtYnI1UlZ1VFMwMFh1WW04YVp4SW5QN2JCZ0loUVhCVmhkczYxbHBBYmJ2?oc=5",
-          "direction": "negative",
-          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
-          "importance": 5
-        },
-        {
-          "title": "植田・日銀総裁「引き続き政策金利を引き上げる」あいさつ文で強調",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YanBVdHdVWVNJbFNLb1lVN1JrT0ZwZUFZcmpqVDk3ekNYRGl0czgzWmtjS0h0cUMycDJJVVNfVU8td2RMUnRWUDdSUlFQNndBcTFLVFNDVXRQNllyeUJGeEZUc1o0N1k?oc=5",
-          "direction": "negative",
-          "reason": "「政策金利 引き上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
-          "importance": 5
-        },
-        {
-          "title": "日銀の利上げペースは加速する?10月会合の焦点と円高・円安への影響",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tcHJxUmlEVjgyZ3Fzd1ppUG85TjBmZ2ZrV19haWNIaGphQ1ZZXzNvcC11clVMUmo1c3dnZUVwRXJqUlROM1hVeDJ5WTY4bGpZN1E?oc=5",
-          "direction": "negative",
-          "reason": "「日銀 利上げ」に反応: 調達コストの上昇や不動産市況の減速が意識されやすい",
-          "importance": 5
+          "title": "外為：カナダドル、111円33銭前後とカナダドル高・円安で推移(株探ニュース)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSnlmaTRGdlhxdUk1TWQwSzI4Mk5OTDFIcERiVEQ5eXRrdWlfUmNBdkRBX2tseDlRLUVodC0xdkpEOHVRcVZrakljSWJ2YlR2NE41VUYxSmhEUmNmV1BOTHIyUk1JdXljTko5QVdDVWZ0a1V5YmN6TEF2MFlaS2plamhsazJrSUU?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "importance": 3
         }
       ],
       "mentions": 5
@@ -15928,6 +15831,105 @@
         }
       ],
       "mentions": 5
+    },
+    {
+      "code": "9984",
+      "name": "ソフトバンクグループ",
+      "sector": "情報・通信",
+      "positive": 1,
+      "negative": 0,
+      "watch": 4,
+      "score": 2,
+      "news": [
+        {
+          "title": "米国株式市場＝ナスダック大幅安、インフレ加速で利上げ懸念",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQjVGN3A0TnI3X0gtQWhTQmMxUnk2bEdrdno2c3R1UzQ0NWlUV2hEYVl5WUJGUUpwZUtiVUVjT1pEVDNwN1NBNnhFQUpnR0RCT211Q3lkMjJIREFaamhDTnA4SXJBVDZBc0JTbGFSUnhoVjNfX2tHeFdiT0V2UDg2LUVPcDF4UQ?oc=5",
+          "direction": "watch",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 4
+        },
+        {
+          "title": "ナスダック総合の指数情報・推移",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
+          "direction": "watch",
+          "reason": "「ナスダック」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
+        },
+        {
+          "title": "ダウ平均は反発 ＡＩ関連企業の過剰投資への懸念も ＰＰＩには反応薄＝米国株概況",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB1MmFObU5tV1hsQ3lFc1MwLVZ1UURoSEZkSTRVLUR4UE9nVUN6MkVqN242d1pFZE1fTEdYcjRhaklnNjh5TlVCQg?oc=5",
+          "direction": "watch",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 5
+    },
+    {
+      "code": "7182",
+      "name": "ゆうちょ銀行",
+      "sector": "銀行",
+      "positive": 4,
+      "negative": 0,
+      "watch": 0,
+      "score": 17,
+      "news": [
+        {
+          "title": "植田日銀総裁､利上げ継続姿勢示す発言に変化なし―全国信用組合大会",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51aGJKakVia0hIQXY0NmJYUXI0d0lqSGZjRWlOMDBHQjJmcS1EZVpWRkplVl80YXJnYkhTMlFJdERnVUFNTW1BUlhtYnI1UlZ1VFMwMFh1WW04YVp4SW5QN2JCZ0loUVhCVmhkczYxbHBBYmJ2?oc=5",
+          "direction": "positive",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "importance": 5
+        },
+        {
+          "title": "植田・日銀総裁「引き続き政策金利を引き上げる」あいさつ文で強調",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YanBVdHdVWVNJbFNLb1lVN1JrT0ZwZUFZcmpqVDk3ekNYRGl0czgzWmtjS0h0cUMycDJJVVNfVU8td2RMUnRWUDdSUlFQNndBcTFLVFNDVXRQNllyeUJGeEZUc1o0N1k?oc=5",
+          "direction": "positive",
+          "reason": "「政策金利 引き上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "importance": 5
+        },
+        {
+          "title": "日銀の利上げペースは加速する?10月会合の焦点と円高・円安への影響",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tcHJxUmlEVjgyZ3Fzd1ppUG85TjBmZ2ZrV19haWNIaGphQ1ZZXzNvcC11clVMUmo1c3dnZUVwRXJqUlROM1hVeDJ5WTY4bGpZN1E?oc=5",
+          "direction": "positive",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "importance": 5
+        }
+      ],
+      "mentions": 4
+    },
+    {
+      "code": "8766",
+      "name": "東京海上ホールディングス",
+      "sector": "保険",
+      "positive": 4,
+      "negative": 0,
+      "watch": 0,
+      "score": 17,
+      "news": [
+        {
+          "title": "植田日銀総裁､利上げ継続姿勢示す発言に変化なし―全国信用組合大会",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51aGJKakVia0hIQXY0NmJYUXI0d0lqSGZjRWlOMDBHQjJmcS1EZVpWRkplVl80YXJnYkhTMlFJdERnVUFNTW1BUlhtYnI1UlZ1VFMwMFh1WW04YVp4SW5QN2JCZ0loUVhCVmhkczYxbHBBYmJ2?oc=5",
+          "direction": "positive",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "importance": 5
+        },
+        {
+          "title": "植田・日銀総裁「引き続き政策金利を引き上げる」あいさつ文で強調",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YanBVdHdVWVNJbFNLb1lVN1JrT0ZwZUFZcmpqVDk3ekNYRGl0czgzWmtjS0h0cUMycDJJVVNfVU8td2RMUnRWUDdSUlFQNndBcTFLVFNDVXRQNllyeUJGeEZUc1o0N1k?oc=5",
+          "direction": "positive",
+          "reason": "「政策金利 引き上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "importance": 5
+        },
+        {
+          "title": "日銀の利上げペースは加速する?10月会合の焦点と円高・円安への影響",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tcHJxUmlEVjgyZ3Fzd1ppUG85TjBmZ2ZrV19haWNIaGphQ1ZZXzNvcC11clVMUmo1c3dnZUVwRXJqUlROM1hVeDJ5WTY4bGpZN1E?oc=5",
+          "direction": "positive",
+          "reason": "「日銀 利上げ」に反応: 利ざや改善・運用収益の拡大につながりやすく、金利上昇局面で買われやすい",
+          "importance": 5
+        }
+      ],
+      "mentions": 4
     }
   ],
   "clusters": [
@@ -17158,7 +17160,7 @@
         "53ae954eae9d",
         "683873a07fff",
         "f5e2e608fde6",
-        "bc8e5d085c06",
+        "2892da0b9744",
         "c47886b28f54"
       ],
       "members": [
@@ -17184,11 +17186,11 @@
           "source": "EBC Financial Group"
         },
         {
-          "id": "bc8e5d085c06",
-          "title": "日銀・小枝委員、追加利上げ「過度に慎重になることはない」 中立金利〝1％より相応に上〟",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1kdkRrcHJ0cWZaalJuR2F5Zl96b1RzOS1EdWlZWkJIRHlUejBVSUFjSXNNczNHS0x6TFpzSGdqNU4zblhnclhVelFjeUhqOG51NDU3ZlRB?oc=5",
+          "id": "2892da0b9744",
+          "title": "日銀の「2％到達」宣言は事実上のリフレ脱却宣言、それでも利上げ終了とはなりそうにない円安防衛のジレンマ 【唐鎌大輔の為替から見る日本】アベノミクスから13年、中立金利への接近と通貨防衛の両立を迫られる日銀",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wSHU5Mkk2RmhyX2F0Sk5rcTdsQ3hkZ0p4SDI1RVVNdFpfNFFwYUVJWWJLWXBrb1lGZVgzLTlWeFZhbFVfQnVndjV2bklpcnZsY3FhTWh3?oc=5",
           "importance": 5,
-          "source": "ニッキンONLINE"
+          "source": "JBpress"
         },
         {
           "id": "c47886b28f54",
@@ -17230,14 +17232,14 @@
         {
           "code": "7182",
           "name": "ゆうちょ銀行",
-          "positive": 5,
+          "positive": 4,
           "negative": 0,
           "watch": 0
         },
         {
           "code": "8766",
           "name": "東京海上ホールディングス",
-          "positive": 5,
+          "positive": 4,
           "negative": 0,
           "watch": 0
         }
@@ -18895,6 +18897,276 @@
     {
       "connection_type": "theme",
       "connection_label": "同じテーマ",
+      "theme_id": "yen_weak",
+      "label": "円安進行",
+      "category": "fx",
+      "category_label": "為替",
+      "category_emoji": "💱",
+      "member_ids": [
+        "2892da0b9744",
+        "2a39099b2ebf"
+      ],
+      "members": [
+        {
+          "id": "2892da0b9744",
+          "title": "日銀の「2％到達」宣言は事実上のリフレ脱却宣言、それでも利上げ終了とはなりそうにない円安防衛のジレンマ 【唐鎌大輔の為替から見る日本】アベノミクスから13年、中立金利への接近と通貨防衛の両立を迫られる日銀",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wSHU5Mkk2RmhyX2F0Sk5rcTdsQ3hkZ0p4SDI1RVVNdFpfNFFwYUVJWWJLWXBrb1lGZVgzLTlWeFZhbFVfQnVndjV2bklpcnZsY3FhTWh3?oc=5",
+          "importance": 5,
+          "source": "JBpress"
+        },
+        {
+          "id": "2a39099b2ebf",
+          "title": "外為：カナダドル、111円33銭前後とカナダドル高・円安で推移(株探ニュース)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSnlmaTRGdlhxdUk1TWQwSzI4Mk5OTDFIcERiVEQ5eXRrdWlfUmNBdkRBX2tseDlRLUVodC0xdkpEOHVRcVZrakljSWJ2YlR2NE41VUYxSmhEUmNmV1BOTHIyUk1JdXljTko5QVdDVWZ0a1V5YmN6TEF2MFlaS2plamhsazJrSUU?oc=5",
+          "importance": 3,
+          "source": "Yahoo!ファイナンス"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "positive": 2,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7267",
+          "name": "本田技研工業",
+          "positive": 2,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7201",
+          "name": "日産自動車",
+          "positive": 2,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7269",
+          "name": "スズキ",
+          "positive": 2,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7270",
+          "name": "SUBARU",
+          "positive": 1,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7261",
+          "name": "マツダ",
+          "positive": 1,
+          "negative": 0,
+          "watch": 0
+        }
+      ],
+      "max_importance": 5,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [
+        "関連企業の直接発表",
+        "複数媒体での同時報道"
+      ],
+      "emergence_event_count": 11,
+      "emergence_source_count": 8,
+      "emergence_actor_type_count": 3,
+      "emergence_actor_type_labels": [
+        "関連企業",
+        "海外政府・当局",
+        "複数メディア"
+      ],
+      "emergence_actor_type_breakdown": [
+        {
+          "label": "関連企業",
+          "count": 1
+        },
+        {
+          "label": "海外政府・当局",
+          "count": 2
+        },
+        {
+          "label": "複数メディア",
+          "count": 8
+        }
+      ],
+      "emergence_region_count": 1,
+      "emergence_regions": [
+        "米国"
+      ],
+      "emergence_origin_regions": [
+        "米国"
+      ],
+      "emergence_first_seen": "2026-09-20",
+      "emergence_window_counts": {
+        "7": 3,
+        "30": 11,
+        "90": 11
+      },
+      "emergence_timeline": [
+        {
+          "date": "2026-09-21",
+          "source": "gaitame.com",
+          "signal_labels": [],
+          "actor_type_labels": [
+            "海外政府・当局"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "source": "TBS NEWS DIG",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-24",
+          "source": "読売新聞",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-24",
+          "source": "Bloomberg.com",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-25",
+          "source": "Yahoo!ニュース",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "source": "外為どっとコム",
+          "signal_labels": [],
+          "actor_type_labels": [
+            "海外政府・当局"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-28",
+          "source": "Yahoo!ニュース",
+          "signal_labels": [
+            "関連企業の直接発表"
+          ],
+          "actor_type_labels": [
+            "関連企業"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-16",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        }
+      ],
+      "emergence_milestones": [
+        {
+          "date": "2026-09-21",
+          "actor_type_label": "海外政府・当局"
+        },
+        {
+          "date": "2026-09-24",
+          "actor_type_label": "複数メディア"
+        },
+        {
+          "date": "2026-09-28",
+          "actor_type_label": "関連企業"
+        }
+      ],
+      "emergence_diagnosis": {
+        "target_stage": "watch",
+        "target_stage_label": "👀 要監視テーマ",
+        "source_count": 8,
+        "required_sources": 2,
+        "signal_count": 2,
+        "required_signals": 3,
+        "missing": [
+          "シグナル種別があと1種類必要"
+        ]
+      },
+      "emergence_growth": {
+        "window_days": 14,
+        "recent_new_actor_types": 0,
+        "total_actor_types": 3
+      }
+    },
+    {
+      "connection_type": "theme",
+      "connection_label": "同じテーマ",
       "theme_id": "jp_politics",
       "label": "日本の政局・経済対策",
       "category": "japan",
@@ -19545,6 +19817,7 @@
       "category_emoji": "🏢",
       "member_ids": [
         "9c610df5beec",
+        "2892da0b9744",
         "e660583cc48f",
         "2a39099b2ebf",
         "2cb9e9363873",
@@ -19561,6 +19834,13 @@
           "url": "https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261016.html",
           "importance": 5,
           "source": "財務省"
+        },
+        {
+          "id": "2892da0b9744",
+          "title": "日銀の「2％到達」宣言は事実上のリフレ脱却宣言、それでも利上げ終了とはなりそうにない円安防衛のジレンマ 【唐鎌大輔の為替から見る日本】アベノミクスから13年、中立金利への接近と通貨防衛の両立を迫られる日銀",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wSHU5Mkk2RmhyX2F0Sk5rcTdsQ3hkZ0p4SDI1RVVNdFpfNFFwYUVJWWJLWXBrb1lGZVgzLTlWeFZhbFVfQnVndjV2bklpcnZsY3FhTWh3?oc=5",
+          "importance": 5,
+          "source": "JBpress"
         },
         {
           "id": "e660583cc48f",
@@ -19623,7 +19903,7 @@
         {
           "code": "7203",
           "name": "トヨタ自動車",
-          "positive": 2,
+          "positive": 3,
           "negative": 3,
           "watch": 4
         }
@@ -19849,6 +20129,7 @@
       "category_emoji": "🏢",
       "member_ids": [
         "9c610df5beec",
+        "2892da0b9744",
         "2a39099b2ebf",
         "2cb9e9363873",
         "e7623794a181"
@@ -19860,6 +20141,13 @@
           "url": "https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261016.html",
           "importance": 5,
           "source": "財務省"
+        },
+        {
+          "id": "2892da0b9744",
+          "title": "日銀の「2％到達」宣言は事実上のリフレ脱却宣言、それでも利上げ終了とはなりそうにない円安防衛のジレンマ 【唐鎌大輔の為替から見る日本】アベノミクスから13年、中立金利への接近と通貨防衛の両立を迫られる日銀",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wSHU5Mkk2RmhyX2F0Sk5rcTdsQ3hkZ0p4SDI1RVVNdFpfNFFwYUVJWWJLWXBrb1lGZVgzLTlWeFZhbFVfQnVndjV2bklpcnZsY3FhTWh3?oc=5",
+          "importance": 5,
+          "source": "JBpress"
         },
         {
           "id": "2a39099b2ebf",
@@ -19887,8 +20175,163 @@
         {
           "code": "7267",
           "name": "本田技研工業",
-          "positive": 1,
+          "positive": 2,
           "negative": 3,
+          "watch": 0
+        }
+      ],
+      "max_importance": 5,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "connection_type": "sector",
+      "connection_label": "同じ業界",
+      "theme_id": null,
+      "label": "自動車業界のニュース",
+      "category": "",
+      "category_label": "同じ業界",
+      "category_emoji": "🏭",
+      "member_ids": [
+        "9c610df5beec",
+        "2892da0b9744",
+        "e660583cc48f",
+        "2a39099b2ebf",
+        "2cb9e9363873",
+        "d6f8ecf0b5dd",
+        "e7623794a181",
+        "30990971debb",
+        "29d54d8e2ad2",
+        "daa79e29d271"
+      ],
+      "members": [
+        {
+          "id": "9c610df5beec",
+          "title": "中華人民共和国産二酸化チタンルチル型をもととした顔料及び調製品に対する不当廉売関税の課税に関する調査を開始します",
+          "url": "https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261016.html",
+          "importance": 5,
+          "source": "財務省"
+        },
+        {
+          "id": "2892da0b9744",
+          "title": "日銀の「2％到達」宣言は事実上のリフレ脱却宣言、それでも利上げ終了とはなりそうにない円安防衛のジレンマ 【唐鎌大輔の為替から見る日本】アベノミクスから13年、中立金利への接近と通貨防衛の両立を迫られる日銀",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wSHU5Mkk2RmhyX2F0Sk5rcTdsQ3hkZ0p4SDI1RVVNdFpfNFFwYUVJWWJLWXBrb1lGZVgzLTlWeFZhbFVfQnVndjV2bklpcnZsY3FhTWh3?oc=5",
+          "importance": 5,
+          "source": "JBpress"
+        },
+        {
+          "id": "e660583cc48f",
+          "title": "米国株式市場＝ナスダック大幅安、インフレ加速で利上げ懸念",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQjVGN3A0TnI3X0gtQWhTQmMxUnk2bEdrdno2c3R1UzQ0NWlUV2hEYVl5WUJGUUpwZUtiVUVjT1pEVDNwN1NBNnhFQUpnR0RCT211Q3lkMjJIREFaamhDTnA4SXJBVDZBc0JTbGFSUnhoVjNfX2tHeFdiT0V2UDg2LUVPcDF4UQ?oc=5",
+          "importance": 4,
+          "source": "Reuters"
+        },
+        {
+          "id": "2a39099b2ebf",
+          "title": "外為：カナダドル、111円33銭前後とカナダドル高・円安で推移(株探ニュース)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSnlmaTRGdlhxdUk1TWQwSzI4Mk5OTDFIcERiVEQ5eXRrdWlfUmNBdkRBX2tseDlRLUVodC0xdkpEOHVRcVZrakljSWJ2YlR2NE41VUYxSmhEUmNmV1BOTHIyUk1JdXljTko5QVdDVWZ0a1V5YmN6TEF2MFlaS2plamhsazJrSUU?oc=5",
+          "importance": 3,
+          "source": "Yahoo!ファイナンス"
+        },
+        {
+          "id": "2cb9e9363873",
+          "title": "中国は、米国との貿易協定の期限が迫っているにもかかわらず、EUへのレアアース供給を継続すると表明した。",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaTcwdm1BdU9ZNElaZWJIcl85WF9KZUFDMHhwVEVsZGo5UVgyOEJ4RFE4ZzRkVnNQUmVmdng3aUxQaDB1dHdackV4SW01Q0g5LTVtclpjRUU0MFVhbmtzZGhISHZNeHc5eDl5M1UwTVc1WG1SN2VZMUpQbG5Ta29BYUNWdUJtX25hQ0UzdHVXQjVrNmNFU2Fma01BeEVuMnU4NFNDRFdKQjNrcG8zdlBMeFJjUk9iWGk4cjBmRVRiN2xIcDg?oc=5",
+          "importance": 3,
+          "source": "Vietnam.vn"
+        },
+        {
+          "id": "d6f8ecf0b5dd",
+          "title": "ナスダック総合の指数情報・推移",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
+          "importance": 2,
+          "source": "Yahoo!ファイナンス"
+        },
+        {
+          "id": "e7623794a181",
+          "title": "外為：1ドル157円82銭前後と小幅なドル安・円高で推移(株探ニュース)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVENBQzRNUTREM1V0NDZDc3hrOU05Q2xCbGVFSl9WVGhLd3JfdWpja1o4Y25PWTlCVnBLbmVfRmdIZkpsZUg5NExZRGx6akotaUhZS0NoakVmWlY5akdmczdZc0ZScU5tMXRsTTJaSEtHOHY1d2JwOUJwYm9veUpfNGwwdHg1dTA?oc=5",
+          "importance": 2,
+          "source": "Yahoo!ファイナンス"
+        },
+        {
+          "id": "30990971debb",
+          "title": "ダウ平均は反発 ＡＩ関連企業の過剰投資への懸念も ＰＰＩには反応薄＝米国株概況",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB1MmFObU5tV1hsQ3lFc1MwLVZ1UURoSEZkSTRVLUR4UE9nVUN6MkVqN242d1pFZE1fTEdYcjRhaklnNjh5TlVCQg?oc=5",
+          "importance": 2,
+          "source": "みんかぶ FX/為替"
+        },
+        {
+          "id": "29d54d8e2ad2",
+          "title": "米国株、ダウ反発 消費関連やヘルスケアに買い ナスダックも反発",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NcGx4QkIxdzd6SE5sTThHOVJLdlRNRGFhbUpzcGg4aGRCQmZibnJqSnJMdG56TU1DVklldU4wSElVQ2JxTXd6dmV5dGhmMWVJTTM0ZXhWSWllZU1OLV8ySWNTZFlDYUlCMi1WXw?oc=5",
+          "importance": 2,
+          "source": "日本経済新聞"
+        },
+        {
+          "id": "daa79e29d271",
+          "title": "ダウ先物は上昇もナスダック１００は大幅安＝米国株",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ZUHMzMGlWU0RMMTZ0WG4wOUVScm9iSVhHT0JCRjB4NGFXLXk3NFhGbm5aMVpNT3BWd3dMek52UUY2RWNsWVJuN3lLREQzODNiVFE?oc=5",
+          "importance": 2,
+          "source": "株探"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "positive": 3,
+          "negative": 3,
+          "watch": 4
+        },
+        {
+          "code": "7267",
+          "name": "本田技研工業",
+          "positive": 2,
+          "negative": 3,
+          "watch": 0
+        },
+        {
+          "code": "7201",
+          "name": "日産自動車",
+          "positive": 2,
+          "negative": 2,
+          "watch": 0
+        },
+        {
+          "code": "7269",
+          "name": "スズキ",
+          "positive": 2,
+          "negative": 2,
+          "watch": 0
+        },
+        {
+          "code": "7270",
+          "name": "SUBARU",
+          "positive": 1,
+          "negative": 2,
+          "watch": 0
+        },
+        {
+          "code": "7261",
+          "name": "マツダ",
+          "positive": 1,
+          "negative": 1,
           "watch": 0
         }
       ],
@@ -20189,153 +20632,6 @@
         }
       ],
       "max_importance": 4,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "connection_type": "sector",
-      "connection_label": "同じ業界",
-      "theme_id": null,
-      "label": "自動車業界のニュース",
-      "category": "",
-      "category_label": "同じ業界",
-      "category_emoji": "🏭",
-      "member_ids": [
-        "9c610df5beec",
-        "e660583cc48f",
-        "2a39099b2ebf",
-        "2cb9e9363873",
-        "d6f8ecf0b5dd",
-        "e7623794a181",
-        "30990971debb",
-        "29d54d8e2ad2",
-        "daa79e29d271"
-      ],
-      "members": [
-        {
-          "id": "9c610df5beec",
-          "title": "中華人民共和国産二酸化チタンルチル型をもととした顔料及び調製品に対する不当廉売関税の課税に関する調査を開始します",
-          "url": "https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261016.html",
-          "importance": 5,
-          "source": "財務省"
-        },
-        {
-          "id": "e660583cc48f",
-          "title": "米国株式市場＝ナスダック大幅安、インフレ加速で利上げ懸念",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQjVGN3A0TnI3X0gtQWhTQmMxUnk2bEdrdno2c3R1UzQ0NWlUV2hEYVl5WUJGUUpwZUtiVUVjT1pEVDNwN1NBNnhFQUpnR0RCT211Q3lkMjJIREFaamhDTnA4SXJBVDZBc0JTbGFSUnhoVjNfX2tHeFdiT0V2UDg2LUVPcDF4UQ?oc=5",
-          "importance": 4,
-          "source": "Reuters"
-        },
-        {
-          "id": "2a39099b2ebf",
-          "title": "外為：カナダドル、111円33銭前後とカナダドル高・円安で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSnlmaTRGdlhxdUk1TWQwSzI4Mk5OTDFIcERiVEQ5eXRrdWlfUmNBdkRBX2tseDlRLUVodC0xdkpEOHVRcVZrakljSWJ2YlR2NE41VUYxSmhEUmNmV1BOTHIyUk1JdXljTko5QVdDVWZ0a1V5YmN6TEF2MFlaS2plamhsazJrSUU?oc=5",
-          "importance": 3,
-          "source": "Yahoo!ファイナンス"
-        },
-        {
-          "id": "2cb9e9363873",
-          "title": "中国は、米国との貿易協定の期限が迫っているにもかかわらず、EUへのレアアース供給を継続すると表明した。",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaTcwdm1BdU9ZNElaZWJIcl85WF9KZUFDMHhwVEVsZGo5UVgyOEJ4RFE4ZzRkVnNQUmVmdng3aUxQaDB1dHdackV4SW01Q0g5LTVtclpjRUU0MFVhbmtzZGhISHZNeHc5eDl5M1UwTVc1WG1SN2VZMUpQbG5Ta29BYUNWdUJtX25hQ0UzdHVXQjVrNmNFU2Fma01BeEVuMnU4NFNDRFdKQjNrcG8zdlBMeFJjUk9iWGk4cjBmRVRiN2xIcDg?oc=5",
-          "importance": 3,
-          "source": "Vietnam.vn"
-        },
-        {
-          "id": "d6f8ecf0b5dd",
-          "title": "ナスダック総合の指数情報・推移",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ファイナンス"
-        },
-        {
-          "id": "e7623794a181",
-          "title": "外為：1ドル157円82銭前後と小幅なドル安・円高で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVENBQzRNUTREM1V0NDZDc3hrOU05Q2xCbGVFSl9WVGhLd3JfdWpja1o4Y25PWTlCVnBLbmVfRmdIZkpsZUg5NExZRGx6akotaUhZS0NoakVmWlY5akdmczdZc0ZScU5tMXRsTTJaSEtHOHY1d2JwOUJwYm9veUpfNGwwdHg1dTA?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ファイナンス"
-        },
-        {
-          "id": "30990971debb",
-          "title": "ダウ平均は反発 ＡＩ関連企業の過剰投資への懸念も ＰＰＩには反応薄＝米国株概況",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB1MmFObU5tV1hsQ3lFc1MwLVZ1UURoSEZkSTRVLUR4UE9nVUN6MkVqN242d1pFZE1fTEdYcjRhaklnNjh5TlVCQg?oc=5",
-          "importance": 2,
-          "source": "みんかぶ FX/為替"
-        },
-        {
-          "id": "29d54d8e2ad2",
-          "title": "米国株、ダウ反発 消費関連やヘルスケアに買い ナスダックも反発",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NcGx4QkIxdzd6SE5sTThHOVJLdlRNRGFhbUpzcGg4aGRCQmZibnJqSnJMdG56TU1DVklldU4wSElVQ2JxTXd6dmV5dGhmMWVJTTM0ZXhWSWllZU1OLV8ySWNTZFlDYUlCMi1WXw?oc=5",
-          "importance": 2,
-          "source": "日本経済新聞"
-        },
-        {
-          "id": "daa79e29d271",
-          "title": "ダウ先物は上昇もナスダック１００は大幅安＝米国株",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ZUHMzMGlWU0RMMTZ0WG4wOUVScm9iSVhHT0JCRjB4NGFXLXk3NFhGbm5aMVpNT3BWd3dMek52UUY2RWNsWVJuN3lLREQzODNiVFE?oc=5",
-          "importance": 2,
-          "source": "株探"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "7203",
-          "name": "トヨタ自動車",
-          "positive": 2,
-          "negative": 3,
-          "watch": 4
-        },
-        {
-          "code": "7267",
-          "name": "本田技研工業",
-          "positive": 1,
-          "negative": 3,
-          "watch": 0
-        },
-        {
-          "code": "7201",
-          "name": "日産自動車",
-          "positive": 1,
-          "negative": 2,
-          "watch": 0
-        },
-        {
-          "code": "7269",
-          "name": "スズキ",
-          "positive": 1,
-          "negative": 2,
-          "watch": 0
-        },
-        {
-          "code": "7270",
-          "name": "SUBARU",
-          "positive": 1,
-          "negative": 2,
-          "watch": 0
-        },
-        {
-          "code": "7261",
-          "name": "マツダ",
-          "positive": 1,
-          "negative": 1,
-          "watch": 0
-        }
-      ],
-      "max_importance": 5,
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -20678,6 +20974,169 @@
       "connection_type": "supply_chain",
       "connection_label": "資源・サプライチェーン",
       "theme_id": null,
+      "label": "自動車に関連するニュース",
+      "category": "",
+      "category_label": "資源・サプライチェーン",
+      "category_emoji": "🔗",
+      "member_ids": [
+        "9c610df5beec",
+        "7255a43930d6",
+        "2892da0b9744",
+        "e660583cc48f",
+        "2a39099b2ebf",
+        "2cb9e9363873",
+        "d6f8ecf0b5dd",
+        "e7623794a181",
+        "30990971debb",
+        "29d54d8e2ad2",
+        "daa79e29d271"
+      ],
+      "members": [
+        {
+          "id": "9c610df5beec",
+          "title": "中華人民共和国産二酸化チタンルチル型をもととした顔料及び調製品に対する不当廉売関税の課税に関する調査を開始します",
+          "url": "https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261016.html",
+          "importance": 5,
+          "source": "財務省"
+        },
+        {
+          "id": "7255a43930d6",
+          "title": "FX/為替「ドル/円今日の見通し｜10月利上げめぐり、ウォーシュFRB議長発言に注目集まる」 外為どっとコム トゥデイ 2026年10月16日号",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE10S3B3a0RhNjBBRnlZb2ZvdEtMOG8xOTJHWVFaNkN6X05XdmFzX1JzV09jTFBFOGp4Skh4aUhqMVhiRUdfLWRTdEpLbGpkQzQwSmNHOExJQlVRa2FRbkphbzRPTQ?oc=5",
+          "importance": 5,
+          "source": "外為どっとコム"
+        },
+        {
+          "id": "2892da0b9744",
+          "title": "日銀の「2％到達」宣言は事実上のリフレ脱却宣言、それでも利上げ終了とはなりそうにない円安防衛のジレンマ 【唐鎌大輔の為替から見る日本】アベノミクスから13年、中立金利への接近と通貨防衛の両立を迫られる日銀",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wSHU5Mkk2RmhyX2F0Sk5rcTdsQ3hkZ0p4SDI1RVVNdFpfNFFwYUVJWWJLWXBrb1lGZVgzLTlWeFZhbFVfQnVndjV2bklpcnZsY3FhTWh3?oc=5",
+          "importance": 5,
+          "source": "JBpress"
+        },
+        {
+          "id": "e660583cc48f",
+          "title": "米国株式市場＝ナスダック大幅安、インフレ加速で利上げ懸念",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQjVGN3A0TnI3X0gtQWhTQmMxUnk2bEdrdno2c3R1UzQ0NWlUV2hEYVl5WUJGUUpwZUtiVUVjT1pEVDNwN1NBNnhFQUpnR0RCT211Q3lkMjJIREFaamhDTnA4SXJBVDZBc0JTbGFSUnhoVjNfX2tHeFdiT0V2UDg2LUVPcDF4UQ?oc=5",
+          "importance": 4,
+          "source": "Reuters"
+        },
+        {
+          "id": "2a39099b2ebf",
+          "title": "外為：カナダドル、111円33銭前後とカナダドル高・円安で推移(株探ニュース)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSnlmaTRGdlhxdUk1TWQwSzI4Mk5OTDFIcERiVEQ5eXRrdWlfUmNBdkRBX2tseDlRLUVodC0xdkpEOHVRcVZrakljSWJ2YlR2NE41VUYxSmhEUmNmV1BOTHIyUk1JdXljTko5QVdDVWZ0a1V5YmN6TEF2MFlaS2plamhsazJrSUU?oc=5",
+          "importance": 3,
+          "source": "Yahoo!ファイナンス"
+        },
+        {
+          "id": "2cb9e9363873",
+          "title": "中国は、米国との貿易協定の期限が迫っているにもかかわらず、EUへのレアアース供給を継続すると表明した。",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaTcwdm1BdU9ZNElaZWJIcl85WF9KZUFDMHhwVEVsZGo5UVgyOEJ4RFE4ZzRkVnNQUmVmdng3aUxQaDB1dHdackV4SW01Q0g5LTVtclpjRUU0MFVhbmtzZGhISHZNeHc5eDl5M1UwTVc1WG1SN2VZMUpQbG5Ta29BYUNWdUJtX25hQ0UzdHVXQjVrNmNFU2Fma01BeEVuMnU4NFNDRFdKQjNrcG8zdlBMeFJjUk9iWGk4cjBmRVRiN2xIcDg?oc=5",
+          "importance": 3,
+          "source": "Vietnam.vn"
+        },
+        {
+          "id": "d6f8ecf0b5dd",
+          "title": "ナスダック総合の指数情報・推移",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
+          "importance": 2,
+          "source": "Yahoo!ファイナンス"
+        },
+        {
+          "id": "e7623794a181",
+          "title": "外為：1ドル157円82銭前後と小幅なドル安・円高で推移(株探ニュース)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVENBQzRNUTREM1V0NDZDc3hrOU05Q2xCbGVFSl9WVGhLd3JfdWpja1o4Y25PWTlCVnBLbmVfRmdIZkpsZUg5NExZRGx6akotaUhZS0NoakVmWlY5akdmczdZc0ZScU5tMXRsTTJaSEtHOHY1d2JwOUJwYm9veUpfNGwwdHg1dTA?oc=5",
+          "importance": 2,
+          "source": "Yahoo!ファイナンス"
+        },
+        {
+          "id": "30990971debb",
+          "title": "ダウ平均は反発 ＡＩ関連企業の過剰投資への懸念も ＰＰＩには反応薄＝米国株概況",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB1MmFObU5tV1hsQ3lFc1MwLVZ1UURoSEZkSTRVLUR4UE9nVUN6MkVqN242d1pFZE1fTEdYcjRhaklnNjh5TlVCQg?oc=5",
+          "importance": 2,
+          "source": "みんかぶ FX/為替"
+        },
+        {
+          "id": "29d54d8e2ad2",
+          "title": "米国株、ダウ反発 消費関連やヘルスケアに買い ナスダックも反発",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NcGx4QkIxdzd6SE5sTThHOVJLdlRNRGFhbUpzcGg4aGRCQmZibnJqSnJMdG56TU1DVklldU4wSElVQ2JxTXd6dmV5dGhmMWVJTTM0ZXhWSWllZU1OLV8ySWNTZFlDYUlCMi1WXw?oc=5",
+          "importance": 2,
+          "source": "日本経済新聞"
+        },
+        {
+          "id": "daa79e29d271",
+          "title": "ダウ先物は上昇もナスダック１００は大幅安＝米国株",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ZUHMzMGlWU0RMMTZ0WG4wOUVScm9iSVhHT0JCRjB4NGFXLXk3NFhGbm5aMVpNT3BWd3dMek52UUY2RWNsWVJuN3lLREQzODNiVFE?oc=5",
+          "importance": 2,
+          "source": "株探"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "positive": 3,
+          "negative": 3,
+          "watch": 4
+        },
+        {
+          "code": "7267",
+          "name": "本田技研工業",
+          "positive": 2,
+          "negative": 3,
+          "watch": 0
+        },
+        {
+          "code": "7201",
+          "name": "日産自動車",
+          "positive": 2,
+          "negative": 2,
+          "watch": 0
+        },
+        {
+          "code": "7269",
+          "name": "スズキ",
+          "positive": 2,
+          "negative": 2,
+          "watch": 0
+        },
+        {
+          "code": "7270",
+          "name": "SUBARU",
+          "positive": 1,
+          "negative": 2,
+          "watch": 0
+        },
+        {
+          "code": "7261",
+          "name": "マツダ",
+          "positive": 1,
+          "negative": 1,
+          "watch": 0
+        }
+      ],
+      "max_importance": 5,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "connection_type": "supply_chain",
+      "connection_label": "資源・サプライチェーン",
+      "theme_id": null,
       "label": "データセンターに関連するニュース",
       "category": "",
       "category_label": "資源・サプライチェーン",
@@ -20813,13 +21272,13 @@
       "connection_type": "supply_chain",
       "connection_label": "資源・サプライチェーン",
       "theme_id": null,
-      "label": "自動車に関連するニュース",
+      "label": "EVに関連するニュース",
       "category": "",
       "category_label": "資源・サプライチェーン",
       "category_emoji": "🔗",
       "member_ids": [
         "9c610df5beec",
-        "7255a43930d6",
+        "2892da0b9744",
         "e660583cc48f",
         "2a39099b2ebf",
         "2cb9e9363873",
@@ -20838,11 +21297,11 @@
           "source": "財務省"
         },
         {
-          "id": "7255a43930d6",
-          "title": "FX/為替「ドル/円今日の見通し｜10月利上げめぐり、ウォーシュFRB議長発言に注目集まる」 外為どっとコム トゥデイ 2026年10月16日号",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE10S3B3a0RhNjBBRnlZb2ZvdEtMOG8xOTJHWVFaNkN6X05XdmFzX1JzV09jTFBFOGp4Skh4aUhqMVhiRUdfLWRTdEpLbGpkQzQwSmNHOExJQlVRa2FRbkphbzRPTQ?oc=5",
+          "id": "2892da0b9744",
+          "title": "日銀の「2％到達」宣言は事実上のリフレ脱却宣言、それでも利上げ終了とはなりそうにない円安防衛のジレンマ 【唐鎌大輔の為替から見る日本】アベノミクスから13年、中立金利への接近と通貨防衛の両立を迫られる日銀",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wSHU5Mkk2RmhyX2F0Sk5rcTdsQ3hkZ0p4SDI1RVVNdFpfNFFwYUVJWWJLWXBrb1lGZVgzLTlWeFZhbFVfQnVndjV2bklpcnZsY3FhTWh3?oc=5",
           "importance": 5,
-          "source": "外為どっとコム"
+          "source": "JBpress"
         },
         {
           "id": "e660583cc48f",
@@ -20905,188 +21364,26 @@
         {
           "code": "7203",
           "name": "トヨタ自動車",
-          "positive": 2,
+          "positive": 3,
           "negative": 3,
           "watch": 4
         },
         {
           "code": "7267",
           "name": "本田技研工業",
-          "positive": 1,
+          "positive": 2,
           "negative": 3,
           "watch": 0
         },
         {
           "code": "7201",
           "name": "日産自動車",
-          "positive": 1,
+          "positive": 2,
           "negative": 2,
-          "watch": 0
-        },
-        {
-          "code": "7269",
-          "name": "スズキ",
-          "positive": 1,
-          "negative": 2,
-          "watch": 0
-        },
-        {
-          "code": "7270",
-          "name": "SUBARU",
-          "positive": 1,
-          "negative": 2,
-          "watch": 0
-        },
-        {
-          "code": "7261",
-          "name": "マツダ",
-          "positive": 1,
-          "negative": 1,
           "watch": 0
         }
       ],
       "max_importance": 5,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "connection_type": "supply_chain",
-      "connection_label": "資源・サプライチェーン",
-      "theme_id": null,
-      "label": "内需小売に関連するニュース",
-      "category": "",
-      "category_label": "資源・サプライチェーン",
-      "category_emoji": "🔗",
-      "member_ids": [
-        "49f83873964c",
-        "076e81e32ba9",
-        "3aed64952839",
-        "354aec0bb899",
-        "2a39099b2ebf",
-        "412877aaa2da",
-        "bc0f35430226",
-        "c21970e5fd01",
-        "56e935b5b21b",
-        "8815a445c989"
-      ],
-      "members": [
-        {
-          "id": "49f83873964c",
-          "title": "トランプ大統領の「エネルギー停戦」崩壊…ゼレンスキー大統領、ロシア製油施設への攻撃を再開（中央日報日本語版）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFS0xoZHdQSEVMRDFMQ1FSUUlJX1JpRmg5elc5NV9OYV9jOWJoNkl2WDAycllJa3Y1U2pyRXg1VlZEbTl2cFFHNEpSR1pxQ3ZJcjRaeWRDckxFNHd4QTRUVDZGTlA3TFk3cHV5ODB2aGtJaUY4Zlh4cnRTMkdFVG8?oc=5",
-          "importance": 4,
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "id": "076e81e32ba9",
-          "title": "ウクライナ 製油所攻撃を“再開” ロシアも応酬「停戦」破綻か",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5vUTZ1aHlvc0RMZWVlTTZjSUJmUG9sQ2ZmYWkyelFtNmE5WmN5THFGV1VmNHN3cVBWQlVQSnpoSmxTVHF2eFI0XzFlUV9EQQ?oc=5",
-          "importance": 4,
-          "source": "FNNプライムオンライン"
-        },
-        {
-          "id": "3aed64952839",
-          "title": "ロシアとウクライナ、破綻した停戦交渉が決して無駄にはならない理由",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9QT0hncGNkMjNwU1V0UmVZTERvS1hnNjU0YmZEcHV3dC1URmVNQUdqQmd4RFh4dUxaWW8tSGViOHdfdVdGSXp2U1NhZVA4bUk?oc=5",
-          "importance": 4,
-          "source": "現代ビジネス"
-        },
-        {
-          "id": "354aec0bb899",
-          "title": "ウクライナ ロシア製油所へ攻撃再開か“エネルギー停戦合意”後もロ軍の攻撃止まらず",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBjTTU3Mzk4QnVBU0dIbGJVSlE5QXYwM1RnajRRQTg3NUQ2ZWQtMkhYeHlWMFNnbTRXcU1Fb1d1anJ6RzZ0SWFkRm4xbGdQcVNjQ1N5UTRVekUxNzdkRXRuVlZQNzAyRDQ0VDBUaFVaTHFqNzJFVlVYN1p3?oc=5",
-          "importance": 4,
-          "source": "テレ朝NEWS"
-        },
-        {
-          "id": "2a39099b2ebf",
-          "title": "外為：カナダドル、111円33銭前後とカナダドル高・円安で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSnlmaTRGdlhxdUk1TWQwSzI4Mk5OTDFIcERiVEQ5eXRrdWlfUmNBdkRBX2tseDlRLUVodC0xdkpEOHVRcVZrakljSWJ2YlR2NE41VUYxSmhEUmNmV1BOTHIyUk1JdXljTko5QVdDVWZ0a1V5YmN6TEF2MFlaS2plamhsazJrSUU?oc=5",
-          "importance": 3,
-          "source": "Yahoo!ファイナンス"
-        },
-        {
-          "id": "412877aaa2da",
-          "title": "ウクライナ大統領、ロシア製油所攻撃「再開」 トランプ氏「恥ずべきこと」",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wWDdlUGw3b29rXzRjaUF6V3ZVMG9Rd3ozQUZkLTRkVno0MGtGOHBvcmtxY3FHT2lqVkUtRHc0cnNhUzBZUnJpdTlFSjA1WUxxRXFKT2R3aWxTYlZCUmJYUEJwSQ?oc=5",
-          "importance": 3,
-          "source": "時事ドットコム"
-        },
-        {
-          "id": "bc0f35430226",
-          "title": "〔決算〕高島屋、２７年２月期の連結業績予想を上方修正",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5HNjNwYnJNVUIxQ19yY2ZNX1p5czdCa1hPeldmT1JKZWtMMTRLNjYwRnBPNWxqb2JoakpKZzRoTTNiRnM2cEtJRVk1bHJfTmJFVFhJdFJGQ3VZaWhSbmE2anZUZFpCR3FYWFJ2T3hHSU0xaGhVZHNiSGdkQdIBgAFBVV95cUxPZEIyWmpGeDdacWdicU43OHBpeF92TDhVWl85ZjhNTnJDbmhtMGp6eS1xSmxXUk10RktJLXpVT09nblhHLVJMaDQ1VUNIa3NfRFFWbkFJRkF2WEh3NGZFQjhpcm9IUEg3dlBZaEF0TzhMeF8xc1NnYjN2enNVVjZGbw?oc=5",
-          "importance": 3,
-          "source": "ｄメニューニュース"
-        },
-        {
-          "id": "c21970e5fd01",
-          "title": "ウクライナからの家きん肉等の輸入一時停止措置の解除について",
-          "url": "https://www.maff.go.jp/j/press/syouan/douei/261016.html",
-          "importance": 2,
-          "source": "農林水産省"
-        },
-        {
-          "id": "56e935b5b21b",
-          "title": "「ウクライナへの食料・農業分野官民ミッション」の結果概要について",
-          "url": "https://www.maff.go.jp/j/press/y_kokusai/kokkyo/261016.html",
-          "importance": 2,
-          "source": "農林水産省"
-        },
-        {
-          "id": "8815a445c989",
-          "title": "高島屋が反落､27年2月期業績上方修正も市場予想に届かず",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9EbU5tNEh4dGdLaTNIcTdoSU9OVkZlclZidnFZYUF2Yk96YmJNcFVITUFndVB6aE5GQlpmTEp5Ry1SRlBvRTlNcVI5Vk5yVXVNV0tFQWZTVQ?oc=5",
-          "importance": 2,
-          "source": "四季報オンライン"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "8267",
-          "name": "イオン",
-          "positive": 0,
-          "negative": 7,
-          "watch": 0
-        },
-        {
-          "code": "8233",
-          "name": "高島屋",
-          "positive": 2,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "9983",
-          "name": "ファーストリテイリング",
-          "positive": 0,
-          "negative": 1,
-          "watch": 0
-        },
-        {
-          "code": "3382",
-          "name": "セブン&アイ・ホールディングス",
-          "positive": 0,
-          "negative": 1,
-          "watch": 0
-        }
-      ],
-      "max_importance": 4,
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -21124,7 +21421,7 @@
     "milestones": {
       "accumulating": "2026-09-21"
     },
-    "last_computed_at": "2026-10-16T20:54:05+09:00"
+    "last_computed_at": "2026-10-16T21:21:39+09:00"
   },
   "counts": {
     "news": 40,
