@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-17 10:15",
-  "run_type": "morning",
+  "generated_at": "2026-10-17 13:40",
+  "run_type": "evening",
   "us_market": {
     "sp500": {
       "value": "7,659.44",
@@ -29,17 +29,19 @@
     "asof": "10/17終値"
   },
   "nikkei_futures": {
-    "value": "63,610.00",
-    "change_pct": -2.86,
+    "value": "63,925.00",
+    "change_pct": -2.37,
     "asof": "10/17終値"
   },
   "nikkei225": {
     "value": "65,324.29",
-    "change_pct": -3.57,
+    "change_pct": 1.39,
     "asof": "10/16終値"
   },
   "overnight_news": [],
-  "tdnet_morning": [
+  "tdnet_morning": [],
+  "movers_morning": [],
+  "tdnet_afterclose": [
     {
       "time": "09:49",
       "code": "―",
@@ -201,8 +203,6 @@
       "tag": "他"
     }
   ],
-  "movers_morning": [],
-  "tdnet_afterclose": [],
   "afterclose_news": [],
   "movers_afterclose": [],
   "technical": [
@@ -973,85 +973,85 @@
     "code": "ＧＭＯ－ＰＰ"
   },
   "data_updated_at": {
-    "market_quotes": "2026-10-17 10:15",
-    "tdnet_morning": "2026-10-17 10:15",
-    "technical": "2026-10-17 10:15",
-    "growth_candidates": "2026-10-17 10:15",
-    "pre_earnings_watch": "2026-10-17 10:15",
-    "edinet_large_holdings": "2026-10-17 10:15",
-    "economic_calendar": "2026-10-17 10:15",
-    "pre_earnings_indicator": "2026-10-17 10:17"
+    "market_quotes": "2026-10-17 13:40",
+    "tdnet_afterclose": "2026-10-17 13:40",
+    "technical": "2026-10-17 13:40",
+    "growth_candidates": "2026-10-17 13:40",
+    "pre_earnings_watch": "2026-10-17 13:40",
+    "edinet_large_holdings": "2026-10-17 13:40",
+    "economic_calendar": "2026-10-17 13:40",
+    "pre_earnings_indicator": "2026-10-17 13:41"
   },
   "edinet_large_holdings": [],
   "data_status": {
     "market_quotes": {
       "state": "updated",
-      "checked_at": "2026-10-17 10:15",
+      "checked_at": "2026-10-17 13:40",
       "message": "今回の実行で取得・更新しました。"
     },
     "tdnet_morning": {
-      "state": "updated",
-      "checked_at": "2026-10-17 10:15",
-      "message": "今回の実行で取得・更新しました。"
+      "state": "not_requested",
+      "checked_at": "2026-10-17 13:40",
+      "message": "今回の実行モードでは更新対象外です。"
     },
     "tdnet_afterclose": {
-      "state": "not_requested",
-      "checked_at": "2026-10-17 10:15",
-      "message": "今回の実行モードでは更新対象外です。"
+      "state": "updated",
+      "checked_at": "2026-10-17 13:40",
+      "message": "今回の実行で取得・更新しました。"
     },
     "technical": {
       "state": "updated",
-      "checked_at": "2026-10-17 10:15",
+      "checked_at": "2026-10-17 13:40",
       "message": "今回の実行で取得・更新しました。"
     },
     "growth_candidates": {
       "state": "updated",
-      "checked_at": "2026-10-17 10:15",
+      "checked_at": "2026-10-17 13:40",
       "message": "今回の実行で取得・更新しました。"
     },
     "pre_earnings_watch": {
       "state": "updated",
-      "checked_at": "2026-10-17 10:15",
+      "checked_at": "2026-10-17 13:40",
       "message": "今回の実行で取得・更新しました。"
     },
     "overnight_news": {
-      "state": "unavailable",
-      "checked_at": "2026-10-17 10:16",
-      "message": "ニュース分析APIで取得できませんでした。"
+      "state": "not_requested",
+      "checked_at": "2026-10-17 13:40",
+      "message": "今回の実行モードでは更新対象外です。"
     },
     "afterclose_news": {
-      "state": "not_requested",
-      "checked_at": "2026-10-17 10:16",
-      "message": "今回の実行モードでは更新対象外です。"
+      "state": "unavailable",
+      "checked_at": "2026-10-17 13:41",
+      "message": "ニュース分析APIで取得できませんでした。"
     },
     "movers_morning": {
-      "state": "unavailable",
-      "checked_at": "2026-10-17 10:16",
-      "message": "話題株分析APIで取得できませんでした。"
+      "state": "not_requested",
+      "checked_at": "2026-10-17 13:40",
+      "message": "今回の実行モードでは更新対象外です。"
     },
     "movers_afterclose": {
-      "state": "not_requested",
-      "checked_at": "2026-10-17 10:16",
-      "message": "今回の実行モードでは更新対象外です。"
+      "state": "unavailable",
+      "checked_at": "2026-10-17 13:41",
+      "message": "話題株分析APIで取得できませんでした。"
     },
     "us_good_news": {
       "state": "unavailable",
-      "checked_at": "2026-10-17 10:16",
+      "checked_at": "2026-10-17 13:41",
       "message": "ニュース分析APIで取得できませんでした。"
     },
     "edinet_large_holdings": {
       "state": "empty",
-      "checked_at": "2026-10-17 10:15",
+      "checked_at": "2026-10-17 13:40",
       "message": "取得済み・該当する大量保有報告書はありません。"
     },
     "economic_calendar": {
       "state": "updated",
-      "checked_at": "2026-10-17 10:15",
+      "checked_at": "2026-10-17 13:40",
       "message": "今回の実行で取得・更新しました。"
     },
     "pre_earnings_indicator": {
       "state": "updated",
-      "checked_at": "2026-10-17 10:17",
+      "checked_at": "2026-10-17 13:41",
       "message": "今回の実行で取得・更新しました。"
     }
   },
