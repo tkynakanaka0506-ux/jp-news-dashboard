@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-18 21:02",
-  "generated_iso": "2026-10-18T21:02:58+09:00",
+  "generated_at": "2026-10-19 00:12",
+  "generated_iso": "2026-10-19T00:12:15+09:00",
   "status": "updated",
-  "status_message": "22 件のニュースを取得しました。",
+  "status_message": "19 件のニュースを取得しました。",
   "llm_used": true,
   "categories": [
     {
@@ -112,8 +112,8 @@
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
+      "news_novelty": "low",
+      "news_novelty_label": "再報道",
       "policy_event_id": "semi_demand-20260920-01",
       "policy_event_is_update": true,
       "policy_event_first_seen": "2026-09-20",
@@ -667,8 +667,8 @@
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
+      "news_novelty": "low",
+      "news_novelty_label": "再報道",
       "policy_event_id": "ukraine_russia-20260920-01",
       "policy_event_is_update": true,
       "policy_event_first_seen": "2026-09-20",
@@ -1992,764 +1992,6 @@
       }
     },
     {
-      "id": "5a2316dc61aa",
-      "title": "記者会見,片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要（令和８年10月２日）について掲載しました。",
-      "url": "https://www.fsa.go.jp/common/conference/minister/2026b/20261002-1.html",
-      "source": "金融庁",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-10-16 23:00",
-      "published_ts": 1792159200.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 4,
-      "importance_reason": "重要語「内閣」・影響テーマ「日本の政局・経済対策」に該当・2媒体が報道",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "low",
-      "news_novelty_label": "再報道",
-      "policy_event_id": "jp_politics-20261002-14",
-      "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-10-02",
-      "policy_event_state": "UPDATE",
-      "themes": [
-        "日本の政局・経済対策"
-      ],
-      "theme_ids": [
-        "jp_politics"
-      ],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [
-        {
-          "code": "1801",
-          "name": "大成建設",
-          "sector": "建設",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "小",
-          "reason": "「内閣」に反応: 財政出動・公共投資の拡大観測が材料になりやすい",
-          "theme": "日本の政局・経済対策",
-          "theme_id": "jp_politics",
-          "origin": "rule",
-          "beneficiary_tier": "secondary",
-          "beneficiary_tier_label": "二次波及",
-          "revenue_horizon": "1-3y",
-          "revenue_horizon_label": "1〜3年",
-          "matched_keyword": "内閣",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 40,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "1802",
-          "name": "大林組",
-          "sector": "建設",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "小",
-          "reason": "「内閣」に反応: 財政出動・公共投資の拡大観測が材料になりやすい",
-          "theme": "日本の政局・経済対策",
-          "theme_id": "jp_politics",
-          "origin": "rule",
-          "beneficiary_tier": "secondary",
-          "beneficiary_tier_label": "二次波及",
-          "revenue_horizon": "1-3y",
-          "revenue_horizon_label": "1〜3年",
-          "matched_keyword": "内閣",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 40,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "1803",
-          "name": "清水建設",
-          "sector": "建設",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "小",
-          "reason": "「内閣」に反応: 財政出動・公共投資の拡大観測が材料になりやすい",
-          "theme": "日本の政局・経済対策",
-          "theme_id": "jp_politics",
-          "origin": "rule",
-          "beneficiary_tier": "secondary",
-          "beneficiary_tier_label": "二次波及",
-          "revenue_horizon": "1-3y",
-          "revenue_horizon_label": "1〜3年",
-          "matched_keyword": "内閣",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 40,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "1812",
-          "name": "鹿島建設",
-          "sector": "建設",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "小",
-          "reason": "「内閣」に反応: 財政出動・公共投資の拡大観測が材料になりやすい",
-          "theme": "日本の政局・経済対策",
-          "theme_id": "jp_politics",
-          "origin": "rule",
-          "beneficiary_tier": "secondary",
-          "beneficiary_tier_label": "二次波及",
-          "revenue_horizon": "1-3y",
-          "revenue_horizon_label": "1〜3年",
-          "matched_keyword": "内閣",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 40,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "9020",
-          "name": "東日本旅客鉄道",
-          "sector": "陸運",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "小",
-          "reason": "「内閣」に反応: 家計向け政策の内容次第で内需関連の業績見通しが変わりやすい",
-          "theme": "日本の政局・経済対策",
-          "theme_id": "jp_politics",
-          "origin": "rule",
-          "beneficiary_tier": "secondary",
-          "beneficiary_tier_label": "二次波及",
-          "revenue_horizon": "6-12m",
-          "revenue_horizon_label": "6〜12ヶ月",
-          "matched_keyword": "内閣",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "9022",
-          "name": "東海旅客鉄道",
-          "sector": "陸運",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "小",
-          "reason": "「内閣」に反応: 家計向け政策の内容次第で内需関連の業績見通しが変わりやすい",
-          "theme": "日本の政局・経済対策",
-          "theme_id": "jp_politics",
-          "origin": "rule",
-          "beneficiary_tier": "secondary",
-          "beneficiary_tier_label": "二次波及",
-          "revenue_horizon": "6-12m",
-          "revenue_horizon_label": "6〜12ヶ月",
-          "matched_keyword": "内閣",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "9021",
-          "name": "西日本旅客鉄道",
-          "sector": "陸運",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "小",
-          "reason": "「内閣」に反応: 家計向け政策の内容次第で内需関連の業績見通しが変わりやすい",
-          "theme": "日本の政局・経済対策",
-          "theme_id": "jp_politics",
-          "origin": "rule",
-          "beneficiary_tier": "secondary",
-          "beneficiary_tier_label": "二次波及",
-          "revenue_horizon": "6-12m",
-          "revenue_horizon_label": "6〜12ヶ月",
-          "matched_keyword": "内閣",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        }
-      ],
-      "related": [
-        {
-          "title": "記者会見,片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要（令和８年10月６日）について掲載しました。",
-          "url": "https://www.fsa.go.jp/common/conference/minister/2026b/20261006-1.html",
-          "source": "金融庁"
-        }
-      ],
-      "emergence_stage": "watch",
-      "emergence_stage_label": "👀 要監視テーマ",
-      "emergence_signal_labels": [
-        "海外の動き",
-        "政策の検討・審議段階",
-        "政府・省庁の一次情報",
-        "複数媒体での同時報道"
-      ],
-      "emergence_event_count": 42,
-      "emergence_source_count": 18,
-      "emergence_actor_type_count": 2,
-      "emergence_actor_type_labels": [
-        "日本政府・省庁",
-        "複数メディア"
-      ],
-      "emergence_actor_type_breakdown": [
-        {
-          "label": "日本政府・省庁",
-          "count": 30
-        },
-        {
-          "label": "複数メディア",
-          "count": 12
-        }
-      ],
-      "emergence_region_count": 3,
-      "emergence_regions": [
-        "中国",
-        "台湾",
-        "日本"
-      ],
-      "emergence_origin_regions": [
-        "日本"
-      ],
-      "emergence_first_seen": "2026-09-20",
-      "emergence_window_counts": {
-        "7": 5,
-        "30": 42,
-        "90": 42
-      },
-      "emergence_timeline": [
-        {
-          "date": "2026-09-20",
-          "source": "金融庁",
-          "signal_labels": [
-            "政策の検討・審議段階",
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-09-20",
-          "source": "金融庁",
-          "signal_labels": [
-            "政府・省庁の一次情報",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁",
-            "複数メディア"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-09-20",
-          "source": "首相官邸",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": [
-            "中国",
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-09-20",
-          "source": "農林水産省",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-09-20",
-          "source": "",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-09-24",
-          "source": "財務省",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-09-25",
-          "source": "首相官邸",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-09-25",
-          "source": "財務省",
-          "signal_labels": [
-            "政府・省庁の一次情報",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁",
-            "複数メディア"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-09-29",
-          "source": "財務省",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-09-29",
-          "source": "首相官邸",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-09-30",
-          "source": "国土交通省(プレスリリース)",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-09-30",
-          "source": "金融庁",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-10-01",
-          "source": "金融庁",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-10-01",
-          "source": "消費者庁",
-          "signal_labels": [
-            "政策の検討・審議段階",
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-10-02",
-          "source": "デジタル庁",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-02",
-          "source": "金融庁",
-          "signal_labels": [
-            "政府・省庁の一次情報",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁",
-            "複数メディア"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-10-02",
-          "source": "首相官邸",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-02",
-          "source": "首相官邸",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-07",
-          "source": "au Webポータル",
-          "signal_labels": [
-            "政策の検討・審議段階"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-07",
-          "source": "読売新聞",
-          "signal_labels": [
-            "政策の検討・審議段階",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-07",
-          "source": "金融庁",
-          "signal_labels": [
-            "政府・省庁の一次情報",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁",
-            "複数メディア"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-10-07",
-          "source": "朝日新聞",
-          "signal_labels": [
-            "政策の検討・審議段階"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-07",
-          "source": "Yahoo!ニュース",
-          "signal_labels": [
-            "政策の検討・審議段階"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-07",
-          "source": "中日新聞Web",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-07",
-          "source": "Reuters",
-          "signal_labels": [
-            "政策の検討・審議段階"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-07",
-          "source": "Yahoo!ニュース",
-          "signal_labels": [
-            "政策の検討・審議段階"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-07",
-          "source": "首相官邸",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-07",
-          "source": "ロイター",
-          "signal_labels": [
-            "政策の検討・審議段階"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-08",
-          "source": "合同会社ロケットボーイズ",
-          "signal_labels": [
-            "海外の動き"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "中国",
-            "台湾"
-          ]
-        },
-        {
-          "date": "2026-10-08",
-          "source": "OANDA Japan",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-09",
-          "source": "埼玉新聞",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-09",
-          "source": "首相官邸",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-09",
-          "source": "首相官邸",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-09",
-          "source": "首相官邸",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-09",
-          "source": "首相官邸",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-09",
-          "source": "総務省",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-09",
-          "source": "財務省",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-10-13",
-          "source": "財務省",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-10-15",
-          "source": "デジタル庁",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": [
-            "日本"
-          ]
-        },
-        {
-          "date": "2026-10-15",
-          "source": "首相官邸",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-16",
-          "source": "財務省",
-          "signal_labels": [
-            "政府・省庁の一次情報",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁",
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-16",
-          "source": "金融庁",
-          "signal_labels": [
-            "政府・省庁の一次情報",
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁",
-            "複数メディア"
-          ],
-          "regions": [
-            "日本"
-          ]
-        }
-      ],
-      "emergence_milestones": [
-        {
-          "date": "2026-09-20",
-          "actor_type_label": "日本政府・省庁"
-        },
-        {
-          "date": "2026-09-20",
-          "actor_type_label": "複数メディア"
-        }
-      ],
-      "emergence_diagnosis": {
-        "target_stage": "watch",
-        "target_stage_label": "👀 要監視テーマ",
-        "source_count": 18,
-        "required_sources": 2,
-        "signal_count": 4,
-        "required_signals": 3,
-        "missing": []
-      },
-      "emergence_growth": {
-        "window_days": 14,
-        "recent_new_actor_types": 0,
-        "total_actor_types": 2
-      }
-    },
-    {
       "id": "184f09fa0e45",
       "title": "高市総理は令和８年度自衛隊殉職隊員追悼式に参列しました",
       "url": "https://www.kantei.go.jp/jp/105/actions/202610/17tsuitoushiki.html",
@@ -3940,17 +3182,17 @@
       }
     },
     {
-      "id": "0392df0f4047",
-      "title": "日経平均株価の指数情報・推移",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SRDk1ZENIQUIzSUZyMHZRNHpCR2xlcTI5UTJRYXVoMDBrM3BmNndBT29vV0dDZWdQazZHb2tURGZNYy1OMU93R0kyUUZUT3VmU2VhbA?oc=5",
+      "id": "3d2db25112c0",
+      "title": "豪ドル/円【AUDJPY】：外国為替相場FXレート・チャートをリアルタイム表示",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05OFVuTURyMlFlNEM3WUpGTUFMWE92YU5yYjBSNm9Pc3NkeHplX0diaU9mVm5IRFIteUN6dzJOU1lFRXByX1BfVFhUdVh0YUdlbExySm5B?oc=5",
       "source": "Yahoo!ファイナンス",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
-      "published_at": "2026-10-18 18:32",
-      "published_ts": 1792315927.0,
-      "category": "market",
-      "category_label": "株式市況",
-      "category_emoji": "📈",
+      "published_at": "2026-10-18 22:21",
+      "published_ts": 1792329685.0,
+      "category": "fx",
+      "category_label": "為替",
+      "category_emoji": "💱",
       "importance": 1,
       "importance_reason": "一般的な市況ニュース",
       "future_signal": false,
@@ -3994,59 +3236,11 @@
       "source": "Yahoo!ファイナンス",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
-      "published_at": "2026-10-18 18:18",
-      "published_ts": 1792315089.0,
+      "published_at": "2026-10-18 22:11",
+      "published_ts": 1792329063.0,
       "category": "us",
       "category_label": "米国市場",
       "category_emoji": "🇺🇸",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "a0aee6833ce4",
-      "title": "アメリカ ドル / 日本 円【USDJPY=X】：為替レート・相場",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBQa1U5NTk2aS1xRjBZb0dxSzJocWtGel9GdVBUTEx4TVhJY0R1cHB1aGlFZnltb1dpQ3lYVmd2M09TUnMxXzV2cE1GR1kxbGhHWXNGUQ?oc=5",
-      "source": "Yahoo!ファイナンス",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-10-18 16:58",
-      "published_ts": 1792310280.0,
-      "category": "fx",
-      "category_label": "為替",
-      "category_emoji": "💱",
       "importance": 1,
       "importance_reason": "一般的な市況ニュース",
       "future_signal": false,
@@ -4482,54 +3676,6 @@
       "source_tier_label": "一次情報",
       "published_at": "2026-10-17 02:00",
       "published_ts": 1792170000.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "b622abd68b26",
-      "title": "高市総理はカムチャツカ半島を震源とする地震に関する総理指示を行いました",
-      "url": "https://www.kantei.go.jp/jp/105/discourse/20261016shiji.html",
-      "source": "首相官邸",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-10-16 21:41",
-      "published_ts": 1792154460.0,
       "category": "japan",
       "category_label": "日本経済・政治",
       "category_emoji": "🗾",
@@ -5158,7 +4304,7 @@
       "emergence_origin_regions": [],
       "emergence_first_seen": "2026-09-20",
       "emergence_window_counts": {
-        "7": 25,
+        "7": 24,
         "30": 94,
         "90": 94
       },
@@ -7374,13 +6520,12 @@
       "connection_type": "supply_chain",
       "connection_label": "資源・サプライチェーン",
       "theme_id": null,
-      "label": "データセンターに関連するニュース",
+      "label": "重電に関連するニュース",
       "category": "",
       "category_label": "資源・サプライチェーン",
       "category_emoji": "🔗",
       "member_ids": [
         "ff151b275f12",
-        "5a2316dc61aa",
         "184f09fa0e45"
       ],
       "members": [
@@ -7392,13 +6537,6 @@
           "source": "Yahoo!ニュース"
         },
         {
-          "id": "5a2316dc61aa",
-          "title": "記者会見,片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要（令和８年10月２日）について掲載しました。",
-          "url": "https://www.fsa.go.jp/common/conference/minister/2026b/20261002-1.html",
-          "importance": 4,
-          "source": "金融庁"
-        },
-        {
           "id": "184f09fa0e45",
           "title": "高市総理は令和８年度自衛隊殉職隊員追悼式に参列しました",
           "url": "https://www.kantei.go.jp/jp/105/actions/202610/17tsuitoushiki.html",
@@ -7408,24 +6546,10 @@
       ],
       "stocks": [
         {
-          "code": "6701",
-          "name": "日本電気",
+          "code": "6503",
+          "name": "三菱電機",
           "positive": 1,
           "negative": 1,
-          "watch": 0
-        },
-        {
-          "code": "1812",
-          "name": "鹿島建設",
-          "positive": 1,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "7011",
-          "name": "三菱重工業",
-          "positive": 1,
-          "negative": 0,
           "watch": 0
         }
       ],
@@ -7452,7 +6576,7 @@
       "connection_type": "supply_chain",
       "connection_label": "資源・サプライチェーン",
       "theme_id": null,
-      "label": "重電に関連するニュース",
+      "label": "電力に関連するニュース",
       "category": "",
       "category_label": "資源・サプライチェーン",
       "category_emoji": "🔗",
@@ -7510,7 +6634,7 @@
     "phase_label": "データ蓄積中",
     "total_themes": 32,
     "age_ge": {
-      "7": 31,
+      "7": 32,
       "14": 28,
       "30": 0,
       "90": 0
@@ -7523,11 +6647,11 @@
     "milestones": {
       "accumulating": "2026-09-21"
     },
-    "last_computed_at": "2026-10-18T21:03:03+09:00"
+    "last_computed_at": "2026-10-19T00:12:20+09:00"
   },
   "counts": {
-    "news": 22,
-    "high_importance": 3,
+    "news": 19,
+    "high_importance": 2,
     "stocks": 20
   }
 }
