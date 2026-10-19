@@ -502,7 +502,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 245,
+   "occurrences": 246,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -717,7 +717,7 @@
    "milestones": {
     "government_jp": "2026-10-17"
    },
-   "occurrences": 43
+   "occurrences": 44
   },
   "deregulation": {
    "events": [
@@ -1159,7 +1159,7 @@
    "milestones": {
     "government_jp": "2026-09-29"
    },
-   "occurrences": 92
+   "occurrences": 93
   },
   "jp_politics": {
    "events": [
@@ -2096,7 +2096,7 @@
    ],
    "first_seen": "2026-09-25",
    "milestones": {},
-   "occurrences": 62
+   "occurrences": 63
   },
   "quantum": {
    "events": [
@@ -2675,7 +2675,7 @@
     "media": "2026-09-24",
     "research": "2026-10-10"
    },
-   "occurrences": 231,
+   "occurrences": 232,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -3977,7 +3977,7 @@
     "media": "2026-09-26",
     "research": "2026-09-27"
    },
-   "occurrences": 203,
+   "occurrences": 204,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -4092,7 +4092,7 @@
    "milestones": {
     "government_jp": "2026-09-24"
    },
-   "occurrences": 64
+   "occurrences": 65
   },
   "ukraine_russia": {
    "events": [
@@ -5491,7 +5491,7 @@
     "international_org": "2026-09-24",
     "media": "2026-09-24"
    },
-   "occurrences": 209,
+   "occurrences": 210,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -6916,7 +6916,9 @@
      "title": "米国株、S&P500とナスダックが寄り付きで上昇 AI関連株が反発、ダウは小幅安"
     },
     {
-     "actor_types": [],
+     "actor_types": [
+      "media"
+     ],
      "date": "2026-10-19",
      "item_id": "f37da56d09a9",
      "origin_region": null,
@@ -6928,13 +6930,39 @@
      ],
      "source": "株探",
      "title": "ダウ先物は下落もナスダック１００は大幅反発 ＩＴ・ハイテク株に買い戻し＝米国株"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-20",
+     "item_id": "a24e8ba673b1",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign"
+     ],
+     "source": "Yahoo!ファイナンス",
+     "title": "ダウ平均は横ばいもナスダックは大幅高 コアウィーブに買戻し＝米国株序盤(株探ニュース)"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-20",
+     "item_id": "dad8dacb4ca5",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "BigGo ファイナンス",
+     "title": "米株はまちまち、ダウ続落もナスダック反発 AI関連に買い戻し"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
     "media": "2026-09-23"
    },
-   "occurrences": 249,
+   "occurrences": 250,
    "signals": {}
   },
   "yen_strong": {
@@ -7230,6 +7258,20 @@
      ],
      "source": "Yahoo!ファイナンス",
      "title": "外為：1ドル158円08銭前後と小幅なドル高・円安で推移(株探ニュース)"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-10-20",
+     "item_id": "440075fae63c",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "multi_source"
+     ],
+     "source": "Yahoo!ファイナンス",
+     "title": "外為：カナダドル、111円95銭前後とカナダドル高・円安で推移(株探ニュース)"
     }
    ],
    "first_seen": "2026-09-20",
@@ -7238,7 +7280,7 @@
     "government_foreign": "2026-09-21",
     "media": "2026-09-24"
    },
-   "occurrences": 199,
+   "occurrences": 200,
    "signals": {}
   }
  }
