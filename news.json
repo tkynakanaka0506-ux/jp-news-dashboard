@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-19 15:47",
-  "generated_iso": "2026-10-19T15:47:04+09:00",
+  "generated_at": "2026-10-19 23:38",
+  "generated_iso": "2026-10-19T23:38:53+09:00",
   "status": "updated",
   "status_message": "40 件のニュースを取得しました。",
   "llm_used": true,
@@ -65,33 +65,33 @@
     },
     {
       "label": "日経先物",
-      "value": "64,950.00",
-      "change_pct": 1.93,
+      "value": "65,020.00",
+      "change_pct": 2.04,
       "asof": "10/19終値"
     },
     {
       "label": "ドル円",
-      "value": "158.03円",
-      "change_pct": -0.07,
+      "value": "158.44円",
+      "change_pct": 0.19,
       "asof": "10/19終値"
     },
     {
       "label": "S&P500",
-      "value": "7,659.44",
-      "change_pct": -1.09,
-      "asof": "10/17終値"
+      "value": "7,700.89",
+      "change_pct": 0.54,
+      "asof": "10/19終値"
     },
     {
       "label": "ナスダック",
-      "value": "26,140.03",
-      "change_pct": -2.15,
-      "asof": "10/17終値"
+      "value": "26,462.29",
+      "change_pct": 1.23,
+      "asof": "10/19終値"
     },
     {
       "label": "SOX指数",
-      "value": "11,137.29",
-      "change_pct": -3.83,
-      "asof": "10/17終値"
+      "value": "11,396.94",
+      "change_pct": 2.33,
+      "asof": "10/19終値"
     }
   ],
   "news": [
@@ -1715,8 +1715,8 @@
       "source": "Yahoo!ニュース",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
-      "published_at": "2026-10-17 20:48",
-      "published_ts": 1792237739.0,
+      "published_at": "2026-10-19 12:43",
+      "published_ts": 1792381380.0,
       "category": "geopolitics",
       "category_label": "地政学・有事",
       "category_emoji": "🌍",
@@ -3078,9 +3078,9 @@
       "news_novelty": "high",
       "news_novelty_label": "新規",
       "policy_event_id": "semi_demand-20261019-06",
-      "policy_event_is_update": false,
+      "policy_event_is_update": true,
       "policy_event_first_seen": "2026-10-19",
-      "policy_event_state": "NEW",
+      "policy_event_state": "UPDATE",
       "themes": [
         "半導体・AI投資の拡大"
       ],
@@ -3625,38 +3625,280 @@
       }
     },
     {
-      "id": "caa9f46eebce",
-      "title": "外為：NZドル、89円40銭前後とNZドル安・円高で推移(株探ニュース)",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWkIxRm5pNGduRjdjMjlKVkFLNHN4N0t0c20tc0hBNzc2WHpkaWtUcEJUZW5PMWMwRkJqb3NiOVFFVmNQbHlTaVNzSFpqWGJoejZkNnppNm5jZWMwU3Nwak1ZbVdqUktmS3czd2U3NDBYZTNFejJzcVVvZFdlSGVzMGpKX3VBZEE?oc=5",
-      "source": "Yahoo!ファイナンス",
+      "id": "865344afeb55",
+      "title": "米国株、S&P500とナスダックが寄り付きで上昇 AI関連株が反発、ダウは小幅安",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1weVk1SXgwbUNfQ1BmSS1fZEVfVmgwWFpGR01mU21tWF91aHoxd0k3eGU2R3psZS1LLXNEUm4zVzd0SC0yb1hteFNLaF9pRFRDd2JnRnNKZ2pVODg4ZHdtRDZwVVNEMW9lQXhxczEwZk9jZTVS?oc=5",
+      "source": "BigGo ファイナンス",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
-      "published_at": "2026-10-19 13:31",
-      "published_ts": 1792384296.0,
-      "category": "fx",
-      "category_label": "為替",
-      "category_emoji": "💱",
+      "published_at": "2026-10-19 23:25",
+      "published_ts": 1792419900.0,
+      "category": "us",
+      "category_label": "米国市場",
+      "category_emoji": "🇺🇸",
       "importance": 2,
-      "importance_reason": "影響テーマ「円高進行」に該当",
+      "importance_reason": "影響テーマ「米国株・ハイテク株の変動」に該当",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
-      "news_novelty": "low",
-      "news_novelty_label": "再報道",
-      "policy_event_id": "yen_strong-20260920-01",
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": "us_stock_move-20260921-02",
       "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-09-20",
+      "policy_event_first_seen": "2026-09-21",
       "policy_event_state": "UPDATE",
       "themes": [
-        "円高進行"
+        "米国株・ハイテク株の変動"
       ],
       "theme_ids": [
-        "yen_strong"
+        "us_stock_move"
       ],
       "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [
+        {
+          "code": "8604",
+          "name": "野村ホールディングス",
+          "sector": "証券",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8601",
+          "name": "大和証券グループ本社",
+          "sector": "証券",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8473",
+          "name": "SBIホールディングス",
+          "sector": "証券",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9984",
+          "name": "ソフトバンクグループ",
+          "sector": "情報・通信",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "sector": "自動車",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "f37da56d09a9",
+      "title": "ダウ先物は下落もナスダック１００は大幅反発 ＩＴ・ハイテク株に買い戻し＝米国株",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85V3djU3B4c3pGX0FPWEc1Z0xlS2hMYkZYTWRnRlgzU0lSR1IxeU04UXR0V1VUcXBwLU1RVW1PdjdhODUwY0NXWDlhZXg0cFQxM1E?oc=5",
+      "source": "株探",
+      "source_tier": "commentary",
+      "source_tier_label": "市場解説",
+      "published_at": "2026-10-19 21:04",
+      "published_ts": 1792411440.0,
+      "category": "us",
+      "category_label": "米国市場",
+      "category_emoji": "🇺🇸",
+      "importance": 2,
+      "importance_reason": "影響テーマ「米国株・ハイテク株の変動」に該当",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "low",
+      "news_novelty_label": "再報道",
+      "policy_event_id": "us_stock_move-20260921-02",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-09-21",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "米国株・ハイテク株の変動"
+      ],
+      "theme_ids": [
+        "us_stock_move"
+      ],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "8604",
+          "name": "野村ホールディングス",
+          "sector": "証券",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 35,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8601",
+          "name": "大和証券グループ本社",
+          "sector": "証券",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 35,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "8473",
+          "name": "SBIホールディングス",
+          "sector": "証券",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 35,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9984",
+          "name": "ソフトバンクグループ",
+          "sector": "情報・通信",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
+          "origin": "rule",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
+          "revenue_horizon": "0-3m",
+          "revenue_horizon_label": "0〜3ヶ月",
+          "matched_keyword": "米国株",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 35,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
         {
           "code": "7203",
           "name": "トヨタ自動車",
@@ -3664,168 +3906,386 @@
           "direction": "negative",
           "direction_label": "逆風",
           "strength": "中",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "theme": "円高進行",
-          "theme_id": "yen_strong",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "theme": "米国株・ハイテク株の変動",
+          "theme_id": "us_stock_move",
           "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
+          "beneficiary_tier": "peripheral",
+          "beneficiary_tier_label": "周辺波及",
           "revenue_horizon": "0-3m",
           "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "円高",
+          "matched_keyword": "米国株",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7267",
-          "name": "本田技研工業",
-          "sector": "自動車",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "theme": "円高進行",
-          "theme_id": "yen_strong",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "円高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7201",
-          "name": "日産自動車",
-          "sector": "自動車",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "theme": "円高進行",
-          "theme_id": "yen_strong",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "円高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7269",
-          "name": "スズキ",
-          "sector": "自動車",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "theme": "円高進行",
-          "theme_id": "yen_strong",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "円高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7270",
-          "name": "SUBARU",
-          "sector": "自動車",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "theme": "円高進行",
-          "theme_id": "yen_strong",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "円高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7261",
-          "name": "マツダ",
-          "sector": "自動車",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "theme": "円高進行",
-          "theme_id": "yen_strong",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "円高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "9201",
-          "name": "日本航空",
-          "sector": "空運",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円高」に反応: 輸入コスト低下が採算改善につながりやすい",
-          "theme": "円高進行",
-          "theme_id": "yen_strong",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "円高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "9202",
-          "name": "ANAホールディングス",
-          "sector": "空運",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円高」に反応: 輸入コスト低下が採算改善につながりやすい",
-          "theme": "円高進行",
-          "theme_id": "yen_strong",
-          "origin": "rule",
-          "beneficiary_tier": "direct",
-          "beneficiary_tier_label": "直接受益",
-          "revenue_horizon": "0-3m",
-          "revenue_horizon_label": "0〜3ヶ月",
-          "matched_keyword": "円高",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 63,
+          "policy_impact_score": 35,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         }
       ],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "09de8d3b3712",
+      "title": "令和８年度自衛隊殉職隊員追悼式",
+      "url": "/j/press/news/2026/10/16d.html",
+      "source": "防衛省",
+      "source_tier": "primary",
+      "source_tier_label": "一次情報",
+      "published_at": "2026-10-19 18:04",
+      "published_ts": 1792400646.0,
+      "category": "japan",
+      "category_label": "日本経済・政治",
+      "category_emoji": "🗾",
+      "importance": 2,
+      "importance_reason": "影響テーマ「防衛・安全保障」に該当",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "low",
+      "news_novelty_label": "再報道",
+      "policy_event_id": "defense_budget-20261017-01",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-10-17",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "防衛・安全保障"
+      ],
+      "theme_ids": [
+        "defense_budget"
+      ],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "6503",
+          "name": "三菱電機",
+          "sector": "電気機器",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「自衛隊」に反応: 防衛関連の受注拡大観測が直接の材料になりやすい",
+          "theme": "防衛・安全保障",
+          "theme_id": "defense_budget",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "自衛隊",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 60,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6701",
+          "name": "日本電気",
+          "sector": "電気機器",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「自衛隊」に反応: 防衛関連の受注拡大観測が直接の材料になりやすい",
+          "theme": "防衛・安全保障",
+          "theme_id": "defense_budget",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "自衛隊",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 60,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "5406",
+          "name": "神戸製鋼所",
+          "sector": "鉄鋼",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「自衛隊」に反応: 防衛関連の受注拡大観測が直接の材料になりやすい",
+          "theme": "防衛・安全保障",
+          "theme_id": "defense_budget",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "自衛隊",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 60,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7011",
+          "name": "三菱重工業",
+          "sector": "機械",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「自衛隊」に反応: 防衛関連の受注拡大観測が直接の材料になりやすい",
+          "theme": "防衛・安全保障",
+          "theme_id": "defense_budget",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "自衛隊",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 60,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7012",
+          "name": "川崎重工業",
+          "sector": "機械",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「自衛隊」に反応: 防衛関連の受注拡大観測が直接の材料になりやすい",
+          "theme": "防衛・安全保障",
+          "theme_id": "defense_budget",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "自衛隊",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 60,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7013",
+          "name": "IHI",
+          "sector": "機械",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「自衛隊」に反応: 防衛関連の受注拡大観測が直接の材料になりやすい",
+          "theme": "防衛・安全保障",
+          "theme_id": "defense_budget",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "自衛隊",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 60,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7003",
+          "name": "三井E&Sホールディングス",
+          "sector": "機械",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "小",
+          "reason": "「自衛隊」に反応: 護衛艦・艦艇の建造需要を通じて造船会社にも間接的に波及しうる",
+          "theme": "防衛・安全保障",
+          "theme_id": "defense_budget",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "自衛隊",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7014",
+          "name": "名村造船所",
+          "sector": "機械",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "小",
+          "reason": "「自衛隊」に反応: 護衛艦・艦艇の建造需要を通じて造船会社にも間接的に波及しうる",
+          "theme": "防衛・安全保障",
+          "theme_id": "defense_budget",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "自衛隊",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "f24639595315",
+      "title": "ＧＭＯ－ＧＳ、今期最終を25％上方修正・6期ぶり最高益、配当も14.68円増額",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1GTzdZQXVvWUs0SDc3eXY0Zk5IclJPNUxVeFhWTC1jT0tsMEh5NWZSSHh4YU5XN0QxU2tQUXkzWHJlVEptY3pORzF6WDRybncwd3c?oc=5",
+      "source": "株探",
+      "source_tier": "commentary",
+      "source_tier_label": "市場解説",
+      "published_at": "2026-10-19 16:05",
+      "published_ts": 1792393500.0,
+      "category": "corporate",
+      "category_label": "企業・決算",
+      "category_emoji": "🏢",
+      "importance": 2,
+      "importance_reason": "重要語「上方修正」",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "5888de7a4f41",
+      "title": "SEH&I、27年3月期通期の連結業績予想を上方修正…営業益は8.5億円→11億円に 第2四半期までの投資運用事業収益が前回予想を大幅に上回る見込みで",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5YdURhZjAtRkZkSHZZUUpMaGpHbkVRTGVBMnNYM1ByQ1JzX25Eb3ZXVXoyU1VHbGh1Qm9OdGRWN20wMmp3?oc=5",
+      "source": "gamebiz【ゲームビズ】",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-10-19 15:46",
+      "published_ts": 1792392396.0,
+      "category": "corporate",
+      "category_label": "企業・決算",
+      "category_emoji": "🏢",
+      "importance": 2,
+      "importance_reason": "重要語「上方修正」",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "1b779ad85966",
+      "title": "シライ電子、今期経常を2倍上方修正、配当も8円増額",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9yQ3ZOSWRqZ1FxakF3Z3ZBQ2phT3dXY0NXc2dMenhsbHRtNFhicFFPcHpIdUd4M1hLX0VTYWYwQS01SlpaRWtBdjlSOVJXV1BPWFE?oc=5",
+      "source": "株探",
+      "source_tier": "commentary",
+      "source_tier_label": "市場解説",
+      "published_at": "2026-10-19 15:30",
+      "published_ts": 1792391400.0,
+      "category": "corporate",
+      "category_label": "企業・決算",
+      "category_emoji": "🏢",
+      "importance": 2,
+      "importance_reason": "重要語「上方修正」",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
       "related": [],
       "emergence_stage": null,
       "emergence_stage_label": "",
@@ -4058,7 +4518,7 @@
       "category_label": "為替",
       "category_emoji": "💱",
       "importance": 2,
-      "importance_reason": "影響テーマ「円安進行」に該当",
+      "importance_reason": "影響テーマ「円安進行」に該当・2媒体が報道",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
@@ -4247,7 +4707,13 @@
           "policy_to_earnings_stage": null
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "title": "外為：1ドル157円99銭前後と同水準で推移(株探ニュース)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUUt6d25PV1lsTm5tTk1rMmdhbEhEX2kxZXRkVzdQMVdPYmZ1Z1JGdm1uSkNMeUFjRWNfTDRhSF9yRmtVb1RJcUJqelgzdmoxVWxRX1BOaXcxZktzNmRBanhtbDNNSVhzVDE4UW54VUt4T1cteGl5bkpwQ0RPMkFfWUNpWVl0UVU?oc=5",
+          "source": "Yahoo!ファイナンス"
+        }
+      ],
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -4562,207 +5028,226 @@
       "emergence_growth": {}
     },
     {
-      "id": "184f09fa0e45",
-      "title": "高市総理は令和８年度自衛隊殉職隊員追悼式に参列しました",
-      "url": "https://www.kantei.go.jp/jp/105/actions/202610/17tsuitoushiki.html",
-      "source": "首相官邸",
+      "id": "7e498fb8195c",
+      "title": "11月17日は世界さい帯血の日です。",
+      "url": "https://www.mhlw.go.jp/stf/htcp-topics-20261001_00001.html",
+      "source": "厚生労働省",
       "source_tier": "primary",
       "source_tier_label": "一次情報",
-      "published_at": "2026-10-17 19:00",
-      "published_ts": 1792231200.0,
+      "published_at": "2026-11-17 00:00",
+      "published_ts": 1794841200.0,
       "category": "japan",
       "category_label": "日本経済・政治",
       "category_emoji": "🗾",
-      "importance": 2,
-      "importance_reason": "影響テーマ「防衛・安全保障」に該当",
+      "importance": 1,
+      "importance_reason": "一般的な市況ニュース",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
-      "news_novelty": "low",
-      "news_novelty_label": "再報道",
-      "policy_event_id": "defense_budget-20261017-01",
-      "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-10-17",
-      "policy_event_state": "UPDATE",
-      "themes": [
-        "防衛・安全保障"
-      ],
-      "theme_ids": [
-        "defense_budget"
-      ],
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
       "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
-      "impacts": [
-        {
-          "code": "6503",
-          "name": "三菱電機",
-          "sector": "電気機器",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「自衛隊」に反応: 防衛関連の受注拡大観測が直接の材料になりやすい",
-          "theme": "防衛・安全保障",
-          "theme_id": "defense_budget",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "自衛隊",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 60,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "6701",
-          "name": "日本電気",
-          "sector": "電気機器",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「自衛隊」に反応: 防衛関連の受注拡大観測が直接の材料になりやすい",
-          "theme": "防衛・安全保障",
-          "theme_id": "defense_budget",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "自衛隊",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 60,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "5406",
-          "name": "神戸製鋼所",
-          "sector": "鉄鋼",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「自衛隊」に反応: 防衛関連の受注拡大観測が直接の材料になりやすい",
-          "theme": "防衛・安全保障",
-          "theme_id": "defense_budget",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "自衛隊",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 60,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7011",
-          "name": "三菱重工業",
-          "sector": "機械",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「自衛隊」に反応: 防衛関連の受注拡大観測が直接の材料になりやすい",
-          "theme": "防衛・安全保障",
-          "theme_id": "defense_budget",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "自衛隊",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 60,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7012",
-          "name": "川崎重工業",
-          "sector": "機械",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「自衛隊」に反応: 防衛関連の受注拡大観測が直接の材料になりやすい",
-          "theme": "防衛・安全保障",
-          "theme_id": "defense_budget",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "自衛隊",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 60,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7013",
-          "name": "IHI",
-          "sector": "機械",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "大",
-          "reason": "「自衛隊」に反応: 防衛関連の受注拡大観測が直接の材料になりやすい",
-          "theme": "防衛・安全保障",
-          "theme_id": "defense_budget",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "自衛隊",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 60,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7003",
-          "name": "三井E&Sホールディングス",
-          "sector": "機械",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "小",
-          "reason": "「自衛隊」に反応: 護衛艦・艦艇の建造需要を通じて造船会社にも間接的に波及しうる",
-          "theme": "防衛・安全保障",
-          "theme_id": "defense_budget",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "自衛隊",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7014",
-          "name": "名村造船所",
-          "sector": "機械",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "小",
-          "reason": "「自衛隊」に反応: 護衛艦・艦艇の建造需要を通じて造船会社にも間接的に波及しうる",
-          "theme": "防衛・安全保障",
-          "theme_id": "defense_budget",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "自衛隊",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        }
-      ],
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "e0e1c9ca276d",
+      "title": "高市総理は日本経済団体連合会創立８０周年記念パーティに出席しました",
+      "url": "https://www.kantei.go.jp/jp/105/actions/202610/19keidanren.html",
+      "source": "首相官邸",
+      "source_tier": "primary",
+      "source_tier_label": "一次情報",
+      "published_at": "2026-10-20 03:10",
+      "published_ts": 1792433400.0,
+      "category": "japan",
+      "category_label": "日本経済・政治",
+      "category_emoji": "🗾",
+      "importance": 1,
+      "importance_reason": "一般的な市況ニュース",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "48b0a02b4090",
+      "title": "ドル円、１５８円を挟んで膠着＝ＮＹ為替序盤",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1qQ3cxR012WVJ1cUNpZjVTM0hObmFXd1JpMUVNSmczY3ZJX0d3Wmo4WFNDY0p0Mnl5VTJZVlVJTk1PVjM2N3NHSQ?oc=5",
+      "source": "みんかぶ FX/為替",
+      "source_tier": "commentary",
+      "source_tier_label": "市場解説",
+      "published_at": "2026-10-19 22:27",
+      "published_ts": 1792416449.0,
+      "category": "fx",
+      "category_label": "為替",
+      "category_emoji": "💱",
+      "importance": 1,
+      "importance_reason": "一般的な市況ニュース",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "557f4ac1e7ef",
+      "title": "〔NY外為〕円、158円台前半（19日午前8時）(時事通信)",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMmdDVTVwNGh2Q0N1WG04T29UZnpiczFaYWlvSVktRXZwTjFPZzZXczFPQkR3bVVoUGxhN0JUM1dqVWI1N0dsaWxZZ0R6eklXQ2R5VWhZNTFZYVRyRlI5eF9CSExKdTgxZ2hab1dqdlBSMlZoWVM2LU95S2JzM3pWa1lHMVZuSXc?oc=5",
+      "source": "Yahoo!ファイナンス",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-10-19 21:05",
+      "published_ts": 1792411500.0,
+      "category": "fx",
+      "category_label": "為替",
+      "category_emoji": "💱",
+      "importance": 1,
+      "importance_reason": "一般的な市況ニュース",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "252bcb8f0d35",
+      "title": "NYダウの指数情報・推移",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RX1F0c3NoRW1WOGhKVzFzd0tzWTlBS0NtMVZFbUUyZm14Z1Y5VWhzMjctd201Y2RMTFhBSGx0Rmdqc0ZFY1R2VzZUUG9PVjdUaXc?oc=5",
+      "source": "Yahoo!ファイナンス",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-10-19 20:48",
+      "published_ts": 1792410536.0,
+      "category": "us",
+      "category_label": "米国市場",
+      "category_emoji": "🇺🇸",
+      "importance": 1,
+      "importance_reason": "一般的な市況ニュース",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
       "related": [],
       "emergence_stage": null,
       "emergence_stage_label": "",
@@ -4791,6 +5276,150 @@
       "source_tier_label": "一次情報",
       "published_at": "2026-10-19 19:00",
       "published_ts": 1792404000.0,
+      "category": "japan",
+      "category_label": "日本経済・政治",
+      "category_emoji": "🗾",
+      "importance": 1,
+      "importance_reason": "一般的な市況ニュース",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "2a5360d2d1c1",
+      "title": "消費者庁から調査の協力依頼を受けたと騙る電子メールについて (注意喚起)",
+      "url": "https://www.caa.go.jp/notice/entry/047850/",
+      "source": "消費者庁",
+      "source_tier": "primary",
+      "source_tier_label": "一次情報",
+      "published_at": "2026-10-19 18:00",
+      "published_ts": 1792400400.0,
+      "category": "japan",
+      "category_label": "日本経済・政治",
+      "category_emoji": "🗾",
+      "importance": 1,
+      "importance_reason": "一般的な市況ニュース",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "59ed6f1fab19",
+      "title": "上野厚生労働大臣　閣議後記者会見のお知らせ",
+      "url": "https://www.mhlw.go.jp/stf/newpage_76821.html",
+      "source": "厚生労働省",
+      "source_tier": "primary",
+      "source_tier_label": "一次情報",
+      "published_at": "2026-10-19 17:35",
+      "published_ts": 1792398900.0,
+      "category": "japan",
+      "category_label": "日本経済・政治",
+      "category_emoji": "🗾",
+      "importance": 1,
+      "importance_reason": "一般的な市況ニュース",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "5d661590324f",
+      "title": "財政投融資分科会（令和８年10月19日開催）資料一覧",
+      "url": "https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019.html",
+      "source": "財務省",
+      "source_tier": "primary",
+      "source_tier_label": "一次情報",
+      "published_at": "2026-10-19 17:00",
+      "published_ts": 1792396800.0,
       "category": "japan",
       "category_label": "日本経済・政治",
       "category_emoji": "🗾",
@@ -5603,593 +6232,6 @@
       "emergence_milestones": [],
       "emergence_diagnosis": {},
       "emergence_growth": {}
-    },
-    {
-      "id": "f8b86d11dcac",
-      "title": "【日本人初】渡邉紹裕京都大学名誉教授が国際かんがい排水委員会（ICID）の会長に就任",
-      "url": "https://www.maff.go.jp/j/press/nousin/sekkei/261019.html",
-      "source": "農林水産省",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-10-19 10:30",
-      "published_ts": 1792373400.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "1819eabfab33",
-      "title": "国際セミナー「植物品種保護が切り拓く農業の未来」開催",
-      "url": "https://www.maff.go.jp/j/press/yusyutu_kokusai/chizai/261019.html",
-      "source": "農林水産省",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-10-19 10:30",
-      "published_ts": 1792373400.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "02471fd036eb",
-      "title": "令和８年労働安全衛生調査（実態調査）にご協力をお願いします",
-      "url": "https://www.mhlw.go.jp/toukei/oshirase/261014.html",
-      "source": "厚生労働省",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-10-19 10:00",
-      "published_ts": 1792371600.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "a008580c1859",
-      "title": "公益事業に関する争議行為の予告公表ページについて更新されました",
-      "url": "https://www.mhlw.go.jp/seisakunitsuite/bunya/koyou_roudou/roudouseisaku/sougikoui/index.html",
-      "source": "厚生労働省",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-10-19 10:00",
-      "published_ts": 1792371600.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "1c212090908d",
-      "title": "自動車運転手の募集について（大臣官房会計課）",
-      "url": "https://www.mof.go.jp/about_mof/recruit/mof/20261014095627.html",
-      "source": "財務省",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-10-19 10:00",
-      "published_ts": 1792371600.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "08ed576c3be3",
-      "title": "国債金利情報(令和8年10月16日)",
-      "url": "https://www.mof.go.jp/jgbs/reference/interest_rate/jgbcm.csv",
-      "source": "財務省",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-10-19 09:30",
-      "published_ts": 1792369800.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "c792e16342f2",
-      "title": "採用情報（期間業務職員（政策統括官（総合政策、労使関係担当））募集情報）",
-      "url": "https://www.mhlw.go.jp/stf/kouseiroudoushou/saiyou/hijoukin/hj-kenkou_seikatueiseikyoku01_00005.html",
-      "source": "厚生労働省",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-10-19 09:00",
-      "published_ts": 1792368000.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "7d7d5eff1966",
-      "title": "少年鑑別所視察委員会の活動状況について（令和７年度）",
-      "url": "http://www.moj.go.jp/kyousei1/kyousei08_00208.html",
-      "source": "法務省",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-10-19 09:00",
-      "published_ts": 1792368000.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "3媒体が報道",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "medium",
-      "news_novelty_label": "続報",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [
-        {
-          "title": "少年院視察委員会の活動状況について（令和７年度）",
-          "url": "http://www.moj.go.jp/kyousei1/_00008.html",
-          "source": "法務省"
-        },
-        {
-          "title": "刑事施設視察委員会の活動状況について（令和７年度）",
-          "url": "http://www.moj.go.jp/kyousei1/kyousei08_00207.html",
-          "source": "法務省"
-        }
-      ],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "8c46a776d8cd",
-      "title": "ドル円158円台のもみ合い続く、米長期金利と日米金融政策が焦点",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE85OG1pWGZHdFkxMzUwVC1sNWNBWWdKS3dhRl9oUlp2V2tJRm83ckdBUElKeFUzc0J1VzBMVFVLZWgtUUFncXlFUUF2em0tRzJ6RTJkYWFtWVpKSnJlQ015RjJFNmFHdEtTcVZZeVVHQThPbVR5?oc=5",
-      "source": "BigGo ファイナンス",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-10-19 08:05",
-      "published_ts": 1792364700.0,
-      "category": "policy",
-      "category_label": "金融政策・金利",
-      "category_emoji": "🏦",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "8778c9af3372",
-      "title": "ドル／円は株・金利にらみ、レンジ突破は困難か＝今週の外為市場",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QcnpyRjNNN2FUNGlObE81ZU1jVWxtV3hacDB4V1NhbTBnTEJOcmF2TmNPaEJmTVBaZWc0YnpYbmhaVlB1YkF6UERzblpHa2Z6YkM5czJhZ0xFT3BlUDhVbXZHbFp6VlFvOW9mRTNOUDIxUUZoNlFVai1DcWt5dw?oc=5",
-      "source": "Reuters",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-10-19 07:36",
-      "published_ts": 1792362969.0,
-      "category": "fx",
-      "category_label": "為替",
-      "category_emoji": "💱",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "ee3cfa049263",
-      "title": "米財務次官 日本はもはやデフレではない、円相場の安定は重要",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0yanNDdzlVQ2RWcURzYkcyREVtTVVjX3ZGbnc0LTQxWDBFYUxTT1dkN2dkV0JZalNyYkx4SzdTbEtaNVhhbWhXYg?oc=5",
-      "source": "みんかぶ FX/為替",
-      "source_tier": "commentary",
-      "source_tier_label": "市場解説",
-      "published_at": "2026-10-19 07:01",
-      "published_ts": 1792360889.0,
-      "category": "fx",
-      "category_label": "為替",
-      "category_emoji": "💱",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "4fb46e98eb6b",
-      "title": "FX・為替相場の注目指標や予想を解説 - 10月19日(月)■『米国の長期金利の動向(米国債利回りの動向)』と『米国のインフレへの懸念』、そして『来週に日本と米国の金融政策の発表を控える点』に注目！",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE43UjlKWkpwcW9HRlZOdG1VZ0lMaXg4Zl9EZk15N09BdXNjWGY0QWxPdUNtYXJIcmdiYmlJREFfSnlsUVFVZkZsVUpoTjRRTXZnRkE?oc=5",
-      "source": "ザイFX！",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-10-19 07:00",
-      "published_ts": 1792360835.0,
-      "category": "policy",
-      "category_label": "金融政策・金利",
-      "category_emoji": "🏦",
-      "importance": 1,
-      "importance_reason": "重要語「インフレ」",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
     }
   ],
   "stock_ranking": [
@@ -6197,10 +6239,10 @@
       "code": "7203",
       "name": "トヨタ自動車",
       "sector": "自動車",
-      "positive": 1,
+      "positive": 2,
       "negative": 3,
       "watch": 1,
-      "score": -10,
+      "score": -8,
       "news": [
         {
           "title": "中華人民共和国（香港地域及びマカオ地域を除く。）若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板又はこれらの国若しくは地域から本邦に輸出されたニッケル系ステンレス冷延鋼帯・冷延鋼板に対して不当廉売関税を課することについての答申（令和8年10月19日）",
@@ -6217,113 +6259,14 @@
           "importance": 5
         },
         {
-          "title": "外為：NZドル、89円40銭前後とNZドル安・円高で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWkIxRm5pNGduRjdjMjlKVkFLNHN4N0t0c20tc0hBNzc2WHpkaWtUcEJUZW5PMWMwRkJqb3NiOVFFVmNQbHlTaVNzSFpqWGJoejZkNnppNm5jZWMwU3Nwak1ZbVdqUktmS3czd2U3NDBYZTNFejJzcVVvZFdlSGVzMGpKX3VBZEE?oc=5",
-          "direction": "negative",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "title": "米国株、S&P500とナスダックが寄り付きで上昇 AI関連株が反発、ダウは小幅安",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1weVk1SXgwbUNfQ1BmSS1fZEVfVmgwWFpGR01mU21tWF91aHoxd0k3eGU2R3psZS1LLXNEUm4zVzd0SC0yb1hteFNLaF9pRFRDd2JnRnNKZ2pVODg4ZHdtRDZwVVNEMW9lQXhxczEwZk9jZTVS?oc=5",
+          "direction": "positive",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "importance": 2
         }
       ],
-      "mentions": 5
-    },
-    {
-      "code": "7267",
-      "name": "本田技研工業",
-      "sector": "自動車",
-      "positive": 1,
-      "negative": 3,
-      "watch": 0,
-      "score": -10,
-      "news": [
-        {
-          "title": "中華人民共和国（香港地域及びマカオ地域を除く。）若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板又はこれらの国若しくは地域から本邦に輸出されたニッケル系ステンレス冷延鋼帯・冷延鋼板に対して不当廉売関税を課することについての答申（令和8年10月19日）",
-          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261019_toushin.html",
-          "direction": "negative",
-          "reason": "「関税」に反応: 対米輸出比率が高く、関税引き上げは採算悪化・価格転嫁の負担につながりやすい",
-          "importance": 5
-        },
-        {
-          "title": "関税・外国為替等審議会　関税分科会　特殊関税部会 （令和８年10月19日開催）配付資料",
-          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/kanb20261019.html",
-          "direction": "negative",
-          "reason": "「関税」に反応: 対米輸出比率が高く、関税引き上げは採算悪化・価格転嫁の負担につながりやすい",
-          "importance": 5
-        },
-        {
-          "title": "外為：NZドル、89円40銭前後とNZドル安・円高で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWkIxRm5pNGduRjdjMjlKVkFLNHN4N0t0c20tc0hBNzc2WHpkaWtUcEJUZW5PMWMwRkJqb3NiOVFFVmNQbHlTaVNzSFpqWGJoejZkNnppNm5jZWMwU3Nwak1ZbVdqUktmS3czd2U3NDBYZTNFejJzcVVvZFdlSGVzMGpKX3VBZEE?oc=5",
-          "direction": "negative",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "importance": 2
-        }
-      ],
-      "mentions": 4
-    },
-    {
-      "code": "7201",
-      "name": "日産自動車",
-      "sector": "自動車",
-      "positive": 1,
-      "negative": 3,
-      "watch": 0,
-      "score": -10,
-      "news": [
-        {
-          "title": "中華人民共和国（香港地域及びマカオ地域を除く。）若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板又はこれらの国若しくは地域から本邦に輸出されたニッケル系ステンレス冷延鋼帯・冷延鋼板に対して不当廉売関税を課することについての答申（令和8年10月19日）",
-          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261019_toushin.html",
-          "direction": "negative",
-          "reason": "「関税」に反応: 対米輸出比率が高く、関税引き上げは採算悪化・価格転嫁の負担につながりやすい",
-          "importance": 5
-        },
-        {
-          "title": "関税・外国為替等審議会　関税分科会　特殊関税部会 （令和８年10月19日開催）配付資料",
-          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/kanb20261019.html",
-          "direction": "negative",
-          "reason": "「関税」に反応: 対米輸出比率が高く、関税引き上げは採算悪化・価格転嫁の負担につながりやすい",
-          "importance": 5
-        },
-        {
-          "title": "外為：NZドル、89円40銭前後とNZドル安・円高で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWkIxRm5pNGduRjdjMjlKVkFLNHN4N0t0c20tc0hBNzc2WHpkaWtUcEJUZW5PMWMwRkJqb3NiOVFFVmNQbHlTaVNzSFpqWGJoejZkNnppNm5jZWMwU3Nwak1ZbVdqUktmS3czd2U3NDBYZTNFejJzcVVvZFdlSGVzMGpKX3VBZEE?oc=5",
-          "direction": "negative",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "importance": 2
-        }
-      ],
-      "mentions": 4
-    },
-    {
-      "code": "7269",
-      "name": "スズキ",
-      "sector": "自動車",
-      "positive": 1,
-      "negative": 3,
-      "watch": 0,
-      "score": -10,
-      "news": [
-        {
-          "title": "中華人民共和国（香港地域及びマカオ地域を除く。）若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板又はこれらの国若しくは地域から本邦に輸出されたニッケル系ステンレス冷延鋼帯・冷延鋼板に対して不当廉売関税を課することについての答申（令和8年10月19日）",
-          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261019_toushin.html",
-          "direction": "negative",
-          "reason": "「関税」に反応: 対米輸出比率が高く、関税引き上げは採算悪化・価格転嫁の負担につながりやすい",
-          "importance": 5
-        },
-        {
-          "title": "関税・外国為替等審議会　関税分科会　特殊関税部会 （令和８年10月19日開催）配付資料",
-          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/kanb20261019.html",
-          "direction": "negative",
-          "reason": "「関税」に反応: 対米輸出比率が高く、関税引き上げは採算悪化・価格転嫁の負担につながりやすい",
-          "importance": 5
-        },
-        {
-          "title": "外為：NZドル、89円40銭前後とNZドル安・円高で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWkIxRm5pNGduRjdjMjlKVkFLNHN4N0t0c20tc0hBNzc2WHpkaWtUcEJUZW5PMWMwRkJqb3NiOVFFVmNQbHlTaVNzSFpqWGJoejZkNnppNm5jZWMwU3Nwak1ZbVdqUktmS3czd2U3NDBYZTNFejJzcVVvZFdlSGVzMGpKX3VBZEE?oc=5",
-          "direction": "negative",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "importance": 2
-        }
-      ],
-      "mentions": 4
+      "mentions": 6
     },
     {
       "code": "6503",
@@ -6349,24 +6292,31 @@
           "importance": 4
         },
         {
-          "title": "米国で相次ぐ原発の「出力増強」、AIの電力需要を賄えるか？",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQS0FVVWVwQjNfT09NUFpkQnNVcjA3UDV2ZDY0eGVaVTFFSU14WjFwU1F2RF95emQ2cVRfZlYyUU1jYUttMi1iVXlKUDc2enUxMkdnLW9ya1BGU19CREF1MXZneHFGVVVYMnAxc3RVSkxnX2dqd0hiRVFZdU0xdXdDanBDQ2UxOTZpV2J0emZB?oc=5",
+          "title": "令和８年度自衛隊殉職隊員追悼式",
+          "url": "/j/press/news/2026/10/16d.html",
           "direction": "positive",
-          "reason": "「電力需要」に反応: 電力需要の拡大が収益機会として意識されやすい",
+          "reason": "「自衛隊」に反応: 防衛関連の受注拡大観測が直接の材料になりやすい",
           "importance": 2
         }
       ],
       "mentions": 4
     },
     {
-      "code": "7270",
-      "name": "SUBARU",
+      "code": "7267",
+      "name": "本田技研工業",
       "sector": "自動車",
       "positive": 1,
       "negative": 2,
       "watch": 0,
-      "score": -5,
+      "score": -8,
       "news": [
+        {
+          "title": "中華人民共和国（香港地域及びマカオ地域を除く。）若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板又はこれらの国若しくは地域から本邦に輸出されたニッケル系ステンレス冷延鋼帯・冷延鋼板に対して不当廉売関税を課することについての答申（令和8年10月19日）",
+          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261019_toushin.html",
+          "direction": "negative",
+          "reason": "「関税」に反応: 対米輸出比率が高く、関税引き上げは採算悪化・価格転嫁の負担につながりやすい",
+          "importance": 5
+        },
         {
           "title": "関税・外国為替等審議会　関税分科会　特殊関税部会 （令和８年10月19日開催）配付資料",
           "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/kanb20261019.html",
@@ -6375,11 +6325,70 @@
           "importance": 5
         },
         {
-          "title": "外為：NZドル、89円40銭前後とNZドル安・円高で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWkIxRm5pNGduRjdjMjlKVkFLNHN4N0t0c20tc0hBNzc2WHpkaWtUcEJUZW5PMWMwRkJqb3NiOVFFVmNQbHlTaVNzSFpqWGJoejZkNnppNm5jZWMwU3Nwak1ZbVdqUktmS3czd2U3NDBYZTNFejJzcVVvZFdlSGVzMGpKX3VBZEE?oc=5",
-          "direction": "negative",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "title": "外為：1ドル158円08銭前後と小幅なドル高・円安で推移(株探ニュース)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSFFzVVRZM1ZDZWtIU2pmazRQNWJLOHJqakp6c1V0VjBacDRjNXVTbWtKbEYxYmI5d28zYzhKTmp1VmxSVGUtSF9JTERQS2ZMM3F6clZfb0E4bkMtQTdzTUdhZ1B1TGVxQWlLRkdBc25TM2tQclVXV0szd254aDI3akxaZGVGcm8?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
           "importance": 2
+        }
+      ],
+      "mentions": 3
+    },
+    {
+      "code": "7201",
+      "name": "日産自動車",
+      "sector": "自動車",
+      "positive": 1,
+      "negative": 2,
+      "watch": 0,
+      "score": -8,
+      "news": [
+        {
+          "title": "中華人民共和国（香港地域及びマカオ地域を除く。）若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板又はこれらの国若しくは地域から本邦に輸出されたニッケル系ステンレス冷延鋼帯・冷延鋼板に対して不当廉売関税を課することについての答申（令和8年10月19日）",
+          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261019_toushin.html",
+          "direction": "negative",
+          "reason": "「関税」に反応: 対米輸出比率が高く、関税引き上げは採算悪化・価格転嫁の負担につながりやすい",
+          "importance": 5
+        },
+        {
+          "title": "関税・外国為替等審議会　関税分科会　特殊関税部会 （令和８年10月19日開催）配付資料",
+          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/kanb20261019.html",
+          "direction": "negative",
+          "reason": "「関税」に反応: 対米輸出比率が高く、関税引き上げは採算悪化・価格転嫁の負担につながりやすい",
+          "importance": 5
+        },
+        {
+          "title": "外為：1ドル158円08銭前後と小幅なドル高・円安で推移(株探ニュース)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSFFzVVRZM1ZDZWtIU2pmazRQNWJLOHJqakp6c1V0VjBacDRjNXVTbWtKbEYxYmI5d28zYzhKTmp1VmxSVGUtSF9JTERQS2ZMM3F6clZfb0E4bkMtQTdzTUdhZ1B1TGVxQWlLRkdBc25TM2tQclVXV0szd254aDI3akxaZGVGcm8?oc=5",
+          "direction": "positive",
+          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 3
+    },
+    {
+      "code": "7269",
+      "name": "スズキ",
+      "sector": "自動車",
+      "positive": 1,
+      "negative": 2,
+      "watch": 0,
+      "score": -8,
+      "news": [
+        {
+          "title": "中華人民共和国（香港地域及びマカオ地域を除く。）若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板又はこれらの国若しくは地域から本邦に輸出されたニッケル系ステンレス冷延鋼帯・冷延鋼板に対して不当廉売関税を課することについての答申（令和8年10月19日）",
+          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261019_toushin.html",
+          "direction": "negative",
+          "reason": "「関税」に反応: 対米輸出比率が高く、関税引き上げは採算悪化・価格転嫁の負担につながりやすい",
+          "importance": 5
+        },
+        {
+          "title": "関税・外国為替等審議会　関税分科会　特殊関税部会 （令和８年10月19日開催）配付資料",
+          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/kanb20261019.html",
+          "direction": "negative",
+          "reason": "「関税」に反応: 対米輸出比率が高く、関税引き上げは採算悪化・価格転嫁の負担につながりやすい",
+          "importance": 5
         },
         {
           "title": "外為：1ドル158円08銭前後と小幅なドル高・円安で推移(株探ニュース)",
@@ -6415,8 +6424,8 @@
           "importance": 4
         },
         {
-          "title": "高市総理は令和８年度自衛隊殉職隊員追悼式に参列しました",
-          "url": "https://www.kantei.go.jp/jp/105/actions/202610/17tsuitoushiki.html",
+          "title": "令和８年度自衛隊殉職隊員追悼式",
+          "url": "/j/press/news/2026/10/16d.html",
           "direction": "positive",
           "reason": "「自衛隊」に反応: 防衛関連の受注拡大観測が直接の材料になりやすい",
           "importance": 2
@@ -6448,8 +6457,8 @@
           "importance": 5
         },
         {
-          "title": "高市総理は令和８年度自衛隊殉職隊員追悼式に参列しました",
-          "url": "https://www.kantei.go.jp/jp/105/actions/202610/17tsuitoushiki.html",
+          "title": "令和８年度自衛隊殉職隊員追悼式",
+          "url": "/j/press/news/2026/10/16d.html",
           "direction": "positive",
           "reason": "「自衛隊」に反応: 防衛関連の受注拡大観測が直接の材料になりやすい",
           "importance": 2
@@ -6458,20 +6467,152 @@
       "mentions": 3
     },
     {
-      "code": "7261",
-      "name": "マツダ",
+      "code": "8604",
+      "name": "野村ホールディングス",
+      "sector": "証券",
+      "positive": 1,
+      "negative": 1,
+      "watch": 1,
+      "score": 0,
+      "news": [
+        {
+          "title": "米国株、S&P500とナスダックが寄り付きで上昇 AI関連株が反発、ダウは小幅安",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1weVk1SXgwbUNfQ1BmSS1fZEVfVmgwWFpGR01mU21tWF91aHoxd0k3eGU2R3psZS1LLXNEUm4zVzd0SC0yb1hteFNLaF9pRFRDd2JnRnNKZ2pVODg4ZHdtRDZwVVNEMW9lQXhxczEwZk9jZTVS?oc=5",
+          "direction": "positive",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
+        },
+        {
+          "title": "ダウ先物は下落もナスダック１００は大幅反発 ＩＴ・ハイテク株に買い戻し＝米国株",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85V3djU3B4c3pGX0FPWEc1Z0xlS2hMYkZYTWRnRlgzU0lSR1IxeU04UXR0V1VUcXBwLU1RVW1PdjdhODUwY0NXWDlhZXg0cFQxM1E?oc=5",
+          "direction": "negative",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
+        },
+        {
+          "title": "米国株式市場、ＮＹダウ、ナスダック反落(ウエルスアドバイザー)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOanhBNTlqQTA0ckFENFVVQ2pMUzRYbmRmMnBRVjRyYnU5WFdiLVh2ZDZ5amM3U3BLOS1aYWFhcGpKc29Ca0N5d0Flb1h0bTJ2TVBCOW1sdXh4WTBORUNVVGVkUUJSV0psY3pfWHJJeDBiM0dJdjVfWmRYZ3ZNbE1sSVBDR0ZGQTQ?oc=5",
+          "direction": "watch",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 3
+    },
+    {
+      "code": "8601",
+      "name": "大和証券グループ本社",
+      "sector": "証券",
+      "positive": 1,
+      "negative": 1,
+      "watch": 1,
+      "score": 0,
+      "news": [
+        {
+          "title": "米国株、S&P500とナスダックが寄り付きで上昇 AI関連株が反発、ダウは小幅安",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1weVk1SXgwbUNfQ1BmSS1fZEVfVmgwWFpGR01mU21tWF91aHoxd0k3eGU2R3psZS1LLXNEUm4zVzd0SC0yb1hteFNLaF9pRFRDd2JnRnNKZ2pVODg4ZHdtRDZwVVNEMW9lQXhxczEwZk9jZTVS?oc=5",
+          "direction": "positive",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
+        },
+        {
+          "title": "ダウ先物は下落もナスダック１００は大幅反発 ＩＴ・ハイテク株に買い戻し＝米国株",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85V3djU3B4c3pGX0FPWEc1Z0xlS2hMYkZYTWRnRlgzU0lSR1IxeU04UXR0V1VUcXBwLU1RVW1PdjdhODUwY0NXWDlhZXg0cFQxM1E?oc=5",
+          "direction": "negative",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
+        },
+        {
+          "title": "米国株式市場、ＮＹダウ、ナスダック反落(ウエルスアドバイザー)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOanhBNTlqQTA0ckFENFVVQ2pMUzRYbmRmMnBRVjRyYnU5WFdiLVh2ZDZ5amM3U3BLOS1aYWFhcGpKc29Ca0N5d0Flb1h0bTJ2TVBCOW1sdXh4WTBORUNVVGVkUUJSV0psY3pfWHJJeDBiM0dJdjVfWmRYZ3ZNbE1sSVBDR0ZGQTQ?oc=5",
+          "direction": "watch",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 3
+    },
+    {
+      "code": "8473",
+      "name": "SBIホールディングス",
+      "sector": "証券",
+      "positive": 1,
+      "negative": 1,
+      "watch": 1,
+      "score": 0,
+      "news": [
+        {
+          "title": "米国株、S&P500とナスダックが寄り付きで上昇 AI関連株が反発、ダウは小幅安",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1weVk1SXgwbUNfQ1BmSS1fZEVfVmgwWFpGR01mU21tWF91aHoxd0k3eGU2R3psZS1LLXNEUm4zVzd0SC0yb1hteFNLaF9pRFRDd2JnRnNKZ2pVODg4ZHdtRDZwVVNEMW9lQXhxczEwZk9jZTVS?oc=5",
+          "direction": "positive",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
+        },
+        {
+          "title": "ダウ先物は下落もナスダック１００は大幅反発 ＩＴ・ハイテク株に買い戻し＝米国株",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85V3djU3B4c3pGX0FPWEc1Z0xlS2hMYkZYTWRnRlgzU0lSR1IxeU04UXR0V1VUcXBwLU1RVW1PdjdhODUwY0NXWDlhZXg0cFQxM1E?oc=5",
+          "direction": "negative",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
+        },
+        {
+          "title": "米国株式市場、ＮＹダウ、ナスダック反落(ウエルスアドバイザー)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOanhBNTlqQTA0ckFENFVVQ2pMUzRYbmRmMnBRVjRyYnU5WFdiLVh2ZDZ5amM3U3BLOS1aYWFhcGpKc29Ca0N5d0Flb1h0bTJ2TVBCOW1sdXh4WTBORUNVVGVkUUJSV0psY3pfWHJJeDBiM0dJdjVfWmRYZ3ZNbE1sSVBDR0ZGQTQ?oc=5",
+          "direction": "watch",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 3
+    },
+    {
+      "code": "9984",
+      "name": "ソフトバンクグループ",
+      "sector": "情報・通信",
+      "positive": 1,
+      "negative": 1,
+      "watch": 1,
+      "score": 0,
+      "news": [
+        {
+          "title": "米国株、S&P500とナスダックが寄り付きで上昇 AI関連株が反発、ダウは小幅安",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1weVk1SXgwbUNfQ1BmSS1fZEVfVmgwWFpGR01mU21tWF91aHoxd0k3eGU2R3psZS1LLXNEUm4zVzd0SC0yb1hteFNLaF9pRFRDd2JnRnNKZ2pVODg4ZHdtRDZwVVNEMW9lQXhxczEwZk9jZTVS?oc=5",
+          "direction": "positive",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
+        },
+        {
+          "title": "ダウ先物は下落もナスダック１００は大幅反発 ＩＴ・ハイテク株に買い戻し＝米国株",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85V3djU3B4c3pGX0FPWEc1Z0xlS2hMYkZYTWRnRlgzU0lSR1IxeU04UXR0V1VUcXBwLU1RVW1PdjdhODUwY0NXWDlhZXg0cFQxM1E?oc=5",
+          "direction": "negative",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
+        },
+        {
+          "title": "米国株式市場、ＮＹダウ、ナスダック反落(ウエルスアドバイザー)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOanhBNTlqQTA0ckFENFVVQ2pMUzRYbmRmMnBRVjRyYnU5WFdiLVh2ZDZ5amM3U3BLOS1aYWFhcGpKc29Ca0N5d0Flb1h0bTJ2TVBCOW1sdXh4WTBORUNVVGVkUUJSV0psY3pfWHJJeDBiM0dJdjVfWmRYZ3ZNbE1sSVBDR0ZGQTQ?oc=5",
+          "direction": "watch",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 3
+    },
+    {
+      "code": "7270",
+      "name": "SUBARU",
       "sector": "自動車",
       "positive": 1,
       "negative": 1,
       "watch": 0,
-      "score": 0,
+      "score": -3,
       "news": [
         {
-          "title": "外為：NZドル、89円40銭前後とNZドル安・円高で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWkIxRm5pNGduRjdjMjlKVkFLNHN4N0t0c20tc0hBNzc2WHpkaWtUcEJUZW5PMWMwRkJqb3NiOVFFVmNQbHlTaVNzSFpqWGJoejZkNnppNm5jZWMwU3Nwak1ZbVdqUktmS3czd2U3NDBYZTNFejJzcVVvZFdlSGVzMGpKX3VBZEE?oc=5",
+          "title": "関税・外国為替等審議会　関税分科会　特殊関税部会 （令和８年10月19日開催）配付資料",
+          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/kanb20261019.html",
           "direction": "negative",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
-          "importance": 2
+          "reason": "「関税」に反応: 対米輸出比率が高く、関税引き上げは採算悪化・価格転嫁の負担につながりやすい",
+          "importance": 5
         },
         {
           "title": "外為：1ドル158円08銭前後と小幅なドル高・円安で推移(株探ニュース)",
@@ -6634,66 +6775,1278 @@
         }
       ],
       "mentions": 1
-    },
-    {
-      "code": "1540",
-      "name": "純金上場信託(現物国内保管型)",
-      "sector": "ETF",
-      "positive": 1,
-      "negative": 0,
-      "watch": 0,
-      "score": 5,
-      "news": [
-        {
-          "title": "中華人民共和国（香港地域及びマカオ地域を除く。）若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板又はこれらの国若しくは地域から本邦に輸出されたニッケル系ステンレス冷延鋼帯・冷延鋼板に対して不当廉売関税を課することについての答申（令和8年10月19日）",
-          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261019_toushin.html",
-          "direction": "positive",
-          "reason": "「台湾」に反応: 直接の影響とは別角度: コロナ禍のような過去の有事でも見られたように、地政学リスクの高まりは株式とは別に金など安全資産に資金が向かいやすい(質への逃避)",
-          "importance": 5
-        }
-      ],
-      "mentions": 1
-    },
-    {
-      "code": "5401",
-      "name": "日本製鉄",
-      "sector": "鉄鋼",
-      "positive": 0,
-      "negative": 1,
-      "watch": 0,
-      "score": -5,
-      "news": [
-        {
-          "title": "関税・外国為替等審議会　関税分科会　特殊関税部会 （令和８年10月19日開催）配付資料",
-          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/kanb20261019.html",
-          "direction": "negative",
-          "reason": "「関税」に反応: 貿易量の減少・コスト増が業績の重しになりやすい",
-          "importance": 5
-        }
-      ],
-      "mentions": 1
-    },
-    {
-      "code": "5411",
-      "name": "JFEホールディングス",
-      "sector": "鉄鋼",
-      "positive": 0,
-      "negative": 1,
-      "watch": 0,
-      "score": -5,
-      "news": [
-        {
-          "title": "関税・外国為替等審議会　関税分科会　特殊関税部会 （令和８年10月19日開催）配付資料",
-          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/kanb20261019.html",
-          "direction": "negative",
-          "reason": "「関税」に反応: 貿易量の減少・コスト増が業績の重しになりやすい",
-          "importance": 5
-        }
-      ],
-      "mentions": 1
     }
   ],
   "clusters": [
+    {
+      "connection_type": "theme",
+      "connection_label": "同じテーマ",
+      "theme_id": "us_stock_move",
+      "label": "米国株・ハイテク株の変動",
+      "category": "us",
+      "category_label": "米国市場",
+      "category_emoji": "🇺🇸",
+      "member_ids": [
+        "865344afeb55",
+        "f37da56d09a9",
+        "5a7f44a087ad"
+      ],
+      "members": [
+        {
+          "id": "865344afeb55",
+          "title": "米国株、S&P500とナスダックが寄り付きで上昇 AI関連株が反発、ダウは小幅安",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1weVk1SXgwbUNfQ1BmSS1fZEVfVmgwWFpGR01mU21tWF91aHoxd0k3eGU2R3psZS1LLXNEUm4zVzd0SC0yb1hteFNLaF9pRFRDd2JnRnNKZ2pVODg4ZHdtRDZwVVNEMW9lQXhxczEwZk9jZTVS?oc=5",
+          "importance": 2,
+          "source": "BigGo ファイナンス"
+        },
+        {
+          "id": "f37da56d09a9",
+          "title": "ダウ先物は下落もナスダック１００は大幅反発 ＩＴ・ハイテク株に買い戻し＝米国株",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85V3djU3B4c3pGX0FPWEc1Z0xlS2hMYkZYTWRnRlgzU0lSR1IxeU04UXR0V1VUcXBwLU1RVW1PdjdhODUwY0NXWDlhZXg0cFQxM1E?oc=5",
+          "importance": 2,
+          "source": "株探"
+        },
+        {
+          "id": "5a7f44a087ad",
+          "title": "米国株式市場、ＮＹダウ、ナスダック反落(ウエルスアドバイザー)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOanhBNTlqQTA0ckFENFVVQ2pMUzRYbmRmMnBRVjRyYnU5WFdiLVh2ZDZ5amM3U3BLOS1aYWFhcGpKc29Ca0N5d0Flb1h0bTJ2TVBCOW1sdXh4WTBORUNVVGVkUUJSV0psY3pfWHJJeDBiM0dJdjVfWmRYZ3ZNbE1sSVBDR0ZGQTQ?oc=5",
+          "importance": 2,
+          "source": "Yahoo!ファイナンス"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "8604",
+          "name": "野村ホールディングス",
+          "positive": 1,
+          "negative": 1,
+          "watch": 1
+        },
+        {
+          "code": "8601",
+          "name": "大和証券グループ本社",
+          "positive": 1,
+          "negative": 1,
+          "watch": 1
+        },
+        {
+          "code": "8473",
+          "name": "SBIホールディングス",
+          "positive": 1,
+          "negative": 1,
+          "watch": 1
+        },
+        {
+          "code": "9984",
+          "name": "ソフトバンクグループ",
+          "positive": 1,
+          "negative": 1,
+          "watch": 1
+        },
+        {
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "positive": 1,
+          "negative": 1,
+          "watch": 1
+        }
+      ],
+      "max_importance": 2,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [
+        "海外の動き",
+        "複数媒体での同時報道"
+      ],
+      "emergence_event_count": 97,
+      "emergence_source_count": 18,
+      "emergence_actor_type_count": 1,
+      "emergence_actor_type_labels": [
+        "複数メディア"
+      ],
+      "emergence_actor_type_breakdown": [
+        {
+          "label": "複数メディア",
+          "count": 34
+        }
+      ],
+      "emergence_region_count": 2,
+      "emergence_regions": [
+        "中国",
+        "米国"
+      ],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": "2026-09-20",
+      "emergence_window_counts": {
+        "7": 27,
+        "30": 97,
+        "90": 97
+      },
+      "emergence_timeline": [
+        {
+          "date": "2026-09-21",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-21",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-22",
+          "source": "日本経済新聞",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-22",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-22",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-23",
+          "source": "BigGo ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-23",
+          "source": "BigGo ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-23",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-23",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-23",
+          "source": "TradingKey",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-23",
+          "source": "Reuters",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-23",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-25",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-25",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-25",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-27",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-28",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-29",
+          "source": "tradingview.com",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-29",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-29",
+          "source": "chiba-tv.com",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-30",
+          "source": "日本経済新聞",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-30",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-01",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-01",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-01",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-01",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-01",
+          "source": "Reuters",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-01",
+          "source": "BigGo ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "中国",
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-01",
+          "source": "Infoseek",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-02",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-02",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-02",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-02",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-03",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-03",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-03",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-03",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-05",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-05",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-06",
+          "source": "nikkei.com",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-06",
+          "source": "マネクリ",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-06",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-06",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-07",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-07",
+          "source": "Reuters",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-07",
+          "source": "千葉テレビ放送株式会社",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-07",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-07",
+          "source": "Business Insider Japan",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-07",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-08",
+          "source": "BigGo ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "source": "マネーフォワード",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "source": "Moomoo",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "source": "日本経済新聞",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-11",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-13",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-13",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-13",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-13",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-13",
+          "source": "Vietnam.vn",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "source": "Reuters",
+          "signal_labels": [
+            "海外の動き",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "source": "株探",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "source": "株探",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "source": "日本経済新聞",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-17",
+          "source": "日本経済新聞",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-17",
+          "source": "TradingView",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-17",
+          "source": "Vietnam.vn",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-17",
+          "source": "Moomoo",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-19",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-19",
+          "source": "BigGo ファイナンス",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-19",
+          "source": "株探",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "米国"
+          ]
+        }
+      ],
+      "emergence_milestones": [
+        {
+          "date": "2026-09-23",
+          "actor_type_label": "複数メディア"
+        }
+      ],
+      "emergence_diagnosis": {
+        "target_stage": "watch",
+        "target_stage_label": "👀 要監視テーマ",
+        "source_count": 18,
+        "required_sources": 2,
+        "signal_count": 2,
+        "required_signals": 3,
+        "missing": [
+          "シグナル種別があと1種類必要"
+        ]
+      },
+      "emergence_growth": {
+        "window_days": 14,
+        "recent_new_actor_types": 0,
+        "total_actor_types": 1
+      }
+    },
     {
       "connection_type": "theme",
       "connection_label": "同じテーマ",
@@ -6917,7 +8270,8 @@
       "member_ids": [
         "cfc8bb32c7fb",
         "786647924eb0",
-        "caa9f46eebce",
+        "865344afeb55",
+        "f37da56d09a9",
         "f4c76ba36389",
         "5a7f44a087ad"
       ],
@@ -6937,11 +8291,18 @@
           "source": "財務省"
         },
         {
-          "id": "caa9f46eebce",
-          "title": "外為：NZドル、89円40銭前後とNZドル安・円高で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWkIxRm5pNGduRjdjMjlKVkFLNHN4N0t0c20tc0hBNzc2WHpkaWtUcEJUZW5PMWMwRkJqb3NiOVFFVmNQbHlTaVNzSFpqWGJoejZkNnppNm5jZWMwU3Nwak1ZbVdqUktmS3czd2U3NDBYZTNFejJzcVVvZFdlSGVzMGpKX3VBZEE?oc=5",
+          "id": "865344afeb55",
+          "title": "米国株、S&P500とナスダックが寄り付きで上昇 AI関連株が反発、ダウは小幅安",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1weVk1SXgwbUNfQ1BmSS1fZEVfVmgwWFpGR01mU21tWF91aHoxd0k3eGU2R3psZS1LLXNEUm4zVzd0SC0yb1hteFNLaF9pRFRDd2JnRnNKZ2pVODg4ZHdtRDZwVVNEMW9lQXhxczEwZk9jZTVS?oc=5",
           "importance": 2,
-          "source": "Yahoo!ファイナンス"
+          "source": "BigGo ファイナンス"
+        },
+        {
+          "id": "f37da56d09a9",
+          "title": "ダウ先物は下落もナスダック１００は大幅反発 ＩＴ・ハイテク株に買い戻し＝米国株",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85V3djU3B4c3pGX0FPWEc1Z0xlS2hMYkZYTWRnRlgzU0lSR1IxeU04UXR0V1VUcXBwLU1RVW1PdjdhODUwY0NXWDlhZXg0cFQxM1E?oc=5",
+          "importance": 2,
+          "source": "株探"
         },
         {
           "id": "f4c76ba36389",
@@ -6962,9 +8323,81 @@
         {
           "code": "7203",
           "name": "トヨタ自動車",
-          "positive": 1,
+          "positive": 2,
           "negative": 3,
           "watch": 1
+        }
+      ],
+      "max_importance": 5,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "connection_type": "company",
+      "connection_label": "同じ企業",
+      "theme_id": null,
+      "label": "三菱電機に関するニュース",
+      "category": "",
+      "category_label": "同じ企業",
+      "category_emoji": "🏢",
+      "member_ids": [
+        "cfc8bb32c7fb",
+        "ff151b275f12",
+        "09de8d3b3712",
+        "97655556dd0d"
+      ],
+      "members": [
+        {
+          "id": "cfc8bb32c7fb",
+          "title": "中華人民共和国（香港地域及びマカオ地域を除く。）若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板又はこれらの国若しくは地域から本邦に輸出されたニッケル系ステンレス冷延鋼帯・冷延鋼板に対して不当廉売関税を課することについての答申（令和8年10月19日）",
+          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261019_toushin.html",
+          "importance": 5,
+          "source": "財務省"
+        },
+        {
+          "id": "ff151b275f12",
+          "title": "ポーランドで11月演習 ウクライナ停戦見据え 英仏独など（時事通信）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WV0VQY0pnYXVWdXhyclZzeDFSVUZwZnJHTEpSSUlqNEpPWWFiNFZDQzFjeFlfVV9FanRsZXhGYmtseW1TVGxJa3o3M2dyQ3A4MTJ5bEhjdTZRd2lsY2Y4YmJGMmhOUzZyY1NkTkxWSEhMRkp6cmxtTzNiT1pIQnc?oc=5",
+          "importance": 4,
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "id": "09de8d3b3712",
+          "title": "令和８年度自衛隊殉職隊員追悼式",
+          "url": "/j/press/news/2026/10/16d.html",
+          "importance": 2,
+          "source": "防衛省"
+        },
+        {
+          "id": "97655556dd0d",
+          "title": "米国で相次ぐ原発の「出力増強」、AIの電力需要を賄えるか？",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQS0FVVWVwQjNfT09NUFpkQnNVcjA3UDV2ZDY0eGVaVTFFSU14WjFwU1F2RF95emQ2cVRfZlYyUU1jYUttMi1iVXlKUDc2enUxMkdnLW9ya1BGU19CREF1MXZneHFGVVVYMnAxc3RVSkxnX2dqd0hiRVFZdU0xdXdDanBDQ2UxOTZpV2J0emZB?oc=5",
+          "importance": 2,
+          "source": "MITテクノロジーレビュー"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "6503",
+          "name": "三菱電機",
+          "positive": 3,
+          "negative": 1,
+          "watch": 0
         }
       ],
       "max_importance": 5,
@@ -6997,7 +8430,6 @@
       "member_ids": [
         "cfc8bb32c7fb",
         "786647924eb0",
-        "caa9f46eebce",
         "f4c76ba36389"
       ],
       "members": [
@@ -7016,13 +8448,6 @@
           "source": "財務省"
         },
         {
-          "id": "caa9f46eebce",
-          "title": "外為：NZドル、89円40銭前後とNZドル安・円高で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWkIxRm5pNGduRjdjMjlKVkFLNHN4N0t0c20tc0hBNzc2WHpkaWtUcEJUZW5PMWMwRkJqb3NiOVFFVmNQbHlTaVNzSFpqWGJoejZkNnppNm5jZWMwU3Nwak1ZbVdqUktmS3czd2U3NDBYZTNFejJzcVVvZFdlSGVzMGpKX3VBZEE?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ファイナンス"
-        },
-        {
           "id": "f4c76ba36389",
           "title": "外為：1ドル158円08銭前後と小幅なドル高・円安で推移(株探ニュース)",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSFFzVVRZM1ZDZWtIU2pmazRQNWJLOHJqakp6c1V0VjBacDRjNXVTbWtKbEYxYmI5d28zYzhKTmp1VmxSVGUtSF9JTERQS2ZMM3F6clZfb0E4bkMtQTdzTUdhZ1B1TGVxQWlLRkdBc25TM2tQclVXV0szd254aDI3akxaZGVGcm8?oc=5",
@@ -7035,7 +8460,7 @@
           "code": "7267",
           "name": "本田技研工業",
           "positive": 1,
-          "negative": 3,
+          "negative": 2,
           "watch": 0
         }
       ],
@@ -7069,7 +8494,6 @@
       "member_ids": [
         "cfc8bb32c7fb",
         "786647924eb0",
-        "caa9f46eebce",
         "f4c76ba36389"
       ],
       "members": [
@@ -7086,13 +8510,6 @@
           "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/kanb20261019.html",
           "importance": 5,
           "source": "財務省"
-        },
-        {
-          "id": "caa9f46eebce",
-          "title": "外為：NZドル、89円40銭前後とNZドル安・円高で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWkIxRm5pNGduRjdjMjlKVkFLNHN4N0t0c20tc0hBNzc2WHpkaWtUcEJUZW5PMWMwRkJqb3NiOVFFVmNQbHlTaVNzSFpqWGJoejZkNnppNm5jZWMwU3Nwak1ZbVdqUktmS3czd2U3NDBYZTNFejJzcVVvZFdlSGVzMGpKX3VBZEE?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ファイナンス"
         },
         {
           "id": "f4c76ba36389",
@@ -7107,79 +8524,7 @@
           "code": "7201",
           "name": "日産自動車",
           "positive": 1,
-          "negative": 3,
-          "watch": 0
-        }
-      ],
-      "max_importance": 5,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "connection_type": "company",
-      "connection_label": "同じ企業",
-      "theme_id": null,
-      "label": "スズキに関するニュース",
-      "category": "",
-      "category_label": "同じ企業",
-      "category_emoji": "🏢",
-      "member_ids": [
-        "cfc8bb32c7fb",
-        "786647924eb0",
-        "caa9f46eebce",
-        "f4c76ba36389"
-      ],
-      "members": [
-        {
-          "id": "cfc8bb32c7fb",
-          "title": "中華人民共和国（香港地域及びマカオ地域を除く。）若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板又はこれらの国若しくは地域から本邦に輸出されたニッケル系ステンレス冷延鋼帯・冷延鋼板に対して不当廉売関税を課することについての答申（令和8年10月19日）",
-          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261019_toushin.html",
-          "importance": 5,
-          "source": "財務省"
-        },
-        {
-          "id": "786647924eb0",
-          "title": "関税・外国為替等審議会　関税分科会　特殊関税部会 （令和８年10月19日開催）配付資料",
-          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/kanb20261019.html",
-          "importance": 5,
-          "source": "財務省"
-        },
-        {
-          "id": "caa9f46eebce",
-          "title": "外為：NZドル、89円40銭前後とNZドル安・円高で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWkIxRm5pNGduRjdjMjlKVkFLNHN4N0t0c20tc0hBNzc2WHpkaWtUcEJUZW5PMWMwRkJqb3NiOVFFVmNQbHlTaVNzSFpqWGJoejZkNnppNm5jZWMwU3Nwak1ZbVdqUktmS3czd2U3NDBYZTNFejJzcVVvZFdlSGVzMGpKX3VBZEE?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ファイナンス"
-        },
-        {
-          "id": "f4c76ba36389",
-          "title": "外為：1ドル158円08銭前後と小幅なドル高・円安で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSFFzVVRZM1ZDZWtIU2pmazRQNWJLOHJqakp6c1V0VjBacDRjNXVTbWtKbEYxYmI5d28zYzhKTmp1VmxSVGUtSF9JTERQS2ZMM3F6clZfb0E4bkMtQTdzTUdhZ1B1TGVxQWlLRkdBc25TM2tQclVXV0szd254aDI3akxaZGVGcm8?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ファイナンス"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "7269",
-          "name": "スズキ",
-          "positive": 1,
-          "negative": 3,
+          "negative": 2,
           "watch": 0
         }
       ],
@@ -7213,7 +8558,8 @@
       "member_ids": [
         "cfc8bb32c7fb",
         "786647924eb0",
-        "caa9f46eebce",
+        "865344afeb55",
+        "f37da56d09a9",
         "f4c76ba36389",
         "5a7f44a087ad"
       ],
@@ -7233,11 +8579,18 @@
           "source": "財務省"
         },
         {
-          "id": "caa9f46eebce",
-          "title": "外為：NZドル、89円40銭前後とNZドル安・円高で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWkIxRm5pNGduRjdjMjlKVkFLNHN4N0t0c20tc0hBNzc2WHpkaWtUcEJUZW5PMWMwRkJqb3NiOVFFVmNQbHlTaVNzSFpqWGJoejZkNnppNm5jZWMwU3Nwak1ZbVdqUktmS3czd2U3NDBYZTNFejJzcVVvZFdlSGVzMGpKX3VBZEE?oc=5",
+          "id": "865344afeb55",
+          "title": "米国株、S&P500とナスダックが寄り付きで上昇 AI関連株が反発、ダウは小幅安",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1weVk1SXgwbUNfQ1BmSS1fZEVfVmgwWFpGR01mU21tWF91aHoxd0k3eGU2R3psZS1LLXNEUm4zVzd0SC0yb1hteFNLaF9pRFRDd2JnRnNKZ2pVODg4ZHdtRDZwVVNEMW9lQXhxczEwZk9jZTVS?oc=5",
           "importance": 2,
-          "source": "Yahoo!ファイナンス"
+          "source": "BigGo ファイナンス"
+        },
+        {
+          "id": "f37da56d09a9",
+          "title": "ダウ先物は下落もナスダック１００は大幅反発 ＩＴ・ハイテク株に買い戻し＝米国株",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85V3djU3B4c3pGX0FPWEc1Z0xlS2hMYkZYTWRnRlgzU0lSR1IxeU04UXR0V1VUcXBwLU1RVW1PdjdhODUwY0NXWDlhZXg0cFQxM1E?oc=5",
+          "importance": 2,
+          "source": "株探"
         },
         {
           "id": "f4c76ba36389",
@@ -7258,7 +8611,7 @@
         {
           "code": "7203",
           "name": "トヨタ自動車",
-          "positive": 1,
+          "positive": 2,
           "negative": 3,
           "watch": 1
         },
@@ -7266,35 +8619,35 @@
           "code": "7267",
           "name": "本田技研工業",
           "positive": 1,
-          "negative": 3,
+          "negative": 2,
           "watch": 0
         },
         {
           "code": "7201",
           "name": "日産自動車",
           "positive": 1,
-          "negative": 3,
+          "negative": 2,
           "watch": 0
         },
         {
           "code": "7269",
           "name": "スズキ",
           "positive": 1,
-          "negative": 3,
+          "negative": 2,
           "watch": 0
         },
         {
           "code": "7270",
           "name": "SUBARU",
           "positive": 1,
-          "negative": 2,
+          "negative": 1,
           "watch": 0
         },
         {
           "code": "7261",
           "name": "マツダ",
           "positive": 1,
-          "negative": 1,
+          "negative": 0,
           "watch": 0
         }
       ],
@@ -7329,8 +8682,8 @@
         "cfc8bb32c7fb",
         "ff151b275f12",
         "5f056ac1d8c5",
-        "97655556dd0d",
-        "184f09fa0e45"
+        "09de8d3b3712",
+        "97655556dd0d"
       ],
       "members": [
         {
@@ -7355,18 +8708,18 @@
           "source": "財務省"
         },
         {
+          "id": "09de8d3b3712",
+          "title": "令和８年度自衛隊殉職隊員追悼式",
+          "url": "/j/press/news/2026/10/16d.html",
+          "importance": 2,
+          "source": "防衛省"
+        },
+        {
           "id": "97655556dd0d",
           "title": "米国で相次ぐ原発の「出力増強」、AIの電力需要を賄えるか？",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQS0FVVWVwQjNfT09NUFpkQnNVcjA3UDV2ZDY0eGVaVTFFSU14WjFwU1F2RF95emQ2cVRfZlYyUU1jYUttMi1iVXlKUDc2enUxMkdnLW9ya1BGU19CREF1MXZneHFGVVVYMnAxc3RVSkxnX2dqd0hiRVFZdU0xdXdDanBDQ2UxOTZpV2J0emZB?oc=5",
           "importance": 2,
           "source": "MITテクノロジーレビュー"
-        },
-        {
-          "id": "184f09fa0e45",
-          "title": "高市総理は令和８年度自衛隊殉職隊員追悼式に参列しました",
-          "url": "https://www.kantei.go.jp/jp/105/actions/202610/17tsuitoushiki.html",
-          "importance": 2,
-          "source": "首相官邸"
         }
       ],
       "stocks": [
@@ -7443,7 +8796,7 @@
       "member_ids": [
         "cfc8bb32c7fb",
         "786647924eb0",
-        "184f09fa0e45"
+        "09de8d3b3712"
       ],
       "members": [
         {
@@ -7461,11 +8814,11 @@
           "source": "財務省"
         },
         {
-          "id": "184f09fa0e45",
-          "title": "高市総理は令和８年度自衛隊殉職隊員追悼式に参列しました",
-          "url": "https://www.kantei.go.jp/jp/105/actions/202610/17tsuitoushiki.html",
+          "id": "09de8d3b3712",
+          "title": "令和８年度自衛隊殉職隊員追悼式",
+          "url": "/j/press/news/2026/10/16d.html",
           "importance": 2,
-          "source": "首相官邸"
+          "source": "防衛省"
         }
       ],
       "stocks": [
@@ -7584,115 +8937,6 @@
       "connection_type": "supply_chain",
       "connection_label": "資源・サプライチェーン",
       "theme_id": null,
-      "label": "EVに関連するニュース",
-      "category": "",
-      "category_label": "資源・サプライチェーン",
-      "category_emoji": "🔗",
-      "member_ids": [
-        "cfc8bb32c7fb",
-        "786647924eb0",
-        "caa9f46eebce",
-        "97655556dd0d",
-        "f4c76ba36389",
-        "5a7f44a087ad"
-      ],
-      "members": [
-        {
-          "id": "cfc8bb32c7fb",
-          "title": "中華人民共和国（香港地域及びマカオ地域を除く。）若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板又はこれらの国若しくは地域から本邦に輸出されたニッケル系ステンレス冷延鋼帯・冷延鋼板に対して不当廉売関税を課することについての答申（令和8年10月19日）",
-          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261019_toushin.html",
-          "importance": 5,
-          "source": "財務省"
-        },
-        {
-          "id": "786647924eb0",
-          "title": "関税・外国為替等審議会　関税分科会　特殊関税部会 （令和８年10月19日開催）配付資料",
-          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/kanb20261019.html",
-          "importance": 5,
-          "source": "財務省"
-        },
-        {
-          "id": "caa9f46eebce",
-          "title": "外為：NZドル、89円40銭前後とNZドル安・円高で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWkIxRm5pNGduRjdjMjlKVkFLNHN4N0t0c20tc0hBNzc2WHpkaWtUcEJUZW5PMWMwRkJqb3NiOVFFVmNQbHlTaVNzSFpqWGJoejZkNnppNm5jZWMwU3Nwak1ZbVdqUktmS3czd2U3NDBYZTNFejJzcVVvZFdlSGVzMGpKX3VBZEE?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ファイナンス"
-        },
-        {
-          "id": "97655556dd0d",
-          "title": "米国で相次ぐ原発の「出力増強」、AIの電力需要を賄えるか？",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQS0FVVWVwQjNfT09NUFpkQnNVcjA3UDV2ZDY0eGVaVTFFSU14WjFwU1F2RF95emQ2cVRfZlYyUU1jYUttMi1iVXlKUDc2enUxMkdnLW9ya1BGU19CREF1MXZneHFGVVVYMnAxc3RVSkxnX2dqd0hiRVFZdU0xdXdDanBDQ2UxOTZpV2J0emZB?oc=5",
-          "importance": 2,
-          "source": "MITテクノロジーレビュー"
-        },
-        {
-          "id": "f4c76ba36389",
-          "title": "外為：1ドル158円08銭前後と小幅なドル高・円安で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSFFzVVRZM1ZDZWtIU2pmazRQNWJLOHJqakp6c1V0VjBacDRjNXVTbWtKbEYxYmI5d28zYzhKTmp1VmxSVGUtSF9JTERQS2ZMM3F6clZfb0E4bkMtQTdzTUdhZ1B1TGVxQWlLRkdBc25TM2tQclVXV0szd254aDI3akxaZGVGcm8?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ファイナンス"
-        },
-        {
-          "id": "5a7f44a087ad",
-          "title": "米国株式市場、ＮＹダウ、ナスダック反落(ウエルスアドバイザー)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOanhBNTlqQTA0ckFENFVVQ2pMUzRYbmRmMnBRVjRyYnU5WFdiLVh2ZDZ5amM3U3BLOS1aYWFhcGpKc29Ca0N5d0Flb1h0bTJ2TVBCOW1sdXh4WTBORUNVVGVkUUJSV0psY3pfWHJJeDBiM0dJdjVfWmRYZ3ZNbE1sSVBDR0ZGQTQ?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ファイナンス"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "7203",
-          "name": "トヨタ自動車",
-          "positive": 1,
-          "negative": 3,
-          "watch": 1
-        },
-        {
-          "code": "7267",
-          "name": "本田技研工業",
-          "positive": 1,
-          "negative": 3,
-          "watch": 0
-        },
-        {
-          "code": "7201",
-          "name": "日産自動車",
-          "positive": 1,
-          "negative": 3,
-          "watch": 0
-        },
-        {
-          "code": "5802",
-          "name": "住友電気工業",
-          "positive": 1,
-          "negative": 0,
-          "watch": 0
-        }
-      ],
-      "max_importance": 5,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "connection_type": "supply_chain",
-      "connection_label": "資源・サプライチェーン",
-      "theme_id": null,
       "label": "AIに関連するニュース",
       "category": "",
       "category_label": "資源・サプライチェーン",
@@ -7701,9 +8945,11 @@
         "cfc8bb32c7fb",
         "ff151b275f12",
         "5f056ac1d8c5",
+        "865344afeb55",
+        "f37da56d09a9",
+        "09de8d3b3712",
         "97655556dd0d",
-        "5a7f44a087ad",
-        "184f09fa0e45"
+        "5a7f44a087ad"
       ],
       "members": [
         {
@@ -7728,6 +8974,27 @@
           "source": "財務省"
         },
         {
+          "id": "865344afeb55",
+          "title": "米国株、S&P500とナスダックが寄り付きで上昇 AI関連株が反発、ダウは小幅安",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1weVk1SXgwbUNfQ1BmSS1fZEVfVmgwWFpGR01mU21tWF91aHoxd0k3eGU2R3psZS1LLXNEUm4zVzd0SC0yb1hteFNLaF9pRFRDd2JnRnNKZ2pVODg4ZHdtRDZwVVNEMW9lQXhxczEwZk9jZTVS?oc=5",
+          "importance": 2,
+          "source": "BigGo ファイナンス"
+        },
+        {
+          "id": "f37da56d09a9",
+          "title": "ダウ先物は下落もナスダック１００は大幅反発 ＩＴ・ハイテク株に買い戻し＝米国株",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85V3djU3B4c3pGX0FPWEc1Z0xlS2hMYkZYTWRnRlgzU0lSR1IxeU04UXR0V1VUcXBwLU1RVW1PdjdhODUwY0NXWDlhZXg0cFQxM1E?oc=5",
+          "importance": 2,
+          "source": "株探"
+        },
+        {
+          "id": "09de8d3b3712",
+          "title": "令和８年度自衛隊殉職隊員追悼式",
+          "url": "/j/press/news/2026/10/16d.html",
+          "importance": 2,
+          "source": "防衛省"
+        },
+        {
           "id": "97655556dd0d",
           "title": "米国で相次ぐ原発の「出力増強」、AIの電力需要を賄えるか？",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQS0FVVWVwQjNfT09NUFpkQnNVcjA3UDV2ZDY0eGVaVTFFSU14WjFwU1F2RF95emQ2cVRfZlYyUU1jYUttMi1iVXlKUDc2enUxMkdnLW9ya1BGU19CREF1MXZneHFGVVVYMnAxc3RVSkxnX2dqd0hiRVFZdU0xdXdDanBDQ2UxOTZpV2J0emZB?oc=5",
@@ -7740,13 +9007,6 @@
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOanhBNTlqQTA0ckFENFVVQ2pMUzRYbmRmMnBRVjRyYnU5WFdiLVh2ZDZ5amM3U3BLOS1aYWFhcGpKc29Ca0N5d0Flb1h0bTJ2TVBCOW1sdXh4WTBORUNVVGVkUUJSV0psY3pfWHJJeDBiM0dJdjVfWmRYZ3ZNbE1sSVBDR0ZGQTQ?oc=5",
           "importance": 2,
           "source": "Yahoo!ファイナンス"
-        },
-        {
-          "id": "184f09fa0e45",
-          "title": "高市総理は令和８年度自衛隊殉職隊員追悼式に参列しました",
-          "url": "https://www.kantei.go.jp/jp/105/actions/202610/17tsuitoushiki.html",
-          "importance": 2,
-          "source": "首相官邸"
         }
       ],
       "stocks": [
@@ -7756,6 +9016,13 @@
           "positive": 2,
           "negative": 1,
           "watch": 0
+        },
+        {
+          "code": "9984",
+          "name": "ソフトバンクグループ",
+          "positive": 1,
+          "negative": 1,
+          "watch": 1
         },
         {
           "code": "8035",
@@ -7784,10 +9051,120 @@
           "positive": 1,
           "negative": 0,
           "watch": 0
+        }
+      ],
+      "max_importance": 5,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "connection_type": "supply_chain",
+      "connection_label": "資源・サプライチェーン",
+      "theme_id": null,
+      "label": "EVに関連するニュース",
+      "category": "",
+      "category_label": "資源・サプライチェーン",
+      "category_emoji": "🔗",
+      "member_ids": [
+        "cfc8bb32c7fb",
+        "786647924eb0",
+        "865344afeb55",
+        "f37da56d09a9",
+        "97655556dd0d",
+        "f4c76ba36389",
+        "5a7f44a087ad"
+      ],
+      "members": [
+        {
+          "id": "cfc8bb32c7fb",
+          "title": "中華人民共和国（香港地域及びマカオ地域を除く。）若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板又はこれらの国若しくは地域から本邦に輸出されたニッケル系ステンレス冷延鋼帯・冷延鋼板に対して不当廉売関税を課することについての答申（令和8年10月19日）",
+          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261019_toushin.html",
+          "importance": 5,
+          "source": "財務省"
         },
         {
-          "code": "5801",
-          "name": "古河電気工業",
+          "id": "786647924eb0",
+          "title": "関税・外国為替等審議会　関税分科会　特殊関税部会 （令和８年10月19日開催）配付資料",
+          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/kanb20261019.html",
+          "importance": 5,
+          "source": "財務省"
+        },
+        {
+          "id": "865344afeb55",
+          "title": "米国株、S&P500とナスダックが寄り付きで上昇 AI関連株が反発、ダウは小幅安",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1weVk1SXgwbUNfQ1BmSS1fZEVfVmgwWFpGR01mU21tWF91aHoxd0k3eGU2R3psZS1LLXNEUm4zVzd0SC0yb1hteFNLaF9pRFRDd2JnRnNKZ2pVODg4ZHdtRDZwVVNEMW9lQXhxczEwZk9jZTVS?oc=5",
+          "importance": 2,
+          "source": "BigGo ファイナンス"
+        },
+        {
+          "id": "f37da56d09a9",
+          "title": "ダウ先物は下落もナスダック１００は大幅反発 ＩＴ・ハイテク株に買い戻し＝米国株",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85V3djU3B4c3pGX0FPWEc1Z0xlS2hMYkZYTWRnRlgzU0lSR1IxeU04UXR0V1VUcXBwLU1RVW1PdjdhODUwY0NXWDlhZXg0cFQxM1E?oc=5",
+          "importance": 2,
+          "source": "株探"
+        },
+        {
+          "id": "97655556dd0d",
+          "title": "米国で相次ぐ原発の「出力増強」、AIの電力需要を賄えるか？",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQS0FVVWVwQjNfT09NUFpkQnNVcjA3UDV2ZDY0eGVaVTFFSU14WjFwU1F2RF95emQ2cVRfZlYyUU1jYUttMi1iVXlKUDc2enUxMkdnLW9ya1BGU19CREF1MXZneHFGVVVYMnAxc3RVSkxnX2dqd0hiRVFZdU0xdXdDanBDQ2UxOTZpV2J0emZB?oc=5",
+          "importance": 2,
+          "source": "MITテクノロジーレビュー"
+        },
+        {
+          "id": "f4c76ba36389",
+          "title": "外為：1ドル158円08銭前後と小幅なドル高・円安で推移(株探ニュース)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSFFzVVRZM1ZDZWtIU2pmazRQNWJLOHJqakp6c1V0VjBacDRjNXVTbWtKbEYxYmI5d28zYzhKTmp1VmxSVGUtSF9JTERQS2ZMM3F6clZfb0E4bkMtQTdzTUdhZ1B1TGVxQWlLRkdBc25TM2tQclVXV0szd254aDI3akxaZGVGcm8?oc=5",
+          "importance": 2,
+          "source": "Yahoo!ファイナンス"
+        },
+        {
+          "id": "5a7f44a087ad",
+          "title": "米国株式市場、ＮＹダウ、ナスダック反落(ウエルスアドバイザー)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOanhBNTlqQTA0ckFENFVVQ2pMUzRYbmRmMnBRVjRyYnU5WFdiLVh2ZDZ5amM3U3BLOS1aYWFhcGpKc29Ca0N5d0Flb1h0bTJ2TVBCOW1sdXh4WTBORUNVVGVkUUJSV0psY3pfWHJJeDBiM0dJdjVfWmRYZ3ZNbE1sSVBDR0ZGQTQ?oc=5",
+          "importance": 2,
+          "source": "Yahoo!ファイナンス"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "positive": 2,
+          "negative": 3,
+          "watch": 1
+        },
+        {
+          "code": "7267",
+          "name": "本田技研工業",
+          "positive": 1,
+          "negative": 2,
+          "watch": 0
+        },
+        {
+          "code": "7201",
+          "name": "日産自動車",
+          "positive": 1,
+          "negative": 2,
+          "watch": 0
+        },
+        {
+          "code": "5802",
+          "name": "住友電気工業",
           "positive": 1,
           "negative": 0,
           "watch": 0
@@ -7823,7 +9200,8 @@
       "member_ids": [
         "cfc8bb32c7fb",
         "786647924eb0",
-        "caa9f46eebce",
+        "865344afeb55",
+        "f37da56d09a9",
         "f4c76ba36389",
         "5a7f44a087ad"
       ],
@@ -7843,11 +9221,18 @@
           "source": "財務省"
         },
         {
-          "id": "caa9f46eebce",
-          "title": "外為：NZドル、89円40銭前後とNZドル安・円高で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWkIxRm5pNGduRjdjMjlKVkFLNHN4N0t0c20tc0hBNzc2WHpkaWtUcEJUZW5PMWMwRkJqb3NiOVFFVmNQbHlTaVNzSFpqWGJoejZkNnppNm5jZWMwU3Nwak1ZbVdqUktmS3czd2U3NDBYZTNFejJzcVVvZFdlSGVzMGpKX3VBZEE?oc=5",
+          "id": "865344afeb55",
+          "title": "米国株、S&P500とナスダックが寄り付きで上昇 AI関連株が反発、ダウは小幅安",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1weVk1SXgwbUNfQ1BmSS1fZEVfVmgwWFpGR01mU21tWF91aHoxd0k3eGU2R3psZS1LLXNEUm4zVzd0SC0yb1hteFNLaF9pRFRDd2JnRnNKZ2pVODg4ZHdtRDZwVVNEMW9lQXhxczEwZk9jZTVS?oc=5",
           "importance": 2,
-          "source": "Yahoo!ファイナンス"
+          "source": "BigGo ファイナンス"
+        },
+        {
+          "id": "f37da56d09a9",
+          "title": "ダウ先物は下落もナスダック１００は大幅反発 ＩＴ・ハイテク株に買い戻し＝米国株",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85V3djU3B4c3pGX0FPWEc1Z0xlS2hMYkZYTWRnRlgzU0lSR1IxeU04UXR0V1VUcXBwLU1RVW1PdjdhODUwY0NXWDlhZXg0cFQxM1E?oc=5",
+          "importance": 2,
+          "source": "株探"
         },
         {
           "id": "f4c76ba36389",
@@ -7868,7 +9253,7 @@
         {
           "code": "7203",
           "name": "トヨタ自動車",
-          "positive": 1,
+          "positive": 2,
           "negative": 3,
           "watch": 1
         },
@@ -7876,35 +9261,35 @@
           "code": "7267",
           "name": "本田技研工業",
           "positive": 1,
-          "negative": 3,
+          "negative": 2,
           "watch": 0
         },
         {
           "code": "7201",
           "name": "日産自動車",
           "positive": 1,
-          "negative": 3,
+          "negative": 2,
           "watch": 0
         },
         {
           "code": "7269",
           "name": "スズキ",
           "positive": 1,
-          "negative": 3,
+          "negative": 2,
           "watch": 0
         },
         {
           "code": "7270",
           "name": "SUBARU",
           "positive": 1,
-          "negative": 2,
+          "negative": 1,
           "watch": 0
         },
         {
           "code": "7261",
           "name": "マツダ",
           "positive": 1,
-          "negative": 1,
+          "negative": 0,
           "watch": 0
         }
       ],
@@ -7938,7 +9323,8 @@
       "member_ids": [
         "cfc8bb32c7fb",
         "786647924eb0",
-        "caa9f46eebce",
+        "865344afeb55",
+        "f37da56d09a9",
         "f4c76ba36389",
         "5a7f44a087ad"
       ],
@@ -7958,11 +9344,18 @@
           "source": "財務省"
         },
         {
-          "id": "caa9f46eebce",
-          "title": "外為：NZドル、89円40銭前後とNZドル安・円高で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWkIxRm5pNGduRjdjMjlKVkFLNHN4N0t0c20tc0hBNzc2WHpkaWtUcEJUZW5PMWMwRkJqb3NiOVFFVmNQbHlTaVNzSFpqWGJoejZkNnppNm5jZWMwU3Nwak1ZbVdqUktmS3czd2U3NDBYZTNFejJzcVVvZFdlSGVzMGpKX3VBZEE?oc=5",
+          "id": "865344afeb55",
+          "title": "米国株、S&P500とナスダックが寄り付きで上昇 AI関連株が反発、ダウは小幅安",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1weVk1SXgwbUNfQ1BmSS1fZEVfVmgwWFpGR01mU21tWF91aHoxd0k3eGU2R3psZS1LLXNEUm4zVzd0SC0yb1hteFNLaF9pRFRDd2JnRnNKZ2pVODg4ZHdtRDZwVVNEMW9lQXhxczEwZk9jZTVS?oc=5",
           "importance": 2,
-          "source": "Yahoo!ファイナンス"
+          "source": "BigGo ファイナンス"
+        },
+        {
+          "id": "f37da56d09a9",
+          "title": "ダウ先物は下落もナスダック１００は大幅反発 ＩＴ・ハイテク株に買い戻し＝米国株",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85V3djU3B4c3pGX0FPWEc1Z0xlS2hMYkZYTWRnRlgzU0lSR1IxeU04UXR0V1VUcXBwLU1RVW1PdjdhODUwY0NXWDlhZXg0cFQxM1E?oc=5",
+          "importance": 2,
+          "source": "株探"
         },
         {
           "id": "f4c76ba36389",
@@ -7983,7 +9376,7 @@
         {
           "code": "7203",
           "name": "トヨタ自動車",
-          "positive": 1,
+          "positive": 2,
           "negative": 3,
           "watch": 1
         },
@@ -7991,14 +9384,14 @@
           "code": "7267",
           "name": "本田技研工業",
           "positive": 1,
-          "negative": 3,
+          "negative": 2,
           "watch": 0
         },
         {
           "code": "7201",
           "name": "日産自動車",
           "positive": 1,
-          "negative": 3,
+          "negative": 2,
           "watch": 0
         }
       ],
@@ -8040,7 +9433,7 @@
     "milestones": {
       "accumulating": "2026-09-21"
     },
-    "last_computed_at": "2026-10-19T15:47:11+09:00"
+    "last_computed_at": "2026-10-19T23:39:01+09:00"
   },
   "counts": {
     "news": 40,
