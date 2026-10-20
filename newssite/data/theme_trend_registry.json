@@ -502,7 +502,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 248,
+   "occurrences": 249,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -717,7 +717,7 @@
    "milestones": {
     "government_jp": "2026-10-17"
    },
-   "occurrences": 46
+   "occurrences": 47
   },
   "deregulation": {
    "events": [
@@ -925,6 +925,20 @@
      "signals": [],
      "source": "BigGo ファイナンス",
      "title": "ドル円157円80銭台に軟化、FRB議長発言で年内利上げ観測が後退"
+    },
+    {
+     "actor_types": [
+      "government_foreign"
+     ],
+     "date": "2026-10-20",
+     "item_id": "fa63ea5744b0",
+     "origin_region": "米国",
+     "regions": [
+      "米国"
+     ],
+     "signals": [],
+     "source": "BigGo ファイナンス",
+     "title": "米10年債利回りのピーク論争…「FRB最後の利上げが鍵」対「長期高金利時代」"
     }
    ],
    "first_seen": "2026-09-25",
@@ -932,7 +946,7 @@
     "government_foreign": "2026-09-25",
     "media": "2026-10-16"
    },
-   "occurrences": 58
+   "occurrences": 59
   },
   "gx_decarbonization": {
    "events": [
@@ -2077,7 +2091,7 @@
     "government_foreign": "2026-09-21",
     "media": "2026-10-01"
    },
-   "occurrences": 72
+   "occurrences": 73
   },
   "power_demand": {
    "events": [
@@ -2092,11 +2106,23 @@
      ],
      "source": "jp.ajunews.com",
      "title": "AIによる電力需要に対する原発の役割を議論…第12次電力供給基本計画の公論化始動"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-20",
+     "item_id": "e8f6fc54fe72",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "gov_policy"
+     ],
+     "source": "Chosunbiz",
+     "title": "SKがウェスチングハウス出資検討 AI電力需要で原発参入狙う - CHOSUNBIZ"
     }
    ],
    "first_seen": "2026-09-25",
    "milestones": {},
-   "occurrences": 65
+   "occurrences": 66
   },
   "quantum": {
    "events": [
@@ -2675,7 +2701,7 @@
     "media": "2026-09-24",
     "research": "2026-10-10"
    },
-   "occurrences": 234,
+   "occurrences": 235,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -3967,6 +3993,21 @@
      ],
      "source": "財務省",
      "title": "中華人民共和国（香港地域及びマカオ地域を除く。）若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板又はこれらの国若しくは地域から本邦に輸出されたニッケル系ステンレス冷延鋼帯・冷延鋼板に対して不当廉売関税を課することについての答申（令和8年10月19日）"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-20",
+     "item_id": "3646d49eaf6f",
+     "origin_region": null,
+     "regions": [
+      "中国",
+      "台湾"
+     ],
+     "signals": [
+      "foreign"
+     ],
+     "source": "Reuters",
+     "title": "台湾東方での中国哨戒活動、米議会諮問委トップ「不安定化招く」"
     }
    ],
    "first_seen": "2026-09-20",
@@ -3977,7 +4018,7 @@
     "media": "2026-09-26",
     "research": "2026-09-27"
    },
-   "occurrences": 205,
+   "occurrences": 206,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -5483,6 +5524,20 @@
      ],
      "source": "동아일보",
      "title": "トランプ大統領の「エネルギー停戦」圧力にも…ウクライナ、ロシア製油所への空爆再開 | 東亜日報"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-20",
+     "item_id": "a52ace6b4d6a",
+     "origin_region": null,
+     "regions": [
+      "日本"
+     ],
+     "signals": [
+      "foreign"
+     ],
+     "source": "Yahoo!ニュース",
+     "title": "ウクライナ、「プーチン大統領の故郷」に最大規模のドローン攻撃…エネルギー停戦は形骸化（朝鮮日報日本語版）"
     }
    ],
    "first_seen": "2026-09-20",
@@ -5491,7 +5546,7 @@
     "international_org": "2026-09-24",
     "media": "2026-09-24"
    },
-   "occurrences": 212,
+   "occurrences": 213,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -6996,13 +7051,30 @@
      ],
      "source": "Yahoo!ファイナンス",
      "title": "NY株小幅続落、36ドル安＝AI銘柄復調、ナスダックは反発(時事通信)"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-10-20",
+     "item_id": "0936e78a651d",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign",
+      "multi_source"
+     ],
+     "source": "みんかぶ FX/為替",
+     "title": "ダウ平均は小幅安もナスダックは大幅高 ＩＴ・ハイテク株に買戻し＝米国株概況"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
     "media": "2026-09-23"
    },
-   "occurrences": 252,
+   "occurrences": 253,
    "signals": {}
   },
   "yen_strong": {
@@ -7340,6 +7412,20 @@
      ],
      "source": "Yahoo!ファイナンス",
      "title": "外為：1ドル158円58銭前後とドル高・円安で推移(株探ニュース)"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-10-20",
+     "item_id": "0d6d5b107bf7",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "multi_source"
+     ],
+     "source": "Yahoo!ファイナンス",
+     "title": "外為：カナダドル、112円35銭前後とカナダドル高・円安で推移(株探ニュース)"
     }
    ],
    "first_seen": "2026-09-20",
@@ -7348,7 +7434,7 @@
     "government_foreign": "2026-09-21",
     "media": "2026-09-24"
    },
-   "occurrences": 202,
+   "occurrences": 203,
    "signals": {}
   }
  }
