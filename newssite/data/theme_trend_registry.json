@@ -530,7 +530,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 263,
+   "occurrences": 264,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -582,7 +582,7 @@
    ],
    "first_seen": "2026-10-02",
    "milestones": {},
-   "occurrences": 21
+   "occurrences": 22
   },
   "cyber": {
    "events": [
@@ -1078,7 +1078,7 @@
    ],
    "first_seen": "2026-10-02",
    "milestones": {},
-   "occurrences": 22
+   "occurrences": 23
   },
   "infra_construction_policy": {
    "events": [
@@ -1274,7 +1274,7 @@
    "milestones": {
     "government_jp": "2026-09-29"
    },
-   "occurrences": 101
+   "occurrences": 102
   },
   "jp_politics": {
    "events": [
@@ -1943,7 +1943,7 @@
     "government_jp": "2026-09-20",
     "media": "2026-09-20"
    },
-   "occurrences": 184,
+   "occurrences": 185,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
@@ -2222,7 +2222,7 @@
     "government_foreign": "2026-09-21",
     "media": "2026-10-01"
    },
-   "occurrences": 87
+   "occurrences": 88
   },
   "power_demand": {
    "events": [
@@ -2253,7 +2253,7 @@
    ],
    "first_seen": "2026-09-25",
    "milestones": {},
-   "occurrences": 80
+   "occurrences": 81
   },
   "quantum": {
    "events": [
@@ -2832,7 +2832,7 @@
     "media": "2026-09-24",
     "research": "2026-10-10"
    },
-   "occurrences": 249,
+   "occurrences": 250,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -4225,7 +4225,7 @@
     "media": "2026-09-26",
     "research": "2026-09-27"
    },
-   "occurrences": 216,
+   "occurrences": 217,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -5779,7 +5779,7 @@
     "international_org": "2026-09-24",
     "media": "2026-09-24"
    },
-   "occurrences": 226,
+   "occurrences": 227,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -7246,7 +7246,9 @@
      "title": "米株はまちまち、ダウ続落もナスダック反発 AI関連に買い戻し"
     },
     {
-     "actor_types": [],
+     "actor_types": [
+      "media"
+     ],
      "date": "2026-10-20",
      "item_id": "39f22bd1ebb0",
      "origin_region": null,
@@ -7406,13 +7408,61 @@
      ],
      "source": "株探",
      "title": "ダウ平均は続伸 ＩＴ・ハイテク株への買いでナスダック大幅高 スペースＸとスーパー・マイクロ＝米国株序盤"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-22",
+     "item_id": "a75db9158227",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign"
+     ],
+     "source": "Reuters",
+     "title": "米国株式市場＝ナスダック主導で上昇、決算でＡＩ投資への心理改善"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-10-22",
+     "item_id": "e0d1532d72a0",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign",
+      "multi_source"
+     ],
+     "source": "みんかぶ FX/為替",
+     "title": "ダウ平均は続伸 ナスダックは大幅高 スペースＸとスーパー・マイクロの数字を好感＝米国株概況 -"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-10-22",
+     "item_id": "5e4d266fa1ef",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign",
+      "multi_source"
+     ],
+     "source": "ニューズウィーク日本版",
+     "title": "米国株式市場＝ダウ主導で上昇、ヘルスケア株に買い ナスダック横ばい"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
     "media": "2026-09-23"
    },
-   "occurrences": 267,
+   "occurrences": 268,
    "signals": {}
   },
   "yen_strong": {
@@ -7842,7 +7892,7 @@
     "government_foreign": "2026-09-21",
     "media": "2026-09-24"
    },
-   "occurrences": 217,
+   "occurrences": 218,
    "signals": {}
   }
  }
