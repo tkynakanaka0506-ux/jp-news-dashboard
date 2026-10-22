@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22 21:23",
-  "generated_iso": "2026-10-22T21:23:02+09:00",
+  "generated_at": "2026-10-22 21:57",
+  "generated_iso": "2026-10-22T21:57:45+09:00",
   "status": "updated",
   "status_message": "40 件のニュースを取得しました。",
   "llm_used": true,
@@ -65,14 +65,14 @@
     },
     {
       "label": "日経先物",
-      "value": "63,280.00",
-      "change_pct": -2.39,
+      "value": "63,330.00",
+      "change_pct": -2.31,
       "asof": "10/22終値"
     },
     {
       "label": "ドル円",
-      "value": "157.15円",
-      "change_pct": -0.71,
+      "value": "157.09円",
+      "change_pct": -0.75,
       "asof": "10/22終値"
     },
     {
@@ -4817,54 +4817,6 @@
       "emergence_growth": {}
     },
     {
-      "id": "7ec2434f49be",
-      "title": "今日の為替市場ポイント：29-30日の日銀金融政策決定会合に向けた思惑も相場を左右しそう(フィスコ)",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbUZnQnptNGhoMHplV1FqMWZSZmlzRldLYTI3YUdNVmZBTy1OT1BBYW1pM2lRLUNqeDd4SElXa0xybkZWcHAycDUteWVaa3Y3TDl6Mzl1M2R1MlJVWjNsZjhDWW5ZdHBQMnpUMFlGWjBnVjZZUnFfNVpvZG9oaXFac0hWUW1rRHc?oc=5",
-      "source": "Yahoo!ファイナンス",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-10-22 08:18",
-      "published_ts": 1792624706.0,
-      "category": "policy",
-      "category_label": "金融政策・金利",
-      "category_emoji": "🏦",
-      "importance": 3,
-      "importance_reason": "重要語「金融政策決定会合」",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "low",
-      "news_novelty_label": "再報道",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
       "id": "2c4f2ef3f94b",
       "title": "米国株式市場＝ナスダック主導で上昇、決算受けＡＩ投資心理改善",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSHR3VTg3U0dpTk9jT240WjZqOTY5TUxhRFk0Ykx4Sm1PQ3hadUZFMzYxUk5nWE1JTlhHdzlWdGNSdlJsQl9DX2ZLbDVzSHcyZ2Q5WU9GeDFldjdJb2VRcEF0dXhlUnlZeVFHR25oVWxpeXdic1FxLVM5b0FoQ1JZS1ZYZ0Y5Zw?oc=5",
@@ -6606,6 +6558,122 @@
       }
     },
     {
+      "id": "c279ef57a455",
+      "title": "Studio 株式会社における不正アクセスによる個人情報の漏えいの可能性について",
+      "url": "https://www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22",
+      "source": "デジタル庁",
+      "source_tier": "primary",
+      "source_tier_label": "一次情報",
+      "published_at": "2026-10-22 21:36",
+      "published_ts": 1792672567.0,
+      "category": "tech",
+      "category_label": "半導体・AI",
+      "category_emoji": "🤖",
+      "importance": 2,
+      "importance_reason": "影響テーマ「サイバー攻撃・情報漏えい」に該当",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": "cyber-20261008-01",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-10-08",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "サイバー攻撃・情報漏えい"
+      ],
+      "theme_ids": [
+        "cyber"
+      ],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "6701",
+          "name": "日本電気",
+          "sector": "電気機器",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「不正アクセス」に反応: セキュリティ投資の拡大観測が材料視されやすい",
+          "theme": "サイバー攻撃・情報漏えい",
+          "theme_id": "cyber",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "不正アクセス",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 52,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "4704",
+          "name": "トレンドマイクロ",
+          "sector": "情報・通信",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「不正アクセス」に反応: セキュリティ投資の拡大観測が材料視されやすい",
+          "theme": "サイバー攻撃・情報漏えい",
+          "theme_id": "cyber",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "不正アクセス",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 52,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "3692",
+          "name": "FFRIセキュリティ",
+          "sector": "情報・通信",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「不正アクセス」に反応: セキュリティ投資の拡大観測が材料視されやすい",
+          "theme": "サイバー攻撃・情報漏えい",
+          "theme_id": "cyber",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "不正アクセス",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 52,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
       "id": "2ef51f05a429",
       "title": "劉得金・国家安全会議諮問委員がNDU国際殿堂入り 閣僚級卒業生では台湾初",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4bnI1dFV4RFNlNXpoSDJ1cC11S2FHTzdJcUV2ak0xZzE2ckNKazlwX0tsR2ZHWDJvb09xT1B6S3czV0x0czEyWVRBT2JLVmFYb0QtU0ptcGpzT2c?oc=5",
@@ -8091,9 +8159,9 @@
       "emergence_growth": {}
     },
     {
-      "id": "2a083d2ded5c",
+      "id": "5e10676ec97b",
       "title": "日本調理機、前期経常を一転50％増益に上方修正・2期ぶり最高益、配当も30円増額",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA1T1VoOTBoZGRIdkFrQXl3bWdWeXRqbHhPalJwazJEZVh2ZXIwVEV5aEk1VVVmZFZFdDlHSEk2d3lLdVZFc0VVdEtycTlERS0xR0E?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9SeFZVSGdpRS1oTDEzNWs3X1E0VkZSUU9qd1YwV0RyTHlYNlVMVjRNeXJRbzUxX1JibFVYbDFJa1lzb0ZpYUJJRnFudUJVT1F6TGc?oc=5",
       "source": "株探",
       "source_tier": "commentary",
       "source_tier_label": "市場解説",
@@ -9675,227 +9743,6 @@
       "summary": "",
       "impact_comment": "",
       "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "299c3cc1750e",
-      "title": "外為：NZドル、90円15銭前後とNZドル高・円安で推移(株探ニュース)",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU0JWRnYzLUVOQ0k5ZHQ1THZqWUhERXFRSmVaQUhfTzJjS0hQWFhjQW1ESzdOa1d6VnpWU2lPTzVoZmdGR21xRHhWOVVzbmRMS2g3Rm15RmR0THRneUlObFRYdTBwbDVIOGdWR0F1eFpSUEFfczVSelFIbXA5MWl0anJqeUpCU2M?oc=5",
-      "source": "Yahoo!ファイナンス",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-10-22 10:31",
-      "published_ts": 1792632675.0,
-      "category": "fx",
-      "category_label": "為替",
-      "category_emoji": "💱",
-      "importance": 2,
-      "importance_reason": "影響テーマ「円安進行」に該当",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "low",
-      "news_novelty_label": "再報道",
-      "policy_event_id": "yen_weak-20260920-01",
-      "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-09-20",
-      "policy_event_state": "UPDATE",
-      "themes": [
-        "円安進行"
-      ],
-      "theme_ids": [
-        "yen_weak"
-      ],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [
-        {
-          "code": "7203",
-          "name": "トヨタ自動車",
-          "sector": "自動車",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "円安",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7267",
-          "name": "本田技研工業",
-          "sector": "自動車",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "円安",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7201",
-          "name": "日産自動車",
-          "sector": "自動車",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "円安",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7269",
-          "name": "スズキ",
-          "sector": "自動車",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "円安",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7270",
-          "name": "SUBARU",
-          "sector": "自動車",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "円安",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7261",
-          "name": "マツダ",
-          "sector": "自動車",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "円安",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "9983",
-          "name": "ファーストリテイリング",
-          "sector": "小売",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「円安」に反応: 輸入原材料・仕入コストが膨らみ、採算の重しになりやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "円安",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "3382",
-          "name": "セブン&アイ・ホールディングス",
-          "sector": "小売",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "中",
-          "reason": "「円安」に反応: 輸入原材料・仕入コストが膨らみ、採算の重しになりやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "円安",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        }
-      ],
       "related": [],
       "emergence_stage": null,
       "emergence_stage_label": "",
@@ -14710,6 +14557,54 @@
       "emergence_milestones": [],
       "emergence_diagnosis": {},
       "emergence_growth": {}
+    },
+    {
+      "id": "57f5c72dd13a",
+      "title": "メディアドゥ（3678）、通期業績予想と配当予想を上方修正 電子書籍流通事業の好調とSeven SeasのPL連結開始で順調な進捗",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE11YUx3QVN3S1d3RzlLWF9JdmFEcmlJSDN5S2FJUVdyR1JNVVVaZnZnVDlBRHZYS19leGx0STkydXpWdGRHbHdDZU1qSG1JTy0wWVE?oc=5",
+      "source": "ログミーファイナンス",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-10-21 08:00",
+      "published_ts": 1792537201.0,
+      "category": "corporate",
+      "category_label": "企業・決算",
+      "category_emoji": "🏢",
+      "importance": 2,
+      "importance_reason": "重要語「上方修正」",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
     }
   ],
   "stock_ranking": [
@@ -14717,10 +14612,10 @@
       "code": "7203",
       "name": "トヨタ自動車",
       "sector": "自動車",
-      "positive": 4,
+      "positive": 3,
       "negative": 3,
       "watch": 2,
-      "score": 1,
+      "score": -1,
       "news": [
         {
           "title": "中国がレアアース鉱物の輸出を停止したら、アメリカはどうなるだろうか？",
@@ -14744,7 +14639,7 @@
           "importance": 3
         }
       ],
-      "mentions": 9
+      "mentions": 8
     },
     {
       "code": "8035",
@@ -14780,33 +14675,33 @@
       "mentions": 7
     },
     {
-      "code": "7267",
-      "name": "本田技研工業",
-      "sector": "自動車",
-      "positive": 3,
-      "negative": 3,
+      "code": "6701",
+      "name": "日本電気",
+      "sector": "電気機器",
+      "positive": 5,
+      "negative": 1,
       "watch": 0,
-      "score": -2,
+      "score": 8,
       "news": [
         {
-          "title": "中国がレアアース鉱物の輸出を停止したら、アメリカはどうなるだろうか？",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdFdjX2kzUXk3RXRqSDFzb3ZPQnFIcUw5dmJ3TFd1S2RIVlhmV1lQcm5CcEhiTnh2TnBGQWo4cDV5RFgwaVlZOHhNcXFTVVpvZm9OQTA2czNKM1Y5ajlmZWJQVnRUTnVYUGY5YV9iM2lwODRUTzRaWGJiNmRwVFFTZE0zVVI?oc=5",
-          "direction": "negative",
-          "reason": "「レアアース」に反応: 永久磁石などレアアース由来部材の調達コスト上昇・供給不安が意識されやすい",
-          "importance": 3
+          "title": "岸田元首相、英オックスフォードでロシア侵攻の東アジア波及に警鐘―台湾有事の現実性と日本の国防・サイバー防衛",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeE9WQTc0NDFTVXJGUWE3RTBzQU5zdjNLdm9KODFqbUluS3dQRnRWS2NHRmtHNDg2ZHZCeU4tb1IzU1RxQ1ZzRTlXdTZPV01QRUt3NUZEYXFTNTR6NlotMmFWcC1PWXRFOHNveVg4bWN6YjU0dXYwTDBXanlLeEg2MU1iY0tsZFA1cUZ5bUlYMEN5MGNGSlR5aXE0eGM3WXJUT0FjeXh3?oc=5",
+          "direction": "positive",
+          "reason": "「台湾」に反応: 安全保障関連の思惑が働きやすい",
+          "importance": 4
         },
         {
-          "title": "重要希土類イットリウム、日本の備蓄「数カ月」で底をつく恐れ - 日経FTザ・ワールド",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9FWnR2U3F3aDdqMXdwNGZ3SE4yZlR2cGhSZVhzY1hMOWdHckU1Ql9vbkU1SG0wN2hNXzMtMTZic0RmTlpnSHc2cFNzVERfbU9WUm9JeDd5bDN2bDFXTExpdEJjR0oxMUFMRVJCS1E3TTl5Q1BzcXhN?oc=5",
+          "title": "ゼレンスキー氏「現在の前線での停戦は可能」…プーチン氏も３者終戦協議の再開に同意（ハンギョレ新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pYWQteWk0T0hKWTQ4dzVLaFNCTFJRcGlRY2p6ZEg1d2xwYzR0d2ltdkRpMGk4aERjMU11VWRsbVd6aWdIS2cwc3dpb01MYnhHNEhhNEZqRFQ1ZUFDbERCNWtwdm4xbTJhcVlNSVk2eEdXeFlxckMyMVltV25Xanc?oc=5",
           "direction": "negative",
-          "reason": "「希土類」に反応: 永久磁石などレアアース由来部材の調達コスト上昇・供給不安が意識されやすい",
-          "importance": 3
+          "reason": "「プーチン」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "importance": 4
         },
         {
-          "title": "明日の為替相場見通し＝一段のドル安・円高の進行あるか",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8wX2hVWDJpSXF0U2lmUUZUV2RCM3Z3R0RCNzAwWmNkRnJuTXZfNUNNTGh5akVoQWZTcThnSTg5cFVWcHU4ZVM2R0xXaS0yMzNUVlFSTFFhT0MtdE5IeUducg?oc=5",
-          "direction": "negative",
-          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
+          "title": "Studio 株式会社における不正アクセスによる個人情報の漏えいの可能性について",
+          "url": "https://www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22",
+          "direction": "positive",
+          "reason": "「不正アクセス」に反応: セキュリティ投資の拡大観測が材料視されやすい",
           "importance": 2
         }
       ],
@@ -15143,33 +15038,33 @@
       "mentions": 5
     },
     {
-      "code": "6701",
-      "name": "日本電気",
-      "sector": "電気機器",
-      "positive": 4,
-      "negative": 1,
+      "code": "7267",
+      "name": "本田技研工業",
+      "sector": "自動車",
+      "positive": 2,
+      "negative": 3,
       "watch": 0,
-      "score": 6,
+      "score": -4,
       "news": [
         {
-          "title": "岸田元首相、英オックスフォードでロシア侵攻の東アジア波及に警鐘―台湾有事の現実性と日本の国防・サイバー防衛",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeE9WQTc0NDFTVXJGUWE3RTBzQU5zdjNLdm9KODFqbUluS3dQRnRWS2NHRmtHNDg2ZHZCeU4tb1IzU1RxQ1ZzRTlXdTZPV01QRUt3NUZEYXFTNTR6NlotMmFWcC1PWXRFOHNveVg4bWN6YjU0dXYwTDBXanlLeEg2MU1iY0tsZFA1cUZ5bUlYMEN5MGNGSlR5aXE0eGM3WXJUT0FjeXh3?oc=5",
-          "direction": "positive",
-          "reason": "「台湾」に反応: 安全保障関連の思惑が働きやすい",
-          "importance": 4
-        },
-        {
-          "title": "ゼレンスキー氏「現在の前線での停戦は可能」…プーチン氏も３者終戦協議の再開に同意（ハンギョレ新聞）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pYWQteWk0T0hKWTQ4dzVLaFNCTFJRcGlRY2p6ZEg1d2xwYzR0d2ltdkRpMGk4aERjMU11VWRsbVd6aWdIS2cwc3dpb01MYnhHNEhhNEZqRFQ1ZUFDbERCNWtwdm4xbTJhcVlNSVk2eEdXeFlxckMyMVltV25Xanc?oc=5",
+          "title": "中国がレアアース鉱物の輸出を停止したら、アメリカはどうなるだろうか？",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdFdjX2kzUXk3RXRqSDFzb3ZPQnFIcUw5dmJ3TFd1S2RIVlhmV1lQcm5CcEhiTnh2TnBGQWo4cDV5RFgwaVlZOHhNcXFTVVpvZm9OQTA2czNKM1Y5ajlmZWJQVnRUTnVYUGY5YV9iM2lwODRUTzRaWGJiNmRwVFFTZE0zVVI?oc=5",
           "direction": "negative",
-          "reason": "「プーチン」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
-          "importance": 4
+          "reason": "「レアアース」に反応: 永久磁石などレアアース由来部材の調達コスト上昇・供給不安が意識されやすい",
+          "importance": 3
         },
         {
-          "title": "劉得金・国家安全会議諮問委員がNDU国際殿堂入り 閣僚級卒業生では台湾初",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4bnI1dFV4RFNlNXpoSDJ1cC11S2FHTzdJcUV2ak0xZzE2ckNKazlwX0tsR2ZHWDJvb09xT1B6S3czV0x0czEyWVRBT2JLVmFYb0QtU0ptcGpzT2c?oc=5",
-          "direction": "positive",
-          "reason": "「台湾」に反応: 安全保障関連の思惑が働きやすい",
+          "title": "重要希土類イットリウム、日本の備蓄「数カ月」で底をつく恐れ - 日経FTザ・ワールド",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9FWnR2U3F3aDdqMXdwNGZ3SE4yZlR2cGhSZVhzY1hMOWdHckU1Ql9vbkU1SG0wN2hNXzMtMTZic0RmTlpnSHc2cFNzVERfbU9WUm9JeDd5bDN2bDFXTExpdEJjR0oxMUFMRVJCS1E3TTl5Q1BzcXhN?oc=5",
+          "direction": "negative",
+          "reason": "「希土類」に反応: 永久磁石などレアアース由来部材の調達コスト上昇・供給不安が意識されやすい",
+          "importance": 3
+        },
+        {
+          "title": "明日の為替相場見通し＝一段のドル安・円高の進行あるか",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8wX2hVWDJpSXF0U2lmUUZUV2RCM3Z3R0RCNzAwWmNkRnJuTXZfNUNNTGh5akVoQWZTcThnSTg5cFVWcHU4ZVM2R0xXaS0yMzNUVlFSTFFhT0MtdE5IeUducg?oc=5",
+          "direction": "negative",
+          "reason": "「円高」に反応: 海外売上の円換算額が目減りし、輸出関連の採算悪化要因になりやすい",
           "importance": 2
         }
       ],
@@ -19784,394 +19679,6 @@
     {
       "connection_type": "theme",
       "connection_label": "同じテーマ",
-      "theme_id": "yen_weak",
-      "label": "円安進行",
-      "category": "fx",
-      "category_label": "為替",
-      "category_emoji": "💱",
-      "member_ids": [
-        "299c3cc1750e",
-        "be2fe3ee6ab7",
-        "33b5fb8386de"
-      ],
-      "members": [
-        {
-          "id": "299c3cc1750e",
-          "title": "外為：NZドル、90円15銭前後とNZドル高・円安で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU0JWRnYzLUVOQ0k5ZHQ1THZqWUhERXFRSmVaQUhfTzJjS0hQWFhjQW1ESzdOa1d6VnpWU2lPTzVoZmdGR21xRHhWOVVzbmRMS2g3Rm15RmR0THRneUlObFRYdTBwbDVIOGdWR0F1eFpSUEFfczVSelFIbXA5MWl0anJqeUpCU2M?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ファイナンス"
-        },
-        {
-          "id": "be2fe3ee6ab7",
-          "title": "【為替】円安阻止介入の限界と「補強策」",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oUVNyV0YwMVhWOXV5WGRiZ1NBbFRPRjZmR0U1aW5JQnFZWVgyMDVfSWFleFJ5V29kTGFYLXZCaV93dHNaRXNRay1jZlQ3YUNTemhTT9IBV0FVX3lxTFA1Zk9fcEVHVXdrbnJBTEtxYWFqOHQ4em16VmpqcmpyVnlCcUxadzdiX0kzQzBhVGl6MTJFTkIzVG5RQ0dJUlFlMTBxYmFXbHZwVW1xMnNDUQ?oc=5",
-          "importance": 2,
-          "source": "マネクリ"
-        },
-        {
-          "id": "33b5fb8386de",
-          "title": "【為替】円安阻止「3度目の介入」の条件",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA5VDZCVzJEYjFPd2NCMjE1QUhZQ0xHSlBjTFQ3RC1VeGhVV01mWGlsSHRDcks1VzFuNDcyZG9fRW9LLVNhS1QtSEpTVUduRDNiNk1YckdpVdIBV0FVX3lxTFA5VDZCVzJEYjFPd2NCMjE1QUhZQ0xHSlBjTFQ3RC1VeGhVV01mWGlsSHRDcks1VzFuNDcyZG9fRW9LLVNhS1QtSEpTVUduRDNiNk1YckdpVQ?oc=5",
-          "importance": 2,
-          "source": "マネクリ"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "7203",
-          "name": "トヨタ自動車",
-          "positive": 3,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "7267",
-          "name": "本田技研工業",
-          "positive": 3,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "7201",
-          "name": "日産自動車",
-          "positive": 3,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "7269",
-          "name": "スズキ",
-          "positive": 3,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "7270",
-          "name": "SUBARU",
-          "positive": 3,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "7261",
-          "name": "マツダ",
-          "positive": 3,
-          "negative": 0,
-          "watch": 0
-        }
-      ],
-      "max_importance": 2,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [
-        "関連企業の直接発表",
-        "複数媒体での同時報道"
-      ],
-      "emergence_event_count": 21,
-      "emergence_source_count": 8,
-      "emergence_actor_type_count": 3,
-      "emergence_actor_type_labels": [
-        "関連企業",
-        "海外政府・当局",
-        "複数メディア"
-      ],
-      "emergence_actor_type_breakdown": [
-        {
-          "label": "関連企業",
-          "count": 1
-        },
-        {
-          "label": "海外政府・当局",
-          "count": 2
-        },
-        {
-          "label": "複数メディア",
-          "count": 18
-        }
-      ],
-      "emergence_region_count": 1,
-      "emergence_regions": [
-        "米国"
-      ],
-      "emergence_origin_regions": [
-        "米国"
-      ],
-      "emergence_first_seen": "2026-09-20",
-      "emergence_window_counts": {
-        "7": 11,
-        "30": 20,
-        "90": 21
-      },
-      "emergence_timeline": [
-        {
-          "date": "2026-09-21",
-          "source": "gaitame.com",
-          "signal_labels": [],
-          "actor_type_labels": [
-            "海外政府・当局"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-24",
-          "source": "TBS NEWS DIG",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-09-24",
-          "source": "読売新聞",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-09-24",
-          "source": "Bloomberg.com",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-09-25",
-          "source": "Yahoo!ニュース",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-26",
-          "source": "外為どっとコム",
-          "signal_labels": [],
-          "actor_type_labels": [
-            "海外政府・当局"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-26",
-          "source": "みんかぶ FX/為替",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-09-28",
-          "source": "Yahoo!ニュース",
-          "signal_labels": [
-            "関連企業の直接発表"
-          ],
-          "actor_type_labels": [
-            "関連企業"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-14",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-14",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-16",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-19",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-20",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-20",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-20",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-20",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-21",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-21",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-21",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-21",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-21",
-          "source": "Yahoo!ファイナンス",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        }
-      ],
-      "emergence_milestones": [
-        {
-          "date": "2026-09-21",
-          "actor_type_label": "海外政府・当局"
-        },
-        {
-          "date": "2026-09-24",
-          "actor_type_label": "複数メディア"
-        },
-        {
-          "date": "2026-09-28",
-          "actor_type_label": "関連企業"
-        }
-      ],
-      "emergence_diagnosis": {
-        "target_stage": "watch",
-        "target_stage_label": "👀 要監視テーマ",
-        "source_count": 8,
-        "required_sources": 2,
-        "signal_count": 2,
-        "required_signals": 3,
-        "missing": [
-          "シグナル種別があと1種類必要"
-        ]
-      },
-      "emergence_growth": {
-        "window_days": 14,
-        "recent_new_actor_types": 0,
-        "total_actor_types": 3
-      }
-    },
-    {
-      "connection_type": "theme",
-      "connection_label": "同じテーマ",
       "theme_id": "ukraine_russia",
       "label": "ウクライナ・ロシア情勢",
       "category": "geopolitics",
@@ -21660,6 +21167,386 @@
       }
     },
     {
+      "connection_type": "theme",
+      "connection_label": "同じテーマ",
+      "theme_id": "yen_weak",
+      "label": "円安進行",
+      "category": "fx",
+      "category_label": "為替",
+      "category_emoji": "💱",
+      "member_ids": [
+        "be2fe3ee6ab7",
+        "33b5fb8386de"
+      ],
+      "members": [
+        {
+          "id": "be2fe3ee6ab7",
+          "title": "【為替】円安阻止介入の限界と「補強策」",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oUVNyV0YwMVhWOXV5WGRiZ1NBbFRPRjZmR0U1aW5JQnFZWVgyMDVfSWFleFJ5V29kTGFYLXZCaV93dHNaRXNRay1jZlQ3YUNTemhTT9IBV0FVX3lxTFA1Zk9fcEVHVXdrbnJBTEtxYWFqOHQ4em16VmpqcmpyVnlCcUxadzdiX0kzQzBhVGl6MTJFTkIzVG5RQ0dJUlFlMTBxYmFXbHZwVW1xMnNDUQ?oc=5",
+          "importance": 2,
+          "source": "マネクリ"
+        },
+        {
+          "id": "33b5fb8386de",
+          "title": "【為替】円安阻止「3度目の介入」の条件",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA5VDZCVzJEYjFPd2NCMjE1QUhZQ0xHSlBjTFQ3RC1VeGhVV01mWGlsSHRDcks1VzFuNDcyZG9fRW9LLVNhS1QtSEpTVUduRDNiNk1YckdpVdIBV0FVX3lxTFA5VDZCVzJEYjFPd2NCMjE1QUhZQ0xHSlBjTFQ3RC1VeGhVV01mWGlsSHRDcks1VzFuNDcyZG9fRW9LLVNhS1QtSEpTVUduRDNiNk1YckdpVQ?oc=5",
+          "importance": 2,
+          "source": "マネクリ"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "positive": 2,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7267",
+          "name": "本田技研工業",
+          "positive": 2,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7201",
+          "name": "日産自動車",
+          "positive": 2,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7269",
+          "name": "スズキ",
+          "positive": 2,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7270",
+          "name": "SUBARU",
+          "positive": 2,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7261",
+          "name": "マツダ",
+          "positive": 2,
+          "negative": 0,
+          "watch": 0
+        }
+      ],
+      "max_importance": 2,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [
+        "関連企業の直接発表",
+        "複数媒体での同時報道"
+      ],
+      "emergence_event_count": 21,
+      "emergence_source_count": 8,
+      "emergence_actor_type_count": 3,
+      "emergence_actor_type_labels": [
+        "関連企業",
+        "海外政府・当局",
+        "複数メディア"
+      ],
+      "emergence_actor_type_breakdown": [
+        {
+          "label": "関連企業",
+          "count": 1
+        },
+        {
+          "label": "海外政府・当局",
+          "count": 2
+        },
+        {
+          "label": "複数メディア",
+          "count": 18
+        }
+      ],
+      "emergence_region_count": 1,
+      "emergence_regions": [
+        "米国"
+      ],
+      "emergence_origin_regions": [
+        "米国"
+      ],
+      "emergence_first_seen": "2026-09-20",
+      "emergence_window_counts": {
+        "7": 11,
+        "30": 20,
+        "90": 21
+      },
+      "emergence_timeline": [
+        {
+          "date": "2026-09-21",
+          "source": "gaitame.com",
+          "signal_labels": [],
+          "actor_type_labels": [
+            "海外政府・当局"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "source": "TBS NEWS DIG",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-24",
+          "source": "読売新聞",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-24",
+          "source": "Bloomberg.com",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-25",
+          "source": "Yahoo!ニュース",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "source": "外為どっとコム",
+          "signal_labels": [],
+          "actor_type_labels": [
+            "海外政府・当局"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-28",
+          "source": "Yahoo!ニュース",
+          "signal_labels": [
+            "関連企業の直接発表"
+          ],
+          "actor_type_labels": [
+            "関連企業"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-16",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-19",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-20",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-20",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-20",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-20",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-21",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-21",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-21",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-21",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-21",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        }
+      ],
+      "emergence_milestones": [
+        {
+          "date": "2026-09-21",
+          "actor_type_label": "海外政府・当局"
+        },
+        {
+          "date": "2026-09-24",
+          "actor_type_label": "複数メディア"
+        },
+        {
+          "date": "2026-09-28",
+          "actor_type_label": "関連企業"
+        }
+      ],
+      "emergence_diagnosis": {
+        "target_stage": "watch",
+        "target_stage_label": "👀 要監視テーマ",
+        "source_count": 8,
+        "required_sources": 2,
+        "signal_count": 2,
+        "required_signals": 3,
+        "missing": [
+          "シグナル種別があと1種類必要"
+        ]
+      },
+      "emergence_growth": {
+        "window_days": 14,
+        "recent_new_actor_types": 0,
+        "total_actor_types": 3
+      }
+    },
+    {
       "connection_type": "company",
       "connection_label": "同じ企業",
       "theme_id": null,
@@ -21672,7 +21559,6 @@
         "2c4f2ef3f94b",
         "a934014ecd89",
         "2474fde9f0ba",
-        "299c3cc1750e",
         "be2fe3ee6ab7",
         "6b1cbb370046",
         "e0d1532d72a0",
@@ -21708,13 +21594,6 @@
           "source": "株探"
         },
         {
-          "id": "299c3cc1750e",
-          "title": "外為：NZドル、90円15銭前後とNZドル高・円安で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU0JWRnYzLUVOQ0k5ZHQ1THZqWUhERXFRSmVaQUhfTzJjS0hQWFhjQW1ESzdOa1d6VnpWU2lPTzVoZmdGR21xRHhWOVVzbmRMS2g3Rm15RmR0THRneUlObFRYdTBwbDVIOGdWR0F1eFpSUEFfczVSelFIbXA5MWl0anJqeUpCU2M?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ファイナンス"
-        },
-        {
           "id": "be2fe3ee6ab7",
           "title": "【為替】円安阻止介入の限界と「補強策」",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oUVNyV0YwMVhWOXV5WGRiZ1NBbFRPRjZmR0U1aW5JQnFZWVgyMDVfSWFleFJ5V29kTGFYLXZCaV93dHNaRXNRay1jZlQ3YUNTemhTT9IBV0FVX3lxTFA1Zk9fcEVHVXdrbnJBTEtxYWFqOHQ4em16VmpqcmpyVnlCcUxadzdiX0kzQzBhVGl6MTJFTkIzVG5RQ0dJUlFlMTBxYmFXbHZwVW1xMnNDUQ?oc=5",
@@ -21747,7 +21626,7 @@
         {
           "code": "7203",
           "name": "トヨタ自動車",
-          "positive": 4,
+          "positive": 3,
           "negative": 3,
           "watch": 2
         }
@@ -21871,72 +21750,72 @@
       "connection_type": "company",
       "connection_label": "同じ企業",
       "theme_id": null,
-      "label": "本田技研工業に関するニュース",
+      "label": "日本電気に関するニュース",
       "category": "",
       "category_label": "同じ企業",
       "category_emoji": "🏢",
       "member_ids": [
-        "a728951922a1",
-        "a934014ecd89",
-        "2474fde9f0ba",
-        "299c3cc1750e",
-        "be2fe3ee6ab7",
-        "33b5fb8386de"
+        "3421edd7de23",
+        "71e9a70e3c71",
+        "c279ef57a455",
+        "2ef51f05a429",
+        "f835f185da6e",
+        "a35e5c5fe7a2"
       ],
       "members": [
         {
-          "id": "a728951922a1",
-          "title": "中国がレアアース鉱物の輸出を停止したら、アメリカはどうなるだろうか？",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdFdjX2kzUXk3RXRqSDFzb3ZPQnFIcUw5dmJ3TFd1S2RIVlhmV1lQcm5CcEhiTnh2TnBGQWo4cDV5RFgwaVlZOHhNcXFTVVpvZm9OQTA2czNKM1Y5ajlmZWJQVnRUTnVYUGY5YV9iM2lwODRUTzRaWGJiNmRwVFFTZE0zVVI?oc=5",
-          "importance": 3,
-          "source": "Vietnam.vn"
+          "id": "3421edd7de23",
+          "title": "岸田元首相、英オックスフォードでロシア侵攻の東アジア波及に警鐘―台湾有事の現実性と日本の国防・サイバー防衛",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeE9WQTc0NDFTVXJGUWE3RTBzQU5zdjNLdm9KODFqbUluS3dQRnRWS2NHRmtHNDg2ZHZCeU4tb1IzU1RxQ1ZzRTlXdTZPV01QRUt3NUZEYXFTNTR6NlotMmFWcC1PWXRFOHNveVg4bWN6YjU0dXYwTDBXanlLeEg2MU1iY0tsZFA1cUZ5bUlYMEN5MGNGSlR5aXE0eGM3WXJUT0FjeXh3?oc=5",
+          "importance": 4,
+          "source": "合同会社ロケットボーイズ"
         },
         {
-          "id": "a934014ecd89",
-          "title": "重要希土類イットリウム、日本の備蓄「数カ月」で底をつく恐れ - 日経FTザ・ワールド",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9FWnR2U3F3aDdqMXdwNGZ3SE4yZlR2cGhSZVhzY1hMOWdHckU1Ql9vbkU1SG0wN2hNXzMtMTZic0RmTlpnSHc2cFNzVERfbU9WUm9JeDd5bDN2bDFXTExpdEJjR0oxMUFMRVJCS1E3TTl5Q1BzcXhN?oc=5",
-          "importance": 3,
-          "source": "日本経済新聞"
+          "id": "71e9a70e3c71",
+          "title": "ゼレンスキー氏「現在の前線での停戦は可能」…プーチン氏も３者終戦協議の再開に同意（ハンギョレ新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pYWQteWk0T0hKWTQ4dzVLaFNCTFJRcGlRY2p6ZEg1d2xwYzR0d2ltdkRpMGk4aERjMU11VWRsbVd6aWdIS2cwc3dpb01MYnhHNEhhNEZqRFQ1ZUFDbERCNWtwdm4xbTJhcVlNSVk2eEdXeFlxckMyMVltV25Xanc?oc=5",
+          "importance": 4,
+          "source": "Yahoo!ニュース"
         },
         {
-          "id": "2474fde9f0ba",
-          "title": "明日の為替相場見通し＝一段のドル安・円高の進行あるか",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8wX2hVWDJpSXF0U2lmUUZUV2RCM3Z3R0RCNzAwWmNkRnJuTXZfNUNNTGh5akVoQWZTcThnSTg5cFVWcHU4ZVM2R0xXaS0yMzNUVlFSTFFhT0MtdE5IeUducg?oc=5",
+          "id": "c279ef57a455",
+          "title": "Studio 株式会社における不正アクセスによる個人情報の漏えいの可能性について",
+          "url": "https://www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22",
           "importance": 2,
-          "source": "株探"
+          "source": "デジタル庁"
         },
         {
-          "id": "299c3cc1750e",
-          "title": "外為：NZドル、90円15銭前後とNZドル高・円安で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU0JWRnYzLUVOQ0k5ZHQ1THZqWUhERXFRSmVaQUhfTzJjS0hQWFhjQW1ESzdOa1d6VnpWU2lPTzVoZmdGR21xRHhWOVVzbmRMS2g3Rm15RmR0THRneUlObFRYdTBwbDVIOGdWR0F1eFpSUEFfczVSelFIbXA5MWl0anJqeUpCU2M?oc=5",
+          "id": "2ef51f05a429",
+          "title": "劉得金・国家安全会議諮問委員がNDU国際殿堂入り 閣僚級卒業生では台湾初",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4bnI1dFV4RFNlNXpoSDJ1cC11S2FHTzdJcUV2ak0xZzE2ckNKazlwX0tsR2ZHWDJvb09xT1B6S3czV0x0czEyWVRBT2JLVmFYb0QtU0ptcGpzT2c?oc=5",
           "importance": 2,
-          "source": "Yahoo!ファイナンス"
+          "source": "Rti 中央廣播電臺"
         },
         {
-          "id": "be2fe3ee6ab7",
-          "title": "【為替】円安阻止介入の限界と「補強策」",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oUVNyV0YwMVhWOXV5WGRiZ1NBbFRPRjZmR0U1aW5JQnFZWVgyMDVfSWFleFJ5V29kTGFYLXZCaV93dHNaRXNRay1jZlQ3YUNTemhTT9IBV0FVX3lxTFA1Zk9fcEVHVXdrbnJBTEtxYWFqOHQ4em16VmpqcmpyVnlCcUxadzdiX0kzQzBhVGl6MTJFTkIzVG5RQ0dJUlFlMTBxYmFXbHZwVW1xMnNDUQ?oc=5",
+          "id": "f835f185da6e",
+          "title": "フィリピン、台湾と海底ケーブル保護で協力強化模索",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZk9sMFhmRk8yZWJVbjVfdTg1MGZRd1U2RnczRnJVNDBKa0xiY2V4UXh2aWNwbHk5UUNtVjFOdTFWdzhIS3gxaEVkTDdLVW1jTktYSmxRUnJ2ZWhlYjZUelZNUVFpakhhdTRESGdjYzNBdXRRci02alEzUDZJaDRuVFdtbFI?oc=5",
           "importance": 2,
-          "source": "マネクリ"
+          "source": "Reuters"
         },
         {
-          "id": "33b5fb8386de",
-          "title": "【為替】円安阻止「3度目の介入」の条件",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA5VDZCVzJEYjFPd2NCMjE1QUhZQ0xHSlBjTFQ3RC1VeGhVV01mWGlsSHRDcks1VzFuNDcyZG9fRW9LLVNhS1QtSEpTVUduRDNiNk1YckdpVdIBV0FVX3lxTFA5VDZCVzJEYjFPd2NCMjE1QUhZQ0xHSlBjTFQ3RC1VeGhVV01mWGlsSHRDcks1VzFuNDcyZG9fRW9LLVNhS1QtSEpTVUduRDNiNk1YckdpVQ?oc=5",
+          "id": "a35e5c5fe7a2",
+          "title": "台湾、組織犯罪と中国の「国境を越えた弾圧」とのつながりを捜査",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX3RTeGZOWWExUFV4dTRyTVdORE1NLWhfNl9lU3J4R0tTN0hON1o1REVrd3U2X3VQRWRac0NiNXEyRjg3RkxGT2NRVllVemVEQkhZVXBpZ1diMkpydUNsOEcxNjV5UnphX2dPcVk4QTJfeVIwQXVSbmZjYTA2UF9DT2MtSThjQ29yUTkxc0VYYVFoQTZ0S2J5amo5RjFxSUFGSXVFQQ?oc=5",
           "importance": 2,
-          "source": "マネクリ"
+          "source": "Mezha.net"
         }
       ],
       "stocks": [
         {
-          "code": "7267",
-          "name": "本田技研工業",
-          "positive": 3,
-          "negative": 3,
+          "code": "6701",
+          "name": "日本電気",
+          "positive": 5,
+          "negative": 1,
           "watch": 0
         }
       ],
-      "max_importance": 3,
+      "max_importance": 4,
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -22047,6 +21926,7 @@
         "3421edd7de23",
         "71e9a70e3c71",
         "9cbbe8f3bc84",
+        "c279ef57a455",
         "2ef51f05a429",
         "f835f185da6e",
         "a35e5c5fe7a2",
@@ -22075,6 +21955,13 @@
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5taHlCWDUwR1ZuNDJuME1MQzExaDZfcnJZa05UakRvWlRRX1ZrSG5wcUZFWW9CcjlidkdrNDVOV0R5OFJRYnBpWHdwMXJrNlp2TzZPY3Jwc0hUN1VEaWx0cHZjWQ?oc=5",
           "importance": 3,
           "source": "時事ドットコム"
+        },
+        {
+          "id": "c279ef57a455",
+          "title": "Studio 株式会社における不正アクセスによる個人情報の漏えいの可能性について",
+          "url": "https://www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22",
+          "importance": 2,
+          "source": "デジタル庁"
         },
         {
           "id": "2ef51f05a429",
@@ -22128,15 +22015,15 @@
           "watch": 1
         },
         {
-          "code": "6503",
-          "name": "三菱電機",
-          "positive": 4,
+          "code": "6701",
+          "name": "日本電気",
+          "positive": 5,
           "negative": 1,
           "watch": 0
         },
         {
-          "code": "6701",
-          "name": "日本電気",
+          "code": "6503",
+          "name": "三菱電機",
           "positive": 4,
           "negative": 1,
           "watch": 0
@@ -22195,7 +22082,6 @@
         "2c4f2ef3f94b",
         "a934014ecd89",
         "2474fde9f0ba",
-        "299c3cc1750e",
         "be2fe3ee6ab7",
         "6b1cbb370046",
         "e0d1532d72a0",
@@ -22231,13 +22117,6 @@
           "source": "株探"
         },
         {
-          "id": "299c3cc1750e",
-          "title": "外為：NZドル、90円15銭前後とNZドル高・円安で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU0JWRnYzLUVOQ0k5ZHQ1THZqWUhERXFRSmVaQUhfTzJjS0hQWFhjQW1ESzdOa1d6VnpWU2lPTzVoZmdGR21xRHhWOVVzbmRMS2g3Rm15RmR0THRneUlObFRYdTBwbDVIOGdWR0F1eFpSUEFfczVSelFIbXA5MWl0anJqeUpCU2M?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ファイナンス"
-        },
-        {
           "id": "be2fe3ee6ab7",
           "title": "【為替】円安阻止介入の限界と「補強策」",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oUVNyV0YwMVhWOXV5WGRiZ1NBbFRPRjZmR0U1aW5JQnFZWVgyMDVfSWFleFJ5V29kTGFYLXZCaV93dHNaRXNRay1jZlQ3YUNTemhTT9IBV0FVX3lxTFA1Zk9fcEVHVXdrbnJBTEtxYWFqOHQ4em16VmpqcmpyVnlCcUxadzdiX0kzQzBhVGl6MTJFTkIzVG5RQ0dJUlFlMTBxYmFXbHZwVW1xMnNDUQ?oc=5",
@@ -22270,42 +22149,42 @@
         {
           "code": "7203",
           "name": "トヨタ自動車",
-          "positive": 4,
+          "positive": 3,
           "negative": 3,
           "watch": 2
         },
         {
           "code": "7267",
           "name": "本田技研工業",
-          "positive": 3,
+          "positive": 2,
           "negative": 3,
           "watch": 0
         },
         {
           "code": "7201",
           "name": "日産自動車",
-          "positive": 3,
+          "positive": 2,
           "negative": 1,
           "watch": 0
         },
         {
           "code": "7269",
           "name": "スズキ",
-          "positive": 3,
+          "positive": 2,
           "negative": 1,
           "watch": 0
         },
         {
           "code": "7270",
           "name": "SUBARU",
-          "positive": 3,
+          "positive": 2,
           "negative": 1,
           "watch": 0
         },
         {
           "code": "7261",
           "name": "マツダ",
-          "positive": 3,
+          "positive": 2,
           "negative": 1,
           "watch": 0
         }
@@ -22551,6 +22430,7 @@
         "71e9a70e3c71",
         "2c4f2ef3f94b",
         "9cbbe8f3bc84",
+        "c279ef57a455",
         "2ef51f05a429",
         "f835f185da6e",
         "6b1cbb370046",
@@ -22588,6 +22468,13 @@
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5taHlCWDUwR1ZuNDJuME1MQzExaDZfcnJZa05UakRvWlRRX1ZrSG5wcUZFWW9CcjlidkdrNDVOV0R5OFJRYnBpWHdwMXJrNlp2TzZPY3Jwc0hUN1VEaWx0cHZjWQ?oc=5",
           "importance": 3,
           "source": "時事ドットコム"
+        },
+        {
+          "id": "c279ef57a455",
+          "title": "Studio 株式会社における不正アクセスによる個人情報の漏えいの可能性について",
+          "url": "https://www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22",
+          "importance": 2,
+          "source": "デジタル庁"
         },
         {
           "id": "2ef51f05a429",
@@ -22657,7 +22544,7 @@
         {
           "code": "6701",
           "name": "日本電気",
-          "positive": 4,
+          "positive": 5,
           "negative": 1,
           "watch": 0
         },
@@ -23049,6 +22936,7 @@
         "71e9a70e3c71",
         "b54d685e4a5c",
         "e6c8fb2a9167",
+        "c279ef57a455",
         "2ef51f05a429",
         "d147e936302e",
         "f835f185da6e",
@@ -23083,6 +22971,13 @@
           "url": "https://www.kantei.go.jp/jp/tyoukanpress/202610/20_p.html",
           "importance": 3,
           "source": "首相官邸"
+        },
+        {
+          "id": "c279ef57a455",
+          "title": "Studio 株式会社における不正アクセスによる個人情報の漏えいの可能性について",
+          "url": "https://www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22",
+          "importance": 2,
+          "source": "デジタル庁"
         },
         {
           "id": "2ef51f05a429",
@@ -23124,7 +23019,7 @@
         {
           "code": "6701",
           "name": "日本電気",
-          "positive": 4,
+          "positive": 5,
           "negative": 1,
           "watch": 0
         },
@@ -23175,7 +23070,7 @@
       "accumulating": "2026-09-21",
       "ready_for_backtest": "2026-10-20"
     },
-    "last_computed_at": "2026-10-22T21:23:13+09:00"
+    "last_computed_at": "2026-10-22T21:57:57+09:00"
   },
   "counts": {
     "news": 40,

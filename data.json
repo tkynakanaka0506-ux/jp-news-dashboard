@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22 21:21",
-  "run_type": "morning",
+  "generated_at": "2026-10-22 21:55",
+  "run_type": "evening",
   "us_market": {
     "sp500": {
       "value": "7,757.17",
@@ -24,13 +24,13 @@
     }
   },
   "fx": {
-    "value": "157.15円",
-    "change_pct": -0.71,
+    "value": "157.09円",
+    "change_pct": -0.75,
     "asof": "10/22終値"
   },
   "nikkei_futures": {
-    "value": "63,280.00",
-    "change_pct": -2.39,
+    "value": "63,330.00",
+    "change_pct": -2.31,
     "asof": "10/22終値"
   },
   "nikkei225": {
@@ -39,7 +39,9 @@
     "asof": "10/22終値"
   },
   "overnight_news": [],
-  "tdnet_morning": [
+  "tdnet_morning": [],
+  "movers_morning": [],
+  "tdnet_afterclose": [
     {
       "time": "20:00",
       "code": "―",
@@ -201,8 +203,6 @@
       "tag": "業修"
     }
   ],
-  "movers_morning": [],
-  "tdnet_afterclose": [],
   "afterclose_news": [],
   "movers_afterclose": [],
   "technical": [
@@ -890,10 +890,10 @@
     {
       "code": "7203",
       "company": "トヨタ自動車",
-      "title": "トヨタ独自開発の「GRカート」 愛知・蒲郡に生産拠点 輸出も視野に生産能力は年1000～2000台 - 日刊自動車新聞",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE04Mk9rY3o4Q2JpdUZIa3ZxNzNqSzRmVVlqSnB3VV9jeG1DbUJiV2lQV2c4RXU2OEJza3p2WUFfcmJBWVkwcU9nVkMtNlUySU5MWEE?oc=5",
-      "keyword": "生産能力",
-      "asof": "10/21 03:46"
+      "title": "「6億台のコネクテッドカー」動かす光技術 IOWNは欧州のデータセンター危機を救うか？（1/4 ページ） - ITmedia",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE10YmhnOHBjLVR0M1ZERUxyTE13clR3d3VrV3VVM0o3NmxNSFVWMDBKd1FUbUZPNWxuYzlvbnZFeThpV0l1d291ckdQVm1KVTZTMXhRVU1oMUdkTGxxYmk0aF9Nc3lCQmppSXo5UHFMY2R3QQ?oc=5",
+      "keyword": "データセンター",
+      "asof": "10/21 07:00"
     },
     {
       "code": "9984",
@@ -1005,85 +1005,85 @@
     "code": "ＧＭＯ－ＰＰ"
   },
   "data_updated_at": {
-    "market_quotes": "2026-10-22 21:21",
-    "tdnet_morning": "2026-10-22 21:21",
-    "technical": "2026-10-22 21:21",
-    "growth_candidates": "2026-10-22 21:21",
-    "pre_earnings_watch": "2026-10-22 21:21",
-    "edinet_large_holdings": "2026-10-22 21:21",
-    "economic_calendar": "2026-10-22 21:21",
-    "pre_earnings_indicator": "2026-10-22 21:23"
+    "market_quotes": "2026-10-22 21:55",
+    "tdnet_afterclose": "2026-10-22 21:55",
+    "technical": "2026-10-22 21:55",
+    "growth_candidates": "2026-10-22 21:55",
+    "pre_earnings_watch": "2026-10-22 21:55",
+    "edinet_large_holdings": "2026-10-22 21:55",
+    "economic_calendar": "2026-10-22 21:55",
+    "pre_earnings_indicator": "2026-10-22 21:57"
   },
   "edinet_large_holdings": [],
   "data_status": {
     "market_quotes": {
       "state": "updated",
-      "checked_at": "2026-10-22 21:21",
+      "checked_at": "2026-10-22 21:55",
       "message": "今回の実行で取得・更新しました。"
     },
     "tdnet_morning": {
-      "state": "updated",
-      "checked_at": "2026-10-22 21:21",
-      "message": "今回の実行で取得・更新しました。"
+      "state": "not_requested",
+      "checked_at": "2026-10-22 21:55",
+      "message": "今回の実行モードでは更新対象外です。"
     },
     "tdnet_afterclose": {
-      "state": "not_requested",
-      "checked_at": "2026-10-22 21:21",
-      "message": "今回の実行モードでは更新対象外です。"
+      "state": "updated",
+      "checked_at": "2026-10-22 21:55",
+      "message": "今回の実行で取得・更新しました。"
     },
     "technical": {
       "state": "updated",
-      "checked_at": "2026-10-22 21:21",
+      "checked_at": "2026-10-22 21:55",
       "message": "今回の実行で取得・更新しました。"
     },
     "growth_candidates": {
       "state": "updated",
-      "checked_at": "2026-10-22 21:21",
+      "checked_at": "2026-10-22 21:55",
       "message": "今回の実行で取得・更新しました。"
     },
     "pre_earnings_watch": {
       "state": "updated",
-      "checked_at": "2026-10-22 21:21",
+      "checked_at": "2026-10-22 21:55",
       "message": "今回の実行で取得・更新しました。"
     },
     "overnight_news": {
-      "state": "unavailable",
-      "checked_at": "2026-10-22 21:21",
-      "message": "ニュース分析APIで取得できませんでした。"
+      "state": "not_requested",
+      "checked_at": "2026-10-22 21:56",
+      "message": "今回の実行モードでは更新対象外です。"
     },
     "afterclose_news": {
-      "state": "not_requested",
-      "checked_at": "2026-10-22 21:21",
-      "message": "今回の実行モードでは更新対象外です。"
+      "state": "unavailable",
+      "checked_at": "2026-10-22 21:56",
+      "message": "ニュース分析APIで取得できませんでした。"
     },
     "movers_morning": {
-      "state": "unavailable",
-      "checked_at": "2026-10-22 21:21",
-      "message": "話題株分析APIで取得できませんでした。"
+      "state": "not_requested",
+      "checked_at": "2026-10-22 21:56",
+      "message": "今回の実行モードでは更新対象外です。"
     },
     "movers_afterclose": {
-      "state": "not_requested",
-      "checked_at": "2026-10-22 21:21",
-      "message": "今回の実行モードでは更新対象外です。"
+      "state": "unavailable",
+      "checked_at": "2026-10-22 21:56",
+      "message": "話題株分析APIで取得できませんでした。"
     },
     "us_good_news": {
       "state": "unavailable",
-      "checked_at": "2026-10-22 21:21",
+      "checked_at": "2026-10-22 21:56",
       "message": "ニュース分析APIで取得できませんでした。"
     },
     "edinet_large_holdings": {
       "state": "empty",
-      "checked_at": "2026-10-22 21:21",
+      "checked_at": "2026-10-22 21:55",
       "message": "取得済み・該当する大量保有報告書はありません。"
     },
     "economic_calendar": {
       "state": "updated",
-      "checked_at": "2026-10-22 21:21",
+      "checked_at": "2026-10-22 21:55",
       "message": "今回の実行で取得・更新しました。"
     },
     "pre_earnings_indicator": {
       "state": "updated",
-      "checked_at": "2026-10-22 21:23",
+      "checked_at": "2026-10-22 21:57",
       "message": "今回の実行で取得・更新しました。"
     }
   },
