@@ -580,7 +580,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 274,
+   "occurrences": 275,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -1068,7 +1068,7 @@
     "government_foreign": "2026-09-25",
     "media": "2026-10-16"
    },
-   "occurrences": 69
+   "occurrences": 70
   },
   "gx_decarbonization": {
    "events": [
@@ -1107,7 +1107,7 @@
    "milestones": {
     "government_jp": "2026-10-01"
    },
-   "occurrences": 15
+   "occurrences": 16
   },
   "inbound": {
    "events": [
@@ -2080,7 +2080,7 @@
     "government_jp": "2026-09-20",
     "media": "2026-09-20"
    },
-   "occurrences": 195,
+   "occurrences": 196,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
@@ -2274,11 +2274,28 @@
      ],
      "source": "BigGo ファイナンス",
      "title": "中東に戦雲再び！米・イスラエル大使館が人員退避、原油価格が110ドル突破"
+    },
+    {
+     "actor_types": [
+      "government_jp"
+     ],
+     "date": "2026-10-24",
+     "item_id": "a21d20fddfad",
+     "origin_region": "日本",
+     "regions": [],
+     "signals": [
+      "foreign",
+      "gov_source"
+     ],
+     "source": "首相官邸",
+     "title": "高市総理は中東情勢を踏まえた緊急的激変緩和措置等についての会見を行いました"
     }
    ],
    "first_seen": "2026-09-20",
-   "milestones": {},
-   "occurrences": 90
+   "milestones": {
+    "government_jp": "2026-10-24"
+   },
+   "occurrences": 91
   },
   "oil_down": {
    "events": [
@@ -2573,7 +2590,7 @@
     "corporate": "2026-10-23",
     "media": "2026-09-20"
    },
-   "occurrences": 148
+   "occurrences": 149
   },
   "rate_cut": {
    "events": [
@@ -3040,7 +3057,7 @@
     "media": "2026-09-24",
     "research": "2026-10-10"
    },
-   "occurrences": 260,
+   "occurrences": 261,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -3175,7 +3192,7 @@
     "government_jp": "2026-10-08",
     "media": "2026-10-08"
    },
-   "occurrences": 82
+   "occurrences": 83
   },
   "shipbuilding_policy": {
    "events": [
@@ -6148,15 +6165,122 @@
      ],
      "source": "Vietnam.vn",
      "title": "米国はF-35戦闘機850機の購入契約を締結し、一方ロシアは新型巡航ミサイル「フィリン」を配備した。"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-24",
+     "item_id": "ab7453b12c34",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "Reuters",
+     "title": "ロシア・ウクライナ、南部オレシュキで停戦合意 米大統領夫人が仲介"
+    },
+    {
+     "actor_types": [
+      "government_foreign",
+      "media"
+     ],
+     "date": "2026-10-24",
+     "item_id": "11eecb3c50b9",
+     "origin_region": "米国",
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign",
+      "multi_source"
+     ],
+     "source": "QAB 琉球朝日放送",
+     "title": "ロシアとウクライナが局地的な一時停戦で合意 ホワイトハウス発表 メラニア夫人主導｜Quebee キュエビー"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-24",
+     "item_id": "8161a9883657",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "朝日新聞",
+     "title": "ウクライナ南部で限定的停戦 米、トランプ氏妻が仲介と発表"
+    },
+    {
+     "actor_types": [
+      "government_foreign"
+     ],
+     "date": "2026-10-24",
+     "item_id": "9bd08543e347",
+     "origin_region": "米国",
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign"
+     ],
+     "source": "日テレNEWS NNN",
+     "title": "米メラニア大統領夫人、ロシアとウクライナの局地的一時停戦取り付ける ホワイトハウス発表（2026年10月23日掲載）"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-24",
+     "item_id": "53b7ae84d038",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "ウクルインフォルム",
+     "title": "メラニア・トランプ米大統領夫人、ウクライナ南部被占領下オレシュキに関するロシア・ウクライナ間の停戦を発表"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-24",
+     "item_id": "d884891dd636",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "産経ニュース",
+     "title": "ロシアとウクライナ、南部オレシュキで「一時停戦」と米政権 トランプ氏妻が主導と発表"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-24",
+     "item_id": "65d1eab334f6",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "TBS NEWS DIG",
+     "title": "ウクライナとロシア、メラニア夫人の仲介で局地的停戦に合意－米政府"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-24",
+     "item_id": "b6b06445cf73",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "Yahoo!ファイナンス",
+     "title": "ウクライナとロシアによる地域限定の停戦、29日に開始 報道(トレーダーズ・ウェブ)"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
+    "government_foreign": "2026-10-24",
     "government_jp": "2026-10-02",
     "international_org": "2026-09-24",
     "media": "2026-09-24"
    },
-   "occurrences": 237,
+   "occurrences": 238,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -7991,13 +8115,27 @@
      ],
      "source": "Moomoo",
      "title": "米国株式市場概況・22日 ダウ小幅続伸・ナスダック大幅反落"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-24",
+     "item_id": "d5b2e16b639b",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign"
+     ],
+     "source": "株探",
+     "title": "ダウ平均は大幅安で始まる ５３５ドル安 ナスダックも下落＝米国株オープン"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
     "media": "2026-09-23"
    },
-   "occurrences": 278,
+   "occurrences": 279,
    "signals": {}
   },
   "yen_strong": {
