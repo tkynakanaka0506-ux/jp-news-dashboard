@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25 15:00",
-  "run_type": "morning",
+  "generated_at": "2026-10-25 18:26",
+  "run_type": "evening",
   "us_market": {
     "sp500": {
       "value": "7,623.68",
@@ -39,7 +39,9 @@
     "asof": "10/23終値"
   },
   "overnight_news": [],
-  "tdnet_morning": [
+  "tdnet_morning": [],
+  "movers_morning": [],
+  "tdnet_afterclose": [
     {
       "time": "―",
       "code": "―",
@@ -201,8 +203,6 @@
       "tag": "他"
     }
   ],
-  "movers_morning": [],
-  "tdnet_afterclose": [],
   "afterclose_news": [],
   "movers_afterclose": [],
   "technical": [
@@ -954,18 +954,18 @@
     {
       "code": "9433",
       "company": "KDDI",
-      "title": "KDDI、BroadcomとAIデータセンター省電力化に向け技術提携 - EnterpriseZine",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5wOHNURko1WlIwNGdYc0tDaDg5eEF1b2FOdGZ4emJ4Ulo4VlNqRFB0WFlWbEwyM2NkcUR4enpYNnRHbEd6RWw4dVNkN1R1dEZvMXlpNHNubVBUdw?oc=5",
-      "keyword": "データセンター",
-      "asof": "10/22 14:40"
-    },
-    {
-      "code": "9433",
-      "company": "KDDI",
       "title": "KDDI、ブロードコムと提携 AIデータセンターに光電融合、CPOスイッチを共同検証 - ビジネス+IT",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ZOEdXNFczS2JEZUxsdnlZTTVHV2x5RXRSNjhZVEpnNUZFbVp4WldPYjhaY3pYVDB4Mi1NZGlveGxETG9GMEx3V0ZIOXBreWJVMUdv?oc=5",
       "keyword": "データセンター",
       "asof": "10/22 14:36"
+    },
+    {
+      "code": "9433",
+      "company": "KDDI",
+      "title": "KDDI、BroadcomとAIデータセンター省電力化に向け技術提携 - EnterpriseZine",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OODBKYnFsYXZMWmxXU1FlUHFsTE0xUG9GdzBCZVc5WUtFV1ZuZE03Z0pPSVBHNENXUUJLZ2xsUjR0UXdOT0hURVFFd2J4OEp1cFFRaEpn?oc=5",
+      "keyword": "データセンター",
+      "asof": "10/22 14:40"
     },
     {
       "code": "9432",
@@ -1005,85 +1005,85 @@
     "code": "ＧＭＯ－ＰＰ"
   },
   "data_updated_at": {
-    "market_quotes": "2026-10-25 15:00",
-    "tdnet_morning": "2026-10-25 15:00",
-    "technical": "2026-10-25 15:00",
-    "growth_candidates": "2026-10-25 15:00",
-    "pre_earnings_watch": "2026-10-25 15:00",
-    "edinet_large_holdings": "2026-10-25 15:00",
-    "economic_calendar": "2026-10-25 15:00",
-    "pre_earnings_indicator": "2026-10-25 15:01"
+    "market_quotes": "2026-10-25 18:26",
+    "tdnet_afterclose": "2026-10-25 18:26",
+    "technical": "2026-10-25 18:26",
+    "growth_candidates": "2026-10-25 18:26",
+    "pre_earnings_watch": "2026-10-25 18:26",
+    "edinet_large_holdings": "2026-10-25 18:26",
+    "economic_calendar": "2026-10-25 18:26",
+    "pre_earnings_indicator": "2026-10-25 18:27"
   },
   "edinet_large_holdings": [],
   "data_status": {
     "market_quotes": {
       "state": "updated",
-      "checked_at": "2026-10-25 15:00",
+      "checked_at": "2026-10-25 18:26",
       "message": "今回の実行で取得・更新しました。"
     },
     "tdnet_morning": {
-      "state": "updated",
-      "checked_at": "2026-10-25 15:00",
-      "message": "今回の実行で取得・更新しました。"
+      "state": "not_requested",
+      "checked_at": "2026-10-25 18:26",
+      "message": "今回の実行モードでは更新対象外です。"
     },
     "tdnet_afterclose": {
-      "state": "not_requested",
-      "checked_at": "2026-10-25 15:00",
-      "message": "今回の実行モードでは更新対象外です。"
+      "state": "updated",
+      "checked_at": "2026-10-25 18:26",
+      "message": "今回の実行で取得・更新しました。"
     },
     "technical": {
       "state": "updated",
-      "checked_at": "2026-10-25 15:00",
+      "checked_at": "2026-10-25 18:26",
       "message": "今回の実行で取得・更新しました。"
     },
     "growth_candidates": {
       "state": "updated",
-      "checked_at": "2026-10-25 15:00",
+      "checked_at": "2026-10-25 18:26",
       "message": "今回の実行で取得・更新しました。"
     },
     "pre_earnings_watch": {
       "state": "updated",
-      "checked_at": "2026-10-25 15:00",
+      "checked_at": "2026-10-25 18:26",
       "message": "今回の実行で取得・更新しました。"
     },
     "overnight_news": {
-      "state": "unavailable",
-      "checked_at": "2026-10-25 15:01",
-      "message": "ニュース分析APIで取得できませんでした。"
+      "state": "not_requested",
+      "checked_at": "2026-10-25 18:26",
+      "message": "今回の実行モードでは更新対象外です。"
     },
     "afterclose_news": {
-      "state": "not_requested",
-      "checked_at": "2026-10-25 15:01",
-      "message": "今回の実行モードでは更新対象外です。"
+      "state": "unavailable",
+      "checked_at": "2026-10-25 18:27",
+      "message": "ニュース分析APIで取得できませんでした。"
     },
     "movers_morning": {
-      "state": "unavailable",
-      "checked_at": "2026-10-25 15:01",
-      "message": "話題株分析APIで取得できませんでした。"
+      "state": "not_requested",
+      "checked_at": "2026-10-25 18:26",
+      "message": "今回の実行モードでは更新対象外です。"
     },
     "movers_afterclose": {
-      "state": "not_requested",
-      "checked_at": "2026-10-25 15:01",
-      "message": "今回の実行モードでは更新対象外です。"
+      "state": "unavailable",
+      "checked_at": "2026-10-25 18:27",
+      "message": "話題株分析APIで取得できませんでした。"
     },
     "us_good_news": {
       "state": "unavailable",
-      "checked_at": "2026-10-25 15:01",
+      "checked_at": "2026-10-25 18:27",
       "message": "ニュース分析APIで取得できませんでした。"
     },
     "edinet_large_holdings": {
       "state": "empty",
-      "checked_at": "2026-10-25 15:00",
+      "checked_at": "2026-10-25 18:26",
       "message": "取得済み・該当する大量保有報告書はありません。"
     },
     "economic_calendar": {
       "state": "updated",
-      "checked_at": "2026-10-25 15:00",
+      "checked_at": "2026-10-25 18:26",
       "message": "今回の実行で取得・更新しました。"
     },
     "pre_earnings_indicator": {
       "state": "updated",
-      "checked_at": "2026-10-25 15:01",
+      "checked_at": "2026-10-25 18:27",
       "message": "今回の実行で取得・更新しました。"
     }
   },
