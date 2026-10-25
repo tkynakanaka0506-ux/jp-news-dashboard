@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-26 02:03",
-  "generated_iso": "2026-10-26T02:03:44+09:00",
+  "generated_at": "2026-10-26 04:34",
+  "generated_iso": "2026-10-26T04:34:22+09:00",
   "status": "updated",
-  "status_message": "26 件のニュースを取得しました。",
+  "status_message": "23 件のニュースを取得しました。",
   "llm_used": true,
   "categories": [
     {
@@ -73,7 +73,7 @@
       "label": "ドル円",
       "value": "156.81円",
       "change_pct": 0.2,
-      "asof": "10/24終値"
+      "asof": "10/26終値"
     },
     {
       "label": "S&P500",
@@ -95,227 +95,6 @@
     }
   ],
   "news": [
-    {
-      "id": "0f34ab7cc0c9",
-      "title": "ＦＲＢが来年に「大幅利下げ」を実施する確率が上昇",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDZTNoV01lWFhNSno3Mzdsc3JtNDNGSXp4UU5XYnRQcExDdDBla3NrY2FnMEloSUNEMmNlaXZzdkZlaWZHX0ZOTnBka25TRTdoQTZnYXJXVnFDZFpKd0VlZQ?oc=5",
-      "source": "株探",
-      "source_tier": "commentary",
-      "source_tier_label": "市場解説",
-      "published_at": "2026-10-24 03:48",
-      "published_ts": 1792781280.0,
-      "category": "policy",
-      "category_label": "金融政策・金利",
-      "category_emoji": "🏦",
-      "importance": 5,
-      "importance_reason": "重要語「利下げ」・影響テーマ「利下げ・金融緩和」に該当",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": "rate_cut-20261026-02",
-      "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-10-26",
-      "policy_event_state": "UPDATE",
-      "themes": [
-        "利下げ・金融緩和"
-      ],
-      "theme_ids": [
-        "rate_cut"
-      ],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [
-        {
-          "code": "2413",
-          "name": "エムスリー",
-          "sector": "サービス",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「利下げ」に反応: 金利低下は割引率低下・調達コスト低下につながり、成長株や不動産に追い風になりやすい",
-          "theme": "利下げ・金融緩和",
-          "theme_id": "rate_cut",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "利下げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 34,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "4385",
-          "name": "メルカリ",
-          "sector": "情報・通信",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「利下げ」に反応: 金利低下は割引率低下・調達コスト低下につながり、成長株や不動産に追い風になりやすい",
-          "theme": "利下げ・金融緩和",
-          "theme_id": "rate_cut",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "利下げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 34,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8801",
-          "name": "三井不動産",
-          "sector": "不動産",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「利下げ」に反応: 金利低下は割引率低下・調達コスト低下につながり、成長株や不動産に追い風になりやすい",
-          "theme": "利下げ・金融緩和",
-          "theme_id": "rate_cut",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "利下げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 34,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8802",
-          "name": "三菱地所",
-          "sector": "不動産",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「利下げ」に反応: 金利低下は割引率低下・調達コスト低下につながり、成長株や不動産に追い風になりやすい",
-          "theme": "利下げ・金融緩和",
-          "theme_id": "rate_cut",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "利下げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 34,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8830",
-          "name": "住友不動産",
-          "sector": "不動産",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「利下げ」に反応: 金利低下は割引率低下・調達コスト低下につながり、成長株や不動産に追い風になりやすい",
-          "theme": "利下げ・金融緩和",
-          "theme_id": "rate_cut",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "利下げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 34,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8306",
-          "name": "三菱UFJフィナンシャル・グループ",
-          "sector": "銀行",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "小",
-          "reason": "「利下げ」に反応: 利ざや縮小が意識されやすい",
-          "theme": "利下げ・金融緩和",
-          "theme_id": "rate_cut",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "利下げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 30,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8316",
-          "name": "三井住友フィナンシャルグループ",
-          "sector": "銀行",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "小",
-          "reason": "「利下げ」に反応: 利ざや縮小が意識されやすい",
-          "theme": "利下げ・金融緩和",
-          "theme_id": "rate_cut",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "利下げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 30,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "8411",
-          "name": "みずほフィナンシャルグループ",
-          "sector": "銀行",
-          "direction": "negative",
-          "direction_label": "逆風",
-          "strength": "小",
-          "reason": "「利下げ」に反応: 利ざや縮小が意識されやすい",
-          "theme": "利下げ・金融緩和",
-          "theme_id": "rate_cut",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "利下げ",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 30,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        }
-      ],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
     {
       "id": "a3b5baa7304d",
       "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
@@ -1144,7 +923,7 @@
         "政府・省庁の一次情報",
         "複数媒体での同時報道"
       ],
-      "emergence_event_count": 138,
+      "emergence_event_count": 139,
       "emergence_source_count": 46,
       "emergence_actor_type_count": 4,
       "emergence_actor_type_labels": [
@@ -1185,9 +964,9 @@
       ],
       "emergence_first_seen": "2026-09-20",
       "emergence_window_counts": {
-        "7": 33,
-        "30": 111,
-        "90": 138
+        "7": 34,
+        "30": 112,
+        "90": 139
       },
       "emergence_timeline": [
         {
@@ -2583,6 +2362,15 @@
         {
           "date": "2026-10-26",
           "source": "産経ニュース",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-26",
+          "source": "毎日新聞",
           "signal_labels": [
             "海外の動き"
           ],
@@ -2624,14 +2412,14 @@
       }
     },
     {
-      "id": "055cb01bdce1",
-      "title": "メラニア夫人が仲介 ロシア・ウクライナが“局地的停戦”で合意 「彼女が自ら始めた取り組み」トランプ大統領も成果強調",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQTmp3QjlKaFI5TWhlc1VhZk9DdnZIenhRcG5kRDlybW8yeWswUEFLZFc1alM2Mi1Eak80NDk1dENDZGtYUzFiRExDN09SUFAxYUZ0c3czUTNUeXJfbTA1UTVweFZDTm5hYmlnSnJVOW5Gdmw5VmNvNXdCM196cGM?oc=5",
-      "source": "Yahoo!ニュース",
+      "id": "898dc4d956f5",
+      "title": "「一部で停戦始まる」とロシア主張 「住民の安全確保のため」",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lZ0F2UkVHTnRNVWo5X1RJN2w3a0c4Qmp3RkNkM3VyRWFnbnlfeHplRko4WnVBdHM4d3UyM1BLcjlubFZBX0ZHNTRST0FSci1xNlR6My1JNDFab1pzNVYyR3VPM2lvRmJi?oc=5",
+      "source": "毎日新聞",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
-      "published_at": "2026-10-24 12:39",
-      "published_ts": 1792813162.0,
+      "published_at": "2026-10-24 13:27",
+      "published_ts": 1792816052.0,
       "category": "geopolitics",
       "category_label": "地政学・有事",
       "category_emoji": "🌍",
@@ -2640,11 +2428,11 @@
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
-      "news_novelty": "low",
-      "news_novelty_label": "再報道",
-      "policy_event_id": "ukraine_russia-20260920-01",
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": "ukraine_russia-20260923-02",
       "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-09-20",
+      "policy_event_first_seen": "2026-09-23",
       "policy_event_state": "UPDATE",
       "themes": [
         "ウクライナ・ロシア情勢"
@@ -2663,7 +2451,7 @@
           "direction": "negative",
           "direction_label": "逆風",
           "strength": "中",
-          "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "reason": "「ロシア」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
           "theme": "ウクライナ・ロシア情勢",
           "theme_id": "ukraine_russia",
           "origin": "rule",
@@ -2671,7 +2459,7 @@
           "beneficiary_tier_label": "",
           "revenue_horizon": null,
           "revenue_horizon_label": "",
-          "matched_keyword": "ウクライナ",
+          "matched_keyword": "ロシア",
           "intelligence_layer": "government_policy",
           "policy_impact_score": 44,
           "ai_capex_impact_score": null,
@@ -2684,7 +2472,7 @@
           "direction": "negative",
           "direction_label": "逆風",
           "strength": "中",
-          "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "reason": "「ロシア」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
           "theme": "ウクライナ・ロシア情勢",
           "theme_id": "ukraine_russia",
           "origin": "rule",
@@ -2692,7 +2480,7 @@
           "beneficiary_tier_label": "",
           "revenue_horizon": null,
           "revenue_horizon_label": "",
-          "matched_keyword": "ウクライナ",
+          "matched_keyword": "ロシア",
           "intelligence_layer": "government_policy",
           "policy_impact_score": 44,
           "ai_capex_impact_score": null,
@@ -2705,7 +2493,7 @@
           "direction": "negative",
           "direction_label": "逆風",
           "strength": "中",
-          "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "reason": "「ロシア」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
           "theme": "ウクライナ・ロシア情勢",
           "theme_id": "ukraine_russia",
           "origin": "rule",
@@ -2713,7 +2501,7 @@
           "beneficiary_tier_label": "",
           "revenue_horizon": null,
           "revenue_horizon_label": "",
-          "matched_keyword": "ウクライナ",
+          "matched_keyword": "ロシア",
           "intelligence_layer": "government_policy",
           "policy_impact_score": 44,
           "ai_capex_impact_score": null,
@@ -2726,7 +2514,7 @@
           "direction": "negative",
           "direction_label": "逆風",
           "strength": "中",
-          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "reason": "「ロシア」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
           "theme": "ウクライナ・ロシア情勢",
           "theme_id": "ukraine_russia",
           "origin": "rule",
@@ -2734,7 +2522,7 @@
           "beneficiary_tier_label": "",
           "revenue_horizon": null,
           "revenue_horizon_label": "",
-          "matched_keyword": "ウクライナ",
+          "matched_keyword": "ロシア",
           "intelligence_layer": "government_policy",
           "policy_impact_score": 44,
           "ai_capex_impact_score": null,
@@ -2747,7 +2535,7 @@
           "direction": "negative",
           "direction_label": "逆風",
           "strength": "中",
-          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "reason": "「ロシア」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
           "theme": "ウクライナ・ロシア情勢",
           "theme_id": "ukraine_russia",
           "origin": "rule",
@@ -2755,7 +2543,7 @@
           "beneficiary_tier_label": "",
           "revenue_horizon": null,
           "revenue_horizon_label": "",
-          "matched_keyword": "ウクライナ",
+          "matched_keyword": "ロシア",
           "intelligence_layer": "government_policy",
           "policy_impact_score": 44,
           "ai_capex_impact_score": null,
@@ -2768,7 +2556,7 @@
           "direction": "negative",
           "direction_label": "逆風",
           "strength": "小",
-          "reason": "「ウクライナ」に反応: 穀物相場の変動が原材料コストに影響しやすい",
+          "reason": "「ロシア」に反応: 穀物相場の変動が原材料コストに影響しやすい",
           "theme": "ウクライナ・ロシア情勢",
           "theme_id": "ukraine_russia",
           "origin": "rule",
@@ -2776,7 +2564,7 @@
           "beneficiary_tier_label": "",
           "revenue_horizon": null,
           "revenue_horizon_label": "",
-          "matched_keyword": "ウクライナ",
+          "matched_keyword": "ロシア",
           "intelligence_layer": "government_policy",
           "policy_impact_score": 39,
           "ai_capex_impact_score": null,
@@ -2789,7 +2577,7 @@
           "direction": "negative",
           "direction_label": "逆風",
           "strength": "小",
-          "reason": "「ウクライナ」に反応: 穀物相場の変動が原材料コストに影響しやすい",
+          "reason": "「ロシア」に反応: 穀物相場の変動が原材料コストに影響しやすい",
           "theme": "ウクライナ・ロシア情勢",
           "theme_id": "ukraine_russia",
           "origin": "rule",
@@ -2797,7 +2585,7 @@
           "beneficiary_tier_label": "",
           "revenue_horizon": null,
           "revenue_horizon_label": "",
-          "matched_keyword": "ウクライナ",
+          "matched_keyword": "ロシア",
           "intelligence_layer": "government_policy",
           "policy_impact_score": 39,
           "ai_capex_impact_score": null,
@@ -2810,7 +2598,7 @@
           "direction": "negative",
           "direction_label": "逆風",
           "strength": "小",
-          "reason": "「ウクライナ」に反応: 穀物相場の変動が原材料コストに影響しやすい",
+          "reason": "「ロシア」に反応: 穀物相場の変動が原材料コストに影響しやすい",
           "theme": "ウクライナ・ロシア情勢",
           "theme_id": "ukraine_russia",
           "origin": "rule",
@@ -2818,7 +2606,7 @@
           "beneficiary_tier_label": "",
           "revenue_horizon": null,
           "revenue_horizon_label": "",
-          "matched_keyword": "ウクライナ",
+          "matched_keyword": "ロシア",
           "intelligence_layer": "government_policy",
           "policy_impact_score": 39,
           "ai_capex_impact_score": null,
@@ -2834,7 +2622,7 @@
         "政府・省庁の一次情報",
         "複数媒体での同時報道"
       ],
-      "emergence_event_count": 138,
+      "emergence_event_count": 139,
       "emergence_source_count": 46,
       "emergence_actor_type_count": 4,
       "emergence_actor_type_labels": [
@@ -2875,9 +2663,9 @@
       ],
       "emergence_first_seen": "2026-09-20",
       "emergence_window_counts": {
-        "7": 33,
-        "30": 111,
-        "90": 138
+        "7": 34,
+        "30": 112,
+        "90": 139
       },
       "emergence_timeline": [
         {
@@ -4273,6 +4061,15 @@
         {
           "date": "2026-10-26",
           "source": "産経ニュース",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-26",
+          "source": "毎日新聞",
           "signal_labels": [
             "海外の動き"
           ],
@@ -4524,7 +4321,7 @@
         "政府・省庁の一次情報",
         "複数媒体での同時報道"
       ],
-      "emergence_event_count": 138,
+      "emergence_event_count": 139,
       "emergence_source_count": 46,
       "emergence_actor_type_count": 4,
       "emergence_actor_type_labels": [
@@ -4565,9 +4362,9 @@
       ],
       "emergence_first_seen": "2026-09-20",
       "emergence_window_counts": {
-        "7": 33,
-        "30": 111,
-        "90": 138
+        "7": 34,
+        "30": 112,
+        "90": 139
       },
       "emergence_timeline": [
         {
@@ -5963,6 +5760,15 @@
         {
           "date": "2026-10-26",
           "source": "産経ニュース",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-26",
+          "source": "毎日新聞",
           "signal_labels": [
             "海外の動き"
           ],
@@ -6214,7 +6020,7 @@
         "政府・省庁の一次情報",
         "複数媒体での同時報道"
       ],
-      "emergence_event_count": 138,
+      "emergence_event_count": 139,
       "emergence_source_count": 46,
       "emergence_actor_type_count": 4,
       "emergence_actor_type_labels": [
@@ -6255,9 +6061,9 @@
       ],
       "emergence_first_seen": "2026-09-20",
       "emergence_window_counts": {
-        "7": 33,
-        "30": 111,
-        "90": 138
+        "7": 34,
+        "30": 112,
+        "90": 139
       },
       "emergence_timeline": [
         {
@@ -7653,6 +7459,15 @@
         {
           "date": "2026-10-26",
           "source": "産経ニュース",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-26",
+          "source": "毎日新聞",
           "signal_labels": [
             "海外の動き"
           ],
@@ -7904,7 +7719,7 @@
         "政府・省庁の一次情報",
         "複数媒体での同時報道"
       ],
-      "emergence_event_count": 138,
+      "emergence_event_count": 139,
       "emergence_source_count": 46,
       "emergence_actor_type_count": 4,
       "emergence_actor_type_labels": [
@@ -7945,9 +7760,9 @@
       ],
       "emergence_first_seen": "2026-09-20",
       "emergence_window_counts": {
-        "7": 33,
-        "30": 111,
-        "90": 138
+        "7": 34,
+        "30": 112,
+        "90": 139
       },
       "emergence_timeline": [
         {
@@ -9343,6 +9158,15 @@
         {
           "date": "2026-10-26",
           "source": "産経ニュース",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-26",
+          "source": "毎日新聞",
           "signal_labels": [
             "海外の動き"
           ],
@@ -9594,7 +9418,7 @@
         "政府・省庁の一次情報",
         "複数媒体での同時報道"
       ],
-      "emergence_event_count": 138,
+      "emergence_event_count": 139,
       "emergence_source_count": 46,
       "emergence_actor_type_count": 4,
       "emergence_actor_type_labels": [
@@ -9635,9 +9459,9 @@
       ],
       "emergence_first_seen": "2026-09-20",
       "emergence_window_counts": {
-        "7": 33,
-        "30": 111,
-        "90": 138
+        "7": 34,
+        "30": 112,
+        "90": 139
       },
       "emergence_timeline": [
         {
@@ -11033,6 +10857,15 @@
         {
           "date": "2026-10-26",
           "source": "産経ニュース",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-26",
+          "source": "毎日新聞",
           "signal_labels": [
             "海外の動き"
           ],
@@ -11284,7 +11117,7 @@
         "政府・省庁の一次情報",
         "複数媒体での同時報道"
       ],
-      "emergence_event_count": 138,
+      "emergence_event_count": 139,
       "emergence_source_count": 46,
       "emergence_actor_type_count": 4,
       "emergence_actor_type_labels": [
@@ -11325,9 +11158,9 @@
       ],
       "emergence_first_seen": "2026-09-20",
       "emergence_window_counts": {
-        "7": 33,
-        "30": 111,
-        "90": 138
+        "7": 34,
+        "30": 112,
+        "90": 139
       },
       "emergence_timeline": [
         {
@@ -12728,6 +12561,15 @@
           ],
           "actor_type_labels": [],
           "regions": []
+        },
+        {
+          "date": "2026-10-26",
+          "source": "毎日新聞",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
         }
       ],
       "emergence_milestones": [
@@ -12762,6 +12604,54 @@
         "recent_new_actor_types": 1,
         "total_actor_types": 4
       }
+    },
+    {
+      "id": "9e1206d5be83",
+      "title": "今週の【重要イベント】FOMC、米個人所得、日銀金融政策決定会合 (10月26日～11月1日) 投稿日時： 2026/10/25 17:30[株探]",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE40VUk4bnJuRTRZWnYwTHF1Ync2Q2hKOWRZUkdpczJqOURHMXN4S2RZdV9XWVhUaks4elRlaVdXNWZCUmZKbEE?oc=5",
+      "source": "みんかぶ",
+      "source_tier": "commentary",
+      "source_tier_label": "市場解説",
+      "published_at": "2026-10-25 17:30",
+      "published_ts": 1792917000.0,
+      "category": "policy",
+      "category_label": "金融政策・金利",
+      "category_emoji": "🏦",
+      "importance": 3,
+      "importance_reason": "重要語「金融政策決定会合」",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
     },
     {
       "id": "9236454cecc7",
@@ -13051,8 +12941,8 @@
       "source": "Yahoo!ファイナンス",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
-      "published_at": "2026-10-25 21:17",
-      "published_ts": 1792930624.0,
+      "published_at": "2026-10-26 00:21",
+      "published_ts": 1792941692.0,
       "category": "us",
       "category_label": "米国市場",
       "category_emoji": "🇺🇸",
@@ -13557,185 +13447,6 @@
       }
     },
     {
-      "id": "dca87733632c",
-      "title": "米商務省、核融合向けや縦型GaNなど4社に最大3億8,900万ドル 政府は少数株式を取得へ ｜Seizo Trend",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1qOHlodExiYmtQd0h1VzZKU3d6bnhTeXdkWl9oMzFXcWRvVGhYOVpIdW1fRUx4SmFYakZna2RsbFc2MlRTdURkbXY0ZjB4UUU?oc=5",
-      "source": "ビジネス+IT",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-10-25 02:19",
-      "published_ts": 1792862340.0,
-      "category": "resources",
-      "category_label": "資源・エネルギー",
-      "category_emoji": "🛢️",
-      "importance": 2,
-      "importance_reason": "影響テーマ「核融合エネルギー」に該当",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "low",
-      "news_novelty_label": "再報道",
-      "policy_event_id": "fusion-20261025-01",
-      "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-10-25",
-      "policy_event_state": "UPDATE",
-      "themes": [
-        "核融合エネルギー"
-      ],
-      "theme_ids": [
-        "fusion"
-      ],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [
-        {
-          "code": "5401",
-          "name": "日本製鉄",
-          "sector": "鉄鋼",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「核融合」に反応: 核融合関連の投資・受注・提携観測が材料視されやすい",
-          "theme": "核融合エネルギー",
-          "theme_id": "fusion",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "核融合",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "5802",
-          "name": "住友電気工業",
-          "sector": "非鉄金属",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「核融合」に反応: 核融合関連の投資・受注・提携観測が材料視されやすい",
-          "theme": "核融合エネルギー",
-          "theme_id": "fusion",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "核融合",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "5801",
-          "name": "古河電気工業",
-          "sector": "非鉄金属",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「核融合」に反応: 核融合関連の投資・受注・提携観測が材料視されやすい",
-          "theme": "核融合エネルギー",
-          "theme_id": "fusion",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "核融合",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "5803",
-          "name": "フジクラ",
-          "sector": "非鉄金属",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「核融合」に反応: 核融合関連の投資・受注・提携観測が材料視されやすい",
-          "theme": "核融合エネルギー",
-          "theme_id": "fusion",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "核融合",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7011",
-          "name": "三菱重工業",
-          "sector": "機械",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「核融合」に反応: 核融合関連の投資・受注・提携観測が材料視されやすい",
-          "theme": "核融合エネルギー",
-          "theme_id": "fusion",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "核融合",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7013",
-          "name": "IHI",
-          "sector": "機械",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「核融合」に反応: 核融合関連の投資・受注・提携観測が材料視されやすい",
-          "theme": "核融合エネルギー",
-          "theme_id": "fusion",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "核融合",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        }
-      ],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
       "id": "613eda142dd3",
       "title": "ドル円見通し｜今後どうなる？ 158円台の膠着崩れ156円台へ 原油116ドルでも円高【相場の現在地】2026/10/24",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9CVloyMUtuT3otVkhDNEFpUHJkY2xEOEdLazVqeXRLckV3ZWE3MlFfUGJMUG5kdU9hMnFNaWZwdEJzNDdMMjRkU1p5MUMwSGJRcTJlLWNiTFlUSmhIYW8xLVQyUQ?oc=5",
@@ -13957,240 +13668,19 @@
       "emergence_growth": {}
     },
     {
-      "id": "cf2a2b26350d",
-      "title": "「アジアGXコンソーシアム」ハイレベル会合2026の開催について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r8/sonota/20261023/20261023.html",
-      "source": "金融庁",
+      "id": "6a48ab2f7772",
+      "title": "自治行政局行政課総務室 非常勤職員採用情報",
+      "url": "https://www.soumu.go.jp/menu_syokai/saiyou/detail/02gyosei01_04000556.html",
+      "source": "総務省",
       "source_tier": "primary",
       "source_tier_label": "一次情報",
-      "published_at": "2026-10-24 04:10",
-      "published_ts": 1792782600.0,
+      "published_at": "2026-10-26 05:00",
+      "published_ts": 1792958400.0,
       "category": "japan",
       "category_label": "日本経済・政治",
       "category_emoji": "🗾",
-      "importance": 2,
-      "importance_reason": "影響テーマ「GX・脱炭素政策」に該当",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "low",
-      "news_novelty_label": "再報道",
-      "policy_event_id": "gx_decarbonization-20261023-02",
-      "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-10-23",
-      "policy_event_state": "UPDATE",
-      "themes": [
-        "GX・脱炭素政策"
-      ],
-      "theme_ids": [
-        "gx_decarbonization"
-      ],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [
-        {
-          "code": "6501",
-          "name": "日立製作所",
-          "sector": "電気機器",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "中",
-          "reason": "「GX」に反応: GX関連の投資拡大・規制強化の両方が起こりうるテーマ。見出しの内容次第で方向が変わる",
-          "theme": "GX・脱炭素政策",
-          "theme_id": "gx_decarbonization",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "GX",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 52,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "6503",
-          "name": "三菱電機",
-          "sector": "電気機器",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "中",
-          "reason": "「GX」に反応: GX関連の投資拡大・規制強化の両方が起こりうるテーマ。見出しの内容次第で方向が変わる",
-          "theme": "GX・脱炭素政策",
-          "theme_id": "gx_decarbonization",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "GX",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 52,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "9501",
-          "name": "東京電力ホールディングス",
-          "sector": "電気・ガス",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "中",
-          "reason": "「GX」に反応: GX関連の投資拡大・規制強化の両方が起こりうるテーマ。見出しの内容次第で方向が変わる",
-          "theme": "GX・脱炭素政策",
-          "theme_id": "gx_decarbonization",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "GX",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 52,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "9503",
-          "name": "関西電力",
-          "sector": "電気・ガス",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "中",
-          "reason": "「GX」に反応: GX関連の投資拡大・規制強化の両方が起こりうるテーマ。見出しの内容次第で方向が変わる",
-          "theme": "GX・脱炭素政策",
-          "theme_id": "gx_decarbonization",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "GX",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 52,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "9502",
-          "name": "中部電力",
-          "sector": "電気・ガス",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "中",
-          "reason": "「GX」に反応: GX関連の投資拡大・規制強化の両方が起こりうるテーマ。見出しの内容次第で方向が変わる",
-          "theme": "GX・脱炭素政策",
-          "theme_id": "gx_decarbonization",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "GX",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 52,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "4063",
-          "name": "信越化学工業",
-          "sector": "化学",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "小",
-          "reason": "「GX」に反応: 電力・重電向けの部材や水素関連事業を通じて間接的に波及しうる",
-          "theme": "GX・脱炭素政策",
-          "theme_id": "gx_decarbonization",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "GX",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "4004",
-          "name": "レゾナック・ホールディングス",
-          "sector": "化学",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "小",
-          "reason": "「GX」に反応: 電力・重電向けの部材や水素関連事業を通じて間接的に波及しうる",
-          "theme": "GX・脱炭素政策",
-          "theme_id": "gx_decarbonization",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "GX",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "6988",
-          "name": "日東電工",
-          "sector": "化学",
-          "direction": "watch",
-          "direction_label": "注目",
-          "strength": "小",
-          "reason": "「GX」に反応: 電力・重電向けの部材や水素関連事業を通じて間接的に波及しうる",
-          "theme": "GX・脱炭素政策",
-          "theme_id": "gx_decarbonization",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "GX",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 46,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        }
-      ],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "ce5f7c3808c8",
-      "title": "高市総理はミクロネシア連邦のウェズリー・Ｗ・シミナ大統領と首脳会談を行いました",
-      "url": "https://www.kantei.go.jp/jp/105/actions/202610/23micronesia.html",
-      "source": "首相官邸",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-10-24 02:40",
-      "published_ts": 1792777200.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 2,
-      "importance_reason": "重要語「大統領」",
+      "importance": 1,
+      "importance_reason": "一般的な市況ニュース",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
@@ -14226,17 +13716,17 @@
       "emergence_growth": {}
     },
     {
-      "id": "6a48ab2f7772",
-      "title": "自治行政局行政課総務室 非常勤職員採用情報",
-      "url": "https://www.soumu.go.jp/menu_syokai/saiyou/detail/02gyosei01_04000556.html",
-      "source": "総務省",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-10-26 05:00",
-      "published_ts": 1792958400.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
+      "id": "a0aee6833ce4",
+      "title": "アメリカ ドル / 日本 円【USDJPY=X】：為替レート・相場",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBQa1U5NTk2aS1xRjBZb0dxSzJocWtGel9GdVBUTEx4TVhJY0R1cHB1aGlFZnltb1dpQ3lYVmd2M09TUnMxXzV2cE1GR1kxbGhHWXNGUQ?oc=5",
+      "source": "Yahoo!ファイナンス",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-10-26 02:54",
+      "published_ts": 1792950857.0,
+      "category": "fx",
+      "category_label": "為替",
+      "category_emoji": "💱",
       "importance": 1,
       "importance_reason": "一般的な市況ニュース",
       "future_signal": false,
@@ -14333,54 +13823,6 @@
       "category": "market",
       "category_label": "株式市況",
       "category_emoji": "📈",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "a0aee6833ce4",
-      "title": "アメリカ ドル / 日本 円【USDJPY=X】：為替レート・相場",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBQa1U5NTk2aS1xRjBZb0dxSzJocWtGel9GdVBUTEx4TVhJY0R1cHB1aGlFZnltb1dpQ3lYVmd2M09TUnMxXzV2cE1GR1kxbGhHWXNGUQ?oc=5",
-      "source": "Yahoo!ファイナンス",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-10-25 20:51",
-      "published_ts": 1792929061.0,
-      "category": "fx",
-      "category_label": "為替",
-      "category_emoji": "💱",
       "importance": 1,
       "importance_reason": "一般的な市況ニュース",
       "future_signal": false,
@@ -14564,39 +14006,6 @@
   ],
   "stock_ranking": [
     {
-      "code": "6503",
-      "name": "三菱電機",
-      "sector": "電気機器",
-      "positive": 0,
-      "negative": 7,
-      "watch": 1,
-      "score": -28,
-      "news": [
-        {
-          "title": "ウクライナ南部で局地停戦 ２７日から、前線都市へ人道支援搬入―メラニア夫人が仲介",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE92R0RjbmZPS1ZlOVVWUTMxcHQ2VzhTSzd4c3R4a2lkb1lwamtYdGpPUUc5enZUTS1hb0VnaGFEdEc1bzJQZkM1dTlaY2xaRU4wRzcwVlowWXNzMk55THlFU0NBNA?oc=5",
-          "direction": "negative",
-          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
-          "importance": 4
-        },
-        {
-          "title": "メラニア夫人が仲介 ロシア・ウクライナが“局地的停戦”で合意 「彼女が自ら始めた取り組み」トランプ大統領も成果強調",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQTmp3QjlKaFI5TWhlc1VhZk9DdnZIenhRcG5kRDlybW8yeWswUEFLZFc1alM2Mi1Eak80NDk1dENDZGtYUzFiRExDN09SUFAxYUZ0c3czUTNUeXJfbTA1UTVweFZDTm5hYmlnSnJVOW5Gdmw5VmNvNXdCM196cGM?oc=5",
-          "direction": "negative",
-          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
-          "importance": 4
-        },
-        {
-          "title": "ウクライナとロシア 部分停戦",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5sYXBXWktEb2VSd1B4NnpCbFlGM3RWTkJlN2FRX0VLb1RCOXJHWU9WblltLXVXVkFUWms1NkxNdWNyWDFvODQxUFVTemZxbUJpdkhha1BGUENGSUc4QWE3Ym5R?oc=5",
-          "direction": "negative",
-          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
-          "importance": 4
-        }
-      ],
-      "mentions": 8
-    },
-    {
       "code": "8058",
       "name": "三菱商事",
       "sector": "卸売",
@@ -14613,10 +14022,10 @@
           "importance": 4
         },
         {
-          "title": "メラニア夫人が仲介 ロシア・ウクライナが“局地的停戦”で合意 「彼女が自ら始めた取り組み」トランプ大統領も成果強調",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQTmp3QjlKaFI5TWhlc1VhZk9DdnZIenhRcG5kRDlybW8yeWswUEFLZFc1alM2Mi1Eak80NDk1dENDZGtYUzFiRExDN09SUFAxYUZ0c3czUTNUeXJfbTA1UTVweFZDTm5hYmlnSnJVOW5Gdmw5VmNvNXdCM196cGM?oc=5",
+          "title": "「一部で停戦始まる」とロシア主張 「住民の安全確保のため」",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lZ0F2UkVHTnRNVWo5X1RJN2w3a0c4Qmp3RkNkM3VyRWFnbnlfeHplRko4WnVBdHM4d3UyM1BLcjlubFZBX0ZHNTRST0FSci1xNlR6My1JNDFab1pzNVYyR3VPM2lvRmJi?oc=5",
           "direction": "negative",
-          "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "reason": "「ロシア」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
           "importance": 4
         },
         {
@@ -14646,10 +14055,10 @@
           "importance": 4
         },
         {
-          "title": "メラニア夫人が仲介 ロシア・ウクライナが“局地的停戦”で合意 「彼女が自ら始めた取り組み」トランプ大統領も成果強調",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQTmp3QjlKaFI5TWhlc1VhZk9DdnZIenhRcG5kRDlybW8yeWswUEFLZFc1alM2Mi1Eak80NDk1dENDZGtYUzFiRExDN09SUFAxYUZ0c3czUTNUeXJfbTA1UTVweFZDTm5hYmlnSnJVOW5Gdmw5VmNvNXdCM196cGM?oc=5",
+          "title": "「一部で停戦始まる」とロシア主張 「住民の安全確保のため」",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lZ0F2UkVHTnRNVWo5X1RJN2w3a0c4Qmp3RkNkM3VyRWFnbnlfeHplRko4WnVBdHM4d3UyM1BLcjlubFZBX0ZHNTRST0FSci1xNlR6My1JNDFab1pzNVYyR3VPM2lvRmJi?oc=5",
           "direction": "negative",
-          "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "reason": "「ロシア」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
           "importance": 4
         },
         {
@@ -14679,10 +14088,10 @@
           "importance": 4
         },
         {
-          "title": "メラニア夫人が仲介 ロシア・ウクライナが“局地的停戦”で合意 「彼女が自ら始めた取り組み」トランプ大統領も成果強調",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQTmp3QjlKaFI5TWhlc1VhZk9DdnZIenhRcG5kRDlybW8yeWswUEFLZFc1alM2Mi1Eak80NDk1dENDZGtYUzFiRExDN09SUFAxYUZ0c3czUTNUeXJfbTA1UTVweFZDTm5hYmlnSnJVOW5Gdmw5VmNvNXdCM196cGM?oc=5",
+          "title": "「一部で停戦始まる」とロシア主張 「住民の安全確保のため」",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lZ0F2UkVHTnRNVWo5X1RJN2w3a0c4Qmp3RkNkM3VyRWFnbnlfeHplRko4WnVBdHM4d3UyM1BLcjlubFZBX0ZHNTRST0FSci1xNlR6My1JNDFab1pzNVYyR3VPM2lvRmJi?oc=5",
           "direction": "negative",
-          "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "reason": "「ロシア」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
           "importance": 4
         },
         {
@@ -14690,6 +14099,39 @@
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5sYXBXWktEb2VSd1B4NnpCbFlGM3RWTkJlN2FRX0VLb1RCOXJHWU9WblltLXVXVkFUWms1NkxNdWNyWDFvODQxUFVTemZxbUJpdkhha1BGUENGSUc4QWE3Ym5R?oc=5",
           "direction": "negative",
           "reason": "「ウクライナ」に反応: 資源価格・LNG権益への思惑が働きやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "importance": 4
+        }
+      ],
+      "mentions": 7
+    },
+    {
+      "code": "6503",
+      "name": "三菱電機",
+      "sector": "電気機器",
+      "positive": 0,
+      "negative": 7,
+      "watch": 0,
+      "score": -28,
+      "news": [
+        {
+          "title": "ウクライナ南部で局地停戦 ２７日から、前線都市へ人道支援搬入―メラニア夫人が仲介",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE92R0RjbmZPS1ZlOVVWUTMxcHQ2VzhTSzd4c3R4a2lkb1lwamtYdGpPUUc5enZUTS1hb0VnaGFEdEc1bzJQZkM1dTlaY2xaRU4wRzcwVlowWXNzMk55THlFU0NBNA?oc=5",
+          "direction": "negative",
+          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "importance": 4
+        },
+        {
+          "title": "「一部で停戦始まる」とロシア主張 「住民の安全確保のため」",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lZ0F2UkVHTnRNVWo5X1RJN2w3a0c4Qmp3RkNkM3VyRWFnbnlfeHplRko4WnVBdHM4d3UyM1BLcjlubFZBX0ZHNTRST0FSci1xNlR6My1JNDFab1pzNVYyR3VPM2lvRmJi?oc=5",
+          "direction": "negative",
+          "reason": "「ロシア」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "importance": 4
+        },
+        {
+          "title": "ウクライナとロシア 部分停戦",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5sYXBXWktEb2VSd1B4NnpCbFlGM3RWTkJlN2FRX0VLb1RCOXJHWU9WblltLXVXVkFUWms1NkxNdWNyWDFvODQxUFVTemZxbUJpdkhha1BGUENGSUc4QWE3Ym5R?oc=5",
+          "direction": "negative",
+          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
           "importance": 4
         }
       ],
@@ -14712,10 +14154,10 @@
           "importance": 4
         },
         {
-          "title": "メラニア夫人が仲介 ロシア・ウクライナが“局地的停戦”で合意 「彼女が自ら始めた取り組み」トランプ大統領も成果強調",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQTmp3QjlKaFI5TWhlc1VhZk9DdnZIenhRcG5kRDlybW8yeWswUEFLZFc1alM2Mi1Eak80NDk1dENDZGtYUzFiRExDN09SUFAxYUZ0c3czUTNUeXJfbTA1UTVweFZDTm5hYmlnSnJVOW5Gdmw5VmNvNXdCM196cGM?oc=5",
+          "title": "「一部で停戦始まる」とロシア主張 「住民の安全確保のため」",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lZ0F2UkVHTnRNVWo5X1RJN2w3a0c4Qmp3RkNkM3VyRWFnbnlfeHplRko4WnVBdHM4d3UyM1BLcjlubFZBX0ZHNTRST0FSci1xNlR6My1JNDFab1pzNVYyR3VPM2lvRmJi?oc=5",
           "direction": "negative",
-          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "reason": "「ロシア」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
           "importance": 4
         },
         {
@@ -14745,10 +14187,10 @@
           "importance": 4
         },
         {
-          "title": "メラニア夫人が仲介 ロシア・ウクライナが“局地的停戦”で合意 「彼女が自ら始めた取り組み」トランプ大統領も成果強調",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQTmp3QjlKaFI5TWhlc1VhZk9DdnZIenhRcG5kRDlybW8yeWswUEFLZFc1alM2Mi1Eak80NDk1dENDZGtYUzFiRExDN09SUFAxYUZ0c3czUTNUeXJfbTA1UTVweFZDTm5hYmlnSnJVOW5Gdmw5VmNvNXdCM196cGM?oc=5",
+          "title": "「一部で停戦始まる」とロシア主張 「住民の安全確保のため」",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lZ0F2UkVHTnRNVWo5X1RJN2w3a0c4Qmp3RkNkM3VyRWFnbnlfeHplRko4WnVBdHM4d3UyM1BLcjlubFZBX0ZHNTRST0FSci1xNlR6My1JNDFab1pzNVYyR3VPM2lvRmJi?oc=5",
           "direction": "negative",
-          "reason": "「ウクライナ」に反応: 穀物相場の変動が原材料コストに影響しやすい",
+          "reason": "「ロシア」に反応: 穀物相場の変動が原材料コストに影響しやすい",
           "importance": 4
         },
         {
@@ -14778,10 +14220,10 @@
           "importance": 4
         },
         {
-          "title": "メラニア夫人が仲介 ロシア・ウクライナが“局地的停戦”で合意 「彼女が自ら始めた取り組み」トランプ大統領も成果強調",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQTmp3QjlKaFI5TWhlc1VhZk9DdnZIenhRcG5kRDlybW8yeWswUEFLZFc1alM2Mi1Eak80NDk1dENDZGtYUzFiRExDN09SUFAxYUZ0c3czUTNUeXJfbTA1UTVweFZDTm5hYmlnSnJVOW5Gdmw5VmNvNXdCM196cGM?oc=5",
+          "title": "「一部で停戦始まる」とロシア主張 「住民の安全確保のため」",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lZ0F2UkVHTnRNVWo5X1RJN2w3a0c4Qmp3RkNkM3VyRWFnbnlfeHplRko4WnVBdHM4d3UyM1BLcjlubFZBX0ZHNTRST0FSci1xNlR6My1JNDFab1pzNVYyR3VPM2lvRmJi?oc=5",
           "direction": "negative",
-          "reason": "「ウクライナ」に反応: 穀物相場の変動が原材料コストに影響しやすい",
+          "reason": "「ロシア」に反応: 穀物相場の変動が原材料コストに影響しやすい",
           "importance": 4
         },
         {
@@ -14811,10 +14253,10 @@
           "importance": 4
         },
         {
-          "title": "メラニア夫人が仲介 ロシア・ウクライナが“局地的停戦”で合意 「彼女が自ら始めた取り組み」トランプ大統領も成果強調",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQTmp3QjlKaFI5TWhlc1VhZk9DdnZIenhRcG5kRDlybW8yeWswUEFLZFc1alM2Mi1Eak80NDk1dENDZGtYUzFiRExDN09SUFAxYUZ0c3czUTNUeXJfbTA1UTVweFZDTm5hYmlnSnJVOW5Gdmw5VmNvNXdCM196cGM?oc=5",
+          "title": "「一部で停戦始まる」とロシア主張 「住民の安全確保のため」",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lZ0F2UkVHTnRNVWo5X1RJN2w3a0c4Qmp3RkNkM3VyRWFnbnlfeHplRko4WnVBdHM4d3UyM1BLcjlubFZBX0ZHNTRST0FSci1xNlR6My1JNDFab1pzNVYyR3VPM2lvRmJi?oc=5",
           "direction": "negative",
-          "reason": "「ウクライナ」に反応: 穀物相場の変動が原材料コストに影響しやすい",
+          "reason": "「ロシア」に反応: 穀物相場の変動が原材料コストに影響しやすい",
           "importance": 4
         },
         {
@@ -14861,39 +14303,6 @@
       "mentions": 3
     },
     {
-      "code": "4063",
-      "name": "信越化学工業",
-      "sector": "化学",
-      "positive": 1,
-      "negative": 1,
-      "watch": 1,
-      "score": 2,
-      "news": [
-        {
-          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: ウエハー・材料の需要増が業績に波及しやすい",
-          "importance": 4
-        },
-        {
-          "title": "駐日米大使、中国のレアアース規制を「再軍事化は口実」と批判 対日輸出管理と「核保有」主張の矛盾を検証",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeGVQRDV1aUFpV3JNOFpRc3h1T1BqdHhDV1ktWWVjUTN4ZzdFaTUzX0tmWVhZbnJtMkw4UzM4WFhaWTl0OHUwT0k0NUtTN2QyT2hPWEpaMkwzaGFwR0VxaDEtQzRFVDd2WTFnM2hLWE8tYU51cUdYcThaX0hneGoyQzdDTzVCbDVBaWtfVDFtaXp5M2FkWEdVcWxmei16N0ptUk1nOUlCSFl3dw?oc=5",
-          "direction": "negative",
-          "reason": "「レアアース」に反応: 永久磁石などレアアース由来部材の調達コスト上昇・供給不安が意識されやすい",
-          "importance": 2
-        },
-        {
-          "title": "「アジアGXコンソーシアム」ハイレベル会合2026の開催について公表しました。",
-          "url": "https://www.fsa.go.jp/news/r8/sonota/20261023/20261023.html",
-          "direction": "watch",
-          "reason": "「GX」に反応: 電力・重電向けの部材や水素関連事業を通じて間接的に波及しうる",
-          "importance": 2
-        }
-      ],
-      "mentions": 3
-    },
-    {
       "code": "8035",
       "name": "東京エレクトロン",
       "sector": "電気機器",
@@ -14915,32 +14324,6 @@
           "direction": "watch",
           "reason": "「中国 消費」に反応: 中国売上比率が高く、現地景気の変化が業績に直結しやすい",
           "importance": 3
-        }
-      ],
-      "mentions": 2
-    },
-    {
-      "code": "4004",
-      "name": "レゾナック・ホールディングス",
-      "sector": "化学",
-      "positive": 1,
-      "negative": 0,
-      "watch": 1,
-      "score": 4,
-      "news": [
-        {
-          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: ウエハー・材料の需要増が業績に波及しやすい",
-          "importance": 4
-        },
-        {
-          "title": "「アジアGXコンソーシアム」ハイレベル会合2026の開催について公表しました。",
-          "url": "https://www.fsa.go.jp/news/r8/sonota/20261023/20261023.html",
-          "direction": "watch",
-          "reason": "「GX」に反応: 電力・重電向けの部材や水素関連事業を通じて間接的に波及しうる",
-          "importance": 2
         }
       ],
       "mentions": 2
@@ -14972,141 +14355,179 @@
       "mentions": 2
     },
     {
-      "code": "5401",
-      "name": "日本製鉄",
-      "sector": "鉄鋼",
+      "code": "4063",
+      "name": "信越化学工業",
+      "sector": "化学",
       "positive": 1,
-      "negative": 0,
-      "watch": 1,
+      "negative": 1,
+      "watch": 0,
       "score": 2,
       "news": [
         {
-          "title": "中国人観光客が激減しても「日本観光」は本当に大丈夫なのか？ 9月は前年比45%減！ 消費額が過去最高でも地域に恩恵が行き渡らないのはなぜか――観光業の明暗を分けるものとは",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4zMWxHeFBfT0lubE93UkZUNF9hUjlVZVpZRnpQUjIxOUsyYzVYQlAtWTd4M3JXRUZTMXNTS3h6aTlmMXZsN1puaU1aVmFMSU1HcklWbHpDODRraXF3OWg5WEx3QWYyY3E5Ri1Bdkpn?oc=5",
-          "direction": "watch",
-          "reason": "「中国 消費」に反応: 中国売上比率が高く、現地景気の変化が業績に直結しやすい",
-          "importance": 3
+          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: ウエハー・材料の需要増が業績に波及しやすい",
+          "importance": 4
         },
         {
-          "title": "米商務省、核融合向けや縦型GaNなど4社に最大3億8,900万ドル 政府は少数株式を取得へ ｜Seizo Trend",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1qOHlodExiYmtQd0h1VzZKU3d6bnhTeXdkWl9oMzFXcWRvVGhYOVpIdW1fRUx4SmFYakZna2RsbFc2MlRTdURkbXY0ZjB4UUU?oc=5",
-          "direction": "positive",
-          "reason": "「核融合」に反応: 核融合関連の投資・受注・提携観測が材料視されやすい",
+          "title": "駐日米大使、中国のレアアース規制を「再軍事化は口実」と批判 対日輸出管理と「核保有」主張の矛盾を検証",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeGVQRDV1aUFpV3JNOFpRc3h1T1BqdHhDV1ktWWVjUTN4ZzdFaTUzX0tmWVhZbnJtMkw4UzM4WFhaWTl0OHUwT0k0NUtTN2QyT2hPWEpaMkwzaGFwR0VxaDEtQzRFVDd2WTFnM2hLWE8tYU51cUdYcThaX0hneGoyQzdDTzVCbDVBaWtfVDFtaXp5M2FkWEdVcWxmei16N0ptUk1nOUlCSFl3dw?oc=5",
+          "direction": "negative",
+          "reason": "「レアアース」に反応: 永久磁石などレアアース由来部材の調達コスト上昇・供給不安が意識されやすい",
           "importance": 2
         }
       ],
       "mentions": 2
     },
     {
-      "code": "2413",
-      "name": "エムスリー",
-      "sector": "サービス",
+      "code": "6857",
+      "name": "アドバンテスト",
+      "sector": "電気機器",
       "positive": 1,
       "negative": 0,
       "watch": 0,
-      "score": 5,
+      "score": 4,
       "news": [
         {
-          "title": "ＦＲＢが来年に「大幅利下げ」を実施する確率が上昇",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDZTNoV01lWFhNSno3Mzdsc3JtNDNGSXp4UU5XYnRQcExDdDBla3NrY2FnMEloSUNEMmNlaXZzdkZlaWZHX0ZOTnBka25TRTdoQTZnYXJXVnFDZFpKd0VlZQ?oc=5",
+          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
           "direction": "positive",
-          "reason": "「利下げ」に反応: 金利低下は割引率低下・調達コスト低下につながり、成長株や不動産に追い風になりやすい",
-          "importance": 5
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 4
         }
       ],
       "mentions": 1
     },
     {
-      "code": "4385",
-      "name": "メルカリ",
-      "sector": "情報・通信",
+      "code": "6920",
+      "name": "レーザーテック",
+      "sector": "電気機器",
       "positive": 1,
       "negative": 0,
       "watch": 0,
-      "score": 5,
+      "score": 4,
       "news": [
         {
-          "title": "ＦＲＢが来年に「大幅利下げ」を実施する確率が上昇",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDZTNoV01lWFhNSno3Mzdsc3JtNDNGSXp4UU5XYnRQcExDdDBla3NrY2FnMEloSUNEMmNlaXZzdkZlaWZHX0ZOTnBka25TRTdoQTZnYXJXVnFDZFpKd0VlZQ?oc=5",
+          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
           "direction": "positive",
-          "reason": "「利下げ」に反応: 金利低下は割引率低下・調達コスト低下につながり、成長株や不動産に追い風になりやすい",
-          "importance": 5
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 4
         }
       ],
       "mentions": 1
     },
     {
-      "code": "8801",
-      "name": "三井不動産",
-      "sector": "不動産",
+      "code": "6146",
+      "name": "ディスコ",
+      "sector": "機械",
       "positive": 1,
       "negative": 0,
       "watch": 0,
-      "score": 5,
+      "score": 4,
       "news": [
         {
-          "title": "ＦＲＢが来年に「大幅利下げ」を実施する確率が上昇",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDZTNoV01lWFhNSno3Mzdsc3JtNDNGSXp4UU5XYnRQcExDdDBla3NrY2FnMEloSUNEMmNlaXZzdkZlaWZHX0ZOTnBka25TRTdoQTZnYXJXVnFDZFpKd0VlZQ?oc=5",
+          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
           "direction": "positive",
-          "reason": "「利下げ」に反応: 金利低下は割引率低下・調達コスト低下につながり、成長株や不動産に追い風になりやすい",
-          "importance": 5
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 4
         }
       ],
       "mentions": 1
     },
     {
-      "code": "8802",
-      "name": "三菱地所",
-      "sector": "不動産",
+      "code": "7735",
+      "name": "SCREENホールディングス",
+      "sector": "電気機器",
       "positive": 1,
       "negative": 0,
       "watch": 0,
-      "score": 5,
+      "score": 4,
       "news": [
         {
-          "title": "ＦＲＢが来年に「大幅利下げ」を実施する確率が上昇",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDZTNoV01lWFhNSno3Mzdsc3JtNDNGSXp4UU5XYnRQcExDdDBla3NrY2FnMEloSUNEMmNlaXZzdkZlaWZHX0ZOTnBka25TRTdoQTZnYXJXVnFDZFpKd0VlZQ?oc=5",
+          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
           "direction": "positive",
-          "reason": "「利下げ」に反応: 金利低下は割引率低下・調達コスト低下につながり、成長株や不動産に追い風になりやすい",
-          "importance": 5
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 4
         }
       ],
       "mentions": 1
     },
     {
-      "code": "8830",
-      "name": "住友不動産",
-      "sector": "不動産",
+      "code": "3436",
+      "name": "SUMCO",
+      "sector": "金属製品",
       "positive": 1,
       "negative": 0,
       "watch": 0,
-      "score": 5,
+      "score": 4,
       "news": [
         {
-          "title": "ＦＲＢが来年に「大幅利下げ」を実施する確率が上昇",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDZTNoV01lWFhNSno3Mzdsc3JtNDNGSXp4UU5XYnRQcExDdDBla3NrY2FnMEloSUNEMmNlaXZzdkZlaWZHX0ZOTnBka25TRTdoQTZnYXJXVnFDZFpKd0VlZQ?oc=5",
+          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
           "direction": "positive",
-          "reason": "「利下げ」に反応: 金利低下は割引率低下・調達コスト低下につながり、成長株や不動産に追い風になりやすい",
-          "importance": 5
+          "reason": "「半導体」に反応: ウエハー・材料の需要増が業績に波及しやすい",
+          "importance": 4
         }
       ],
       "mentions": 1
     },
     {
-      "code": "8306",
-      "name": "三菱UFJフィナンシャル・グループ",
-      "sector": "銀行",
-      "positive": 0,
-      "negative": 1,
+      "code": "4004",
+      "name": "レゾナック・ホールディングス",
+      "sector": "化学",
+      "positive": 1,
+      "negative": 0,
       "watch": 0,
-      "score": -5,
+      "score": 4,
       "news": [
         {
-          "title": "ＦＲＢが来年に「大幅利下げ」を実施する確率が上昇",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDZTNoV01lWFhNSno3Mzdsc3JtNDNGSXp4UU5XYnRQcExDdDBla3NrY2FnMEloSUNEMmNlaXZzdkZlaWZHX0ZOTnBka25TRTdoQTZnYXJXVnFDZFpKd0VlZQ?oc=5",
-          "direction": "negative",
-          "reason": "「利下げ」に反応: 利ざや縮小が意識されやすい",
-          "importance": 5
+          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: ウエハー・材料の需要増が業績に波及しやすい",
+          "importance": 4
+        }
+      ],
+      "mentions": 1
+    },
+    {
+      "code": "2768",
+      "name": "双日",
+      "sector": "卸売",
+      "positive": 1,
+      "negative": 0,
+      "watch": 0,
+      "score": 2,
+      "news": [
+        {
+          "title": "駐日米大使、中国のレアアース規制を「再軍事化は口実」と批判 対日輸出管理と「核保有」主張の矛盾を検証",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeGVQRDV1aUFpV3JNOFpRc3h1T1BqdHhDV1ktWWVjUTN4ZzdFaTUzX0tmWVhZbnJtMkw4UzM4WFhaWTl0OHUwT0k0NUtTN2QyT2hPWEpaMkwzaGFwR0VxaDEtQzRFVDd2WTFnM2hLWE8tYU51cUdYcThaX0hneGoyQzdDTzVCbDVBaWtfVDFtaXp5M2FkWEdVcWxmei16N0ptUk1nOUlCSFl3dw?oc=5",
+          "direction": "positive",
+          "reason": "「レアアース」に反応: 権益確保・リサイクル技術など供給網の脱中国依存を進めている企業には追い風になりやすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 1
+    },
+    {
+      "code": "5713",
+      "name": "住友金属鉱山",
+      "sector": "非鉄金属",
+      "positive": 1,
+      "negative": 0,
+      "watch": 0,
+      "score": 2,
+      "news": [
+        {
+          "title": "駐日米大使、中国のレアアース規制を「再軍事化は口実」と批判 対日輸出管理と「核保有」主張の矛盾を検証",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeGVQRDV1aUFpV3JNOFpRc3h1T1BqdHhDV1ktWWVjUTN4ZzdFaTUzX0tmWVhZbnJtMkw4UzM4WFhaWTl0OHUwT0k0NUtTN2QyT2hPWEpaMkwzaGFwR0VxaDEtQzRFVDd2WTFnM2hLWE8tYU51cUdYcThaX0hneGoyQzdDTzVCbDVBaWtfVDFtaXp5M2FkWEdVcWxmei16N0ptUk1nOUlCSFl3dw?oc=5",
+          "direction": "positive",
+          "reason": "「レアアース」に反応: 権益確保・リサイクル技術など供給網の脱中国依存を進めている企業には追い風になりやすい",
+          "importance": 2
         }
       ],
       "mentions": 1
@@ -15123,7 +14544,7 @@
       "category_emoji": "🌍",
       "member_ids": [
         "686b91170843",
-        "055cb01bdce1",
+        "898dc4d956f5",
         "3dfd9e45583c",
         "dacfa1fa7790",
         "05daab7f49e0",
@@ -15139,11 +14560,11 @@
           "source": "時事ドットコム"
         },
         {
-          "id": "055cb01bdce1",
-          "title": "メラニア夫人が仲介 ロシア・ウクライナが“局地的停戦”で合意 「彼女が自ら始めた取り組み」トランプ大統領も成果強調",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQTmp3QjlKaFI5TWhlc1VhZk9DdnZIenhRcG5kRDlybW8yeWswUEFLZFc1alM2Mi1Eak80NDk1dENDZGtYUzFiRExDN09SUFAxYUZ0c3czUTNUeXJfbTA1UTVweFZDTm5hYmlnSnJVOW5Gdmw5VmNvNXdCM196cGM?oc=5",
+          "id": "898dc4d956f5",
+          "title": "「一部で停戦始まる」とロシア主張 「住民の安全確保のため」",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lZ0F2UkVHTnRNVWo5X1RJN2w3a0c4Qmp3RkNkM3VyRWFnbnlfeHplRko4WnVBdHM4d3UyM1BLcjlubFZBX0ZHNTRST0FSci1xNlR6My1JNDFab1pzNVYyR3VPM2lvRmJi?oc=5",
           "importance": 4,
-          "source": "Yahoo!ニュース"
+          "source": "毎日新聞"
         },
         {
           "id": "3dfd9e45583c",
@@ -15234,7 +14655,7 @@
         "政府・省庁の一次情報",
         "複数媒体での同時報道"
       ],
-      "emergence_event_count": 138,
+      "emergence_event_count": 139,
       "emergence_source_count": 46,
       "emergence_actor_type_count": 4,
       "emergence_actor_type_labels": [
@@ -15275,9 +14696,9 @@
       ],
       "emergence_first_seen": "2026-09-20",
       "emergence_window_counts": {
-        "7": 33,
-        "30": 111,
-        "90": 138
+        "7": 34,
+        "30": 112,
+        "90": 139
       },
       "emergence_timeline": [
         {
@@ -16678,6 +16099,15 @@
           ],
           "actor_type_labels": [],
           "regions": []
+        },
+        {
+          "date": "2026-10-26",
+          "source": "毎日新聞",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": []
         }
       ],
       "emergence_milestones": [
@@ -16712,174 +16142,6 @@
         "recent_new_actor_types": 1,
         "total_actor_types": 4
       }
-    },
-    {
-      "connection_type": "company",
-      "connection_label": "同じ企業",
-      "theme_id": null,
-      "label": "三菱電機に関するニュース",
-      "category": "",
-      "category_label": "同じ企業",
-      "category_emoji": "🏢",
-      "member_ids": [
-        "686b91170843",
-        "055cb01bdce1",
-        "3dfd9e45583c",
-        "dacfa1fa7790",
-        "05daab7f49e0",
-        "96269387370b",
-        "fe119e7d32b2",
-        "cf2a2b26350d"
-      ],
-      "members": [
-        {
-          "id": "686b91170843",
-          "title": "ウクライナ南部で局地停戦 ２７日から、前線都市へ人道支援搬入―メラニア夫人が仲介",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE92R0RjbmZPS1ZlOVVWUTMxcHQ2VzhTSzd4c3R4a2lkb1lwamtYdGpPUUc5enZUTS1hb0VnaGFEdEc1bzJQZkM1dTlaY2xaRU4wRzcwVlowWXNzMk55THlFU0NBNA?oc=5",
-          "importance": 4,
-          "source": "時事ドットコム"
-        },
-        {
-          "id": "055cb01bdce1",
-          "title": "メラニア夫人が仲介 ロシア・ウクライナが“局地的停戦”で合意 「彼女が自ら始めた取り組み」トランプ大統領も成果強調",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQTmp3QjlKaFI5TWhlc1VhZk9DdnZIenhRcG5kRDlybW8yeWswUEFLZFc1alM2Mi1Eak80NDk1dENDZGtYUzFiRExDN09SUFAxYUZ0c3czUTNUeXJfbTA1UTVweFZDTm5hYmlnSnJVOW5Gdmw5VmNvNXdCM196cGM?oc=5",
-          "importance": 4,
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "id": "3dfd9e45583c",
-          "title": "ウクライナとロシア 部分停戦",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5sYXBXWktEb2VSd1B4NnpCbFlGM3RWTkJlN2FRX0VLb1RCOXJHWU9WblltLXVXVkFUWms1NkxNdWNyWDFvODQxUFVTemZxbUJpdkhha1BGUENGSUc4QWE3Ym5R?oc=5",
-          "importance": 4,
-          "source": "テレ東BIZ"
-        },
-        {
-          "id": "dacfa1fa7790",
-          "title": "ウクライナ南部 米政権が一時停戦合意発表（ABEMA TIMES）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCaW1ubVUwdjNmcm9JNGhNSF9ibmFXdURHZ2pOV3FfOGdQZVdXeGNaUTJWX0NIOGFjUDA4V1R0TW55cmR3ajdZaldNV0NOWVk1TnpLallqZHgyUlRUX2I3ZzVKNzhHdkZIcXA4OFNZUzE1cUpHMWpXVnhISDVDbXc?oc=5",
-          "importance": 4,
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "id": "05daab7f49e0",
-          "title": "“ウクライナ南部の都市で停戦実現 メラニア夫人仲介”米政権",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8wTDd3a3c4MEJ5WGxldmhMS3NjOG81RW1SdFJPamFUNlREREdDUDNWMUczVHB0RjdYZjdrNnhPU01XdXFsU1piMlJKS0hGYWlkcGlRR3pXQjB2UkgyTUZj?oc=5",
-          "importance": 4,
-          "source": "NHKニュース"
-        },
-        {
-          "id": "96269387370b",
-          "title": "ロシアとウクライナが「局地的停戦」で合意 南部オレシュキ、米大統領夫人が仲介",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8xZlJtUE8xOVJLRmNtUHo4MVp3N0k0ak1mNzVqNFFaMXRpVXp3TE1XX2FncUNPTllwWlpDaWFxd0g0am1rbjYyWEtucmpIUXZHVGhfcWQydnVYSVNDcUs1Ul9Xb0FwNkh6QWVST3ZIc1Q3ZjJCMmc?oc=5",
-          "importance": 4,
-          "source": "産経ニュース"
-        },
-        {
-          "id": "fe119e7d32b2",
-          "title": "ウクライナの都市で停戦、メラニア氏仲介 ロシアは米に恩売る思惑か [トランプ再来]",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OR0JVZEFzYWVxaEc4SUo1VEhPUEVDV05FazRoVm9vQTQ2SmhQQTF0ZElwZVZ6NTY0dDJoNXhBMVFDMGFjZnVPWUxfODBVNllTdHROc201NTRoU1lmeG4zUVRxZTctUVU?oc=5",
-          "importance": 4,
-          "source": "朝日新聞"
-        },
-        {
-          "id": "cf2a2b26350d",
-          "title": "「アジアGXコンソーシアム」ハイレベル会合2026の開催について公表しました。",
-          "url": "https://www.fsa.go.jp/news/r8/sonota/20261023/20261023.html",
-          "importance": 2,
-          "source": "金融庁"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "6503",
-          "name": "三菱電機",
-          "positive": 0,
-          "negative": 7,
-          "watch": 1
-        }
-      ],
-      "max_importance": 4,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "connection_type": "company",
-      "connection_label": "同じ企業",
-      "theme_id": null,
-      "label": "信越化学工業に関するニュース",
-      "category": "",
-      "category_label": "同じ企業",
-      "category_emoji": "🏢",
-      "member_ids": [
-        "a3b5baa7304d",
-        "35aea00ae863",
-        "cf2a2b26350d"
-      ],
-      "members": [
-        {
-          "id": "a3b5baa7304d",
-          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
-          "importance": 4,
-          "source": "財経新聞"
-        },
-        {
-          "id": "35aea00ae863",
-          "title": "駐日米大使、中国のレアアース規制を「再軍事化は口実」と批判 対日輸出管理と「核保有」主張の矛盾を検証",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeGVQRDV1aUFpV3JNOFpRc3h1T1BqdHhDV1ktWWVjUTN4ZzdFaTUzX0tmWVhZbnJtMkw4UzM4WFhaWTl0OHUwT0k0NUtTN2QyT2hPWEpaMkwzaGFwR0VxaDEtQzRFVDd2WTFnM2hLWE8tYU51cUdYcThaX0hneGoyQzdDTzVCbDVBaWtfVDFtaXp5M2FkWEdVcWxmei16N0ptUk1nOUlCSFl3dw?oc=5",
-          "importance": 2,
-          "source": "合同会社ロケットボーイズ"
-        },
-        {
-          "id": "cf2a2b26350d",
-          "title": "「アジアGXコンソーシアム」ハイレベル会合2026の開催について公表しました。",
-          "url": "https://www.fsa.go.jp/news/r8/sonota/20261023/20261023.html",
-          "importance": 2,
-          "source": "金融庁"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "4063",
-          "name": "信越化学工業",
-          "positive": 1,
-          "negative": 1,
-          "watch": 1
-        }
-      ],
-      "max_importance": 4,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
     },
     {
       "connection_type": "company",
@@ -17002,6 +16264,118 @@
       "emergence_growth": {}
     },
     {
+      "connection_type": "company",
+      "connection_label": "同じ企業",
+      "theme_id": null,
+      "label": "信越化学工業に関するニュース",
+      "category": "",
+      "category_label": "同じ企業",
+      "category_emoji": "🏢",
+      "member_ids": [
+        "a3b5baa7304d",
+        "35aea00ae863"
+      ],
+      "members": [
+        {
+          "id": "a3b5baa7304d",
+          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
+          "importance": 4,
+          "source": "財経新聞"
+        },
+        {
+          "id": "35aea00ae863",
+          "title": "駐日米大使、中国のレアアース規制を「再軍事化は口実」と批判 対日輸出管理と「核保有」主張の矛盾を検証",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeGVQRDV1aUFpV3JNOFpRc3h1T1BqdHhDV1ktWWVjUTN4ZzdFaTUzX0tmWVhZbnJtMkw4UzM4WFhaWTl0OHUwT0k0NUtTN2QyT2hPWEpaMkwzaGFwR0VxaDEtQzRFVDd2WTFnM2hLWE8tYU51cUdYcThaX0hneGoyQzdDTzVCbDVBaWtfVDFtaXp5M2FkWEdVcWxmei16N0ptUk1nOUlCSFl3dw?oc=5",
+          "importance": 2,
+          "source": "合同会社ロケットボーイズ"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "4063",
+          "name": "信越化学工業",
+          "positive": 1,
+          "negative": 1,
+          "watch": 0
+        }
+      ],
+      "max_importance": 4,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "connection_type": "company",
+      "connection_label": "同じ企業",
+      "theme_id": null,
+      "label": "本田技研工業に関するニュース",
+      "category": "",
+      "category_label": "同じ企業",
+      "category_emoji": "🏢",
+      "member_ids": [
+        "35aea00ae863",
+        "613eda142dd3"
+      ],
+      "members": [
+        {
+          "id": "35aea00ae863",
+          "title": "駐日米大使、中国のレアアース規制を「再軍事化は口実」と批判 対日輸出管理と「核保有」主張の矛盾を検証",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeGVQRDV1aUFpV3JNOFpRc3h1T1BqdHhDV1ktWWVjUTN4ZzdFaTUzX0tmWVhZbnJtMkw4UzM4WFhaWTl0OHUwT0k0NUtTN2QyT2hPWEpaMkwzaGFwR0VxaDEtQzRFVDd2WTFnM2hLWE8tYU51cUdYcThaX0hneGoyQzdDTzVCbDVBaWtfVDFtaXp5M2FkWEdVcWxmei16N0ptUk1nOUlCSFl3dw?oc=5",
+          "importance": 2,
+          "source": "合同会社ロケットボーイズ"
+        },
+        {
+          "id": "613eda142dd3",
+          "title": "ドル円見通し｜今後どうなる？ 158円台の膠着崩れ156円台へ 原油116ドルでも円高【相場の現在地】2026/10/24",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9CVloyMUtuT3otVkhDNEFpUHJkY2xEOEdLazVqeXRLckV3ZWE3MlFfUGJMUG5kdU9hMnFNaWZwdEJzNDdMMjRkU1p5MUMwSGJRcTJlLWNiTFlUSmhIYW8xLVQyUQ?oc=5",
+          "importance": 2,
+          "source": "外為どっとコム"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "7267",
+          "name": "本田技研工業",
+          "positive": 0,
+          "negative": 2,
+          "watch": 0
+        }
+      ],
+      "max_importance": 2,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
       "connection_type": "sector",
       "connection_label": "同じ業界",
       "theme_id": null,
@@ -17012,14 +16386,13 @@
       "member_ids": [
         "a3b5baa7304d",
         "686b91170843",
-        "055cb01bdce1",
+        "898dc4d956f5",
         "3dfd9e45583c",
         "dacfa1fa7790",
         "05daab7f49e0",
         "96269387370b",
         "fe119e7d32b2",
-        "59eb1a77adc5",
-        "cf2a2b26350d"
+        "59eb1a77adc5"
       ],
       "members": [
         {
@@ -17037,11 +16410,11 @@
           "source": "時事ドットコム"
         },
         {
-          "id": "055cb01bdce1",
-          "title": "メラニア夫人が仲介 ロシア・ウクライナが“局地的停戦”で合意 「彼女が自ら始めた取り組み」トランプ大統領も成果強調",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQTmp3QjlKaFI5TWhlc1VhZk9DdnZIenhRcG5kRDlybW8yeWswUEFLZFc1alM2Mi1Eak80NDk1dENDZGtYUzFiRExDN09SUFAxYUZ0c3czUTNUeXJfbTA1UTVweFZDTm5hYmlnSnJVOW5Gdmw5VmNvNXdCM196cGM?oc=5",
+          "id": "898dc4d956f5",
+          "title": "「一部で停戦始まる」とロシア主張 「住民の安全確保のため」",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lZ0F2UkVHTnRNVWo5X1RJN2w3a0c4Qmp3RkNkM3VyRWFnbnlfeHplRko4WnVBdHM4d3UyM1BLcjlubFZBX0ZHNTRST0FSci1xNlR6My1JNDFab1pzNVYyR3VPM2lvRmJi?oc=5",
           "importance": 4,
-          "source": "Yahoo!ニュース"
+          "source": "毎日新聞"
         },
         {
           "id": "3dfd9e45583c",
@@ -17084,13 +16457,6 @@
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4zMWxHeFBfT0lubE93UkZUNF9hUjlVZVpZRnpQUjIxOUsyYzVYQlAtWTd4M3JXRUZTMXNTS3h6aTlmMXZsN1puaU1aVmFMSU1HcklWbHpDODRraXF3OWg5WEx3QWYyY3E5Ri1Bdkpn?oc=5",
           "importance": 3,
           "source": "au Webポータル"
-        },
-        {
-          "id": "cf2a2b26350d",
-          "title": "「アジアGXコンソーシアム」ハイレベル会合2026の開催について公表しました。",
-          "url": "https://www.fsa.go.jp/news/r8/sonota/20261023/20261023.html",
-          "importance": 2,
-          "source": "金融庁"
         }
       ],
       "stocks": [
@@ -17099,7 +16465,7 @@
           "name": "三菱電機",
           "positive": 0,
           "negative": 7,
-          "watch": 1
+          "watch": 0
         },
         {
           "code": "6701",
@@ -17166,7 +16532,7 @@
       "category_emoji": "🏭",
       "member_ids": [
         "686b91170843",
-        "055cb01bdce1",
+        "898dc4d956f5",
         "3dfd9e45583c",
         "dacfa1fa7790",
         "05daab7f49e0",
@@ -17183,11 +16549,11 @@
           "source": "時事ドットコム"
         },
         {
-          "id": "055cb01bdce1",
-          "title": "メラニア夫人が仲介 ロシア・ウクライナが“局地的停戦”で合意 「彼女が自ら始めた取り組み」トランプ大統領も成果強調",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQTmp3QjlKaFI5TWhlc1VhZk9DdnZIenhRcG5kRDlybW8yeWswUEFLZFc1alM2Mi1Eak80NDk1dENDZGtYUzFiRExDN09SUFAxYUZ0c3czUTNUeXJfbTA1UTVweFZDTm5hYmlnSnJVOW5Gdmw5VmNvNXdCM196cGM?oc=5",
+          "id": "898dc4d956f5",
+          "title": "「一部で停戦始まる」とロシア主張 「住民の安全確保のため」",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lZ0F2UkVHTnRNVWo5X1RJN2w3a0c4Qmp3RkNkM3VyRWFnbnlfeHplRko4WnVBdHM4d3UyM1BLcjlubFZBX0ZHNTRST0FSci1xNlR6My1JNDFab1pzNVYyR3VPM2lvRmJi?oc=5",
           "importance": 4,
-          "source": "Yahoo!ニュース"
+          "source": "毎日新聞"
         },
         {
           "id": "3dfd9e45583c",
@@ -17267,84 +16633,6 @@
           "positive": 1,
           "negative": 0,
           "watch": 0
-        }
-      ],
-      "max_importance": 4,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "connection_type": "sector",
-      "connection_label": "同じ業界",
-      "theme_id": null,
-      "label": "化学業界のニュース",
-      "category": "",
-      "category_label": "同じ業界",
-      "category_emoji": "🏭",
-      "member_ids": [
-        "a3b5baa7304d",
-        "35aea00ae863",
-        "cf2a2b26350d"
-      ],
-      "members": [
-        {
-          "id": "a3b5baa7304d",
-          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
-          "importance": 4,
-          "source": "財経新聞"
-        },
-        {
-          "id": "35aea00ae863",
-          "title": "駐日米大使、中国のレアアース規制を「再軍事化は口実」と批判 対日輸出管理と「核保有」主張の矛盾を検証",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeGVQRDV1aUFpV3JNOFpRc3h1T1BqdHhDV1ktWWVjUTN4ZzdFaTUzX0tmWVhZbnJtMkw4UzM4WFhaWTl0OHUwT0k0NUtTN2QyT2hPWEpaMkwzaGFwR0VxaDEtQzRFVDd2WTFnM2hLWE8tYU51cUdYcThaX0hneGoyQzdDTzVCbDVBaWtfVDFtaXp5M2FkWEdVcWxmei16N0ptUk1nOUlCSFl3dw?oc=5",
-          "importance": 2,
-          "source": "合同会社ロケットボーイズ"
-        },
-        {
-          "id": "cf2a2b26350d",
-          "title": "「アジアGXコンソーシアム」ハイレベル会合2026の開催について公表しました。",
-          "url": "https://www.fsa.go.jp/news/r8/sonota/20261023/20261023.html",
-          "importance": 2,
-          "source": "金融庁"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "4063",
-          "name": "信越化学工業",
-          "positive": 1,
-          "negative": 1,
-          "watch": 1
-        },
-        {
-          "code": "4004",
-          "name": "レゾナック・ホールディングス",
-          "positive": 1,
-          "negative": 0,
-          "watch": 1
-        },
-        {
-          "code": "6988",
-          "name": "日東電工",
-          "positive": 0,
-          "negative": 0,
-          "watch": 1
         }
       ],
       "max_importance": 4,
@@ -17466,6 +16754,69 @@
       "emergence_growth": {}
     },
     {
+      "connection_type": "sector",
+      "connection_label": "同じ業界",
+      "theme_id": null,
+      "label": "化学業界のニュース",
+      "category": "",
+      "category_label": "同じ業界",
+      "category_emoji": "🏭",
+      "member_ids": [
+        "a3b5baa7304d",
+        "35aea00ae863"
+      ],
+      "members": [
+        {
+          "id": "a3b5baa7304d",
+          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
+          "importance": 4,
+          "source": "財経新聞"
+        },
+        {
+          "id": "35aea00ae863",
+          "title": "駐日米大使、中国のレアアース規制を「再軍事化は口実」と批判 対日輸出管理と「核保有」主張の矛盾を検証",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeGVQRDV1aUFpV3JNOFpRc3h1T1BqdHhDV1ktWWVjUTN4ZzdFaTUzX0tmWVhZbnJtMkw4UzM4WFhaWTl0OHUwT0k0NUtTN2QyT2hPWEpaMkwzaGFwR0VxaDEtQzRFVDd2WTFnM2hLWE8tYU51cUdYcThaX0hneGoyQzdDTzVCbDVBaWtfVDFtaXp5M2FkWEdVcWxmei16N0ptUk1nOUlCSFl3dw?oc=5",
+          "importance": 2,
+          "source": "合同会社ロケットボーイズ"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "4063",
+          "name": "信越化学工業",
+          "positive": 1,
+          "negative": 1,
+          "watch": 0
+        },
+        {
+          "code": "4004",
+          "name": "レゾナック・ホールディングス",
+          "positive": 1,
+          "negative": 0,
+          "watch": 0
+        }
+      ],
+      "max_importance": 4,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
       "connection_type": "supply_chain",
       "connection_label": "資源・サプライチェーン",
       "theme_id": null,
@@ -17476,16 +16827,14 @@
       "member_ids": [
         "a3b5baa7304d",
         "686b91170843",
-        "055cb01bdce1",
+        "898dc4d956f5",
         "3dfd9e45583c",
         "dacfa1fa7790",
         "05daab7f49e0",
         "96269387370b",
         "fe119e7d32b2",
         "59eb1a77adc5",
-        "d6f8ecf0b5dd",
-        "dca87733632c",
-        "cf2a2b26350d"
+        "d6f8ecf0b5dd"
       ],
       "members": [
         {
@@ -17503,11 +16852,11 @@
           "source": "時事ドットコム"
         },
         {
-          "id": "055cb01bdce1",
-          "title": "メラニア夫人が仲介 ロシア・ウクライナが“局地的停戦”で合意 「彼女が自ら始めた取り組み」トランプ大統領も成果強調",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQTmp3QjlKaFI5TWhlc1VhZk9DdnZIenhRcG5kRDlybW8yeWswUEFLZFc1alM2Mi1Eak80NDk1dENDZGtYUzFiRExDN09SUFAxYUZ0c3czUTNUeXJfbTA1UTVweFZDTm5hYmlnSnJVOW5Gdmw5VmNvNXdCM196cGM?oc=5",
+          "id": "898dc4d956f5",
+          "title": "「一部で停戦始まる」とロシア主張 「住民の安全確保のため」",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lZ0F2UkVHTnRNVWo5X1RJN2w3a0c4Qmp3RkNkM3VyRWFnbnlfeHplRko4WnVBdHM4d3UyM1BLcjlubFZBX0ZHNTRST0FSci1xNlR6My1JNDFab1pzNVYyR3VPM2lvRmJi?oc=5",
           "importance": 4,
-          "source": "Yahoo!ニュース"
+          "source": "毎日新聞"
         },
         {
           "id": "3dfd9e45583c",
@@ -17557,20 +16906,6 @@
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
           "importance": 2,
           "source": "Yahoo!ファイナンス"
-        },
-        {
-          "id": "dca87733632c",
-          "title": "米商務省、核融合向けや縦型GaNなど4社に最大3億8,900万ドル 政府は少数株式を取得へ ｜Seizo Trend",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1qOHlodExiYmtQd0h1VzZKU3d6bnhTeXdkWl9oMzFXcWRvVGhYOVpIdW1fRUx4SmFYakZna2RsbFc2MlRTdURkbXY0ZjB4UUU?oc=5",
-          "importance": 2,
-          "source": "ビジネス+IT"
-        },
-        {
-          "id": "cf2a2b26350d",
-          "title": "「アジアGXコンソーシアム」ハイレベル会合2026の開催について公表しました。",
-          "url": "https://www.fsa.go.jp/news/r8/sonota/20261023/20261023.html",
-          "importance": 2,
-          "source": "金融庁"
         }
       ],
       "stocks": [
@@ -17608,13 +16943,6 @@
           "positive": 0,
           "negative": 0,
           "watch": 1
-        },
-        {
-          "code": "5801",
-          "name": "古河電気工業",
-          "positive": 1,
-          "negative": 0,
-          "watch": 0
         }
       ],
       "max_importance": 4,
@@ -17646,15 +16974,14 @@
       "category_emoji": "🔗",
       "member_ids": [
         "686b91170843",
-        "055cb01bdce1",
+        "898dc4d956f5",
         "3dfd9e45583c",
         "dacfa1fa7790",
         "05daab7f49e0",
         "96269387370b",
         "fe119e7d32b2",
         "59eb1a77adc5",
-        "35aea00ae863",
-        "dca87733632c"
+        "35aea00ae863"
       ],
       "members": [
         {
@@ -17665,11 +16992,11 @@
           "source": "時事ドットコム"
         },
         {
-          "id": "055cb01bdce1",
-          "title": "メラニア夫人が仲介 ロシア・ウクライナが“局地的停戦”で合意 「彼女が自ら始めた取り組み」トランプ大統領も成果強調",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQTmp3QjlKaFI5TWhlc1VhZk9DdnZIenhRcG5kRDlybW8yeWswUEFLZFc1alM2Mi1Eak80NDk1dENDZGtYUzFiRExDN09SUFAxYUZ0c3czUTNUeXJfbTA1UTVweFZDTm5hYmlnSnJVOW5Gdmw5VmNvNXdCM196cGM?oc=5",
+          "id": "898dc4d956f5",
+          "title": "「一部で停戦始まる」とロシア主張 「住民の安全確保のため」",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lZ0F2UkVHTnRNVWo5X1RJN2w3a0c4Qmp3RkNkM3VyRWFnbnlfeHplRko4WnVBdHM4d3UyM1BLcjlubFZBX0ZHNTRST0FSci1xNlR6My1JNDFab1pzNVYyR3VPM2lvRmJi?oc=5",
           "importance": 4,
-          "source": "Yahoo!ニュース"
+          "source": "毎日新聞"
         },
         {
           "id": "3dfd9e45583c",
@@ -17719,13 +17046,6 @@
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeGVQRDV1aUFpV3JNOFpRc3h1T1BqdHhDV1ktWWVjUTN4ZzdFaTUzX0tmWVhZbnJtMkw4UzM4WFhaWTl0OHUwT0k0NUtTN2QyT2hPWEpaMkwzaGFwR0VxaDEtQzRFVDd2WTFnM2hLWE8tYU51cUdYcThaX0hneGoyQzdDTzVCbDVBaWtfVDFtaXp5M2FkWEdVcWxmei16N0ptUk1nOUlCSFl3dw?oc=5",
           "importance": 2,
           "source": "合同会社ロケットボーイズ"
-        },
-        {
-          "id": "dca87733632c",
-          "title": "米商務省、核融合向けや縦型GaNなど4社に最大3億8,900万ドル 政府は少数株式を取得へ ｜Seizo Trend",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1qOHlodExiYmtQd0h1VzZKU3d6bnhTeXdkWl9oMzFXcWRvVGhYOVpIdW1fRUx4SmFYakZna2RsbFc2MlRTdURkbXY0ZjB4UUU?oc=5",
-          "importance": 2,
-          "source": "ビジネス+IT"
         }
       ],
       "stocks": [
@@ -17760,7 +17080,7 @@
         {
           "code": "5401",
           "name": "日本製鉄",
-          "positive": 1,
+          "positive": 0,
           "negative": 0,
           "watch": 1
         },
@@ -17795,20 +17115,19 @@
       "connection_type": "supply_chain",
       "connection_label": "資源・サプライチェーン",
       "theme_id": null,
-      "label": "防衛に関連するニュース",
+      "label": "商社に関連するニュース",
       "category": "",
       "category_label": "資源・サプライチェーン",
       "category_emoji": "🔗",
       "member_ids": [
         "686b91170843",
-        "055cb01bdce1",
+        "898dc4d956f5",
         "3dfd9e45583c",
         "dacfa1fa7790",
         "05daab7f49e0",
         "96269387370b",
         "fe119e7d32b2",
-        "dca87733632c",
-        "cf2a2b26350d"
+        "35aea00ae863"
       ],
       "members": [
         {
@@ -17819,11 +17138,11 @@
           "source": "時事ドットコム"
         },
         {
-          "id": "055cb01bdce1",
-          "title": "メラニア夫人が仲介 ロシア・ウクライナが“局地的停戦”で合意 「彼女が自ら始めた取り組み」トランプ大統領も成果強調",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQTmp3QjlKaFI5TWhlc1VhZk9DdnZIenhRcG5kRDlybW8yeWswUEFLZFc1alM2Mi1Eak80NDk1dENDZGtYUzFiRExDN09SUFAxYUZ0c3czUTNUeXJfbTA1UTVweFZDTm5hYmlnSnJVOW5Gdmw5VmNvNXdCM196cGM?oc=5",
+          "id": "898dc4d956f5",
+          "title": "「一部で停戦始まる」とロシア主張 「住民の安全確保のため」",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lZ0F2UkVHTnRNVWo5X1RJN2w3a0c4Qmp3RkNkM3VyRWFnbnlfeHplRko4WnVBdHM4d3UyM1BLcjlubFZBX0ZHNTRST0FSci1xNlR6My1JNDFab1pzNVYyR3VPM2lvRmJi?oc=5",
           "importance": 4,
-          "source": "Yahoo!ニュース"
+          "source": "毎日新聞"
         },
         {
           "id": "3dfd9e45583c",
@@ -17861,45 +17180,45 @@
           "source": "朝日新聞"
         },
         {
-          "id": "dca87733632c",
-          "title": "米商務省、核融合向けや縦型GaNなど4社に最大3億8,900万ドル 政府は少数株式を取得へ ｜Seizo Trend",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1qOHlodExiYmtQd0h1VzZKU3d6bnhTeXdkWl9oMzFXcWRvVGhYOVpIdW1fRUx4SmFYakZna2RsbFc2MlRTdURkbXY0ZjB4UUU?oc=5",
+          "id": "35aea00ae863",
+          "title": "駐日米大使、中国のレアアース規制を「再軍事化は口実」と批判 対日輸出管理と「核保有」主張の矛盾を検証",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeGVQRDV1aUFpV3JNOFpRc3h1T1BqdHhDV1ktWWVjUTN4ZzdFaTUzX0tmWVhZbnJtMkw4UzM4WFhaWTl0OHUwT0k0NUtTN2QyT2hPWEpaMkwzaGFwR0VxaDEtQzRFVDd2WTFnM2hLWE8tYU51cUdYcThaX0hneGoyQzdDTzVCbDVBaWtfVDFtaXp5M2FkWEdVcWxmei16N0ptUk1nOUlCSFl3dw?oc=5",
           "importance": 2,
-          "source": "ビジネス+IT"
-        },
-        {
-          "id": "cf2a2b26350d",
-          "title": "「アジアGXコンソーシアム」ハイレベル会合2026の開催について公表しました。",
-          "url": "https://www.fsa.go.jp/news/r8/sonota/20261023/20261023.html",
-          "importance": 2,
-          "source": "金融庁"
+          "source": "合同会社ロケットボーイズ"
         }
       ],
       "stocks": [
         {
-          "code": "6503",
-          "name": "三菱電機",
-          "positive": 0,
-          "negative": 7,
-          "watch": 1
-        },
-        {
-          "code": "6701",
-          "name": "日本電気",
+          "code": "8058",
+          "name": "三菱商事",
           "positive": 0,
           "negative": 7,
           "watch": 0
         },
         {
-          "code": "7011",
-          "name": "三菱重工業",
-          "positive": 1,
-          "negative": 0,
+          "code": "8031",
+          "name": "三井物産",
+          "positive": 0,
+          "negative": 7,
           "watch": 0
         },
         {
-          "code": "7013",
-          "name": "IHI",
+          "code": "8053",
+          "name": "住友商事",
+          "positive": 0,
+          "negative": 7,
+          "watch": 0
+        },
+        {
+          "code": "8002",
+          "name": "丸紅",
+          "positive": 0,
+          "negative": 7,
+          "watch": 0
+        },
+        {
+          "code": "2768",
+          "name": "双日",
           "positive": 1,
           "negative": 0,
           "watch": 0
@@ -17934,14 +17253,13 @@
       "category_emoji": "🔗",
       "member_ids": [
         "686b91170843",
-        "055cb01bdce1",
+        "898dc4d956f5",
         "3dfd9e45583c",
         "dacfa1fa7790",
         "05daab7f49e0",
         "96269387370b",
         "fe119e7d32b2",
-        "59eb1a77adc5",
-        "cf2a2b26350d"
+        "59eb1a77adc5"
       ],
       "members": [
         {
@@ -17952,11 +17270,11 @@
           "source": "時事ドットコム"
         },
         {
-          "id": "055cb01bdce1",
-          "title": "メラニア夫人が仲介 ロシア・ウクライナが“局地的停戦”で合意 「彼女が自ら始めた取り組み」トランプ大統領も成果強調",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQTmp3QjlKaFI5TWhlc1VhZk9DdnZIenhRcG5kRDlybW8yeWswUEFLZFc1alM2Mi1Eak80NDk1dENDZGtYUzFiRExDN09SUFAxYUZ0c3czUTNUeXJfbTA1UTVweFZDTm5hYmlnSnJVOW5Gdmw5VmNvNXdCM196cGM?oc=5",
+          "id": "898dc4d956f5",
+          "title": "「一部で停戦始まる」とロシア主張 「住民の安全確保のため」",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lZ0F2UkVHTnRNVWo5X1RJN2w3a0c4Qmp3RkNkM3VyRWFnbnlfeHplRko4WnVBdHM4d3UyM1BLcjlubFZBX0ZHNTRST0FSci1xNlR6My1JNDFab1pzNVYyR3VPM2lvRmJi?oc=5",
           "importance": 4,
-          "source": "Yahoo!ニュース"
+          "source": "毎日新聞"
         },
         {
           "id": "3dfd9e45583c",
@@ -17999,13 +17317,6 @@
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4zMWxHeFBfT0lubE93UkZUNF9hUjlVZVpZRnpQUjIxOUsyYzVYQlAtWTd4M3JXRUZTMXNTS3h6aTlmMXZsN1puaU1aVmFMSU1HcklWbHpDODRraXF3OWg5WEx3QWYyY3E5Ri1Bdkpn?oc=5",
           "importance": 3,
           "source": "au Webポータル"
-        },
-        {
-          "id": "cf2a2b26350d",
-          "title": "「アジアGXコンソーシアム」ハイレベル会合2026の開催について公表しました。",
-          "url": "https://www.fsa.go.jp/news/r8/sonota/20261023/20261023.html",
-          "importance": 2,
-          "source": "金融庁"
         }
       ],
       "stocks": [
@@ -18014,7 +17325,7 @@
           "name": "三菱電機",
           "positive": 0,
           "negative": 7,
-          "watch": 1
+          "watch": 0
         },
         {
           "code": "6954",
@@ -18077,11 +17388,11 @@
       "accumulating": "2026-09-21",
       "ready_for_backtest": "2026-10-20"
     },
-    "last_computed_at": "2026-10-26T02:03:49+09:00"
+    "last_computed_at": "2026-10-26T04:34:27+09:00"
   },
   "counts": {
-    "news": 26,
-    "high_importance": 9,
+    "news": 23,
+    "high_importance": 8,
     "stocks": 20
   }
 }
