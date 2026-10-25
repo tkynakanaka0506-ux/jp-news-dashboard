@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25 18:26",
-  "run_type": "evening",
+  "generated_at": "2026-10-25 20:16",
+  "run_type": "morning",
   "us_market": {
     "sp500": {
       "value": "7,623.68",
@@ -39,9 +39,7 @@
     "asof": "10/23終値"
   },
   "overnight_news": [],
-  "tdnet_morning": [],
-  "movers_morning": [],
-  "tdnet_afterclose": [
+  "tdnet_morning": [
     {
       "time": "―",
       "code": "―",
@@ -203,6 +201,8 @@
       "tag": "他"
     }
   ],
+  "movers_morning": [],
+  "tdnet_afterclose": [],
   "afterclose_news": [],
   "movers_afterclose": [],
   "technical": [
@@ -912,14 +912,6 @@
       "asof": "10/23 18:55"
     },
     {
-      "code": "6861",
-      "company": "キーエンス",
-      "title": "日本工場自動化・産業用制御市場：オムロンのフィジカルAI事業拡大、日立製作所とファナックの提携、工作機械受注の過去最高 - ニコニコニュース",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1keWZObXNGQTBXcFROZHV5azVEeF9DNTRtOWhXbnh3SGF5TW1tVVJ4UC1CY1NZNEt0QldFd2lBTjhWV1c2dEhOUzNnVnpSZ2dWdEd5Ng?oc=5",
-      "keyword": "受注",
-      "asof": "10/14 17:03"
-    },
-    {
       "code": "6954",
       "company": "ファナック",
       "title": "決算:ファナック12年ぶり最高益、27年3月期純利益37％増 受注好調で - 日本経済新聞",
@@ -954,18 +946,18 @@
     {
       "code": "9433",
       "company": "KDDI",
-      "title": "KDDI、ブロードコムと提携 AIデータセンターに光電融合、CPOスイッチを共同検証 - ビジネス+IT",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ZOEdXNFczS2JEZUxsdnlZTTVHV2x5RXRSNjhZVEpnNUZFbVp4WldPYjhaY3pYVDB4Mi1NZGlveGxETG9GMEx3V0ZIOXBreWJVMUdv?oc=5",
+      "title": "KDDI、BroadcomとAIデータセンター省電力化に向け技術提携 - EnterpriseZine",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5wOHNURko1WlIwNGdYc0tDaDg5eEF1b2FOdGZ4emJ4Ulo4VlNqRFB0WFlWbEwyM2NkcUR4enpYNnRHbEd6RWw4dVNkN1R1dEZvMXlpNHNubVBUdw?oc=5",
       "keyword": "データセンター",
-      "asof": "10/22 14:36"
+      "asof": "10/22 14:40"
     },
     {
       "code": "9433",
       "company": "KDDI",
-      "title": "KDDI、BroadcomとAIデータセンター省電力化に向け技術提携 - EnterpriseZine",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OODBKYnFsYXZMWmxXU1FlUHFsTE0xUG9GdzBCZVc5WUtFV1ZuZE03Z0pPSVBHNENXUUJLZ2xsUjR0UXdOT0hURVFFd2J4OEp1cFFRaEpn?oc=5",
+      "title": "KDDI、ブロードコムと提携 AIデータセンターに光電融合、CPOスイッチを共同検証 - ビジネス+IT",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ZOEdXNFczS2JEZUxsdnlZTTVHV2x5RXRSNjhZVEpnNUZFbVp4WldPYjhaY3pYVDB4Mi1NZGlveGxETG9GMEx3V0ZIOXBreWJVMUdv?oc=5",
       "keyword": "データセンター",
-      "asof": "10/22 14:40"
+      "asof": "10/22 14:36"
     },
     {
       "code": "9432",
@@ -998,6 +990,14 @@
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1TdUJqWGsxalgxdGhHbXJyWGVPYlNNMmpLYWhvYUwwdG1teVRCVEV1M25CMGlKTGVXY09MaGVBX0xVNk4yYnEzV2hkYmJfNVNXMUlzYTQwdExMQQ?oc=5",
       "keyword": "データセンター",
       "asof": "10/21 08:00"
+    },
+    {
+      "code": "5401",
+      "company": "日本製鉄",
+      "title": "日本製鉄傘下のUSスチール、製鉄設備に30億ドル投資 生産増強へ - 朝日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xUklqYjJFT3MwNTFBT2dZOGZRNkw5NUI1Z19uanNNeXR1TUZCLTktaE5jVDYtalV4c2xrX2t5TWtFUUp3ZWZacHNJTmZTemV0UkpEMkZIcFdKTE1Cc2tBVThlcVhHcUE?oc=5",
+      "keyword": "増強",
+      "asof": "10/23 15:40"
     }
   ],
   "line_notify_last": {
@@ -1005,85 +1005,85 @@
     "code": "ＧＭＯ－ＰＰ"
   },
   "data_updated_at": {
-    "market_quotes": "2026-10-25 18:26",
-    "tdnet_afterclose": "2026-10-25 18:26",
-    "technical": "2026-10-25 18:26",
-    "growth_candidates": "2026-10-25 18:26",
-    "pre_earnings_watch": "2026-10-25 18:26",
-    "edinet_large_holdings": "2026-10-25 18:26",
-    "economic_calendar": "2026-10-25 18:26",
-    "pre_earnings_indicator": "2026-10-25 18:27"
+    "market_quotes": "2026-10-25 20:16",
+    "tdnet_morning": "2026-10-25 20:16",
+    "technical": "2026-10-25 20:16",
+    "growth_candidates": "2026-10-25 20:16",
+    "pre_earnings_watch": "2026-10-25 20:16",
+    "edinet_large_holdings": "2026-10-25 20:16",
+    "economic_calendar": "2026-10-25 20:16",
+    "pre_earnings_indicator": "2026-10-25 20:17"
   },
   "edinet_large_holdings": [],
   "data_status": {
     "market_quotes": {
       "state": "updated",
-      "checked_at": "2026-10-25 18:26",
+      "checked_at": "2026-10-25 20:16",
       "message": "今回の実行で取得・更新しました。"
     },
     "tdnet_morning": {
-      "state": "not_requested",
-      "checked_at": "2026-10-25 18:26",
-      "message": "今回の実行モードでは更新対象外です。"
+      "state": "updated",
+      "checked_at": "2026-10-25 20:16",
+      "message": "今回の実行で取得・更新しました。"
     },
     "tdnet_afterclose": {
-      "state": "updated",
-      "checked_at": "2026-10-25 18:26",
-      "message": "今回の実行で取得・更新しました。"
+      "state": "not_requested",
+      "checked_at": "2026-10-25 20:16",
+      "message": "今回の実行モードでは更新対象外です。"
     },
     "technical": {
       "state": "updated",
-      "checked_at": "2026-10-25 18:26",
+      "checked_at": "2026-10-25 20:16",
       "message": "今回の実行で取得・更新しました。"
     },
     "growth_candidates": {
       "state": "updated",
-      "checked_at": "2026-10-25 18:26",
+      "checked_at": "2026-10-25 20:16",
       "message": "今回の実行で取得・更新しました。"
     },
     "pre_earnings_watch": {
       "state": "updated",
-      "checked_at": "2026-10-25 18:26",
+      "checked_at": "2026-10-25 20:16",
       "message": "今回の実行で取得・更新しました。"
     },
     "overnight_news": {
-      "state": "not_requested",
-      "checked_at": "2026-10-25 18:26",
-      "message": "今回の実行モードでは更新対象外です。"
-    },
-    "afterclose_news": {
       "state": "unavailable",
-      "checked_at": "2026-10-25 18:27",
+      "checked_at": "2026-10-25 20:16",
       "message": "ニュース分析APIで取得できませんでした。"
     },
-    "movers_morning": {
+    "afterclose_news": {
       "state": "not_requested",
-      "checked_at": "2026-10-25 18:26",
+      "checked_at": "2026-10-25 20:16",
       "message": "今回の実行モードでは更新対象外です。"
     },
-    "movers_afterclose": {
+    "movers_morning": {
       "state": "unavailable",
-      "checked_at": "2026-10-25 18:27",
+      "checked_at": "2026-10-25 20:16",
       "message": "話題株分析APIで取得できませんでした。"
+    },
+    "movers_afterclose": {
+      "state": "not_requested",
+      "checked_at": "2026-10-25 20:16",
+      "message": "今回の実行モードでは更新対象外です。"
     },
     "us_good_news": {
       "state": "unavailable",
-      "checked_at": "2026-10-25 18:27",
+      "checked_at": "2026-10-25 20:16",
       "message": "ニュース分析APIで取得できませんでした。"
     },
     "edinet_large_holdings": {
       "state": "empty",
-      "checked_at": "2026-10-25 18:26",
+      "checked_at": "2026-10-25 20:16",
       "message": "取得済み・該当する大量保有報告書はありません。"
     },
     "economic_calendar": {
       "state": "updated",
-      "checked_at": "2026-10-25 18:26",
+      "checked_at": "2026-10-25 20:16",
       "message": "今回の実行で取得・更新しました。"
     },
     "pre_earnings_indicator": {
       "state": "updated",
-      "checked_at": "2026-10-25 18:27",
+      "checked_at": "2026-10-25 20:17",
       "message": "今回の実行で取得・更新しました。"
     }
   },
