@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-26 21:57",
-  "run_type": "evening",
+  "generated_at": "2026-10-26 22:30",
+  "run_type": "morning",
   "us_market": {
     "sp500": {
-      "value": "7,623.68",
-      "change_pct": -0.52,
-      "asof": "10/24終値"
+      "value": "7,646.01",
+      "change_pct": 0.29,
+      "asof": "10/26終値"
     },
     "dow": {
-      "value": "52,215.16",
-      "change_pct": -1.23,
-      "asof": "10/24終値"
+      "value": "52,347.79",
+      "change_pct": 0.25,
+      "asof": "10/26終値"
     },
     "nasdaq": {
       "value": "25,955.34",
@@ -24,13 +24,13 @@
     }
   },
   "fx": {
-    "value": "157.30円",
-    "change_pct": 0.51,
+    "value": "157.46円",
+    "change_pct": 0.62,
     "asof": "10/26終値"
   },
   "nikkei_futures": {
-    "value": "62,830.00",
-    "change_pct": 0.46,
+    "value": "62,745.00",
+    "change_pct": 0.33,
     "asof": "10/26終値"
   },
   "nikkei225": {
@@ -39,9 +39,7 @@
     "asof": "10/26終値"
   },
   "overnight_news": [],
-  "tdnet_morning": [],
-  "movers_morning": [],
-  "tdnet_afterclose": [
+  "tdnet_morning": [
     {
       "time": "20:30",
       "code": "―",
@@ -203,6 +201,8 @@
       "tag": "他"
     }
   ],
+  "movers_morning": [],
+  "tdnet_afterclose": [],
   "afterclose_news": [],
   "movers_afterclose": [],
   "technical": [
@@ -912,14 +912,6 @@
       "asof": "10/25 15:46"
     },
     {
-      "code": "6861",
-      "company": "キーエンス",
-      "title": "日本工場自動化・産業用制御市場：オムロンのフィジカルAI事業拡大、日立製作所とファナックの提携、工作機械受注の過去最高 - ニコニコニュース",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1keWZObXNGQTBXcFROZHV5azVEeF9DNTRtOWhXbnh3SGF5TW1tVVJ4UC1CY1NZNEt0QldFd2lBTjhWV1c2dEhOUzNnVnpSZ2dWdEd5Ng?oc=5",
-      "keyword": "受注",
-      "asof": "10/14 17:03"
-    },
-    {
       "code": "6954",
       "company": "ファナック",
       "title": "今日の株価材料（新聞など、24〜26日）ファナック、今期純利益37%増 受注好調 - 日本経済新聞",
@@ -998,6 +990,14 @@
       "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE52ak0yTjdFSVQyMnRIRklrWlM5NVY3RGVNdTVZVmoyTU5DSUl5bjVXc19Qem5ROWNaYlpnVE9ETUF1Wmc?oc=5",
       "keyword": "設備投資",
       "asof": "10/23 10:05"
+    },
+    {
+      "code": "6645",
+      "company": "オムロン",
+      "title": "日本工場自動化・産業用制御市場：オムロンのフィジカルAI事業拡大、日立製作所とファナックの提携、工作機械受注の過去最高 - ニコニコニュース",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1keWZObXNGQTBXcFROZHV5azVEeF9DNTRtOWhXbnh3SGF5TW1tVVJ4UC1CY1NZNEt0QldFd2lBTjhWV1c2dEhOUzNnVnpSZ2dWdEd5Ng?oc=5",
+      "keyword": "受注",
+      "asof": "10/14 17:03"
     }
   ],
   "line_notify_last": {
@@ -1005,85 +1005,85 @@
     "code": "ＧＭＯ－ＰＰ"
   },
   "data_updated_at": {
-    "market_quotes": "2026-10-26 21:57",
-    "tdnet_afterclose": "2026-10-26 21:57",
-    "technical": "2026-10-26 21:57",
-    "growth_candidates": "2026-10-26 21:57",
-    "pre_earnings_watch": "2026-10-26 21:57",
-    "edinet_large_holdings": "2026-10-26 21:57",
-    "economic_calendar": "2026-10-26 21:57",
-    "pre_earnings_indicator": "2026-10-26 21:59"
+    "market_quotes": "2026-10-26 22:30",
+    "tdnet_morning": "2026-10-26 22:30",
+    "technical": "2026-10-26 22:30",
+    "growth_candidates": "2026-10-26 22:30",
+    "pre_earnings_watch": "2026-10-26 22:30",
+    "edinet_large_holdings": "2026-10-26 22:30",
+    "economic_calendar": "2026-10-26 22:30",
+    "pre_earnings_indicator": "2026-10-26 22:31"
   },
   "edinet_large_holdings": [],
   "data_status": {
     "market_quotes": {
       "state": "updated",
-      "checked_at": "2026-10-26 21:57",
+      "checked_at": "2026-10-26 22:30",
       "message": "今回の実行で取得・更新しました。"
     },
     "tdnet_morning": {
-      "state": "not_requested",
-      "checked_at": "2026-10-26 21:57",
-      "message": "今回の実行モードでは更新対象外です。"
+      "state": "updated",
+      "checked_at": "2026-10-26 22:30",
+      "message": "今回の実行で取得・更新しました。"
     },
     "tdnet_afterclose": {
-      "state": "updated",
-      "checked_at": "2026-10-26 21:57",
-      "message": "今回の実行で取得・更新しました。"
+      "state": "not_requested",
+      "checked_at": "2026-10-26 22:30",
+      "message": "今回の実行モードでは更新対象外です。"
     },
     "technical": {
       "state": "updated",
-      "checked_at": "2026-10-26 21:57",
+      "checked_at": "2026-10-26 22:30",
       "message": "今回の実行で取得・更新しました。"
     },
     "growth_candidates": {
       "state": "updated",
-      "checked_at": "2026-10-26 21:57",
+      "checked_at": "2026-10-26 22:30",
       "message": "今回の実行で取得・更新しました。"
     },
     "pre_earnings_watch": {
       "state": "updated",
-      "checked_at": "2026-10-26 21:57",
+      "checked_at": "2026-10-26 22:30",
       "message": "今回の実行で取得・更新しました。"
     },
     "overnight_news": {
-      "state": "not_requested",
-      "checked_at": "2026-10-26 21:58",
-      "message": "今回の実行モードでは更新対象外です。"
-    },
-    "afterclose_news": {
       "state": "unavailable",
-      "checked_at": "2026-10-26 21:58",
+      "checked_at": "2026-10-26 22:30",
       "message": "ニュース分析APIで取得できませんでした。"
     },
-    "movers_morning": {
+    "afterclose_news": {
       "state": "not_requested",
-      "checked_at": "2026-10-26 21:58",
+      "checked_at": "2026-10-26 22:30",
       "message": "今回の実行モードでは更新対象外です。"
     },
-    "movers_afterclose": {
+    "movers_morning": {
       "state": "unavailable",
-      "checked_at": "2026-10-26 21:58",
+      "checked_at": "2026-10-26 22:30",
       "message": "話題株分析APIで取得できませんでした。"
+    },
+    "movers_afterclose": {
+      "state": "not_requested",
+      "checked_at": "2026-10-26 22:30",
+      "message": "今回の実行モードでは更新対象外です。"
     },
     "us_good_news": {
       "state": "unavailable",
-      "checked_at": "2026-10-26 21:58",
+      "checked_at": "2026-10-26 22:30",
       "message": "ニュース分析APIで取得できませんでした。"
     },
     "edinet_large_holdings": {
       "state": "empty",
-      "checked_at": "2026-10-26 21:57",
+      "checked_at": "2026-10-26 22:30",
       "message": "取得済み・該当する大量保有報告書はありません。"
     },
     "economic_calendar": {
       "state": "updated",
-      "checked_at": "2026-10-26 21:57",
+      "checked_at": "2026-10-26 22:30",
       "message": "今回の実行で取得・更新しました。"
     },
     "pre_earnings_indicator": {
       "state": "updated",
-      "checked_at": "2026-10-26 21:59",
+      "checked_at": "2026-10-26 22:31",
       "message": "今回の実行で取得・更新しました。"
     }
   },

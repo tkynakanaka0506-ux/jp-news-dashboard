@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26 21:59",
-  "generated_iso": "2026-10-26T21:59:39+09:00",
+  "generated_at": "2026-10-26 22:31",
+  "generated_iso": "2026-10-26T22:31:57+09:00",
   "status": "updated",
   "status_message": "40 件のニュースを取得しました。",
   "llm_used": true,
@@ -65,21 +65,21 @@
     },
     {
       "label": "日経先物",
-      "value": "62,830.00",
-      "change_pct": 0.46,
+      "value": "62,745.00",
+      "change_pct": 0.33,
       "asof": "10/26終値"
     },
     {
       "label": "ドル円",
-      "value": "157.30円",
-      "change_pct": 0.51,
+      "value": "157.46円",
+      "change_pct": 0.62,
       "asof": "10/26終値"
     },
     {
       "label": "S&P500",
-      "value": "7,623.68",
-      "change_pct": -0.52,
-      "asof": "10/24終値"
+      "value": "7,646.01",
+      "change_pct": 0.29,
+      "asof": "10/26終値"
     },
     {
       "label": "ナスダック",
@@ -6771,8 +6771,8 @@
       "source": "Yahoo!ファイナンス",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
-      "published_at": "2026-10-26 20:22",
-      "published_ts": 1793013721.0,
+      "published_at": "2026-10-26 19:23",
+      "published_ts": 1793010221.0,
       "category": "us",
       "category_label": "米国市場",
       "category_emoji": "🇺🇸",
@@ -6931,6 +6931,54 @@
       "source_tier_label": "二次情報",
       "published_at": "2026-10-26 17:42",
       "published_ts": 1793004154.0,
+      "category": "corporate",
+      "category_label": "企業・決算",
+      "category_emoji": "🏢",
+      "importance": 2,
+      "importance_reason": "重要語「上方修正」",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "fb9e6e34c07c",
+      "title": "清水銀、27年3月期業績予想を上方修正 純利益29億円見込む",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmRUozMk9DZE12WHJQRWNfbzNEUXRYLUxxNVU2NEhDam5hYjhNUkpVQVdydlBDNlhLVE8zTFRpTnZrQ1pUNVhUdk8xbVEwWS1QQncwS3FR?oc=5",
+      "source": "ニッキンONLINE",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-10-26 16:08",
+      "published_ts": 1792998480.0,
       "category": "corporate",
       "category_label": "企業・決算",
       "category_emoji": "🏢",
@@ -8671,6 +8719,623 @@
       "emergence_growth": {
         "window_days": 14,
         "recent_new_actor_types": 1,
+        "total_actor_types": 5
+      }
+    },
+    {
+      "id": "899ba4dd1f3e",
+      "title": "マスク氏のスペースX、AI半導体購入へ53兆ウォン調達…「資金難のAIクラウド大量倒産」",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUVab3RUOUUxbHBwZDB4bm1IekxSdlV1X0xwWlJ6ZWIzeDk4WG9pS2xXNUEyaWhsSUd3Nzd1WHVrdUtROXgtSTU2T01xdHJsU0VlNW5KV2FZNzZvNFdJV2hPUXBPOXFTR2QtNmlRazAwN2FFaDNNRnN3X3VfcTM2RA?oc=5",
+      "source": "조선일보",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-10-26 11:08",
+      "published_ts": 1792980480.0,
+      "category": "tech",
+      "category_label": "半導体・AI",
+      "category_emoji": "🤖",
+      "importance": 2,
+      "importance_reason": "影響テーマ「半導体・AI投資の拡大」に該当",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": "semi_demand-20260920-01",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-09-20",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "半導体・AI投資の拡大"
+      ],
+      "theme_ids": [
+        "semi_demand"
+      ],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "8035",
+          "name": "東京エレクトロン",
+          "sector": "電気機器",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "theme": "半導体・AI投資の拡大",
+          "theme_id": "semi_demand",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "半導体",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 51,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6857",
+          "name": "アドバンテスト",
+          "sector": "電気機器",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "theme": "半導体・AI投資の拡大",
+          "theme_id": "semi_demand",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "半導体",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 51,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6920",
+          "name": "レーザーテック",
+          "sector": "電気機器",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "theme": "半導体・AI投資の拡大",
+          "theme_id": "semi_demand",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "半導体",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 51,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6146",
+          "name": "ディスコ",
+          "sector": "機械",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "theme": "半導体・AI投資の拡大",
+          "theme_id": "semi_demand",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "半導体",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 51,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "7735",
+          "name": "SCREENホールディングス",
+          "sector": "電気機器",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "theme": "半導体・AI投資の拡大",
+          "theme_id": "semi_demand",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "半導体",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 51,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "3436",
+          "name": "SUMCO",
+          "sector": "金属製品",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「半導体」に反応: ウエハー・材料の需要増が業績に波及しやすい",
+          "theme": "半導体・AI投資の拡大",
+          "theme_id": "semi_demand",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "半導体",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "4063",
+          "name": "信越化学工業",
+          "sector": "化学",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「半導体」に反応: ウエハー・材料の需要増が業績に波及しやすい",
+          "theme": "半導体・AI投資の拡大",
+          "theme_id": "semi_demand",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "半導体",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "4004",
+          "name": "レゾナック・ホールディングス",
+          "sector": "化学",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「半導体」に反応: ウエハー・材料の需要増が業績に波及しやすい",
+          "theme": "半導体・AI投資の拡大",
+          "theme_id": "semi_demand",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "半導体",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [],
+      "emergence_stage": "watch",
+      "emergence_stage_label": "👀 要監視テーマ",
+      "emergence_signal_labels": [
+        "企業の設備投資",
+        "関連企業の直接発表",
+        "政策の検討・審議段階",
+        "政府・省庁の一次情報",
+        "複数媒体での同時報道",
+        "研究開発の進展"
+      ],
+      "emergence_event_count": 28,
+      "emergence_source_count": 17,
+      "emergence_actor_type_count": 5,
+      "emergence_actor_type_labels": [
+        "関連企業",
+        "海外政府・当局",
+        "日本政府・省庁",
+        "複数メディア",
+        "研究機関・大学"
+      ],
+      "emergence_actor_type_breakdown": [
+        {
+          "label": "関連企業",
+          "count": 3
+        },
+        {
+          "label": "海外政府・当局",
+          "count": 1
+        },
+        {
+          "label": "日本政府・省庁",
+          "count": 3
+        },
+        {
+          "label": "複数メディア",
+          "count": 10
+        },
+        {
+          "label": "研究機関・大学",
+          "count": 2
+        }
+      ],
+      "emergence_region_count": 2,
+      "emergence_regions": [
+        "中国",
+        "米国"
+      ],
+      "emergence_origin_regions": [
+        "日本",
+        "米国"
+      ],
+      "emergence_first_seen": "2026-09-20",
+      "emergence_window_counts": {
+        "7": 5,
+        "30": 25,
+        "90": 28
+      },
+      "emergence_timeline": [
+        {
+          "date": "2026-09-20",
+          "source": "xenospectrum.com",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-24",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-25",
+          "source": "note",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-29",
+          "source": "digitaltoday.co.kr",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-02",
+          "source": "TBS NEWS DIG",
+          "signal_labels": [
+            "企業の設備投資",
+            "関連企業の直接発表",
+            "政策の検討・審議段階"
+          ],
+          "actor_type_labels": [
+            "関連企業"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-05",
+          "source": "Business Insider Japan",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-05",
+          "source": "Business Insider Japan",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "source": "日経ビジネス電子版",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-10",
+          "source": "BigGo ファイナンス",
+          "signal_labels": [],
+          "actor_type_labels": [
+            "研究機関・大学"
+          ],
+          "regions": [
+            "中国"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Moomoo",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "中国"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Moomoo",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "中国"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "source": "マイナビニュース",
+          "signal_labels": [
+            "企業の設備投資",
+            "関連企業の直接発表"
+          ],
+          "actor_type_labels": [
+            "関連企業"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "source": "マイナビニュース",
+          "signal_labels": [
+            "企業の設備投資",
+            "関連企業の直接発表"
+          ],
+          "actor_type_labels": [
+            "関連企業"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "source": "財務省",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-15",
+          "source": "株探",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "source": "PR TIMES",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-15",
+          "source": "総務省",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-15",
+          "source": "株探",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-19",
+          "source": "財務省",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-22",
+          "source": "XenoSpectrum",
+          "signal_labels": [
+            "研究開発の進展"
+          ],
+          "actor_type_labels": [
+            "研究機関・大学"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-23",
+          "source": "BigGo ファイナンス",
+          "signal_labels": [],
+          "actor_type_labels": [
+            "海外政府・当局"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-25",
+          "source": "財経新聞",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-26",
+          "source": "財経新聞",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        }
+      ],
+      "emergence_milestones": [
+        {
+          "date": "2026-09-24",
+          "actor_type_label": "複数メディア"
+        },
+        {
+          "date": "2026-10-02",
+          "actor_type_label": "関連企業"
+        },
+        {
+          "date": "2026-10-10",
+          "actor_type_label": "研究機関・大学"
+        },
+        {
+          "date": "2026-10-15",
+          "actor_type_label": "日本政府・省庁"
+        },
+        {
+          "date": "2026-10-23",
+          "actor_type_label": "海外政府・当局"
+        }
+      ],
+      "emergence_diagnosis": {
+        "target_stage": "watch",
+        "target_stage_label": "👀 要監視テーマ",
+        "source_count": 17,
+        "required_sources": 2,
+        "signal_count": 6,
+        "required_signals": 3,
+        "missing": []
+      },
+      "emergence_growth": {
+        "window_days": 14,
+        "recent_new_actor_types": 2,
         "total_actor_types": 5
       }
     },
@@ -10432,54 +11097,6 @@
       "emergence_growth": {}
     },
     {
-      "id": "28de8a3fd3d9",
-      "title": "今週の上方修正【大予想】 32社選出 ＜成長株特集＞",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5HbEM2TDdPQ2g5UXN3blRTaGdiZ3VEOFE4SVFPWDRrX25iZks0cnA4b1E4M1BKdFBNenliaHJfekpMRjN5bVpWRmJrZ1p0aXh3aXBWNE8zNTF4WmJqQjJjZQ?oc=5",
-      "source": "株探",
-      "source_tier": "commentary",
-      "source_tier_label": "市場解説",
-      "published_at": "2026-10-25 19:30",
-      "published_ts": 1792924200.0,
-      "category": "corporate",
-      "category_label": "企業・決算",
-      "category_emoji": "🏢",
-      "importance": 2,
-      "importance_reason": "重要語「上方修正」",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
       "id": "35aea00ae863",
       "title": "駐日米大使、中国のレアアース規制を「再軍事化は口実」と批判 対日輸出管理と「核保有」主張の矛盾を検証",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeGVQRDV1aUFpV3JNOFpRc3h1T1BqdHhDV1ktWWVjUTN4ZzdFaTUzX0tmWVhZbnJtMkw4UzM4WFhaWTl0OHUwT0k0NUtTN2QyT2hPWEpaMkwzaGFwR0VxaDEtQzRFVDd2WTFnM2hLWE8tYU51cUdYcThaX0hneGoyQzdDTzVCbDVBaWtfVDFtaXp5M2FkWEdVcWxmei16N0ptUk1nOUlCSFl3dw?oc=5",
@@ -11366,57 +11983,42 @@
       "emergence_milestones": [],
       "emergence_diagnosis": {},
       "emergence_growth": {}
-    },
-    {
-      "id": "eb747877f7d5",
-      "title": "注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起  (更新)",
-      "url": "https://www.jpcert.or.jp/at/2026/at260033.html",
-      "source": "JPCERT/CC",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-10-26 16:25",
-      "published_ts": 1792999500.0,
-      "category": "trade",
-      "category_label": "通商・規制",
-      "category_emoji": "⚖️",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
     }
   ],
   "stock_ranking": [
+    {
+      "code": "4063",
+      "name": "信越化学工業",
+      "sector": "化学",
+      "positive": 4,
+      "negative": 2,
+      "watch": 0,
+      "score": 4,
+      "news": [
+        {
+          "title": "中国、輸出違反摘発が前年超え レアアース規制、日本に影―高市首相台湾答弁１年",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBnSGNfTGtkUHNhSTdfNVlYTWZVaFhwcVNHSUt4NDVQQ0ZqRzhYOUdHSDNjWXJBMDV1a0w4Qy0tbFJuUnY3Wk5zYnlWaEc4anRfSThXRE1mSExacVFtd2g2MGlEUQ?oc=5",
+          "direction": "negative",
+          "reason": "「レアアース」に反応: 永久磁石などレアアース由来部材の調達コスト上昇・供給不安が意識されやすい",
+          "importance": 4
+        },
+        {
+          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: ウエハー・材料の需要増が業績に波及しやすい",
+          "importance": 4
+        },
+        {
+          "title": "マスク氏のスペースX、AI半導体購入へ53兆ウォン調達…「資金難のAIクラウド大量倒産」",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUVab3RUOUUxbHBwZDB4bm1IekxSdlV1X0xwWlJ6ZWIzeDk4WG9pS2xXNUEyaWhsSUd3Nzd1WHVrdUtROXgtSTU2T01xdHJsU0VlNW5KV2FZNzZvNFdJV2hPUXBPOXFTR2QtNmlRazAwN2FFaDNNRnN3X3VfcTM2RA?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: ウエハー・材料の需要増が業績に波及しやすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 6
+    },
     {
       "code": "7203",
       "name": "トヨタ自動車",
@@ -11451,46 +12053,13 @@
       "mentions": 6
     },
     {
-      "code": "4063",
-      "name": "信越化学工業",
-      "sector": "化学",
-      "positive": 3,
-      "negative": 2,
-      "watch": 0,
-      "score": 2,
-      "news": [
-        {
-          "title": "中国、輸出違反摘発が前年超え レアアース規制、日本に影―高市首相台湾答弁１年",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBnSGNfTGtkUHNhSTdfNVlYTWZVaFhwcVNHSUt4NDVQQ0ZqRzhYOUdHSDNjWXJBMDV1a0w4Qy0tbFJuUnY3Wk5zYnlWaEc4anRfSThXRE1mSExacVFtd2g2MGlEUQ?oc=5",
-          "direction": "negative",
-          "reason": "「レアアース」に反応: 永久磁石などレアアース由来部材の調達コスト上昇・供給不安が意識されやすい",
-          "importance": 4
-        },
-        {
-          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: ウエハー・材料の需要増が業績に波及しやすい",
-          "importance": 4
-        },
-        {
-          "title": "マスク氏「AIデータセンターの資金調達が途絶えた」…Neocloud 200社に構造調整警告",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9USG1BRkJHUENmUzhZRzdFbE9QRnExQ0J2MHdWS1VfRENUX3Q3NDA0eW5oV3puM1p5WlNHdlZnS3MtVzZtNUxGNzRuckotM2hLdTJ2dWNSR0xUQ1pNRlBUVWdmc1RsU2hTTWtJS2RodVJwdkg3?oc=5",
-          "direction": "positive",
-          "reason": "「データセンター」に反応: ウエハー・材料の需要増が業績に波及しやすい",
-          "importance": 2
-        }
-      ],
-      "mentions": 5
-    },
-    {
       "code": "8035",
       "name": "東京エレクトロン",
       "sector": "電気機器",
-      "positive": 3,
+      "positive": 4,
       "negative": 0,
       "watch": 1,
-      "score": 8,
+      "score": 10,
       "news": [
         {
           "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
@@ -11507,10 +12076,208 @@
           "importance": 2
         },
         {
+          "title": "マスク氏のスペースX、AI半導体購入へ53兆ウォン調達…「資金難のAIクラウド大量倒産」",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUVab3RUOUUxbHBwZDB4bm1IekxSdlV1X0xwWlJ6ZWIzeDk4WG9pS2xXNUEyaWhsSUd3Nzd1WHVrdUtROXgtSTU2T01xdHJsU0VlNW5KV2FZNzZvNFdJV2hPUXBPOXFTR2QtNmlRazAwN2FFaDNNRnN3X3VfcTM2RA?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 5
+    },
+    {
+      "code": "6857",
+      "name": "アドバンテスト",
+      "sector": "電気機器",
+      "positive": 4,
+      "negative": 0,
+      "watch": 0,
+      "score": 10,
+      "news": [
+        {
+          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 4
+        },
+        {
+          "title": "マスク氏のスペースX、AI半導体購入へ53兆ウォン調達…「資金難のAIクラウド大量倒産」",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUVab3RUOUUxbHBwZDB4bm1IekxSdlV1X0xwWlJ6ZWIzeDk4WG9pS2xXNUEyaWhsSUd3Nzd1WHVrdUtROXgtSTU2T01xdHJsU0VlNW5KV2FZNzZvNFdJV2hPUXBPOXFTR2QtNmlRazAwN2FFaDNNRnN3X3VfcTM2RA?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 2
+        },
+        {
           "title": "マスク氏「AIデータセンターの資金調達が途絶えた」…Neocloud 200社に構造調整警告",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9USG1BRkJHUENmUzhZRzdFbE9QRnExQ0J2MHdWS1VfRENUX3Q3NDA0eW5oV3puM1p5WlNHdlZnS3MtVzZtNUxGNzRuckotM2hLdTJ2dWNSR0xUQ1pNRlBUVWdmc1RsU2hTTWtJS2RodVJwdkg3?oc=5",
           "direction": "positive",
           "reason": "「データセンター」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 4
+    },
+    {
+      "code": "6920",
+      "name": "レーザーテック",
+      "sector": "電気機器",
+      "positive": 4,
+      "negative": 0,
+      "watch": 0,
+      "score": 10,
+      "news": [
+        {
+          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 4
+        },
+        {
+          "title": "マスク氏のスペースX、AI半導体購入へ53兆ウォン調達…「資金難のAIクラウド大量倒産」",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUVab3RUOUUxbHBwZDB4bm1IekxSdlV1X0xwWlJ6ZWIzeDk4WG9pS2xXNUEyaWhsSUd3Nzd1WHVrdUtROXgtSTU2T01xdHJsU0VlNW5KV2FZNzZvNFdJV2hPUXBPOXFTR2QtNmlRazAwN2FFaDNNRnN3X3VfcTM2RA?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 2
+        },
+        {
+          "title": "マスク氏「AIデータセンターの資金調達が途絶えた」…Neocloud 200社に構造調整警告",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9USG1BRkJHUENmUzhZRzdFbE9QRnExQ0J2MHdWS1VfRENUX3Q3NDA0eW5oV3puM1p5WlNHdlZnS3MtVzZtNUxGNzRuckotM2hLdTJ2dWNSR0xUQ1pNRlBUVWdmc1RsU2hTTWtJS2RodVJwdkg3?oc=5",
+          "direction": "positive",
+          "reason": "「データセンター」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 4
+    },
+    {
+      "code": "6146",
+      "name": "ディスコ",
+      "sector": "機械",
+      "positive": 4,
+      "negative": 0,
+      "watch": 0,
+      "score": 10,
+      "news": [
+        {
+          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 4
+        },
+        {
+          "title": "マスク氏のスペースX、AI半導体購入へ53兆ウォン調達…「資金難のAIクラウド大量倒産」",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUVab3RUOUUxbHBwZDB4bm1IekxSdlV1X0xwWlJ6ZWIzeDk4WG9pS2xXNUEyaWhsSUd3Nzd1WHVrdUtROXgtSTU2T01xdHJsU0VlNW5KV2FZNzZvNFdJV2hPUXBPOXFTR2QtNmlRazAwN2FFaDNNRnN3X3VfcTM2RA?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 2
+        },
+        {
+          "title": "マスク氏「AIデータセンターの資金調達が途絶えた」…Neocloud 200社に構造調整警告",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9USG1BRkJHUENmUzhZRzdFbE9QRnExQ0J2MHdWS1VfRENUX3Q3NDA0eW5oV3puM1p5WlNHdlZnS3MtVzZtNUxGNzRuckotM2hLdTJ2dWNSR0xUQ1pNRlBUVWdmc1RsU2hTTWtJS2RodVJwdkg3?oc=5",
+          "direction": "positive",
+          "reason": "「データセンター」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 4
+    },
+    {
+      "code": "7735",
+      "name": "SCREENホールディングス",
+      "sector": "電気機器",
+      "positive": 4,
+      "negative": 0,
+      "watch": 0,
+      "score": 10,
+      "news": [
+        {
+          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 4
+        },
+        {
+          "title": "マスク氏のスペースX、AI半導体購入へ53兆ウォン調達…「資金難のAIクラウド大量倒産」",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUVab3RUOUUxbHBwZDB4bm1IekxSdlV1X0xwWlJ6ZWIzeDk4WG9pS2xXNUEyaWhsSUd3Nzd1WHVrdUtROXgtSTU2T01xdHJsU0VlNW5KV2FZNzZvNFdJV2hPUXBPOXFTR2QtNmlRazAwN2FFaDNNRnN3X3VfcTM2RA?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 2
+        },
+        {
+          "title": "マスク氏「AIデータセンターの資金調達が途絶えた」…Neocloud 200社に構造調整警告",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9USG1BRkJHUENmUzhZRzdFbE9QRnExQ0J2MHdWS1VfRENUX3Q3NDA0eW5oV3puM1p5WlNHdlZnS3MtVzZtNUxGNzRuckotM2hLdTJ2dWNSR0xUQ1pNRlBUVWdmc1RsU2hTTWtJS2RodVJwdkg3?oc=5",
+          "direction": "positive",
+          "reason": "「データセンター」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 4
+    },
+    {
+      "code": "3436",
+      "name": "SUMCO",
+      "sector": "金属製品",
+      "positive": 4,
+      "negative": 0,
+      "watch": 0,
+      "score": 10,
+      "news": [
+        {
+          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: ウエハー・材料の需要増が業績に波及しやすい",
+          "importance": 4
+        },
+        {
+          "title": "マスク氏のスペースX、AI半導体購入へ53兆ウォン調達…「資金難のAIクラウド大量倒産」",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUVab3RUOUUxbHBwZDB4bm1IekxSdlV1X0xwWlJ6ZWIzeDk4WG9pS2xXNUEyaWhsSUd3Nzd1WHVrdUtROXgtSTU2T01xdHJsU0VlNW5KV2FZNzZvNFdJV2hPUXBPOXFTR2QtNmlRazAwN2FFaDNNRnN3X3VfcTM2RA?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: ウエハー・材料の需要増が業績に波及しやすい",
+          "importance": 2
+        },
+        {
+          "title": "マスク氏「AIデータセンターの資金調達が途絶えた」…Neocloud 200社に構造調整警告",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9USG1BRkJHUENmUzhZRzdFbE9QRnExQ0J2MHdWS1VfRENUX3Q3NDA0eW5oV3puM1p5WlNHdlZnS3MtVzZtNUxGNzRuckotM2hLdTJ2dWNSR0xUQ1pNRlBUVWdmc1RsU2hTTWtJS2RodVJwdkg3?oc=5",
+          "direction": "positive",
+          "reason": "「データセンター」に反応: ウエハー・材料の需要増が業績に波及しやすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 4
+    },
+    {
+      "code": "4004",
+      "name": "レゾナック・ホールディングス",
+      "sector": "化学",
+      "positive": 4,
+      "negative": 0,
+      "watch": 0,
+      "score": 10,
+      "news": [
+        {
+          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: ウエハー・材料の需要増が業績に波及しやすい",
+          "importance": 4
+        },
+        {
+          "title": "マスク氏のスペースX、AI半導体購入へ53兆ウォン調達…「資金難のAIクラウド大量倒産」",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUVab3RUOUUxbHBwZDB4bm1IekxSdlV1X0xwWlJ6ZWIzeDk4WG9pS2xXNUEyaWhsSUd3Nzd1WHVrdUtROXgtSTU2T01xdHJsU0VlNW5KV2FZNzZvNFdJV2hPUXBPOXFTR2QtNmlRazAwN2FFaDNNRnN3X3VfcTM2RA?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: ウエハー・材料の需要増が業績に波及しやすい",
+          "importance": 2
+        },
+        {
+          "title": "マスク氏「AIデータセンターの資金調達が途絶えた」…Neocloud 200社に構造調整警告",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9USG1BRkJHUENmUzhZRzdFbE9QRnExQ0J2MHdWS1VfRENUX3Q3NDA0eW5oV3puM1p5WlNHdlZnS3MtVzZtNUxGNzRuckotM2hLdTJ2dWNSR0xUQ1pNRlBUVWdmc1RsU2hTTWtJS2RodVJwdkg3?oc=5",
+          "direction": "positive",
+          "reason": "「データセンター」に反応: ウエハー・材料の需要増が業績に波及しやすい",
           "importance": 2
         }
       ],
@@ -11682,204 +12449,6 @@
       "mentions": 3
     },
     {
-      "code": "6857",
-      "name": "アドバンテスト",
-      "sector": "電気機器",
-      "positive": 3,
-      "negative": 0,
-      "watch": 0,
-      "score": 8,
-      "news": [
-        {
-          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 4
-        },
-        {
-          "title": "マスク氏「AIデータセンターの資金調達が途絶えた」…Neocloud 200社に構造調整警告",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9USG1BRkJHUENmUzhZRzdFbE9QRnExQ0J2MHdWS1VfRENUX3Q3NDA0eW5oV3puM1p5WlNHdlZnS3MtVzZtNUxGNzRuckotM2hLdTJ2dWNSR0xUQ1pNRlBUVWdmc1RsU2hTTWtJS2RodVJwdkg3?oc=5",
-          "direction": "positive",
-          "reason": "「データセンター」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 2
-        },
-        {
-          "title": "韓国は半導体投資を加速させるための13項目の施策を提案した。",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcDQycFlmcVlUMmFuTmZtM1Q0UU8yWHljRUNsMzVHeC1GOHpFa3ZSY0FDbXUzOXBRTDY0elJrTGpQVHAtLXE4QkxibkxWZC0wZkZKZ28xeUhtZmVFeW45Vl9UVW9MbFpYczJ0TG9abDRrRTV6TjF1THY0YjVTb3RTckdsbEdGMHc?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 2
-        }
-      ],
-      "mentions": 3
-    },
-    {
-      "code": "6920",
-      "name": "レーザーテック",
-      "sector": "電気機器",
-      "positive": 3,
-      "negative": 0,
-      "watch": 0,
-      "score": 8,
-      "news": [
-        {
-          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 4
-        },
-        {
-          "title": "マスク氏「AIデータセンターの資金調達が途絶えた」…Neocloud 200社に構造調整警告",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9USG1BRkJHUENmUzhZRzdFbE9QRnExQ0J2MHdWS1VfRENUX3Q3NDA0eW5oV3puM1p5WlNHdlZnS3MtVzZtNUxGNzRuckotM2hLdTJ2dWNSR0xUQ1pNRlBUVWdmc1RsU2hTTWtJS2RodVJwdkg3?oc=5",
-          "direction": "positive",
-          "reason": "「データセンター」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 2
-        },
-        {
-          "title": "韓国は半導体投資を加速させるための13項目の施策を提案した。",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcDQycFlmcVlUMmFuTmZtM1Q0UU8yWHljRUNsMzVHeC1GOHpFa3ZSY0FDbXUzOXBRTDY0elJrTGpQVHAtLXE4QkxibkxWZC0wZkZKZ28xeUhtZmVFeW45Vl9UVW9MbFpYczJ0TG9abDRrRTV6TjF1THY0YjVTb3RTckdsbEdGMHc?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 2
-        }
-      ],
-      "mentions": 3
-    },
-    {
-      "code": "6146",
-      "name": "ディスコ",
-      "sector": "機械",
-      "positive": 3,
-      "negative": 0,
-      "watch": 0,
-      "score": 8,
-      "news": [
-        {
-          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 4
-        },
-        {
-          "title": "マスク氏「AIデータセンターの資金調達が途絶えた」…Neocloud 200社に構造調整警告",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9USG1BRkJHUENmUzhZRzdFbE9QRnExQ0J2MHdWS1VfRENUX3Q3NDA0eW5oV3puM1p5WlNHdlZnS3MtVzZtNUxGNzRuckotM2hLdTJ2dWNSR0xUQ1pNRlBUVWdmc1RsU2hTTWtJS2RodVJwdkg3?oc=5",
-          "direction": "positive",
-          "reason": "「データセンター」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 2
-        },
-        {
-          "title": "韓国は半導体投資を加速させるための13項目の施策を提案した。",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcDQycFlmcVlUMmFuTmZtM1Q0UU8yWHljRUNsMzVHeC1GOHpFa3ZSY0FDbXUzOXBRTDY0elJrTGpQVHAtLXE4QkxibkxWZC0wZkZKZ28xeUhtZmVFeW45Vl9UVW9MbFpYczJ0TG9abDRrRTV6TjF1THY0YjVTb3RTckdsbEdGMHc?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 2
-        }
-      ],
-      "mentions": 3
-    },
-    {
-      "code": "7735",
-      "name": "SCREENホールディングス",
-      "sector": "電気機器",
-      "positive": 3,
-      "negative": 0,
-      "watch": 0,
-      "score": 8,
-      "news": [
-        {
-          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 4
-        },
-        {
-          "title": "マスク氏「AIデータセンターの資金調達が途絶えた」…Neocloud 200社に構造調整警告",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9USG1BRkJHUENmUzhZRzdFbE9QRnExQ0J2MHdWS1VfRENUX3Q3NDA0eW5oV3puM1p5WlNHdlZnS3MtVzZtNUxGNzRuckotM2hLdTJ2dWNSR0xUQ1pNRlBUVWdmc1RsU2hTTWtJS2RodVJwdkg3?oc=5",
-          "direction": "positive",
-          "reason": "「データセンター」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 2
-        },
-        {
-          "title": "韓国は半導体投資を加速させるための13項目の施策を提案した。",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcDQycFlmcVlUMmFuTmZtM1Q0UU8yWHljRUNsMzVHeC1GOHpFa3ZSY0FDbXUzOXBRTDY0elJrTGpQVHAtLXE4QkxibkxWZC0wZkZKZ28xeUhtZmVFeW45Vl9UVW9MbFpYczJ0TG9abDRrRTV6TjF1THY0YjVTb3RTckdsbEdGMHc?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 2
-        }
-      ],
-      "mentions": 3
-    },
-    {
-      "code": "3436",
-      "name": "SUMCO",
-      "sector": "金属製品",
-      "positive": 3,
-      "negative": 0,
-      "watch": 0,
-      "score": 8,
-      "news": [
-        {
-          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: ウエハー・材料の需要増が業績に波及しやすい",
-          "importance": 4
-        },
-        {
-          "title": "マスク氏「AIデータセンターの資金調達が途絶えた」…Neocloud 200社に構造調整警告",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9USG1BRkJHUENmUzhZRzdFbE9QRnExQ0J2MHdWS1VfRENUX3Q3NDA0eW5oV3puM1p5WlNHdlZnS3MtVzZtNUxGNzRuckotM2hLdTJ2dWNSR0xUQ1pNRlBUVWdmc1RsU2hTTWtJS2RodVJwdkg3?oc=5",
-          "direction": "positive",
-          "reason": "「データセンター」に反応: ウエハー・材料の需要増が業績に波及しやすい",
-          "importance": 2
-        },
-        {
-          "title": "韓国は半導体投資を加速させるための13項目の施策を提案した。",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcDQycFlmcVlUMmFuTmZtM1Q0UU8yWHljRUNsMzVHeC1GOHpFa3ZSY0FDbXUzOXBRTDY0elJrTGpQVHAtLXE4QkxibkxWZC0wZkZKZ28xeUhtZmVFeW45Vl9UVW9MbFpYczJ0TG9abDRrRTV6TjF1THY0YjVTb3RTckdsbEdGMHc?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: ウエハー・材料の需要増が業績に波及しやすい",
-          "importance": 2
-        }
-      ],
-      "mentions": 3
-    },
-    {
-      "code": "4004",
-      "name": "レゾナック・ホールディングス",
-      "sector": "化学",
-      "positive": 3,
-      "negative": 0,
-      "watch": 0,
-      "score": 8,
-      "news": [
-        {
-          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: ウエハー・材料の需要増が業績に波及しやすい",
-          "importance": 4
-        },
-        {
-          "title": "マスク氏「AIデータセンターの資金調達が途絶えた」…Neocloud 200社に構造調整警告",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9USG1BRkJHUENmUzhZRzdFbE9QRnExQ0J2MHdWS1VfRENUX3Q3NDA0eW5oV3puM1p5WlNHdlZnS3MtVzZtNUxGNzRuckotM2hLdTJ2dWNSR0xUQ1pNRlBUVWdmc1RsU2hTTWtJS2RodVJwdkg3?oc=5",
-          "direction": "positive",
-          "reason": "「データセンター」に反応: ウエハー・材料の需要増が業績に波及しやすい",
-          "importance": 2
-        },
-        {
-          "title": "韓国は半導体投資を加速させるための13項目の施策を提案した。",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcDQycFlmcVlUMmFuTmZtM1Q0UU8yWHljRUNsMzVHeC1GOHpFa3ZSY0FDbXUzOXBRTDY0elJrTGpQVHAtLXE4QkxibkxWZC0wZkZKZ28xeUhtZmVFeW45Vl9UVW9MbFpYczJ0TG9abDRrRTV6TjF1THY0YjVTb3RTckdsbEdGMHc?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: ウエハー・材料の需要増が業績に波及しやすい",
-          "importance": 2
-        }
-      ],
-      "mentions": 3
-    },
-    {
       "code": "1803",
       "name": "清水建設",
       "sector": "建設",
@@ -12037,6 +12606,509 @@
     }
   ],
   "clusters": [
+    {
+      "connection_type": "theme",
+      "connection_label": "同じテーマ",
+      "theme_id": "semi_demand",
+      "label": "半導体・AI投資の拡大",
+      "category": "tech",
+      "category_label": "半導体・AI",
+      "category_emoji": "🤖",
+      "member_ids": [
+        "a3b5baa7304d",
+        "899ba4dd1f3e",
+        "31657829a475",
+        "8c12f66a85be"
+      ],
+      "members": [
+        {
+          "id": "a3b5baa7304d",
+          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
+          "importance": 4,
+          "source": "財経新聞"
+        },
+        {
+          "id": "899ba4dd1f3e",
+          "title": "マスク氏のスペースX、AI半導体購入へ53兆ウォン調達…「資金難のAIクラウド大量倒産」",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUVab3RUOUUxbHBwZDB4bm1IekxSdlV1X0xwWlJ6ZWIzeDk4WG9pS2xXNUEyaWhsSUd3Nzd1WHVrdUtROXgtSTU2T01xdHJsU0VlNW5KV2FZNzZvNFdJV2hPUXBPOXFTR2QtNmlRazAwN2FFaDNNRnN3X3VfcTM2RA?oc=5",
+          "importance": 2,
+          "source": "조선일보"
+        },
+        {
+          "id": "31657829a475",
+          "title": "マスク氏「AIデータセンターの資金調達が途絶えた」…Neocloud 200社に構造調整警告",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9USG1BRkJHUENmUzhZRzdFbE9QRnExQ0J2MHdWS1VfRENUX3Q3NDA0eW5oV3puM1p5WlNHdlZnS3MtVzZtNUxGNzRuckotM2hLdTJ2dWNSR0xUQ1pNRlBUVWdmc1RsU2hTTWtJS2RodVJwdkg3?oc=5",
+          "importance": 2,
+          "source": "BigGo ファイナンス"
+        },
+        {
+          "id": "8c12f66a85be",
+          "title": "韓国は半導体投資を加速させるための13項目の施策を提案した。",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcDQycFlmcVlUMmFuTmZtM1Q0UU8yWHljRUNsMzVHeC1GOHpFa3ZSY0FDbXUzOXBRTDY0elJrTGpQVHAtLXE4QkxibkxWZC0wZkZKZ28xeUhtZmVFeW45Vl9UVW9MbFpYczJ0TG9abDRrRTV6TjF1THY0YjVTb3RTckdsbEdGMHc?oc=5",
+          "importance": 2,
+          "source": "Vietnam.vn"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "8035",
+          "name": "東京エレクトロン",
+          "positive": 4,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "6857",
+          "name": "アドバンテスト",
+          "positive": 4,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "6920",
+          "name": "レーザーテック",
+          "positive": 4,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "6146",
+          "name": "ディスコ",
+          "positive": 4,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7735",
+          "name": "SCREENホールディングス",
+          "positive": 4,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "3436",
+          "name": "SUMCO",
+          "positive": 4,
+          "negative": 0,
+          "watch": 0
+        }
+      ],
+      "max_importance": 4,
+      "emergence_stage": "watch",
+      "emergence_stage_label": "👀 要監視テーマ",
+      "emergence_signal_labels": [
+        "企業の設備投資",
+        "関連企業の直接発表",
+        "政策の検討・審議段階",
+        "政府・省庁の一次情報",
+        "複数媒体での同時報道",
+        "研究開発の進展"
+      ],
+      "emergence_event_count": 28,
+      "emergence_source_count": 17,
+      "emergence_actor_type_count": 5,
+      "emergence_actor_type_labels": [
+        "関連企業",
+        "海外政府・当局",
+        "日本政府・省庁",
+        "複数メディア",
+        "研究機関・大学"
+      ],
+      "emergence_actor_type_breakdown": [
+        {
+          "label": "関連企業",
+          "count": 3
+        },
+        {
+          "label": "海外政府・当局",
+          "count": 1
+        },
+        {
+          "label": "日本政府・省庁",
+          "count": 3
+        },
+        {
+          "label": "複数メディア",
+          "count": 10
+        },
+        {
+          "label": "研究機関・大学",
+          "count": 2
+        }
+      ],
+      "emergence_region_count": 2,
+      "emergence_regions": [
+        "中国",
+        "米国"
+      ],
+      "emergence_origin_regions": [
+        "日本",
+        "米国"
+      ],
+      "emergence_first_seen": "2026-09-20",
+      "emergence_window_counts": {
+        "7": 5,
+        "30": 25,
+        "90": 28
+      },
+      "emergence_timeline": [
+        {
+          "date": "2026-09-20",
+          "source": "xenospectrum.com",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-24",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-09-25",
+          "source": "note",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-09-29",
+          "source": "digitaltoday.co.kr",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-02",
+          "source": "TBS NEWS DIG",
+          "signal_labels": [
+            "企業の設備投資",
+            "関連企業の直接発表",
+            "政策の検討・審議段階"
+          ],
+          "actor_type_labels": [
+            "関連企業"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-05",
+          "source": "Business Insider Japan",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-05",
+          "source": "Business Insider Japan",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "source": "日経ビジネス電子版",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-10",
+          "source": "BigGo ファイナンス",
+          "signal_labels": [],
+          "actor_type_labels": [
+            "研究機関・大学"
+          ],
+          "regions": [
+            "中国"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Moomoo",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "中国"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Moomoo",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "中国"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "source": "マイナビニュース",
+          "signal_labels": [
+            "企業の設備投資",
+            "関連企業の直接発表"
+          ],
+          "actor_type_labels": [
+            "関連企業"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "source": "マイナビニュース",
+          "signal_labels": [
+            "企業の設備投資",
+            "関連企業の直接発表"
+          ],
+          "actor_type_labels": [
+            "関連企業"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "source": "みんかぶ FX/為替",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "source": "財務省",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-15",
+          "source": "株探",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "source": "PR TIMES",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-15",
+          "source": "総務省",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-15",
+          "source": "株探",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-19",
+          "source": "財務省",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-22",
+          "source": "XenoSpectrum",
+          "signal_labels": [
+            "研究開発の進展"
+          ],
+          "actor_type_labels": [
+            "研究機関・大学"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-23",
+          "source": "BigGo ファイナンス",
+          "signal_labels": [],
+          "actor_type_labels": [
+            "海外政府・当局"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-25",
+          "source": "財経新聞",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-26",
+          "source": "財経新聞",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        }
+      ],
+      "emergence_milestones": [
+        {
+          "date": "2026-09-24",
+          "actor_type_label": "複数メディア"
+        },
+        {
+          "date": "2026-10-02",
+          "actor_type_label": "関連企業"
+        },
+        {
+          "date": "2026-10-10",
+          "actor_type_label": "研究機関・大学"
+        },
+        {
+          "date": "2026-10-15",
+          "actor_type_label": "日本政府・省庁"
+        },
+        {
+          "date": "2026-10-23",
+          "actor_type_label": "海外政府・当局"
+        }
+      ],
+      "emergence_diagnosis": {
+        "target_stage": "watch",
+        "target_stage_label": "👀 要監視テーマ",
+        "source_count": 17,
+        "required_sources": 2,
+        "signal_count": 6,
+        "required_signals": 3,
+        "missing": []
+      },
+      "emergence_growth": {
+        "window_days": 14,
+        "recent_new_actor_types": 2,
+        "total_actor_types": 5
+      }
+    },
     {
       "connection_type": "theme",
       "connection_label": "同じテーマ",
@@ -12785,501 +13857,6 @@
         "window_days": 14,
         "recent_new_actor_types": 0,
         "total_actor_types": 2
-      }
-    },
-    {
-      "connection_type": "theme",
-      "connection_label": "同じテーマ",
-      "theme_id": "semi_demand",
-      "label": "半導体・AI投資の拡大",
-      "category": "tech",
-      "category_label": "半導体・AI",
-      "category_emoji": "🤖",
-      "member_ids": [
-        "a3b5baa7304d",
-        "31657829a475",
-        "8c12f66a85be"
-      ],
-      "members": [
-        {
-          "id": "a3b5baa7304d",
-          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
-          "importance": 4,
-          "source": "財経新聞"
-        },
-        {
-          "id": "31657829a475",
-          "title": "マスク氏「AIデータセンターの資金調達が途絶えた」…Neocloud 200社に構造調整警告",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9USG1BRkJHUENmUzhZRzdFbE9QRnExQ0J2MHdWS1VfRENUX3Q3NDA0eW5oV3puM1p5WlNHdlZnS3MtVzZtNUxGNzRuckotM2hLdTJ2dWNSR0xUQ1pNRlBUVWdmc1RsU2hTTWtJS2RodVJwdkg3?oc=5",
-          "importance": 2,
-          "source": "BigGo ファイナンス"
-        },
-        {
-          "id": "8c12f66a85be",
-          "title": "韓国は半導体投資を加速させるための13項目の施策を提案した。",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcDQycFlmcVlUMmFuTmZtM1Q0UU8yWHljRUNsMzVHeC1GOHpFa3ZSY0FDbXUzOXBRTDY0elJrTGpQVHAtLXE4QkxibkxWZC0wZkZKZ28xeUhtZmVFeW45Vl9UVW9MbFpYczJ0TG9abDRrRTV6TjF1THY0YjVTb3RTckdsbEdGMHc?oc=5",
-          "importance": 2,
-          "source": "Vietnam.vn"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "8035",
-          "name": "東京エレクトロン",
-          "positive": 3,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "6857",
-          "name": "アドバンテスト",
-          "positive": 3,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "6920",
-          "name": "レーザーテック",
-          "positive": 3,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "6146",
-          "name": "ディスコ",
-          "positive": 3,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "7735",
-          "name": "SCREENホールディングス",
-          "positive": 3,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "3436",
-          "name": "SUMCO",
-          "positive": 3,
-          "negative": 0,
-          "watch": 0
-        }
-      ],
-      "max_importance": 4,
-      "emergence_stage": "watch",
-      "emergence_stage_label": "👀 要監視テーマ",
-      "emergence_signal_labels": [
-        "企業の設備投資",
-        "関連企業の直接発表",
-        "政策の検討・審議段階",
-        "政府・省庁の一次情報",
-        "複数媒体での同時報道",
-        "研究開発の進展"
-      ],
-      "emergence_event_count": 28,
-      "emergence_source_count": 17,
-      "emergence_actor_type_count": 5,
-      "emergence_actor_type_labels": [
-        "関連企業",
-        "海外政府・当局",
-        "日本政府・省庁",
-        "複数メディア",
-        "研究機関・大学"
-      ],
-      "emergence_actor_type_breakdown": [
-        {
-          "label": "関連企業",
-          "count": 3
-        },
-        {
-          "label": "海外政府・当局",
-          "count": 1
-        },
-        {
-          "label": "日本政府・省庁",
-          "count": 3
-        },
-        {
-          "label": "複数メディア",
-          "count": 10
-        },
-        {
-          "label": "研究機関・大学",
-          "count": 2
-        }
-      ],
-      "emergence_region_count": 2,
-      "emergence_regions": [
-        "中国",
-        "米国"
-      ],
-      "emergence_origin_regions": [
-        "日本",
-        "米国"
-      ],
-      "emergence_first_seen": "2026-09-20",
-      "emergence_window_counts": {
-        "7": 5,
-        "30": 25,
-        "90": 28
-      },
-      "emergence_timeline": [
-        {
-          "date": "2026-09-20",
-          "source": "xenospectrum.com",
-          "signal_labels": [
-            "企業の設備投資"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-09-24",
-          "source": "Reuters",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-09-25",
-          "source": "note",
-          "signal_labels": [
-            "企業の設備投資"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-09-29",
-          "source": "digitaltoday.co.kr",
-          "signal_labels": [
-            "企業の設備投資"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-02",
-          "source": "TBS NEWS DIG",
-          "signal_labels": [
-            "企業の設備投資",
-            "関連企業の直接発表",
-            "政策の検討・審議段階"
-          ],
-          "actor_type_labels": [
-            "関連企業"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-05",
-          "source": "Business Insider Japan",
-          "signal_labels": [
-            "企業の設備投資"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-05",
-          "source": "Business Insider Japan",
-          "signal_labels": [
-            "企業の設備投資"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-06",
-          "source": "Reuters",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-06",
-          "source": "Reuters",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-09",
-          "source": "Reuters",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-09",
-          "source": "日経ビジネス電子版",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-10",
-          "source": "BigGo ファイナンス",
-          "signal_labels": [],
-          "actor_type_labels": [
-            "研究機関・大学"
-          ],
-          "regions": [
-            "中国"
-          ]
-        },
-        {
-          "date": "2026-10-14",
-          "source": "Moomoo",
-          "signal_labels": [
-            "企業の設備投資"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "中国"
-          ]
-        },
-        {
-          "date": "2026-10-14",
-          "source": "Reuters",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-14",
-          "source": "Moomoo",
-          "signal_labels": [
-            "企業の設備投資"
-          ],
-          "actor_type_labels": [],
-          "regions": [
-            "中国"
-          ]
-        },
-        {
-          "date": "2026-10-14",
-          "source": "マイナビニュース",
-          "signal_labels": [
-            "企業の設備投資",
-            "関連企業の直接発表"
-          ],
-          "actor_type_labels": [
-            "関連企業"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-15",
-          "source": "マイナビニュース",
-          "signal_labels": [
-            "企業の設備投資",
-            "関連企業の直接発表"
-          ],
-          "actor_type_labels": [
-            "関連企業"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-15",
-          "source": "みんかぶ FX/為替",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-15",
-          "source": "財務省",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-15",
-          "source": "株探",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-15",
-          "source": "PR TIMES",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-15",
-          "source": "総務省",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-15",
-          "source": "株探",
-          "signal_labels": [
-            "複数媒体での同時報道"
-          ],
-          "actor_type_labels": [
-            "複数メディア"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-19",
-          "source": "財務省",
-          "signal_labels": [
-            "政府・省庁の一次情報"
-          ],
-          "actor_type_labels": [
-            "日本政府・省庁"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-22",
-          "source": "XenoSpectrum",
-          "signal_labels": [
-            "研究開発の進展"
-          ],
-          "actor_type_labels": [
-            "研究機関・大学"
-          ],
-          "regions": []
-        },
-        {
-          "date": "2026-10-23",
-          "source": "BigGo ファイナンス",
-          "signal_labels": [],
-          "actor_type_labels": [
-            "海外政府・当局"
-          ],
-          "regions": [
-            "米国"
-          ]
-        },
-        {
-          "date": "2026-10-25",
-          "source": "財経新聞",
-          "signal_labels": [
-            "企業の設備投資"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        },
-        {
-          "date": "2026-10-26",
-          "source": "財経新聞",
-          "signal_labels": [
-            "企業の設備投資"
-          ],
-          "actor_type_labels": [],
-          "regions": []
-        }
-      ],
-      "emergence_milestones": [
-        {
-          "date": "2026-09-24",
-          "actor_type_label": "複数メディア"
-        },
-        {
-          "date": "2026-10-02",
-          "actor_type_label": "関連企業"
-        },
-        {
-          "date": "2026-10-10",
-          "actor_type_label": "研究機関・大学"
-        },
-        {
-          "date": "2026-10-15",
-          "actor_type_label": "日本政府・省庁"
-        },
-        {
-          "date": "2026-10-23",
-          "actor_type_label": "海外政府・当局"
-        }
-      ],
-      "emergence_diagnosis": {
-        "target_stage": "watch",
-        "target_stage_label": "👀 要監視テーマ",
-        "source_count": 17,
-        "required_sources": 2,
-        "signal_count": 6,
-        "required_signals": 3,
-        "missing": []
-      },
-      "emergence_growth": {
-        "window_days": 14,
-        "recent_new_actor_types": 2,
-        "total_actor_types": 5
       }
     },
     {
@@ -18302,6 +18879,94 @@
       "connection_type": "company",
       "connection_label": "同じ企業",
       "theme_id": null,
+      "label": "信越化学工業に関するニュース",
+      "category": "",
+      "category_label": "同じ企業",
+      "category_emoji": "🏢",
+      "member_ids": [
+        "2b63739c7f9b",
+        "a3b5baa7304d",
+        "899ba4dd1f3e",
+        "31657829a475",
+        "8c12f66a85be",
+        "35aea00ae863"
+      ],
+      "members": [
+        {
+          "id": "2b63739c7f9b",
+          "title": "中国、輸出違反摘発が前年超え レアアース規制、日本に影―高市首相台湾答弁１年",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBnSGNfTGtkUHNhSTdfNVlYTWZVaFhwcVNHSUt4NDVQQ0ZqRzhYOUdHSDNjWXJBMDV1a0w4Qy0tbFJuUnY3Wk5zYnlWaEc4anRfSThXRE1mSExacVFtd2g2MGlEUQ?oc=5",
+          "importance": 4,
+          "source": "時事ドットコム"
+        },
+        {
+          "id": "a3b5baa7304d",
+          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
+          "importance": 4,
+          "source": "財経新聞"
+        },
+        {
+          "id": "899ba4dd1f3e",
+          "title": "マスク氏のスペースX、AI半導体購入へ53兆ウォン調達…「資金難のAIクラウド大量倒産」",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUVab3RUOUUxbHBwZDB4bm1IekxSdlV1X0xwWlJ6ZWIzeDk4WG9pS2xXNUEyaWhsSUd3Nzd1WHVrdUtROXgtSTU2T01xdHJsU0VlNW5KV2FZNzZvNFdJV2hPUXBPOXFTR2QtNmlRazAwN2FFaDNNRnN3X3VfcTM2RA?oc=5",
+          "importance": 2,
+          "source": "조선일보"
+        },
+        {
+          "id": "31657829a475",
+          "title": "マスク氏「AIデータセンターの資金調達が途絶えた」…Neocloud 200社に構造調整警告",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9USG1BRkJHUENmUzhZRzdFbE9QRnExQ0J2MHdWS1VfRENUX3Q3NDA0eW5oV3puM1p5WlNHdlZnS3MtVzZtNUxGNzRuckotM2hLdTJ2dWNSR0xUQ1pNRlBUVWdmc1RsU2hTTWtJS2RodVJwdkg3?oc=5",
+          "importance": 2,
+          "source": "BigGo ファイナンス"
+        },
+        {
+          "id": "8c12f66a85be",
+          "title": "韓国は半導体投資を加速させるための13項目の施策を提案した。",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcDQycFlmcVlUMmFuTmZtM1Q0UU8yWHljRUNsMzVHeC1GOHpFa3ZSY0FDbXUzOXBRTDY0elJrTGpQVHAtLXE4QkxibkxWZC0wZkZKZ28xeUhtZmVFeW45Vl9UVW9MbFpYczJ0TG9abDRrRTV6TjF1THY0YjVTb3RTckdsbEdGMHc?oc=5",
+          "importance": 2,
+          "source": "Vietnam.vn"
+        },
+        {
+          "id": "35aea00ae863",
+          "title": "駐日米大使、中国のレアアース規制を「再軍事化は口実」と批判 対日輸出管理と「核保有」主張の矛盾を検証",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeGVQRDV1aUFpV3JNOFpRc3h1T1BqdHhDV1ktWWVjUTN4ZzdFaTUzX0tmWVhZbnJtMkw4UzM4WFhaWTl0OHUwT0k0NUtTN2QyT2hPWEpaMkwzaGFwR0VxaDEtQzRFVDd2WTFnM2hLWE8tYU51cUdYcThaX0hneGoyQzdDTzVCbDVBaWtfVDFtaXp5M2FkWEdVcWxmei16N0ptUk1nOUlCSFl3dw?oc=5",
+          "importance": 2,
+          "source": "合同会社ロケットボーイズ"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "4063",
+          "name": "信越化学工業",
+          "positive": 4,
+          "negative": 2,
+          "watch": 0
+        }
+      ],
+      "max_importance": 4,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "connection_type": "company",
+      "connection_label": "同じ企業",
+      "theme_id": null,
       "label": "トヨタ自動車に関するニュース",
       "category": "",
       "category_label": "同じ企業",
@@ -18390,31 +19055,38 @@
       "connection_type": "company",
       "connection_label": "同じ企業",
       "theme_id": null,
-      "label": "信越化学工業に関するニュース",
+      "label": "東京エレクトロンに関するニュース",
       "category": "",
       "category_label": "同じ企業",
       "category_emoji": "🏢",
       "member_ids": [
-        "2b63739c7f9b",
         "a3b5baa7304d",
+        "b2b7cdf8e30c",
+        "899ba4dd1f3e",
         "31657829a475",
-        "8c12f66a85be",
-        "35aea00ae863"
+        "8c12f66a85be"
       ],
       "members": [
-        {
-          "id": "2b63739c7f9b",
-          "title": "中国、輸出違反摘発が前年超え レアアース規制、日本に影―高市首相台湾答弁１年",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBnSGNfTGtkUHNhSTdfNVlYTWZVaFhwcVNHSUt4NDVQQ0ZqRzhYOUdHSDNjWXJBMDV1a0w4Qy0tbFJuUnY3Wk5zYnlWaEc4anRfSThXRE1mSExacVFtd2g2MGlEUQ?oc=5",
-          "importance": 4,
-          "source": "時事ドットコム"
-        },
         {
           "id": "a3b5baa7304d",
           "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
           "importance": 4,
           "source": "財経新聞"
+        },
+        {
+          "id": "b2b7cdf8e30c",
+          "title": "訪日客の消費額、台湾が中国を上回り首位に 買物代は6109億円、全体の27.7％",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9iLTNwTVAxY1pkdlcyaFFEZUJTX2lTZ0ZXR0tWZTBLcHJvOG5fajVLb1hTbzlUUWNLeFk4RHJmOWZXYXJVZlpidm5lUk5sdENaM1d2R3VkR196bllQV3Nr?oc=5",
+          "importance": 2,
+          "source": "AdverTimes.（アドタイ） by 宣伝会議"
+        },
+        {
+          "id": "899ba4dd1f3e",
+          "title": "マスク氏のスペースX、AI半導体購入へ53兆ウォン調達…「資金難のAIクラウド大量倒産」",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUVab3RUOUUxbHBwZDB4bm1IekxSdlV1X0xwWlJ6ZWIzeDk4WG9pS2xXNUEyaWhsSUd3Nzd1WHVrdUtROXgtSTU2T01xdHJsU0VlNW5KV2FZNzZvNFdJV2hPUXBPOXFTR2QtNmlRazAwN2FFaDNNRnN3X3VfcTM2RA?oc=5",
+          "importance": 2,
+          "source": "조선일보"
         },
         {
           "id": "31657829a475",
@@ -18429,22 +19101,15 @@
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcDQycFlmcVlUMmFuTmZtM1Q0UU8yWHljRUNsMzVHeC1GOHpFa3ZSY0FDbXUzOXBRTDY0elJrTGpQVHAtLXE4QkxibkxWZC0wZkZKZ28xeUhtZmVFeW45Vl9UVW9MbFpYczJ0TG9abDRrRTV6TjF1THY0YjVTb3RTckdsbEdGMHc?oc=5",
           "importance": 2,
           "source": "Vietnam.vn"
-        },
-        {
-          "id": "35aea00ae863",
-          "title": "駐日米大使、中国のレアアース規制を「再軍事化は口実」と批判 対日輸出管理と「核保有」主張の矛盾を検証",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeGVQRDV1aUFpV3JNOFpRc3h1T1BqdHhDV1ktWWVjUTN4ZzdFaTUzX0tmWVhZbnJtMkw4UzM4WFhaWTl0OHUwT0k0NUtTN2QyT2hPWEpaMkwzaGFwR0VxaDEtQzRFVDd2WTFnM2hLWE8tYU51cUdYcThaX0hneGoyQzdDTzVCbDVBaWtfVDFtaXp5M2FkWEdVcWxmei16N0ptUk1nOUlCSFl3dw?oc=5",
-          "importance": 2,
-          "source": "合同会社ロケットボーイズ"
         }
       ],
       "stocks": [
         {
-          "code": "4063",
-          "name": "信越化学工業",
-          "positive": 3,
-          "negative": 2,
-          "watch": 0
+          "code": "8035",
+          "name": "東京エレクトロン",
+          "positive": 4,
+          "negative": 0,
+          "watch": 1
         }
       ],
       "max_importance": 4,
@@ -18539,78 +19204,6 @@
       "emergence_growth": {}
     },
     {
-      "connection_type": "company",
-      "connection_label": "同じ企業",
-      "theme_id": null,
-      "label": "日本電気に関するニュース",
-      "category": "",
-      "category_label": "同じ企業",
-      "category_emoji": "🏢",
-      "member_ids": [
-        "2b63739c7f9b",
-        "3dfd9e45583c",
-        "c788229e8e8b",
-        "b2b7cdf8e30c"
-      ],
-      "members": [
-        {
-          "id": "2b63739c7f9b",
-          "title": "中国、輸出違反摘発が前年超え レアアース規制、日本に影―高市首相台湾答弁１年",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBnSGNfTGtkUHNhSTdfNVlYTWZVaFhwcVNHSUt4NDVQQ0ZqRzhYOUdHSDNjWXJBMDV1a0w4Qy0tbFJuUnY3Wk5zYnlWaEc4anRfSThXRE1mSExacVFtd2g2MGlEUQ?oc=5",
-          "importance": 4,
-          "source": "時事ドットコム"
-        },
-        {
-          "id": "3dfd9e45583c",
-          "title": "ウクライナとロシア 部分停戦",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5sYXBXWktEb2VSd1B4NnpCbFlGM3RWTkJlN2FRX0VLb1RCOXJHWU9WblltLXVXVkFUWms1NkxNdWNyWDFvODQxUFVTemZxbUJpdkhha1BGUENGSUc4QWE3Ym5R?oc=5",
-          "importance": 4,
-          "source": "テレ東BIZ"
-        },
-        {
-          "id": "c788229e8e8b",
-          "title": "エネルギー停戦が実現すれば、ロシアによる戦争を終結に向けた最初のシグナルとなり得る＝ゼレンシキー宇大統領",
-          "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQVmFMbnhqaEVpQVRoMmpNdGozZV83NzliS0dRaS1STjZZX09wOGJxUEYyOVZzQUhTQ2R3YVIzTTZldXQyb0R5SXN6LWRBaUtOQ1pkX1otTGM4OXo2WGRQRF9HdEFwMkJnbG9DRWNrUmpsYms0OHBkb3BtZGlxc0VCS29ZYTFNQngwemhhUGg4YkhmRU5hcGhUT2k0YmF4YzlDemhwOWhXVmJ3dE81dGRpSjV5dHcyb2lMX0MtSzBoc3dFXzhuenZNQXI3NFN3SzZQbl9XTnlndV9uSHBKTDVtV3NBdm9ncGRucHFWR25tdlNiMFBtWXpGeWZBQTUtMEJJT2F3am5lODBRY0Z1QnFzUktjUnVrVEtmcDlj0gGgAkFVX3lxTFBSSVM5Nmp3NzIxeWNuMFU1V1FESlVTbmNENmFOdUFVZ0ZvOFAxdi1WVUh6WGdsalkwQW5MYW9BM05kMXREUXcyc2tkVjZqeW1yckpqbnE4ekVLQW9PWjBKUm14RWtGU2M1RERha1lSV041LVZlUWVTZElFRnJNTk9QbWJfZ0p0M2hvUGpqLVJHbHN5aGU0bU5kWHl0TGZjTEVaVEdIbXNSRnVkYTFwMWNWLXhtYVBVSHZvbGR3c1J6cG9PTTUzeVVVMW1QNm9QYmtGbWxOLXU0LW5WN29sYW1sMV85c3l6Vmh3aWRvVXdaWW9iM3ZORHFPYzgzQnBOcUdMUzNfZEV1M1NPc3hQZEpQczhsS2xiZVBZYTZGYTJqZw?oc=5",
-          "importance": 4,
-          "source": "ウクルインフォルム通信"
-        },
-        {
-          "id": "b2b7cdf8e30c",
-          "title": "訪日客の消費額、台湾が中国を上回り首位に 買物代は6109億円、全体の27.7％",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9iLTNwTVAxY1pkdlcyaFFEZUJTX2lTZ0ZXR0tWZTBLcHJvOG5fajVLb1hTbzlUUWNLeFk4RHJmOWZXYXJVZlpidm5lUk5sdENaM1d2R3VkR196bllQV3Nr?oc=5",
-          "importance": 2,
-          "source": "AdverTimes.（アドタイ） by 宣伝会議"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "6701",
-          "name": "日本電気",
-          "positive": 2,
-          "negative": 2,
-          "watch": 0
-        }
-      ],
-      "max_importance": 4,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
       "connection_type": "sector",
       "connection_label": "同じ業界",
       "theme_id": null,
@@ -18624,6 +19217,7 @@
         "c788229e8e8b",
         "a3b5baa7304d",
         "b2b7cdf8e30c",
+        "899ba4dd1f3e",
         "31657829a475",
         "8c12f66a85be"
       ],
@@ -18664,6 +19258,13 @@
           "source": "AdverTimes.（アドタイ） by 宣伝会議"
         },
         {
+          "id": "899ba4dd1f3e",
+          "title": "マスク氏のスペースX、AI半導体購入へ53兆ウォン調達…「資金難のAIクラウド大量倒産」",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUVab3RUOUUxbHBwZDB4bm1IekxSdlV1X0xwWlJ6ZWIzeDk4WG9pS2xXNUEyaWhsSUd3Nzd1WHVrdUtROXgtSTU2T01xdHJsU0VlNW5KV2FZNzZvNFdJV2hPUXBPOXFTR2QtNmlRazAwN2FFaDNNRnN3X3VfcTM2RA?oc=5",
+          "importance": 2,
+          "source": "조선일보"
+        },
+        {
           "id": "31657829a475",
           "title": "マスク氏「AIデータセンターの資金調達が途絶えた」…Neocloud 200社に構造調整警告",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9USG1BRkJHUENmUzhZRzdFbE9QRnExQ0J2MHdWS1VfRENUX3Q3NDA0eW5oV3puM1p5WlNHdlZnS3MtVzZtNUxGNzRuckotM2hLdTJ2dWNSR0xUQ1pNRlBUVWdmc1RsU2hTTWtJS2RodVJwdkg3?oc=5",
@@ -18680,6 +19281,13 @@
       ],
       "stocks": [
         {
+          "code": "8035",
+          "name": "東京エレクトロン",
+          "positive": 4,
+          "negative": 0,
+          "watch": 1
+        },
+        {
           "code": "6503",
           "name": "三菱電機",
           "positive": 2,
@@ -18694,30 +19302,118 @@
           "watch": 0
         },
         {
-          "code": "8035",
-          "name": "東京エレクトロン",
-          "positive": 3,
-          "negative": 0,
-          "watch": 1
-        },
-        {
           "code": "6857",
           "name": "アドバンテスト",
-          "positive": 3,
+          "positive": 4,
           "negative": 0,
           "watch": 0
         },
         {
           "code": "6920",
           "name": "レーザーテック",
-          "positive": 3,
+          "positive": 4,
           "negative": 0,
           "watch": 0
         },
         {
           "code": "7735",
           "name": "SCREENホールディングス",
-          "positive": 3,
+          "positive": 4,
+          "negative": 0,
+          "watch": 0
+        }
+      ],
+      "max_importance": 4,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "connection_type": "sector",
+      "connection_label": "同じ業界",
+      "theme_id": null,
+      "label": "化学業界のニュース",
+      "category": "",
+      "category_label": "同じ業界",
+      "category_emoji": "🏭",
+      "member_ids": [
+        "2b63739c7f9b",
+        "a3b5baa7304d",
+        "899ba4dd1f3e",
+        "31657829a475",
+        "8c12f66a85be",
+        "35aea00ae863"
+      ],
+      "members": [
+        {
+          "id": "2b63739c7f9b",
+          "title": "中国、輸出違反摘発が前年超え レアアース規制、日本に影―高市首相台湾答弁１年",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBnSGNfTGtkUHNhSTdfNVlYTWZVaFhwcVNHSUt4NDVQQ0ZqRzhYOUdHSDNjWXJBMDV1a0w4Qy0tbFJuUnY3Wk5zYnlWaEc4anRfSThXRE1mSExacVFtd2g2MGlEUQ?oc=5",
+          "importance": 4,
+          "source": "時事ドットコム"
+        },
+        {
+          "id": "a3b5baa7304d",
+          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
+          "importance": 4,
+          "source": "財経新聞"
+        },
+        {
+          "id": "899ba4dd1f3e",
+          "title": "マスク氏のスペースX、AI半導体購入へ53兆ウォン調達…「資金難のAIクラウド大量倒産」",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUVab3RUOUUxbHBwZDB4bm1IekxSdlV1X0xwWlJ6ZWIzeDk4WG9pS2xXNUEyaWhsSUd3Nzd1WHVrdUtROXgtSTU2T01xdHJsU0VlNW5KV2FZNzZvNFdJV2hPUXBPOXFTR2QtNmlRazAwN2FFaDNNRnN3X3VfcTM2RA?oc=5",
+          "importance": 2,
+          "source": "조선일보"
+        },
+        {
+          "id": "31657829a475",
+          "title": "マスク氏「AIデータセンターの資金調達が途絶えた」…Neocloud 200社に構造調整警告",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9USG1BRkJHUENmUzhZRzdFbE9QRnExQ0J2MHdWS1VfRENUX3Q3NDA0eW5oV3puM1p5WlNHdlZnS3MtVzZtNUxGNzRuckotM2hLdTJ2dWNSR0xUQ1pNRlBUVWdmc1RsU2hTTWtJS2RodVJwdkg3?oc=5",
+          "importance": 2,
+          "source": "BigGo ファイナンス"
+        },
+        {
+          "id": "8c12f66a85be",
+          "title": "韓国は半導体投資を加速させるための13項目の施策を提案した。",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcDQycFlmcVlUMmFuTmZtM1Q0UU8yWHljRUNsMzVHeC1GOHpFa3ZSY0FDbXUzOXBRTDY0elJrTGpQVHAtLXE4QkxibkxWZC0wZkZKZ28xeUhtZmVFeW45Vl9UVW9MbFpYczJ0TG9abDRrRTV6TjF1THY0YjVTb3RTckdsbEdGMHc?oc=5",
+          "importance": 2,
+          "source": "Vietnam.vn"
+        },
+        {
+          "id": "35aea00ae863",
+          "title": "駐日米大使、中国のレアアース規制を「再軍事化は口実」と批判 対日輸出管理と「核保有」主張の矛盾を検証",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeGVQRDV1aUFpV3JNOFpRc3h1T1BqdHhDV1ktWWVjUTN4ZzdFaTUzX0tmWVhZbnJtMkw4UzM4WFhaWTl0OHUwT0k0NUtTN2QyT2hPWEpaMkwzaGFwR0VxaDEtQzRFVDd2WTFnM2hLWE8tYU51cUdYcThaX0hneGoyQzdDTzVCbDVBaWtfVDFtaXp5M2FkWEdVcWxmei16N0ptUk1nOUlCSFl3dw?oc=5",
+          "importance": 2,
+          "source": "合同会社ロケットボーイズ"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "4063",
+          "name": "信越化学工業",
+          "positive": 4,
+          "negative": 2,
+          "watch": 0
+        },
+        {
+          "code": "4004",
+          "name": "レゾナック・ホールディングス",
+          "positive": 4,
           "negative": 0,
           "watch": 0
         }
@@ -18868,31 +19564,38 @@
       "connection_type": "sector",
       "connection_label": "同じ業界",
       "theme_id": null,
-      "label": "化学業界のニュース",
+      "label": "機械業界のニュース",
       "category": "",
       "category_label": "同じ業界",
       "category_emoji": "🏭",
       "member_ids": [
-        "2b63739c7f9b",
         "a3b5baa7304d",
+        "164d579a6747",
+        "899ba4dd1f3e",
         "31657829a475",
-        "8c12f66a85be",
-        "35aea00ae863"
+        "8c12f66a85be"
       ],
       "members": [
-        {
-          "id": "2b63739c7f9b",
-          "title": "中国、輸出違反摘発が前年超え レアアース規制、日本に影―高市首相台湾答弁１年",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBnSGNfTGtkUHNhSTdfNVlYTWZVaFhwcVNHSUt4NDVQQ0ZqRzhYOUdHSDNjWXJBMDV1a0w4Qy0tbFJuUnY3Wk5zYnlWaEc4anRfSThXRE1mSExacVFtd2g2MGlEUQ?oc=5",
-          "importance": 4,
-          "source": "時事ドットコム"
-        },
         {
           "id": "a3b5baa7304d",
           "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
           "importance": 4,
           "source": "財経新聞"
+        },
+        {
+          "id": "164d579a6747",
+          "title": "ベトナム造船業、輸出受注が拡大も政策支援を求める - ニュースと統計",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRks3RjZFd0tvZHFYOE5HaG4xTGhPb2trRHd3ZUhNTlhfUnd4QlJFZHFnNDBFa2RlWlNnWVZ6R3NUVTRmY3V5aGdsQVRnQnNwaUdzamVMSkUzUTFMU1VhLXk4c1Z4VEdna2Vqc25BZGVPVEZ1ZDl0aE9VMHRzLUpUSHFjQUI4c1hvMGFqeExiYkhjeVFjVk9JRW5UNFdzS3dZWEhGRl82cko?oc=5",
+          "importance": 3,
+          "source": "IndexBox"
+        },
+        {
+          "id": "899ba4dd1f3e",
+          "title": "マスク氏のスペースX、AI半導体購入へ53兆ウォン調達…「資金難のAIクラウド大量倒産」",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUVab3RUOUUxbHBwZDB4bm1IekxSdlV1X0xwWlJ6ZWIzeDk4WG9pS2xXNUEyaWhsSUd3Nzd1WHVrdUtROXgtSTU2T01xdHJsU0VlNW5KV2FZNzZvNFdJV2hPUXBPOXFTR2QtNmlRazAwN2FFaDNNRnN3X3VfcTM2RA?oc=5",
+          "importance": 2,
+          "source": "조선일보"
         },
         {
           "id": "31657829a475",
@@ -18907,114 +19610,49 @@
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcDQycFlmcVlUMmFuTmZtM1Q0UU8yWHljRUNsMzVHeC1GOHpFa3ZSY0FDbXUzOXBRTDY0elJrTGpQVHAtLXE4QkxibkxWZC0wZkZKZ28xeUhtZmVFeW45Vl9UVW9MbFpYczJ0TG9abDRrRTV6TjF1THY0YjVTb3RTckdsbEdGMHc?oc=5",
           "importance": 2,
           "source": "Vietnam.vn"
-        },
-        {
-          "id": "35aea00ae863",
-          "title": "駐日米大使、中国のレアアース規制を「再軍事化は口実」と批判 対日輸出管理と「核保有」主張の矛盾を検証",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeGVQRDV1aUFpV3JNOFpRc3h1T1BqdHhDV1ktWWVjUTN4ZzdFaTUzX0tmWVhZbnJtMkw4UzM4WFhaWTl0OHUwT0k0NUtTN2QyT2hPWEpaMkwzaGFwR0VxaDEtQzRFVDd2WTFnM2hLWE8tYU51cUdYcThaX0hneGoyQzdDTzVCbDVBaWtfVDFtaXp5M2FkWEdVcWxmei16N0ptUk1nOUlCSFl3dw?oc=5",
-          "importance": 2,
-          "source": "合同会社ロケットボーイズ"
         }
       ],
       "stocks": [
         {
-          "code": "4063",
-          "name": "信越化学工業",
-          "positive": 3,
-          "negative": 2,
-          "watch": 0
-        },
-        {
-          "code": "4004",
-          "name": "レゾナック・ホールディングス",
-          "positive": 3,
+          "code": "6146",
+          "name": "ディスコ",
+          "positive": 4,
           "negative": 0,
           "watch": 0
-        }
-      ],
-      "max_importance": 4,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "connection_type": "sector",
-      "connection_label": "同じ業界",
-      "theme_id": null,
-      "label": "小売業界のニュース",
-      "category": "",
-      "category_label": "同じ業界",
-      "category_emoji": "🏭",
-      "member_ids": [
-        "3dfd9e45583c",
-        "c788229e8e8b",
-        "5565ef854b29",
-        "9ff3f53380c0"
-      ],
-      "members": [
-        {
-          "id": "3dfd9e45583c",
-          "title": "ウクライナとロシア 部分停戦",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5sYXBXWktEb2VSd1B4NnpCbFlGM3RWTkJlN2FRX0VLb1RCOXJHWU9WblltLXVXVkFUWms1NkxNdWNyWDFvODQxUFVTemZxbUJpdkhha1BGUENGSUc4QWE3Ym5R?oc=5",
-          "importance": 4,
-          "source": "テレ東BIZ"
         },
         {
-          "id": "c788229e8e8b",
-          "title": "エネルギー停戦が実現すれば、ロシアによる戦争を終結に向けた最初のシグナルとなり得る＝ゼレンシキー宇大統領",
-          "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQVmFMbnhqaEVpQVRoMmpNdGozZV83NzliS0dRaS1STjZZX09wOGJxUEYyOVZzQUhTQ2R3YVIzTTZldXQyb0R5SXN6LWRBaUtOQ1pkX1otTGM4OXo2WGRQRF9HdEFwMkJnbG9DRWNrUmpsYms0OHBkb3BtZGlxc0VCS29ZYTFNQngwemhhUGg4YkhmRU5hcGhUT2k0YmF4YzlDemhwOWhXVmJ3dE81dGRpSjV5dHcyb2lMX0MtSzBoc3dFXzhuenZNQXI3NFN3SzZQbl9XTnlndV9uSHBKTDVtV3NBdm9ncGRucHFWR25tdlNiMFBtWXpGeWZBQTUtMEJJT2F3am5lODBRY0Z1QnFzUktjUnVrVEtmcDlj0gGgAkFVX3lxTFBSSVM5Nmp3NzIxeWNuMFU1V1FESlVTbmNENmFOdUFVZ0ZvOFAxdi1WVUh6WGdsalkwQW5MYW9BM05kMXREUXcyc2tkVjZqeW1yckpqbnE4ekVLQW9PWjBKUm14RWtGU2M1RERha1lSV041LVZlUWVTZElFRnJNTk9QbWJfZ0p0M2hvUGpqLVJHbHN5aGU0bU5kWHl0TGZjTEVaVEdIbXNSRnVkYTFwMWNWLXhtYVBVSHZvbGR3c1J6cG9PTTUzeVVVMW1QNm9QYmtGbWxOLXU0LW5WN29sYW1sMV85c3l6Vmh3aWRvVXdaWW9iM3ZORHFPYzgzQnBOcUdMUzNfZEV1M1NPc3hQZEpQczhsS2xiZVBZYTZGYTJqZw?oc=5",
-          "importance": 4,
-          "source": "ウクルインフォルム通信"
-        },
-        {
-          "id": "5565ef854b29",
-          "title": "外為：NZドル、89円44銭前後とNZドル高・円安で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOTVDNlBxdnlkaUkxN3FTaEJMMlRadk9LOXY3LUFiYmotSUNRTkltTktQQ291WkxKMHFTMkl0VlU0QmszTExqeV9TVkVoRnRlUG1OQ2F4Y3FQdENDVzRrX3ozR3p0MW92b1lSdmFYRU9XbVhSTklVSVNycko2Mld3R0c1LWZZZlk?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ファイナンス"
-        },
-        {
-          "id": "9ff3f53380c0",
-          "title": "円安トレンドは本当に終わったのか？日米牽制でもドル円「156～160円」を見込む理由",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1MSW9rQjNZYkFYenR4WDJVazlUdTByX2xXbDJYUzE3ZFl0Y3hfcGY0Sm1LZUpvTUtaYlJKTlFoajFicjZwS3ZmLS04MnTSAU9BVV95cUxPYUtKT1J5LVAwSk9fS1VETVQ4ZW1NcG1RaFpobzJodm5QYmJQQXQzTDYzQmVGb25hdG9VTG05TkVMRHk0YVZaSUlyQVNWSjhR?oc=5",
-          "importance": 2,
-          "source": "ダイヤモンド・オンライン"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "8267",
-          "name": "イオン",
-          "positive": 0,
-          "negative": 2,
+          "code": "7011",
+          "name": "三菱重工業",
+          "positive": 1,
+          "negative": 0,
           "watch": 0
         },
         {
-          "code": "9983",
-          "name": "ファーストリテイリング",
-          "positive": 0,
-          "negative": 2,
+          "code": "7012",
+          "name": "川崎重工業",
+          "positive": 1,
+          "negative": 0,
           "watch": 0
         },
         {
-          "code": "3382",
-          "name": "セブン&アイ・ホールディングス",
-          "positive": 0,
-          "negative": 2,
+          "code": "7013",
+          "name": "IHI",
+          "positive": 1,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7003",
+          "name": "三井E&Sホールディングス",
+          "positive": 1,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7014",
+          "name": "名村造船所",
+          "positive": 1,
+          "negative": 0,
           "watch": 0
         }
       ],
@@ -19052,6 +19690,7 @@
         "a3b5baa7304d",
         "d6f8ecf0b5dd",
         "b2b7cdf8e30c",
+        "899ba4dd1f3e",
         "31657829a475",
         "aeb28e4c546e",
         "8c12f66a85be"
@@ -19100,6 +19739,13 @@
           "source": "AdverTimes.（アドタイ） by 宣伝会議"
         },
         {
+          "id": "899ba4dd1f3e",
+          "title": "マスク氏のスペースX、AI半導体購入へ53兆ウォン調達…「資金難のAIクラウド大量倒産」",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUVab3RUOUUxbHBwZDB4bm1IekxSdlV1X0xwWlJ6ZWIzeDk4WG9pS2xXNUEyaWhsSUd3Nzd1WHVrdUtROXgtSTU2T01xdHJsU0VlNW5KV2FZNzZvNFdJV2hPUXBPOXFTR2QtNmlRazAwN2FFaDNNRnN3X3VfcTM2RA?oc=5",
+          "importance": 2,
+          "source": "조선일보"
+        },
+        {
           "id": "31657829a475",
           "title": "マスク氏「AIデータセンターの資金調達が途絶えた」…Neocloud 200社に構造調整警告",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9USG1BRkJHUENmUzhZRzdFbE9QRnExQ0J2MHdWS1VfRENUX3Q3NDA0eW5oV3puM1p5WlNHdlZnS3MtVzZtNUxGNzRuckotM2hLdTJ2dWNSR0xUQ1pNRlBUVWdmc1RsU2hTTWtJS2RodVJwdkg3?oc=5",
@@ -19123,6 +19769,13 @@
       ],
       "stocks": [
         {
+          "code": "8035",
+          "name": "東京エレクトロン",
+          "positive": 4,
+          "negative": 0,
+          "watch": 1
+        },
+        {
           "code": "6701",
           "name": "日本電気",
           "positive": 2,
@@ -19130,23 +19783,16 @@
           "watch": 0
         },
         {
-          "code": "8035",
-          "name": "東京エレクトロン",
-          "positive": 3,
-          "negative": 0,
-          "watch": 1
-        },
-        {
           "code": "6857",
           "name": "アドバンテスト",
-          "positive": 3,
+          "positive": 4,
           "negative": 0,
           "watch": 0
         },
         {
           "code": "6146",
           "name": "ディスコ",
-          "positive": 3,
+          "positive": 4,
           "negative": 0,
           "watch": 0
         },
@@ -19190,6 +19836,7 @@
         "a3b5baa7304d",
         "d6f8ecf0b5dd",
         "b2b7cdf8e30c",
+        "899ba4dd1f3e",
         "31657829a475",
         "aeb28e4c546e",
         "8c12f66a85be",
@@ -19225,6 +19872,13 @@
           "source": "AdverTimes.（アドタイ） by 宣伝会議"
         },
         {
+          "id": "899ba4dd1f3e",
+          "title": "マスク氏のスペースX、AI半導体購入へ53兆ウォン調達…「資金難のAIクラウド大量倒産」",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUVab3RUOUUxbHBwZDB4bm1IekxSdlV1X0xwWlJ6ZWIzeDk4WG9pS2xXNUEyaWhsSUd3Nzd1WHVrdUtROXgtSTU2T01xdHJsU0VlNW5KV2FZNzZvNFdJV2hPUXBPOXFTR2QtNmlRazAwN2FFaDNNRnN3X3VfcTM2RA?oc=5",
+          "importance": 2,
+          "source": "조선일보"
+        },
+        {
           "id": "31657829a475",
           "title": "マスク氏「AIデータセンターの資金調達が途絶えた」…Neocloud 200社に構造調整警告",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9USG1BRkJHUENmUzhZRzdFbE9QRnExQ0J2MHdWS1VfRENUX3Q3NDA0eW5oV3puM1p5WlNHdlZnS3MtVzZtNUxGNzRuckotM2hLdTJ2dWNSR0xUQ1pNRlBUVWdmc1RsU2hTTWtJS2RodVJwdkg3?oc=5",
@@ -19257,42 +19911,42 @@
         {
           "code": "4063",
           "name": "信越化学工業",
-          "positive": 3,
+          "positive": 4,
           "negative": 2,
           "watch": 0
         },
         {
           "code": "8035",
           "name": "東京エレクトロン",
-          "positive": 3,
+          "positive": 4,
           "negative": 0,
           "watch": 1
         },
         {
           "code": "6857",
           "name": "アドバンテスト",
-          "positive": 3,
+          "positive": 4,
           "negative": 0,
           "watch": 0
         },
         {
           "code": "6920",
           "name": "レーザーテック",
-          "positive": 3,
+          "positive": 4,
           "negative": 0,
           "watch": 0
         },
         {
           "code": "6146",
           "name": "ディスコ",
-          "positive": 3,
+          "positive": 4,
           "negative": 0,
           "watch": 0
         },
         {
           "code": "7735",
           "name": "SCREENホールディングス",
-          "positive": 3,
+          "positive": 4,
           "negative": 0,
           "watch": 0
         }
@@ -19430,16 +20084,16 @@
       "connection_type": "supply_chain",
       "connection_label": "資源・サプライチェーン",
       "theme_id": null,
-      "label": "自動車に関連するニュース",
+      "label": "半導体材料に関連するニュース",
       "category": "",
       "category_label": "資源・サプライチェーン",
       "category_emoji": "🔗",
       "member_ids": [
         "2b63739c7f9b",
-        "d6f8ecf0b5dd",
-        "5565ef854b29",
-        "aeb28e4c546e",
-        "9ff3f53380c0",
+        "a3b5baa7304d",
+        "899ba4dd1f3e",
+        "31657829a475",
+        "8c12f66a85be",
         "35aea00ae863"
       ],
       "members": [
@@ -19451,32 +20105,32 @@
           "source": "時事ドットコム"
         },
         {
-          "id": "d6f8ecf0b5dd",
-          "title": "ナスダック総合の指数情報・推移",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
-          "importance": 2,
-          "source": "Yahoo!ファイナンス"
+          "id": "a3b5baa7304d",
+          "title": "AI半導体の増産を左右する製造装置　インテルCTOが語る供給制約",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zNHNnaW9uR2o2SGR4ZXhNeWlzUW5abFVOQ2IxY21iNTBJd3o5b0RjbExfUVd1WldlMU00Sm43V2x1OXdHYmZkT1dKWWxZbEpYdW5Gck1SQnpILS1XSExrMEw1VdIBaEFVX3lxTE05TGpGcm13Q1VpMHRVTktUVHhpN1l2WktCcmZnQ3ZGOFp3QUItWUlKaWE5bkFVQUZ1N1VfUmdPUjBUdmY4TldBNnp5OFVCa3ZMQlIzalVfVnJjcU8wa2Y5TkxmYTJLQUxr?oc=5",
+          "importance": 4,
+          "source": "財経新聞"
         },
         {
-          "id": "5565ef854b29",
-          "title": "外為：NZドル、89円44銭前後とNZドル高・円安で推移(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOTVDNlBxdnlkaUkxN3FTaEJMMlRadk9LOXY3LUFiYmotSUNRTkltTktQQ291WkxKMHFTMkl0VlU0QmszTExqeV9TVkVoRnRlUG1OQ2F4Y3FQdENDVzRrX3ozR3p0MW92b1lSdmFYRU9XbVhSTklVSVNycko2Mld3R0c1LWZZZlk?oc=5",
+          "id": "899ba4dd1f3e",
+          "title": "マスク氏のスペースX、AI半導体購入へ53兆ウォン調達…「資金難のAIクラウド大量倒産」",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUVab3RUOUUxbHBwZDB4bm1IekxSdlV1X0xwWlJ6ZWIzeDk4WG9pS2xXNUEyaWhsSUd3Nzd1WHVrdUtROXgtSTU2T01xdHJsU0VlNW5KV2FZNzZvNFdJV2hPUXBPOXFTR2QtNmlRazAwN2FFaDNNRnN3X3VfcTM2RA?oc=5",
           "importance": 2,
-          "source": "Yahoo!ファイナンス"
+          "source": "조선일보"
         },
         {
-          "id": "aeb28e4c546e",
-          "title": "米国株式市場、ＮＹダウ４日ぶり反落、ナスダックは続落(ウエルスアドバイザー)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSkgyUzZCaURLaTI4TkNGZkRxbXNmY3lqWjJ2R2lhVENSemxhcDBKLUZ2dGJMdmJVa296N1g1U1doZ1NxV0pBWlVOV3MwcllSbjJiQVhXZkszdi1DYkw3MmZVU0k5Y3M1RktMZ01XZGZlLWhyRmRycmRwbDlHalN3Wkgxb0dsd3M?oc=5",
+          "id": "31657829a475",
+          "title": "マスク氏「AIデータセンターの資金調達が途絶えた」…Neocloud 200社に構造調整警告",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9USG1BRkJHUENmUzhZRzdFbE9QRnExQ0J2MHdWS1VfRENUX3Q3NDA0eW5oV3puM1p5WlNHdlZnS3MtVzZtNUxGNzRuckotM2hLdTJ2dWNSR0xUQ1pNRlBUVWdmc1RsU2hTTWtJS2RodVJwdkg3?oc=5",
           "importance": 2,
-          "source": "Yahoo!ファイナンス"
+          "source": "BigGo ファイナンス"
         },
         {
-          "id": "9ff3f53380c0",
-          "title": "円安トレンドは本当に終わったのか？日米牽制でもドル円「156～160円」を見込む理由",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1MSW9rQjNZYkFYenR4WDJVazlUdTByX2xXbDJYUzE3ZFl0Y3hfcGY0Sm1LZUpvTUtaYlJKTlFoajFicjZwS3ZmLS04MnTSAU9BVV95cUxPYUtKT1J5LVAwSk9fS1VETVQ4ZW1NcG1RaFpobzJodm5QYmJQQXQzTDYzQmVGb25hdG9VTG05TkVMRHk0YVZaSUlyQVNWSjhR?oc=5",
+          "id": "8c12f66a85be",
+          "title": "韓国は半導体投資を加速させるための13項目の施策を提案した。",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcDQycFlmcVlUMmFuTmZtM1Q0UU8yWHljRUNsMzVHeC1GOHpFa3ZSY0FDbXUzOXBRTDY0elJrTGpQVHAtLXE4QkxibkxWZC0wZkZKZ28xeUhtZmVFeW45Vl9UVW9MbFpYczJ0TG9abDRrRTV6TjF1THY0YjVTb3RTckdsbEdGMHc?oc=5",
           "importance": 2,
-          "source": "ダイヤモンド・オンライン"
+          "source": "Vietnam.vn"
         },
         {
           "id": "35aea00ae863",
@@ -19488,44 +20142,23 @@
       ],
       "stocks": [
         {
-          "code": "7203",
-          "name": "トヨタ自動車",
-          "positive": 2,
-          "negative": 2,
-          "watch": 2
-        },
-        {
-          "code": "7267",
-          "name": "本田技研工業",
-          "positive": 2,
+          "code": "4063",
+          "name": "信越化学工業",
+          "positive": 4,
           "negative": 2,
           "watch": 0
         },
         {
-          "code": "7201",
-          "name": "日産自動車",
-          "positive": 2,
+          "code": "3436",
+          "name": "SUMCO",
+          "positive": 4,
           "negative": 0,
           "watch": 0
         },
         {
-          "code": "7269",
-          "name": "スズキ",
-          "positive": 2,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "7270",
-          "name": "SUBARU",
-          "positive": 2,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "7261",
-          "name": "マツダ",
-          "positive": 2,
+          "code": "4004",
+          "name": "レゾナック・ホールディングス",
+          "positive": 4,
           "negative": 0,
           "watch": 0
         }
@@ -19569,7 +20202,7 @@
       "accumulating": "2026-09-21",
       "ready_for_backtest": "2026-10-20"
     },
-    "last_computed_at": "2026-10-26T21:59:48+09:00"
+    "last_computed_at": "2026-10-26T22:32:07+09:00"
   },
   "counts": {
     "news": 40,
