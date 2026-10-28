@@ -596,7 +596,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 307,
+   "occurrences": 308,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -973,7 +973,7 @@
    "milestones": {
     "government_foreign": "2026-10-02"
    },
-   "occurrences": 11
+   "occurrences": 12
   },
   "fed_hawkish": {
    "events": [
@@ -1158,7 +1158,7 @@
     "government_foreign": "2026-09-25",
     "media": "2026-10-16"
    },
-   "occurrences": 88
+   "occurrences": 89
   },
   "fusion": {
    "events": [
@@ -2323,7 +2323,7 @@
     "government_jp": "2026-09-20",
     "media": "2026-09-20"
    },
-   "occurrences": 231,
+   "occurrences": 232,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
@@ -2622,7 +2622,7 @@
     "government_jp": "2026-10-24",
     "media": "2026-10-28"
    },
-   "occurrences": 115
+   "occurrences": 116
   },
   "oil_down": {
    "events": [
@@ -2662,7 +2662,7 @@
     "corporate": "2026-10-28",
     "media": "2026-10-09"
    },
-   "occurrences": 36
+   "occurrences": 37
   },
   "oil_up": {
    "events": [
@@ -2820,7 +2820,7 @@
     "government_foreign": "2026-10-28",
     "media": "2026-10-28"
    },
-   "occurrences": 88
+   "occurrences": 89
   },
   "quantum": {
    "events": [
@@ -3014,7 +3014,7 @@
     "corporate": "2026-10-23",
     "media": "2026-09-20"
    },
-   "occurrences": 185
+   "occurrences": 186
   },
   "rate_cut": {
    "events": [
@@ -3080,7 +3080,7 @@
     "government_foreign": "2026-09-20",
     "media": "2026-10-07"
    },
-   "occurrences": 53,
+   "occurrences": 54,
    "signals": {}
   },
   "robotics": {
@@ -3539,6 +3539,20 @@
      ],
      "source": "Yahoo!ファイナンス",
      "title": "〔決算〕アドバンテスト、今期業績予想を上方修正＝AI半導体向け需要旺盛(時事通信)"
+    },
+    {
+     "actor_types": [
+      "corporate"
+     ],
+     "date": "2026-10-29",
+     "item_id": "d5cc795810d9",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "corporate"
+     ],
+     "source": "株探",
+     "title": "日立、通期業績予想を上方修正 ＣＩ部門が半導体製造・計測・検査装置など中心に好調"
     }
    ],
    "first_seen": "2026-09-20",
@@ -3549,7 +3563,7 @@
     "media": "2026-09-24",
     "research": "2026-10-10"
    },
-   "occurrences": 303,
+   "occurrences": 304,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -3684,7 +3698,7 @@
     "government_jp": "2026-10-08",
     "media": "2026-10-08"
    },
-   "occurrences": 100
+   "occurrences": 101
   },
   "shipbuilding_policy": {
    "events": [
@@ -3829,7 +3843,7 @@
    "milestones": {
     "government_jp": "2026-09-20"
    },
-   "occurrences": 37
+   "occurrences": 38
   },
   "taiwan_china": {
    "events": [
@@ -5109,7 +5123,7 @@
     "media": "2026-09-26",
     "research": "2026-09-27"
    },
-   "occurrences": 245,
+   "occurrences": 246,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -5256,7 +5270,7 @@
    "milestones": {
     "government_jp": "2026-09-24"
    },
-   "occurrences": 74
+   "occurrences": 75
   },
   "ukraine_russia": {
    "events": [
@@ -7414,6 +7428,30 @@
      ],
      "source": "NHKニュース",
      "title": "ロシアとウクライナの局地停戦合意が発効"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-29",
+     "item_id": "ded5f31b64b6",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "ウクルインフォルム通信",
+     "title": "ウクライナ軍とロシア軍ともにオレシュキで停戦を遵守＝ルビネツ宇人権担当全権"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-29",
+     "item_id": "0181bc9c7d02",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "CGTN Japanese",
+     "title": "メラニア氏 「ロシア・ウクライナのオレシュキ停戦は予定より早く発効、適用範囲も拡大」"
     }
    ],
    "first_seen": "2026-09-20",
@@ -7423,7 +7461,7 @@
     "international_org": "2026-09-24",
     "media": "2026-09-24"
    },
-   "occurrences": 279,
+   "occurrences": 280,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -9542,7 +9580,9 @@
      "title": "米国株三大指数そろって上昇、ナスダック総合指数は1.18%高 メモリー・光通信セクターが主導"
     },
     {
-     "actor_types": [],
+     "actor_types": [
+      "media"
+     ],
      "date": "2026-10-28",
      "item_id": "b7588ad6daad",
      "origin_region": null,
@@ -9560,7 +9600,7 @@
    "milestones": {
     "media": "2026-09-23"
    },
-   "occurrences": 322,
+   "occurrences": 323,
    "signals": {}
   },
   "yen_strong": {
@@ -9725,7 +9765,7 @@
     "corporate": "2026-10-28",
     "media": "2026-09-20"
    },
-   "occurrences": 151,
+   "occurrences": 152,
    "signals": {}
   },
   "yen_weak": {
