@@ -596,7 +596,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 304,
+   "occurrences": 305,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -973,7 +973,7 @@
    "milestones": {
     "government_foreign": "2026-10-02"
    },
-   "occurrences": 8
+   "occurrences": 9
   },
   "fed_hawkish": {
    "events": [
@@ -1146,7 +1146,9 @@
      "regions": [
       "米国"
      ],
-     "signals": [],
+     "signals": [
+      "multi_source"
+     ],
      "source": "外為どっとコム",
      "title": "FX/為替「ドル/円今日の見通し｜158円手前へ上昇 FOMCで利上げのヒントを探る」 外為どっとコム トゥデイ 2026年10月28日号"
     }
@@ -1156,7 +1158,7 @@
     "government_foreign": "2026-09-25",
     "media": "2026-10-16"
    },
-   "occurrences": 85
+   "occurrences": 86
   },
   "fusion": {
    "events": [
@@ -2321,12 +2323,35 @@
     "government_jp": "2026-09-20",
     "media": "2026-09-20"
    },
-   "occurrences": 228,
+   "occurrences": 229,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
     "multi_source": "2026-09-20"
    }
+  },
+  "logistics_port_policy": {
+   "events": [
+    {
+     "actor_types": [
+      "government_jp"
+     ],
+     "date": "2026-10-28",
+     "item_id": "e35317758b93",
+     "origin_region": "日本",
+     "regions": [],
+     "signals": [
+      "gov_source"
+     ],
+     "source": "国土交通省(プレスリリース)",
+     "title": "港湾統計速報（令和8年8月分）"
+    }
+   ],
+   "first_seen": "2026-10-28",
+   "milestones": {
+    "government_jp": "2026-10-28"
+   },
+   "occurrences": 1
   },
   "middle_east": {
    "events": [
@@ -2542,13 +2567,30 @@
      ],
      "source": "テレ朝NEWS",
      "title": "イスラエル総選挙 ネタニヤフ氏に暗雲？続投か政権交代か…イラン戦争の行方"
+    },
+    {
+     "actor_types": [
+      "government_jp"
+     ],
+     "date": "2026-10-28",
+     "item_id": "7c3c99e93ceb",
+     "origin_region": "日本",
+     "regions": [
+      "日本"
+     ],
+     "signals": [
+      "foreign",
+      "gov_source"
+     ],
+     "source": "国土交通省(プレスリリース)",
+     "title": "島の祭典「アイランダー2026」開催！〜日本全国170を超える島が一堂に会し、島の魅力を発信します〜"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
     "government_jp": "2026-10-24"
    },
-   "occurrences": 112
+   "occurrences": 113
   },
   "oil_down": {
    "events": [
@@ -2725,13 +2767,28 @@
      "signals": [],
      "source": "BigGo ファイナンス",
      "title": "米エネルギー省、コンステレーションの原発増強に最大50億ドル融資 AI電力需要に先手"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-10-28",
+     "item_id": "74b11241dc7c",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "multi_source"
+     ],
+     "source": "朝鮮日報",
+     "title": "古里原発3・4号機、10年の運転延長を許可…再稼働へ"
     }
    ],
    "first_seen": "2026-09-25",
    "milestones": {
-    "government_foreign": "2026-10-28"
+    "government_foreign": "2026-10-28",
+    "media": "2026-10-28"
    },
-   "occurrences": 85
+   "occurrences": 86
   },
   "quantum": {
    "events": [
@@ -2925,7 +2982,7 @@
     "corporate": "2026-10-23",
     "media": "2026-09-20"
    },
-   "occurrences": 182
+   "occurrences": 183
   },
   "rate_cut": {
    "events": [
@@ -2991,7 +3048,7 @@
     "government_foreign": "2026-09-20",
     "media": "2026-10-07"
    },
-   "occurrences": 50,
+   "occurrences": 51,
    "signals": {}
   },
   "robotics": {
@@ -3446,7 +3503,7 @@
     "media": "2026-09-24",
     "research": "2026-10-10"
    },
-   "occurrences": 300,
+   "occurrences": 301,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -3581,7 +3638,7 @@
     "government_jp": "2026-10-08",
     "media": "2026-10-08"
    },
-   "occurrences": 97
+   "occurrences": 98
   },
   "shipbuilding_policy": {
    "events": [
@@ -3706,13 +3763,27 @@
      ],
      "source": "防衛省",
      "title": "北朝鮮籍船舶の「瀬取り」を含む違法な海上活動に対するフランスによる警戒監視活動について"
+    },
+    {
+     "actor_types": [
+      "government_jp"
+     ],
+     "date": "2026-10-28",
+     "item_id": "6cf49615ddde",
+     "origin_region": "日本",
+     "regions": [],
+     "signals": [
+      "gov_source"
+     ],
+     "source": "国土交通省(プレスリリース)",
+     "title": "内航船舶輸送統計月報の概要（令和8年7月分）"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
     "government_jp": "2026-09-20"
    },
-   "occurrences": 36
+   "occurrences": 37
   },
   "taiwan_china": {
    "events": [
@@ -4978,7 +5049,7 @@
     "media": "2026-09-26",
     "research": "2026-09-27"
    },
-   "occurrences": 242,
+   "occurrences": 243,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -5109,7 +5180,7 @@
    "milestones": {
     "government_jp": "2026-09-24"
    },
-   "occurrences": 71
+   "occurrences": 72
   },
   "ukraine_russia": {
    "events": [
@@ -7204,6 +7275,18 @@
      ],
      "source": "沖縄タイムス社",
      "title": "【ウクライナ南部停戦】米仲介、和平足掛かり狙う 拭えぬ不信、先行き不透明"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-28",
+     "item_id": "393e24d55d8b",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "BBC",
+     "title": "ウクライナ南部の局地的な停戦、ヘルソン州全域に拡大と当局者"
     }
    ],
    "first_seen": "2026-09-20",
@@ -7213,7 +7296,7 @@
     "international_org": "2026-09-24",
     "media": "2026-09-24"
    },
-   "occurrences": 276,
+   "occurrences": 277,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -9350,7 +9433,7 @@
    "milestones": {
     "media": "2026-09-23"
    },
-   "occurrences": 319,
+   "occurrences": 320,
    "signals": {}
   },
   "yen_strong": {
