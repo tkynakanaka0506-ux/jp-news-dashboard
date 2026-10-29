@@ -596,7 +596,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 313,
+   "occurrences": 314,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -967,13 +967,27 @@
      "signals": [],
      "source": "Moomoo",
      "title": "🚨 明日はFOMC 政策決定 FRBは利下げ、利上げ、それとも据え置きか？ 🤔"
+    },
+    {
+     "actor_types": [
+      "government_foreign"
+     ],
+     "date": "2026-10-29",
+     "item_id": "3c1769ef559e",
+     "origin_region": "米国",
+     "regions": [
+      "米国"
+     ],
+     "signals": [],
+     "source": "TBS NEWS DIG",
+     "title": "10月FOMC、「金融政策の薬」の効果を強調、ハト派的な内容 FRBは12月利上げ見送り2027年以降には利下げ余地を模索か"
     }
    ],
    "first_seen": "2026-10-02",
    "milestones": {
     "government_foreign": "2026-10-02"
    },
-   "occurrences": 16
+   "occurrences": 17
   },
   "fed_hawkish": {
    "events": [
@@ -1151,6 +1165,20 @@
      ],
      "source": "外為どっとコム",
      "title": "FX/為替「ドル/円今日の見通し｜158円手前へ上昇 FOMCで利上げのヒントを探る」 外為どっとコム トゥデイ 2026年10月28日号"
+    },
+    {
+     "actor_types": [
+      "government_foreign"
+     ],
+     "date": "2026-10-29",
+     "item_id": "3c1769ef559e",
+     "origin_region": "米国",
+     "regions": [
+      "米国"
+     ],
+     "signals": [],
+     "source": "TBS NEWS DIG",
+     "title": "10月FOMC、「金融政策の薬」の効果を強調、ハト派的な内容 FRBは12月利上げ見送り2027年以降には利下げ余地を模索か"
     }
    ],
    "first_seen": "2026-09-25",
@@ -1158,7 +1186,7 @@
     "government_foreign": "2026-09-25",
     "media": "2026-10-16"
    },
-   "occurrences": 93
+   "occurrences": 94
   },
   "fusion": {
    "events": [
@@ -2344,6 +2372,22 @@
      ],
      "source": "首相官邸",
      "title": "高市総理はドイツ連邦共和国のフリードリヒ・メルツ首相と首脳会談を行いました"
+    },
+    {
+     "actor_types": [
+      "government_jp"
+     ],
+     "date": "2026-10-29",
+     "item_id": "3a858d8786ad",
+     "origin_region": "日本",
+     "regions": [
+      "日本"
+     ],
+     "signals": [
+      "gov_source"
+     ],
+     "source": "財務省",
+     "title": "片山財務大臣兼内閣府特命担当大臣記者会見の概要(令和8年10月15日(木曜日))"
     }
    ],
    "first_seen": "2026-09-20",
@@ -2351,7 +2395,7 @@
     "government_jp": "2026-09-20",
     "media": "2026-09-20"
    },
-   "occurrences": 237,
+   "occurrences": 238,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
@@ -2662,7 +2706,7 @@
     "government_jp": "2026-10-24",
     "media": "2026-10-28"
    },
-   "occurrences": 121
+   "occurrences": 122
   },
   "oil_down": {
    "events": [
@@ -2853,14 +2897,29 @@
      ],
      "source": "朝鮮日報",
      "title": "古里原発3・4号機、10年の運転延長を許可…再稼働へ"
+    },
+    {
+     "actor_types": [
+      "corporate"
+     ],
+     "date": "2026-10-29",
+     "item_id": "ad5a8d48a8fb",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "corporate"
+     ],
+     "source": "Yahoo!ファイナンス",
+     "title": "〔決算〕コマツ、通期業績予想を上方修正＝北米が好調、データセンター建設で(時事通信)"
     }
    ],
    "first_seen": "2026-09-25",
    "milestones": {
+    "corporate": "2026-10-29",
     "government_foreign": "2026-10-28",
     "media": "2026-10-28"
    },
-   "occurrences": 91
+   "occurrences": 92
   },
   "quantum": {
    "events": [
@@ -3047,6 +3106,20 @@
      ],
      "source": "時事ドットコム",
      "title": "中国、輸出違反摘発が前年超え レアアース規制、日本に影―高市首相台湾答弁１年"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-10-29",
+     "item_id": "6eca841d8983",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "multi_source"
+     ],
+     "source": "Reuters",
+     "title": "経産省、半導体や重要鉱物で独当局と協力深化 共同宣言に署名"
     }
    ],
    "first_seen": "2026-09-20",
@@ -3054,7 +3127,7 @@
     "corporate": "2026-10-23",
     "media": "2026-09-20"
    },
-   "occurrences": 188
+   "occurrences": 189
   },
   "rate_cut": {
    "events": [
@@ -3127,6 +3200,20 @@
      "signals": [],
      "source": "BigGo ファイナンス",
      "title": "ドル円157円台後半で上値重い、FOMCハト派受け止めと国内金利上昇が綱引き"
+    },
+    {
+     "actor_types": [
+      "government_foreign"
+     ],
+     "date": "2026-10-29",
+     "item_id": "3c1769ef559e",
+     "origin_region": "米国",
+     "regions": [
+      "米国"
+     ],
+     "signals": [],
+     "source": "TBS NEWS DIG",
+     "title": "10月FOMC、「金融政策の薬」の効果を強調、ハト派的な内容 FRBは12月利上げ見送り2027年以降には利下げ余地を模索か"
     }
    ],
    "first_seen": "2026-09-20",
@@ -3134,7 +3221,7 @@
     "government_foreign": "2026-09-20",
     "media": "2026-10-07"
    },
-   "occurrences": 59,
+   "occurrences": 60,
    "signals": {}
   },
   "robotics": {
@@ -3607,6 +3694,34 @@
      ],
      "source": "株探",
      "title": "日立、通期業績予想を上方修正 ＣＩ部門が半導体製造・計測・検査装置など中心に好調"
+    },
+    {
+     "actor_types": [
+      "corporate"
+     ],
+     "date": "2026-10-29",
+     "item_id": "ad5a8d48a8fb",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "corporate"
+     ],
+     "source": "Yahoo!ファイナンス",
+     "title": "〔決算〕コマツ、通期業績予想を上方修正＝北米が好調、データセンター建設で(時事通信)"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-10-29",
+     "item_id": "6eca841d8983",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "multi_source"
+     ],
+     "source": "Reuters",
+     "title": "経産省、半導体や重要鉱物で独当局と協力深化 共同宣言に署名"
     }
    ],
    "first_seen": "2026-09-20",
@@ -3617,7 +3732,7 @@
     "media": "2026-09-24",
     "research": "2026-10-10"
    },
-   "occurrences": 308,
+   "occurrences": 309,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -5206,7 +5321,7 @@
     "media": "2026-09-26",
     "research": "2026-09-27"
    },
-   "occurrences": 251,
+   "occurrences": 252,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -7547,6 +7662,30 @@
      ],
      "source": "現代ビジネス",
      "title": "「それでもプーチンは和平には応じない」と言える明確な理由"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-29",
+     "item_id": "4010d27bce10",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "時事ドットコム",
+     "title": "支援物資、３０日搬入へ 局地停戦の順守続く―ウクライナ"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-29",
+     "item_id": "7efa822b69c3",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "Reuters",
+     "title": "ロシア高官、米記者同行でオレシュキへ 停戦下で支援に期待"
     }
    ],
    "first_seen": "2026-09-20",
@@ -7556,7 +7695,7 @@
     "international_org": "2026-09-24",
     "media": "2026-09-24"
    },
-   "occurrences": 285,
+   "occurrences": 286,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -9757,7 +9896,7 @@
    "milestones": {
     "media": "2026-09-23"
    },
-   "occurrences": 328,
+   "occurrences": 329,
    "signals": {}
   },
   "yen_strong": {
