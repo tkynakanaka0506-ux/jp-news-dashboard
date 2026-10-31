@@ -37,7 +37,7 @@
    "milestones": {
     "government_jp": "2026-10-23"
    },
-   "occurrences": 21,
+   "occurrences": 22,
    "signals": {}
   },
   "aviation_policy": {
@@ -639,7 +639,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 326,
+   "occurrences": 327,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -1371,7 +1371,7 @@
    "milestones": {
     "media": "2026-10-31"
    },
-   "occurrences": 46
+   "occurrences": 47
   },
   "infra_construction_policy": {
    "events": [
@@ -2471,7 +2471,7 @@
     "government_jp": "2026-09-20",
     "media": "2026-09-20"
    },
-   "occurrences": 250,
+   "occurrences": 251,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
@@ -2811,7 +2811,7 @@
     "government_jp": "2026-10-24",
     "media": "2026-10-28"
    },
-   "occurrences": 134
+   "occurrences": 135
   },
   "oil_down": {
    "events": [
@@ -3867,7 +3867,7 @@
     "media": "2026-09-24",
     "research": "2026-10-10"
    },
-   "occurrences": 321,
+   "occurrences": 322,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -5471,7 +5471,7 @@
     "media": "2026-09-26",
     "research": "2026-09-27"
    },
-   "occurrences": 258,
+   "occurrences": 259,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -5634,7 +5634,7 @@
    "milestones": {
     "government_jp": "2026-09-24"
    },
-   "occurrences": 89
+   "occurrences": 90
   },
   "ukraine_russia": {
    "events": [
@@ -8017,7 +8017,7 @@
     "international_org": "2026-09-24",
     "media": "2026-09-24"
    },
-   "occurrences": 298,
+   "occurrences": 299,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -10214,7 +10214,9 @@
      "title": "米国株式市場概況・28日 ダウ・ナスダック、3日続伸"
     },
     {
-     "actor_types": [],
+     "actor_types": [
+      "media"
+     ],
      "date": "2026-10-30",
      "item_id": "9d7b71207b7d",
      "origin_region": null,
@@ -10428,13 +10430,27 @@
      ],
      "source": "外為どっとコム",
      "title": "米中間選挙でどうなるのか？ドル/円相場とS&P500の３シナリオ 2026年10月31日"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-11-01",
+     "item_id": "cfacf8efb4e0",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign"
+     ],
+     "source": "株探",
+     "title": "ダウ平均が下落 ＩＴ・ハイテク株の売りが目立ちナスダックは大幅安 アマゾンとインテルの決算に失望＝米国株序盤"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
     "media": "2026-09-23"
    },
-   "occurrences": 341,
+   "occurrences": 342,
    "signals": {}
   },
   "yen_strong": {
@@ -10977,7 +10993,7 @@
     "government_foreign": "2026-09-21",
     "media": "2026-09-24"
    },
-   "occurrences": 255,
+   "occurrences": 256,
    "signals": {}
   }
  }
