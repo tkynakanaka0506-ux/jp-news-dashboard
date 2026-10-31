@@ -37,7 +37,7 @@
    "milestones": {
     "government_jp": "2026-10-23"
    },
-   "occurrences": 16,
+   "occurrences": 17,
    "signals": {}
   },
   "aviation_policy": {
@@ -639,7 +639,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 320,
+   "occurrences": 321,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -1030,7 +1030,7 @@
    "milestones": {
     "government_foreign": "2026-10-02"
    },
-   "occurrences": 22
+   "occurrences": 23
   },
   "fed_hawkish": {
    "events": [
@@ -1229,7 +1229,7 @@
     "government_foreign": "2026-09-25",
     "media": "2026-10-16"
    },
-   "occurrences": 99
+   "occurrences": 100
   },
   "fusion": {
    "events": [
@@ -2455,7 +2455,7 @@
     "government_jp": "2026-09-20",
     "media": "2026-09-20"
    },
-   "occurrences": 244,
+   "occurrences": 245,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
@@ -2776,6 +2776,18 @@
      ],
      "source": "首相官邸",
      "title": "高市総理は中東情勢を踏まえた「緊急的激変緩和措置」の今後の対応についての会見を行いました"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-31",
+     "item_id": "7be46cd4dd32",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "佐賀新聞",
+     "title": "戸上電機製作所が中間業績予想を上方修正 中東情勢の影響、想定下回る | 行政・社会 | 佐賀県のニュース"
     }
    ],
    "first_seen": "2026-09-20",
@@ -2783,7 +2795,7 @@
     "government_jp": "2026-10-24",
     "media": "2026-10-28"
    },
-   "occurrences": 128
+   "occurrences": 129
   },
   "oil_down": {
    "events": [
@@ -2919,7 +2931,7 @@
     "government_foreign": "2026-09-21",
     "media": "2026-10-01"
    },
-   "occurrences": 99
+   "occurrences": 100
   },
   "power_demand": {
    "events": [
@@ -3312,7 +3324,7 @@
     "government_foreign": "2026-09-20",
     "media": "2026-10-07"
    },
-   "occurrences": 66,
+   "occurrences": 67,
    "signals": {}
   },
   "robotics": {
@@ -3839,7 +3851,7 @@
     "media": "2026-09-24",
     "research": "2026-10-10"
    },
-   "occurrences": 315,
+   "occurrences": 316,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -5606,7 +5618,7 @@
    "milestones": {
     "government_jp": "2026-09-24"
    },
-   "occurrences": 83
+   "occurrences": 84
   },
   "ukraine_russia": {
    "events": [
@@ -7902,6 +7914,18 @@
      ],
      "source": "Yahoo!ニュース",
      "title": "停戦中のウクライナ南部、住民が避難を開始 他の地域では攻撃継続（朝日新聞）"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-31",
+     "item_id": "92237fa25424",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "Yahoo!ニュース",
+     "title": "ウクライナ南部の住民が避難を開始 異例の停戦、地雷を除去（朝日新聞）"
     }
    ],
    "first_seen": "2026-09-20",
@@ -7911,7 +7935,7 @@
     "international_org": "2026-09-24",
     "media": "2026-09-24"
    },
-   "occurrences": 292,
+   "occurrences": 293,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -10245,13 +10269,61 @@
      ],
      "source": "Reuters",
      "title": "米国株式市場・序盤＝ナスダック2カ月超ぶり安値、ＡＩインフラ投資巡り懸念"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-10-31",
+     "item_id": "085f54b506a8",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign",
+      "multi_source"
+     ],
+     "source": "Reuters",
+     "title": "米国株式市場＝急落、ナスダックは6月以来の下落率 ＡＩ投資に懸念"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-10-31",
+     "item_id": "2d73560ecb76",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign",
+      "multi_source"
+     ],
+     "source": "みんかぶ FX/為替",
+     "title": "ダウ平均、ナスダックとも大幅安 アマゾンとインテルの決算に失望＝米国株概況"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-10-31",
+     "item_id": "ced1b6b3c2de",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign"
+     ],
+     "source": "株探",
+     "title": "ダウ先物は下落 ナスダック１００は大幅安 アルファベットの決算に失望感＝米国株"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
     "media": "2026-09-23"
    },
-   "occurrences": 335,
+   "occurrences": 336,
    "signals": {}
   },
   "yen_strong": {
@@ -10794,7 +10866,7 @@
     "government_foreign": "2026-09-21",
     "media": "2026-09-24"
    },
-   "occurrences": 249,
+   "occurrences": 250,
    "signals": {}
   }
  }
