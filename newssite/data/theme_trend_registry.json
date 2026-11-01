@@ -639,7 +639,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 330,
+   "occurrences": 331,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -2471,7 +2471,7 @@
     "government_jp": "2026-09-20",
     "media": "2026-09-20"
    },
-   "occurrences": 254,
+   "occurrences": 255,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
@@ -2851,7 +2851,7 @@
     "corporate": "2026-10-28",
     "media": "2026-10-09"
    },
-   "occurrences": 42
+   "occurrences": 43
   },
   "oil_up": {
    "events": [
@@ -3867,7 +3867,7 @@
     "media": "2026-09-24",
     "research": "2026-10-10"
    },
-   "occurrences": 325,
+   "occurrences": 326,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -5471,7 +5471,7 @@
     "media": "2026-09-26",
     "research": "2026-09-27"
    },
-   "occurrences": 260,
+   "occurrences": 261,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -5634,7 +5634,7 @@
    "milestones": {
     "government_jp": "2026-09-24"
    },
-   "occurrences": 93
+   "occurrences": 94
   },
   "ukraine_russia": {
    "events": [
@@ -7998,7 +7998,9 @@
      "title": "局地停戦のウクライナ南部オレシュキで住民が退避 ロシア占領下で約2000人孤立"
     },
     {
-     "actor_types": [],
+     "actor_types": [
+      "media"
+     ],
      "date": "2026-10-31",
      "item_id": "535647ccb66b",
      "origin_region": null,
@@ -8047,6 +8049,47 @@
      ],
      "source": "朝日新聞",
      "title": "停戦中のウクライナ南部、住民が避難を開始 他の地域では攻撃継続"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-11-01",
+     "item_id": "d7af9a3f5e2f",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "CNN",
+     "title": "ロシア占領下の避難者、ウクライナ支配地域に帰還 局地的停戦で夫婦が1711日ぶりの再会"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-11-01",
+     "item_id": "381cbd9d669d",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign"
+     ],
+     "source": "FNNプライムオンライン",
+     "title": "ロシアが占領するウクライナ南部で局地的な停戦 避難希望者の退避完了 アメリカのトランプ大統領の妻・メラニア氏の仲介で実現"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-11-01",
+     "item_id": "362b03a9b06f",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign",
+      "multi_source"
+     ],
+     "source": "47NEWS",
+     "title": "退避住民、北部から再入国 ロシア、ウクライナ局地停戦"
     }
    ],
    "first_seen": "2026-09-20",
@@ -8056,7 +8099,7 @@
     "international_org": "2026-09-24",
     "media": "2026-09-24"
    },
-   "occurrences": 302,
+   "occurrences": 303,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -10491,7 +10534,7 @@
    "milestones": {
     "media": "2026-09-23"
    },
-   "occurrences": 345,
+   "occurrences": 346,
    "signals": {}
   },
   "yen_strong": {
@@ -10656,7 +10699,7 @@
     "corporate": "2026-10-28",
     "media": "2026-09-20"
    },
-   "occurrences": 159,
+   "occurrences": 160,
    "signals": {}
   },
   "yen_weak": {
@@ -11034,7 +11077,7 @@
     "government_foreign": "2026-09-21",
     "media": "2026-09-24"
    },
-   "occurrences": 259,
+   "occurrences": 260,
    "signals": {}
   }
  }
