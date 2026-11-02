@@ -639,7 +639,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 335,
+   "occurrences": 336,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -831,7 +831,7 @@
     "government_jp": "2026-10-08",
     "media": "2026-10-09"
    },
-   "occurrences": 55
+   "occurrences": 56
   },
   "defense_budget": {
    "events": [
@@ -1320,7 +1320,7 @@
    "milestones": {
     "government_jp": "2026-10-01"
    },
-   "occurrences": 38
+   "occurrences": 39
   },
   "inbound": {
    "events": [
@@ -2518,7 +2518,7 @@
     "government_jp": "2026-09-20",
     "media": "2026-09-20"
    },
-   "occurrences": 260,
+   "occurrences": 261,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
@@ -2546,7 +2546,7 @@
    "milestones": {
     "government_jp": "2026-11-02"
    },
-   "occurrences": 1
+   "occurrences": 2
   },
   "logistics_port_policy": {
    "events": [
@@ -2874,14 +2874,30 @@
      ],
      "source": "佐賀新聞",
      "title": "戸上電機製作所が中間業績予想を上方修正 中東情勢の影響、想定下回る | 行政・社会 | 佐賀県のニュース"
+    },
+    {
+     "actor_types": [
+      "corporate"
+     ],
+     "date": "2026-11-03",
+     "item_id": "9f19cbc7b0a7",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "corporate",
+      "foreign"
+     ],
+     "source": "Yahoo!ファイナンス",
+     "title": "〔決算〕住友商事、27年3月期純利益予想を上方修正＝中東影響が想定下回る(時事通信)"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
+    "corporate": "2026-11-03",
     "government_jp": "2026-10-24",
     "media": "2026-10-28"
    },
-   "occurrences": 136
+   "occurrences": 137
   },
   "oil_down": {
    "events": [
@@ -3094,7 +3110,7 @@
     "government_foreign": "2026-10-28",
     "media": "2026-10-28"
    },
-   "occurrences": 93
+   "occurrences": 94
   },
   "quantum": {
    "events": [
@@ -3941,6 +3957,20 @@
      ],
      "source": "Yahoo!ファイナンス",
      "title": "〔決算〕明電舎、業績予想を上方修正＝海外変電事業、半導体関連が好調(時事通信)"
+    },
+    {
+     "actor_types": [
+      "corporate"
+     ],
+     "date": "2026-11-03",
+     "item_id": "31fce8e2976d",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "corporate"
+     ],
+     "source": "Yahoo!ファイナンス",
+     "title": "〔決算〕京セラ、27年3月期予想を上方修正＝AI・半導体需要拡大で売上高最高に(時事通信)"
     }
    ],
    "first_seen": "2026-09-20",
@@ -3951,7 +3981,7 @@
     "media": "2026-09-24",
     "research": "2026-10-10"
    },
-   "occurrences": 334,
+   "occurrences": 335,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -4100,7 +4130,7 @@
     "government_jp": "2026-10-08",
     "media": "2026-10-08"
    },
-   "occurrences": 107
+   "occurrences": 108
   },
   "shipbuilding_policy": {
    "events": [
@@ -5601,7 +5631,7 @@
     "media": "2026-09-26",
     "research": "2026-09-27"
    },
-   "occurrences": 267,
+   "occurrences": 268,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -8355,6 +8385,21 @@
      ],
      "source": "時事ドットコム",
      "title": "【速報】ウクライナ南部での局地的な停戦が終了した：時事ドットコム"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-11-03",
+     "item_id": "d88d69990337",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign",
+      "multi_source"
+     ],
+     "source": "Reuters",
+     "title": "ウクライナ軍、ロシアが局地停戦中に態勢強化と主張 攻撃激化も"
     }
    ],
    "first_seen": "2026-09-20",
@@ -8364,7 +8409,7 @@
     "international_org": "2026-09-24",
     "media": "2026-09-24"
    },
-   "occurrences": 311,
+   "occurrences": 312,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -10793,13 +10838,27 @@
      ],
      "source": "株探",
      "title": "ダウ平均が下落 ＩＴ・ハイテク株の売りが目立ちナスダックは大幅安 アマゾンとインテルの決算に失望＝米国株序盤"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-11-03",
+     "item_id": "6a9d3a6ef2a6",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign"
+     ],
+     "source": "株探",
+     "title": "ダウ平均は上昇して始まる ４０６ドル高 ナスダックは上昇＝米国株オープン"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
     "media": "2026-09-23"
    },
-   "occurrences": 352,
+   "occurrences": 353,
    "signals": {}
   },
   "yen_strong": {
@@ -10964,7 +11023,7 @@
     "corporate": "2026-10-28",
     "media": "2026-09-20"
    },
-   "occurrences": 162,
+   "occurrences": 163,
    "signals": {}
   },
   "yen_weak": {
