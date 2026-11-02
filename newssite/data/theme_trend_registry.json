@@ -639,7 +639,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 334,
+   "occurrences": 335,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -810,6 +810,20 @@
      ],
      "source": "デジタル庁",
      "title": "Studio 株式会社における不正アクセスによる個人情報の漏えいの可能性について"
+    },
+    {
+     "actor_types": [
+      "government_jp"
+     ],
+     "date": "2026-11-02",
+     "item_id": "b9f68a0474d9",
+     "origin_region": "日本",
+     "regions": [],
+     "signals": [
+      "gov_source"
+     ],
+     "source": "IPA(プレスリリース)",
+     "title": "プレス発表 不正アクセスによる個人情報漏えい等の被害にあわれた方の相談受付強化について"
     }
    ],
    "first_seen": "2026-10-08",
@@ -817,7 +831,7 @@
     "government_jp": "2026-10-08",
     "media": "2026-10-09"
    },
-   "occurrences": 54
+   "occurrences": 55
   },
   "defense_budget": {
    "events": [
@@ -1285,13 +1299,28 @@
      ],
      "source": "金融庁",
      "title": "「アジアGXコンソーシアム」ハイレベル会合2026の開催について公表しました。"
+    },
+    {
+     "actor_types": [
+      "government_jp"
+     ],
+     "date": "2026-11-02",
+     "item_id": "5de2c5d35698",
+     "origin_region": "日本",
+     "regions": [],
+     "signals": [
+      "gov_policy",
+      "gov_source"
+     ],
+     "source": "国土交通省(プレスリリース)",
+     "title": "第6回「持続可能な航空脱炭素化に関する有識者会議」を開催します"
     }
    ],
    "first_seen": "2026-10-01",
    "milestones": {
     "government_jp": "2026-10-01"
    },
-   "occurrences": 37
+   "occurrences": 38
   },
   "inbound": {
    "events": [
@@ -2464,6 +2493,24 @@
      ],
      "source": "金融庁",
      "title": "「金融商品取引業等に関する内閣府令の一部を改正する内閣府令」等の公布及びパブリックコメントの結果について公表しました。"
+    },
+    {
+     "actor_types": [
+      "government_jp",
+      "media"
+     ],
+     "date": "2026-11-02",
+     "item_id": "91eff519b10c",
+     "origin_region": "日本",
+     "regions": [
+      "日本"
+     ],
+     "signals": [
+      "gov_source",
+      "multi_source"
+     ],
+     "source": "財務省",
+     "title": "片山財務大臣兼内閣府特命担当大臣繰上げ閣議後記者会見の概要(令和8年11月2日(月曜日))"
     }
    ],
    "first_seen": "2026-09-20",
@@ -2471,12 +2518,35 @@
     "government_jp": "2026-09-20",
     "media": "2026-09-20"
    },
-   "occurrences": 259,
+   "occurrences": 260,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
     "multi_source": "2026-09-20"
    }
+  },
+  "logistics_2024_problem": {
+   "events": [
+    {
+     "actor_types": [
+      "government_jp"
+     ],
+     "date": "2026-11-02",
+     "item_id": "ec618a8a8311",
+     "origin_region": "日本",
+     "regions": [],
+     "signals": [
+      "gov_source"
+     ],
+     "source": "国土交通省(プレスリリース)",
+     "title": "令和８年度「物流効率化推進事業」(補助事業)の二次公募の募集開始"
+    }
+   ],
+   "first_seen": "2026-11-02",
+   "milestones": {
+    "government_jp": "2026-11-02"
+   },
+   "occurrences": 1
   },
   "logistics_port_policy": {
    "events": [
@@ -3024,7 +3094,7 @@
     "government_foreign": "2026-10-28",
     "media": "2026-10-28"
    },
-   "occurrences": 92
+   "occurrences": 93
   },
   "quantum": {
    "events": [
@@ -3857,6 +3927,20 @@
      ],
      "source": "BigGo ファイナンス",
      "title": "エヌビディアCEOに中国情報機関が接触か 米政権が対応見送り"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-11-02",
+     "item_id": "7f5ee53a4cec",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "multi_source"
+     ],
+     "source": "Yahoo!ファイナンス",
+     "title": "〔決算〕明電舎、業績予想を上方修正＝海外変電事業、半導体関連が好調(時事通信)"
     }
    ],
    "first_seen": "2026-09-20",
@@ -3867,7 +3951,7 @@
     "media": "2026-09-24",
     "research": "2026-10-10"
    },
-   "occurrences": 333,
+   "occurrences": 334,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -4016,7 +4100,7 @@
     "government_jp": "2026-10-08",
     "media": "2026-10-08"
    },
-   "occurrences": 106
+   "occurrences": 107
   },
   "shipbuilding_policy": {
    "events": [
@@ -5491,6 +5575,22 @@
      ],
      "source": "風傳媒",
      "title": "中国、日本巡視船8隻の追尾監視を認める 「政治的挑発」と非難、台湾側は「人道・国際法に合致」"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-11-02",
+     "item_id": "8ffc6d22a873",
+     "origin_region": null,
+     "regions": [
+      "中国",
+      "台湾"
+     ],
+     "signals": [
+      "foreign",
+      "patent"
+     ],
+     "source": "合同会社ロケットボーイズ",
+     "title": "中国調査船4隻、台湾周辺で海底ケーブル探査の疑い 切断装置の特許と過去の損傷事件からみる安全保障リスク"
     }
    ],
    "first_seen": "2026-09-20",
@@ -5501,7 +5601,7 @@
     "media": "2026-09-26",
     "research": "2026-09-27"
    },
-   "occurrences": 266,
+   "occurrences": 267,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -8219,6 +8319,42 @@
      ],
      "source": "日本経済新聞",
      "title": "ウクライナ南部の局地停戦終了 異例の成立、ロシアは米との取引意識"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-11-02",
+     "item_id": "ebe2a2f031c7",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "BBC",
+     "title": "ウクライナで数十万世帯が停電、ロシアがエネルギーインフラ攻撃　へルソン州の人道的停戦が終了"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-11-02",
+     "item_id": "071fb1ef6aa0",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "朝日新聞",
+     "title": "ウクライナ南部オレシュキの停戦終了 最長の6日間、避難も「成功」"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-11-02",
+     "item_id": "fef254c4510a",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "時事ドットコム",
+     "title": "【速報】ウクライナ南部での局地的な停戦が終了した：時事ドットコム"
     }
    ],
    "first_seen": "2026-09-20",
@@ -8228,7 +8364,7 @@
     "international_org": "2026-09-24",
     "media": "2026-09-24"
    },
-   "occurrences": 310,
+   "occurrences": 311,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -10828,7 +10964,7 @@
     "corporate": "2026-10-28",
     "media": "2026-09-20"
    },
-   "occurrences": 161,
+   "occurrences": 162,
    "signals": {}
   },
   "yen_weak": {
