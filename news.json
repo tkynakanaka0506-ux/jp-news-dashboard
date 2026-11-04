@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04 18:47",
-  "generated_iso": "2026-11-04T18:47:37+09:00",
+  "generated_at": "2026-11-04 22:17",
+  "generated_iso": "2026-11-04T22:17:58+09:00",
   "status": "updated",
   "status_message": "40 件のニュースを取得しました。",
   "llm_used": true,
@@ -65,14 +65,14 @@
     },
     {
       "label": "日経先物",
-      "value": "63,070.00",
-      "change_pct": -1.21,
+      "value": "62,960.00",
+      "change_pct": -1.38,
       "asof": "11/4終値"
     },
     {
       "label": "ドル円",
-      "value": "158.35円",
-      "change_pct": 0.28,
+      "value": "158.30円",
+      "change_pct": 0.25,
       "asof": "11/4終値"
     },
     {
@@ -96,201 +96,201 @@
   ],
   "news": [
     {
-      "id": "56b29349fc37",
-      "title": "〔決算〕IHI、今期業績予想を上方修正＝円安で民間エンジン上振れ(時事通信)",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb25RRXdFcXFJXzhnU0VNYVhRMmZRMUVJcVNsUUZLMkZ2RGE2YUFlRUREV0tjbjJXX0RUVjNlM0l6WGV6TnVlbjJiWXhqcXFjdHJNN1paN0RubUJVLUtJRzEyeDJ4N19oZGMyWU5USWNWdW5GeGd3anJZMEdlLXU1ZXJnV2R1N3c?oc=5",
-      "source": "Yahoo!ファイナンス",
+      "id": "a8db45060039",
+      "title": "米国の対中HBM輸出規制に抜け穴、低性能プロセッサーに組み込んで持ち込む手口が横行",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlMnE5WmZJUGxTSDdWZWVVYi1BZ0pBU3gxYW9NQThGSmFkWjNkdzVWcHdsR1RYbDItT3d4UFVaQmhGVXIxUzV3OWdHa0JDZWUzdi1kU0xsRlA4Q3pVVlhGOFk0Q1BhS1d3T2RCN0JhcHNFN1k?oc=5",
+      "source": "XenoSpectrum",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
-      "published_at": "2026-11-04 17:43",
-      "published_ts": 1793781788.0,
-      "category": "fx",
-      "category_label": "為替",
-      "category_emoji": "💱",
-      "importance": 4,
-      "importance_reason": "重要語「上方修正」・影響テーマ「円安進行」に該当",
+      "published_at": "2026-11-04 06:23",
+      "published_ts": 1793741006.0,
+      "category": "trade",
+      "category_label": "通商・規制",
+      "category_emoji": "⚖️",
+      "importance": 5,
+      "importance_reason": "重要語「輸出規制」・影響テーマ「半導体の輸出規制・対中規制」に該当",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
-      "news_novelty": "low",
-      "news_novelty_label": "再報道",
-      "policy_event_id": "yen_weak-20260920-01",
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": "semi_regulation-20260922-01",
       "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-09-20",
+      "policy_event_first_seen": "2026-09-22",
       "policy_event_state": "UPDATE",
       "themes": [
-        "円安進行"
+        "半導体の輸出規制・対中規制"
       ],
       "theme_ids": [
-        "yen_weak"
+        "semi_regulation"
       ],
       "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [
         {
-          "code": "7013",
-          "name": "IHI",
-          "sector": "機械",
-          "direction": "positive",
-          "direction_label": "追い風",
+          "code": "8035",
+          "name": "東京エレクトロン",
+          "sector": "電気機器",
+          "direction": "negative",
+          "direction_label": "逆風",
           "strength": "大",
-          "reason": "見出しで名指しされている当事者。内容は業績にプラスに働きうる材料",
-          "theme": "当事者",
-          "theme_id": null,
-          "origin": "direct",
+          "reason": "「輸出規制」に反応: 中国向け売上比率が高く、規制強化は受注減・出荷制限のリスク要因になりやすい",
+          "theme": "半導体の輸出規制・対中規制",
+          "theme_id": "semi_regulation",
+          "origin": "rule",
           "beneficiary_tier": null,
           "beneficiary_tier_label": "",
           "revenue_horizon": null,
           "revenue_horizon_label": "",
-          "matched_keyword": null,
+          "matched_keyword": "輸出規制",
           "intelligence_layer": "government_policy",
           "policy_impact_score": 51,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
         {
-          "code": "7203",
-          "name": "トヨタ自動車",
-          "sector": "自動車",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
+          "code": "6857",
+          "name": "アドバンテスト",
+          "sector": "電気機器",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "大",
+          "reason": "「輸出規制」に反応: 中国向け売上比率が高く、規制強化は受注減・出荷制限のリスク要因になりやすい",
+          "theme": "半導体の輸出規制・対中規制",
+          "theme_id": "semi_regulation",
           "origin": "rule",
           "beneficiary_tier": null,
           "beneficiary_tier_label": "",
           "revenue_horizon": null,
           "revenue_horizon_label": "",
-          "matched_keyword": "円安",
+          "matched_keyword": "輸出規制",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
+          "policy_impact_score": 51,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
         {
-          "code": "7267",
-          "name": "本田技研工業",
-          "sector": "自動車",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
+          "code": "6920",
+          "name": "レーザーテック",
+          "sector": "電気機器",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "大",
+          "reason": "「輸出規制」に反応: 中国向け売上比率が高く、規制強化は受注減・出荷制限のリスク要因になりやすい",
+          "theme": "半導体の輸出規制・対中規制",
+          "theme_id": "semi_regulation",
           "origin": "rule",
           "beneficiary_tier": null,
           "beneficiary_tier_label": "",
           "revenue_horizon": null,
           "revenue_horizon_label": "",
-          "matched_keyword": "円安",
+          "matched_keyword": "輸出規制",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
+          "policy_impact_score": 51,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
         {
-          "code": "7201",
-          "name": "日産自動車",
-          "sector": "自動車",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
+          "code": "6146",
+          "name": "ディスコ",
+          "sector": "機械",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "大",
+          "reason": "「輸出規制」に反応: 中国向け売上比率が高く、規制強化は受注減・出荷制限のリスク要因になりやすい",
+          "theme": "半導体の輸出規制・対中規制",
+          "theme_id": "semi_regulation",
           "origin": "rule",
           "beneficiary_tier": null,
           "beneficiary_tier_label": "",
           "revenue_horizon": null,
           "revenue_horizon_label": "",
-          "matched_keyword": "円安",
+          "matched_keyword": "輸出規制",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
+          "policy_impact_score": 51,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
         {
-          "code": "7269",
-          "name": "スズキ",
-          "sector": "自動車",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
+          "code": "7735",
+          "name": "SCREENホールディングス",
+          "sector": "電気機器",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "大",
+          "reason": "「輸出規制」に反応: 中国向け売上比率が高く、規制強化は受注減・出荷制限のリスク要因になりやすい",
+          "theme": "半導体の輸出規制・対中規制",
+          "theme_id": "semi_regulation",
           "origin": "rule",
           "beneficiary_tier": null,
           "beneficiary_tier_label": "",
           "revenue_horizon": null,
           "revenue_horizon_label": "",
-          "matched_keyword": "円安",
+          "matched_keyword": "輸出規制",
           "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
+          "policy_impact_score": 51,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
         {
-          "code": "7270",
-          "name": "SUBARU",
-          "sector": "自動車",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "円安",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "7261",
-          "name": "マツダ",
-          "sector": "自動車",
-          "direction": "positive",
-          "direction_label": "追い風",
-          "strength": "中",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
-          "origin": "rule",
-          "beneficiary_tier": null,
-          "beneficiary_tier_label": "",
-          "revenue_horizon": null,
-          "revenue_horizon_label": "",
-          "matched_keyword": "円安",
-          "intelligence_layer": "government_policy",
-          "policy_impact_score": 44,
-          "ai_capex_impact_score": null,
-          "policy_to_earnings_stage": null
-        },
-        {
-          "code": "9983",
-          "name": "ファーストリテイリング",
-          "sector": "小売",
+          "code": "6954",
+          "name": "ファナック",
+          "sector": "電気機器",
           "direction": "negative",
           "direction_label": "逆風",
           "strength": "中",
-          "reason": "「円安」に反応: 輸入原材料・仕入コストが膨らみ、採算の重しになりやすい",
-          "theme": "円安進行",
-          "theme_id": "yen_weak",
+          "reason": "「輸出規制」に反応: 中国事業の不透明感が高まりやすい",
+          "theme": "半導体の輸出規制・対中規制",
+          "theme_id": "semi_regulation",
           "origin": "rule",
           "beneficiary_tier": null,
           "beneficiary_tier_label": "",
           "revenue_horizon": null,
           "revenue_horizon_label": "",
-          "matched_keyword": "円安",
+          "matched_keyword": "輸出規制",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6506",
+          "name": "安川電機",
+          "sector": "電気機器",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「輸出規制」に反応: 中国事業の不透明感が高まりやすい",
+          "theme": "半導体の輸出規制・対中規制",
+          "theme_id": "semi_regulation",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "輸出規制",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "6645",
+          "name": "オムロン",
+          "sector": "電気機器",
+          "direction": "negative",
+          "direction_label": "逆風",
+          "strength": "中",
+          "reason": "「輸出規制」に反応: 中国事業の不透明感が高まりやすい",
+          "theme": "半導体の輸出規制・対中規制",
+          "theme_id": "semi_regulation",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "輸出規制",
           "intelligence_layer": "government_policy",
           "policy_impact_score": 44,
           "ai_capex_impact_score": null,
@@ -298,23 +298,198 @@
         }
       ],
       "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
+      "emergence_stage": "watch",
+      "emergence_stage_label": "👀 要監視テーマ",
+      "emergence_signal_labels": [
+        "企業の設備投資",
+        "関連企業の直接発表",
+        "政策の検討・審議段階",
+        "政府・省庁の一次情報",
+        "複数媒体での同時報道"
+      ],
+      "emergence_event_count": 9,
+      "emergence_source_count": 8,
+      "emergence_actor_type_count": 4,
+      "emergence_actor_type_labels": [
+        "関連企業",
+        "海外政府・当局",
+        "日本政府・省庁",
+        "複数メディア"
+      ],
+      "emergence_actor_type_breakdown": [
+        {
+          "label": "関連企業",
+          "count": 1
+        },
+        {
+          "label": "海外政府・当局",
+          "count": 1
+        },
+        {
+          "label": "日本政府・省庁",
+          "count": 1
+        },
+        {
+          "label": "複数メディア",
+          "count": 4
+        }
+      ],
+      "emergence_region_count": 2,
+      "emergence_regions": [
+        "中国",
+        "米国"
+      ],
+      "emergence_origin_regions": [
+        "日本",
+        "米国"
+      ],
+      "emergence_first_seen": "2026-09-22",
+      "emergence_window_counts": {
+        "7": 1,
+        "30": 8,
+        "90": 9
+      },
+      "emergence_timeline": [
+        {
+          "date": "2026-09-30",
+          "source": "finance.biggo.jp",
+          "signal_labels": [],
+          "actor_type_labels": [
+            "海外政府・当局"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-08",
+          "source": "財務省",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-08",
+          "source": "静岡新聞DIGITAL",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-08",
+          "source": "ｄメニューニュース",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "中国",
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-12",
+          "source": "読売新聞",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "中国"
+          ]
+        },
+        {
+          "date": "2026-10-13",
+          "source": "読売新聞",
+          "signal_labels": [
+            "企業の設備投資"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "中国"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "Yahoo!ニュース",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "中国"
+          ]
+        },
+        {
+          "date": "2026-10-23",
+          "source": "亜州ビジネス中国",
+          "signal_labels": [
+            "関連企業の直接発表",
+            "政策の検討・審議段階"
+          ],
+          "actor_type_labels": [
+            "関連企業"
+          ],
+          "regions": [
+            "中国"
+          ]
+        },
+        {
+          "date": "2026-11-02",
+          "source": "Reuters",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        }
+      ],
+      "emergence_milestones": [
+        {
+          "date": "2026-09-30",
+          "actor_type_label": "海外政府・当局"
+        },
+        {
+          "date": "2026-10-08",
+          "actor_type_label": "日本政府・省庁"
+        },
+        {
+          "date": "2026-10-08",
+          "actor_type_label": "複数メディア"
+        },
+        {
+          "date": "2026-10-23",
+          "actor_type_label": "関連企業"
+        }
+      ],
+      "emergence_diagnosis": {
+        "target_stage": "watch",
+        "target_stage_label": "👀 要監視テーマ",
+        "source_count": 8,
+        "required_sources": 2,
+        "signal_count": 5,
+        "required_signals": 3,
+        "missing": []
+      },
+      "emergence_growth": {
+        "window_days": 14,
+        "recent_new_actor_types": 1,
+        "total_actor_types": 4
+      }
     },
     {
       "id": "63a79ace267e",
@@ -7364,14 +7539,997 @@
       }
     },
     {
-      "id": "5b8d5c466b91",
-      "title": "対日イットリウム９８％減 中国輸出、レアアース規制",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0tUkNHbHNueXlkUGtxMFJrMnFrT0JVYzVtVVJHcUphTy1kYUFaNFBDdllUMnh1UnY2V19GNmkwbFFRYTFET0M5R3oxN2VjQ0Y2QS13THBnOGJQVFltRmc?oc=5",
-      "source": "沖縄タイムス社",
+      "id": "7f61338b40e3",
+      "title": "木原内閣官房長官は日本維新の会・サイバー危機への緊急提言申入れを受けました",
+      "url": "https://www.kantei.go.jp/jp/pages/20261104choukan_teigen.html",
+      "source": "首相官邸",
+      "source_tier": "primary",
+      "source_tier_label": "一次情報",
+      "published_at": "2026-11-05 02:00",
+      "published_ts": 1793811600.0,
+      "category": "japan",
+      "category_label": "日本経済・政治",
+      "category_emoji": "🗾",
+      "importance": 3,
+      "importance_reason": "重要語「内閣」・影響テーマ「日本の政局・経済対策」に該当",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": "jp_politics-20261002-14",
+      "policy_event_is_update": true,
+      "policy_event_first_seen": "2026-10-02",
+      "policy_event_state": "UPDATE",
+      "themes": [
+        "日本の政局・経済対策"
+      ],
+      "theme_ids": [
+        "jp_politics"
+      ],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "1801",
+          "name": "大成建設",
+          "sector": "建設",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "小",
+          "reason": "「内閣」に反応: 財政出動・公共投資の拡大観測が材料になりやすい",
+          "theme": "日本の政局・経済対策",
+          "theme_id": "jp_politics",
+          "origin": "rule",
+          "beneficiary_tier": "secondary",
+          "beneficiary_tier_label": "二次波及",
+          "revenue_horizon": "1-3y",
+          "revenue_horizon_label": "1〜3年",
+          "matched_keyword": "内閣",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 40,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "1802",
+          "name": "大林組",
+          "sector": "建設",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "小",
+          "reason": "「内閣」に反応: 財政出動・公共投資の拡大観測が材料になりやすい",
+          "theme": "日本の政局・経済対策",
+          "theme_id": "jp_politics",
+          "origin": "rule",
+          "beneficiary_tier": "secondary",
+          "beneficiary_tier_label": "二次波及",
+          "revenue_horizon": "1-3y",
+          "revenue_horizon_label": "1〜3年",
+          "matched_keyword": "内閣",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 40,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "1803",
+          "name": "清水建設",
+          "sector": "建設",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "小",
+          "reason": "「内閣」に反応: 財政出動・公共投資の拡大観測が材料になりやすい",
+          "theme": "日本の政局・経済対策",
+          "theme_id": "jp_politics",
+          "origin": "rule",
+          "beneficiary_tier": "secondary",
+          "beneficiary_tier_label": "二次波及",
+          "revenue_horizon": "1-3y",
+          "revenue_horizon_label": "1〜3年",
+          "matched_keyword": "内閣",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 40,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "1812",
+          "name": "鹿島建設",
+          "sector": "建設",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "小",
+          "reason": "「内閣」に反応: 財政出動・公共投資の拡大観測が材料になりやすい",
+          "theme": "日本の政局・経済対策",
+          "theme_id": "jp_politics",
+          "origin": "rule",
+          "beneficiary_tier": "secondary",
+          "beneficiary_tier_label": "二次波及",
+          "revenue_horizon": "1-3y",
+          "revenue_horizon_label": "1〜3年",
+          "matched_keyword": "内閣",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 40,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9020",
+          "name": "東日本旅客鉄道",
+          "sector": "陸運",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "小",
+          "reason": "「内閣」に反応: 家計向け政策の内容次第で内需関連の業績見通しが変わりやすい",
+          "theme": "日本の政局・経済対策",
+          "theme_id": "jp_politics",
+          "origin": "rule",
+          "beneficiary_tier": "secondary",
+          "beneficiary_tier_label": "二次波及",
+          "revenue_horizon": "6-12m",
+          "revenue_horizon_label": "6〜12ヶ月",
+          "matched_keyword": "内閣",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9022",
+          "name": "東海旅客鉄道",
+          "sector": "陸運",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "小",
+          "reason": "「内閣」に反応: 家計向け政策の内容次第で内需関連の業績見通しが変わりやすい",
+          "theme": "日本の政局・経済対策",
+          "theme_id": "jp_politics",
+          "origin": "rule",
+          "beneficiary_tier": "secondary",
+          "beneficiary_tier_label": "二次波及",
+          "revenue_horizon": "6-12m",
+          "revenue_horizon_label": "6〜12ヶ月",
+          "matched_keyword": "内閣",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9021",
+          "name": "西日本旅客鉄道",
+          "sector": "陸運",
+          "direction": "watch",
+          "direction_label": "注目",
+          "strength": "小",
+          "reason": "「内閣」に反応: 家計向け政策の内容次第で内需関連の業績見通しが変わりやすい",
+          "theme": "日本の政局・経済対策",
+          "theme_id": "jp_politics",
+          "origin": "rule",
+          "beneficiary_tier": "secondary",
+          "beneficiary_tier_label": "二次波及",
+          "revenue_horizon": "6-12m",
+          "revenue_horizon_label": "6〜12ヶ月",
+          "matched_keyword": "内閣",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 46,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [],
+      "emergence_stage": "watch",
+      "emergence_stage_label": "👀 要監視テーマ",
+      "emergence_signal_labels": [
+        "海外の動き",
+        "政策の検討・審議段階",
+        "政府・省庁の一次情報",
+        "複数媒体での同時報道"
+      ],
+      "emergence_event_count": 60,
+      "emergence_source_count": 20,
+      "emergence_actor_type_count": 2,
+      "emergence_actor_type_labels": [
+        "日本政府・省庁",
+        "複数メディア"
+      ],
+      "emergence_actor_type_breakdown": [
+        {
+          "label": "日本政府・省庁",
+          "count": 45
+        },
+        {
+          "label": "複数メディア",
+          "count": 18
+        }
+      ],
+      "emergence_region_count": 3,
+      "emergence_regions": [
+        "中国",
+        "台湾",
+        "日本"
+      ],
+      "emergence_origin_regions": [
+        "日本"
+      ],
+      "emergence_first_seen": "2026-09-20",
+      "emergence_window_counts": {
+        "7": 7,
+        "30": 42,
+        "90": 60
+      },
+      "emergence_timeline": [
+        {
+          "date": "2026-09-20",
+          "source": "金融庁",
+          "signal_labels": [
+            "政策の検討・審議段階",
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-09-20",
+          "source": "金融庁",
+          "signal_labels": [
+            "政府・省庁の一次情報",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁",
+            "複数メディア"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-09-20",
+          "source": "首相官邸",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "中国",
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-09-20",
+          "source": "農林水産省",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-09-20",
+          "source": "",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "source": "財務省",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-09-25",
+          "source": "首相官邸",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-25",
+          "source": "財務省",
+          "signal_labels": [
+            "政府・省庁の一次情報",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁",
+            "複数メディア"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-09-29",
+          "source": "財務省",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-09-29",
+          "source": "首相官邸",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-30",
+          "source": "国土交通省(プレスリリース)",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-09-30",
+          "source": "金融庁",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-10-01",
+          "source": "金融庁",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-10-01",
+          "source": "消費者庁",
+          "signal_labels": [
+            "政策の検討・審議段階",
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-10-02",
+          "source": "デジタル庁",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-02",
+          "source": "金融庁",
+          "signal_labels": [
+            "政府・省庁の一次情報",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁",
+            "複数メディア"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-10-02",
+          "source": "首相官邸",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-02",
+          "source": "首相官邸",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-07",
+          "source": "au Webポータル",
+          "signal_labels": [
+            "政策の検討・審議段階"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-07",
+          "source": "読売新聞",
+          "signal_labels": [
+            "政策の検討・審議段階",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-07",
+          "source": "金融庁",
+          "signal_labels": [
+            "政府・省庁の一次情報",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁",
+            "複数メディア"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-10-07",
+          "source": "朝日新聞",
+          "signal_labels": [
+            "政策の検討・審議段階"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-07",
+          "source": "Yahoo!ニュース",
+          "signal_labels": [
+            "政策の検討・審議段階"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-07",
+          "source": "中日新聞Web",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-07",
+          "source": "Reuters",
+          "signal_labels": [
+            "政策の検討・審議段階"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-07",
+          "source": "Yahoo!ニュース",
+          "signal_labels": [
+            "政策の検討・審議段階"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-07",
+          "source": "首相官邸",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-07",
+          "source": "ロイター",
+          "signal_labels": [
+            "政策の検討・審議段階"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-08",
+          "source": "合同会社ロケットボーイズ",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "中国",
+            "台湾"
+          ]
+        },
+        {
+          "date": "2026-10-08",
+          "source": "OANDA Japan",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-09",
+          "source": "埼玉新聞",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-09",
+          "source": "首相官邸",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-09",
+          "source": "首相官邸",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-09",
+          "source": "首相官邸",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-09",
+          "source": "首相官邸",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-09",
+          "source": "総務省",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-09",
+          "source": "財務省",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-10-13",
+          "source": "財務省",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "source": "デジタル庁",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "source": "首相官邸",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-16",
+          "source": "財務省",
+          "signal_labels": [
+            "政府・省庁の一次情報",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁",
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-16",
+          "source": "金融庁",
+          "signal_labels": [
+            "政府・省庁の一次情報",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁",
+            "複数メディア"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-10-20",
+          "source": "首相官邸",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-20",
+          "source": "財務省",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-10-22",
+          "source": "合同会社ロケットボーイズ",
+          "signal_labels": [
+            "海外の動き"
+          ],
+          "actor_type_labels": [],
+          "regions": [
+            "台湾",
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-10-22",
+          "source": "首相官邸",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-23",
+          "source": "財務省",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-10-26",
+          "source": "首相官邸",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-26",
+          "source": "首相官邸",
+          "signal_labels": [
+            "政府・省庁の一次情報",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁",
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-26",
+          "source": "金融庁",
+          "signal_labels": [
+            "政府・省庁の一次情報",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁",
+            "複数メディア"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-10-27",
+          "source": "金融庁",
+          "signal_labels": [
+            "政府・省庁の一次情報",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁",
+            "複数メディア"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-10-27",
+          "source": "電波新聞デジタル",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "中国",
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-10-27",
+          "source": "首相官邸",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-28",
+          "source": "時事ドットコム",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "中国",
+            "台湾",
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-10-29",
+          "source": "首相官邸",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-29",
+          "source": "首相官邸",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-29",
+          "source": "財務省",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "source": "金融庁",
+          "signal_labels": [
+            "政策の検討・審議段階",
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-11-02",
+          "source": "財務省",
+          "signal_labels": [
+            "政府・省庁の一次情報",
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁",
+            "複数メディア"
+          ],
+          "regions": [
+            "日本"
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "source": "首相官邸",
+          "signal_labels": [
+            "政府・省庁の一次情報"
+          ],
+          "actor_type_labels": [
+            "日本政府・省庁"
+          ],
+          "regions": [
+            "日本"
+          ]
+        }
+      ],
+      "emergence_milestones": [
+        {
+          "date": "2026-09-20",
+          "actor_type_label": "日本政府・省庁"
+        },
+        {
+          "date": "2026-09-20",
+          "actor_type_label": "複数メディア"
+        }
+      ],
+      "emergence_diagnosis": {
+        "target_stage": "watch",
+        "target_stage_label": "👀 要監視テーマ",
+        "source_count": 20,
+        "required_sources": 2,
+        "signal_count": 4,
+        "required_signals": 3,
+        "missing": []
+      },
+      "emergence_growth": {
+        "window_days": 14,
+        "recent_new_actor_types": 0,
+        "total_actor_types": 2
+      }
+    },
+    {
+      "id": "bbad30d33845",
+      "title": "対日イットリウム９８％減 中国輸出、レアアース規制 | | 全国のニュース",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80alA2MW1EeXlSVTM0b1RWLUZsazN3THBsbEpIRjRKZll6T1l3LUFRZVI3UF9oNkdMTmstdVlVZkFnMGQ1NkdEVXVSZjFTY1RKa2tqV1ln?oc=5",
+      "source": "佐賀新聞",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
       "published_at": "2026-11-04 17:39",
-      "published_ts": 1793781596.0,
+      "published_ts": 1793781540.0,
       "category": "trade",
       "category_label": "通商・規制",
       "category_emoji": "⚖️",
@@ -7504,9 +8662,9 @@
       ],
       "related": [
         {
-          "title": "対日イットリウム９８％減 中国輸出、レアアース規制 | | 全国のニュース",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80alA2MW1EeXlSVTM0b1RWLUZsazN3THBsbEpIRjRKZll6T1l3LUFRZVI3UF9oNkdMTmstdVlVZkFnMGQ1NkdEVXVSZjFTY1RKa2tqV1ln?oc=5",
-          "source": "佐賀新聞"
+          "title": "対日イットリウム98％減 中国輸出、レアアース規制",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9qa3A3RThHLXZ4OXMwVXhIYVRnOXlaRXpGTjVyYU1lakZzZjFTU3E5VWVGRWdYVnl5X3lFYjhnbDVnQS14a2Q0YlppeVppUQ?oc=5",
+          "source": "NEWSjp"
         }
       ],
       "emergence_stage": "watch",
@@ -7517,8 +8675,8 @@
         "政策の検討・審議段階",
         "複数媒体での同時報道"
       ],
-      "emergence_event_count": 12,
-      "emergence_source_count": 8,
+      "emergence_event_count": 13,
+      "emergence_source_count": 9,
       "emergence_actor_type_count": 2,
       "emergence_actor_type_labels": [
         "関連企業",
@@ -7531,7 +8689,7 @@
         },
         {
           "label": "複数メディア",
-          "count": 9
+          "count": 10
         }
       ],
       "emergence_region_count": 3,
@@ -7543,9 +8701,9 @@
       "emergence_origin_regions": [],
       "emergence_first_seen": "2026-09-20",
       "emergence_window_counts": {
-        "7": 3,
-        "30": 7,
-        "90": 12
+        "7": 4,
+        "30": 8,
+        "90": 13
       },
       "emergence_timeline": [
         {
@@ -7702,6 +8860,19 @@
           "regions": [
             "中国"
           ]
+        },
+        {
+          "date": "2026-11-04",
+          "source": "佐賀新聞",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": [
+            "中国"
+          ]
         }
       ],
       "emergence_milestones": [
@@ -7717,7 +8888,7 @@
       "emergence_diagnosis": {
         "target_stage": "watch",
         "target_stage_label": "👀 要監視テーマ",
-        "source_count": 8,
+        "source_count": 9,
         "required_sources": 2,
         "signal_count": 4,
         "required_signals": 3,
@@ -7728,60 +8899,6 @@
         "recent_new_actor_types": 1,
         "total_actor_types": 2
       }
-    },
-    {
-      "id": "f64217278cdd",
-      "title": "東和銀、4～9月期業績予想を上方修正 純利益37億円見込む",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NcVlsZ1ZRLVRQc0hKRldpQjlXdjlxMUF1Vi02c285MXYwWkVsR3ZsZGFOSWl1cGJ3Q2VfV3NWVjRQdGhVVkhRdHc3U3d6Y3JTc0hveUhn?oc=5",
-      "source": "ニッキンONLINE",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-11-04 15:59",
-      "published_ts": 1793775540.0,
-      "category": "corporate",
-      "category_label": "企業・決算",
-      "category_emoji": "🏢",
-      "importance": 3,
-      "importance_reason": "重要語「上方修正」・2媒体が報道",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [
-        {
-          "title": "宮崎銀、4～9月期業績予想を上方修正 中間純利益、過去最高の82億円へ",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB5Nk5rdVNvUWdBUjdyalRJTkF1NlpfdGE5cnVKSE5zT0JuVmRrVlllV25OU2dkU3FUSjAwSXc4SHJuZ1FnNjVlbVlpLXZzWHM1NWtvd3pB?oc=5",
-          "source": "ニッキンONLINE"
-        }
-      ],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
     },
     {
       "id": "11e3b3cf6687",
@@ -7814,13 +8931,67 @@
       "impacts": [],
       "related": [
         {
-          "title": "ダイトロン、今期経常を4％上方修正・最高益予想を上乗せ、配当も12円増額",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81a3lYZmM1eU8xUGEzS3hEWUpQLUJHNTZhZ29IclhfOFVIMGlLS1lpclpYOWRMSTA4LWwtVHZqTjhObUdJMW5KZWdTbWpYcE9OcEE?oc=5",
+          "title": "イントラマト、今期経常を11％上方修正・最高益予想を上乗せ",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Tdk5UeEtKM3F5RkR2UHkxVUkxbG1kV2tUemJ5cldyc0VBZ3kxLUlHRjFLNHMyMVNoSHo2aHF6NlJfODVjSDJ3OXVBYmg5UFhGX1E?oc=5",
           "source": "株探"
         },
         {
-          "title": "ナラサキ、上期経常を50％上方修正・最高益予想を上乗せ、通期も増額、配当も20円増額",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ZX3VtbWgyZHBwV1IxbHc3ODFMemdvS1F0RzNoSlN5eE8zWmZDX1Fnd1o4ZjRMSkJCSXJxbTRZaVFOODl2Y2dsZGxqdF9Gdm5aZlE?oc=5",
+          "title": "ダイトロン、今期経常を4％上方修正・最高益予想を上乗せ、配当も12円増額",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81a3lYZmM1eU8xUGEzS3hEWUpQLUJHNTZhZ29IclhfOFVIMGlLS1lpclpYOWRMSTA4LWwtVHZqTjhObUdJMW5KZWdTbWpYcE9OcEE?oc=5",
+          "source": "株探"
+        }
+      ],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "c954de0a219d",
+      "title": "大東銀、上期経常を一転14％増益に上方修正",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB1OHdrc0M2Z0lLbXlMYWVMc3JCbnl1SExZLWw5cnBhMjBaX211OEhXTUJfR3VJY0c3RGM0b0FmbGRzS01BNXNnVWlsVGJPUUJJN2c?oc=5",
+      "source": "株探",
+      "source_tier": "commentary",
+      "source_tier_label": "市場解説",
+      "published_at": "2026-11-04 15:00",
+      "published_ts": 1793772000.0,
+      "category": "corporate",
+      "category_label": "企業・決算",
+      "category_emoji": "🏢",
+      "importance": 3,
+      "importance_reason": "重要語「上方修正」・2媒体が報道",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [
+        {
+          "title": "東和銀、上期最終を一転18％増益に上方修正",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1MY1lTSERKTUFsdjl2ZDA4bDkxOUJOYndwU3ZPNU1GWV83YWRfelh0TFk1Q0loYml4aFhMWDF6VzQxM0t2VFZvU2NFX3htNUUtREE?oc=5",
           "source": "株探"
         }
       ],
@@ -8733,7 +9904,7 @@
       "category_label": "米国市場",
       "category_emoji": "🇺🇸",
       "importance": 3,
-      "importance_reason": "重要語「決算」・影響テーマ「米国株・ハイテク株の変動」に該当・2媒体が報道",
+      "importance_reason": "重要語「決算」・影響テーマ「米国株・ハイテク株の変動」に該当",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
@@ -8859,13 +10030,7 @@
           "policy_to_earnings_stage": null
         }
       ],
-      "related": [
-        {
-          "title": "ダウ平均は反落の一方、ナスダックは反発 アップルが決算受け下落＝米国株序盤",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAzQjdGMnRPVW1ZVFpSRGJMU3RBMlp2dUNRaTNmenFYaHFLUG9OMHprV3gzUDBSbEtWVWhwaDJVaU9PSlRvWHg2bnJOMUxlaUIzb2c?oc=5",
-          "source": "株探"
-        }
-      ],
+      "related": [],
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -9043,6 +10208,76 @@
       "emergence_growth": {}
     },
     {
+      "id": "13bbdf462743",
+      "title": "〔決算〕アステラス、通期業績予想を上方修正＝抗がん剤が伸長(時事通信)",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSUpLSDFDQXRHUzRvWFp2ZDRZRnR6d3dRU0tmb0V5T0hVeU80MWFoOTMycXNIN1B3TTdVSkh0djhBQ3FkS1lNN2VoQm9QTEZNaGQ4eVhVaEJSNXdwX2dUakw5QkxGNjYwdGE3ckg3a1cyaURRdTExYWJvLUZwZURNaVRPRFhVMnc?oc=5",
+      "source": "Yahoo!ファイナンス",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-11-04 21:07",
+      "published_ts": 1793794021.0,
+      "category": "corporate",
+      "category_label": "企業・決算",
+      "category_emoji": "🏢",
+      "importance": 2,
+      "importance_reason": "重要語「上方修正」",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [
+        {
+          "code": "4503",
+          "name": "アステラス製薬",
+          "sector": "医薬品",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "大",
+          "reason": "見出しで名指しされている当事者。内容は業績にプラスに働きうる材料",
+          "theme": "当事者",
+          "theme_id": null,
+          "origin": "direct",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": null,
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 51,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        }
+      ],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
       "id": "6a9ac1617352",
       "title": "じもとHD、4～9月期業績予想を上方修正 傘下2行の資金利益増",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pcHp0UTRtQVJTU0QyUENYdXQtMW1RWThicko4LVNtQW5lWi1NbG9XQUhrTEVWMHV0VDM1VlF1aXZFMU44WWI1UXh3Si1vSk5EVXJpbzln?oc=5",
@@ -9051,6 +10286,102 @@
       "source_tier_label": "二次情報",
       "published_at": "2026-11-04 16:10",
       "published_ts": 1793776200.0,
+      "category": "corporate",
+      "category_label": "企業・決算",
+      "category_emoji": "🏢",
+      "importance": 2,
+      "importance_reason": "重要語「上方修正」",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "f64217278cdd",
+      "title": "東和銀、4～9月期業績予想を上方修正 純利益37億円見込む",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NcVlsZ1ZRLVRQc0hKRldpQjlXdjlxMUF1Vi02c285MXYwWkVsR3ZsZGFOSWl1cGJ3Q2VfV3NWVjRQdGhVVkhRdHc3U3d6Y3JTc0hveUhn?oc=5",
+      "source": "ニッキンONLINE",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-11-04 15:59",
+      "published_ts": 1793775540.0,
+      "category": "corporate",
+      "category_label": "企業・決算",
+      "category_emoji": "🏢",
+      "importance": 2,
+      "importance_reason": "重要語「上方修正」",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "6f35a52b10d2",
+      "title": "仁丹、上期経常を78％上方修正・3期ぶり最高益更新へ",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1vQ2RjVEZvcWd6VGJBWmRTaWJkWVlEX1Y1bXk3SlIyY1pWZzRlOGhUaWRIUC16OWN1WGZ2Z2RlY1BZdlJGQ01NaUVreHpNTzR1OVE?oc=5",
+      "source": "株探",
+      "source_tier": "commentary",
+      "source_tier_label": "市場解説",
+      "published_at": "2026-11-04 15:30",
+      "published_ts": 1793773800.0,
       "category": "corporate",
       "category_label": "企業・決算",
       "category_emoji": "🏢",
@@ -9142,54 +10473,6 @@
       "id": "78b6a74ead35",
       "title": "ヤマト、今期経常を12％上方修正、配当も14円増額",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE42VkNMaGNOb1ZFcUl4aHJuXzBkNTQxVFVzMlV1amFzQUNLQWlpSTZmU181VkpGZFBSbjhZSWZ4SzlKQm5pdkd5UHlIMTFKWTkyNlE?oc=5",
-      "source": "株探",
-      "source_tier": "commentary",
-      "source_tier_label": "市場解説",
-      "published_at": "2026-11-04 15:00",
-      "published_ts": 1793772000.0,
-      "category": "corporate",
-      "category_label": "企業・決算",
-      "category_emoji": "🏢",
-      "importance": 2,
-      "importance_reason": "重要語「上方修正」",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "c954de0a219d",
-      "title": "大東銀、上期経常を一転14％増益に上方修正",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB1OHdrc0M2Z0lLbXlMYWVMc3JCbnl1SExZLWw5cnBhMjBaX211OEhXTUJfR3VJY0c3RGM0b0FmbGRzS01BNXNnVWlsVGJPUUJJN2c?oc=5",
       "source": "株探",
       "source_tier": "commentary",
       "source_tier_label": "市場解説",
@@ -9552,19 +10835,19 @@
       "emergence_growth": {}
     },
     {
-      "id": "2776168d20a1",
-      "title": "千代建、今期経常を2.3倍上方修正",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jT2l4Y3JEZkEtSUZCX2w2NHJmeVhZTHBHQ3dUSnhReUtDa1ktWWEzWEpnVnlCQmswUWlfTUNtejZtT05IcUtaWkVJMXlkTFdWNXc?oc=5",
-      "source": "株探",
-      "source_tier": "commentary",
-      "source_tier_label": "市場解説",
-      "published_at": "2026-11-04 12:00",
-      "published_ts": 1793761200.0,
-      "category": "corporate",
-      "category_label": "企業・決算",
-      "category_emoji": "🏢",
+      "id": "474fa0750800",
+      "title": "SKハイニックスの大連工場増産が難航、450億ドルのニューヨーク工場建設の資金源に不透明感",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBpdzl6ckNtV082NUcxUlRRQlk2QXIySW45UTd4TkFNUFlSWjdWaGtyd3RYSTJHQjNUVDJ0UHh6ZlQ4TjY2ZTlqSy1CMmJENkNyeUZ0Mm9POWprT0d6OElkVWxQWVEyTi1zemVKRWNGREtoNWlJ?oc=5",
+      "source": "BigGo ファイナンス",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-11-04 09:55",
+      "published_ts": 1793753700.0,
+      "category": "trade",
+      "category_label": "通商・規制",
+      "category_emoji": "⚖️",
       "importance": 2,
-      "importance_reason": "重要語「上方修正」",
+      "importance_reason": "重要語「増産」",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
@@ -11652,102 +12935,484 @@
       "emergence_growth": {}
     },
     {
-      "id": "e4532d489069",
-      "title": "宇宙開発での活躍視野…九州大学が開発進める、「動く電子回路」の世界",
-      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9GX3VXblBfU2pLdzFvakhPcTV6Znhvby1lbHpRZWM5Q2NSaU1TNkpDeF9vaTFwV3lYcV9FQVFBUkItQQ?oc=5",
-      "source": "ニュースイッチ by 日刊工業新聞社",
+      "id": "87ee07ee9170",
+      "title": "人工知能（AI）の普及で膨大な電力需要が生じ、化石燃料の価格まで高騰したことで、世界の原子力発電所の建設は40年ぶりの高水準となった。2日、日本経済新聞（日経）の報道によると、先月16日時点で世界で建..",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5JYi1HajVVNzFBYjV2d1cwMi1sRHA5RzFqYTZ0eWJCVW55bWxHbnlETG5MSWJ5ak5DcmlPZ3hnTVNuZGFDNFdmRjRBM3k4WE0?oc=5",
+      "source": "매일경제",
       "source_tier": "secondary",
       "source_tier_label": "二次情報",
-      "published_at": "2026-11-03 06:03",
-      "published_ts": 1793653380.0,
+      "published_at": "2026-11-03 05:55",
+      "published_ts": 1793652930.0,
       "category": "tech",
       "category_label": "半導体・AI",
       "category_emoji": "🤖",
       "importance": 2,
-      "importance_reason": "影響テーマ「宇宙開発」に該当",
+      "importance_reason": "影響テーマ「電力需要・データセンター」に該当",
       "future_signal": false,
       "policy_maturity": null,
       "policy_maturity_label": null,
       "news_novelty": "low",
       "news_novelty_label": "再報道",
-      "policy_event_id": "space-20261103-01",
+      "policy_event_id": "power_demand-20261020-03",
       "policy_event_is_update": true,
-      "policy_event_first_seen": "2026-11-03",
+      "policy_event_first_seen": "2026-10-20",
       "policy_event_state": "UPDATE",
       "themes": [
-        "宇宙開発"
+        "電力需要・データセンター"
       ],
       "theme_ids": [
-        "space"
+        "power_demand"
       ],
       "transmission_chain": null,
       "summary": "",
       "impact_comment": "",
       "impacts": [
         {
-          "code": "7011",
-          "name": "三菱重工業",
-          "sector": "機械",
+          "code": "6501",
+          "name": "日立製作所",
+          "sector": "電気機器",
           "direction": "positive",
           "direction_label": "追い風",
           "strength": "中",
-          "reason": "「宇宙開発」に反応: 宇宙関連の受注・契約観測が材料視されやすい",
-          "theme": "宇宙開発",
-          "theme_id": "space",
+          "reason": "「電力需要」に反応: 電力需要の拡大が収益機会として意識されやすい",
+          "theme": "電力需要・データセンター",
+          "theme_id": "power_demand",
           "origin": "rule",
           "beneficiary_tier": null,
           "beneficiary_tier_label": "",
           "revenue_horizon": null,
           "revenue_horizon_label": "",
-          "matched_keyword": "宇宙開発",
+          "matched_keyword": "電力需要",
           "intelligence_layer": "government_policy",
           "policy_impact_score": 44,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
         {
-          "code": "7013",
-          "name": "IHI",
-          "sector": "機械",
+          "code": "6503",
+          "name": "三菱電機",
+          "sector": "電気機器",
           "direction": "positive",
           "direction_label": "追い風",
           "strength": "中",
-          "reason": "「宇宙開発」に反応: 宇宙関連の受注・契約観測が材料視されやすい",
-          "theme": "宇宙開発",
-          "theme_id": "space",
+          "reason": "「電力需要」に反応: 電力需要の拡大が収益機会として意識されやすい",
+          "theme": "電力需要・データセンター",
+          "theme_id": "power_demand",
           "origin": "rule",
           "beneficiary_tier": null,
           "beneficiary_tier_label": "",
           "revenue_horizon": null,
           "revenue_horizon_label": "",
-          "matched_keyword": "宇宙開発",
+          "matched_keyword": "電力需要",
           "intelligence_layer": "government_policy",
           "policy_impact_score": 44,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         },
         {
-          "code": "9348",
-          "name": "ispace",
-          "sector": "サービス業",
+          "code": "9501",
+          "name": "東京電力ホールディングス",
+          "sector": "電気・ガス",
           "direction": "positive",
           "direction_label": "追い風",
           "strength": "中",
-          "reason": "「宇宙開発」に反応: 宇宙関連の受注・契約観測が材料視されやすい",
-          "theme": "宇宙開発",
-          "theme_id": "space",
+          "reason": "「電力需要」に反応: 電力需要の拡大が収益機会として意識されやすい",
+          "theme": "電力需要・データセンター",
+          "theme_id": "power_demand",
           "origin": "rule",
           "beneficiary_tier": null,
           "beneficiary_tier_label": "",
           "revenue_horizon": null,
           "revenue_horizon_label": "",
-          "matched_keyword": "宇宙開発",
+          "matched_keyword": "電力需要",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "9503",
+          "name": "関西電力",
+          "sector": "電気・ガス",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「電力需要」に反応: 電力需要の拡大が収益機会として意識されやすい",
+          "theme": "電力需要・データセンター",
+          "theme_id": "power_demand",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "電力需要",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "5802",
+          "name": "住友電気工業",
+          "sector": "非鉄金属",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「電力需要」に反応: 電力インフラ・設備投資の受注拡大につながりやすい",
+          "theme": "電力需要・データセンター",
+          "theme_id": "power_demand",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "電力需要",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "5801",
+          "name": "古河電気工業",
+          "sector": "非鉄金属",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「電力需要」に反応: 電力インフラ・設備投資の受注拡大につながりやすい",
+          "theme": "電力需要・データセンター",
+          "theme_id": "power_demand",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "電力需要",
+          "intelligence_layer": "government_policy",
+          "policy_impact_score": 44,
+          "ai_capex_impact_score": null,
+          "policy_to_earnings_stage": null
+        },
+        {
+          "code": "5803",
+          "name": "フジクラ",
+          "sector": "非鉄金属",
+          "direction": "positive",
+          "direction_label": "追い風",
+          "strength": "中",
+          "reason": "「電力需要」に反応: 電力インフラ・設備投資の受注拡大につながりやすい",
+          "theme": "電力需要・データセンター",
+          "theme_id": "power_demand",
+          "origin": "rule",
+          "beneficiary_tier": null,
+          "beneficiary_tier_label": "",
+          "revenue_horizon": null,
+          "revenue_horizon_label": "",
+          "matched_keyword": "電力需要",
           "intelligence_layer": "government_policy",
           "policy_impact_score": 44,
           "ai_capex_impact_score": null,
           "policy_to_earnings_stage": null
         }
       ],
+      "related": [],
+      "emergence_stage": "watch",
+      "emergence_stage_label": "👀 要監視テーマ",
+      "emergence_signal_labels": [
+        "関連企業の直接発表",
+        "政策の検討・審議段階",
+        "複数媒体での同時報道"
+      ],
+      "emergence_event_count": 5,
+      "emergence_source_count": 5,
+      "emergence_actor_type_count": 3,
+      "emergence_actor_type_labels": [
+        "関連企業",
+        "海外政府・当局",
+        "複数メディア"
+      ],
+      "emergence_actor_type_breakdown": [
+        {
+          "label": "関連企業",
+          "count": 1
+        },
+        {
+          "label": "海外政府・当局",
+          "count": 1
+        },
+        {
+          "label": "複数メディア",
+          "count": 1
+        }
+      ],
+      "emergence_region_count": 1,
+      "emergence_regions": [
+        "米国"
+      ],
+      "emergence_origin_regions": [
+        "米国"
+      ],
+      "emergence_first_seen": "2026-09-25",
+      "emergence_window_counts": {
+        "7": 3,
+        "30": 4,
+        "90": 5
+      },
+      "emergence_timeline": [
+        {
+          "date": "2026-10-03",
+          "source": "jp.ajunews.com",
+          "signal_labels": [
+            "政策の検討・審議段階"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-20",
+          "source": "Chosunbiz",
+          "signal_labels": [
+            "政策の検討・審議段階"
+          ],
+          "actor_type_labels": [],
+          "regions": []
+        },
+        {
+          "date": "2026-10-28",
+          "source": "BigGo ファイナンス",
+          "signal_labels": [],
+          "actor_type_labels": [
+            "海外政府・当局"
+          ],
+          "regions": [
+            "米国"
+          ]
+        },
+        {
+          "date": "2026-10-28",
+          "source": "朝鮮日報",
+          "signal_labels": [
+            "複数媒体での同時報道"
+          ],
+          "actor_type_labels": [
+            "複数メディア"
+          ],
+          "regions": []
+        },
+        {
+          "date": "2026-10-29",
+          "source": "Yahoo!ファイナンス",
+          "signal_labels": [
+            "関連企業の直接発表"
+          ],
+          "actor_type_labels": [
+            "関連企業"
+          ],
+          "regions": []
+        }
+      ],
+      "emergence_milestones": [
+        {
+          "date": "2026-10-28",
+          "actor_type_label": "海外政府・当局"
+        },
+        {
+          "date": "2026-10-28",
+          "actor_type_label": "複数メディア"
+        },
+        {
+          "date": "2026-10-29",
+          "actor_type_label": "関連企業"
+        }
+      ],
+      "emergence_diagnosis": {
+        "target_stage": "watch",
+        "target_stage_label": "👀 要監視テーマ",
+        "source_count": 5,
+        "required_sources": 2,
+        "signal_count": 3,
+        "required_signals": 3,
+        "missing": []
+      },
+      "emergence_growth": {
+        "window_days": 14,
+        "recent_new_actor_types": 3,
+        "total_actor_types": 3
+      }
+    },
+    {
+      "id": "cfe3f677d141",
+      "title": "デジタル空間における情報流通の諸課題への対処に関する検討会（第16回）配付資料",
+      "url": "https://www.soumu.go.jp/main_sosiki/kenkyu/digital_shokadai/02ryutsu02_04000610.html",
+      "source": "総務省",
+      "source_tier": "primary",
+      "source_tier_label": "一次情報",
+      "published_at": "2026-11-05 05:00",
+      "published_ts": 1793822400.0,
+      "category": "japan",
+      "category_label": "日本経済・政治",
+      "category_emoji": "🗾",
+      "importance": 1,
+      "importance_reason": "先行情報(審議会・検討会・パブコメ等)",
+      "future_signal": true,
+      "policy_maturity": 35,
+      "policy_maturity_label": "審議会・検討会",
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "0392df0f4047",
+      "title": "日経平均株価の指数情報・推移",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SRDk1ZENIQUIzSUZyMHZRNHpCR2xlcTI5UTJRYXVoMDBrM3BmNndBT29vV0dDZWdQazZHb2tURGZNYy1OMU93R0kyUUZUT3VmU2VhbA?oc=5",
+      "source": "Yahoo!ファイナンス",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-11-04 20:07",
+      "published_ts": 1793790427.0,
+      "category": "market",
+      "category_label": "株式市況",
+      "category_emoji": "📈",
+      "importance": 1,
+      "importance_reason": "一般的な市況ニュース",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "252bcb8f0d35",
+      "title": "NYダウの指数情報・推移",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RX1F0c3NoRW1WOGhKVzFzd0tzWTlBS0NtMVZFbUUyZm14Z1Y5VWhzMjctd201Y2RMTFhBSGx0Rmdqc0ZFY1R2VzZUUG9PVjdUaXc?oc=5",
+      "source": "Yahoo!ファイナンス",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-11-04 19:41",
+      "published_ts": 1793788865.0,
+      "category": "us",
+      "category_label": "米国市場",
+      "category_emoji": "🇺🇸",
+      "importance": 1,
+      "importance_reason": "一般的な市況ニュース",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
+      "related": [],
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "id": "86b16ae1b9f0",
+      "title": "円相場 いくぶん値下がり",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1UZHRoUWRMQzVScnZKUWFfUDV3RVhCUUw2bGhwem44elNkNVRHNDR3RGhtYy0wLS1IWlc4QVZ1YkdZbUJnVlVySHR0SW9zVXBaZlU3SUlnNFNmZFhaUkJj?oc=5",
+      "source": "NHKニュース",
+      "source_tier": "secondary",
+      "source_tier_label": "二次情報",
+      "published_at": "2026-11-04 18:45",
+      "published_ts": 1793785545.0,
+      "category": "fx",
+      "category_label": "為替",
+      "category_emoji": "💱",
+      "importance": 1,
+      "importance_reason": "一般的な市況ニュース",
+      "future_signal": false,
+      "policy_maturity": null,
+      "policy_maturity_label": null,
+      "news_novelty": "high",
+      "news_novelty_label": "新規",
+      "policy_event_id": null,
+      "policy_event_is_update": null,
+      "policy_event_first_seen": null,
+      "policy_event_state": null,
+      "themes": [],
+      "theme_ids": [],
+      "transmission_chain": null,
+      "summary": "",
+      "impact_comment": "",
+      "impacts": [],
       "related": [],
       "emergence_stage": null,
       "emergence_stage_label": "",
@@ -11833,54 +13498,6 @@
       "category": "japan",
       "category_label": "日本経済・政治",
       "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "a5cc8afbed7e",
-      "title": "日経平均は3日続落、米中間選の民主勝利で 6万円割れ寸前で下げ縮小",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWHYydTRHQW1Wcjdjc01aR1pYUE1XZ2ZEVVBYcEl6TUQ5OHFTWlVOS0lidGpkSHB3dl82Z2pkUjJGeTV2MkRsakZubWpRT1g5V1BOc29WSzdOWk4wUDdQdkt2Z1pRZG9QUHBDX2ctV0NpOGxFSlV5V1FJdVJ1dzlxcUVuN3AtUQ?oc=5",
-      "source": "Reuters",
-      "source_tier": "secondary",
-      "source_tier_label": "二次情報",
-      "published_at": "2026-11-04 16:14",
-      "published_ts": 1793776440.0,
-      "category": "market",
-      "category_label": "株式市況",
-      "category_emoji": "📈",
       "importance": 1,
       "importance_reason": "一般的な市況ニュース",
       "future_signal": false,
@@ -12060,294 +13677,6 @@
       "emergence_milestones": [],
       "emergence_diagnosis": {},
       "emergence_growth": {}
-    },
-    {
-      "id": "baff53a04ef9",
-      "title": "消費生活用製品の重大製品事故:リコール製品で火災等(フッドミキサー(ブレンダー))(11月4日)",
-      "url": "https://www.caa.go.jp/notice/entry/048019/",
-      "source": "消費者庁",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-11-04 15:30",
-      "published_ts": 1793773800.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "481ba5f9d076",
-      "title": "防災に係る取組項目と概要を更新しました",
-      "url": "https://www.digital.go.jp/policies/disaster_prevention",
-      "source": "デジタル庁",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-11-04 15:00",
-      "published_ts": 1793772000.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "9e50fc978ab5",
-      "title": "予算執行に係る「補助金等の交付決定に係る情報（令和8年度上半期分）」を掲載しました",
-      "url": "https://www.digital.go.jp/budget",
-      "source": "デジタル庁",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-11-04 15:00",
-      "published_ts": 1793772000.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "5772d8db458c",
-      "title": "令和7年度教育関連データのデータ連携の実現に向けた実証調査研究の実施報告書を更新しました",
-      "url": "https://www.digital.go.jp/policies/education/2025report",
-      "source": "デジタル庁",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-11-04 15:00",
-      "published_ts": 1793772000.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "22105d1e76e4",
-      "title": "令和8年度（2026年度）デジタル庁情報システム調達改革検討会（第2回） の議事概要を掲載しました",
-      "url": "https://www.digital.go.jp/councils/procurement-reform/FY2026/24cfea22-3e10-418e-abbd-983af697d751",
-      "source": "デジタル庁",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-11-04 15:00",
-      "published_ts": 1793772000.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "先行情報(審議会・検討会・パブコメ等)",
-      "future_signal": true,
-      "policy_maturity": 35,
-      "policy_maturity_label": "審議会・検討会",
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "id": "76857a2874a8",
-      "title": "地方自治体の事務の共同処理に関するダッシュボードを更新しました",
-      "url": "https://www.digital.go.jp/resources/govdashboard/wide-area-cooperation",
-      "source": "デジタル庁",
-      "source_tier": "primary",
-      "source_tier_label": "一次情報",
-      "published_at": "2026-11-04 15:00",
-      "published_ts": 1793772000.0,
-      "category": "japan",
-      "category_label": "日本経済・政治",
-      "category_emoji": "🗾",
-      "importance": 1,
-      "importance_reason": "一般的な市況ニュース",
-      "future_signal": false,
-      "policy_maturity": null,
-      "policy_maturity_label": null,
-      "news_novelty": "high",
-      "news_novelty_label": "新規",
-      "policy_event_id": null,
-      "policy_event_is_update": null,
-      "policy_event_first_seen": null,
-      "policy_event_state": null,
-      "themes": [],
-      "theme_ids": [],
-      "transmission_chain": null,
-      "summary": "",
-      "impact_comment": "",
-      "impacts": [],
-      "related": [],
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
     }
   ],
   "stock_ranking": [
@@ -12487,21 +13816,14 @@
       "code": "7203",
       "name": "トヨタ自動車",
       "sector": "自動車",
-      "positive": 1,
+      "positive": 0,
       "negative": 4,
       "watch": 1,
-      "score": -7,
+      "score": -11,
       "news": [
         {
-          "title": "〔決算〕IHI、今期業績予想を上方修正＝円安で民間エンジン上振れ(時事通信)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb25RRXdFcXFJXzhnU0VNYVhRMmZRMUVJcVNsUUZLMkZ2RGE2YUFlRUREV0tjbjJXX0RUVjNlM0l6WGV6TnVlbjJiWXhqcXFjdHJNN1paN0RubUJVLUtJRzEyeDJ4N19oZGMyWU5USWNWdW5GeGd3anJZMEdlLXU1ZXJnV2R1N3c?oc=5",
-          "direction": "positive",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "importance": 4
-        },
-        {
-          "title": "対日イットリウム９８％減 中国輸出、レアアース規制",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0tUkNHbHNueXlkUGtxMFJrMnFrT0JVYzVtVVJHcUphTy1kYUFaNFBDdllUMnh1UnY2V19GNmkwbFFRYTFET0M5R3oxN2VjQ0Y2QS13THBnOGJQVFltRmc?oc=5",
+          "title": "対日イットリウム９８％減 中国輸出、レアアース規制 | | 全国のニュース",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80alA2MW1EeXlSVTM0b1RWLUZsazN3THBsbEpIRjRKZll6T1l3LUFRZVI3UF9oNkdMTmstdVlVZkFnMGQ1NkdEVXVSZjFTY1RKa2tqV1ln?oc=5",
           "direction": "negative",
           "reason": "「レアアース」に反応: 永久磁石などレアアース由来部材の調達コスト上昇・供給不安が意識されやすい",
           "importance": 3
@@ -12512,13 +13834,53 @@
           "direction": "watch",
           "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
           "importance": 3
+        },
+        {
+          "title": "ダウ平均は反落の一方、ナスダックは反発 アップルが決算受け下落＝米国株概況",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ucGhSaW5jV2FTbFBIa01KdFVIVmxzR0RGTC1GamJidHBFUnEtTUNFX2pNS1k3ZjlsNTk4em00RTc1UjRjdTJDQk40c0lxdS1tMTB3Q2ttY2tyT29Eelhldw?oc=5",
+          "direction": "negative",
+          "reason": "「米国株」に反応: 米国市場の値動きに連動しやすく、寄り付きの需給に影響が出やすい",
+          "importance": 3
         }
       ],
-      "mentions": 6
+      "mentions": 5
     },
     {
       "code": "6503",
       "name": "三菱電機",
+      "sector": "電気機器",
+      "positive": 2,
+      "negative": 2,
+      "watch": 1,
+      "score": -4,
+      "news": [
+        {
+          "title": "メラニア夫人がロシアとウクライナの代表をホワイトハウスに招待へ 局地停戦で",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNTmlCc1BmYkVtWXk0Nkx5NzBuREM3dFFPRWRUb3VPMU1mSHp2YUtDV25Rb2N4bnF0c2JNa2p6aFFfYVV4ZkZvb2NmTmdab3dQclBxdDVwQkdIWUx1R2ZSOHFUdVl6R1VjcFAzbVViZkR3Ymh4Smc?oc=5",
+          "direction": "negative",
+          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "importance": 4
+        },
+        {
+          "title": "ウクライナで局地停戦が終了 住民避難もほかの地域で攻撃 | NHKニュース | ウクライナ情勢、ロシア、アメリカ",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1zTjFkTG1mM0ZkVFFtZTE2LUFPbldIUVZDems2QUJuOGg5VGFkNEJMVG4tU21uWWRkYnJZaVdNWkxxRGpMMlQxOE92SXhJN0VqbW5ua25XaUxuLWpadEVB?oc=5",
+          "direction": "negative",
+          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "importance": 4
+        },
+        {
+          "title": "ウクライナ軍、ロシアが局地停戦中に態勢強化と主張 攻撃激化も",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNT3BSQ2tYSDBzYnY0dEJaZlhmQlZkaVR1NUtEd01rTDVlSWc3OWR5WDR6UFFLZ3BOMURlZWp0LTB3NUhMT2JWRUQ2UU50NmZWXzNUM0NLREU1NlJOMTFlWmVDR1JJVEFsTVNFOHFaOVBFSjl3RE5DS0xiNEZYNzRGVFA1ZmIzZw?oc=5",
+          "direction": "watch",
+          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
+          "importance": 4
+        }
+      ],
+      "mentions": 5
+    },
+    {
+      "code": "6701",
+      "name": "日本電気",
       "sector": "電気機器",
       "positive": 1,
       "negative": 2,
@@ -12550,34 +13912,100 @@
       "mentions": 4
     },
     {
-      "code": "6701",
-      "name": "日本電気",
+      "code": "8035",
+      "name": "東京エレクトロン",
       "sector": "電気機器",
-      "positive": 1,
-      "negative": 2,
-      "watch": 1,
-      "score": -6,
+      "positive": 3,
+      "negative": 1,
+      "watch": 0,
+      "score": 2,
       "news": [
         {
-          "title": "メラニア夫人がロシアとウクライナの代表をホワイトハウスに招待へ 局地停戦で",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNTmlCc1BmYkVtWXk0Nkx5NzBuREM3dFFPRWRUb3VPMU1mSHp2YUtDV25Rb2N4bnF0c2JNa2p6aFFfYVV4ZkZvb2NmTmdab3dQclBxdDVwQkdIWUx1R2ZSOHFUdVl6R1VjcFAzbVViZkR3Ymh4Smc?oc=5",
+          "title": "米国の対中HBM輸出規制に抜け穴、低性能プロセッサーに組み込んで持ち込む手口が横行",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlMnE5WmZJUGxTSDdWZWVVYi1BZ0pBU3gxYW9NQThGSmFkWjNkdzVWcHdsR1RYbDItT3d4UFVaQmhGVXIxUzV3OWdHa0JDZWUzdi1kU0xsRlA4Q3pVVlhGOFk0Q1BhS1d3T2RCN0JhcHNFN1k?oc=5",
           "direction": "negative",
-          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
-          "importance": 4
+          "reason": "「輸出規制」に反応: 中国向け売上比率が高く、規制強化は受注減・出荷制限のリスク要因になりやすい",
+          "importance": 5
         },
         {
-          "title": "ウクライナで局地停戦が終了 住民避難もほかの地域で攻撃 | NHKニュース | ウクライナ情勢、ロシア、アメリカ",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1zTjFkTG1mM0ZkVFFtZTE2LUFPbldIUVZDems2QUJuOGg5VGFkNEJMVG4tU21uWWRkYnJZaVdNWkxxRGpMMlQxOE92SXhJN0VqbW5ua25XaUxuLWpadEVB?oc=5",
-          "direction": "negative",
-          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
-          "importance": 4
+          "title": "４日の東京株式市場見通し＝半導体買い戻し先行も米中間選挙睨む展開に(ウエルスアドバイザー)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZnZQWUxrTFVXZjZxUGJadGlvQ2tjLWZVTnV1WDJnYWVrS1UxVzVOWHFlVEczbE1nZU5wQnJjcDlxNExFRHRxQjI1NEpaOFBpNEIyTGxBV3VyQ3Vsek81bnp3WVhDVDM3TXJKTWtJbERLSFRUUUQzYUxlcjkyc25UUUZCcFB5bWs?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 3
         },
         {
-          "title": "ウクライナ軍、ロシアが局地停戦中に態勢強化と主張 攻撃激化も",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNT3BSQ2tYSDBzYnY0dEJaZlhmQlZkaVR1NUtEd01rTDVlSWc3OWR5WDR6UFFLZ3BOMURlZWp0LTB3NUhMT2JWRUQ2UU50NmZWXzNUM0NLREU1NlJOMTFlWmVDR1JJVEFsTVNFOHFaOVBFSjl3RE5DS0xiNEZYNzRGVFA1ZmIzZw?oc=5",
-          "direction": "watch",
-          "reason": "「ウクライナ」に反応: 防衛関連の需要観測が材料視されやすい(方向は情勢緊迫化か沈静化かによって変わる)",
-          "importance": 4
+          "title": "半導体株が反発しナスダックはプラス圏回復、アップルの業績見通し失望でダウ平均は下落 台湾指数先物ナイトセッションは500ポイント超の急反発",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5vc0FjMS1ValZodVZGd0lFLWVYamlzd05lc3Q1cDR6cVlSOTBQQnlYUjJSRGgtWXJpMU5CTTMzMDhIa19taFFOYTR6ZDlaVFJpZVlrYmd5QlBHZ2JLR2M5bmNTcmJTVWhGZDJMTHc0MFBjMDlr?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 4
+    },
+    {
+      "code": "6857",
+      "name": "アドバンテスト",
+      "sector": "電気機器",
+      "positive": 3,
+      "negative": 1,
+      "watch": 0,
+      "score": 2,
+      "news": [
+        {
+          "title": "米国の対中HBM輸出規制に抜け穴、低性能プロセッサーに組み込んで持ち込む手口が横行",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlMnE5WmZJUGxTSDdWZWVVYi1BZ0pBU3gxYW9NQThGSmFkWjNkdzVWcHdsR1RYbDItT3d4UFVaQmhGVXIxUzV3OWdHa0JDZWUzdi1kU0xsRlA4Q3pVVlhGOFk0Q1BhS1d3T2RCN0JhcHNFN1k?oc=5",
+          "direction": "negative",
+          "reason": "「輸出規制」に反応: 中国向け売上比率が高く、規制強化は受注減・出荷制限のリスク要因になりやすい",
+          "importance": 5
+        },
+        {
+          "title": "４日の東京株式市場見通し＝半導体買い戻し先行も米中間選挙睨む展開に(ウエルスアドバイザー)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZnZQWUxrTFVXZjZxUGJadGlvQ2tjLWZVTnV1WDJnYWVrS1UxVzVOWHFlVEczbE1nZU5wQnJjcDlxNExFRHRxQjI1NEpaOFBpNEIyTGxBV3VyQ3Vsek81bnp3WVhDVDM3TXJKTWtJbERLSFRUUUQzYUxlcjkyc25UUUZCcFB5bWs?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 3
+        },
+        {
+          "title": "半導体株が反発しナスダックはプラス圏回復、アップルの業績見通し失望でダウ平均は下落 台湾指数先物ナイトセッションは500ポイント超の急反発",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5vc0FjMS1ValZodVZGd0lFLWVYamlzd05lc3Q1cDR6cVlSOTBQQnlYUjJSRGgtWXJpMU5CTTMzMDhIa19taFFOYTR6ZDlaVFJpZVlrYmd5QlBHZ2JLR2M5bmNTcmJTVWhGZDJMTHc0MFBjMDlr?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 4
+    },
+    {
+      "code": "6920",
+      "name": "レーザーテック",
+      "sector": "電気機器",
+      "positive": 3,
+      "negative": 1,
+      "watch": 0,
+      "score": 2,
+      "news": [
+        {
+          "title": "米国の対中HBM輸出規制に抜け穴、低性能プロセッサーに組み込んで持ち込む手口が横行",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlMnE5WmZJUGxTSDdWZWVVYi1BZ0pBU3gxYW9NQThGSmFkWjNkdzVWcHdsR1RYbDItT3d4UFVaQmhGVXIxUzV3OWdHa0JDZWUzdi1kU0xsRlA4Q3pVVlhGOFk0Q1BhS1d3T2RCN0JhcHNFN1k?oc=5",
+          "direction": "negative",
+          "reason": "「輸出規制」に反応: 中国向け売上比率が高く、規制強化は受注減・出荷制限のリスク要因になりやすい",
+          "importance": 5
+        },
+        {
+          "title": "４日の東京株式市場見通し＝半導体買い戻し先行も米中間選挙睨む展開に(ウエルスアドバイザー)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZnZQWUxrTFVXZjZxUGJadGlvQ2tjLWZVTnV1WDJnYWVrS1UxVzVOWHFlVEczbE1nZU5wQnJjcDlxNExFRHRxQjI1NEpaOFBpNEIyTGxBV3VyQ3Vsek81bnp3WVhDVDM3TXJKTWtJbERLSFRUUUQzYUxlcjkyc25UUUZCcFB5bWs?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 3
+        },
+        {
+          "title": "半導体株が反発しナスダックはプラス圏回復、アップルの業績見通し失望でダウ平均は下落 台湾指数先物ナイトセッションは500ポイント超の急反発",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5vc0FjMS1ValZodVZGd0lFLWVYamlzd05lc3Q1cDR6cVlSOTBQQnlYUjJSRGgtWXJpMU5CTTMzMDhIa19taFFOYTR6ZDlaVFJpZVlrYmd5QlBHZ2JLR2M5bmNTcmJTVWhGZDJMTHc0MFBjMDlr?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
+          "importance": 2
         }
       ],
       "mentions": 4
@@ -12682,39 +14110,6 @@
       "mentions": 3
     },
     {
-      "code": "7013",
-      "name": "IHI",
-      "sector": "機械",
-      "positive": 3,
-      "negative": 0,
-      "watch": 0,
-      "score": 8,
-      "news": [
-        {
-          "title": "〔決算〕IHI、今期業績予想を上方修正＝円安で民間エンジン上振れ(時事通信)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb25RRXdFcXFJXzhnU0VNYVhRMmZRMUVJcVNsUUZLMkZ2RGE2YUFlRUREV0tjbjJXX0RUVjNlM0l6WGV6TnVlbjJiWXhqcXFjdHJNN1paN0RubUJVLUtJRzEyeDJ4N19oZGMyWU5USWNWdW5GeGd3anJZMEdlLXU1ZXJnV2R1N3c?oc=5",
-          "direction": "positive",
-          "reason": "見出しで名指しされている当事者。内容は業績にプラスに働きうる材料",
-          "importance": 4
-        },
-        {
-          "title": "大規模造船向けには、特別な信用保証制度が設けられる。",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcUVtS3I5VnRzSmsyaVg1YS1aMTRKUFo2MHpsZjJvV1NBWG1wT0pXSmRfTWZIeVlrVnFvYUw1ZGFDMHNBQkJaUktfSjBIR1htUFA3NUdnTzU5YzJmQUgxVzE5b29GaVY4V1FzY3hhdnBrLVo4T0RkenZFcWlpaS00WUVlaHplTFVmQzJzTTJYSDlNRjZJeXUzbjNB?oc=5",
-          "direction": "positive",
-          "reason": "「造船」に反応: 政府の造船・海事産業支援策(投資・補助・規制緩和など)の直接の受益者になりやすい",
-          "importance": 2
-        },
-        {
-          "title": "宇宙開発での活躍視野…九州大学が開発進める、「動く電子回路」の世界",
-          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9GX3VXblBfU2pLdzFvakhPcTV6Znhvby1lbHpRZWM5Q2NSaU1TNkpDeF9vaTFwV3lYcV9FQVFBUkItQQ?oc=5",
-          "direction": "positive",
-          "reason": "「宇宙開発」に反応: 宇宙関連の受注・契約観測が材料視されやすい",
-          "importance": 2
-        }
-      ],
-      "mentions": 3
-    },
-    {
       "code": "8058",
       "name": "三菱商事",
       "sector": "卸売",
@@ -12814,113 +14209,21 @@
       "mentions": 3
     },
     {
-      "code": "8035",
-      "name": "東京エレクトロン",
-      "sector": "電気機器",
-      "positive": 3,
-      "negative": 0,
-      "watch": 0,
-      "score": 7,
-      "news": [
-        {
-          "title": "４日の東京株式市場見通し＝半導体買い戻し先行も米中間選挙睨む展開に(ウエルスアドバイザー)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZnZQWUxrTFVXZjZxUGJadGlvQ2tjLWZVTnV1WDJnYWVrS1UxVzVOWHFlVEczbE1nZU5wQnJjcDlxNExFRHRxQjI1NEpaOFBpNEIyTGxBV3VyQ3Vsek81bnp3WVhDVDM3TXJKTWtJbERLSFRUUUQzYUxlcjkyc25UUUZCcFB5bWs?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 3
-        },
-        {
-          "title": "半導体株が反発しナスダックはプラス圏回復、アップルの業績見通し失望でダウ平均は下落 台湾指数先物ナイトセッションは500ポイント超の急反発",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5vc0FjMS1ValZodVZGd0lFLWVYamlzd05lc3Q1cDR6cVlSOTBQQnlYUjJSRGgtWXJpMU5CTTMzMDhIa19taFFOYTR6ZDlaVFJpZVlrYmd5QlBHZ2JLR2M5bmNTcmJTVWhGZDJMTHc0MFBjMDlr?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 2
-        },
-        {
-          "title": "半導体株の反発でナスダック上昇、ダウ先物は下落",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSDBrdjBtU3hUaVBkbjFpcVNlMDZ5aHpkM0ZTa0cwbWc4Y3R1QnZCZHl5Q3YwRG9nM0kzX3hLUXJYeEdzajZHQU1OalNZX0p2WXBFelRCaTlPMG5NcmE5WUkzZE1ad0R3NWhmY0l0OGpISlg2M1VJZVdpZy1GNUxHQmtxLTFOQ205UXhfRDA3d1Q1RkdpS1VIcVduaEpYdw?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 2
-        }
-      ],
-      "mentions": 3
-    },
-    {
-      "code": "6857",
-      "name": "アドバンテスト",
-      "sector": "電気機器",
-      "positive": 3,
-      "negative": 0,
-      "watch": 0,
-      "score": 7,
-      "news": [
-        {
-          "title": "４日の東京株式市場見通し＝半導体買い戻し先行も米中間選挙睨む展開に(ウエルスアドバイザー)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZnZQWUxrTFVXZjZxUGJadGlvQ2tjLWZVTnV1WDJnYWVrS1UxVzVOWHFlVEczbE1nZU5wQnJjcDlxNExFRHRxQjI1NEpaOFBpNEIyTGxBV3VyQ3Vsek81bnp3WVhDVDM3TXJKTWtJbERLSFRUUUQzYUxlcjkyc25UUUZCcFB5bWs?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 3
-        },
-        {
-          "title": "半導体株が反発しナスダックはプラス圏回復、アップルの業績見通し失望でダウ平均は下落 台湾指数先物ナイトセッションは500ポイント超の急反発",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5vc0FjMS1ValZodVZGd0lFLWVYamlzd05lc3Q1cDR6cVlSOTBQQnlYUjJSRGgtWXJpMU5CTTMzMDhIa19taFFOYTR6ZDlaVFJpZVlrYmd5QlBHZ2JLR2M5bmNTcmJTVWhGZDJMTHc0MFBjMDlr?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 2
-        },
-        {
-          "title": "半導体株の反発でナスダック上昇、ダウ先物は下落",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSDBrdjBtU3hUaVBkbjFpcVNlMDZ5aHpkM0ZTa0cwbWc4Y3R1QnZCZHl5Q3YwRG9nM0kzX3hLUXJYeEdzajZHQU1OalNZX0p2WXBFelRCaTlPMG5NcmE5WUkzZE1ad0R3NWhmY0l0OGpISlg2M1VJZVdpZy1GNUxHQmtxLTFOQ205UXhfRDA3d1Q1RkdpS1VIcVduaEpYdw?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 2
-        }
-      ],
-      "mentions": 3
-    },
-    {
-      "code": "6920",
-      "name": "レーザーテック",
-      "sector": "電気機器",
-      "positive": 3,
-      "negative": 0,
-      "watch": 0,
-      "score": 7,
-      "news": [
-        {
-          "title": "４日の東京株式市場見通し＝半導体買い戻し先行も米中間選挙睨む展開に(ウエルスアドバイザー)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZnZQWUxrTFVXZjZxUGJadGlvQ2tjLWZVTnV1WDJnYWVrS1UxVzVOWHFlVEczbE1nZU5wQnJjcDlxNExFRHRxQjI1NEpaOFBpNEIyTGxBV3VyQ3Vsek81bnp3WVhDVDM3TXJKTWtJbERLSFRUUUQzYUxlcjkyc25UUUZCcFB5bWs?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 3
-        },
-        {
-          "title": "半導体株が反発しナスダックはプラス圏回復、アップルの業績見通し失望でダウ平均は下落 台湾指数先物ナイトセッションは500ポイント超の急反発",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5vc0FjMS1ValZodVZGd0lFLWVYamlzd05lc3Q1cDR6cVlSOTBQQnlYUjJSRGgtWXJpMU5CTTMzMDhIa19taFFOYTR6ZDlaVFJpZVlrYmd5QlBHZ2JLR2M5bmNTcmJTVWhGZDJMTHc0MFBjMDlr?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 2
-        },
-        {
-          "title": "半導体株の反発でナスダック上昇、ダウ先物は下落",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSDBrdjBtU3hUaVBkbjFpcVNlMDZ5aHpkM0ZTa0cwbWc4Y3R1QnZCZHl5Q3YwRG9nM0kzX3hLUXJYeEdzajZHQU1OalNZX0p2WXBFelRCaTlPMG5NcmE5WUkzZE1ad0R3NWhmY0l0OGpISlg2M1VJZVdpZy1GNUxHQmtxLTFOQ205UXhfRDA3d1Q1RkdpS1VIcVduaEpYdw?oc=5",
-          "direction": "positive",
-          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
-          "importance": 2
-        }
-      ],
-      "mentions": 3
-    },
-    {
       "code": "6146",
       "name": "ディスコ",
       "sector": "機械",
       "positive": 2,
-      "negative": 0,
+      "negative": 1,
       "watch": 0,
-      "score": 5,
+      "score": 0,
       "news": [
+        {
+          "title": "米国の対中HBM輸出規制に抜け穴、低性能プロセッサーに組み込んで持ち込む手口が横行",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlMnE5WmZJUGxTSDdWZWVVYi1BZ0pBU3gxYW9NQThGSmFkWjNkdzVWcHdsR1RYbDItT3d4UFVaQmhGVXIxUzV3OWdHa0JDZWUzdi1kU0xsRlA4Q3pVVlhGOFk0Q1BhS1d3T2RCN0JhcHNFN1k?oc=5",
+          "direction": "negative",
+          "reason": "「輸出規制」に反応: 中国向け売上比率が高く、規制強化は受注減・出荷制限のリスク要因になりやすい",
+          "importance": 5
+        },
         {
           "title": "４日の東京株式市場見通し＝半導体買い戻し先行も米中間選挙睨む展開に(ウエルスアドバイザー)",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZnZQWUxrTFVXZjZxUGJadGlvQ2tjLWZVTnV1WDJnYWVrS1UxVzVOWHFlVEczbE1nZU5wQnJjcDlxNExFRHRxQjI1NEpaOFBpNEIyTGxBV3VyQ3Vsek81bnp3WVhDVDM3TXJKTWtJbERLSFRUUUQzYUxlcjkyc25UUUZCcFB5bWs?oc=5",
@@ -12936,55 +14239,81 @@
           "importance": 2
         }
       ],
-      "mentions": 2
+      "mentions": 3
     },
     {
-      "code": "7011",
-      "name": "三菱重工業",
-      "sector": "機械",
+      "code": "9501",
+      "name": "東京電力ホールディングス",
+      "sector": "電気・ガス",
       "positive": 2,
       "negative": 0,
       "watch": 0,
       "score": 4,
       "news": [
         {
-          "title": "大規模造船向けには、特別な信用保証制度が設けられる。",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcUVtS3I5VnRzSmsyaVg1YS1aMTRKUFo2MHpsZjJvV1NBWG1wT0pXSmRfTWZIeVlrVnFvYUw1ZGFDMHNBQkJaUktfSjBIR1htUFA3NUdnTzU5YzJmQUgxVzE5b29GaVY4V1FzY3hhdnBrLVo4T0RkenZFcWlpaS00WUVlaHplTFVmQzJzTTJYSDlNRjZJeXUzbjNB?oc=5",
+          "title": "NYダウは反発し213ドル高、原油安が支え ナスダックは続落",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zUzBieUJMUWc5a3ByN19FbzlHaXRnX0I0VkY5a2V1bE5OWWtFeWNYNldrbm8wM3lGS0FlOERBekxEN2U1WUduN1hQMnR3VFhNQWllbnRZVGUzd1R2MzVzWV9KcjBibkxpMnNrMw?oc=5",
           "direction": "positive",
-          "reason": "「造船」に反応: 政府の造船・海事産業支援策(投資・補助・規制緩和など)の直接の受益者になりやすい",
+          "reason": "「原油安」に反応: 燃料費の低下がコスト改善につながりやすい",
           "importance": 2
         },
         {
-          "title": "宇宙開発での活躍視野…九州大学が開発進める、「動く電子回路」の世界",
-          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9GX3VXblBfU2pLdzFvakhPcTV6Znhvby1lbHpRZWM5Q2NSaU1TNkpDeF9vaTFwV3lYcV9FQVFBUkItQQ?oc=5",
+          "title": "人工知能（AI）の普及で膨大な電力需要が生じ、化石燃料の価格まで高騰したことで、世界の原子力発電所の建設は40年ぶりの高水準となった。2日、日本経済新聞（日経）の報道によると、先月16日時点で世界で建..",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5JYi1HajVVNzFBYjV2d1cwMi1sRHA5RzFqYTZ0eWJCVW55bWxHbnlETG5MSWJ5ak5DcmlPZ3hnTVNuZGFDNFdmRjRBM3k4WE0?oc=5",
           "direction": "positive",
-          "reason": "「宇宙開発」に反応: 宇宙関連の受注・契約観測が材料視されやすい",
+          "reason": "「電力需要」に反応: 電力需要の拡大が収益機会として意識されやすい",
           "importance": 2
         }
       ],
       "mentions": 2
     },
     {
-      "code": "7267",
-      "name": "本田技研工業",
-      "sector": "自動車",
+      "code": "9503",
+      "name": "関西電力",
+      "sector": "電気・ガス",
+      "positive": 2,
+      "negative": 0,
+      "watch": 0,
+      "score": 4,
+      "news": [
+        {
+          "title": "NYダウは反発し213ドル高、原油安が支え ナスダックは続落",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zUzBieUJMUWc5a3ByN19FbzlHaXRnX0I0VkY5a2V1bE5OWWtFeWNYNldrbm8wM3lGS0FlOERBekxEN2U1WUduN1hQMnR3VFhNQWllbnRZVGUzd1R2MzVzWV9KcjBibkxpMnNrMw?oc=5",
+          "direction": "positive",
+          "reason": "「原油安」に反応: 燃料費の低下がコスト改善につながりやすい",
+          "importance": 2
+        },
+        {
+          "title": "人工知能（AI）の普及で膨大な電力需要が生じ、化石燃料の価格まで高騰したことで、世界の原子力発電所の建設は40年ぶりの高水準となった。2日、日本経済新聞（日経）の報道によると、先月16日時点で世界で建..",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5JYi1HajVVNzFBYjV2d1cwMi1sRHA5RzFqYTZ0eWJCVW55bWxHbnlETG5MSWJ5ak5DcmlPZ3hnTVNuZGFDNFdmRjRBM3k4WE0?oc=5",
+          "direction": "positive",
+          "reason": "「電力需要」に反応: 電力需要の拡大が収益機会として意識されやすい",
+          "importance": 2
+        }
+      ],
+      "mentions": 2
+    },
+    {
+      "code": "7735",
+      "name": "SCREENホールディングス",
+      "sector": "電気機器",
       "positive": 1,
       "negative": 1,
       "watch": 0,
-      "score": 1,
+      "score": -2,
       "news": [
         {
-          "title": "〔決算〕IHI、今期業績予想を上方修正＝円安で民間エンジン上振れ(時事通信)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb25RRXdFcXFJXzhnU0VNYVhRMmZRMUVJcVNsUUZLMkZ2RGE2YUFlRUREV0tjbjJXX0RUVjNlM0l6WGV6TnVlbjJiWXhqcXFjdHJNN1paN0RubUJVLUtJRzEyeDJ4N19oZGMyWU5USWNWdW5GeGd3anJZMEdlLXU1ZXJnV2R1N3c?oc=5",
-          "direction": "positive",
-          "reason": "「円安」に反応: 海外売上比率が高く、円安は円換算の売上・利益を押し上げる方向に働きやすい",
-          "importance": 4
+          "title": "米国の対中HBM輸出規制に抜け穴、低性能プロセッサーに組み込んで持ち込む手口が横行",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlMnE5WmZJUGxTSDdWZWVVYi1BZ0pBU3gxYW9NQThGSmFkWjNkdzVWcHdsR1RYbDItT3d4UFVaQmhGVXIxUzV3OWdHa0JDZWUzdi1kU0xsRlA4Q3pVVlhGOFk0Q1BhS1d3T2RCN0JhcHNFN1k?oc=5",
+          "direction": "negative",
+          "reason": "「輸出規制」に反応: 中国向け売上比率が高く、規制強化は受注減・出荷制限のリスク要因になりやすい",
+          "importance": 5
         },
         {
-          "title": "対日イットリウム９８％減 中国輸出、レアアース規制",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0tUkNHbHNueXlkUGtxMFJrMnFrT0JVYzVtVVJHcUphTy1kYUFaNFBDdllUMnh1UnY2V19GNmkwbFFRYTFET0M5R3oxN2VjQ0Y2QS13THBnOGJQVFltRmc?oc=5",
-          "direction": "negative",
-          "reason": "「レアアース」に反応: 永久磁石などレアアース由来部材の調達コスト上昇・供給不安が意識されやすい",
+          "title": "４日の東京株式市場見通し＝半導体買い戻し先行も米中間選挙睨む展開に(ウエルスアドバイザー)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZnZQWUxrTFVXZjZxUGJadGlvQ2tjLWZVTnV1WDJnYWVrS1UxVzVOWHFlVEczbE1nZU5wQnJjcDlxNExFRHRxQjI1NEpaOFBpNEIyTGxBV3VyQ3Vsek81bnp3WVhDVDM3TXJKTWtJbERLSFRUUUQzYUxlcjkyc25UUUZCcFB5bWs?oc=5",
+          "direction": "positive",
+          "reason": "「半導体」に反応: 半導体設備投資の増加は装置メーカーの受注に直結しやすい",
           "importance": 3
         }
       ],
@@ -18021,94 +19350,6 @@
       "connection_type": "company",
       "connection_label": "同じ企業",
       "theme_id": null,
-      "label": "トヨタ自動車に関するニュース",
-      "category": "",
-      "category_label": "同じ企業",
-      "category_emoji": "🏢",
-      "member_ids": [
-        "56b29349fc37",
-        "5b8d5c466b91",
-        "b50887d9d28a",
-        "3f7191ee6448",
-        "397c97dac19d",
-        "cd6094e5d682"
-      ],
-      "members": [
-        {
-          "id": "56b29349fc37",
-          "title": "〔決算〕IHI、今期業績予想を上方修正＝円安で民間エンジン上振れ(時事通信)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb25RRXdFcXFJXzhnU0VNYVhRMmZRMUVJcVNsUUZLMkZ2RGE2YUFlRUREV0tjbjJXX0RUVjNlM0l6WGV6TnVlbjJiWXhqcXFjdHJNN1paN0RubUJVLUtJRzEyeDJ4N19oZGMyWU5USWNWdW5GeGd3anJZMEdlLXU1ZXJnV2R1N3c?oc=5",
-          "importance": 4,
-          "source": "Yahoo!ファイナンス"
-        },
-        {
-          "id": "5b8d5c466b91",
-          "title": "対日イットリウム９８％減 中国輸出、レアアース規制",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0tUkNHbHNueXlkUGtxMFJrMnFrT0JVYzVtVVJHcUphTy1kYUFaNFBDdllUMnh1UnY2V19GNmkwbFFRYTFET0M5R3oxN2VjQ0Y2QS13THBnOGJQVFltRmc?oc=5",
-          "importance": 3,
-          "source": "沖縄タイムス社"
-        },
-        {
-          "id": "b50887d9d28a",
-          "title": "米国株式市場＝Ｓ＆Ｐ・ナスダック反発、ＡＩ主力株に買い 中間選挙結果控え",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOHVrakRJUjlnaFBVTU9LNG0wSE1tZEU3cUxwRWRFemZ5bnotUFhKLUVvTWdWeVB4QTI1LWN1LV9xR0dEaXo0ejNFYTBPZDVWOHFoenNWMUhtVjZFZ3FKang3RFVmanJTeXIzbUx4a01jODVZd05rOFRxTXcwbzZta0NXTGVsZw?oc=5",
-          "importance": 3,
-          "source": "Reuters"
-        },
-        {
-          "id": "3f7191ee6448",
-          "title": "ダウ平均は反落の一方、ナスダックは反発 アップルが決算受け下落＝米国株概況",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ucGhSaW5jV2FTbFBIa01KdFVIVmxzR0RGTC1GamJidHBFUnEtTUNFX2pNS1k3ZjlsNTk4em00RTc1UjRjdTJDQk40c0lxdS1tMTB3Q2ttY2tyT29Eelhldw?oc=5",
-          "importance": 3,
-          "source": "株探"
-        },
-        {
-          "id": "397c97dac19d",
-          "title": "米国株は寄り付き後にまちまち、ダウ小幅安・ナスダック総合指数0.36%高、アップルは3.8%急落",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11X0Z3RHc0emhpb0g0X19uQ2xWaDZTc3NLNkNtVG9ydXhsd1dTa3JUbV9hT09Ta3RzOFktUnFXeWJMMFlydHVod1FUdnBMa3BrMHZQLWcyNUprUF9oZlQyUjdlTEF6LW01MXdURUFXXzVYWlY3?oc=5",
-          "importance": 3,
-          "source": "BigGo ファイナンス"
-        },
-        {
-          "id": "cd6094e5d682",
-          "title": "ダウ先物が下落 ナスダック１００は反発 アップルが下落＝米国株",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE01bEJUSS12cWpTd2hQZkp5SGxobEROOHk4dEV6MVFGaV81bjNYWG41cHFTZzZEX09EeG0zYzNCSTNZR01QTkpjcTFSa0dPMmt2YkE?oc=5",
-          "importance": 2,
-          "source": "株探"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "7203",
-          "name": "トヨタ自動車",
-          "positive": 1,
-          "negative": 4,
-          "watch": 1
-        }
-      ],
-      "max_importance": 4,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "connection_type": "company",
-      "connection_label": "同じ企業",
-      "theme_id": null,
       "label": "SBIホールディングスに関するニュース",
       "category": "",
       "category_label": "同じ企業",
@@ -18293,7 +19534,8 @@
         "63a79ace267e",
         "cc5636db2e34",
         "d88d69990337",
-        "9fc86810dae8"
+        "9fc86810dae8",
+        "87ee07ee9170"
       ],
       "members": [
         {
@@ -18323,13 +19565,20 @@
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5vc0FjMS1ValZodVZGd0lFLWVYamlzd05lc3Q1cDR6cVlSOTBQQnlYUjJSRGgtWXJpMU5CTTMzMDhIa19taFFOYTR6ZDlaVFJpZVlrYmd5QlBHZ2JLR2M5bmNTcmJTVWhGZDJMTHc0MFBjMDlr?oc=5",
           "importance": 2,
           "source": "BigGo ファイナンス"
+        },
+        {
+          "id": "87ee07ee9170",
+          "title": "人工知能（AI）の普及で膨大な電力需要が生じ、化石燃料の価格まで高騰したことで、世界の原子力発電所の建設は40年ぶりの高水準となった。2日、日本経済新聞（日経）の報道によると、先月16日時点で世界で建..",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5JYi1HajVVNzFBYjV2d1cwMi1sRHA5RzFqYTZ0eWJCVW55bWxHbnlETG5MSWJ5ak5DcmlPZ3hnTVNuZGFDNFdmRjRBM3k4WE0?oc=5",
+          "importance": 2,
+          "source": "매일경제"
         }
       ],
       "stocks": [
         {
           "code": "6503",
           "name": "三菱電機",
-          "positive": 1,
+          "positive": 2,
           "negative": 2,
           "watch": 1
         }
@@ -18354,16 +19603,15 @@
       "emergence_growth": {}
     },
     {
-      "connection_type": "sector",
-      "connection_label": "同じ業界",
+      "connection_type": "company",
+      "connection_label": "同じ企業",
       "theme_id": null,
-      "label": "自動車業界のニュース",
+      "label": "トヨタ自動車に関するニュース",
       "category": "",
-      "category_label": "同じ業界",
-      "category_emoji": "🏭",
+      "category_label": "同じ企業",
+      "category_emoji": "🏢",
       "member_ids": [
-        "56b29349fc37",
-        "5b8d5c466b91",
+        "bbad30d33845",
         "b50887d9d28a",
         "3f7191ee6448",
         "397c97dac19d",
@@ -18371,18 +19619,11 @@
       ],
       "members": [
         {
-          "id": "56b29349fc37",
-          "title": "〔決算〕IHI、今期業績予想を上方修正＝円安で民間エンジン上振れ(時事通信)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb25RRXdFcXFJXzhnU0VNYVhRMmZRMUVJcVNsUUZLMkZ2RGE2YUFlRUREV0tjbjJXX0RUVjNlM0l6WGV6TnVlbjJiWXhqcXFjdHJNN1paN0RubUJVLUtJRzEyeDJ4N19oZGMyWU5USWNWdW5GeGd3anJZMEdlLXU1ZXJnV2R1N3c?oc=5",
-          "importance": 4,
-          "source": "Yahoo!ファイナンス"
-        },
-        {
-          "id": "5b8d5c466b91",
-          "title": "対日イットリウム９８％減 中国輸出、レアアース規制",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0tUkNHbHNueXlkUGtxMFJrMnFrT0JVYzVtVVJHcUphTy1kYUFaNFBDdllUMnh1UnY2V19GNmkwbFFRYTFET0M5R3oxN2VjQ0Y2QS13THBnOGJQVFltRmc?oc=5",
+          "id": "bbad30d33845",
+          "title": "対日イットリウム９８％減 中国輸出、レアアース規制 | | 全国のニュース",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80alA2MW1EeXlSVTM0b1RWLUZsazN3THBsbEpIRjRKZll6T1l3LUFRZVI3UF9oNkdMTmstdVlVZkFnMGQ1NkdEVXVSZjFTY1RKa2tqV1ln?oc=5",
           "importance": 3,
-          "source": "沖縄タイムス社"
+          "source": "佐賀新聞"
         },
         {
           "id": "b50887d9d28a",
@@ -18417,47 +19658,12 @@
         {
           "code": "7203",
           "name": "トヨタ自動車",
-          "positive": 1,
+          "positive": 0,
           "negative": 4,
           "watch": 1
-        },
-        {
-          "code": "7267",
-          "name": "本田技研工業",
-          "positive": 1,
-          "negative": 1,
-          "watch": 0
-        },
-        {
-          "code": "7201",
-          "name": "日産自動車",
-          "positive": 1,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "7269",
-          "name": "スズキ",
-          "positive": 1,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "7270",
-          "name": "SUBARU",
-          "positive": 1,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "7261",
-          "name": "マツダ",
-          "positive": 1,
-          "negative": 0,
-          "watch": 0
         }
       ],
-      "max_importance": 4,
+      "max_importance": 3,
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -18485,14 +19691,23 @@
       "category_label": "同じ業界",
       "category_emoji": "🏭",
       "member_ids": [
+        "a8db45060039",
         "63a79ace267e",
         "cc5636db2e34",
         "d88d69990337",
         "17faaf9d9aee",
         "9fc86810dae8",
-        "859dbfdff237"
+        "859dbfdff237",
+        "87ee07ee9170"
       ],
       "members": [
+        {
+          "id": "a8db45060039",
+          "title": "米国の対中HBM輸出規制に抜け穴、低性能プロセッサーに組み込んで持ち込む手口が横行",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlMnE5WmZJUGxTSDdWZWVVYi1BZ0pBU3gxYW9NQThGSmFkWjNkdzVWcHdsR1RYbDItT3d4UFVaQmhGVXIxUzV3OWdHa0JDZWUzdi1kU0xsRlA4Q3pVVlhGOFk0Q1BhS1d3T2RCN0JhcHNFN1k?oc=5",
+          "importance": 5,
+          "source": "XenoSpectrum"
+        },
         {
           "id": "63a79ace267e",
           "title": "メラニア夫人がロシアとウクライナの代表をホワイトハウスに招待へ 局地停戦で",
@@ -18534,15 +19749,43 @@
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSDBrdjBtU3hUaVBkbjFpcVNlMDZ5aHpkM0ZTa0cwbWc4Y3R1QnZCZHl5Q3YwRG9nM0kzX3hLUXJYeEdzajZHQU1OalNZX0p2WXBFelRCaTlPMG5NcmE5WUkzZE1ad0R3NWhmY0l0OGpISlg2M1VJZVdpZy1GNUxHQmtxLTFOQ205UXhfRDA3d1Q1RkdpS1VIcVduaEpYdw?oc=5",
           "importance": 2,
           "source": "Moomoo"
+        },
+        {
+          "id": "87ee07ee9170",
+          "title": "人工知能（AI）の普及で膨大な電力需要が生じ、化石燃料の価格まで高騰したことで、世界の原子力発電所の建設は40年ぶりの高水準となった。2日、日本経済新聞（日経）の報道によると、先月16日時点で世界で建..",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5JYi1HajVVNzFBYjV2d1cwMi1sRHA5RzFqYTZ0eWJCVW55bWxHbnlETG5MSWJ5ak5DcmlPZ3hnTVNuZGFDNFdmRjRBM3k4WE0?oc=5",
+          "importance": 2,
+          "source": "매일경제"
         }
       ],
       "stocks": [
         {
           "code": "6503",
           "name": "三菱電機",
-          "positive": 1,
+          "positive": 2,
           "negative": 2,
           "watch": 1
+        },
+        {
+          "code": "8035",
+          "name": "東京エレクトロン",
+          "positive": 3,
+          "negative": 1,
+          "watch": 0
+        },
+        {
+          "code": "6857",
+          "name": "アドバンテスト",
+          "positive": 3,
+          "negative": 1,
+          "watch": 0
+        },
+        {
+          "code": "6920",
+          "name": "レーザーテック",
+          "positive": 3,
+          "negative": 1,
+          "watch": 0
         },
         {
           "code": "6701",
@@ -18552,35 +19795,14 @@
           "watch": 1
         },
         {
-          "code": "8035",
-          "name": "東京エレクトロン",
-          "positive": 3,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "6857",
-          "name": "アドバンテスト",
-          "positive": 3,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "6920",
-          "name": "レーザーテック",
-          "positive": 3,
-          "negative": 0,
-          "watch": 0
-        },
-        {
           "code": "7735",
           "name": "SCREENホールディングス",
           "positive": 1,
-          "negative": 0,
+          "negative": 1,
           "watch": 0
         }
       ],
-      "max_importance": 4,
+      "max_importance": 5,
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -18691,24 +19913,110 @@
       "connection_type": "sector",
       "connection_label": "同じ業界",
       "theme_id": null,
+      "label": "自動車業界のニュース",
+      "category": "",
+      "category_label": "同じ業界",
+      "category_emoji": "🏭",
+      "member_ids": [
+        "bbad30d33845",
+        "b50887d9d28a",
+        "3f7191ee6448",
+        "397c97dac19d",
+        "cd6094e5d682"
+      ],
+      "members": [
+        {
+          "id": "bbad30d33845",
+          "title": "対日イットリウム９８％減 中国輸出、レアアース規制 | | 全国のニュース",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80alA2MW1EeXlSVTM0b1RWLUZsazN3THBsbEpIRjRKZll6T1l3LUFRZVI3UF9oNkdMTmstdVlVZkFnMGQ1NkdEVXVSZjFTY1RKa2tqV1ln?oc=5",
+          "importance": 3,
+          "source": "佐賀新聞"
+        },
+        {
+          "id": "b50887d9d28a",
+          "title": "米国株式市場＝Ｓ＆Ｐ・ナスダック反発、ＡＩ主力株に買い 中間選挙結果控え",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOHVrakRJUjlnaFBVTU9LNG0wSE1tZEU3cUxwRWRFemZ5bnotUFhKLUVvTWdWeVB4QTI1LWN1LV9xR0dEaXo0ejNFYTBPZDVWOHFoenNWMUhtVjZFZ3FKang3RFVmanJTeXIzbUx4a01jODVZd05rOFRxTXcwbzZta0NXTGVsZw?oc=5",
+          "importance": 3,
+          "source": "Reuters"
+        },
+        {
+          "id": "3f7191ee6448",
+          "title": "ダウ平均は反落の一方、ナスダックは反発 アップルが決算受け下落＝米国株概況",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ucGhSaW5jV2FTbFBIa01KdFVIVmxzR0RGTC1GamJidHBFUnEtTUNFX2pNS1k3ZjlsNTk4em00RTc1UjRjdTJDQk40c0lxdS1tMTB3Q2ttY2tyT29Eelhldw?oc=5",
+          "importance": 3,
+          "source": "株探"
+        },
+        {
+          "id": "397c97dac19d",
+          "title": "米国株は寄り付き後にまちまち、ダウ小幅安・ナスダック総合指数0.36%高、アップルは3.8%急落",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11X0Z3RHc0emhpb0g0X19uQ2xWaDZTc3NLNkNtVG9ydXhsd1dTa3JUbV9hT09Ta3RzOFktUnFXeWJMMFlydHVod1FUdnBMa3BrMHZQLWcyNUprUF9oZlQyUjdlTEF6LW01MXdURUFXXzVYWlY3?oc=5",
+          "importance": 3,
+          "source": "BigGo ファイナンス"
+        },
+        {
+          "id": "cd6094e5d682",
+          "title": "ダウ先物が下落 ナスダック１００は反発 アップルが下落＝米国株",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE01bEJUSS12cWpTd2hQZkp5SGxobEROOHk4dEV6MVFGaV81bjNYWG41cHFTZzZEX09EeG0zYzNCSTNZR01QTkpjcTFSa0dPMmt2YkE?oc=5",
+          "importance": 2,
+          "source": "株探"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "7203",
+          "name": "トヨタ自動車",
+          "positive": 0,
+          "negative": 4,
+          "watch": 1
+        },
+        {
+          "code": "7267",
+          "name": "本田技研工業",
+          "positive": 0,
+          "negative": 1,
+          "watch": 0
+        }
+      ],
+      "max_importance": 3,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "connection_type": "sector",
+      "connection_label": "同じ業界",
+      "theme_id": null,
       "label": "機械業界のニュース",
       "category": "",
       "category_label": "同じ業界",
       "category_emoji": "🏭",
       "member_ids": [
-        "56b29349fc37",
+        "a8db45060039",
         "17faaf9d9aee",
         "be87699235c1",
-        "859dbfdff237",
-        "e4532d489069"
+        "859dbfdff237"
       ],
       "members": [
         {
-          "id": "56b29349fc37",
-          "title": "〔決算〕IHI、今期業績予想を上方修正＝円安で民間エンジン上振れ(時事通信)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb25RRXdFcXFJXzhnU0VNYVhRMmZRMUVJcVNsUUZLMkZ2RGE2YUFlRUREV0tjbjJXX0RUVjNlM0l6WGV6TnVlbjJiWXhqcXFjdHJNN1paN0RubUJVLUtJRzEyeDJ4N19oZGMyWU5USWNWdW5GeGd3anJZMEdlLXU1ZXJnV2R1N3c?oc=5",
-          "importance": 4,
-          "source": "Yahoo!ファイナンス"
+          "id": "a8db45060039",
+          "title": "米国の対中HBM輸出規制に抜け穴、低性能プロセッサーに組み込んで持ち込む手口が横行",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlMnE5WmZJUGxTSDdWZWVVYi1BZ0pBU3gxYW9NQThGSmFkWjNkdzVWcHdsR1RYbDItT3d4UFVaQmhGVXIxUzV3OWdHa0JDZWUzdi1kU0xsRlA4Q3pVVlhGOFk0Q1BhS1d3T2RCN0JhcHNFN1k?oc=5",
+          "importance": 5,
+          "source": "XenoSpectrum"
         },
         {
           "id": "17faaf9d9aee",
@@ -18730,40 +20038,33 @@
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSDBrdjBtU3hUaVBkbjFpcVNlMDZ5aHpkM0ZTa0cwbWc4Y3R1QnZCZHl5Q3YwRG9nM0kzX3hLUXJYeEdzajZHQU1OalNZX0p2WXBFelRCaTlPMG5NcmE5WUkzZE1ad0R3NWhmY0l0OGpISlg2M1VJZVdpZy1GNUxHQmtxLTFOQ205UXhfRDA3d1Q1RkdpS1VIcVduaEpYdw?oc=5",
           "importance": 2,
           "source": "Moomoo"
-        },
-        {
-          "id": "e4532d489069",
-          "title": "宇宙開発での活躍視野…九州大学が開発進める、「動く電子回路」の世界",
-          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9GX3VXblBfU2pLdzFvakhPcTV6Znhvby1lbHpRZWM5Q2NSaU1TNkpDeF9vaTFwV3lYcV9FQVFBUkItQQ?oc=5",
-          "importance": 2,
-          "source": "ニュースイッチ by 日刊工業新聞社"
         }
       ],
       "stocks": [
         {
-          "code": "7013",
-          "name": "IHI",
-          "positive": 3,
-          "negative": 0,
-          "watch": 0
-        },
-        {
           "code": "6146",
           "name": "ディスコ",
           "positive": 2,
-          "negative": 0,
+          "negative": 1,
           "watch": 0
         },
         {
           "code": "7011",
           "name": "三菱重工業",
-          "positive": 2,
+          "positive": 1,
           "negative": 0,
           "watch": 0
         },
         {
           "code": "7012",
           "name": "川崎重工業",
+          "positive": 1,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7013",
+          "name": "IHI",
           "positive": 1,
           "negative": 0,
           "watch": 0
@@ -18783,7 +20084,7 @@
           "watch": 0
         }
       ],
-      "max_importance": 4,
+      "max_importance": 5,
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -18811,6 +20112,7 @@
       "category_label": "資源・サプライチェーン",
       "category_emoji": "🔗",
       "member_ids": [
+        "a8db45060039",
         "63a79ace267e",
         "cc5636db2e34",
         "d88d69990337",
@@ -18821,9 +20123,17 @@
         "9fc86810dae8",
         "cd6094e5d682",
         "859dbfdff237",
-        "76f9f45e9808"
+        "76f9f45e9808",
+        "87ee07ee9170"
       ],
       "members": [
+        {
+          "id": "a8db45060039",
+          "title": "米国の対中HBM輸出規制に抜け穴、低性能プロセッサーに組み込んで持ち込む手口が横行",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlMnE5WmZJUGxTSDdWZWVVYi1BZ0pBU3gxYW9NQThGSmFkWjNkdzVWcHdsR1RYbDItT3d4UFVaQmhGVXIxUzV3OWdHa0JDZWUzdi1kU0xsRlA4Q3pVVlhGOFk0Q1BhS1d3T2RCN0JhcHNFN1k?oc=5",
+          "importance": 5,
+          "source": "XenoSpectrum"
+        },
         {
           "id": "63a79ace267e",
           "title": "メラニア夫人がロシアとウクライナの代表をホワイトハウスに招待へ 局地停戦で",
@@ -18900,6 +20210,13 @@
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zUzBieUJMUWc5a3ByN19FbzlHaXRnX0I0VkY5a2V1bE5OWWtFeWNYNldrbm8wM3lGS0FlOERBekxEN2U1WUduN1hQMnR3VFhNQWllbnRZVGUzd1R2MzVzWV9KcjBibkxpMnNrMw?oc=5",
           "importance": 2,
           "source": "日本経済新聞"
+        },
+        {
+          "id": "87ee07ee9170",
+          "title": "人工知能（AI）の普及で膨大な電力需要が生じ、化石燃料の価格まで高騰したことで、世界の原子力発電所の建設は40年ぶりの高水準となった。2日、日本経済新聞（日経）の報道によると、先月16日時点で世界で建..",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5JYi1HajVVNzFBYjV2d1cwMi1sRHA5RzFqYTZ0eWJCVW55bWxHbnlETG5MSWJ5ak5DcmlPZ3hnTVNuZGFDNFdmRjRBM3k4WE0?oc=5",
+          "importance": 2,
+          "source": "매일경제"
         }
       ],
       "stocks": [
@@ -18911,6 +20228,20 @@
           "watch": 3
         },
         {
+          "code": "8035",
+          "name": "東京エレクトロン",
+          "positive": 3,
+          "negative": 1,
+          "watch": 0
+        },
+        {
+          "code": "6857",
+          "name": "アドバンテスト",
+          "positive": 3,
+          "negative": 1,
+          "watch": 0
+        },
+        {
           "code": "6701",
           "name": "日本電気",
           "positive": 1,
@@ -18918,28 +20249,21 @@
           "watch": 1
         },
         {
-          "code": "8035",
-          "name": "東京エレクトロン",
-          "positive": 3,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "6857",
-          "name": "アドバンテスト",
-          "positive": 3,
-          "negative": 0,
-          "watch": 0
-        },
-        {
           "code": "6146",
           "name": "ディスコ",
           "positive": 2,
+          "negative": 1,
+          "watch": 0
+        },
+        {
+          "code": "6501",
+          "name": "日立製作所",
+          "positive": 1,
           "negative": 0,
           "watch": 0
         }
       ],
-      "max_importance": 4,
+      "max_importance": 5,
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -18967,7 +20291,8 @@
       "category_label": "資源・サプライチェーン",
       "category_emoji": "🔗",
       "member_ids": [
-        "5b8d5c466b91",
+        "a8db45060039",
+        "bbad30d33845",
         "17faaf9d9aee",
         "b50887d9d28a",
         "3f7191ee6448",
@@ -18979,11 +20304,18 @@
       ],
       "members": [
         {
-          "id": "5b8d5c466b91",
-          "title": "対日イットリウム９８％減 中国輸出、レアアース規制",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0tUkNHbHNueXlkUGtxMFJrMnFrT0JVYzVtVVJHcUphTy1kYUFaNFBDdllUMnh1UnY2V19GNmkwbFFRYTFET0M5R3oxN2VjQ0Y2QS13THBnOGJQVFltRmc?oc=5",
+          "id": "a8db45060039",
+          "title": "米国の対中HBM輸出規制に抜け穴、低性能プロセッサーに組み込んで持ち込む手口が横行",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlMnE5WmZJUGxTSDdWZWVVYi1BZ0pBU3gxYW9NQThGSmFkWjNkdzVWcHdsR1RYbDItT3d4UFVaQmhGVXIxUzV3OWdHa0JDZWUzdi1kU0xsRlA4Q3pVVlhGOFk0Q1BhS1d3T2RCN0JhcHNFN1k?oc=5",
+          "importance": 5,
+          "source": "XenoSpectrum"
+        },
+        {
+          "id": "bbad30d33845",
+          "title": "対日イットリウム９８％減 中国輸出、レアアース規制 | | 全国のニュース",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80alA2MW1EeXlSVTM0b1RWLUZsazN3THBsbEpIRjRKZll6T1l3LUFRZVI3UF9oNkdMTmstdVlVZkFnMGQ1NkdEVXVSZjFTY1RKa2tqV1ln?oc=5",
           "importance": 3,
-          "source": "沖縄タイムス社"
+          "source": "佐賀新聞"
         },
         {
           "id": "17faaf9d9aee",
@@ -19054,27 +20386,20 @@
           "code": "8035",
           "name": "東京エレクトロン",
           "positive": 3,
-          "negative": 0,
+          "negative": 1,
           "watch": 0
         },
         {
           "code": "6857",
           "name": "アドバンテスト",
           "positive": 3,
-          "negative": 0,
+          "negative": 1,
           "watch": 0
         },
         {
           "code": "6920",
           "name": "レーザーテック",
           "positive": 3,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "4063",
-          "name": "信越化学工業",
-          "positive": 1,
           "negative": 1,
           "watch": 0
         },
@@ -19082,142 +20407,18 @@
           "code": "6146",
           "name": "ディスコ",
           "positive": 2,
-          "negative": 0,
+          "negative": 1,
+          "watch": 0
+        },
+        {
+          "code": "7735",
+          "name": "SCREENホールディングス",
+          "positive": 1,
+          "negative": 1,
           "watch": 0
         }
       ],
-      "max_importance": 3,
-      "emergence_stage": null,
-      "emergence_stage_label": "",
-      "emergence_signal_labels": [],
-      "emergence_event_count": 0,
-      "emergence_source_count": 0,
-      "emergence_actor_type_count": 0,
-      "emergence_actor_type_labels": [],
-      "emergence_actor_type_breakdown": [],
-      "emergence_region_count": 0,
-      "emergence_regions": [],
-      "emergence_origin_regions": [],
-      "emergence_first_seen": null,
-      "emergence_window_counts": {},
-      "emergence_timeline": [],
-      "emergence_milestones": [],
-      "emergence_diagnosis": {},
-      "emergence_growth": {}
-    },
-    {
-      "connection_type": "supply_chain",
-      "connection_label": "資源・サプライチェーン",
-      "theme_id": null,
-      "label": "防衛に関連するニュース",
-      "category": "",
-      "category_label": "資源・サプライチェーン",
-      "category_emoji": "🔗",
-      "member_ids": [
-        "56b29349fc37",
-        "63a79ace267e",
-        "cc5636db2e34",
-        "d88d69990337",
-        "be87699235c1",
-        "9fc86810dae8",
-        "e4532d489069"
-      ],
-      "members": [
-        {
-          "id": "56b29349fc37",
-          "title": "〔決算〕IHI、今期業績予想を上方修正＝円安で民間エンジン上振れ(時事通信)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb25RRXdFcXFJXzhnU0VNYVhRMmZRMUVJcVNsUUZLMkZ2RGE2YUFlRUREV0tjbjJXX0RUVjNlM0l6WGV6TnVlbjJiWXhqcXFjdHJNN1paN0RubUJVLUtJRzEyeDJ4N19oZGMyWU5USWNWdW5GeGd3anJZMEdlLXU1ZXJnV2R1N3c?oc=5",
-          "importance": 4,
-          "source": "Yahoo!ファイナンス"
-        },
-        {
-          "id": "63a79ace267e",
-          "title": "メラニア夫人がロシアとウクライナの代表をホワイトハウスに招待へ 局地停戦で",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNTmlCc1BmYkVtWXk0Nkx5NzBuREM3dFFPRWRUb3VPMU1mSHp2YUtDV25Rb2N4bnF0c2JNa2p6aFFfYVV4ZkZvb2NmTmdab3dQclBxdDVwQkdIWUx1R2ZSOHFUdVl6R1VjcFAzbVViZkR3Ymh4Smc?oc=5",
-          "importance": 4,
-          "source": "産経ニュース"
-        },
-        {
-          "id": "cc5636db2e34",
-          "title": "ウクライナで局地停戦が終了 住民避難もほかの地域で攻撃 | NHKニュース | ウクライナ情勢、ロシア、アメリカ",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1zTjFkTG1mM0ZkVFFtZTE2LUFPbldIUVZDems2QUJuOGg5VGFkNEJMVG4tU21uWWRkYnJZaVdNWkxxRGpMMlQxOE92SXhJN0VqbW5ua25XaUxuLWpadEVB?oc=5",
-          "importance": 4,
-          "source": "NHKニュース"
-        },
-        {
-          "id": "d88d69990337",
-          "title": "ウクライナ軍、ロシアが局地停戦中に態勢強化と主張 攻撃激化も",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNT3BSQ2tYSDBzYnY0dEJaZlhmQlZkaVR1NUtEd01rTDVlSWc3OWR5WDR6UFFLZ3BOMURlZWp0LTB3NUhMT2JWRUQ2UU50NmZWXzNUM0NLREU1NlJOMTFlWmVDR1JJVEFsTVNFOHFaOVBFSjl3RE5DS0xiNEZYNzRGVFA1ZmIzZw?oc=5",
-          "importance": 4,
-          "source": "Reuters"
-        },
-        {
-          "id": "be87699235c1",
-          "title": "大規模造船向けには、特別な信用保証制度が設けられる。",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcUVtS3I5VnRzSmsyaVg1YS1aMTRKUFo2MHpsZjJvV1NBWG1wT0pXSmRfTWZIeVlrVnFvYUw1ZGFDMHNBQkJaUktfSjBIR1htUFA3NUdnTzU5YzJmQUgxVzE5b29GaVY4V1FzY3hhdnBrLVo4T0RkenZFcWlpaS00WUVlaHplTFVmQzJzTTJYSDlNRjZJeXUzbjNB?oc=5",
-          "importance": 2,
-          "source": "Vietnam.vn"
-        },
-        {
-          "id": "9fc86810dae8",
-          "title": "半導体株が反発しナスダックはプラス圏回復、アップルの業績見通し失望でダウ平均は下落 台湾指数先物ナイトセッションは500ポイント超の急反発",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5vc0FjMS1ValZodVZGd0lFLWVYamlzd05lc3Q1cDR6cVlSOTBQQnlYUjJSRGgtWXJpMU5CTTMzMDhIa19taFFOYTR6ZDlaVFJpZVlrYmd5QlBHZ2JLR2M5bmNTcmJTVWhGZDJMTHc0MFBjMDlr?oc=5",
-          "importance": 2,
-          "source": "BigGo ファイナンス"
-        },
-        {
-          "id": "e4532d489069",
-          "title": "宇宙開発での活躍視野…九州大学が開発進める、「動く電子回路」の世界",
-          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9GX3VXblBfU2pLdzFvakhPcTV6Znhvby1lbHpRZWM5Q2NSaU1TNkpDeF9vaTFwV3lYcV9FQVFBUkItQQ?oc=5",
-          "importance": 2,
-          "source": "ニュースイッチ by 日刊工業新聞社"
-        }
-      ],
-      "stocks": [
-        {
-          "code": "6503",
-          "name": "三菱電機",
-          "positive": 1,
-          "negative": 2,
-          "watch": 1
-        },
-        {
-          "code": "6701",
-          "name": "日本電気",
-          "positive": 1,
-          "negative": 2,
-          "watch": 1
-        },
-        {
-          "code": "7013",
-          "name": "IHI",
-          "positive": 3,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "7011",
-          "name": "三菱重工業",
-          "positive": 2,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "7012",
-          "name": "川崎重工業",
-          "positive": 1,
-          "negative": 0,
-          "watch": 0
-        },
-        {
-          "code": "5406",
-          "name": "神戸製鋼所",
-          "positive": 1,
-          "negative": 0,
-          "watch": 0
-        }
-      ],
-      "max_importance": 4,
+      "max_importance": 5,
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -19248,10 +20449,11 @@
         "63a79ace267e",
         "cc5636db2e34",
         "d88d69990337",
+        "7f61338b40e3",
         "be87699235c1",
         "9fc86810dae8",
         "76f9f45e9808",
-        "e4532d489069"
+        "87ee07ee9170"
       ],
       "members": [
         {
@@ -19276,6 +20478,13 @@
           "source": "Reuters"
         },
         {
+          "id": "7f61338b40e3",
+          "title": "木原内閣官房長官は日本維新の会・サイバー危機への緊急提言申入れを受けました",
+          "url": "https://www.kantei.go.jp/jp/pages/20261104choukan_teigen.html",
+          "importance": 3,
+          "source": "首相官邸"
+        },
+        {
           "id": "be87699235c1",
           "title": "大規模造船向けには、特別な信用保証制度が設けられる。",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcUVtS3I5VnRzSmsyaVg1YS1aMTRKUFo2MHpsZjJvV1NBWG1wT0pXSmRfTWZIeVlrVnFvYUw1ZGFDMHNBQkJaUktfSjBIR1htUFA3NUdnTzU5YzJmQUgxVzE5b29GaVY4V1FzY3hhdnBrLVo4T0RkenZFcWlpaS00WUVlaHplTFVmQzJzTTJYSDlNRjZJeXUzbjNB?oc=5",
@@ -19297,11 +20506,11 @@
           "source": "日本経済新聞"
         },
         {
-          "id": "e4532d489069",
-          "title": "宇宙開発での活躍視野…九州大学が開発進める、「動く電子回路」の世界",
-          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9GX3VXblBfU2pLdzFvakhPcTV6Znhvby1lbHpRZWM5Q2NSaU1TNkpDeF9vaTFwV3lYcV9FQVFBUkItQQ?oc=5",
+          "id": "87ee07ee9170",
+          "title": "人工知能（AI）の普及で膨大な電力需要が生じ、化石燃料の価格まで高騰したことで、世界の原子力発電所の建設は40年ぶりの高水準となった。2日、日本経済新聞（日経）の報道によると、先月16日時点で世界で建..",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5JYi1HajVVNzFBYjV2d1cwMi1sRHA5RzFqYTZ0eWJCVW55bWxHbnlETG5MSWJ5ak5DcmlPZ3hnTVNuZGFDNFdmRjRBM3k4WE0?oc=5",
           "importance": 2,
-          "source": "ニュースイッチ by 日刊工業新聞社"
+          "source": "매일경제"
         }
       ],
       "stocks": [
@@ -19313,15 +20522,22 @@
           "watch": 1
         },
         {
-          "code": "7011",
-          "name": "三菱重工業",
+          "code": "9503",
+          "name": "関西電力",
           "positive": 2,
           "negative": 0,
           "watch": 0
         },
         {
-          "code": "9503",
-          "name": "関西電力",
+          "code": "1812",
+          "name": "鹿島建設",
+          "positive": 1,
+          "negative": 0,
+          "watch": 0
+        },
+        {
+          "code": "7011",
+          "name": "三菱重工業",
           "positive": 1,
           "negative": 0,
           "watch": 0
@@ -19332,9 +20548,125 @@
           "positive": 1,
           "negative": 0,
           "watch": 0
+        },
+        {
+          "code": "6501",
+          "name": "日立製作所",
+          "positive": 1,
+          "negative": 0,
+          "watch": 0
         }
       ],
       "max_importance": 4,
+      "emergence_stage": null,
+      "emergence_stage_label": "",
+      "emergence_signal_labels": [],
+      "emergence_event_count": 0,
+      "emergence_source_count": 0,
+      "emergence_actor_type_count": 0,
+      "emergence_actor_type_labels": [],
+      "emergence_actor_type_breakdown": [],
+      "emergence_region_count": 0,
+      "emergence_regions": [],
+      "emergence_origin_regions": [],
+      "emergence_first_seen": null,
+      "emergence_window_counts": {},
+      "emergence_timeline": [],
+      "emergence_milestones": [],
+      "emergence_diagnosis": {},
+      "emergence_growth": {}
+    },
+    {
+      "connection_type": "supply_chain",
+      "connection_label": "資源・サプライチェーン",
+      "theme_id": null,
+      "label": "FAに関連するニュース",
+      "category": "",
+      "category_label": "資源・サプライチェーン",
+      "category_emoji": "🔗",
+      "member_ids": [
+        "a8db45060039",
+        "63a79ace267e",
+        "cc5636db2e34",
+        "d88d69990337",
+        "9fc86810dae8",
+        "87ee07ee9170"
+      ],
+      "members": [
+        {
+          "id": "a8db45060039",
+          "title": "米国の対中HBM輸出規制に抜け穴、低性能プロセッサーに組み込んで持ち込む手口が横行",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlMnE5WmZJUGxTSDdWZWVVYi1BZ0pBU3gxYW9NQThGSmFkWjNkdzVWcHdsR1RYbDItT3d4UFVaQmhGVXIxUzV3OWdHa0JDZWUzdi1kU0xsRlA4Q3pVVlhGOFk0Q1BhS1d3T2RCN0JhcHNFN1k?oc=5",
+          "importance": 5,
+          "source": "XenoSpectrum"
+        },
+        {
+          "id": "63a79ace267e",
+          "title": "メラニア夫人がロシアとウクライナの代表をホワイトハウスに招待へ 局地停戦で",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNTmlCc1BmYkVtWXk0Nkx5NzBuREM3dFFPRWRUb3VPMU1mSHp2YUtDV25Rb2N4bnF0c2JNa2p6aFFfYVV4ZkZvb2NmTmdab3dQclBxdDVwQkdIWUx1R2ZSOHFUdVl6R1VjcFAzbVViZkR3Ymh4Smc?oc=5",
+          "importance": 4,
+          "source": "産経ニュース"
+        },
+        {
+          "id": "cc5636db2e34",
+          "title": "ウクライナで局地停戦が終了 住民避難もほかの地域で攻撃 | NHKニュース | ウクライナ情勢、ロシア、アメリカ",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1zTjFkTG1mM0ZkVFFtZTE2LUFPbldIUVZDems2QUJuOGg5VGFkNEJMVG4tU21uWWRkYnJZaVdNWkxxRGpMMlQxOE92SXhJN0VqbW5ua25XaUxuLWpadEVB?oc=5",
+          "importance": 4,
+          "source": "NHKニュース"
+        },
+        {
+          "id": "d88d69990337",
+          "title": "ウクライナ軍、ロシアが局地停戦中に態勢強化と主張 攻撃激化も",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNT3BSQ2tYSDBzYnY0dEJaZlhmQlZkaVR1NUtEd01rTDVlSWc3OWR5WDR6UFFLZ3BOMURlZWp0LTB3NUhMT2JWRUQ2UU50NmZWXzNUM0NLREU1NlJOMTFlWmVDR1JJVEFsTVNFOHFaOVBFSjl3RE5DS0xiNEZYNzRGVFA1ZmIzZw?oc=5",
+          "importance": 4,
+          "source": "Reuters"
+        },
+        {
+          "id": "9fc86810dae8",
+          "title": "半導体株が反発しナスダックはプラス圏回復、アップルの業績見通し失望でダウ平均は下落 台湾指数先物ナイトセッションは500ポイント超の急反発",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5vc0FjMS1ValZodVZGd0lFLWVYamlzd05lc3Q1cDR6cVlSOTBQQnlYUjJSRGgtWXJpMU5CTTMzMDhIa19taFFOYTR6ZDlaVFJpZVlrYmd5QlBHZ2JLR2M5bmNTcmJTVWhGZDJMTHc0MFBjMDlr?oc=5",
+          "importance": 2,
+          "source": "BigGo ファイナンス"
+        },
+        {
+          "id": "87ee07ee9170",
+          "title": "人工知能（AI）の普及で膨大な電力需要が生じ、化石燃料の価格まで高騰したことで、世界の原子力発電所の建設は40年ぶりの高水準となった。2日、日本経済新聞（日経）の報道によると、先月16日時点で世界で建..",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5JYi1HajVVNzFBYjV2d1cwMi1sRHA5RzFqYTZ0eWJCVW55bWxHbnlETG5MSWJ5ak5DcmlPZ3hnTVNuZGFDNFdmRjRBM3k4WE0?oc=5",
+          "importance": 2,
+          "source": "매일경제"
+        }
+      ],
+      "stocks": [
+        {
+          "code": "6503",
+          "name": "三菱電機",
+          "positive": 2,
+          "negative": 2,
+          "watch": 1
+        },
+        {
+          "code": "6954",
+          "name": "ファナック",
+          "positive": 0,
+          "negative": 1,
+          "watch": 0
+        },
+        {
+          "code": "6506",
+          "name": "安川電機",
+          "positive": 0,
+          "negative": 1,
+          "watch": 0
+        },
+        {
+          "code": "6645",
+          "name": "オムロン",
+          "positive": 0,
+          "negative": 1,
+          "watch": 0
+        }
+      ],
+      "max_importance": 5,
       "emergence_stage": null,
       "emergence_stage_label": "",
       "emergence_signal_labels": [],
@@ -19373,7 +20705,7 @@
       "accumulating": "2026-09-21",
       "ready_for_backtest": "2026-10-20"
     },
-    "last_computed_at": "2026-11-04T18:47:47+09:00"
+    "last_computed_at": "2026-11-04T22:18:08+09:00"
   },
   "counts": {
     "news": 40,
