@@ -70,7 +70,7 @@
    "events": [],
    "first_seen": "2026-11-05",
    "milestones": {},
-   "occurrences": 8
+   "occurrences": 9
   },
   "boj_hike": {
    "events": [
@@ -695,7 +695,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 357,
+   "occurrences": 358,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -1049,7 +1049,7 @@
     "government_jp": "2026-10-02",
     "media": "2026-10-02"
    },
-   "occurrences": 25
+   "occurrences": 26
   },
   "fed_dovish": {
    "events": [
@@ -2604,7 +2604,7 @@
     "government_jp": "2026-09-20",
     "media": "2026-09-20"
    },
-   "occurrences": 287,
+   "occurrences": 288,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
@@ -3047,7 +3047,7 @@
     "corporate": "2026-10-28",
     "media": "2026-10-09"
    },
-   "occurrences": 65
+   "occurrences": 66
   },
   "oil_up": {
    "events": [
@@ -3537,7 +3537,7 @@
     "corporate": "2026-10-23",
     "media": "2026-09-20"
    },
-   "occurrences": 211
+   "occurrences": 212
   },
   "rate_cut": {
    "events": [
@@ -4230,7 +4230,7 @@
     "media": "2026-09-24",
     "research": "2026-10-10"
    },
-   "occurrences": 362,
+   "occurrences": 363,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -4395,7 +4395,7 @@
     "government_jp": "2026-10-08",
     "media": "2026-10-08"
    },
-   "occurrences": 128
+   "occurrences": 129
   },
   "shipbuilding_policy": {
    "events": [
@@ -6080,7 +6080,7 @@
    "milestones": {
     "government_jp": "2026-09-24"
    },
-   "occurrences": 98
+   "occurrences": 99
   },
   "ukraine_russia": {
    "events": [
@@ -8782,7 +8782,9 @@
      "title": "メラニア米大統領夫人にウクライナの勲章、局地停戦の仲介を評価"
     },
     {
-     "actor_types": [],
+     "actor_types": [
+      "media"
+     ],
      "date": "2026-11-06",
      "item_id": "d15510bf61b1",
      "origin_region": null,
@@ -8792,6 +8794,30 @@
      ],
      "source": "Reuters",
      "title": "ロシア・ウクライナ代表、メラニア夫人主催の式典に出席 オレシュキ停戦を評価"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-11-06",
+     "item_id": "31a3bc59c018",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "Yahoo!ニュース",
+     "title": "「より長期の停戦実現を」 ロシア、ウクライナ代表招待 米大統領夫人（時事通信）"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-11-06",
+     "item_id": "cfe49a8c2caf",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "日本経済新聞",
+     "title": "メラニア大統領夫人の仲介外交 ロシア・ウクライナの局地停戦を誇示"
     }
    ],
    "first_seen": "2026-09-20",
@@ -8801,7 +8827,7 @@
     "international_org": "2026-09-24",
     "media": "2026-09-24"
    },
-   "occurrences": 333,
+   "occurrences": 334,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -11422,13 +11448,68 @@
      ],
      "source": "日本経済新聞",
      "title": "米ナスダック一時5%急落、ハイテク株総崩れ NYダウも1500ドル安"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-11-06",
+     "item_id": "5810e8a770b0",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign",
+      "multi_source"
+     ],
+     "source": "日本経済新聞",
+     "title": "米ナスダック5%急落、NYダウ1800ドル安 AI株が総崩れ"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-11-06",
+     "item_id": "864852ccbc31",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign"
+     ],
+     "source": "みんかぶ FX/為替",
+     "title": "ダウ平均は急落 前日の急伸を完全に帳消し ナスダックも５％超急落 リスク回避が広がる＝米国株概況"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-11-06",
+     "item_id": "04c564f03f8f",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "foreign"
+     ],
+     "source": "株探",
+     "title": "ＮＹ各市場 １時台 ダウ平均は１２３８ドル安 ナスダックは５．１％の急落 シカゴ日経平均先物は６万円割れ"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-11-06",
+     "item_id": "3cde0c7ebdbf",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign"
+     ],
+     "source": "Infoseek",
+     "title": "米国株式市場＝ナスダック19カ月ぶり大幅安で調整入り、ＡＩ規制を懸念"
     }
    ],
    "first_seen": "2026-09-20",
    "milestones": {
     "media": "2026-09-23"
    },
-   "occurrences": 380,
+   "occurrences": 381,
    "signals": {}
   },
   "yen_strong": {
@@ -11593,7 +11674,7 @@
     "corporate": "2026-10-28",
     "media": "2026-09-20"
    },
-   "occurrences": 178,
+   "occurrences": 179,
    "signals": {}
   },
   "yen_weak": {
