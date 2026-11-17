@@ -767,7 +767,7 @@
     "media": "2026-09-20",
     "research": "2026-09-20"
    },
-   "occurrences": 415,
+   "occurrences": 416,
    "signals": {
     "multi_source": "2026-09-20"
    }
@@ -1602,7 +1602,7 @@
     "government_foreign": "2026-09-25",
     "media": "2026-10-16"
    },
-   "occurrences": 126
+   "occurrences": 127
   },
   "fusion": {
    "events": [
@@ -3071,6 +3071,24 @@
      ],
      "source": "財務省",
      "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年11月13日(金曜日))"
+    },
+    {
+     "actor_types": [
+      "government_jp",
+      "media"
+     ],
+     "date": "2026-11-17",
+     "item_id": "020290afe3b9",
+     "origin_region": "日本",
+     "regions": [
+      "日本"
+     ],
+     "signals": [
+      "gov_source",
+      "multi_source"
+     ],
+     "source": "金融庁",
+     "title": "記者会見,片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要（令和８年11月13日）について掲載しました。"
     }
    ],
    "first_seen": "2026-09-20",
@@ -3078,7 +3096,7 @@
     "government_jp": "2026-09-20",
     "media": "2026-09-20"
    },
-   "occurrences": 336,
+   "occurrences": 337,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
@@ -3818,7 +3836,7 @@
     "government_foreign": "2026-10-28",
     "media": "2026-10-28"
    },
-   "occurrences": 110
+   "occurrences": 111
   },
   "quantum": {
    "events": [
@@ -4964,6 +4982,18 @@
      ],
      "source": "みんかぶ FX/為替",
      "title": "ダウ、ナスダックとも大幅安 エヌビディア決算とアンソロピック上場への反応に警戒＝米国株概況 -"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-11-17",
+     "item_id": "8da39eaf9648",
+     "origin_region": null,
+     "regions": [],
+     "signals": [
+      "capex"
+     ],
+     "source": "BigGo ファイナンス",
+     "title": "AIインフラ熱狂にブレーキ SemiAnalysisが2028年設備投資予測を約3割下方修正、NVIDIAが最大の打撃"
     }
    ],
    "first_seen": "2026-09-20",
@@ -4974,7 +5004,7 @@
     "media": "2026-09-24",
     "research": "2026-10-10"
    },
-   "occurrences": 428,
+   "occurrences": 429,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -4992,11 +5022,45 @@
      ],
      "source": "ニュースメディアVOIX",
      "title": "デクセリアルズに補助金21億円、AI向け光半導体増産"
+    },
+    {
+     "actor_types": [
+      "government_foreign",
+      "media"
+     ],
+     "date": "2026-11-17",
+     "item_id": "bc7abc2360a5",
+     "origin_region": "米国",
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "multi_source"
+     ],
+     "source": "日本経済新聞",
+     "title": "米商務省、先端半導体の「迂回輸出」規制 NVIDIA疑惑に対応"
+    },
+    {
+     "actor_types": [
+      "government_foreign"
+     ],
+     "date": "2026-11-17",
+     "item_id": "d350804b298b",
+     "origin_region": "米国",
+     "regions": [
+      "米国"
+     ],
+     "signals": [],
+     "source": "朝日新聞",
+     "title": "先端半導体の「遠隔利用」を制限 米商務省が新たな輸出規則を発表"
     }
    ],
    "first_seen": "2026-11-13",
-   "milestones": {},
-   "occurrences": 7
+   "milestones": {
+    "government_foreign": "2026-11-17",
+    "media": "2026-11-17"
+   },
+   "occurrences": 8
   },
   "semi_regulation": {
    "events": [
@@ -5335,6 +5399,53 @@
      "signals": [],
      "source": "Yahoo!ニュース",
      "title": "米商務省、第三国経由のＡＩ半導体アクセス規制発表 対中制限強化の可能性（ロイター）"
+    },
+    {
+     "actor_types": [
+      "media"
+     ],
+     "date": "2026-11-17",
+     "item_id": "e9fa8e46f5d8",
+     "origin_region": null,
+     "regions": [
+      "中国"
+     ],
+     "signals": [
+      "multi_source"
+     ],
+     "source": "時事ドットコム",
+     "title": "米、ＡＩ半導体輸出規制を強化 中国の遠隔アクセス対策"
+    },
+    {
+     "actor_types": [
+      "government_foreign"
+     ],
+     "date": "2026-11-17",
+     "item_id": "81e1aeea1be2",
+     "origin_region": "米国",
+     "regions": [
+      "米国"
+     ],
+     "signals": [],
+     "source": "WSJ",
+     "title": "米商務省、半導体輸出の規制強化へ"
+    },
+    {
+     "actor_types": [
+      "government_foreign",
+      "media"
+     ],
+     "date": "2026-11-17",
+     "item_id": "bc7abc2360a5",
+     "origin_region": "米国",
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "multi_source"
+     ],
+     "source": "日本経済新聞",
+     "title": "米商務省、先端半導体の「迂回輸出」規制 NVIDIA疑惑に対応"
     }
    ],
    "first_seen": "2026-09-22",
@@ -5345,7 +5456,7 @@
     "media": "2026-10-08",
     "research": "2026-11-13"
    },
-   "occurrences": 191
+   "occurrences": 192
   },
   "shipbuilding_policy": {
    "events": [
@@ -7194,6 +7305,22 @@
      ],
      "source": "合同会社ロケットボーイズ",
      "title": "台湾外交部の領事サイトにサイバー攻撃、旅券写真7万2702点が流出 海外の委任状2万6072点も窃取"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-11-17",
+     "item_id": "cfd1ba6f3c93",
+     "origin_region": null,
+     "regions": [
+      "台湾",
+      "日本",
+      "韓国"
+     ],
+     "signals": [
+      "foreign"
+     ],
+     "source": "風傳媒",
+     "title": "ロシア軍機2機、日本領空を侵犯 韓国KADIZ・台湾ADIZにも進入 | 張曜麟（チヨウ・ヨウリン） | ニュース"
     }
    ],
    "first_seen": "2026-09-20",
@@ -7204,7 +7331,7 @@
     "media": "2026-09-26",
     "research": "2026-09-27"
    },
-   "occurrences": 338,
+   "occurrences": 339,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -10432,6 +10559,37 @@
      ],
      "source": "Reuters",
      "title": "ＥＵ外相、欧州安保巡るロシアとの協議「時期尚早」 停戦が先決"
+    },
+    {
+     "actor_types": [
+      "government_jp"
+     ],
+     "date": "2026-11-17",
+     "item_id": "148d0d35030f",
+     "origin_region": "日本",
+     "regions": [],
+     "signals": [
+      "foreign",
+      "gov_source"
+     ],
+     "source": "防衛省",
+     "title": "推定ロシア機による領空侵犯について"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-11-17",
+     "item_id": "cfd1ba6f3c93",
+     "origin_region": null,
+     "regions": [
+      "台湾",
+      "日本",
+      "韓国"
+     ],
+     "signals": [
+      "foreign"
+     ],
+     "source": "風傳媒",
+     "title": "ロシア軍機2機、日本領空を侵犯 韓国KADIZ・台湾ADIZにも進入 | 張曜麟（チヨウ・ヨウリン） | ニュース"
     }
    ],
    "first_seen": "2026-09-20",
@@ -10441,7 +10599,7 @@
     "international_org": "2026-09-24",
     "media": "2026-09-24"
    },
-   "occurrences": 381,
+   "occurrences": 382,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -13532,6 +13690,20 @@
      ],
      "source": "みんかぶ FX/為替",
      "title": "ダウ、ナスダックとも大幅安 エヌビディア決算とアンソロピック上場への反応に警戒＝米国株概況 -"
+    },
+    {
+     "actor_types": [],
+     "date": "2026-11-17",
+     "item_id": "7cb48f4b0054",
+     "origin_region": null,
+     "regions": [
+      "米国"
+     ],
+     "signals": [
+      "foreign"
+     ],
+     "source": "BigGo ファイナンス",
+     "title": "米国株のバリュエーションに警報！シラーPERが39倍超に急騰、156年間で6度目の警戒ライン到達"
     }
    ],
    "first_seen": "2026-09-20",
@@ -13539,7 +13711,7 @@
     "corporate": "2026-11-07",
     "media": "2026-09-23"
    },
-   "occurrences": 446,
+   "occurrences": 447,
    "signals": {}
   },
   "yen_strong": {
@@ -13704,7 +13876,7 @@
     "corporate": "2026-10-28",
     "media": "2026-09-20"
    },
-   "occurrences": 199,
+   "occurrences": 200,
    "signals": {}
   },
   "yen_weak": {
