@@ -65,7 +65,7 @@
     "government_foreign": "2026-11-19",
     "government_jp": "2026-10-23"
    },
-   "occurrences": 34,
+   "occurrences": 35,
    "signals": {}
   },
   "aviation_policy": {
@@ -1061,7 +1061,7 @@
     "government_jp": "2026-10-08",
     "media": "2026-10-09"
    },
-   "occurrences": 88
+   "occurrences": 89
   },
   "defense_budget": {
    "events": [
@@ -1652,6 +1652,20 @@
      ],
      "source": "野村證券",
      "title": "米ドル円が一時160円台に 米利上げ期待が再上昇、米ドル全面高は続くか 野村證券・後藤祐二朗"
+    },
+    {
+     "actor_types": [
+      "government_foreign"
+     ],
+     "date": "2026-11-20",
+     "item_id": "7207af039ff6",
+     "origin_region": "米国",
+     "regions": [
+      "米国"
+     ],
+     "signals": [],
+     "source": "外為どっとコム",
+     "title": "【今日のドル円】昨日の振り返りと今日のドル円相場見通し「リスクオフの円買い優勢も、FRB大幅利上げ観測が下値を支え」 2026年11月20日"
     }
    ],
    "first_seen": "2026-09-25",
@@ -1660,7 +1674,7 @@
     "government_foreign": "2026-09-25",
     "media": "2026-10-16"
    },
-   "occurrences": 137
+   "occurrences": 138
   },
   "fusion": {
    "events": [
@@ -3190,6 +3204,22 @@
      ],
      "source": "財務省",
      "title": "片山大臣とタイのエクニティ副首相兼財務大臣との面会（令和8年11月19日（木））"
+    },
+    {
+     "actor_types": [
+      "government_jp"
+     ],
+     "date": "2026-11-20",
+     "item_id": "84a11a17628d",
+     "origin_region": "日本",
+     "regions": [
+      "日本"
+     ],
+     "signals": [
+      "gov_source"
+     ],
+     "source": "金融庁",
+     "title": "記者会見,片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要（令和８年11月17日）について掲載しました。"
     }
    ],
    "first_seen": "2026-09-20",
@@ -3197,7 +3227,7 @@
     "government_jp": "2026-09-20",
     "media": "2026-09-20"
    },
-   "occurrences": 347,
+   "occurrences": 348,
    "signals": {
     "gov_policy": "2026-09-20",
     "gov_source": "2026-09-20",
@@ -3765,7 +3795,7 @@
     "government_foreign": "2026-11-19",
     "media": "2026-10-09"
    },
-   "occurrences": 74
+   "occurrences": 75
   },
   "oil_up": {
    "events": [
@@ -5208,7 +5238,7 @@
     "media": "2026-09-24",
     "research": "2026-10-10"
    },
-   "occurrences": 439,
+   "occurrences": 440,
    "signals": {
     "capex": "2026-09-20"
    }
@@ -5295,7 +5325,7 @@
     "government_foreign": "2026-11-17",
     "media": "2026-11-17"
    },
-   "occurrences": 18
+   "occurrences": 19
   },
   "semi_regulation": {
    "events": [
@@ -5740,6 +5770,23 @@
      "signals": [],
      "source": "Infoseek",
      "title": "米商務省、データセンターを通じた先端半導体への遠隔アクセスを規制（米国、中国）"
+    },
+    {
+     "actor_types": [
+      "corporate"
+     ],
+     "date": "2026-11-20",
+     "item_id": "fefa5d4e3083",
+     "origin_region": null,
+     "regions": [
+      "中国",
+      "米国"
+     ],
+     "signals": [
+      "corporate"
+     ],
+     "source": "BigGo ファイナンス",
+     "title": "米国の新半導体規制が発効、TSMCが中国AI顧客の16ナノ以下受注を一時停止"
     }
    ],
    "first_seen": "2026-09-22",
@@ -5750,7 +5797,7 @@
     "media": "2026-10-08",
     "research": "2026-11-13"
    },
-   "occurrences": 202
+   "occurrences": 203
   },
   "shipbuilding_policy": {
    "events": [
@@ -7615,6 +7662,22 @@
      ],
      "source": "風傳媒",
      "title": "ロシア軍機2機、日本領空を侵犯 韓国KADIZ・台湾ADIZにも進入 | 張曜麟（チヨウ・ヨウリン） | ニュース"
+    },
+    {
+     "actor_types": [
+      "government_jp"
+     ],
+     "date": "2026-11-20",
+     "item_id": "ca06a2386802",
+     "origin_region": "日本",
+     "regions": [
+      "台湾"
+     ],
+     "signals": [
+      "gov_source"
+     ],
+     "source": "財務省",
+     "title": "大韓民国並びに台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするビスフェノールＡに対して不当廉売関税を課することについての答申 （令和8年11月20日）"
     }
    ],
    "first_seen": "2026-09-20",
@@ -7625,7 +7688,7 @@
     "media": "2026-09-26",
     "research": "2026-09-27"
    },
-   "occurrences": 347,
+   "occurrences": 348,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -7842,6 +7905,55 @@
      ],
      "source": "財務省",
      "title": "関税・外国為替等審議会 関税分科会 特殊関税部会(令和8年10月19日)議事録"
+    },
+    {
+     "actor_types": [
+      "government_jp",
+      "media"
+     ],
+     "date": "2026-11-20",
+     "item_id": "53b63e3dbeed",
+     "origin_region": "日本",
+     "regions": [],
+     "signals": [
+      "gov_source",
+      "multi_source"
+     ],
+     "source": "財務省",
+     "title": "大韓民国及び中華人民共和国（香港地域及びマカオ地域を除く。）を原産地とする水酸化カリウムに対して不当廉売関税を課する期間を延長することについての答申 （令和8年11月20日）"
+    },
+    {
+     "actor_types": [
+      "government_jp"
+     ],
+     "date": "2026-11-20",
+     "item_id": "ca06a2386802",
+     "origin_region": "日本",
+     "regions": [
+      "台湾"
+     ],
+     "signals": [
+      "gov_source"
+     ],
+     "source": "財務省",
+     "title": "大韓民国並びに台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするビスフェノールＡに対して不当廉売関税を課することについての答申 （令和8年11月20日）"
+    },
+    {
+     "actor_types": [
+      "government_jp",
+      "media"
+     ],
+     "date": "2026-11-20",
+     "item_id": "c8a3cea324af",
+     "origin_region": "日本",
+     "regions": [],
+     "signals": [
+      "gov_policy",
+      "gov_source",
+      "multi_source"
+     ],
+     "source": "財務省",
+     "title": "関税・外国為替等審議会　関税分科会　特殊関税部会 （令和８年11月20日開催）配付資料"
     }
    ],
    "first_seen": "2026-09-24",
@@ -7849,7 +7961,7 @@
     "government_jp": "2026-09-24",
     "media": "2026-11-12"
    },
-   "occurrences": 143
+   "occurrences": 144
   },
   "ukraine_russia": {
    "events": [
@@ -10908,7 +11020,7 @@
     "international_org": "2026-09-24",
     "media": "2026-09-24"
    },
-   "occurrences": 392,
+   "occurrences": 393,
    "signals": {
     "foreign": "2026-09-20"
    }
@@ -14082,7 +14194,7 @@
     "corporate": "2026-11-07",
     "media": "2026-09-23"
    },
-   "occurrences": 457,
+   "occurrences": 458,
    "signals": {}
   },
   "yen_strong": {
@@ -14247,7 +14359,7 @@
     "corporate": "2026-10-28",
     "media": "2026-09-20"
    },
-   "occurrences": 205,
+   "occurrences": 206,
    "signals": {}
   },
   "yen_weak": {
@@ -14681,7 +14793,7 @@
     "government_foreign": "2026-09-21",
     "media": "2026-09-24"
    },
-   "occurrences": 307,
+   "occurrences": 308,
    "signals": {}
   }
  }
